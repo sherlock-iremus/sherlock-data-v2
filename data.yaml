@@ -1,0 +1,16 @@
+projects:
+  rar:
+    name: Référentiel de l'Ancien Régime
+    scripts:
+      - name: Référentiel des personnes (Directus —> Turtle)
+        links:
+          - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
+        script:
+          file: rdfizers/rar/personnes-directus_to_ttl.py
+          args:
+            ttl: out/ttl/rar/personnes.ttl
+            cache: caches/rar/personnes.yaml
+  mg:
+    name: Projet à la con
+    scripts:
+      - name: Script à la con
