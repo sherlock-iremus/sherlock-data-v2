@@ -10,7 +10,3 @@ projects:
           args:
             ttl: out/ttl/rar/personnes.ttl
             cache: caches/rar/personnes.yaml
-  mg:
-    name: Projet à la con
-    scripts:
-      - name: Script à la con
