@@ -3,7 +3,7 @@ projects:
     name: Référentiel de l'Ancien Régime
     scripts:
       personnes-directus2ttl:
-        name: Référentiel des personnes (Directus —> Turtle)
+        name: Référentiel des personnes (Directus —> Turtle RDF CIDOC-CRM)
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
         script:
@@ -11,17 +11,3 @@ projects:
           args:
             ttl: out/ttl/rar/personnes.ttl
             cache: caches/rar/personnes.yaml
-  mge:
-    name: Édition des estampes du Mercure Galant
-    scripts:
-      estampes:
-        name: Annotations sur les estampes (Excel -> Turtle)
-        deps:
-          - rar:personnes-directus2ttl
-  test:
-    name: Édition des estampes du Mercure Galant
-    scripts:
-      estampes:
-        name: Annotations sur les images (Excel -> Turtle)
-        deps:
-          - rar:personnes-directus2ttl

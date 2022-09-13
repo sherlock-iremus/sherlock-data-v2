@@ -82,7 +82,7 @@ curses.wrapper(main)
 if state == "go":
     for script in scripts_data:
         print("#" * 80)
-        print("# " + script["project_name"])
+        print("### " + script["project_name"])
         print("#" * 80)
         if script["checked"]:
             args = []
@@ -91,4 +91,8 @@ if state == "go":
                     for arg_k, arg_v in script["script"]["args"].items():
                         args.append("--"+arg_k)
                         args.append(arg_v)
-                subprocess.run([sys.executable, script["script"]["file"], *args])
+                subprocess.run([
+                    sys.executable if script["script"]["file"][-3:] == ".py" else "sh",
+                    script["script"]["file"],
+                    *args
+                ])
