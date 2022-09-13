@@ -1,13 +1,21 @@
 projects:
+  mg:
+    name: Édition du Mercure Galant
+    tasks:
+      tei2rdf:
+        name: TEI -> CIDOC-CRM Turtle
+        steps:
+          - git: ../in/mercure-galant-sources-github
+            branch: gh-pages
   rar:
     name: Référentiel de l'Ancien Régime
-    scripts:
-      personnes-directus2ttl:
-        name: Référentiel des personnes (Directus —> Turtle RDF CIDOC-CRM)
+    tasks:
+      personnes-directus2rdf:
+        name: Référentiel des personnes (Directus —> CIDOC-CRM Turtle)
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
-        script:
-          file: rdfizers/rar/personnes-directus_to_ttl.py
-          args:
-            ttl: out/ttl/rar/personnes.ttl
-            cache: caches/rar/personnes.yaml
+        steps:
+          - script: rdfizers/rar/personnes-directus_to_ttl.py
+            args:
+              ttl: out/ttl/rar/personnes.ttl
+              cache: caches/rar/personnes.yaml

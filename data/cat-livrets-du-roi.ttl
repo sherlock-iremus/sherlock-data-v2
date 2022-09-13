@@ -1,0 +1,59 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<40ea0e52-3d8f-4407-8caa-024e46a06aac>
+    a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Types du catalogue des livrets du roi"@fr ;
+    crm:P71_lists <074edf95-c72f-45a0-80c9-d9140b5bd7cd>,
+    <f1d79248-5147-4b6a-ac4f-6fc727a2c16a>,
+    <7dfb4b03-b284-48bb-8958-786388c0c489>,
+    <df01a210-394a-47b1-b7a4-74c700f7f675>,
+    <0f475362-c20e-4172-8d96-a55855b15ac6> 
+    <fc375ac0-dbda-4a02-9644-b3e5e020b30d>,
+    <7432ae29-7f76-4b3e-83eb-c548b874a480>;
+.
+
+<7dfb4b03-b284-48bb-8958-786388c0c489>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Livret"
+.
+
+<074edf95-c72f-45a0-80c9-d9140b5bd7cd>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Groupe de parties"
+.
+
+<f1d79248-5147-4b6a-ac4f-6fc727a2c16a>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Pages"
+.
+
+<df01a210-394a-47b1-b7a4-74c700f7f675>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Remarques sur l'édition"
+.
+
+<0f475362-c20e-4172-8d96-a55855b15ac6>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Description matérielle"
+.
+
+<fc375ac0-dbda-4a02-9644-b3e5e020b30d>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Description de la reliure"
+.
+
+<7432ae29-7f76-4b3e-83eb-c548b874a480>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Remarques sur les exemplaires"
+.

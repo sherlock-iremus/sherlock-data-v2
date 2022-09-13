@@ -1,0 +1,170 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<672c0b4e-e39f-414b-acb8-3cd313570e6e>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Code UMR" ;
+    .
+
+# le CNRS
+<7b38dab1-3f9f-431b-83e5-4bc98ccfd497>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Centre national de recherche scientifique" ;
+    crm:P107_has_current_or_former_member <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
+    .
+
+# l'IReMus
+<48a8e9ad-4264-4b0b-a76d-953bc9a34498>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by "Institut de Recherche en Musicologie" ;
+    crm:P1_is_identified_by [
+        a crm:E42_Identifier ;
+        crm:P2_has_type <672c0b4e-e39f-414b-acb8-3cd313570e6e> ;
+        rdfs:label "8823"^^xsd:integer
+    ] ;
+    crm:P107_has_current_or_former_member <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+    crm:P107_has_current_or_former_member <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
+    .
+
+
+# l'équipe SHERLOCK
+<eae1dc18-15eb-42e9-968a-ccf8d0e13419>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by "Projet SHERLOCK" ;
+    crm:P107_has_current_or_former_member <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
+    crm:P107_has_current_or_former_member <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
+ .
+
+# le projet SHERLOCK
+<8605b3e7-46d7-4eda-a07b-d935220b8529>
+    a crm:E65_Creation ;
+    crm:P94_has_created <5af07d03-08d2-45f7-9729-b956d05d4e22> ;
+    crm:P14_carried_out_by <eae1dc18-15eb-42e9-968a-ccf8d0e13419> ;
+.
+
+# le site web SHERLOCK
+<5af07d03-08d2-45f7-9729-b956d05d4e22>
+    a crm:D1_Digital_Object ;
+.
+
+
+# Christophe
+<fccdf69c-4d6b-482e-869c-785551482dc2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by "Christophe Guillotel-Nothmann" ;
+    .
+
+# Thomas
+<efc50e78-f849-4f2f-9ac1-d384f2fa9843>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Thomas" ;
+        crmdig:L52_has_last_name "Bottini"
+    ] ;
+    .
+
+# Rebecca
+<635f1b1b-322e-4958-88e6-45d1efaed0db>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Rebecca" ;
+        crmdig:L52_has_last_name "Bristow"
+    ] ;
+    .
+
+# Virginie
+<bfe4a11f-6940-4c30-83fa-b0156aceb539>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Virginie" ;
+        crmdig:L52_has_last_name "Julliard"
+    ] ;
+    .
+
+# Augustin Braud
+<60324ad9-35a3-489f-a203-5aecc435f7aa>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Augustin" ;
+        crmdig:L52_has_last_name "Braud"
+    ] ;
+    .
+
+# l'équipe Mercure Galant
+<684b4c1a-be76-474c-810e-0f5984b47921>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Equipe Mercure Galant" ;
+    .
+
+# Anne Piéjus
+<ea287800-4345-4649-af12-7253aa185f3f>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Anne" ;
+        crmdig:L52_has_last_name "Piéjus"
+    ] ;
+    .
+
+# Nathalie Berton-Blivet
+<899e29f6-43d7-4a98-8c39-229bb20d23b2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Nathalie" ;
+        crmdig:L52_has_last_name "Berton-Blivet"
+    ] ;
+    .
+
+# Nicolas Dufétel
+<7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Nicolas" ;
+        crmdig:L52_has_last_name "Dufétel"
+    ] ;
+    .
+
+# L'OBVIL
+<417fb659-4bf6-447f-8145-9ac22f511054>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "OBVIL" ;
+    .
+
+# l'équipe Euterpe
+<846ef057-41d5-48e1-bd7f-2299b2faaf00>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Equipe Euterpe" ;
+    .
+
+# Félix Poullet-Pagès
+<9eb090c2-1ae9-4eeb-82e9-6735ebd8fefd>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Félix" ;
+        crmdig:L52_has_last_name "Poullet-Pagès"
+    ] ;
+    .
+
+# Laurence Decobert
+<710d0c6e-48ed-47b6-b209-00520636d7be>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Laurence" ;
+        crmdig:L52_has_last_name "Decobert"
+    ] ;
+    .

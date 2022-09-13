@@ -1,0 +1,118 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Types d'annotations
+
+<169ab089-c0a8-43ab-aec4-5a1a6e1b52c1>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Type de dissonance"@fr ;
+  .
+<003559fc-f033-4fc3-9c05-0d5f283123ed>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identification de fondamentale"@fr ;
+  .
+
+# Types de dissonances
+
+<b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by: "Types de dissonances" ;
+  crm:P71_lists <c9289aed-0ee9-43fa-bb67-699b9346d122> ;
+  crm:P71_lists <14e52704-1322-4338-92a5-2b866c856d1f> ;
+  crm:P71_lists <905674f2-40ed-4bf0-8d13-df113ed84513> ;
+  crm:P71_lists <791d8d87-9eb0-43f5-ae34-3f2da8ea40cb> ;
+  crm:P71_lists <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
+  crm:P71_lists <184b74d9-3452-42f1-963b-40d820021dfc> ;
+  .
+<d161f8dc-f149-4c75-9efb-15e438f1041c>
+  a crm:E65_Creation ;
+  crm:P94:has_created <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+  crm:P14_carried_out_by <fccdf69c-4d6b-482e-869c-785551482dc2> ;
+  .
+<c9289aed-0ee9-43fa-bb67-699b9346d122>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Passing note"@en ;
+  crm:P1_is_identified_by "Note de passage"@fr ;
+  .
+<184b74d9-3452-42f1-963b-40d820021dfc>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Consonant note"@en ;
+  .
+<14e52704-1322-4338-92a5-2b866c856d1f>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Neighbor note"@en ;
+  crm:P1_is_identified_by "Broderie"@fr ;
+  .
+<905674f2-40ed-4bf0-8d13-df113ed84513>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Anticipation"@en ;
+  crm:P1_is_identified_by "Anticipation"@fr ;
+  .
+<791d8d87-9eb0-43f5-ae34-3f2da8ea40cb>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Suspension"@en ;
+  crm:P1_is_identified_by "Retard"@fr ;
+  .
+<0bbe0556-1ac9-4ef8-b449-23e834dcc2b2>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Escape note"@en ;
+  crm:P1_is_identified_by "Échappée"@fr ;
+  .
+
+<e678d98d-5d13-492b-99f1-ce6bb3d76c10>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "C" ;
+  .
+<2f322b61-a201-43d8-aa18-7588dcdccecd>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "C♯" ;
+  .
+<a7128ac5-489b-43be-a1a0-c299681fb041>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "D" ;
+  .
+<7da8c5a3-b277-47cd-9434-c2518139c7c1>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "E♭" ;
+  .
+<16d52581-f121-453c-9e9f-3f193a116854>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "E" ;
+  .
+<09b8aff7-1ff1-4f08-9232-6b59d842459b>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "F" ;
+  .
+<7576b9e1-d018-4c30-85e2-e641025bc479>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "F♯" ;
+  .
+<bc79f8e7-c5ba-47d9-8df0-484fa2c8d2cb>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "G" ;
+  .
+<4a14582b-2457-42ac-b619-ad5d40c66fa3>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "G♯" ;
+  .
+<6052e2c5-3035-46c9-8406-606c160c12db>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "A" ;
+  .
+<dec44fce-de17-446c-ba68-b9c998d3f488>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "B♭" ;
+  .
+<74df0ba4-cd98-47dd-979f-a77adbf8031b>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "B" ;
+  .
+
