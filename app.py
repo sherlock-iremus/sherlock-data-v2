@@ -10,7 +10,8 @@ file.close()
 
 scripts_data = []
 for project_key, project_data in data["projects"].items():
-    for script_data in project_data["scripts"] or []:
+    for script_key, script_data in project_data["scripts"].items():
+        script_data["id"] = project_key + ":" + script_key
         script_data["project_name"] = project_data["name"]
         script_data["checked"] = False
         scripts_data.append(script_data)
@@ -18,18 +19,27 @@ for project_key, project_data in data["projects"].items():
 stdscr = curses.initscr()
 curses.noecho()
 stdscr.keypad(True)
+curses.start_color()
+NOT_FOCUSED_NOT_CHECKED = 1
+FOCUSED_NOT_CHECKED = 2
+NOT_FOCUSED_CHECKED = 3
+FOCUSED_CHECKED = 4
+curses.init_pair(NOT_FOCUSED_NOT_CHECKED, curses.COLOR_WHITE, curses.COLOR_BLACK)
+curses.init_pair(FOCUSED_NOT_CHECKED, curses.COLOR_MAGENTA, curses.COLOR_BLACK)
+curses.init_pair(NOT_FOCUSED_CHECKED, curses.COLOR_BLACK, curses.COLOR_WHITE)
+curses.init_pair(FOCUSED_CHECKED, curses.COLOR_BLACK, curses.COLOR_MAGENTA)
 
 
 def print_menu(focused):
     i = 0
     for script_data in scripts_data:
-        color = curses.color_pair(8)
         if i == focused:
-            color = curses.color_pair(0)
-        if scripts_data[i]["checked"] == True:
-            color = curses.color_pair(16)
-        stdscr.addstr(i, 0, str(i).ljust(4) + script_data["name"], color)
+            color = FOCUSED_CHECKED if scripts_data[i]["checked"] else FOCUSED_NOT_CHECKED
+        else:
+            color = NOT_FOCUSED_CHECKED if scripts_data[i]["checked"] else NOT_FOCUSED_NOT_CHECKED
+        stdscr.addstr(i, 0, str(i).ljust(4) + script_data["name"], curses.color_pair(color))
         i += 1
+
     stdscr.addstr("\n")
     stdscr.refresh()
 
