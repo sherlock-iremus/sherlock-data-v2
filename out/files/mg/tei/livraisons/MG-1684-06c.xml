@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1684-06c">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, Relation historique de tout ce qui a été fait devant Génes par
+          l’Armée Navale de sa Majesté, juin 1684 (troisième partie) [tome 8].</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL/IReMuS</edition>
+        <respStmt>
+          <name>Nathalie Berton-Blivet</name>
+          <resp>Responsable éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name>Anne Piéjus</name>
+          <resp>Responsable éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1684-06c</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019
+              Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la
+              vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas
+            souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant, Relation historique de tout ce qui a été fait devant Génes par
+            l’Armée Navale de sa Majesté</title>, <date>juin 1684</date> (troisième partie) [tome
+          8].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1684-06"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Mercure galant, Relation historique de tout ce qui a été fait devant Génes
+          par l’Armée Navale de sa Majesté</hi>, juin 1684 (troisième partie) [tome 8].</head>
+      <div type="article" xml:id="MG-1684-06c_256" resp="louise">
+        <head>[Vue légendée de la ville de Gênes avec la disposition de la flotte française]*</head>
+        <bibl><title>Mercure galant</title>, juin 1684 (troisième partie) [tome 8], p.
+          256-258.</bibl>
+        <note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : Le
+          Profil de Génes, avec la disposition de l’Armée Navale, doit regarder la page 257.</note>
+        <p>Apres vous avoir fait voir ce qu’on a soufert de part &amp; d’autre, il faut étaler à vos
+          yeux la superbe Ville, qui par un aveuglement qu’on ne comprend pas, &amp; une fierté trop
+          opiniâtre, dont il semble que le Ciel s’est crû obligé de la punir, n’a pas voulu éviter
+          sa peine. Je vous l’envoye gravée, avec ses Fauxbourgs, &amp; toutes les Maisons qui sont
+          sur la Coste. Toute l’Armée Navale du Roy est devant la mesme Ville, dans le mesme ordre
+          qu’elle estoit quand on a jetté les Bombes. Ceux qui ont esté présens à l’Expédition, vous
+          assureront qu’il n’y manque pas le moindre petit Bastiment. Je ne vous ay point encore
+          envoyé de Planche si belle, si juste &amp; si curieuse.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

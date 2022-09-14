@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1720-04">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, avril 1720 [tome 4].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>avril 1720</date> [tome 4].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1720-04"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, avril 1720 [tome 4].</head>
+                  
+      <div type="article" xml:id="MG-1720-04_186">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, avril 1720 [tome 4], p.186-187.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Amis, que ma joye est extrême,</hi></l>
+            <l><hi rend="i">Buvons, &amp; réjoüissons nous !</hi></l>
+            <l><hi rend="i">Chere bouteille, que je t'aime,</hi></l>
+            <l><hi rend="i">Et que ton jus me paroît doux !</hi></l>
+            <l><hi rend="i">Déja je suis hors de moi même,</hi></l>
+            <l><hi rend="i">Quand j'entends tes petits gloux, gloux.</hi></l>
+            </lg> 
+          <lg>
+            <l><hi rend="i">Qu'un Mysantrope à sa tristesse</hi></l>
+            <l><hi rend="i">Prenne plaisir à se livrer ;</hi></l>
+            <l><hi rend="i">Qu'un autre aux pieds de sa Maîtresse</hi></l>
+            <l><hi rend="i">Vienne languir &amp; soupirer :</hi></l>
+            <l><hi rend="i">Pour moi bûvant, riant sans cesse,</hi></l>
+            <l><hi rend="i">Mon plaisir est de m'enyvrer.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Suivez cette douce manie,</hi></l>
+            <l><hi rend="i">Chers Compagnons, excités-vous.</hi></l>
+            <l><hi rend="i">Boire, &amp; profiter de la vie,</hi></l>
+            <l><hi rend="i">Voilà mon plaisir le plus doux ;</hi></l>
+            <l><hi rend="i">O quelle agréable folie !</hi></l>
+            <l><hi rend="i">Allons, amis, enyvrons-nous.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Qu'on nous apporte une bouteille,</hi></l>
+            <l><hi rend="i">Vite du vin, Laquais, du vin.</hi></l>
+            <l><hi rend="i">Honneur au seul Dieu de la treille,</hi></l> 
+            <l><hi rend="i">Qu'il soit l'entretien du festin.</hi></l>
+            <l><hi rend="i">Que chacun d'une ardeur pareille,</hi></l>
+            <l><hi rend="i">Chante &amp; boive jusqu'à demain.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Amis, quelle liqueur aimable !</hi></l>
+            <l><hi rend="i">Peut on nous en verser assés !</hi></l>
+            <l><hi rend="i">Notre soif est insatiable,</hi></l>
+            <l><hi rend="i">Versés tout plein, Laquais, versés</hi></l>
+            <l><hi rend="i">Jusqu'à ce que sous cette table</hi></l>
+            <l><hi rend="i">Vous nous voyés tous renversés.</hi></l>
+          </lg>
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>

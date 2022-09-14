@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1716-04">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, avril 1716 [tome 4].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>avril 1716</date> [tome 4].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1716-04"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, avril 1716 [tome 4].</head>
+                <div type="article" xml:id="MG-1716-04_262">
+                    <head>[Chanson]</head>
+                  <bibl><title>Nouveau Mercure galant</title>, avril 1716 [tome 4], p. 262-263.</bibl>
+                  <p>Voicy un article d'émulation pour vous, Mademoiselle ; c'est une Chanson, dont l'air &amp; les paroles sont de la composition d'une jeune Demoiselle qui a beaucoup de merite, d'esprit, &amp; un goût singulier pour la musique.</p>
+                    <quote>
+                      <label>PRINTEMS.</label><note resp="author" place="margin">L’Air doit regarder la p. 262.</note>
+                        <lg>
+                          <l><hi rend="i">Regnez charmant Printems, ranimez la nature</hi></l>
+                          <l><hi rend="i">Ramenez les plaisirs, les amours &amp; les jeux,</hi></l>
+                          <l><hi rend="i">Faites briller les fleurs &amp; la verdure,</hi></l>
+                          <l><hi rend="i">Redoublez les concerts des oyseaux amoureux ;</hi></l>
+                          <l><hi rend="i">Et vous jeune Zephir, fidele Amant de Flore,</hi></l>
+                          <l><hi rend="i">Venez du tendre amour suivre les douces Loix,</hi></l>
+                          <l><hi rend="i">Hâtez-vous d'embellir nos Jardins &amp; nos Bois,</hi></l>
+                          <l><hi rend="i">Mais n'y revenez point sans l'objet que j'adore.</hi></l>
+                        </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

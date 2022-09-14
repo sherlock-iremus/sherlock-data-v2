@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1718-01">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, janvier 1718 [tome 1].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>janvier 1718</date> [tome 1].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1718-01"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, janvier 1718 [tome 1].</head>
+                  
+      <div type="article" xml:id="MG-1718-01_181">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, janvier 1718 [tome 1], p.181.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">De Cipris, Amis, fuyons l'Empire :</hi></l>
+            <l><hi rend="i">À Bacchus soûmis,</hi></l>
+            <l><hi rend="i">Fuyons<note resp="editor" place="margin">« Suivons » dans la source musicale.</note> les Jeux &amp; les ris. </hi></l>
+            <l><hi rend="i">Jus exquis, c'est par toi qu'on respire :</hi></l>
+            <l><hi rend="i">Ton coloris, sur celui des Rubis</hi></l>
+            <l><hi rend="i">Emporte le prix.</hi></l>
+            <l><hi rend="i">Un cœur épris d'une ingrate Cloris,</hi></l>
+            <l><hi rend="i">Et les jours, &amp; les nuits, soûpire.</hi></l>
+            <l><hi rend="i">Tous les soucis de nos cœurs sont bannis,</hi></l>
+            <l><hi rend="i">Amis, quand on est gris.</hi></l>
+            </lg> 
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>

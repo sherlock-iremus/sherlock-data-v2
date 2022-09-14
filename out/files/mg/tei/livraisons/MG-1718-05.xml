@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1718-05">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, mai 1718 [tome 5].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>mai 1718</date> [tome 5].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1718-05"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, mai 1718 [tome 5].</head>
+                  
+      <div type="article" xml:id="MG-1718-05_176">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, mai 1718 [tome 5], p. 176-177.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Non, je n'irai plus, disoit Lisette,</hi></l>
+            <l><hi rend="i">Avec le beau Mirtil sous l'Ormeau,</hi></l>
+            <l><hi rend="i">Loin du Hameau</hi></l>
+            <l><hi rend="i">Ecouter seulette</hi></l>
+            <l><hi rend="i">La plainte indiscrette</hi></l>
+            <l><hi rend="i">De son Chalumeau.</hi></l>
+            <l><hi rend="i">Je crains trop de m'y laisser surprendre :</hi></l>
+            <l><hi rend="i">Souvent un air tendre</hi></l>
+            <l><hi rend="i">Nous en fait entendre</hi></l>
+            <l><hi rend="i">Bien plus qu'il n'en faut ;</hi></l>
+            <l><hi rend="i">L'Amour s'en mêle,</hi></l>
+            <l><hi rend="i">Et prend le défaut.</hi></l> 
+           </lg> 
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>

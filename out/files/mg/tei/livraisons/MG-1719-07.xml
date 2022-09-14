@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1719-07">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, juillet 1719 [tome 7].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>juillet 1719</date> [tome 7].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1719-07"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, juillet 1719 [tome 7].</head>
+      <div type="article" xml:id="MG-1719-07_157">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, juillet 1719 [tome 7], p.157-158.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Amour, de tristes feux je me sens enflammé :</hi></l>
+            <l><hi rend="i">À tes Autels je porte un cœur sincere,</hi></l>
+            <l><hi rend="i">Mais, si bientôt je ne me vois aimé ;</hi></l>
+            <l><hi rend="i">Bachus me vangera du Tyran de Cithere</hi></l>
+            <l><hi rend="i">Du vin, ou sur Cloris donne-moi la victoire !</hi></l>
+            <l><hi rend="i">Vite, choisis, amour,</hi></l>
+            <l><hi rend="i">Les momens sont sans prix, pour aimer ou pour boire. </hi></l>
+          </lg> 
+        </quote>
+      </div>
+      <div type="article" xml:id="MG-1719-07_158">
+        <head>Vaudeville.</head>
+        <bibl><title>Nouveau Mercure</title>, juillet 1719 [tome 7], p.158-159.</bibl>
+        <p><hi rend="i">Tiré de la rupture du <hi rend="i">Carnaval &amp; de la Folie</hi>, petite Comedie en un Acte.</hi></p>
+        <quote>
+          <label>VAUDEVILLE.</label>
+          <lg>
+            <l><hi rend="i">Victime de l'Usage,</hi></l>
+            <l><hi rend="i">Dupe d'un Medecin</hi></l>
+            <l><hi rend="i">Que le Sené saccage,</hi></l>
+            <l><hi rend="i">Et qui fuyés le bon vin :</hi></l>
+            <l><hi rend="i">Vous croyés être sage ;</hi></l>
+            <l><hi rend="i">Ah, le plaisant personnage !</hi></l>
+            <l><hi rend="i">Le maître fou que voila !</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Vous qui d'un heritage,</hi></l>
+            <l><hi rend="i">Que la plume à la main</hi></l>
+            <l><hi rend="i">Un Procureur fourage,</hi></l>
+            <l><hi rend="i">Chicanés bien le terrain :</hi></l>
+            <l><hi rend="i">Vous croyés, &amp;c.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Vous, qui dans l'esclavage</hi></l>
+            <l><hi rend="i">Tenés vôtre moitié,</hi></l>
+            <l><hi rend="i">Mari triste &amp; sauvage,</hi></l>
+            <l><hi rend="i">Vôtre soin me fait pitié :</hi></l>
+            <l><hi rend="i">Vous croyés, &amp;c.
+            </hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Toi, qui mets en menage</hi></l>
+            <l><hi rend="i">Quelque jeune beauté ;</hi></l>
+            <l><hi rend="i">D'hymen dans son image</hi></l>
+            <l><hi rend="i">Tu vois la fidelité :</hi></l>
+            <l><hi rend="i">Tu crois donc être, &amp;c.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Vous, pour qui tout ouvrage</hi></l>
+            <l><hi rend="i">Ne vaut pas un denier,</hi></l>
+            <l><hi rend="i">Et qui faites tapage,</hi></l>
+            <l><hi rend="i">Satirique Chaudronier :</hi></l>
+            <l><hi rend="i">Vous croyés, &amp;c.</hi></l>
+          </lg>
+        </quote>
+      </div>   
+            </body>
+  </text>
+</TEI>

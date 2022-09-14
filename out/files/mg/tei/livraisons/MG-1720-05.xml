@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1720-05">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, mai 1720 [tome 5].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>mai 1720</date> [tome 5].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1720-05"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, mai 1720 [tome 5].</head>
+      <div type="article" xml:id="MG-1720-05_138">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, mai 1720 [tome 5], p.138-140.</bibl>
+        <quote>
+          <label>CHANSON PASTORALE.</label>
+          <label>Par M. de la T*** </label>
+          <lg>
+            <l><hi rend="i">Votre toutou vous flate,</hi></l>
+            <l><hi rend="i">Et vous le caressez :</hi></l>
+            <l><hi rend="i">Il vous donne la patte,</hi></l>
+            <l><hi rend="i">Et vous la recevez ;</hi></l>
+            <l><hi rend="i">Ingratte,</hi></l>
+            <l><hi rend="i">Vous donnez tout à votre chien,</hi></l>
+            <l><hi rend="i">Et le Berger n'a jamais rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Helas ! avec la mienne</hi></l>
+            <l><hi rend="i">J'ay beau serrer ta main ;</hi></l>
+            <l><hi rend="i">Tu retires la tienne</hi></l>
+            <l><hi rend="i">Avec un fier dedain ;</hi></l>
+            <l><hi rend="i">Climene,</hi></l>
+            <l><hi rend="i">Vous donnez tout à votre chien,</hi></l>
+            <l><hi rend="i">Et le Berger n'a jamais rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Votre chien est fidele ;</hi></l>
+            <l><hi rend="i">Mais l'est-il plus que moy ?</hi></l>
+            <l><hi rend="i">Il n'est que le modele</hi></l>
+            <l><hi rend="i">De ma constante foy ;</hi></l>
+            <l><hi rend="i">Cruelle,</hi></l>
+            <l><hi rend="i">Vous donnez tout à votre chien,</hi></l>
+            <l><hi rend="i">Et le Berger n'a jamais rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Sur le troupeau timide</hi></l>
+            <l><hi rend="i">Il veille avec ardeur,</hi></l>
+            <l><hi rend="i">Mais c'est moy qui le guide,</hi></l>
+            <l><hi rend="i">Et qui suis le pasteur ;</hi></l>
+            <l><hi rend="i">Perfide,</hi></l>
+            <l><hi rend="i">Vous donnez tout à votre chien,</hi></l>
+            <l><hi rend="i">Et le Berger n'a jamais rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Par ton humeur rebelle,</hi></l>
+            <l><hi rend="i">Tu luy ressembles fort,</hi></l>
+            <l><hi rend="i">Tu fuis quand je t'appelle ;</hi></l>
+            <l><hi rend="i">Je le flatte, il me mord ;</hi></l>
+            <l><hi rend="i">Cruelle,</hi></l>
+            <l><hi rend="i">Vous donnez tout à votre chien,</hi></l>
+            <l><hi rend="i">Et le Berger n'a jamais rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Mille noms tu luy donne ;</hi></l>
+            <l><hi rend="i">C'est Poulet, c'est Medor ;</hi></l>
+            <l><hi rend="i">Et moy, quand je raisonne,</hi></l>
+            <l><hi rend="i">Je ne suis qu'un butor ;</hi></l>
+            <l><hi rend="i">Friponne,</hi></l>
+            <l><hi rend="i">Vous donnez tout à votre chien,</hi></l>
+            <l><hi rend="i">Et le Berger n'a jamais rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Il va querir, rapporte</hi></l>
+            <l><hi rend="i">Ton étuy, ton fuseau ;</hi></l>
+            <l><hi rend="i">Et moy, je te reporte</hi></l>
+            <l><hi rend="i">Ce qu'on dit au Hameau ;</hi></l>
+            <l><hi rend="i">Qu'importe ?</hi></l>
+            <l><hi rend="i">Non tu ne songes qu'à ton chien,</hi></l>
+            <l><hi rend="i">Ce que je fais pour toy, n'est rien.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">J'aimerois bien mieux estre</hi></l>
+            <l><hi rend="i">Le chien que le Berger,</hi></l>
+            <l><hi rend="i">Il est par tout le maître,</hi></l>
+            <l><hi rend="i">Je ne suis qu'étranger ;</hi></l>
+            <l><hi rend="i">Le traître,</hi></l>
+            <l><hi rend="i">Faut-il qu'il ravisse mon bien ?</hi></l>
+            <l><hi rend="i">C'est ton toutou, je ne suis rien.</hi></l>
+          </lg> 
+        </quote>
+      </div>
+         
+            </body>
+  </text>
+</TEI>

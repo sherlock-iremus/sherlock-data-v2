@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1717-01">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, janvier 1717 [tome 1].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>janvier 1717</date> [tome 1].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1717-01"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, janvier 1717 [tome 1].</head>
+                <div type="article" xml:id="MG-1717-01_218">
+                    <head>Chanson</head>
+                  <bibl><title>Nouveau Mercure</title>, janvier 1717 [tome 1], p. 218-222.</bibl>
+                  <p>Si j'avois voulu croire certains Sçavans bourus, j'aurois retranché la Chanson, &amp; l'Enigme, comme pieces hors d'œuvre ; je n'ai eu garde d'écouter d'aussi mauvais conseils. Ce seroit un attentat impardonnable contre le droit public. Eh ! de quelle consideration seroit un Mercure privé de ces deux lumieres, qui en sont comme les yeux. Qui ne sçait, que par la Chanson on exerce la voix, &amp; par l'Enigme on accoûtume l'esprit à penser, reflechir, &amp; juger. Souvent un petit Air chanté de goût par une aimable <hi rend="i">Iris</hi>, peut être l'occasion de la plus belle aventure du monde ; souvent sa voix achéve, ce que ses charmes n'avoient qu'efleurés ; si aprés cela elle est encore assez heureuse de deviner l'Enigme, ne peut-elle pas devenir Marquise ! À qui en auroit-elle obligation ? si ce n'est à ma Chanson ? Je conclus donc de ce fin raisonnement, qu'il est necessaire pour l'établissement de celles qui sçavent la Musique, que je décore mon Livre de ce qui peut leur tenir lieu de dot. À ce dessein je leur ai fait choix des plus jolies paroles, du plus joly Air... Il suffit que M. de Rochebrune soit Auteur des Couplets, &amp; M. de Beaupré de la Musique.</p>
+                  <quote>
+                      <label><hi rend="i">CHANSON</hi>.</label>
+                        <lg>
+                          <l><hi rend="i">Par les yeux d'Anette</hi></l>
+                          <l><hi rend="i">L'amour m'a blessé,</hi></l>
+                          <l><hi rend="i">Elle est trop jeunette ;</hi></l>
+                          <l><hi rend="i">Mais je suis forcé</hi></l>
+                          <l><hi rend="i">D'adorer la follette ;</hi></l>
+                          <l><hi rend="i">Devroit-on charmer,</hi></l>
+                          <l><hi rend="i">Avant l'âge d'aimer.</hi></l>
+                        </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                      <l><hi rend="i">La Rose nouvelle</hi></l>
+                      <l><hi rend="i">Offre moins d'appas</hi></l>
+                      <l><hi rend="i">Anette est plus belle</hi></l>
+                      <l><hi rend="i">Mais elle est, helas !</hi></l>
+                      <l><hi rend="i">Insensible comme elle :</hi></l>
+                      <l><hi rend="i">Devroit-on, &amp;c.</hi></l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                      <l><hi rend="i">Lorsqu'autour d'Anette,</hi></l>
+                      <l><hi rend="i">Volent mille Amours,</hi></l>
+                      <l><hi rend="i">Dans sa main adroite</hi></l>
+                      <l><hi rend="i">Son fuseau toûjours</hi></l>
+                      <l><hi rend="i">File sa quenoüillette ;</hi></l>
+                      <l><hi rend="i">Devroit-on, &amp;c.</hi></l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                      <l><hi rend="i">Quand sur ma Musette ;</hi></l>
+                      <l><hi rend="i">Je forme des chants,</hi></l>
+                      <l><hi rend="i">Mon ardeur secrette</hi></l>
+                      <l><hi rend="i">Les rend plus touchans</hi></l>
+                      <l><hi rend="i">Sans attendrir Annette :</hi></l>
+                      <l><hi rend="i">Devroit-on, &amp;c.</hi></l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                      <l><hi rend="i">Il me faut attendre</hi></l>
+                      <l><hi rend="i">Un Printems au moins,</hi></l>
+                      <l><hi rend="i">Avant de prétendre</hi></l>
+                      <l><hi rend="i">Le prix de mes soins ;</hi></l>
+                      <l><hi rend="i">Quel sort pour un cœur tendre !</hi></l>
+                      <l><hi rend="i">Devroit-on, &amp;c.</hi></l>
+                    </lg>
+                  </quote>
+                  </div>  
+          
+            </body>
+  </text>
+</TEI>

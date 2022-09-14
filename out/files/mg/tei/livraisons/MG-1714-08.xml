@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1714-08">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure Galant, août 1714 [tome 4].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>août 1714</date> [tome 4].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1714-08"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, août 1714 [tome 4].</head>
+                <div type="article" xml:id="MG-1714-08_221">
+                    <head>[Chanson]</head>
+                    <bibl><title>Nouveau Mercure galant</title>, août 1714 [tome 4], p. 221-225.</bibl>
+                  <p>Le débit du Mercure qui augmente de mois en mois, m'encourage à augmenter aussi la dépense necessaire pour le rendre meilleur. Le Public &amp; le Mercure ont esté là dessus long temps sur le Qui vive. Donnez-nous un bon Mercure, disoit le Public, &amp; nous l'acheterons. Achetez le bien, disoit l'Autheur, &amp; on le rendra bon. Le Mercure est une espece de Livre dont la bonté ne dépend presque que de la dépense qu'on fait en Correspondances, en Commis, &amp; Recherches : en un mot, il faut beaucoup dépenser, pour meriter la vente. Une Chanson, qui ne paroist qu'une Chanson, &amp; qui n'est rien davantage, ne laisse pas d'aller à cent écus par an, à n'en donner qu'une tous les mois. Jugez du reste.</p> 
+                  <p><hi rend="i">On mettra toûjours les paroles de chaque Air d'abord sans Musique, &amp; dans la feüille suivante, les paroles avec la Note, afin que si la feüille volante de la Musique embarasse ceux qui ne se soucient point du chant, ils puissent la décoller &amp; que les paroles restent. La Musique de celle cy est de Mr Dubreüil.</hi></p>
+                  <quote>
+                    <label>AIR À BOIRE.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence [par], <hi rend="i">Si vous voulez charmer</hi>, doit regarder la page 71.</note>
+                        <lg>
+                          <l> <hi rend="i">Il n'est point icy bas de plaisir sans chagrin :</hi></l>
+                          <l><hi rend="i">C'est un Arrest du Destin.</hi></l>
+                          <l><hi rend="i">Quand mon œil se delecte à voir ce jus divin,</hi></l>
+                          <l><hi rend="i">Mon gosier s'impatiente,</hi></l>
+                          <l><hi rend="i">Ma soif redouble &amp; me tourmente,</hi></l>
+                          <l><hi rend="i">Et lors qu'en avallant mon gosier se contente,</hi></l>
+                          <l><hi rend="i">Mon œil voit à regret disparoître le vin.</hi></l>
+                          <l><hi rend="i">Il n'est point icy bas de plaisir sans chagrin.</hi></l>
+                          <l><hi rend="i">C'est un Arrest du Destin.</hi></l>
+                        </lg>
+                        <lg>
+                          <l><hi rend="i">Ah ! goûtons icy bas un plaisir sans chagrin :</hi></l>
+                          <l><hi rend="i">Bravons l'Arrest du Destin.</hi></l>
+                          <l><hi rend="i">Voicy deux rouges bords que Baccus me presente,</hi></l>
+                          <l><hi rend="i">En buvant l'un, je voy l'autre tout plein,</hi></l>
+                          <l><hi rend="i">Mon gosier se delecte, &amp; mon oeil se contente.</hi></l>
+                          <l><hi rend="i">Ah ! je goûte icy bas un plaisir sans chagrin,</hi></l>
+                          <l><hi rend="i">Malgré l'Arrest du Destin.</hi></l>
+                        </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1711-10">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, octobre 1711 [tome 10].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>octobre 1711</date> [tome 10].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1711-10"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Mercure galant</hi>, octobre 1711 [tome 10].</head>
+                <div type="article" xml:id="MG-1711-10_049">
+                  <head>[Couplets en forme de Dialogue sur le mesme chant icy noté.]*</head>
+                    <bibl><title>Mercure galant</title>, octobre 1711 [tome 10], deuxième partie, p. 49-51.</bibl>
+                    <quote>
+                      <label>COUPLETS en forme de Dialogue sur le mesme chant icy noté.</label>
+                        <lg>
+                           <l></l>
+                          <l><hi rend="i">Une faveur Lisette,</hi></l>
+                          <l><hi rend="i">M'a prouvé ton amour :</hi></l>
+                          <l><hi rend="i">Au son de ma musette</hi></l>
+                          <l><hi rend="i">Tu dansois l'autre jour.</hi></l>
+                          <l><hi rend="i">Sur celle de Silvandre</hi></l>
+                          <l><hi rend="i">Tu ne danserois pas : </hi></l>
+                          <l><hi rend="i">Mais tu daignes l'entendre </hi></l>
+                          <l><hi rend="i">Non : tu ne m'aime pas. </hi></l>
+                        </lg>
+                      <lg>
+                        <l>LISETTE.</l>
+                        <l><hi rend="i">Si j'entens sa musette,</hi></l>
+                        <l><hi rend="i">C'est que ses airs sont guais</hi></l>
+                        <l><hi rend="i">Pour une chansonnette, </hi></l>
+                        <l><hi rend="i">Quel vacarme tu fais !</hi></l>
+                        <l><hi rend="i">À force de te plaindre</hi></l>
+                        <l><hi rend="i">Tu me chagrineras :</hi></l>
+                        <l><hi rend="i">Si tu veux me contraindre</hi></l>
+                        <l><hi rend="i">Non, je ne t'aime pas.</hi></l>
+                      </lg>
+                      <lg>
+                        <l>TIRSIS.</l>
+                        <l><hi rend="i">Pardon, belle Lisette,</hi></l>
+                        <l><hi rend="i">J'embrasse tes genoux,</hi></l>
+                        <l><hi rend="i">Mon humeur inquiette</hi></l>
+                        <l><hi rend="i">Merite ton couroux.</hi></l>
+                        <l><hi rend="i">Est-ce à moy de me plaindre,</hi></l>
+                        <l><hi rend="i">Fais ce que tu voudras,</hi></l>
+                        <l><hi rend="i">Si j'ay pû te contraindre,</hi></l>
+                        <l><hi rend="i">Non je ne t'aime pas.</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LISETTE.</l>
+                        <l><hi rend="i">Qu'un berger est aimable</hi></l>
+                        <l><hi rend="i">Qui se soumet ainsi !</hi></l>
+                        <l><hi rend="i">Te voyant raisonnable</hi></l>
+                        <l><hi rend="i">Je le devient aussi.</hi></l>
+                        <l><hi rend="i">Je laisse de Silvandre</hi></l>
+                        <l><hi rend="i">La musette &amp; la voix,</hi></l>
+                        <l><hi rend="i">Je ne veux plus l'entendre,</hi></l>
+                        <l><hi rend="i">Viens me mener au bois.</hi></l>
+                      </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

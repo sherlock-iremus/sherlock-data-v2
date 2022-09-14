@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1716-08">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, août 1716 [tome 8].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>août 1716</date> [tome 8].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1716-08"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure galant</hi>, août 1716 [tome 8].</head>
+                <div type="article" xml:id="MG-1716-08_225">
+                    <head>[Air vieux. Chanson nouvelle,]</head>
+                  <bibl><title>Nouveau Mercure galant</title>, août 1716 [tome 8], p. 225-226.</bibl>
+                  <quote>
+                    <label><hi rend="i">Air vieux</hi>. CHANSON NOUVELLE.</label>
+                    <label>Sur l’air, <hi rend="i">Reveillez-vous belle Endormie</hi>.</label>
+                    <p>Recette infaillible pour conserver la beauté &amp; la santé, &amp; pour empêcher les cheveux de changer de couleur. </p>
+                    <lg>
+                      <l><hi rend="i">    Faisons du tems un doux usage,</hi></l>
+                      <l><hi rend="i">Vivons pour contenter nos vœux,</hi></l>
+                      <l><hi rend="i">Belle Philis c’est estre sage</hi></l>
+                      <l><hi rend="i">Que de sçavoir se rendre heureux.</hi></l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                      <l><hi rend="i">Que la fin de la joüissance</hi></l>
+                      <l><hi rend="i">Rappelle de nouveaux desirs,</hi></l>
+                      <l><hi rend="i">Donnons tous deux nostre constance</hi></l>
+                      <l><hi rend="i">À l’usage de nos plaisirs.</hi></l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <lg>
+                      <l><hi rend="i">Et lorsque la fatalle Barque</hi></l>
+                      <l><hi rend="i">Aura tranché de si beaux jours,</hi></l>
+                      <l><hi rend="i">Que Caron dans la même Barque</hi></l>
+                      <l><hi rend="i">Avec nous passe nos amours.</hi></l>
+                    </lg>
+                    <ab type="ornament">***</ab>
+                    <p>Par M. Antidote, souverain Medecin.</p>
+                    </quote>
+                </div>  
+      <div type="article" xml:id="MG-1716-08_283">
+        <head>Chanson</head>
+        <bibl><title>Nouveau Mercure galant</title>, août 1716 [tome 8], p. 283-284.</bibl>
+        <p>Il me reste encore une Chanson à vous donner.</p>
+        <quote>
+          <label>CHANSON.</label><note resp="author" place="margin">L'Air doit regarder la p. 283.</note>
+          <lg>
+            <l><hi rend="i">Vostre bouche</hi></l>
+            <l><hi rend="i">Trop farouche,</hi></l>
+            <l><hi rend="i">Veut que j'aime sans espoir,</hi></l>
+            <l><hi rend="i">Et la flame de vostre ame,</hi></l>
+            <l><hi rend="i">Dans vos yeux se fait bien voir.</hi></l>
+            <l><hi rend="i">Mettez les d'accord Bergere ;</hi></l>
+            <l><hi rend="i">Et pour faire encore mieux,</hi></l>
+            <l><hi rend="i">Vôtre bouche doit se taire,</hi></l>
+            <l><hi rend="i">Et laisser parler vos yeux.</hi></l>
+          </lg>
+          <p>L'Air est de M. Dubreuil de Vignancourt, connu par le nombre &amp; la propreté de ses Chansonnettes.</p>
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>

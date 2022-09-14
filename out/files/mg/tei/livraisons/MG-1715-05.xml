@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-05">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, mai 1715 [tome 5].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>mai 1715</date> [tome 5].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-05"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, mai 1715 [tome 5].</head>
+                <div type="article" xml:id="MG-1715-05_274">
+                  <head>Chanson.</head>
+                    <bibl><title>Nouveau Mercure galant</title>, mai 1715 [tome 5], p. 274-276.</bibl>
+                  <p>Ceux qui n'aiment point à faire des reflexions inutiles, ne s'aviseront point de chercher des ressemblances dans les personnages de cette histoire ; au contraire ils me sçauront gré du soin que je prends de les faire passer à propos à quelque chose qui puisse les amuser d'une façon cent fois plus agréable, que ne pourroient l’être tous les creux raisonnemens du monde. Ma Chanson d'abord vient à mon dessein.</p>
+                    <quote>
+                      <label>CHANSON.</label>
+                        <lg>
+                          <l><hi rend="i">Habitans de ces bois, chantez, chantez, sans craindre</hi></l>
+                          <l><hi rend="i">Que j'envie aujourd'huy vos plaisirs les plus doux,</hi></l>
+                          <l><hi rend="i">L'Amour vous rend heureux, je n'en suis point jaloux</hi></l>
+                          <l><hi rend="i">Petits oyseaux, j'aurois tort de me plaindre,</hi></l>
+                          <l><hi rend="i">Puisque je suis aussi content que vous.</hi></l>
+                        </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

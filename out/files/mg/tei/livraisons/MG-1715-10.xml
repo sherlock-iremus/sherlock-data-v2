@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-10">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, octobre 1715 [tome 10].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>octobre 1715</date> [tome 10].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-10"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure galant</hi>, octobre 1715 [tome 10].</head>
+                <div type="article" xml:id="MG-1715-10_133">
+                    <head>Chanson.</head>
+                  <bibl><title>Nouveau Mercure galant</title>, octobre 1715 [tome 10], p. 133-136.</bibl>
+                  <p>Ma Chanson, si je ne me trompe, n'ira pas mal icy, daignez en essayer.</p>
+                    <quote>
+                      <label>CHANSON.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer la Figure</hi> La Figure doit regarder la page 134.</note>
+                        <lg>
+                          <l><hi rend="i">À la plus delicate Yvresse</hi></l>
+                          <l><hi rend="i">Livrons nos cœurs dans ce festin,</hi></l>
+                          <l><hi rend="i">Meslons aux jeux de la tendresse</hi></l>
+                          <l><hi rend="i">Les Chansons, les ris &amp; le vin.</hi></l>
+                          <l><hi rend="i">Les Dieux en bûvant à la ronde</hi></l>
+                          <l><hi rend="i">Ne pensent point au genre humain,</hi></l>
+                          <l><hi rend="i">Oublions comme eux tout le monde,</hi></l>
+                          <l><hi rend="i">Et nargue des coups du destin.</hi></l>
+                        </lg>
+                        <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Des charmes dont brille la terre</hi></l>
+                        <l><hi rend="i">Cette Table est un racourcy,</hi></l>
+                        <l><hi rend="i">Esprit, beauté, bon vin, grand chere,</hi></l>
+                        <l><hi rend="i">Belle humeur, tout se trouve icy.</hi></l>
+                        <l><hi rend="i">Laissons les Dieux boire à la ronde,</hi></l>
+                        <l><hi rend="i">Amis n'en soyons point jaloux.</hi></l>
+                        <l><hi rend="i">Nous pouvons comme eux dans ce monde,</hi></l>
+                        <l><hi rend="i">Goûter les plaisirs les plus doux.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Que chacun boive à ce qu'il aime,</hi></l>
+                        <l><hi rend="i">Et qu'il y boive tendrement.</hi></l>
+                        <l><hi rend="i">De cette volupté suprême</hi></l>
+                        <l><hi rend="i">Rappellons cent fois le moment.</hi></l>
+                        <l><hi rend="i">C'est ainsi que se fait la ronde</hi></l>
+                        <l><hi rend="i">Au celeste banquet des Dieux :</hi></l>
+                        <l><hi rend="i">Imitons les Maistres du monde,</hi></l>
+                        <l><hi rend="i">Amis pouvons nous faire mieux.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">À ta santé belle Silvie,</hi></l>
+                        <l><hi rend="i">À ce qui te touche le cœur ;</hi></l>
+                        <l><hi rend="i">Que mon ame seroit ravie,</hi></l>
+                        <l><hi rend="i">Si c'étoit ma sincere ardeur.</hi></l>
+                        <l><hi rend="i">Les Dieux en bûvant à la ronde,</hi></l>
+                        <l><hi rend="i">N'auroient pas un plus grand bonheur ;</hi></l>
+                        <l><hi rend="i">Je croirois estre Roy du monde,</hi></l>
+                        <l><hi rend="i">Si je devenois ton vainqueur.</hi></l>
+                      </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

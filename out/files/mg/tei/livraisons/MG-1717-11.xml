@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1717-11">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, novembre 1717 [tome 11].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>novembre 1717</date> [tome 11].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1717-11"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, novembre 1717 [tome 11].</head>
+                  
+      <div type="article" xml:id="MG-1717-11_168">
+        <head>Chanson</head>
+        <bibl><title>Nouveau Mercure </title>, novembre 1717 [tome 11], p. 168.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Chers Enfans de Bachus, le grand Gregoire est mort ;</hi></l>
+            <l><hi rend="i">Une pinte de Vin imprudemment sablée</hi></l>
+            <l><hi rend="i">A fini son illustre sort,</hi></l>
+            <l><hi rend="i">Et sa Cave est son Mosolée :</hi></l>
+            <l><hi rend="i">O vous, qui descendez dans ce charmant Tombeau,</hi></l>
+            <l><hi rend="i">Ne croyez pas que son ombre y repose ?</hi></l>
+            <l><hi rend="i">Elle est encore errante au tour de son Tonneau,</hi></l>
+            <l><hi rend="i">C'est de larmes de Vin qu'elle veut qu'on l’a rose.</hi></l>
+           </lg>  
+        </quote>
+        <p>Quoique cette Chanson ne soit nouvelle, je l'ai cependant préferé à plusieurs autres qui m'ont été envoyées : Je me flate que ceux qui ne la connoissent pas, seront charmés de la trouver ici.</p>
+      </div>      
+            </body>
+  </text>
+</TEI>

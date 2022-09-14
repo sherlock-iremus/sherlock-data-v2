@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1721-05">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, mai 1721 [tome 5].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>mai 1721</date> [tome 5].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1721-05"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, mai 1721 [tome 5].</head>
+      <div type="article" xml:id="MG-1721-05_134">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, mai 1721 [tome 5], p.134-135.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <label>Menuet.</label>
+          <lg>
+            <l>I.</l>
+            <l><hi rend="i">Lassé des rigueurs de ma belle,</hi></l>
+            <l><hi rend="i">Mon cœur jura qu'il ne l'aimeroit plus ;</hi></l>
+            <l><hi rend="i">Pour être à son serment fidelle,</hi></l>
+            <l><hi rend="i">Je fus d'abord me vouër à Bacchus.</hi></l>
+          </lg>
+          <lg>
+            <l>II.</l>
+            <l><hi rend="i">Le Dieu qui fait aux cœurs la guerre</hi></l>
+            <l><hi rend="i">Sçut mon dessein, il devança mes pas ;</hi></l>
+            <l><hi rend="i">Le traître empoisonnant mon verre,</hi></l>
+            <l><hi rend="i">Va, me dit il, bois tant que tu voudras.</hi></l>
+          </lg>
+          <lg>
+            <l>III.</l>
+            <l><hi rend="i">Ce fier défi me piqua l'ame,</hi></l>
+            <l><hi rend="i">Je courus boire, &amp; je ne bus pas peu ;</hi></l>
+            <l><hi rend="i">Je crus éteindre ainsi ma flame,</hi></l>
+            <l><hi rend="i">Mais chaque coup étoit un trait de feu.</hi></l>
+          </lg>
+          <lg>
+            <l>IV.</l>
+            <l><hi rend="i">Que de ce Dieu l'ame est cruelle !</hi></l>
+            <l><hi rend="i">Je brûle, &amp; j'aime, hélas ! plus que jamais.</hi></l>
+            <l><hi rend="i">Quand on veut rompre avec sa belle,</hi></l>
+            <l><hi rend="i">Au traitre Amour cachons de tels projets.</hi></l>
+          </lg>
+        </quote>
+      </div>
+            </body>
+  </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-09">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, septembre 1715 [tome 9].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>septembre 1715</date> [tome 9].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-09"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, septembre 1715 [tome 9].</head>
+                <div type="article" xml:id="MG-1715-09_199">
+                    <head>Chanson</head>
+                  <bibl><title>Nouveau Mercure galant</title>, septembre 1715 [tome 9], p. 199-200.</bibl>
+                  <p>Il ne me reste plus, grace au Ciel, de Vers à vous offrir que ceux qui serviront à remplir ma Chanson &amp; mes Enigmes. Ainsi mon cher Lecteur vous n'avez qu'à prendre courage, vous allez bientôt cesser d'estre étourdy de l'importun caquet des Muses babillardes. Ma Chanson sera courte &amp; tendre. En voicy la preuve.</p>
+                    <quote>
+                      <label>CHANSON.</label><note resp="author" place="margin">La figure doit regarder la p. 200.</note>
+                        <lg>
+                          <l><hi rend="i">Passez, beaux jours, passez, ceux qui doivent vous suivre</hi></l>
+                          <l><hi rend="i">Auront plus de charmes pour moy,</hi></l>
+                          <l><hi rend="i">Mon Berger a cessé de vivre,</hi></l>
+                          <l><hi rend="i">L'hyver, l'affreux hyver, que déja j'apperçoy,</hi></l>
+                          <l><hi rend="i">Convient seul aux ennuis où son trepas me livre.</hi></l>
+                        </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

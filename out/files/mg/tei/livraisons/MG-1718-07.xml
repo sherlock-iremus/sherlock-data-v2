@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1718-07">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, juillet 1718 [tome 7].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>juillet 1718</date> [tome 7].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1718-07"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, juillet 1718 [tome 7].</head>
+                  
+      <div type="article" xml:id="MG-1718-07_191">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, juillet 1718 [tome 7], p. 191-192.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Cher amusement de ma vie,</hi></l>
+            <l><hi rend="i">Plaisir de ce riant séjour,</hi></l>
+            <l><hi rend="i">Vous, dont l'agreable harmonie,</hi></l>
+            <l><hi rend="i">Réveilloit l'Echo d'alentour.</hi></l>
+            <l><hi rend="i">Changés, changés de ton, ma Muzette,</hi></l>
+            <l><hi rend="i">J'ai vû les beaux yeux de Nanette.</hi></l>
+           </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">À peine la naissante Aurore</hi></l>
+            <l><hi rend="i">Venoit arroser nos vallons,</hi></l>
+            <l><hi rend="i">Que j'allois rendre hommage à Flore</hi></l>
+            <l><hi rend="i">Par le vif éclat de vos sons.</hi></l>
+            <l><hi rend="i">Changés, changés de ton, ma Muzette,</hi></l>
+            <l><hi rend="i">J'ai vû les beaux yeux de Nanette.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Prêtés-vous à l'inquietude</hi></l>
+            <l><hi rend="i">Qu'éprouve un trop timide Amant ;</hi></l>
+            <l><hi rend="i">D'une cruelle incertitude</hi></l>
+            <l><hi rend="i">Plaignez avec moi le tourment.</hi></l>
+            <l><hi rend="i">Changés, changés de ton, ma Muzette,</hi></l>
+            <l><hi rend="i">J'ai vû les beaux yeux de Nanette. 
+            </hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Confidente de mon martire,</hi></l>
+            <l><hi rend="i">C'est à vous de le révéler :</hi></l>
+            <l><hi rend="i">Vous avez pouvoir de tout dire,</hi></l>
+            <l><hi rend="i">Quand le respect n'ose parler.</hi></l>
+            <l><hi rend="i">Changés, changés de ton, ma Muzette,</hi></l>
+            <l><hi rend="i">J'ai vû les beaux yeux de Nanette.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Un jour, si vôtre heûreuse adresse</hi></l>
+            <l><hi rend="i">La rend sensible à mon ardeur ;</hi></l>
+            <l><hi rend="i">Reprenés vos chants d'allegresse,</hi></l>
+            <l><hi rend="i">Pour mieux célébrer mon bonheur.</hi></l>
+            <l><hi rend="i">Changés, changés de ton, ma Musette ;</hi></l>
+            <l><hi rend="i">Mais, gardés-vous d'être indiscrette.</hi></l>
+          </lg>
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>

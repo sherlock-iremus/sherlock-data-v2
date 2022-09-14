@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1710-12">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, décembre 1710 [tome 9].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>décembre 1710</date> [tome 9].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1710-12"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Mercure galant</hi>, décembre 1710 [tome 9].</head>
+                <div type="article" xml:id="MG-1710-12_109">
+                    <head>Chansons.</head>
+                    <bibl><title>Mercure galant</title>, décembre 1710 [tome 9], p. 109-112.</bibl>
+                  <p>De toutes mes Chansons, les deux suivantes sont les seules dont on m'ait derobé exactement les airs, comme ils sont imprimez. Il seroit inutile de les donner icy. Je joindray seulement des paroles nouvelles aux anciennes ; c'est ainsi qu'on fait passer le vin vieux &amp; usé, en le rajeunissant avec de la Tocane.</p>
+                    <quote>
+                      <label>CHANSON à boire.</label>
+                        <lg>
+                          <l><hi rend="i">Les Rois d'Egipte &amp; de Sirie.</hi></l>
+                          <l><hi rend="i">Vouloient qu'on embaumât leurs corps</hi></l>
+                          <l><hi rend="i">Pour durer plus longtemps morts.</hi></l>
+                          <l><hi rend="i">Quelle folie. </hi></l>
+                          <l><hi rend="i">Avant que de nos corps nostre ame soit partie</hi></l>
+                          <l><hi rend="i">Avec du vin embaumons nous,</hi></l>
+                          <l><hi rend="i">Que ce baume est doux, </hi></l>
+                          <l><hi rend="i">Embaumons nous, embaumons nous</hi></l>
+                          <l><hi rend="i">Pour durer plus longtemps en vie.</hi></l>
+                        </lg>
+                        <lg>
+                          <l>NOUVEAU COUPLET.</l>
+                          <l><hi rend="i">Raison ? quand ce vin nous anime,</hi></l> 
+                          <l><hi rend="i">Pourquoi vien tu compter nos coups.</hi></l>
+                          <l><hi rend="i">Tu nous dit moderez vous,</hi></l>
+                          <l><hi rend="i">Quelle maxime,</hi></l> 
+                          <l><hi rend="i">Toûjours de la raison serons nous la victime,</hi></l> 
+                          <l><hi rend="i">Elle seule condamne en nous,</hi></l> 
+                          <l><hi rend="i">Des excés si doux,</hi></l>
+                          <l><hi rend="i">Enyvrons nous, enyvrons nous,</hi></l> 
+                          <l><hi rend="i">Nous pourons boire aprés sans crime,</hi></l>
+                        </lg>
+                    </quote>
+                </div>
+      <div type="article" xml:id="MG-1710-12_112">
+        <head>[Les Cloches]*</head>
+        <bibl><title>Mercure galant</title> décembre 1710 [tome 9], p. 112-116.</bibl>
+        <quote>
+          <label>LES CLOCHES</label>
+          <lg>
+            <l><hi rend="i">Ton... tan... ton temps est passé,</hi></l>
+            <l><hi rend="i">Vieille coquette,</hi></l>
+            <l><hi rend="i">Ton tin ton timbre est cassé</hi></l>
+            <l><hi rend="i"></hi>Vieille pendule tu repette,</l>
+            <l><hi rend="i">à cinquante ans.</hi></l>
+            <l><hi rend="i">Le carillon de la clochette,</hi></l>
+            <l><hi rend="i">Qui sonnoit l'heure d'amourette,</hi></l>
+            <l><hi rend="i">Dans ton Printemps,</hi></l>
+            <l><hi rend="i">Tu n'avois qu'à tinter</hi></l>
+            <l><hi rend="i">&amp; ta douce sonette attiroit un Amant,</hi></l>
+            <l><hi rend="i">Mais à present,</hi></l>
+            <l><hi rend="i">Ton toxin tintant,</hi></l>
+            <l><hi rend="i">Ne reveille personne,</hi></l>
+            <l><hi rend="i">Dis moi quand sur le tendre ton,</hi></l>
+            <l><hi rend="i">Ta grosse cloche sonne,</hi></l>
+            <l><hi rend="i">Ten ten ton,</hi></l>
+            <l><hi rend="i">Non non non</hi></l>
+            <l><hi rend="i">Si l'on ten tent,</hi></l>
+            <l><hi rend="i">Ce n'est qu'au son,</hi></l>
+            <l><hi rend="i">>De ton argent comptant.</hi></l>
+          </lg></quote>
+           <quote>
+             <label>PARODIE nouvelle.</label>
+             <lg>
+               <l> <hi rend="i">Ton tan ton temps est passé,</hi></l>
+               <l> <hi rend="i">Mari sauvage,</hi></l>
+               <l> <hi rend="i">Ton tin ton timbre est cassé,</hi></l>
+               <l> <hi rend="i">Tu veux qu'apres le Mariage,</hi></l>
+               <l> <hi rend="i">Aprés deux ans,</hi></l>
+               <l> <hi rend="i">Ta femme pour toy soit constante,</hi></l>
+               <l> <hi rend="i">Et pour tout autre indiferente,</hi></l>
+               <l> <hi rend="i">Dans son Printemps,</hi></l>
+             </lg>
+             <ab type="ornament">***</ab>
+             <lg>
+               <l> <hi rend="i">Crois tu que ton couroux</hi></l>
+               <l> <hi rend="i"> que ton bruit éclatant, </hi></l>
+               <l> <hi rend="i">Chassera son Amant,</hi></l>
+               <l> <hi rend="i">Elle l'attend,</hi></l>
+               <l> <hi rend="i">Ton toxin tintant,</hi></l>
+               <l> <hi rend="i">N'éfrayera personne,</hi></l>
+               <l> <hi rend="i">Dis moy quand sur le triste ton,</hi></l>
+               <l> <hi rend="i">Ta grosse cloche sonne,</hi></l>
+               <l> <hi rend="i">Te plaint-on,</hi></l>
+               <l> <hi rend="i">Non non non,</hi></l>
+               <l> <hi rend="i">De tes tourmens,</hi></l>
+               <l> <hi rend="i">Dans ma chanson,</hi></l>
+               <l> <hi rend="i">L'on rira dans cent ans.</hi></l>
+             </lg>
+             <p>Les airs des deux Chansons ci-dessus, sont imprimez &amp; connus.</p>
+           </quote>           
+      </div>
+    </body>
+  </text>
+</TEI>

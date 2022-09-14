@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1710-08">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, juin, juillet, août 1710 [tome 6].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>juin-août 1710</date> [tome 6].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1710-08"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Mercure galant</hi>, juin, juillet, août 1710 [tome 6].</head>
+                <div type="article" xml:id="MG-1710-08_074">
+                    <head>[Chanson]*</head>
+                    <bibl><title>Mercure galant</title>, juin, juillet, août 1710 [tome 6], p. 74-77.</bibl>
+                  <p>Plaçons vîte dans mon Livre un Specifique si salutaire au genre humain ; mais non, j'aime mieux vous donner une Chanson.</p> 
+<p>C'est une Chanson sur le vin de Champagne ; &amp; le vin de Champagne est une Recette plus naturelle &amp; plus éprouvée que celle du bas-Normand.</p>
+                    <quote>
+                      <label>CHANSON.</label>
+                        <lg>
+                          <l> <hi rend="i">Des climats Champenois où regne un air benin</hi></l>
+                          <l><hi rend="i">Il nous vient franche Marchandise,</hi></l>
+                          <l><hi rend="i">Car la franchise est dans le vin ; </hi></l>
+                          <l><hi rend="i">Mais au Pays Normand l'air est froid &amp; malin</hi></l>
+                          <l><hi rend="i">Tout s'y ressent du vent de Bise 
+                          </hi></l>
+                          <l><hi rend="i">N'en attendez ni bon vin ni franchise. </hi></l></lg></quote>
+<p>Si cette Chanson ne réüssit point le Musicien ne s'en prendra pas au Poëte, ni le Poëte au Musicien. Je ne m'en prendray qu'à moy ; car j'ay fait seul l'air &amp; les paroles. S'il en estoit ainsi des Opera, que d'invectives épargnées entre les Musiciens &amp; les Poëtes.</p>
+<p>Ce petit trait de satyre m’est échapé : j’en demande pardon, sur tout aux Poëtes. Je crains enocre plus de me broüiller avec eux qu’avec les Musiciens.</p>
+<p>Il est un certain nombre d’Auteurs dont je voudrois estre aimé fraternellement comme je les aime. Qui dit fraternellement n’exclut point les petites noises poëtiques : tous les freres ne sont pas d’accord. Deux ou trois disputes par mois seroient un fond pour mes Mercures ; j’y mettrois même jusqu’aux Critiques qu’on en feroit.</p> 
+<p>Courage Messieurs les Auteurs, courage Messieurs les Sçavants, animez-vous un peu les uns contre les autres, je profiteray de vos combats.</p>
+<p>Critiques sçavantes, Réponses opiniâtres, vives Epigrammes pour attaquer, plus vives encore pour se deffendre ; mais tout cela sans malignité ; point d’aigreur dans vos ouvrages : si vous voulez que les imprime, je n’admettray que de l’émulation.</p>
+<p>Je voudrois que les Poëtes &amp; les Sçavants disputassent noblement &amp; poliment comme les grands Guerriers font la guerre. Voila le modele : être ennemis sans se haïr, aller au combat sans colere, &amp; s’entre-égorger à l’amiable.</p> 
+<p>On ne devroit disputer que contre ceux qu’on estime, &amp; ne critiquer que dans la vûë de s’attirer des réponses instructives &amp; curieuses.</p>
+                  <p>C’est dans cet esprit que Mr de M.... a fait une Dissertation sur l’Estampe d’une Cornaline antique du Cabinet du Roy, gravée par le sieur Monbart.</p>
+<p>Je n’ay point lû ce que les Memoires de Trevoux en ont dit dans le mois de Juin dernier. Ceux qui ne sont point curieux de graveures antiques peuvent aussi ne point lire la courte réponse que Mr de M.... fait icy. C’est luy qui va parler ; ce n’est plus moy.</p>                 
+                </div>  
+      <div type="article" xml:id="MG-1710-08_141">
+        <head>[Chanson]*</head>
+        <bibl><title>Mercure galant</title>, juin, juillet, août 1710 [tome 6], p. 141-168.</bibl>
+        <p>Quoyque je sois en quelque façon obligé à ne mettre dans un Recuëil de Nouvelles que des Ouvrages nouveaux, je me serviray de l'occasion pour donner de mois en mois quelques-unes de mes Chansons que j'avois dessein de faire imprimer en un seul volume : vous aurez dans celuy-cy huit couplets qui ont couru il y a déja quelques années.</p>
+        <p>Afin qu'on ne me chicane point sur leur ancienneté, j'ajouste quatre Couplets nouveaux. Peut-estre mesme que la correction des premiers vous sera nouvelle, car n'ayant jamais donné à personne mes Chansons, que j'ay faites seulement pour le plaisir de les faire &amp; de les chanter, on ne les a retenuës qu'à moitié ; &amp; c'est une espece de nouveauté qu'un original dont on n'a jamais vû que des copies estropiées.</p>
+        <p><hi rend="i">Au lieu de mettre la Musique sur une Feüille redoublée qui se déchire aisément, on l'a partagée en plusieurs. On a cru cela plus propre &amp; plus commode.</hi></p>
+        <quote>
+          <label>CHANSON À BOIRE
+          </label>
+          <lg>
+            <l><hi rend="i">Un Sot qui veut faire l'habile,</hi></l>
+            <l><hi rend="i">Dit qu'en lisant il prétend tout sçavoir,</hi></l>
+            <l><hi rend="i">Un fou<note resp="editor" place="margin">« fol » dans la source musicale.</note> qui court de Ville en Ville</hi></l>
+            <l><hi rend="i">En voyageant dit qu'il prétend tout voir,</hi></l>
+            <l><hi rend="i">Et moy je dis d'un ton plus veritable,</hi></l>
+            <l><hi rend="i">Que sans sortir de table</hi></l>
+            <l><hi rend="i">Et sans avoir lû</hi></l>
+            <l><hi rend="i">Je sçay tout &amp; j'ay tout vû</hi></l>
+            <l><hi rend="i">Lorsque j'ay bien bû. </hi></l></lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR LES PHILOSOPHES.</l>
+            <l><hi rend="i">Dans Platon ni dans Epicure</hi></l>
+            <l><hi rend="i">Je ne vois pas qu'il soit bien étably</hi></l>
+            <l><hi rend="i">S'il est du vuide en la nature</hi></l>
+            <l><hi rend="i">Ou si l'espace est d'atômes remply,</hi></l>
+            <l><hi rend="i">Dans un bûveur la nature decide</hi></l>
+            <l><hi rend="i">Qu'elle abhorre le vuide,</hi></l>
+            <l><hi rend="i">Car il est certain</hi></l>
+            <l><hi rend="i">Que j'abhorre un verre en main</hi></l>
+          <l><hi rend="i">Quand il n'est pas plein.</hi></l></lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>II. COUPLET DES PHILOSOPHES
+            </l>
+            <l><hi rend="i">Grands Philosophes je vous blâme</hi></l>
+            <l><hi rend="i">Et je veux faire un systême nouveau</hi></l>
+            <l><hi rend="i">Vous avez fait présider l'ame</hi></l>
+            <l><hi rend="i">L'un dans le cœur, l'autre dans le cerveau,</hi></l>
+            <l><hi rend="i">Sçavez-vous bien où la mienne s'avance</hi></l>
+            <l><hi rend="i">Pour tenir audiance</hi></l>
+            <l><hi rend="i">C'est dans mon palais</hi></l>
+            <l><hi rend="i">Qu'elle juge d'un vin frais</hi></l>
+            <l><hi rend="i">Qui coule à longs traits.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR L'HISTOIRE.</l>
+            <l><hi rend="i">De ceux qui vivent dans l'Histoire</hi></l>
+            <l><hi rend="i">Ma foy jamais je n'envieray le sort :</hi></l>
+            <l><hi rend="i">Nargues du temple de Memoire</hi></l>
+            <l><hi rend="i">Où l'on ne vit que lorsque l'on est mort,</hi></l>
+            <l><hi rend="i">J'aime bien mieux vivre pendant ma vie</hi></l>
+            <l><hi rend="i">Pour boire avec Sylvie,</hi></l>
+            <l><hi rend="i">Car je sentiray</hi></l>
+            <l><hi rend="i">Les momens que je vivray</hi></l>
+            <l><hi rend="i">Tant que je boiray. </hi></l>
+          </lg>
+          <lg>
+            <l>SUR LES MEDECINS.</l>
+            <l><hi rend="i">Les noirs Ministres d'Hypocrate</hi></l>
+            <l><hi rend="i">De deux Syrops qu'ils infusent dans l'eau,</hi></l>
+            <l><hi rend="i">Envoyent l'un chercher la rate,</hi></l>
+            <l><hi rend="i">Depêchent l'autre au païs du cerveau,</hi></l>
+            <l><hi rend="i">C'est grand hazard quand une seule goutte</hi></l>
+            <l><hi rend="i">Veut bien suivre sa route,</hi></l>
+            <l><hi rend="i">Mais cette liqueur</hi></l>
+            <l><hi rend="i">Sûrement par sa douceur,</hi></l>
+            <l><hi rend="i">Porte droit au cœur.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR LES ASTRONOMES.</l>
+            <l><hi rend="i">L'autre jour à l'Observatoire</hi></l>
+            <l><hi rend="i">Les ennemis du tranquile sommeil</hi></l>
+            <l><hi rend="i">Voulurent par malice noire</hi></l>
+            <l><hi rend="i">Me faire voir des taches au Soleil,</hi></l>
+            <l><hi rend="i">Pour les punir d'oser dans leur Taniere</hi></l>
+            <l><hi rend="i">Denigrer la lumiere</hi></l>
+            <l><hi rend="i">Denigrer la lumiere</hi></l>
+            <l><hi rend="i">Je leur fis voir que leur vin</hi></l>
+            <l><hi rend="i">N'étoit pas clair fin.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR LES NOUVELLISTES.</l>
+            <l><hi rend="i">Un Nouvelliste politique</hi></l>
+            <l><hi rend="i">Qui tient conseil dans la court du Palais,</hi></l>
+            <l><hi rend="i">Demande au plus fou de sa clique</hi></l>
+            <l><hi rend="i">Si nous aurons ou la guerre ou la paix,</hi></l>
+            <l><hi rend="i">Moy curieux d'une unique nouvelle</hi></l>
+            <l><hi rend="i">Lorsqu'il pleut ou qu'il gele</hi></l>
+            <l><hi rend="i">Du soir au matin</hi></l>
+            <l><hi rend="i">Je demande à mon voisin</hi></l>
+            <l><hi rend="i">Aurons-nous du vin.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR LES USURIERS.</l>
+            <l><hi rend="i">Un Usurier sur son grimoire</hi></l>
+            <l><hi rend="i">Par son calcul tâchant de m’afronter,</hi></l>
+            <l><hi rend="i">Toute la nuit compte sans boire</hi></l>
+            <l><hi rend="i">Moy je la passe à boire sans compter</hi></l>
+            <l><hi rend="i">À me tromper je mets toute ma gloire</hi></l>
+            <l><hi rend="i">Je prends plaisir à croire</hi></l>
+            <l><hi rend="i">Comptant par mes doigts</hi></l>
+            <l><hi rend="i">Que je n'ay bû qu'une fois</hi></l>
+            <l><hi rend="i">Quand j'en ay bû trois.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+        </quote>
+        <p>Les quatre couplets suivants sont nouvellement composez</p>
+        <quote>
+          <lg>
+            <l>SUR L'ORGUEIL HUMAIN.</l>
+            <l><hi rend="i">De l'homme voicy la chimere</hi></l>
+            <l><hi rend="i">Tout ce qu'il voit est fait exprés pour luy</hi></l>
+            <l><hi rend="i">C'est pour luy que tourne la sphere</hi></l>
+            <l><hi rend="i">Tout l'univers pour luy seul est construy</hi></l>
+            <l><hi rend="i">Sur un tel fait ses arguments plausibles</hi></l>
+            <l><hi rend="i">Ne me sont pas sensibles</hi></l>
+            <l><hi rend="i">Mais je m'aperçoy</hi></l>
+            <l><hi rend="i">Que ce vin est fait pour moy</hi></l>
+            <l><hi rend="i">Lorsque je le boy.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR LA JUSTICE.</l>
+            <l><hi rend="i">Ni par Cujas ni par Barthole</hi></l>
+            <l><hi rend="i">On ne suit point exactement la loy</hi></l>
+            <l><hi rend="i">Tous les contrats du Protocole</hi></l>
+            <l><hi rend="i">N'établiront jamais la bonne foy</hi></l>
+            <l><hi rend="i">Les francs bûveurs de leur vin font à table</hi></l>
+            <l><hi rend="i">Un partage équitable</hi></l>
+            <l><hi rend="i">C'est l'usage ancien</hi></l>
+            <l><hi rend="i">Boy ton verre &amp; moy le mien </hi></l>
+            <l><hi rend="i">Chacun boit son bien.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR LA PEINTURE.</l>
+            <l><hi rend="i">Si Raphaël peint le sublime</hi></l>
+            <l><hi rend="i">Si le Correge a peint Graces &amp; Ris</hi></l>
+            <l><hi rend="i">Si le Brun ses Tableaux anime,</hi></l>
+            <l><hi rend="i">Et si Rubens excelle en coloris</hi></l>
+            <l><hi rend="i">Mieux que Calot en grotesque figure</hi></l>
+            <l><hi rend="i">Je charge la nature</hi></l>
+            <l><hi rend="i">Le plaisant tableau </hi></l>
+            <l><hi rend="i">Que je peints dans mon cerveau</hi></l>
+            <l><hi rend="i">Par ce vin nouveau.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>SUR MON MERCURE GALANT.</l>
+            <l><hi rend="i">Mercure vôle à tire d'ailes</hi></l>
+            <l><hi rend="i">Pour m'apporter du bout de l'univers</hi></l>
+            <l><hi rend="i">Des jeux galants &amp; des nouvelles</hi></l>
+            <l><hi rend="i">Du vray, du faux, de la prose &amp; des vers</hi></l>
+            <l><hi rend="i">J'en fais le choix en invoquant Minerve</hi></l>
+            <l><hi rend="i">Mais pour entrer en verve</hi></l>
+            <l><hi rend="i">Je l'invoque en vain</hi></l>
+            <l><hi rend="i">Je n'attends ce feu divin</hi></l>
+            <l><hi rend="i">Que du Dieu du vin.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+        </quote>     
+      </div>    
+            </body>
+  </text>
+</TEI>

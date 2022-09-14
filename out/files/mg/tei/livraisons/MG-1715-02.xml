@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-02">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, février 1715 [tome 2].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>février 1715</date> [tome 2].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-02"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, février 1715 [tome 2].</head>
+                <div type="article" xml:id="MG-1715-02_244">
+                  <head>Chanson.</head>
+                    <bibl><title>Nouveau Mercure galant</title>, février 1715 [tome 2], p. 244-245.</bibl>
+                  <p>Et en attendant tranquillement tout ce qui pourra m'en arriver, je chanteray à bon compte, ou plus tost nous chanterons ensemble, Messieurs, Mesdames &amp; Mesdemoiselles (si vous estes modernes) la Chanson suivante.</p>
+                    <quote>
+                      <label>CHANSON.</label>
+                        <lg>
+                          <l><hi rend="i">Mardy gras, Mardy gras, Mardy gras,</hi></l>
+                          <l><hi rend="i">Qu'à ce nom chacun s'arme d'un verre,</hi></l>
+                          <l><hi rend="i">Festons, festons cet heureux jour.</hi></l>
+                          <l><hi rend="i">Amis il n'en est point de pareil en amour,</hi></l>
+                          <l><hi rend="i">Et Bacchus dans ce temps regne seul sur la terre ;</hi></l>
+                          <l><hi rend="i">Mais que je crains ton maigre lendemain,</hi></l>
+                          <l><hi rend="i">Ah tu ferois ma foy mes desirs les plus tendres,</hi></l>
+                          <l><hi rend="i">Si tu n'estois pas si voisin</hi></l>
+                          <l><hi rend="i">Du triste Mercredy des Cendres.</hi></l>
+                        </lg>
+                    </quote>
+                  <p>Les derniers mots de cette Chanson, jettent insensiblement mon esprit dans un tas de reflexions serieuses dont je ne peux me tirer qu'au dépens d'un demi quart d'heure de loisir que je vous prie de m'accorder, pour me donner le temps de me remettre sur les voyes du reste des bagatelles de ce Livre.</p>
+                </div>        
+            </body>
+  </text>
+</TEI>

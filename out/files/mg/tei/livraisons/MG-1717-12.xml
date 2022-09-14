@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1717-12">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, décembre 1717 [tome 12].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>décembre 1717</date> [tome 12].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1717-12"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, décembre 1717 [tome 12].</head>
+                  
+      <div type="article" xml:id="MG-1717-12_184">
+        <head>Chanson</head>
+        <bibl><title>Nouveau Mercure </title>, décembre 1717 [tome 12], p. 184-185.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Que l'on gronde,</hi></l>
+            <l><hi rend="i">Qu'on critique &amp; fronde ;</hi></l>
+            <l><hi rend="i">Je m'en moquerai,</hi></l>
+            <l><hi rend="i">J'aimerai,</hi></l>
+            <l><hi rend="i">Je boirai</hi></l>
+            <l><hi rend="i">Tant que je pourai.</hi> (bis)</l>
+            <l><hi rend="i">C'est sagesse,</hi></l>
+            <l><hi rend="i">Di-t-on tous les jours,</hi></l>
+            <l><hi rend="i">D'éviter la tendresse :</hi></l>
+            <l><hi rend="i">Mais tout au rebours ;</hi></l>
+            <l><hi rend="i">N'est-ce pas sotise ou foiblesse ?</hi></l>
+            <l><hi rend="i">Que de n'avoir pas toûjours recours,</hi></l>
+            <l><hi rend="i">Au prompt secours ;</hi></l>
+            <l><hi rend="i">Que contre la tristesse<note resp="editor" place="margin">«foiblesse » dans la source musicale.</note></hi></l>
+            <l><hi rend="i">Offrent sans cesse</hi></l>
+            <l><hi rend="i">Le Vin, les Jeux, les Amours, </hi></l>
+           </lg>  
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Que l'on gronde,</hi></l>
+            <l><hi rend="i">Qu'on critique &amp; fronde ;</hi></l>
+            <l><hi rend="i">Je m'en moquerai,</hi></l>
+            <l><hi rend="i">J'aimerai,</hi></l>
+            <l><hi rend="i">Je boirai</hi></l>
+            <l><hi rend="i">Tant que je vivrai.</hi> (bis)</l>
+            <l><hi rend="i">Nargue des faveurs </hi></l>
+            <l><hi rend="i">Que nous promet la fortune ;</hi></l>
+            <l><hi rend="i">Puisque les honneurs</hi></l>
+            <l><hi rend="i">Changent les mœurs :</hi></l>
+            <l><hi rend="i">Evitons de pareils séducteurs.</hi></l>
+            <l><hi rend="i">L'Eclat m'importune ;</hi></l>
+            <l><hi rend="i">Amis, un paisible bonheur</hi></l>
+            <l><hi rend="i">Est pour un Buveur :</hi></l>
+            <l><hi rend="i">Et les plus sensibles douceurs</hi></l>
+            <l><hi rend="i">Pour les tendres coeurs.</hi></l>
+          </lg> 
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>

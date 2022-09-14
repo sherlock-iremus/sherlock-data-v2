@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1710-10">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, septembre et octobre 1710 [tome 7].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>septembre-octobre 1710</date> [tome 1].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1710-10"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Mercure galant</hi>, septembre, octobre 1710 [tome 7].</head>
+      <div type="article" xml:id="MG-1710-10_111">
+        <head>[Chanson Anacreontique]*</head>
+        <bibl><title>Mercure galant</title>septembre, octobre 1710 [tome 7], p. 111-116.</bibl>
+        <p>On s’est plaint aussi de ma Chanson contre le Pays Normand, dont j’ai dit :</p> 
+          <p><hi rend="i">N’en attendez ni bon vin ni franchise</hi>.</p>
+        <p>Je fais reparation d’honneur aux Normands ; ils excellent en prudence &amp; en force d’esprit, &amp; s’ils pêchent un peu en sincerité, c’est un pêché originel qui est commun à toutes les Nations. Ainsi dés qu’on aura planté des vignes en Normandie, je seray volontiers Normand, &amp; je me dédiray de tout ce que j’ai dit dans ma Chanson.</p> 
+        <p>Je me dédis aussi par avance des choses les plus innocentes que je pouray dire, &amp; dont quelqu’un se choquera par malice.</p>
+        <p>Tout homme qui jettera une pierre en l’air dans les ruës de Paris ne peut pas jurer qu’elle ne blessera personne, par exemple tous les Amants inconstants doivent estre choquez de la Chanson qui suit.</p>
+        <quote>
+          <label><hi rend="i">CHANSON Anacreontique</hi></label>
+          <label><hi rend="i">Sur l’Air, <hi rend="i">Reveillez-vous Belle endormie</hi>.</hi></label>
+          <lg>
+            <l><hi rend="i">Philis plus avare que tendre,</hi></l>
+            <l><hi rend="i">Ne gagnant rien à refuser,</hi></l>
+            <l><hi rend="i">Un jour exigea de Lisandre</hi></l>
+            <l><hi rend="i">Trente Moutons pour un baiser.</hi></l></lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Le lendemain seconde affaire,</hi></l>
+            <l><hi rend="i">Pour le Berger le troc fut bon,</hi></l>
+            <l><hi rend="i">Il exigea de la Bergere</hi></l>
+            <l><hi rend="i">Trente baisers pour un Mouton.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Le lendemain Philis plus tendre,</hi></l>
+            <l><hi rend="i">Craignant de moins plaire au Berger,</hi></l>
+            <l><hi rend="i">Fut trop heureuse de luy rendre</hi></l>
+            <l><hi rend="i">Tous les Moutons pour un baiser.</hi></l>
+          </lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Le lendemain Philis peu sage</hi></l>
+            <l><hi rend="i">Voulut donner Moutons &amp; Chien,</hi></l>
+            <l><hi rend="i">Pour un baiser que le volage</hi></l>
+            <l><hi rend="i">À Lizette donna pour rien. </hi></l>
+          </lg>
+         </quote>
+        
+      </div>
+      <div type="article" xml:id="MG-1710-10_219">
+                    <head>Chansons.</head>
+                    <bibl><title>Mercure galant</title>septembre, octobre 1710 [tome 7], p. 219-230.</bibl>
+                  <p>J'avois prévû que quelqu'un me chicaneroit sur l'ancienneté de mes Chansons, sans me sçavoir gré des Nouvelles que j'y joins ; mais le goust de quelques particuliers qui ne cherchent dans les Ouvrages que la nouveauté seule, ne l'emportera pas sur le goust du Public. Il y a long-temps qu'on s'attend à voir un Recuëil de mes Chansons caracterisez, comme l'<hi rend="i">Opera</hi>, le <hi rend="i">Tabac</hi>, les <hi rend="i">Cloches</hi>, les <hi rend="i">Siflets</hi>, &amp;c. Je les donneray toutes en détail à deux par mois. Je prie ceux qui les souhaitteroient toutes à la fois, de prendre patience : ceux qui n'en voudroient point du tout, prendront patience aussi, car j'en ay provision pour deux années.</p>
+                    <quote>
+                      <label>CHANSON À SIFLER.</label>
+ <lg>
+   <l><hi rend="i">Prés de la jeune<note resp="editor" place="margin">« belle » dans la source musicale.</note> Iris, un Marquis scelerat</hi></l>
+   <l><hi rend="i">Aprés mille serments qui valloient un Contrat,</hi></l>
+   <l><hi rend="i">Avoit tant pressé l'Avanture,</hi></l>
+   <l><hi rend="i">Que la Belle à son tour pressoit la signature.</hi></l></lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Un jour avec empressement</hi></l>
+                        <l><hi rend="i">Elle conjuroit cet<note resp="editor" place="margin">« son » dans la source musicale.</note> Amant</hi></l>
+                        <l><hi rend="i">De haster l'hymenée,</hi></l>
+                        <l><hi rend="i">Et luy sans s'émouvoir sifloit nonchalemment,</hi></l>
+                        </lg>
+                        <lg>
+                          <l>LE MARQUIS, Sifle.</l>
+                          <l>u u u u u u</l>
+                        </lg>
+                      <lg>
+                          <l><hi rend="i">Iris d'abord fut allarmée,</hi></l>
+                          <l><hi rend="i">Elle fremit pleurant amerement ;</hi></l>
+                          <l><hi rend="i">Mais le Marquis touché sifla plus tendrement,</hi></l>
+                      </lg>
+                      <lg>
+                            <l>Il sifle</l>
+                          <l>u u u u u</l>
+                        </lg>
+                      <l><hi rend="i">Et mesme par pitié pour l'aimable affigée,</hi></l>
+                      <l><hi rend="i">Sifla l'Echo plaintif de ses tristes accens,</hi></l>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l>Sifle l'Echo du Chant précedent.</l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">Parlez-moy donc dit-elle, helas !</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l>Sifle l'Echo.</l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">M'auriez-vous abusée ?</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l>Sifle l'Echo.</l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">J'ay conté sur vos serments,</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l>Sifle l'Echo.</l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">Il est temps de montrer que vous m'avez aimée.</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l>Sifle l'Echo.</l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">Il est temps de finir.</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l><hi rend="i">Je veux finir aussi,</hi></l>
+                        <l>il Sifle. </l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">Mes Parens sont d'accord, le Notaire est icy.</hi></l>
+                        <l><hi rend="i">Terminez, tout est prest.</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l><hi rend="i">Je suis tout prest aussi ;</hi></l>
+                        <l>il Sifle une Boutade.</l>
+                        <l>u u u u u u</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">Allons donc tout est prest ?</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l><hi rend="i">Je suis tout prest aussi ;</hi></l>
+                        <l>il Sifle le mesme Chant.</l>
+                      </lg>
+                      <lg>
+                        <l>IRIS.</l>
+                        <l><hi rend="i">Ma famille assemblée...</hi></l>
+                      </lg>
+                      <lg>
+                        <l>LE MARQUIS </l>
+                        <l><hi rend="i">Je suis tout prest;</hi></l>
+                        <l>il Sifle.</l>
+                        <l>u u u u u u</l>
+                        <l><hi rend="i">Tout prest ; </hi></l>
+                        <l>il Sifle.</l>
+                        <l>u u u u u u</l>
+                        <l><hi rend="i">Tout prest ; </hi></l>
+                        <l>il Sifle.</l>
+                        <l>u u u u u u</l>
+                        <l><hi rend="i">Je suis tout prest à partir pour l'armée.</hi></l>
+                      </lg>
+                    </quote>
+                  <p>On n'a pas pû mettre dans la Musique la Basse continue comme on la mettra dans la suite dans toutes les Chansons que je donneray, parce que cette Basse a relation avec une Cantate de Flutes que Mr. De la Barre a faite sur cette Chanson. Cette Cantate de Flutes se vend chez Mr. Foucault, ruë S. Honoré à la Regle d'Or, vis-à-vis la ruë des Bourdonnois.</p>
+                </div> 
+      <div type="article" xml:id="MG-1710-10_231">
+        <head>[Chansons.]</head>
+        <bibl><title>Mercure galant</title>septembre, octobre 1710 [tome 7], p. 231-238.</bibl>
+        
+        <quote>
+          <label>PARODIE <hi rend="i">NOUVELLE</hi><note resp="editor" place="margin">Cet air est une parodie de la "Chanson à sifler" qui précède, cf "MG-1710-10_219"</note>.</label>
+            <label>Sur le mesme Air du <hi rend="i">Marquis scelerat</hi><note resp="editor" place="margin">Cf."MG-1710-10_219"</note></label>
+          <lg>
+            <l><hi rend="i">Prés d’un Chasseur de Cour, l’autre jour un Auteur,</hi></l>
+            <l><hi rend="i">Auteur en mesme temps héroïque &amp; flatteur,</hi></l>
+            <l><hi rend="i">Le flatant briguoit son suffrage</hi></l>
+            <l><hi rend="i">Et pour estre flaté luy lisoit son Ouvrage</hi></l></lg>
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Pendant que l’Auteur déclamoit,</hi></l>
+            <l><hi rend="i">Et que luy-mesme il se charmoit</hi></l>
+            <l><hi rend="i">De sa propre Eloquence</hi></l>
+            <l><hi rend="i">Le Chasseur attentif sifloit nonchalemment.</hi></l>
+          </lg>
+          <lg>
+            <l> LE CHASSEUR sifle.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l><hi rend="i">L’Auteur picqué luy recommence</hi></l>
+            <l><hi rend="i">Le bel endroit avec des tons nouveaux,</hi></l>
+            <l><hi rend="i">Dont le Chasseur siflant imite les plus beaux.</hi></l>
+          </lg>
+          <lg>
+            <l>Il sifle</l>
+            <l>u u u u u</l>
+          </lg>
+          <l><hi rend="i">L’Auteur croit que ses Vers par leur vive cadence,</hi></l>
+          <l><hi rend="i">Du Sifleur déclamant excite les Echos.</hi></l>
+          <lg>
+            <l>LE CHASSEUR</l>
+            <l>Sifle l'Echo du Chant précedent.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR.</l>
+            <l><hi rend="i">Voicy un des beaux traits</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR.</l>
+            <l>Sifle l'Echo.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>IRIS.</l>
+            <l><hi rend="i">Suivez-vous la pensée ?</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR.</l>
+            <l>Sifle l'Echo.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR.</l>
+            <l><hi rend="i">De la Strophe que voicy.</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR</l>
+            <l>Sifle l'Echo.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR.</l>
+            <l><hi rend="i">Elle est en mesme temps poëtique &amp; sensée.</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR</l>
+            <l>Sifle l'Echo.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR</l>
+            <l><hi rend="i">Je suis toujours au fait.</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR.</l>
+            <l><hi rend="i">Je suis au fait aussi,</hi></l>
+            <l>il Sifle. </l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR</l>
+            <l><hi rend="i">Tous les autres Auteurs n’expriment point ainsi.</hi></l>
+            <l><hi rend="i">Je sens ce que je dis.</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR.</l>
+            <l><hi rend="i">Et moy je sens aussi.</hi></l>
+            <l>il Sifle une Boutade.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR.</l>
+            <l><hi rend="i">J’entends le fin ….</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR.</l>
+            <l><hi rend="i">Et moy j’entends aussi,</hi></l>
+            <l>il Sifle le mesme Chant.</l>
+            <l>u u u u u u</l>
+          </lg>
+          <lg>
+            <l>L’AUTEUR.</l>
+            <l><hi rend="i">Ecoutez-moy de grace ?</hi></l>
+          </lg>
+          <lg>
+            <l>LE CHASSEUR.</l>
+            <l><hi rend="i">J’entends, j’entends ;</hi></l>
+            <l>il Sifle.</l>
+            <l>u u u u u u</l>
+            <l><hi rend="i">J’entends ;</hi></l>
+            <l>il Sifle.</l>
+            <l>u u u u u u</l>
+            <l><hi rend="i">J’entends ;</hi></l>
+            <l>il Sifle.</l>
+            <l>u u u u u u</l>
+            <l><hi rend="i">J’entends la voix des Chiens qui m’appellent à la Chasse. </hi></l>
+          </lg>
+        </quote>
+        
+      </div>
+            </body>
+  </text>
+</TEI>

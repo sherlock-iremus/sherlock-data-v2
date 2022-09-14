@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-06">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, juin 1715 [tome 6].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>juin 1715</date> [tome 6].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-06"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, juin 1715 [tome 6].</head>
+                <div type="article" xml:id="MG-1715-06_291">
+                  <head>Chanson.</head>
+                    <bibl><title>Nouveau Mercure galant</title>, juin 1715 [tome 6], p. 291-293.</bibl>
+                  <p>Je ne sçay, Madame, si je suis maintenant quitte avec vous, de l'indulgence que vous avez euë pour moi, &amp; je vous trouve bien heureuse, si je ne vous ay pas impatienté plus d'une fois. Mais je suis encore, dites-vous, à vôtre discretion, &amp; vous prétendez que je vous paye d'une façon, ou d'une autre, tout ce que vous m'avez gagné. Rendez moy solvable, &amp; je vous payerai comptant. La monnoye des Auteurs est à peu prés comme celle des Singes, les uns payent souvent en sotises, &amp; les autres en gambades. De quelle façon en voulez-vous ? je vous entends ; vous me demandez une Chanson, deux Enigmes, &amp; un Compliment. Soit. Vous allez être servie sans délay.</p>
+                    <quote>
+                      <label>CHANSON.</label>
+                        <lg>
+                          <l><hi rend="i">Un Berger discret &amp; tendre</hi></l>
+                          <l><hi rend="i">Qui soupire nuit &amp; jour,</hi></l>
+                          <l><hi rend="i">Iris, voudroit vous apprendre</hi></l>
+                          <l><hi rend="i">Les doux mysteres d'amour ;</hi></l>
+                          <l><hi rend="i">Mais il faut un cœur docile</hi></l>
+                          <l><hi rend="i">Pour écouter ses leçons ;</hi></l>
+                          <l><hi rend="i">Que son soin est inutile,</hi></l>
+                          <l><hi rend="i">Vous les traitez de Chansons.</hi></l>
+                        </lg>
+                        <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Usez mieux jeune Bergere</hi></l>
+                        <l><hi rend="i">Du pouvoir de vos beaux ans,</hi></l>
+                        <l><hi rend="i">À la beauté passagere</hi></l>
+                        <l><hi rend="i">L'Amour n'accorde qu'un tems.</hi></l>
+                        <l><hi rend="i">Craignez ce Dieu redoutable,</hi></l>
+                        <l><hi rend="i">Un jour il se vangera</hi></l>
+                        <l><hi rend="i">Et vous serez moins aimable,</hi></l>
+                        <l><hi rend="i">Quand vôtre cœur aimera. </hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Profitez de la jeunesse</hi></l>
+                        <l><hi rend="i">Qui fait naistre les desirs,</hi></l>
+                        <l><hi rend="i">Elle inspire la tendresse,</hi></l>
+                        <l><hi rend="i">C'est le printemps des plaisirs.</hi></l>
+                        <l><hi rend="i">Que vous sert d'être severe ?</hi></l>
+                        <l><hi rend="i">Il est doux de s'enflâmer,</hi></l>
+                        <l><hi rend="i">Quand on est faite pour plaire,</hi></l>
+                        <l><hi rend="i">On est faite pour aimer.</hi></l>
+                      </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

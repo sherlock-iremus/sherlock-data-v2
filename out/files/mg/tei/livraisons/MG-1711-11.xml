@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1711-11">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, novembre 1711 [tome 11].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>novembre 1711</date> [tome 11].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1711-11"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Mercure galant</hi>, novembre 1711 [tome 11].</head>
+      <div type="article" xml:id="MG-1711-11_023">
+        <head>[Le chocolat]*</head>
+        <bibl><title>Mercure galant</title>, novembre 1711 [tome 11], première partie, p. 23-27.</bibl>
+        <quote>
+          <label>LE CHOCOLAT.</label>
+          <label><hi rend="i">Sur l’Air de <hi rend="i">Joconde</hi>.</hi></label>
+          <lg>
+            <l><hi rend="i">Le vin est pour le tiers estat,</hi></l>
+            <l><hi rend="i">Il deroge à noblesse,</hi></l>
+            <l><hi rend="i">La loy ne permet qu’au pied plat,</hi></l>
+            <l><hi rend="i">Les risques de l’ivresse.</hi></l>
+            <l><hi rend="i">Faisons mousser le Chocolat,</hi></l>
+            <l><hi rend="i">Qu’on m’en donne une prise,</hi></l>
+            <l><hi rend="i">C’est friandise de Prélat,</hi></l>
+            <l><hi rend="i">Et la loy l’authorise.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Modeste friandise eut lieu,</hi></l>
+            <l><hi rend="i">Dès le temps de Moïse,</hi></l>
+            <l><hi rend="i">Il permit au peuple de Dieu,</hi></l>
+            <l><hi rend="i">Modeste friandise.</hi></l>
+            <l><hi rend="i">Un Juif au palais delicat</hi></l>
+            <l><hi rend="i">Meprisant tout le reste,</hi></l>
+            <l><hi rend="i">Voulut le goust de Chocolat,</hi></l>
+            <l><hi rend="i">Dans la mane celeste. </hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">L’un de son travail rebuté</hi></l>
+            <l><hi rend="i">Par luy seul y resiste,</hi></l>
+            <l><hi rend="i">À l’autre de l’oisiveté,</hi></l>
+            <l><hi rend="i">Il rend l’ennuy moins triste.</hi></l>
+            <l><hi rend="i">Par luy le diner évité,</hi></l>
+            <l><hi rend="i">Grand souper autorisé,</hi></l>
+            <l><hi rend="i">L’un en prend par sobrieté,</hi></l>
+            <l><hi rend="i">L’autre par gourmandise. </hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Par le Chocolat repeté,</hi></l>
+            <l><hi rend="i">L’apetit se deroute,</hi></l>
+            <l><hi rend="i">Son eloge aussi trop chanté,</hi></l>
+            <l><hi rend="i">Degouteroit sans doute.</hi></l>
+            <l><hi rend="i">Chers friants encore un couplet,</hi></l>
+            <l><hi rend="i">Passez le moy de grace,</hi></l>
+            <l><hi rend="i">Moy d’un Chocolat à souhait,</hi></l>
+            <l><hi rend="i">Je vous passe une tasse.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Il donne ou guerit les vapeurs,</hi></l>
+            <l><hi rend="i">Selon qu’on le compose,</hi></l>
+            <l><hi rend="i">Vous Medecins ou Directeurs</hi></l>
+            <l><hi rend="i">Sçachez en-bien la doze.</hi></l>
+            <l><hi rend="i">Vous y ferez pour le repos,</hi></l>
+            <l><hi rend="i">Des femmes ou des filles,</hi></l>
+            <l><hi rend="i">Dominer les froids Cacaos,</hi></l>
+            <l><hi rend="i">Ou les chaudes Vanilles.</hi></l>
+          </lg>
+        </quote> 
+      </div>   
+      
+      <div type="article" xml:id="MG-1711-11_110">
+                    <head>CHANSON</head>
+                    <bibl><title>Mercure galant</title>, novembre 1711 [tome 11], deuxième partie, p. 299-300.</bibl>
+                  <p>La Chanson suivante n’a jamais été nottée, quoique je l’aye faite il y a plus de vingt ans, j’en ai plusieurs de ce caractere &amp; de cette datte, que je donnerai, car elles réjoüissent ; je n’en ferai plus de si folâtres, parce que je ne reviendrai plus à l’âge de vingt-cinq ans. Age fecond en idées pareilles, âge où il m’est échappé tant d’ouvrages imparfaits, j’en desavouërois à present les deffauts, mais je ne desavouërois pas ce fond de jeunesse &amp; de gayeté qui me les inspiroit alors, ni cette vivacité qui ne me permettoit pas de leur donner la dernier main. </p>
+                    <quote>
+                      <label>LE CARILLON.</label>
+                        <lg>
+                          <l><hi rend="i">Bon, ban, bon, </hi></l>
+                          <l><hi rend="i">Entendez-vous les grosses Cloches, bon, ban, bon.</hi></l>
+                          <l><hi rend="i">Quand j’entens sonner sur ce ton</hi></l>
+                          <l><hi rend="i">Je me souviens toûjours qu’hier ma femme est morte,</hi></l>
+                          <l><hi rend="i">Le temps n’affoiblit point une douleur si forte,</hi></l>
+                          <l><hi rend="i">Elle redouble à ce lugubre son.</hi></l>
+                          <l><hi rend="i">Bon, ban, bon.</hi></l>
+                          <l><hi rend="i">Pour égayer le bon, ban, bon,</hi></l>
+                          <l><hi rend="i">Faisons un autre carillon,</hi></l>
+                          <l><hi rend="i">Carillon du verre,</hi></l>
+                          <l><hi rend="i">De la pinte &amp; du flacon :</hi></l>
+                          <l><hi rend="i">La pauvre femme elle est en terre,</hi></l>
+                          <l><hi rend="i">Je l’aimais tant, buvons pour elle en carillon,</hi></l>
+                          <l><hi rend="i">Choquons le verre en carillon,</hi></l>
+                          <l><hi rend="i">En double carillon.</hi></l>
+                          <l><hi rend="i">Tirez du bon vin, bon, bien bon, bin bon.</hi></l>
+                          <l><hi rend="i">Exerçons-nous sur ce jambon,</hi></l>
+                          <l><hi rend="i">Ce saucisson n’est-il pas bien bon, bien bon, bin bon.</hi></l>
+                          <l><hi rend="i">Hé tâtons donc de ce din-</hi></l>
+                          <l><hi rend="i">don, dindon, din, dan</hi></l>
+                          <l><hi rend="i">don, din, dan, don,</hi></l>
+                          <l><hi rend="i">din, dan, don,</hi></l>
+                          <l><hi rend="i">Ma femme est en terre, bon,</hi></l>
+                          <l><hi rend="i">Ah qu’il est bon ce carillon.</hi></l>
+                        </lg>
+                      <lg>
+                        <l>2. Couplet</l>
+                        <l><hi rend="i">Bon, ban, bon,</hi></l>
+                        <l><hi rend="i">Que ce lugubre son m’afflige, bon, ban, bon.</hi></l>
+                        <l><hi rend="i">J’entendois chez moy sur ce ton</hi></l>
+                        <l><hi rend="i">Grondez en faux bourdon la pauvre Mathurine,</hi></l>
+                        <l><hi rend="i">Quand pour avoir été trop gay chez ma voisine></hi></l>
+                        <l><hi rend="i">J’en revenois plus triste à la maison</hi></l>
+                        <l><hi rend="i">Bon, ban, bon.</hi></l>
+                        <l><hi rend="i">Elle egayoit son faux bourdon</hi></l>
+                        <l><hi rend="i">En y mêlant un carillon, </hi></l>
+                        <l><hi rend="i">Carillon de ma femme,</hi></l>
+                        <l><hi rend="i">De jalousie, de Demon ;</hi></l>
+                        <l><hi rend="i">Pour lui laisser chanter sa game</hi></l>
+                        <l><hi rend="i">Je m’endormois, mais elle prenoit un bâton</hi></l>
+                        <l><hi rend="i">Pour me donner du reveillon</hi></l>
+                        <l><hi rend="i">En double carillon,</hi></l>
+                        <l><hi rend="i">En double carillon.</hi></l>
+                        <l><hi rend="i">Moy qui suis bon, bon, bon, bien bon, bin bon,</hi></l>
+                        <l><hi rend="i">Je souffois comme un vrai mouton</hi></l>
+                        <l><hi rend="i">Jusqu’au bâton, suis-je pas bien bon, bien bon, bin bon ?</hi></l>
+                        <l><hi rend="i">Que le Ciel lui fasse pardon,</hi></l>
+                        <l><hi rend="i">Din, don, din, dan, don,</hi></l>
+                        <l><hi rend="i">Din, dan, don, din, dan, don :</hi></l>
+                        <l><hi rend="i">Ma femme est en terre, bon,</hi></l>
+                        <l><hi rend="i">Elle a fini son carillon.</hi></l>
+                        </lg> 
+                    </quote>
+                  <p>On donnera au mois prochain la chanson du Tabac.</p>
+                </div>        
+            </body>
+  </text>
+</TEI>

@@ -7,6 +7,12 @@ projects:
         steps:
           - git: ../in/mercure-galant-sources-github
             branch: gh-pages
+          - script: ./sources-processors/mg-tei/mg-tei-to-json.sh
+            args:
+              TEI_LIVRAISONS: out/files/mg/tei/livraisons
+              TEI_ARTICLES: out/files/mg/tei/articles
+              JSON_ARTICLES: out/files/mg/json/articles
+              MGGHXML: ../in/mercure-galant-sources-github/xml
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:

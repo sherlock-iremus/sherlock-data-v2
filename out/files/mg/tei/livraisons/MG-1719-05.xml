@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1719-05">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, mai 1719 [tome 5].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>mai 1719</date> [tome 5].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1719-05"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, mai 1719 [tome 5].</head>
+      <div type="article" xml:id="MG-1719-05_159a">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, mai 1719 [tome 5], p.159.</bibl>
+        <p><hi rend="i">Nous joignons à la premiere Chanson un Vaudeville tiré de la Mode, petite Comedie en un Acte. L'air de la premiere Chanson, est de M. <hi rend="i">Dandrieux</hi> ; &amp; celui de la seconde, de M. <hi rend="i">Mouret</hi></hi></p>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Pour conquerir Medée &amp; la Toison,</hi></l>
+            <l><hi rend="i">Le tendre Argonaute Jason,</hi></l>
+            <l><hi rend="i">N'alla que de Grece en Colchide.</hi></l>
+            <l><hi rend="i">Moi, pour vous voir, adorable Ninon,</hi></l>
+            <l><hi rend="i">J'irois de Paris au Japon,</hi></l>
+            <l><hi rend="i">Et du Japon à la Floride.</hi></l>
+          </lg> 
+        </quote>
+      </div>
+      <div type="article" xml:id="MG-1719-05_159b">
+        <head>Vaudeville.</head>
+     <bibl><title>Nouveau Mercure</title>, mai 1719 [tome 5], p.159-161.</bibl>
+        <quote>
+          <label>VAUDEVILLE.</label>
+          <lg>
+            <l><hi rend="i">L'Autre jour prés d'Annette,</hi></l>
+            <l><hi rend="i">Un gros Berger jouflu, lurelu-là.</hi></l>
+            <l><hi rend="i">Rencontrant seulette,</hi></l>
+            <l><hi rend="i">En riant l'aborda, larela.</hi></l>
+            <l><hi rend="i">Lurelu, larela lirette.</hi></l>
+            <l><hi rend="i">Ah, quel drôle voila, lure-là.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">La jeune Bachelette 
+            </hi></l>
+            <l><hi rend="i">Gagna le mamelu, lurelu.</hi></l>
+            <l><hi rend="i">Qui lui contant fleurette,</hi></l>
+            <l><hi rend="i">Tout à coup l'embrassa, larela.</hi></l>
+            <l>Lurelu, &amp;c.<hi rend="i"></hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">La friande poulette</hi></l>
+            <l><hi rend="i">S'écria le goulu, lurelu.</hi></l>
+            <l><hi rend="i">Amour, fais moi l'emplette</hi></l>
+            <l><hi rend="i">De ce petit cœur-là, larela.</hi></l>
+            <l><hi rend="i">Lurelu, &amp;c. </hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Le marché sur l'herbette,</hi></l>
+            <l><hi rend="i">À l'écart fut conclut, lurelu</hi></l>
+            <l><hi rend="i">La novice fillette</hi></l>
+            <l><hi rend="i">Long-tems ne marchanda, larela</hi></l>
+            <l><hi rend="i">Lurelu, &amp;c.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l><hi rend="i">Pour toucher la fillette,</hi></l>
+            <l><hi rend="i">Vive un gros Resolu, lurelu.</hi></l>
+            <l><hi rend="i">Qui tout à la franquette</hi></l>
+            <l><hi rend="i">Et sans facon y va, larela</hi></l>
+            <l><hi rend="i">Lurelu, &amp;c.</hi></l>
+          </lg> 
+          <ab type="ornament">***</ab>
+          <lg>
+            <l>LE VIELLEUX.</l>
+            <l><hi rend="i">Il vous faut des Fauvettes</hi></l>
+            <l><hi rend="i">Qui sçachent becquetter, lerelé.</hi></l>
+            <l><hi rend="i">Aprés les Chansonnettes</hi></l>
+            <l><hi rend="i">Vous torcher le grouin, lerelin.</hi></l>
+            <l><hi rend="i">Lerelé, linrelin lirette,</hi></l>
+            <l><hi rend="i">Levez-vous plus matin.</hi></l>
+          </lg> 
+        </quote>
+      </div>   
+            </body>
+  </text>
+</TEI>

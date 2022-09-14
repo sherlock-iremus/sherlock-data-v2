@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1718-09">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, septembre 1718 [tome 9].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>septembre 1718</date> [tome 9].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1718-09"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, septembre 1718 [tome 9].</head>
+                  
+      <div type="article" xml:id="MG-1718-09_166a">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, septembre 1718 [tome 9], p. 166.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <label><hi rend="i">Menuet du Bal d'Auteüil, composé par Mademoiselle Antier.</hi></label>
+          <lg>
+            <l>Prés d'Iris veux-tu toûjours</l>
+            <l>À ton secours</l> 
+            <l>N'appeller que les Amours ?</l>
+            <l>Amy, ne soupire plus,</l>
+            <l>Et cours au jus de Baccus.</l>
+            <l>Je bois, j'aime, fais de même ;</l>
+            <l>Qu'il est doux dans un festin</l>
+            <l>D'unir la tendresse &amp; le vin !</l>
+            <l>Je bois j'aime, fais de même :</l> 
+            <l>On entend sonner souvent</l>
+            <l>L'heure du Berger en bûvant.</l>
+           </lg>
+        </quote>
+      </div>  
+      <div type="article" xml:id="MG-1718-09_166b">
+        <head>[Chanson]*</head>
+        <bibl><title>Nouveau Mercure </title>, septembre 1718 [tome 9], p. 166-168.</bibl>
+       <quote>
+         <label><hi rend="i">Seconde Chanson en Couplets</hi></label>
+          <lg>
+            <l>Je suis un nouveau Medecin,</l> 
+            <l>Qui, sans rien donner au Sophisme</l>
+            <l>Contre tout mal et tout chagrin</l>
+            <l>Viens vous offrir mon Aphorisme,</l> 
+            <l>Versez-vous promptement de ce jus Bachique,</l> 
+            <l>C’est un spécifique ;</l> 
+            <l>Versez-vous promptement,</l> 
+            <l>Vous serez guéri dans le moment.</l> 
+           </lg>
+         <ab type="ornament">***</ab>
+         <lg><l>Voyez cet Amant malhûreux :</l> 
+         <l>Dans ses yeux sa douleur s’explique ;</l> 
+         <l>Pour lui je crains un sort affreux,</l> 
+         <l>Il pourroit bien mourir éthique.</l> 
+         <l>Versez lui, &amp;c.</l>
+         <l>Il sera gueri dans le moment.</l></lg>
+         <ab type="ornament">***</ab>
+         <lg><l>D’où vient que cet hûreux amant,</l> 
+         <l>Qui peut compter sur sa Maîtresse,</l> 
+         <l>Rêve &amp; soupire incessament,</l> 
+         <l>C’est donc un mal que la tendresse.</l> 
+         <l>Versez lui, &amp;c.</l>
+         <l>Il sera joyeux dans le moment.</l></lg>
+         <ab type="ornament">***</ab>
+         <lg><l>Des Anciens être entêté,</l> 
+         <l>Les suivre en tout, quoiqu’on en dië,</l> 
+         <l>Ce sont vapeurs d’antiquité,</l> 
+         <l>Et vrayement une maladie.</l> 
+         <l>Versez-lui, &amp;c.</l> 
+         <l>Il sera moderne en un moment.</l> </lg>
+         <ab type="ornament">***</ab>
+         <lg><l>Regardez cet enfant de Mars,</l> 
+         <l>Plus redouté que le Tonnere,</l> 
+         <l>La fureur trouble ses regards,</l> 
+         <l>Il a la fiévre de la guerre.</l> 
+         <l>Versez lui, &amp;c.</l> 
+         <l>Il sera paisible en un moment.</l></lg> 
+         <ab type="ornament">***</ab>
+        <lg> <l>Que dites-vous de ce Poltron,</l> 
+         <l>Il n’a pas l’ame meutriere,</l> 
+         <l>Si-tôt qu’il entend le Canon,</l> 
+         <l>On ne le voit que par derriere.</l> 
+         <l>Versez-lui, &amp;c.</l> 
+         <l>Il deviendra brave en un moment.</l></lg>
+         <ab type="ornament">***</ab>
+         <lg><l>Ce vieux Mary sombre &amp; jaloux,</l> 
+         <l>Qui, chaque instant craint ou soupçonne,</l> 
+         <l>S’apercevra du rendez-vous,</l> 
+         <l>Qu’à ses côtez sa femme donne,</l> 
+         <l>Versez-lui, &amp;c.</l> 
+         <l>Il n’y verra goutte en un moment</l></lg>
+         <ab type="ornament">***</ab>
+       <lg><l>Ce Gascon par un rude effort,</l> 
+         <l>D’une beauté sexagenaire</l>
+         <l>Voudroit gagner le coffre fort :</l> 
+         <l>Mais ; peut-il assez pour lui plaire.</l> 
+         <l>Versez-lui, &amp;c.</l> 
+         <l>Le coffre est à lui dans un moment</l></lg> 
+         <ab type="ornament">***</ab>
+         <lg><l>Ton Juge s’endort au Palais,</l> 
+         <l>Son œil assoupi t’inquiette,</l> 
+         <l>Il te va condamner aux frais,</l> 
+         <l>Et vîte, vîte à la Buvette.</l> 
+         <l>Versez lui, &amp;c.</l> 
+         <l>Ta cause ira bien dans le moment.</l></lg>
+         <ab type="ornament">***</ab>
+         <lg><l>Ce Rimeur, pour faire un Sonnet,</l> 
+         <l>Boiroit toute l’eau d’Hiprocrenne,</l> 
+         <l>Il n’en a pas l’esprit plus net,</l> 
+         <l>La rime ou la raison le gêne.</l> 
+         <l>Versez luy, &amp;c.</l> 
+         <l>Toutes deux viendront dans le moment.</l></lg> 
+         <ab type="ornament">***</ab>
+        <lg><l>Ce gras *** par malheur,</l> 
+         <l>Est enrhumé de la poitrine,</l> 
+         <l>Lui qui seroit tout seul un Chœur,</l> 
+         <l>Ne peut plus chanter à Matines.</l> 
+         <l>Versez lui, &amp;c.</l> 
+         <l>Sa voix reviendra dans le moment.</l></lg>
+       </quote>
+      </div>
+            </body>
+  </text>
+</TEI>

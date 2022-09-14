@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-11">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, novembre 1715 [tome 11].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>novembre 1715</date> [tome 11].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-11"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure galant</hi>, novembre 1715 [tome 11].</head>
+                <div type="article" xml:id="MG-1715-11_090">
+                    <head>Chanson</head>
+                  <bibl><title>Nouveau Mercure galant</title>, novembre 1715 [tome 11], p. 90-93.</bibl>
+                  <p>On ajoûte à cette Histoire que la veille de leur hymen, nos deux Amants se chanterent la Chanson suivante, dont les paroles &amp; l'air sont de la composition de l'amoureux oïsif des bords de la Marne.</p>
+                    <quote>
+                      <label>CHANSON.</label><note resp="author" place="margin">La figure doit regarder la p. 91.</note>
+                        <lg>
+                          <l><hi rend="i">Tircis enchanté des beaux yeux</hi></l>
+                          <l><hi rend="i">De sa Climene qu'il adore,</hi></l>
+                          <l><hi rend="i">J'aime, luy dit-il, beaucoup mieux</hi></l>
+                          <l><hi rend="i">Mourir pour vous que soupirer encore.</hi></l>
+                         </lg>
+                        <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">La belle qui sentoit pour luy</hi></l>
+                        <l><hi rend="i">L'ardeur qu'il ressentoit pour elle,</hi></l>
+                        <l><hi rend="i">Si tu meurs, dit elle, aujourd'huy</hi></l>
+                        <l><hi rend="i">Que je sois donc ta compagne fidele.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Attens, mon Berger, attens moy,</hi></l>
+                        <l><hi rend="i">Et connois mon amour extrême ;</hi></l>
+                        <l><hi rend="i">Je ne sçaurois vivre sans toy,</hi></l>
+                        <l><hi rend="i">On meurt heureux avec ce que l'on aime.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Leurs yeux devenus languissants,</hi></l>
+                        <l><hi rend="i">Augmentent l'ardeur de leur flâme,</hi></l>
+                        <l><hi rend="i">L'amour anime tous leurs sens,</hi></l>
+                        <l><hi rend="i">Et de plaisir l'un &amp; l'autre se pâme.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Heureuse mort ! plaisirs charmants</hi></l>
+                        <l><hi rend="i">Dit en ressuscitant la belle,</hi></l>
+                        <l><hi rend="i">Vous deviez durer plus longtemps,</hi></l>
+                        <l><hi rend="i">Vostre douceur devoit estre éternelle.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Helas reprit, en soupirant,</hi></l>
+                        <l><hi rend="i">Tircis à celle qu'il adore,</hi></l>
+                        <l><hi rend="i">Vivons plustost à chaque instant,</hi></l>
+                        <l><hi rend="i">Et ne vivons que pour mourir encore.</hi></l>
+                      </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

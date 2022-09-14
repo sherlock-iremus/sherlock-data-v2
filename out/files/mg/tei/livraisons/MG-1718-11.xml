@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1718-11">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, novembre 1718 [tome 11].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>novembre 1718</date> [tome 11].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1718-11"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, novembre 1718 [tome 11].</head>
+                  
+      <div type="article" xml:id="MG-1718-11_166">
+        <head>[Spectacles]</head>
+        <bibl><title>Nouveau Mercure </title>, novembre 1718 [tome 11], p. 166-171.</bibl>
+        <p>La désolation des deux Comédies, dont le succés fait l’éloge, a donné l’idée d’une autre petite Piece sur le même sujet, qui a été représentée le 20. Novembre sous le titre du <hi rend="i">Procés des Théatres</hi>.</p>
+        <p>On feint que la Muse de la Comedie Françoise &amp; celle de la Comedie Italienne justement irritées contre la Foire, vont porter leurs plaintes au Dieu du Pinde, des manieres outrageantes que cette Muse pretenduë a euës pour elles, &amp; du dommage considerable qu’elle apporte par sa licence, aux deux principaux Theatres qu’Apollon ait sous son Empire, que ces deux Comedies sont sur le point de tomber dans le mépris &amp; dans l’oubli, si par son équité il ne punit cette insolente, en la réduisant dans un état à ne pouvoir leur nuire ni faire tort au bon goût. Apollon leur promet de leur rendre justice, &amp; leur dit de se retirer pour un moment. Il appelle Momus, &amp; lui dit d’aller chercher le Genie de la Foire. Momus part, &amp; pendant ce tems-là, Apollon se fait instruire par Arlequin de l’origine &amp; des raisons qui ont fait naître ce procés. Arlequin les lui déduit d’une maniere fort embroüillée, &amp; lui dit qu’il peut juger quand il lui plaira, puisqu’on décide tous les jours des affaires dont les Juges ne sont pas mieux instruits que lui. Momus revient avec la Foire. Apollon s’assit &amp; ordonne à Momus de faire entrer les deux Comedies ; elles viennent suivies, l’une, d’un Sganarelle &amp; d’un Crispin ; &amp; l’autre, d’un Arlequin &amp; d’un Scaramouche. Apollon fait mettre la Foire sur la sellette, lui dit de répondre aux chefs d’accusation que l’on va proposer contre elle ; &amp; ordonne à la Muse Françoise de plaider : Celle-cy, entre autres raisons, dit que son Theatre est le centre de la majesté &amp; de la grandeur ; que c’est à elle seulle qu’appartient de remuer les passions, &amp; pour le prouver, elle declame des vers de Racine, en joignant à sa déclamation la grace de la charge ou de l’imitation. La Foire répond à cela qu’elle émeut les passions aussi bien qu’elle ; que, par exemple, lorsqu’il faut inspirer de la compassion, un <hi rend="i">or, écoutez petits &amp; grands</hi>, est immanquable ; &amp; que pour donner de la joye, il n’est rien tel qu’un <hi rend="i">flon flon flon la rira don daine</hi>. À ces mots, la Comedie Françoise s’évanoüit, en assûrant Apollon, que proteger la Foire, c’est lui donner la mort. La Muse de la Comédie Italienne prend ensuite la parolle, &amp; soûtient qu’on doit l’interdire à l’Accusée, puisqu’elle ne s’en sert que pour des traits grossiers &amp; satiriques ; que c’est elle qui est seulle en possession de chasser le chagrin &amp; l’ennuy, &amp; quelle ne veut pour le prouver, que le proverbe ordinaire qui dit, <hi rend="i">que quand on voit un homme au partere de la Comedie Italienne, on peut dire qu’il a laissé son chagrin chez lui</hi>, pourvû qu’il ait laissé sa femme ; que d’ailleurs, la Foire n’êtant qu’une usurpation, &amp; une nouveauté sortie des ruines de l’ancienne Comedie Italiene, elle ne doit pas avoir la temerité de paroître &amp; de parler ; mais plutôt, de garder un juste &amp; parfait silence. Enfin, elle conclud à ce qu’elle soit reduite à sa premiere institution ; c’est-à-dire, qu’elle soit condamnée aux sauts &amp; à la corde. </p>
+        <p>Apollon suffisament instruit des raisons de l’une &amp; de l’autre partie, &amp; considerant l’équité qu’il a de supprimer un spectacle, dont les productions ne peuvent être que comme les <hi rend="i">bons intervalles d’un insensé</hi>, &amp; de soûtenir deux Theatres égallement vrays &amp; raisonnables ; Apollon, dis-je, prononce son Arrest, &amp; condamne la Foire à un éternel silence, sans qu’il lui soit permis d’en appeller. Les 2. Comedies triomphantes remercient Apollon &amp; sortent avec lui. La Foire s’étoit imaginée, qu’un Juge aussi équitable &amp; aussi éclairé que celui qui la vient de condamner, se laisseroit éblouir par quelques brillans que le hazard seul lui avoit fourni, mais se voyant desabusée, &amp; sçachant d’ailleurs que tous les moyens de faire retracter ce Dieu, sont interdits, quand l’équité &amp; la raison luy ont dictés ses Arrests ; elle reste seule confuse &amp; desolée : Mais, passant bien-tôt du chagrin au depit, &amp; du depit à la fureur, elle s’exhale en reproches &amp; en injures, contre l’ingratitude de son cousin l’Opera qui, malgré tout le bien qu’elle lui a fait, &amp; la societé où ils ont été si longtemps, l’abandonne dans le moment où son secours lui seroit si necessaire pour deffendre ses droits, en conservant les liens propres. Son desespoir ne lui permet pas de rester plus long-tems, elle sort pour chercher son perfide cousin, &amp; jure de le bien étriller, si elle le rencontre.</p>
+        <p>L’Opera qui avoit appris le sort de sa cousine, vient pour la chercher ; &amp; ne la trouvant point, se plaint de son absence, &amp; la demande, selon sa coûtume, aux bois &amp; aux échos d’alentour. Ses vœux sont exaucez, elle revient, &amp; fait à son cousin tous les reproches que la passion lui suggere : Son desespoir la jette dans une espece de frenesie qui lui cause des fureurs ; puis revenant à elle, &amp; sentant à sa foiblesse qu’elle est proche de sa fin ; elle pardonne à son cousin tout le mal qu’il lui a fait, &amp; le prie de se souvenir d’elle ; mais les forces lui manquant, &amp; voulant mourir sur le grand ton, elle recite heroiquement plusieurs vers, &amp; finit par celui cy, en se jettant dans les  bras de l’Opera.</p>
+        <quote><l><hi rend="i">Reçois, mon cher cousin, l’ame de ta cousine.</hi></l></quote>
+        <p>Elle lui rend l’esprit, &amp; l’Opera par reconnoissance, l’emporte avec lui. Dans le même moment, les deux Comédies viennent avec leurs suittes, aprennent la nouvelle de la mort de la Foire leur commune ennemie, &amp; se jurant une amitié fidelle, elles témoignent leur joye par des chants &amp; des dances, où les deux suittes, pour marquer leur union, s’embrassent &amp; se meslent les unes avec les autres. Le divertissement est terminé par un Vaudeville, dont voici les couplets, &amp; dont on trouvera l’air noté aprés l’air ordinaire du mois.</p>
+        <quote>
+          <label>VAUDEVILLE.</label>
+          <lg>
+            <l><hi rend="i">Nous n'avons plus de vœux à faire,</hi></l>
+            <l><hi rend="i">Chez nous Paris abondera,</hi></l>
+            <l><hi rend="i">Nôtre galere laire lanlaire, oh gué lon la,</hi></l>
+            <l><hi rend="i">Nôtre galere sans vent contraire voguera.</hi></l>
+            </lg>
+          <lg>
+            <l>Une Actrice Italienne.</l>
+            <l><hi rend="i">La Foire est contrainte à se taire,</hi></l>
+            <l><hi rend="i">Nôtre Troupe triomphera,</hi></l>
+            <l><hi rend="i">Nôtre galere, &amp;..</hi></l>
+          </lg>
+          <lg>
+            <l>La Comedie Françoise.</l>
+            <l><hi rend="i">Long tems de ma juste colere</hi></l>
+            <l><hi rend="i">La Foire se ressentira, </hi></l>
+            <l><hi rend="i">Nôtre galere, &amp;..</hi></l>
+          </lg>
+          <lg>
+            <l>La Comedie Italienne.</l>
+            <l><hi rend="i">Au public ne songeons qu'à plaire.</hi></l>
+            <l><hi rend="i">À bon port il nous conduira.</hi></l>
+            <l><hi rend="i">Nôtre galere, &amp;..</hi></l>
+          </lg>
+          <lg>
+            <l>Arlequin.</l>
+            <l><hi rend="i">Nôtre Apollon est le partere,</hi></l>
+            <l><hi rend="i">Quand pour nous il decidera.</hi></l>
+            <l><hi rend="i">Nôtre galere, &amp;c </hi></l>
+          </lg>
+        </quote>
+      </div>  
+      <div type="article" xml:id="MG-1718-11_175">
+        <head>Chanson</head>
+        <bibl><title>Nouveau Mercure </title>, novembre 1718 [tome 11], p.175.</bibl>
+       <quote>
+         <label>CHANSON.</label>
+          <lg>
+            <l>Chansons, que la table a vû naître ;</l> 
+            <l>Vous avez crû peut-être</l>
+            <l>Que Bacchus vous donnoit le jour :</l>
+            <l>Bachus, sa suite a beau paroître ;</l> 
+            <l>L'ingrate Iris n'est plus ce qu'elle devoit être.</l> 
+            <l>Mon esprit ni ma voix n'ont plus le même tour.</l> 
+            <l>Helas Chansons ! Je commence à connoître</l> 
+            <l>Que vous étiez des enfans de l'Amour.</l>
+           </lg>
+       </quote>
+      </div>
+            </body>
+  </text>
+</TEI>

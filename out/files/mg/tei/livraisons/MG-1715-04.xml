@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1715-04">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, avril 1715 [tome 4].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>avril 1715</date> [tome 4].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1715-04"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, avril 1715 [tome 4].</head>
+                <div type="article" xml:id="MG-1715-04_266">
+                    <head>[Chanson]</head>
+                    <bibl><title>Nouveau Mercure galant</title>, avril 1715 [tome 4], p. 267-271.</bibl>
+                  <label>AUTRE HISTOIRE</label>
+                  <label><hi rend="i">plus courte que la precedente</hi>.</label>
+                  <p>Mademoiselle Pipi, jeune, belle &amp; bien faite, estant il y a quelques jours à Paris, où elle est encore, y fut aimée d'un beau Jouvenceau qui charmé de ses doux attraits, dont il s'enyvre tous les jours, luy promit de lui donner la plus grande preuve d'amour qu'un Amant puisse donner à sa belle, il luy jura de l'aimer jusqu'au tombeau, mais ce serment n'est souvent qu'une bagatelle, aussi ne s'en contenta-t'elle pas, il luy parla de Mariage en termes assez pressants, il est riche, elle n'est que belle, elle l'écouta, cela est dans la regle ; mais elle ne se rendit pas pour cela. L'Amant desesperé de ses rigueurs luy promit enfin d'immortaliser son Nom, il le fit, ou crut le faire par cette chanson qu'il luy envoya, &amp; qu'elle m'a renvoyée. Sa vanité en fut flattée, elle se rendit, ou du moins elle est, dit-on, preste à se rendre. Jugez, Messieurs, si la chose en vaut la peine.</p>
+                    <quote>
+                      <label>CHANSON.</label>
+                        <lg>
+                          <l><hi rend="i">De Paris jusqu'au Missipi<note resp="editor" place="margin">"Mississipi" dans la source musicale</note>,</hi></l>
+                          <l><hi rend="i">Est-il rien qui charme autant que Pipi,</hi></l>
+                          <l><hi rend="i">Lorsque l'Amour se sent assoupi,</hi></l>
+                          <l><hi rend="i">Pour se reveiller il va voir Pipi ;</hi></l>
+                          <l><hi rend="i">Elle le tente,</hi></l>
+                          <l><hi rend="i">Elle l'enchante,</hi></l>
+                          <l><hi rend="i">Pour peu qu'il sente,</hi></l>
+                          <l><hi rend="i">Sa flamme lente,</hi></l>
+                          <l><hi rend="i">Pour se reveiller il va voir Pipi.</hi></l>
+                        </lg>
+                      <lg>
+                        <l><hi rend="i">Dame Venus a beaucoup glapi,</hi></l>
+                        <l><hi rend="i">De puis que son Fils frequente pipi,</hi></l>
+                        <l><hi rend="i">Dans ses beaux yeux en secret tapi,</hi></l>
+                        <l><hi rend="i">Il fait sur Venus triompher pipi.</hi></l>
+                        <l><hi rend="i">Toujours chez elle,</hi></l>
+                        <l><hi rend="i">Grace nouvelle,</hi></l>
+                        <l><hi rend="i">Et l'immortelle,</hi></l>
+                        <l><hi rend="i">En a dans l'aisle,</hi></l>
+                        <l><hi rend="i">Il fait sur Venus triompher pipi.</hi></l>
+                      </lg>
+                      <lg>
+                        <l><hi rend="i">Le blanc si fin qui naist dans l'Epi,</hi></l>
+                        <l><hi rend="i">Le cede en blancheur au teint de Pipi :</hi></l>
+                        <l><hi rend="i">Le lait, l'œuf frais, la pomme d'Api,</hi></l>
+                        <l><hi rend="i">Perdent leur couleur auprès de Pipi,</hi></l>
+                        <l><hi rend="i">Le jasmin mesme,</hi></l>
+                        <l><hi rend="i">Y paroist blesme</hi></l>
+                        <l><hi rend="i">Le Lys, la Rose,</hi></l>
+                        <l><hi rend="i">À peine éclose,</hi></l>
+                        <l><hi rend="i">Perdent leurs couleurs auprès de pipi.</hi></l>
+                      </lg>
+                      <lg>
+                        <l><hi rend="i">Le cœur n'a ni quartier, ni repi,</hi></l>
+                        <l><hi rend="i">Quand les yeux on vû l'aimable Pipi ;</hi></l>
+                        <l><hi rend="i">Chez la Guerbois, ni chez la Crespy,</hi></l>
+                        <l><hi rend="i">Non rien ne ragouste autant que Pipi ;</hi></l>
+                        <l><hi rend="i">Perdrix, Poularde,</hi></l>
+                        <l><hi rend="i">Faisans, Outarde,</hi></l>
+                        <l><hi rend="i">Soit qu'on les barde,</hi></l>
+                        <l><hi rend="i">Ou qu'on les larde,</hi></l>
+                        <l><hi rend="i">Non, rien ne ragouste autant que Pipi.</hi></l>
+                      </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

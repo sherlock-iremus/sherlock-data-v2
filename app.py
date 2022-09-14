@@ -87,15 +87,16 @@ if state == "go":
             print("### " + task["project_name"])
             print("#" * 80)
             for step in task["steps"]:
-                print(step)
                 if "git" in step:
                     subprocess.run([f"cd {step['git']} ; git pull origin {step['branch']}"], shell=True)
-            # args = []
-            # for arg_k, arg_v in task["script"]["args"].items():
-            #     args.append("--"+arg_k)
-            #     args.append(arg_v)
-            # subprocess.run([
-            #     sys.executable if task["script"]["file"][-3:] == ".py" else "sh",
-            #     task["script"]["file"],
-            #     *args
-            # ])
+                elif "script" in step:
+                    if step["script"][-3:] == ".py":
+                        args = []
+                        for arg_k, arg_v in step["args"].items():
+                            args.append("--"+arg_k)
+                            args.append(arg_v)
+                        subprocess.run([sys.executable, step["script"], *args])
+                    elif step["script"][-3:] == ".sh":
+                        cmd = ""
+                        cmd += step["script"]
+                        subprocess.run(["sh", cmd], env=step["args"])

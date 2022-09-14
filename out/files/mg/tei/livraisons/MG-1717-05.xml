@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1717-05">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, mai 1717 [tome 5].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>mai 1717</date> [tome 5].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1717-05"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, mai 1717 [tome 5].</head>
+                  
+      <div type="article" xml:id="MG-1717-05_149a">
+        <head>Chanson</head>
+        <bibl><title>Nouveau Mercure </title>, mai 1717 [tome 5], p. 149.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Le Printems par son retour,</hi></l>
+            <l><hi rend="i">À nos Bois rend leur parure,</hi></l>
+            <l><hi rend="i">Tout change en ce beau séjour ;</hi></l>
+            <l><hi rend="i">Belle Iris change à ton tour</hi></l>
+            <l><hi rend="i">Avec toute la Nature.</hi></l>
+            <l><hi rend="i">Un jeune Cœur sans Amour,</hi></l>
+            <l><hi rend="i">Est un Printems sans verdure.</hi></l>
+          </lg>  
+        </quote>
+      </div> 
+      <div type="article" xml:id="MG-1717-05_149b">
+        <head>[Chanson]*</head>
+        <bibl><title>Nouveau Mercure </title>, mai 1717 [tome 5], p. 149-150.</bibl>
+        <quote>
+          <label>AUTRE</label>
+          <label>À mettre en Musique le mois prochain.</label>
+          <lg>
+            <l><hi rend="i">Tout est un jeu dans la vie,</hi></l>
+            <l><hi rend="i">Un jeu de mots fait la Philosophie;</hi></l>
+            <l><hi rend="i">La Medecine est une momerie ;</hi></l>
+            <l><hi rend="i">Chez Themis que de Tricherie !</hi></l>
+            <l><hi rend="i">Par ses jeux Mars met tout en feu,</hi></l>
+            <l><hi rend="i">Et Venus par filouterie</hi></l>
+            <l><hi rend="i">Fait valoir le fin de son Jeu</hi></l>
+            <l><hi rend="i">Tout est un jeu dans la vie.</hi></l>
+          </lg>  
+        </quote>
+      </div> 
+            </body>
+  </text>
+</TEI>

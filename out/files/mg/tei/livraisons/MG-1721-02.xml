@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1721-02">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, février 1721 [tome 2].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>février 1721</date> [tome 2].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1721-02"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, février 1721 [tome 2].</head>
+                  
+      <div type="article" xml:id="MG-1721-02_137a">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, février 1721 [tome 2], p.136-137.</bibl>
+        <quote>
+          <label>CHANSON.</label>
+          <lg>
+            <l><hi rend="i">Je vous nomme sans que j'y pense ;</hi></l>
+            <l><hi rend="i">Votre entretien me charme, &amp; je crains votre absence :</hi></l> 
+            <l><hi rend="i">J'aime à causer tous vos desirs,</hi></l>
+            <l><hi rend="i">Et votre rencontre imprevû.</hi></l> 
+            <l><hi rend="i">Me cause de certains plaisirs,</hi></l>
+            <l><hi rend="i">Que je ne sens qu'à votre vûë.</hi></l> 
+            <l><hi rend="i">Je songe à vous, malgré moi-même :</hi></l>
+            <l><hi rend="i">Je crois vous voir la nuit, je vous cherche le jour,</hi></l> 
+            <l><hi rend="i">Si ce n'est pas là comme on aime,</hi></l> 
+            <l><hi rend="i">Apprenez-moi enfin ce que c'est que l'Amour.</hi></l> 
+          </lg>
+        </quote>
+      </div>   
+      <div type="article" xml:id="MG-1721-02_137b">
+        <head>Chanson.</head>
+        <bibl><title>Nouveau Mercure </title>, février 1721 [tome 2], p.137-138.</bibl>
+        <p>Nous ne donnons la Pastorale suivante qu’en faveur de la nouveauté des paroles, &amp; nous n’avons pas jugé à propos de la faire graver, cet air ayant assez couru Paris.</p>
+        <quote>
+          <label><hi rend="i">Sur l’Air, <hi rend="i">Petit à petit l’Oiseau fait son nid</hi></hi>.</label>
+          <lg>
+            <l><hi rend="i">Un cœur couronné par l’amour</hi></l>
+            <l><hi rend="i">Ce n’est pas l’ouvrage d’un jour ;</hi></l> 
+            <l><hi rend="i">Alloit cherchant trop curieuse</hi></l>
+            <l><hi rend="i">Quel étoit son amant caché:</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Sans doute c’est un heritage</hi></l>
+            <l><hi rend="i">De l’Amante de Cupidon,</hi></l> 
+            <l><hi rend="i">Ayant sa beauté pour partage</hi></l>
+            <l><hi rend="i">Elle vous fit aussi ce don:</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Cherchez vous un Amant fidele</hi></l>
+            <l><hi rend="i">Et dont le feu soit éprouvé,</hi></l> 
+            <l><hi rend="i">Ne cherchez pas si loin la belle</hi></l>
+            <l><hi rend="i">Vous en avez un tout trouvé:</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Sans le secours de cette Lampe</hi></l>
+            <l><hi rend="i">Vous trouverez l’Amour vainqueur,</hi></l> 
+            <l><hi rend="i">Auprès de vous toujours il campe,</hi></l>
+            <l><hi rend="i">Il se repose dans mon cœur:</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Il n’oseroit vous faire entendre</hi></l>
+            <l><hi rend="i">Quelle est pour vous sa vive ardeur,</hi></l> 
+            <l><hi rend="i">Ses feux sont cachez sous la cendre</hi></l>
+            <l><hi rend="i">Assoupis par votre froideur:</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Imitez donc cette imprudente,</hi></l>
+            <l><hi rend="i">Ne le laissez point sommeiller,</hi></l> 
+            <l><hi rend="i">Par une goutte d’huile ardente</hi></l>
+            <l><hi rend="i">Hastez-vous de le reveiller.</hi></l>
+          </lg>
+        </quote>
+      </div>
+            </body>
+  </text>
+</TEI>

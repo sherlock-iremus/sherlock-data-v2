@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1714-12">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure galant, décembre 1714 [tome 8].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure galant</title>, <date>décembre 1714</date> [tome 8].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1714-12"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Nouveau Mercure galant</hi>, décembre 1714 [tome 8].</head>
+                <div type="article" xml:id="MG-1714-12_269">
+                  <head>Ode anacréontique.</head>
+                    <bibl><title>Nouveau Mercure galant</title>, décembre 1714 [tome 8], p. 269-272.</bibl>
+                  <p>En attendant qu'on en fasse sur ce sujet, nous chanterons si vous voulez la Chanson suivante.</p>
+                    <quote>
+                      <label>ODE ANACREONTIQUE. </label>
+                        <lg>
+                          <l><hi rend="i">Maudit soit le mortel avare</hi></l>
+                          <l><hi rend="i">Qui de la terre tira l'or,</hi></l>
+                          <l><hi rend="i">Et le jour où le sort barbare</hi></l>
+                          <l><hi rend="i">Luy montra ce fatal trésor.</hi></l>
+                          <l><hi rend="i">Avant ce jour la plus severe</hi></l>
+                          <l><hi rend="i">Cedoit à de tendres langueurs,</hi></l>
+                          <l><hi rend="i">Il ne falloit qu'aimer pour plaire,</hi></l>
+                          <l><hi rend="i">Les cœurs estoient le prix des cœurs.</hi></l>
+                        </lg>
+                        <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Soupirs, transports, ardeurs fidelles,</hi></l>
+                        <l><hi rend="i">C'en est fait n'esperez plus rien,</hi></l>
+                        <l><hi rend="i">L'or est le seul maistre des belles,</hi></l>
+                        <l><hi rend="i">Il vous a vollé vostre bien.</hi></l>
+                        <l><hi rend="i">Avant ce jour, &amp;c.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Depuis un an prés de Glycere,</hi></l>
+                        <l><hi rend="i">Je perds le plus ardent amour,</hi></l>
+                        <l><hi rend="i">Ce qu'un an d'amour n'a pû faire,</hi></l>
+                        <l><hi rend="i">L'or le vient de faire en un jour.</hi></l>
+                        <l><hi rend="i">Avant ce jour, &amp;c.</hi></l>
+                      </lg>
+                      <ab type="ornament">***</ab>
+                      <lg>
+                        <l><hi rend="i">Fatalité trop importune</hi></l>
+                        <l><hi rend="i">Faut-il donc pour me faire aimer,</hi></l>
+                        <l><hi rend="i">Me résoudre à faire fortune.</hi></l>
+                        <l><hi rend="i">J'aime autant ne plus m'enflamer.</hi></l>
+                        <l><hi rend="i">Avant ce jour, &amp;c.</hi></l>
+                      </lg>
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

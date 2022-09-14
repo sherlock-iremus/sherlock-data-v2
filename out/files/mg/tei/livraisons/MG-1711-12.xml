@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1711-12">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mercure galant, décembre 1711 [tome 12].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Mercure galant</title>, <date>décembre 1711</date> [tome 12].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1711-12"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+                <head><hi rend="i">Mercure galant</hi>, décembre 1711 [tome 12].</head>
+                <div type="article" xml:id="MG-1711-12_064">
+                    <head>[Chanson du Tabac.]*</head>
+                    <bibl><title>Mercure galant</title>, décembre 1711 [tome 12], deuxième partiep. 64-68.</bibl>
+                  <p>« On s'est déja plaint plusieurs fois que je donnois des Chansons anciennes : mais on s'est plaint bien plus encore de ce que j'avois interrompu la suite de mes Chansons de Caractere que j'avois promises au Public, &amp; qu'on y chante tout autrement que je ne les ay composées, parce que je ne les ay jamais fait noter. Cette derniere consideration l'emporte, car elle est aidée de l'envie que j'ay de les mettre à couvert de l'oubly &amp; de l'<hi rend="i">estropiement</hi>.</p>
+                    <quote>
+                      <label>CHANSON du Tabac.</label>
+                        <lg>
+                          <l><hi rend="i">D'où me vient cette sombre humeur ?</hi></l>
+                          <l><hi rend="i">Pourquoy mes foibles yeux craignent-ils la lumiere ?</hi></l>
+                          <l><hi rend="i">Pourquoy suis-je acablé d'une triste langueur ?</hi></l>
+                          <l><hi rend="i">Ah ! je n'ay point ma Tabatiere !</hi></l>
+                          <l><hi rend="i">Point de Tabac, helas ! plaisir, santé,</hi></l>
+                          <l><hi rend="i">Raison, vivacité,</hi></l>
+                          <l><hi rend="i">Tout avec mon Tabac est resté sur ma Table.</hi></l>
+                          <l><hi rend="i">Amy secourable, Le tien est-il bon....... detestable ;</hi></l>
+                          <l><hi rend="i">Il est parfumé.</hi></l>
+                          <l><hi rend="i">Àdesim, Àdesim, à de simple Tabac je suis accoustumé.</hi></l>
+                          <l><hi rend="i">Cet autre est plus agreable.</hi></l>
+                          <l><hi rend="i">Ah ! qu'il est aimable !</hi></l>
+                          <l><hi rend="i">Ah ! quelle volupte !</hi></l>
+                          <l><hi rend="i">Dieu du Tabac que tes Autels</hi></l>
+                          <l><hi rend="i">Soient encensés par les mortels</hi></l>
+                          <l><hi rend="i">Que du plus noir Petun mille Pipes fumantes</hi></l>
+                          <l><hi rend="i">Te fournissent d'encens.</hi></l>
+                          <l><hi rend="i">Que les Beautez les plus charmantes</hi></l>
+                          <l><hi rend="i">Se barboüillent de tes presens.</hi></l>
+                          <l><hi rend="i">Que tes doyens enchifrenez</hi></l>
+                          <l><hi rend="i">Chantent du Nez</hi></l>
+                          <l><hi rend="i">Tes plaisirs forcenez,</hi></l>
+                          <l><hi rend="i">Et que pour te rendre propice,</hi></l>
+                          <l><hi rend="i">Ton Temple retentisse</hi></l>
+                          <l><hi rend="i">D'éternuements</hi></l>
+                          <l><hi rend="i">Et de reniflements.</hi></l>
+                          <l><hi rend="i">Ton Temple retentisse</hi></l>
+                          <l><hi rend="i">D'éternuements</hi></l>
+                          <l><hi rend="i">Et de reniflements.</hi></l>
+                        </lg> 
+                    </quote>
+                </div>        
+            </body>
+  </text>
+</TEI>

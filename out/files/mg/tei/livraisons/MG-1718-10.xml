@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1718-10">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, octobre 1718 [tome 10].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>octobre 1718</date> [tome 10].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1718-10"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, octobre 1718 [tome 10].</head>
+                  
+      <div type="article" xml:id="MG-1718-10_115">
+        <head>[Spectacles]</head>
+        <bibl><title>Nouveau Mercure </title>, octobre 1718 [tome 10], p. 115-119.</bibl>
+        <p>La solitude, qui regne depuis longtems dans le Théatre François &amp; dans le Théatre Italien, jointe au bruit qui a couru, que quelques Acteurs de la Troupe Italienne vouloient aller revoir leur Patrie, a fourny aux sieurs Lelio &amp; Dominique, l’idée d’une petite Piece Françoise, ornée de musique &amp; de dances, qu’ils ont intitulée <hi rend="i">la désolation des deux Comedies</hi>. Le succés qu’elle a û jusqu’à present, lui répond de la réussite.</p>
+        <p>Le Théatre represente une Salle de Comedie démeublée : Dans le fonds, l’on voit un rideau à moitié levé, &amp; qui laisse voir la muraille ; les côtez ou cantonades ne sont garnis que de simples chassis, décorations sans toilles ; &amp; des gagistes avec des échelles, paroissent prêts à défaire ce qui reste dans cette Salle.</p>
+        <p>Trivelin s’avance &amp; recite un monologue en vers, dans lequel il décrit le triste état où la Troupe se trouve. Sylvia vient &amp; lui reproche de ce qu’il adresse ses plaintes aux échos, au lieu de venir encourager ses camarades à rester, ou à prendre une résolution qui leur soit profitable : Dans le même tems, les. Violons joüent une marche triste &amp; languissante, &amp; l’on voit arriver tous les Comediens deux à deux, l’air abbatu, &amp; se ranger ensuitte sur le bord du Théatre. Là, on tient Conseil, &amp; chacun dit son avis &amp; sa derniere résolution : Lelio qui n’a pas perdu tout espoir de ramener le public, fait des reproches à sa femme sur la résolution qu’elle a prise de s’en retourner en Italie ; mais, elle persiste dans son dessein, &amp; les quitte. Lelio voyant que quelques-uns de ses camarades sont de son avis, les emmene avec lui pour tâcher de mettre sa femme à la raison. À peine sont-ils sortis, que la Muse de la Comedie Françoise vient voir celle de la Comedie Italienne : Ces deux Dames se font beaucoup de civilitez &amp; de complimens sur leur mauvaise santé, &amp; sur la disette de Spectateurs qu’elles éprouvent depuis long-temps, malgré la bonté, la beauté &amp; la magnificence de leurs Jeux &amp; de leurs Spectacles : Elles sont interrompuës par la Muse de la Foire (si l’on peut l’appeller ainsi) qui vient pareillement faire ses adieux à la Comedie Italienne, sur l’avis qu’elle a eu de son départ. Cette dixiéme Muse du bas Parnasse donne (moitié en Vaudevilles &amp; moitié en Prose) des avis à l’une &amp; à l’autre Muse, qu’elle a la témerité d’appeller ses sœurs. La Muse Françoise lui répond en vers héroïques, &amp; par une Parodie de Phedre, dans laquelle elle excite la Muse Italienne à se joindre à elle, pour se venger de cet ennemi commun qui a l’insolence de les braver encore. Mais, comme elle ne peut parler que de son langage ordinaire, &amp; que les basses plaisanteries sont communément son apanage, elle oblige ses deux ennemies de lui ceder la place : Elle se felicite de sa victoire, &amp; fait part de sa joye à son cousin l’Opera qu’elle voit arriver : Ces deux bons amis se font mutuellement des complimens ; l’Opera promet sa protection à sa cousine la Foire, &amp; celle cy promet à l’Opera de lui augmenter sa pension. C’est assûrement une chose des plus comiques, que de voir l’Opera ne parler qu’en chantant, la Foire en Vaudevilles, &amp; la Comedie Françoise en déclamant des vers Alexandrins. Une Symphonie gaye annonce l’arrivée des suivans de la Foire, qui viennent prendre part à la joye de leur maîtresse : Ces suivans qui sont un Arlequin, une Arlequine &amp; un Scaramouche, un Polichinelle &amp; une Dame Ragonde, dansent une Chaconne ; aprés quoy, l’on chante le Vaudeville sur le départ de la Comedie Italienne, dont voicy les principaux couplets, &amp; dont on trouvera l'air noté dans la Chanson de ce mois.</p>
+        <quote>
+          <label><hi rend="i">La désolation des deux Comedies.</hi></label>
+          <lg>
+            <l><hi rend="i">Couplets.</hi></l>
+            <l>Nôtre fortune est certaine :</l>
+            <l> La Foire désormais à Paris brille,</l> 
+            <l>La Troupe Italienne</l>
+            <l>Faridondaine &amp; lon la ;</l>
+            <l>La Troupe Italienne</l>
+            <l>Faridondaine partira.</l>
+            </lg>
+          <lg>
+            <l><hi rend="i">L'Opera.</hi></l>
+            <l>Sur les rives de la Seine</l>
+            <l>L'on verra triompher la Foire &amp; l'Opera.</l> 
+            <l>La Troupe Italienne</l>
+            <l>Faridondaine &amp; lon la ;</l>
+            <l>La Troupe Italienne</l>
+            <l>Faridondaine &amp;c.</l>
+          </lg>
+          <lg>
+            <l><hi rend="i">La Foire,</hi></l>
+            <l>À Dieu, Dame Melpomene,</l>
+            <l>Cedés, cedés la place au Comique Opera.</l> 
+            <l>La Troupe Italienne</l>
+            <l>Faridondaine &amp;c.</l>
+          </lg>
+        </quote>
+          <p>Après ces Couplets, Arlequin de la Comedie Italienne, vient chanter.</p>
+        <quote>
+          <lg><l>Ne faites pas tant la vaine,</l> 
+          <l>Le public, malgré vous, me favorisera,</l> 
+          <l>La Troupe Italienne Faridondaine &amp; lon la ;</l> 
+          <l>La Troupe Italienne</l> 
+          <l>Faridondaine restera.</l></lg>
+        </quote>
+        <p>Ensuite, il chasse l'<hi rend="i">Opera</hi> &amp; la <hi rend="i">Foire</hi>, les reconduit à coup de lattes, &amp; vient au Parterre chanter le dernier couplet.</p>
+        <quote>
+          <lg>
+            <l>Rendez ma gloire certaine,</l> 
+            <l>Messieurs, repetez-tous, pour braver l'Opera,</l> 
+            <l>La Troupe Italienne Faridondaine &amp; lon la ;</l> 
+            <l>La Troupe Italienne</l> 
+            <l>Faridondaine restera.</l>
+          </lg>
+        </quote>
+        <p>Ce qui est si bien reçû du Parterre, que tout le monde repete en s'en allant, ce dernier couplet.</p>
+      </div>  
+      <div type="article" xml:id="MG-1718-10_139">
+        <head>Chanson</head>
+        <bibl><title>Nouveau Mercure </title>, octobre 1718 [tome 10], p.139.</bibl>
+       <quote>
+         <label>CHANSON.</label>
+         <label><hi rend="i">Marche des Vendangeurs ;</hi></label>
+          <lg>
+            <l>Venés, venés tous vendanger chez nous ;</l> 
+            <l>Bachus, protecteur de ces lieux,</l>
+            <l>Vous offre ici raisins délicieux :</l>
+            <l>Chantés d'un air joyeux</l> 
+            <l>Les bienfaits du plus grand des Dieux.</l> 
+            <l>C'est par son appuy,</l> 
+            <l>Que nous recueillons aujourd'huy,</l> 
+            <l>Sur ces doux &amp; riants côteaux,</l> 
+            <l>De quoi remplir nos vastes tonneaux.</l>
+            <l>Ce Dieu sensible à nos desirs,</l>
+            <l>Assûre &amp; sa gloire &amp; nos plaisirs.</l>
+           </lg>
+       </quote>
+      </div>
+            </body>
+  </text>
+</TEI>

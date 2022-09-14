@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1719-11">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nouveau Mercure, novembre 1719 [tome 11].</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2017"/>
+        <idno>http://obvil.sorbonne-universite.fr/corpus/mercure-galant/MG-1710-01</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire d’Excellence «
+    Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle
+    sur les bases de données (L341-1) est mise à disposition de la communauté
+    scientifique internationale par l’OBVIL, selon les termes de la licence Creative
+    Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification
+    3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication
+    dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout
+    l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique,
+    toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+    électronique, notamment en intégrant toutes les contributions extérieures, la
+    diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Nouveau Mercure</title>, <date>novembre 1719</date> [tome 11].</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1719-11"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head><hi rend="i">Nouveau Mercure</hi>, novembre 1719 [tome 11].</head>
+     <div type="article" xml:id="MG-1719-11_116">
+        <head>Vaudeville.</head>
+       <bibl><title>Nouveau Mercure </title>, novembre 1719 [tome 11], p.116-117.</bibl>
+        <quote>
+          <label>VAUDEVILLE.</label>
+          <lg>
+            <l><hi rend="i">Un Gascon, rusé matois,</hi></l>
+            <l><hi rend="i">Mais mince actionnaire,</hi></l> 
+            <l><hi rend="i">Par ses seuls galans exploits</hi></l>
+            <l><hi rend="i">Connu dans cette Terre,</hi></l> 
+            <l><hi rend="i">D'un tendron friand y fit choix,</hi></l>
+            <l><hi rend="i">Avant le terme des dix mois</hi></l> 
+            <l><hi rend="i">La fille sera mere.</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix,</hi></l>
+            <l><hi rend="i">C'est une autre Cithere.</hi></l>
+            </lg> 
+          <lg>
+            <l><hi rend="i">D'une attentive maman</hi></l>
+            <l><hi rend="i">La fille trop gênée :</hi></l> 
+            <l><hi rend="i">Esperoit innocemment</hi></l>
+            <l><hi rend="i">Se joindre à la mêlée.</hi></l> 
+            <l><hi rend="i">Elle y rencontra maints grivois :</hi></l>
+            <l><hi rend="i">Gare le produit des dix mois.</hi></l> 
+            <l><hi rend="i">La Belle y fut visée.</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix.</hi></l>
+            <l><hi rend="i">Oh ! l'aimable contrée.</hi></l>
+          </lg> 
+          <lg>
+            <l><hi rend="i">Un minois de soixante ans</hi></l>
+            <l><hi rend="i">Lassé d'un long veuvage,</hi></l> 
+            <l><hi rend="i">Fit choix pour son passe temps</hi></l>
+            <l><hi rend="i">D'un Musicien sage.</hi></l> 
+            <l><hi rend="i">Il se fit avancer les mois,</hi></l>
+            <l><hi rend="i">Agiota ; puis au minois,</hi></l> 
+            <l><hi rend="i">Chanta pour tout ramage :</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix.</hi></l>
+            <l><hi rend="i">J'y gagne un Equipage.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">La fille d'un Procureur,</hi></l>
+            <l><hi rend="i">D'humeur un peu coquette,</hi></l> 
+            <l><hi rend="i">Par un jeune agioteur</hi></l>
+            <l><hi rend="i">Se fit conter fleurette.</hi></l> 
+            <l><hi rend="i">Il raconta pour ses exploits</hi></l>
+            <l><hi rend="i">Combien il gagnoit chaque mois.</hi></l> 
+            <l><hi rend="i">Elle en fut satisfaite.</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix,</hi></l>
+            <l><hi rend="i">Pour faire une amourette.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Un Abbé de ces cantons</hi></l>
+            <l><hi rend="i">Cherchant quelques novices,</hi></l> 
+            <l><hi rend="i">Trocqua pour avoir des fonds</hi></l>
+            <l><hi rend="i">Un de ses Benefices.</hi></l> 
+            <l><hi rend="i">Il en fit d'utiles emplois ;</hi></l>
+            <l><hi rend="i">Avant le terme des dix mois</hi></l> 
+            <l><hi rend="i">Il en vit les premices.</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix,</hi></l>
+            <l><hi rend="i">Les fonds y sont propices.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Un Laquais d'Agioteur,</hi></l>
+            <l><hi rend="i">En moins d'une journée,</hi></l> 
+            <l><hi rend="i">Sçût par un coup de bonheur</hi></l>
+            <l><hi rend="i">Changer sa destinée.</hi></l> 
+            <l><hi rend="i">Aujourd'huy fier de ses exploits,</hi></l>
+            <l><hi rend="i">Il éclabousse le Bourgeois</hi></l> 
+            <l><hi rend="i">Qu'il servoit l'autre année.</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix</hi></l>
+            <l><hi rend="i">Pour les gens de livrée.</hi></l>
+          </lg>
+          <lg>
+            <l><hi rend="i">Nous nous croyons trop heureux,</hi></l>
+            <l><hi rend="i">Quand nous pouvons vous plaire ;</hi></l> 
+            <l><hi rend="i">Lorsque vous sortez joyeux,</hi></l>
+            <l><hi rend="i">Rien ne nous est contraire.</hi></l> 
+            <l><hi rend="i">La troupe chante à haute voix ;</hi></l>
+            <l><hi rend="i">J'ay part au produit des dix mois</hi></l> 
+            <l><hi rend="i">Sans être actionnaire.</hi></l>
+            <l><hi rend="i">Vive, vive, vive le Quinquempoix,</hi></l>
+            <l><hi rend="i">Et vive le Parterre.</hi></l>
+          </lg>
+        </quote>
+      </div>      
+            </body>
+  </text>
+</TEI>
