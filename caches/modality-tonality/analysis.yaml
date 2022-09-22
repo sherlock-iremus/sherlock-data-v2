@@ -1,0 +1,1525 @@
+D14:
+  theoreticalModels.AnalysisOnto•AnalysisOnto•addZarlinoModalAnalysisToWork:
+    uuid: c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8
+    D10:
+      uuid: a48c10d7-fa32-4843-af26-00770db66ff2
+      E52:
+        '2022-03-07T18:03:37.765935':
+          uuid: c1804198-e85d-440d-af2d-455055a93561
+  clefsAndKeys•ClefsAndKeysAnalysis•hasAmbitus:
+    uuid: 97552eff-25b2-49ae-90e6-b72d15201bbb
+    D10:
+      uuid: 5756ce18-00a8-4aa6-9f10-2fb7df301cc9
+      E52:
+        '2022-03-07T18:03:37.837942':
+          uuid: c77a1ccf-ee78-4875-9597-3858dd4e3316
+  cadenceAnalysis•Cadences•identifyCadencesFromVoiceAnnotations:
+    uuid: 0d0b46eb-0bab-486a-bfea-a9eeb23fa619
+    D10:
+      uuid: 7dd066f6-15c9-4e17-a9db-cd4e9802b729
+      E52:
+        '2022-03-07T18:03:38.736481':
+          uuid: 2eec2dcf-3746-485a-a014-d212b5ff3faa
+  clefsAndKeys•ClefsAndKeysAnalysis•hasInitialNotes:
+    uuid: 141cbc30-9b48-4eb2-b733-7e799a579372
+    D10:
+      uuid: 2b8464ba-2281-475c-8027-ce297e9988b2
+      E52:
+        '2022-03-07T18:03:38.778661':
+          uuid: 5760b810-5ba0-4a6b-aff7-6926b68d6a11
+  pitchAnalysis•PitchAnalysisSimple•__init:
+    uuid: a99ea04f-cd2c-45a6-9503-c1fb81c63cc7
+    D10:
+      uuid: 517cc4b6-ce94-4eba-8628-e3f7ae11a673
+      E52:
+        '2022-03-07T18:03:38.767940':
+          uuid: 82bd36be-e1b9-4dc8-9380-5ecf59020339
+  ontology•zarlino1558•getModeFromObservations:
+    uuid: 1003a60b-7463-4821-9f37-8532540562f4
+    D10:
+      uuid: 0ba3323d-e5dc-490a-80c7-1e6ffa6a2bf2
+      E52:
+        '2022-03-07T18:03:39.061445':
+          uuid: 9079be4b-1381-4f4a-8fd1-27e05a236c82
+  clefsAndKeys•ClefsAndKeysAnalysis•hasSharps:
+    uuid: 8c0604f3-1592-4dc1-8317-4d3e6671b144
+    D10:
+      uuid: 74ab5dfb-dd61-42bd-84d0-45d04fa86f84
+analyses:
+  http://modality-tonality.huma-num.fr/analysisOntology#analysis10:
+    E7:
+      uuid: 2561b721-7233-46de-8f7a-f5edad86ed49
+    E52uuid: 274ae567-fabb-4b8c-86ee-46977dfb2324
+    analytical_entities:
+      ambitus45:
+        uuid: 0efc95e3-6aa1-41d2-b1e5-c3d27d67df8a
+      ambitus42:
+        uuid: 192fd08f-df01-4bee-add8-c5a69c473c7b
+      cadence247:
+        uuid: 64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3
+      cadence248:
+        uuid: f557b33d-6f37-4405-ace8-88d13fe59181
+      cadence249:
+        uuid: 7a13dbcb-ac71-4834-ab79-083bb192e970
+      cadence250:
+        uuid: 9ed459c9-0833-47ae-b793-dc02d817d4ec
+      cadence251:
+        uuid: db4e75c7-747b-4e3f-bea4-5263de038341
+      cadence252:
+        uuid: 362d92a5-d33e-4f49-9f45-514b89e332b4
+      cadence253:
+        uuid: 19343e60-10bb-48c3-9402-9c8ffa356115
+      cadence254:
+        uuid: af22c5bd-70fe-450a-8cc3-5250bb4a25b2
+      cadence255:
+        uuid: f21710e7-74b3-49ba-98ac-d532de12d98d
+      cadence256:
+        uuid: c1ba372d-6fbf-42bf-bf4f-c14908ea2df6
+      cadence257:
+        uuid: b8378779-6b51-4fe8-9a9a-fe8ffd0030b2
+      cadence258:
+        uuid: 28c88945-e8fa-40af-9d24-d974f9fe06b5
+      cadence259:
+        uuid: b9b4587b-62a7-4a3e-bacd-950f82dc3e90
+      cadence260:
+        uuid: edd5b378-d8ce-4a73-86a6-88d7e7707e83
+      cadence261:
+        uuid: 9739c400-ff12-4078-be8c-1ed6ee8a51b7
+      cadence262:
+        uuid: b1fe395a-2247-4ca7-9208-396f156f1ba0
+      cadence263:
+        uuid: 0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01
+      cadence264:
+        uuid: e6f214a0-8637-4dce-91b5-3e159e300cf4
+      finalis10:
+        uuid: a5a757e7-6421-4449-be01-8664beb43994
+      initialnoted34:
+        uuid: 302d4fa8-abf1-40c0-ae0a-658cc3ec928e
+      initialnoted412:
+        uuid: d64d77e0-0dff-4ca3-8081-d8b8cde5dbe1
+      initialnoteg315:
+        uuid: 5dca3252-1015-4826-9b6d-01e41e99ee3d
+      initialnoteg411:
+        uuid: cf1e8c8d-cb04-4812-a25f-1c15576b0ddd
+      pitchclass100:
+        uuid: d3dab009-ee0d-424d-82f9-8d8b86adcda1
+      pitchclass101:
+        uuid: e550d638-1429-452e-ba56-9205a3efe957
+      pitchclass102:
+        uuid: f72e439f-8fe0-416c-900d-338a408c61dd
+      pitchclass103:
+        uuid: a3b1a10c-2369-42e9-9c2c-6445de6019bf
+      pitchclass104:
+        uuid: d7357ccc-0c0b-45a6-a958-3562a821fb99
+      pitchclass105:
+        uuid: ca7674c7-ae16-4319-9cc9-096fcf150b3b
+      pitchclass106:
+        uuid: 3d27779b-7620-4f6a-80e0-bad1f60d6df5
+      pitchclass107:
+        uuid: 75cbde6d-41c6-4a04-861f-73b4e1ead32d
+      pitchclass108:
+        uuid: 99c8e686-21d8-4fa0-98e7-2d14432413d9
+      pitchclass109:
+        uuid: 993361ba-a6e8-4881-9437-2051379c3487
+      ambitus43:
+        uuid: 64f72ed5-e0a1-4bda-9b33-d27b1578f64a
+      ambitus44:
+        uuid: 75655ebe-1b02-452f-8d76-0887848fbb65
+      gmodeplagalpolyphonicg2:
+        uuid: d629f0c6-3c27-43d8-a715-24ba8d42a410
+    annotations:
+      cadence247:
+        selection:
+          uuid: dbef440b-0e34-4141-a994-b6a90a02dd2e
+        e13:
+          uuid: 5a243b2e-b851-4b63-9450-4660f1da588f
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: b5cb872d-f34a-4baf-9b5f-355c7ab50f8b
+          Zarlino_1558#Cadence6_8:
+            uuid: 2a89bbae-3629-4e41-952a-ea1a51f3e352
+          Zarlino_1558#CadenceC4:
+            uuid: c8c51ba9-917f-46a4-a7bb-a759eddd2817
+          Zarlino_1558#SimpleCadence:
+            uuid: 1d3d5c91-6ca3-49aa-bc03-866d6aca99f5
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 3a83c864-3c81-449f-9741-32151463cee8
+          Zarlino_1558#cantusHasFinalis:
+            uuid: ccd9dac1-9e42-4f6e-b3b9-cd3a4f9597f9
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 7c9aa25c-2fa6-44a6-a79d-60c064f1ae54
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 555e9856-a65a-4176-9bff-363cd6c42cc1
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 713d376c-a32f-43b4-9d01-63a9fdb8818d
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 3dd8fec5-c32c-4ddd-a257-62a37b62e134
+      cadence248:
+        selection:
+          uuid: f06b8cfd-f34f-40dc-b187-86bb583d1561
+        e13:
+          uuid: 5f9dd579-fb09-4de2-824b-cee6fa656391
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 3243856c-b596-42f5-8321-7f04d42f355f
+          Zarlino_1558#Cadence6_8:
+            uuid: 23334616-b150-49c8-b792-bc2226647b93
+          Zarlino_1558#CadenceG3:
+            uuid: 95d83b08-e3d9-4e23-b135-103c605d3cfb
+          Zarlino_1558#DimishedCadence:
+            uuid: 4053dfd7-8fd1-4b10-b658-f1b8bde82c7e
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: ab302390-838b-43df-819e-f8b151fac4d3
+          Zarlino_1558#cantusHasFinalis:
+            uuid: ba99d175-7b0c-4ec1-919f-f6fc17a116fe
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 4c884181-811a-4e3a-94a7-9f3c5d3a4a07
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 5a93b510-5c13-4b94-9c8e-972339cf34ad
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 3d519892-1835-4505-b8c5-31cae11acab6
+          Zarlino_1558#tenorHasPenultima:
+            uuid: a650d65f-05b9-438f-a726-71d7c77809a9
+      cadence249:
+        selection:
+          uuid: c889242c-45c3-4a0d-ac00-bb116f61eb5e
+        e13:
+          uuid: bca80047-87cd-4dc9-8fc2-1745c875ecfc
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: caff8e3b-a0cf-4546-8ddd-29d7e342bac6
+          Zarlino_1558#Cadence6_8:
+            uuid: db167801-6733-413e-a71a-436619299512
+          Zarlino_1558#CadenceG3:
+            uuid: bd924f0d-3d5f-49e8-99c8-7ca508111ecb
+          Zarlino_1558#SimpleCadence:
+            uuid: c3bbb9bf-00da-4e66-94df-2645598a5fbc
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 31249728-5a2d-40e3-bc90-3f8493011712
+          Zarlino_1558#cantusHasFinalis:
+            uuid: ec9cf880-b1f2-4e6a-b76b-0935c5fe9733
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 292854ce-a2e5-4d04-a3fd-666af5b6f041
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 08b0ddeb-88c8-4e47-badf-e9a318c17684
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 64757765-3d82-4849-830a-f35d3ca96753
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 29f0143d-be1d-4b95-b13c-95fedac5db04
+      cadence250:
+        selection:
+          uuid: e506ba7e-38ef-4edb-b75e-84058512cb55
+        e13:
+          uuid: 75311449-f0c1-41dc-b9d5-788e304f9386
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 268e1547-0104-4996-a834-fe80fef76d18
+          Zarlino_1558#CadenceC3:
+            uuid: d711059d-914e-4f8a-8c37-b3333f93b52a
+          Zarlino_1558#DimishedCadence:
+            uuid: c4f6653d-6113-4968-9dd9-bb02d154f28b
+          Zarlino_1558#ImperfectCadence:
+            uuid: 5c23d002-0122-4993-b00f-96a6ea3f471d
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: cc1d9a22-5d79-48b3-a52b-7b47c86c839d
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 90889f9b-4979-448d-b361-c0c78c4f607e
+          Zarlino_1558#bassusHasPenultima:
+            uuid: c07ae6dd-4500-4feb-87a1-74426a55fbdc
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 1d87b17d-7de5-4ba2-a7fe-dc4b1f15d3bf
+          Zarlino_1558#cantusHasFinalis:
+            uuid: a66a7030-a8f5-4a5f-866a-232d43522057
+          Zarlino_1558#cantusHasPenultima:
+            uuid: d6545b6a-4eed-4bf4-a0f4-48bf8cde9097
+      cadence251:
+        selection:
+          uuid: f15459f4-f2b3-4d61-873e-9c16655c7c38
+        e13:
+          uuid: fb9957bc-0ede-435f-bf94-7c4399ac23c2
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: f6a927af-7392-48b6-b542-1e68c828f873
+          Zarlino_1558#CadenceC4:
+            uuid: 303f3c31-c04f-4c4a-b2d1-b94e1fe53b02
+          Zarlino_1558#ImperfectCadence:
+            uuid: a442fe2b-1ab4-42e0-ae62-85ddfd6f53b6
+          Zarlino_1558#SimpleCadence:
+            uuid: 6fd37f75-45ae-4f73-924c-be4934c9bc65
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 10e54195-55a0-4962-bef7-beb0711f9040
+          Zarlino_1558#bassusHasFinalis:
+            uuid: faef2c2d-7565-47b7-84f1-87ef1e648254
+          Zarlino_1558#bassusHasPenultima:
+            uuid: ff3ca98c-e212-48de-a9df-25bf9173b07f
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 30e21019-1a7e-4b61-902d-eda8f8ab3f48
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 0e325daa-e53a-4643-81c7-bdce9af102c1
+          Zarlino_1558#tenorHasPenultima:
+            uuid: ce9057da-c2a5-4492-8483-b729adbe5726
+      cadence252:
+        selection:
+          uuid: fde4706a-904b-44e0-8e1f-358e2e0b4371
+        e13:
+          uuid: 6f5c99ac-1b68-4b05-bf5a-9620ebb91c6a
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 0907f4f5-822c-43ff-936e-aa253560415b
+          Zarlino_1558#Cadence6_8:
+            uuid: 2f98e474-b87b-471d-a0ad-40f443f8c1bc
+          Zarlino_1558#CadenceG3:
+            uuid: 2bed18ff-44b6-4f26-8037-5b5bf317bba2
+          Zarlino_1558#SimpleCadence:
+            uuid: dfc7a9f9-9153-4d77-a4d5-fdaa7d257f4a
+        e13_p:
+          Zarlino_1558#bassusHasPenultima:
+            uuid: db20c261-39e6-4b1d-8fac-36b58f98fbe8
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 46a16f2f-3bc3-42bb-8e23-e8ea33ff9091
+          Zarlino_1558#cantusHasFinalis:
+            uuid: b30581b8-7c3e-40aa-a1fb-b273068e8375
+          Zarlino_1558#cantusHasPenultima:
+            uuid: f0b59b8a-1703-4334-82a3-d03c2c862269
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 01275706-14f3-4471-8f01-8684547ca8f4
+          Zarlino_1558#tenorHasFinalis:
+            uuid: ca1915bb-521f-432c-9e6c-a948e16fd6b8
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 8ae39c75-4290-4646-afc4-30a7c97f81e0
+      cadence253:
+        selection:
+          uuid: c27facf6-6145-4ac8-9726-b1ad6bae3482
+        e13:
+          uuid: e3be9a80-b3ab-4497-8d6e-484868e7b62a
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 887b99a3-3c52-4b63-8da1-19513a0fb93c
+          Zarlino_1558#Cadence3_1:
+            uuid: 5b5c462b-d956-436f-9466-972b9f7c297e
+          Zarlino_1558#CadenceD4:
+            uuid: 9f7394f1-bdb2-458d-b876-d6ccbad84ced
+          Zarlino_1558#SimpleCadence:
+            uuid: 9b678862-40d6-47f2-b45f-2dd295d6b9ef
+        e13_p:
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 75997053-d7a0-4be5-ad6f-38e5dc2b449e
+          Zarlino_1558#cantusHasPenultima:
+            uuid: aa6840c9-9b9b-431d-99fe-18f7be95c5d5
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 93cf676f-2f8e-4dc2-96b7-b2e1fa934cf5
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 5d6509f0-ff2d-4b37-811a-c67d8714b3bf
+      cadence254:
+        selection:
+          uuid: 20bd100d-5b42-4da2-bfde-e7b64d896223
+        e13:
+          uuid: 2a61e869-5c0d-4545-81e0-7748ab649a7a
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 007ad0ad-fafb-4847-b2b2-995f2f32ebe0
+          Zarlino_1558#Cadence6_8:
+            uuid: 54255a9f-cce7-418f-98cc-e5247c7760c4
+          Zarlino_1558#CadenceD3:
+            uuid: b7077694-635a-4914-88c5-e71c2a807591
+          Zarlino_1558#DimishedCadence:
+            uuid: 4d08bc6d-1bbe-46af-bb8b-9c28c0339d0b
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: e657262e-e040-4e97-a5c7-8be6df65bb39
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 16ebb8de-4270-4196-b08c-42e6ecb89017
+          Zarlino_1558#cantusHasPenultima:
+            uuid: e3ca3a88-fda3-45f5-a46d-f64945f070cd
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: e62511c4-39cc-457e-abef-8f5b849565f8
+          Zarlino_1558#tenorHasFinalis:
+            uuid: b7d8ca13-0e87-477b-9285-8634df146387
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 933971f3-f817-47ba-87b3-2180967411c3
+      cadence255:
+        selection:
+          uuid: 6db239ae-74ad-4f58-b84d-d507b0c34e51
+        e13:
+          uuid: c6095b9f-aa64-45b1-9fd7-57a00f50c438
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: a3d0d190-e9fd-459e-9458-6c4e70a297e4
+          Zarlino_1558#CadenceG4:
+            uuid: 110a3800-291e-4850-86da-76a7e7501473
+          Zarlino_1558#ImperfectCadence:
+            uuid: a7682a13-0da1-4e6a-af07-f99bb5d6f9c9
+          Zarlino_1558#SimpleCadence:
+            uuid: 9b4e0999-9bb7-4bdc-ae02-b8c4da4257d0
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 9b31e59a-8ae9-489a-998d-0595be3fb5a7
+          Zarlino_1558#bassusHasFinalis:
+            uuid: b6bbbf5c-14fd-4bb4-a38b-78ba174fe3e8
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 54fe4364-807c-4d17-af47-b313568052ab
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: b9d62bd7-8a13-48d9-b9c2-432e31006cd1
+          Zarlino_1558#tenorHasFinalis:
+            uuid: c4f037cf-4d67-44c3-a32f-af9fc1ef801e
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 0b488b4a-25ee-481a-abef-338a79d076f2
+      cadence256:
+        selection:
+          uuid: 9e7c7142-d321-44d4-b52e-cf74800a7541
+        e13:
+          uuid: f7f3ef92-f229-4284-baa7-e773aad899b3
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: ef17c195-a6e5-438f-b85a-0fbb368431e0
+          Zarlino_1558#Cadence6_8:
+            uuid: f64f1e97-8ac1-42ad-b47f-7756747eebc5
+          Zarlino_1558#CadenceG3:
+            uuid: cea1197e-cb41-437b-89c0-de59ca9abd6f
+          Zarlino_1558#DimishedCadence:
+            uuid: 006706ed-02c1-4b1e-96c7-a1bd803890c6
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: 336fc98d-cba3-45ca-81a1-24734079ae1a
+          Zarlino_1558#altusHasFinalis:
+            uuid: fd3e9ab8-95bf-41f6-b26a-36efac7d84e7
+          Zarlino_1558#altusHasPenultima:
+            uuid: 1c946fea-0ace-40a9-b68f-cde05c02b775
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 0bc8d5c6-153a-4797-af0f-a825caec2ec4
+          Zarlino_1558#bassusHasFinalis:
+            uuid: e6d06c16-f252-456d-84a0-77c9ca8a82ef
+          Zarlino_1558#bassusHasPenultima:
+            uuid: badc9275-db3d-4fce-bc2a-d4adfb0d738b
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 9d514333-1bdc-4f35-85df-18e5bf935888
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 21756c2f-878c-48e3-84e7-7a794aac06c5
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 62fd1527-88a5-4b96-978e-2bb503beb478
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 17142e3d-e9c8-483c-953b-1d19b30007e2
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 48eed539-c50e-43f0-850d-0d3257f9b706
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 05e9983e-130a-43c8-bd96-6380db9b972e
+      cadence257:
+        selection:
+          uuid: 661e0e72-8ee6-48ef-9e76-44085ac09eb1
+        e13:
+          uuid: e143583d-53ed-410a-9966-2c08cd4e89be
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 956e8be3-b643-4270-8d49-4a9e992a0d64
+          Zarlino_1558#CadenceC3:
+            uuid: ec84eb7f-5bd6-4b2c-8522-2fc0329a6f4d
+          Zarlino_1558#DimishedCadence:
+            uuid: efd79720-0720-4e5c-a486-9b3064c2e57d
+          Zarlino_1558#ImperfectCadence:
+            uuid: f31313da-b6eb-4436-9974-97316c11e981
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: f1e585fe-45c2-4488-92a8-9bacaf04d570
+          Zarlino_1558#altusHasFinalis:
+            uuid: aa80fbdf-f795-44da-b471-f2012e4272b9
+          Zarlino_1558#altusHasPenultima:
+            uuid: b3ef100e-98d6-4b98-91c2-4bb612cc200d
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 5da6de9b-3c9f-4d13-a2f2-02946d7f2c9e
+          Zarlino_1558#bassusHasFinalis:
+            uuid: c70ac15a-c467-460c-b954-c282c53f2266
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 97f6b54d-6891-4070-8cba-c28371d89270
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 61fc5d51-a5cc-4e0c-8c36-9d94ed058758
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 9509512d-6543-4351-93bf-e6c2d0a151e1
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 3446d77b-7170-4292-8077-15a5c94809d1
+      cadence258:
+        selection:
+          uuid: 7fcd2886-6d7c-4797-87db-440efdbdadeb
+        e13:
+          uuid: 639d3d28-10f0-43e3-a936-f5403048d510
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 3662215f-cad7-4b55-b5f9-1ea8f48e9212
+          Zarlino_1558#Cadence6_8:
+            uuid: 4d50cf03-217d-4886-bfde-6492c0217496
+          Zarlino_1558#CadenceD4:
+            uuid: 7426afbd-de12-477c-b738-48dc46a8d540
+          Zarlino_1558#DimishedCadence:
+            uuid: 9253da02-ceec-4150-9383-72377b2a6240
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 6030d60f-4b80-4e66-8fcb-8034ec727b85
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 3e4eaba7-d074-4ea2-abf2-b34644fffcd6
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 827b7ced-5b27-4e84-a3cd-206d97fc2f2b
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 371f2e52-6e88-478e-b4ea-acb12a32d686
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 81572a77-a552-426b-bf39-14d7cdec8668
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 04e7178a-b617-4abc-909e-b8eb17da1304
+      cadence259:
+        selection:
+          uuid: d4b7d615-b156-44fa-a825-792f02b6ba22
+        e13:
+          uuid: 8c1c78e0-28ac-4cd4-9235-dbc9af6485e8
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 0378ab4f-3c15-4a8e-9549-33795c079823
+          Zarlino_1558#Cadence6_8:
+            uuid: 94f19f7d-1a66-4e19-bab9-12b4c4a77266
+          Zarlino_1558#CadenceC4:
+            uuid: 3209e7fa-6307-45cf-9299-9af4abbea8c2
+          Zarlino_1558#DimishedCadence:
+            uuid: c4db934b-6b5f-4857-abfb-d7e54302c2ee
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: efe8dcfc-8251-482b-8888-3fc032f3fa65
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 0e76be21-c845-4a62-ab1d-428011d1ef9f
+          Zarlino_1558#cantusHasPenultima:
+            uuid: af347ddb-3258-4eaa-8bf6-fa81a6cd1fe1
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: fdfca608-eaf0-4784-8f90-bfc0e16fd658
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 7f29f60f-d760-40cb-9fbd-b1cd7adbf8e8
+          Zarlino_1558#tenorHasPenultima:
+            uuid: bce411d8-8841-4f17-9e2e-bf0232e9bb5f
+      cadence260:
+        selection:
+          uuid: 5b789d6e-ef49-46c1-9427-6fc67f0ade36
+        e13:
+          uuid: 02dd0eef-3a48-4db3-ba66-774d5c0bc98e
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 0d4bead4-3ce8-49d2-9a5f-175b669aecf9
+          Zarlino_1558#Cadence6_8:
+            uuid: 4b0ffe61-a5a2-4f66-be7f-9414eb92660c
+          Zarlino_1558#CadenceC4:
+            uuid: cc2eac3a-66f9-4504-a2ef-56d5aeb29ac6
+          Zarlino_1558#DimishedCadence:
+            uuid: 93504ebe-9434-4146-81c1-d32312153fba
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 920eaac8-3e68-496c-8656-f260a6decca8
+          Zarlino_1558#cantusHasFinalis:
+            uuid: f22cfd96-480f-4a67-93a2-40cc67d85347
+          Zarlino_1558#cantusHasPenultima:
+            uuid: d5c8f47a-487c-4d53-b072-54de32fc369b
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 9758f842-99aa-4186-a9d3-81618e966800
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 536d85b5-1d1a-4878-bda1-cc75c7d43d7d
+          Zarlino_1558#tenorHasPenultima:
+            uuid: d486f669-44c8-45ad-83e9-64698bcd5a3b
+      cadence261:
+        selection:
+          uuid: da3c927d-e06a-4667-9af1-2a3380ee4606
+        e13:
+          uuid: aa8eb50d-36e8-443b-b7cd-4113c29d1726
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 89389f7f-ddd6-48e4-b8c0-9007385a85a4
+          Zarlino_1558#CadenceF3:
+            uuid: d19dd45d-c3f7-4452-9bbf-86c8f01fd900
+          Zarlino_1558#ImperfectCadence:
+            uuid: 1caa731d-b6cb-4301-ae22-ffb25c1f868f
+          Zarlino_1558#SimpleCadence:
+            uuid: fcce770a-7088-47dd-a88d-6efc48860253
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: 2b9f5446-4089-4a22-be48-61471edc13f7
+          Zarlino_1558#altusHasFinalis:
+            uuid: 46d50e28-80f8-4a06-a1ba-74e6f0608fc3
+          Zarlino_1558#altusHasPenultima:
+            uuid: 1abeec00-9b42-4e5e-bb9d-1523e7502a1a
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: ce7aee50-8394-44d7-8cb8-a33101b502de
+          Zarlino_1558#bassusHasFinalis:
+            uuid: e9236914-8fdd-499d-9988-f832a35e2d24
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 0868ffa7-a64a-48d2-b38f-3cd2b9c1abef
+      cadence262:
+        selection:
+          uuid: 33b891ef-5885-4bbc-b0b0-22d1fc0c2cc2
+        e13:
+          uuid: 7bb000c7-6c40-4051-966c-051776fdb912
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: a6e168e8-b29e-4c38-b0ba-e0149af30995
+          Zarlino_1558#Cadence6_8:
+            uuid: 34597e6d-f3c1-4308-bddb-f0bfd35d6bbe
+          Zarlino_1558#CadenceC4:
+            uuid: e295d9c0-d008-446d-9fdb-e92df1f76e80
+          Zarlino_1558#DimishedCadence:
+            uuid: ab165d1b-c676-4481-8e4e-68339a12204b
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: e9b61ce1-ecfd-4452-94f7-19e7a9923868
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 17f2f556-340b-4a53-9688-4b1272bed170
+          Zarlino_1558#cantusHasPenultima:
+            uuid: da34a663-a65a-42a8-aedf-73cf48f205d5
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: c2786352-5831-46bd-86ad-f6e9e947b897
+          Zarlino_1558#tenorHasFinalis:
+            uuid: b7b1f710-b0d4-47f4-ae33-5f181db5dc8a
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 344a0e81-d5b1-4b39-a308-6d9ef534ec3b
+      cadence263:
+        selection:
+          uuid: 3465bf27-f7b5-456a-b2ce-4f726bf845fb
+        e13:
+          uuid: b3fbe735-1224-4627-ad15-59404ef8c3e7
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 67c5cac7-99d4-4981-b88a-ae220e360b12
+          Zarlino_1558#Cadence3_1:
+            uuid: f24b428f-c466-4549-8393-4e16836234a1
+          Zarlino_1558#CadenceG4:
+            uuid: 29059e75-3080-4edb-afe8-94a846f49306
+          Zarlino_1558#DimishedCadence:
+            uuid: 070aafce-0986-437d-b94b-da849037cebb
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: e4183b8a-b2e3-4666-8e71-11842e655531
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 8c6abc57-8445-453b-ba8c-a28bdddd3da1
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 2378f937-dc62-4346-a536-67dfb080d57e
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 3db36b2f-97d4-4425-a136-b367c1d28114
+          Zarlino_1558#tenorHasFinalis:
+            uuid: c1f6173e-70fe-4e22-bad6-71bc663bdaae
+          Zarlino_1558#tenorHasPenultima:
+            uuid: aba726e5-b296-4493-95ed-174db2a77164
+      cadence264:
+        selection:
+          uuid: ba2c56f4-392e-4387-a428-be0c85230206
+        e13:
+          uuid: b5f4d823-0cd8-4803-8ce1-bcde18f27c4c
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: bdfb878a-79b2-4afa-92d3-0a357d362adb
+          Zarlino_1558#CadenceG3:
+            uuid: a7feb102-9e8f-4b3a-8fe6-f3eef02a5710
+          Zarlino_1558#DimishedCadence:
+            uuid: c40d55b3-33c8-4bb5-acec-de1acd489e4d
+        e13_p:
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 5cbab5b8-23ea-4ebb-af67-b83eac8f2a77
+          Zarlino_1558#bassusHasPenultima:
+            uuid: e6a862a1-ba3c-4d84-8be7-949b52f6b772
+          Zarlino_1558#cantusHasFinalis:
+            uuid: a63001eb-9769-4f2a-b754-302fb2626968
+          Zarlino_1558#cantusHasPenultima:
+            uuid: ac28c64b-e401-4388-86d5-ca1d80d89c3d
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 5d3e65d7-a89b-4003-bc68-177a6453c53d
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 43972234-352a-4389-9142-815ab43db864
+      ambitus45:
+        e13:
+          uuid: 28d3ef24-8ff6-4cff-82ae-9cf527fa8742
+      ambitus42:
+        e13:
+          uuid: d9cf929c-2083-4c07-abed-75ecc470177e
+      ambitus43:
+        e13:
+          uuid: 1a349f13-c760-4ba8-99bd-c38882be0a96
+      ambitus44:
+        e13:
+          uuid: 116bd93a-09a5-4156-be9d-82b3c792505c
+  http://modality-tonality.huma-num.fr/analysisOntology#analysis11:
+    E7:
+      uuid: ac5dddfb-13b7-4c1a-ad06-a6c1d76ac845
+    analytical_entities:
+      ambitus47:
+        uuid: 39946fca-0557-4731-b0dc-bb3ae316e7f6
+      ambitus49:
+        uuid: b6e8055f-e425-4eac-8d91-3ad51547b25c
+      ambitus46:
+        uuid: 81f4fc59-d649-4793-aff9-00c3206fa266
+      cadence265:
+        uuid: a621cd34-4c6b-468c-9245-9dc310ab64e7
+      cadence266:
+        uuid: ce34981f-1ddb-40e7-b326-d872cf3d60f2
+      cadence267:
+        uuid: 9847e141-3aa4-48f2-b998-d969ad2dcdc0
+      cadence268:
+        uuid: bed9e4e8-0cb7-413e-8b1c-52702623f262
+      cadence269:
+        uuid: 8eba99a2-9930-449a-a9b2-782768b69003
+      cadence270:
+        uuid: 25d6375b-bbb5-4306-aea4-fed6e3b6fd47
+      cadence271:
+        uuid: 62c0a94e-c84c-465a-ba20-7d86bfc59ba9
+      cadence272:
+        uuid: 36765228-c6ac-4426-aa9a-8ab782d2231c
+      cadence273:
+        uuid: 99795e20-6f47-4fd9-bab4-f560cec64c3b
+      cadence274:
+        uuid: 668f3e1a-e62b-42f9-a551-fc92072b9132
+      cadence275:
+        uuid: a7e7bea7-a5cb-433a-82bd-550153080318
+      cadence276:
+        uuid: c27d4a2f-b200-4b4f-98ca-b1643bf98b72
+      cadence277:
+        uuid: 3b0ae2a9-767d-4696-ae90-f777166027ae
+      cadence278:
+        uuid: 2910dc47-e4fd-4d0f-adb5-e2c1cff6751a
+      cadence279:
+        uuid: 1628d0d8-d410-444a-932c-1590a958caa7
+      cadence280:
+        uuid: 3ebcc139-5c35-4dc5-bc7a-5a2f983aa431
+      cadence281:
+        uuid: 2af870ed-5009-41cc-8c0b-82f7b6b4e9fa
+      cadence282:
+        uuid: fd4a27fb-8ae1-409e-9e7a-47051ff8c53e
+      cadence283:
+        uuid: 6287b132-f1ac-4526-b0b0-a9c9dca3b149
+      cadence284:
+        uuid: 76cb671b-b7e0-4b69-81e2-ed9ec2ea8f56
+      cadence285:
+        uuid: 923e70f1-ce85-4118-9b9d-07a2fb1606ea
+      cadence286:
+        uuid: 8ff8ee1a-86dc-4757-b7d3-686aaa7086c7
+      cadence287:
+        uuid: 52b1d543-a390-4729-ba83-aeab9751ddef
+      cadence288:
+        uuid: f53684ac-32ae-454e-8c57-96c5d4bae6fa
+      cadence289:
+        uuid: 83726114-e946-4cc9-b239-8a2c2c44f68c
+      cadence290:
+        uuid: 426a9c42-a4fb-462e-b7de-3c6b4d407926
+      cadence291:
+        uuid: 93c936c5-84d1-4868-912d-3a69801b32fb
+      finalis11:
+        uuid: d68eefe8-47bb-493c-bf93-51aa22edeafb
+      initialnotef41:
+        uuid: 2213a1cc-6547-4834-89f5-c14d3cf0a8df
+      initialnotec41:
+        uuid: 948879b3-711f-4152-a915-f1b30e7ffe5b
+      initialnotef42:
+        uuid: ad06da0d-ab8a-49f0-a67c-c2e3146b777c
+      initialnotef31:
+        uuid: a223cf7e-2755-484d-b199-f480dadc74cd
+      initialnotef32:
+        uuid: 3438a4ed-fb26-4c2c-9613-3ec63ea10ea8
+      initialnotef33:
+        uuid: e8014c67-cd10-4717-a71b-4d2e1ba62319
+      key1:
+        uuid: 634bfa7c-27d2-46de-8f1e-31311b78562f
+      pitchclass110:
+        uuid: e5f0b9dd-29c1-4e50-affa-099ef0318ea9
+      pitchclass111:
+        uuid: 77de3aa4-b775-4b76-b84b-b57e05a152a2
+      pitchclass112:
+        uuid: d05c4a10-6cff-4fd6-b7dd-8a62b22ace4b
+      pitchclass113:
+        uuid: 0985db81-02d3-4930-a00b-6aea2dbdfbd1
+      pitchclass114:
+        uuid: 4bce55c2-5f17-4d10-97d4-decbd60e85a1
+      pitchclass115:
+        uuid: da91e7e2-69ae-4a3b-86b9-a53a5078d074
+      pitchclass116:
+        uuid: e7971b9f-6640-4df7-871f-b6be4dfe67c1
+      pitchclass117:
+        uuid: 03766228-60fc-4d12-a74c-a91c11b73dec
+      pitchclass118:
+        uuid: 01e3978d-ff40-4dc5-b31c-672412772d5f
+      pitchclass119:
+        uuid: bbf522c7-d2de-45ba-9c0d-654fbcd69582
+      pitchclass120:
+        uuid: 1145bc82-0d48-419c-acc5-0d7dc8891ab7
+      ambitus48:
+        uuid: b4a45ff6-d534-4dc6-bcd7-84d2a71b4cac
+      dmodeauthenticpolyphonicg1:
+        uuid: ef96def7-f78b-4b69-a433-03de0f7edadb
+    annotations:
+      ambitus49:
+        e13:
+          uuid: 90ac3f44-4356-42d7-b33d-642ad80996c2
+      ambitus46:
+        e13:
+          uuid: abe6a1a5-bbbb-43c5-a729-6ba98f06b27f
+      cadence265:
+        selection:
+          uuid: d520652a-a4cd-481e-af24-a40f39489461
+        e13:
+          uuid: 4a2dda5a-2832-432c-a6d9-b19a9bd0e045
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: c955a456-3e65-4a24-aac8-ae606bc4c9e0
+          Zarlino_1558#CadenceF3:
+            uuid: 8a6f0ce3-0974-456e-b942-5447bc09d22e
+          Zarlino_1558#Cadence6_8:
+            uuid: bc53b240-0a85-4a34-9264-9e2b79cffbfb
+          Zarlino_1558#DimishedCadence:
+            uuid: 0838affd-39ca-4eae-9362-36e66b377168
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 90dff36b-f120-4129-832a-3e9b4590bd03
+          Zarlino_1558#cantusHasFinalis:
+            uuid: d2d8918a-d084-40eb-8213-3d2015a8fcb0
+          Zarlino_1558#cantusHasPenultima:
+            uuid: bdaac3bb-451c-4ed1-801d-81c07a3500d4
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: fb7df5c5-a725-44bf-86a7-1db43f61f913
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 1bd8a741-f0fa-4906-97e0-d7c202d4fe3b
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 7948e684-ece0-47da-9a79-e0b995f49771
+      cadence266:
+        selection:
+          uuid: bf8af017-281d-4050-95ae-5fc385963cc9
+        e13:
+          uuid: 98b244a5-f293-4fc6-9f51-d2139c72ab82
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 2ad4c940-0319-49d2-b171-caba7d4d382c
+          Zarlino_1558#CadenceB-3:
+            uuid: ee820188-df54-4c35-b556-11facaea4518
+          Zarlino_1558#ImperfectCadence:
+            uuid: 05c790da-16f7-486b-bc47-9ff990d63842
+          Zarlino_1558#DimishedCadence:
+            uuid: 3919bea8-3642-484f-b8cf-9775639b82ce
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 7ffb7d3d-b31b-49a1-a49c-0cd9b71ed792
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 446d8a99-0419-4505-94d7-e40f32ed0a7d
+          Zarlino_1558#bassusHasPenultima:
+            uuid: b41451ff-13d9-4cb2-b6fb-e3e547086ff3
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 2e83ae60-cb0e-42af-9eb4-e0df516bbaca
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 7d25c796-1726-45e9-a1b5-8ba81889b986
+          Zarlino_1558#cantusHasPenultima:
+            uuid: dbf26547-eee9-4b9c-b948-ad650e683ab8
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: d5825a43-9262-48a8-975b-d225b8d670b1
+      cadence267:
+        selection:
+          uuid: d6b70db7-acb2-4d8e-8a70-f0b1cf19f1f4
+        e13:
+          uuid: 087c1088-73ae-42c1-9e5d-b9ac44f2da34
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 21ab48a3-3350-4c59-8791-f637d3f70c7d
+          Zarlino_1558#CadenceG3:
+            uuid: 86c32aed-a628-46f5-bf56-ce1ce4b6bfd6
+          Zarlino_1558#Cadence6_8:
+            uuid: ac0b3dc0-cd1b-4ee4-a7b1-bfa63852b880
+          Zarlino_1558#DimishedCadence:
+            uuid: 66500bd8-9039-4da7-8dc2-b803e3386ff3
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: a81ea4bc-1fcc-41f8-8bf6-98adb4646f18
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 7ea1c617-b5bc-4899-a1f1-878f3e14d847
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 4d20a8eb-6631-4e52-bffd-f79bbf80b689
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 9235da70-e834-44c8-8cad-7ac6c4ddabc5
+          Zarlino_1558#tenorHasFinalis:
+            uuid: e80b8507-1488-41c5-907d-2169ed6fe16d
+          Zarlino_1558#tenorHasPenultima:
+            uuid: d397ceea-01f6-47f5-97b0-e8b1551ff729
+      cadence268:
+        selection:
+          uuid: a2168e47-fb6b-43f8-8784-2be5906c70e2
+        e13:
+          uuid: 5576dad1-c244-4592-bd9d-e901ea8168cd
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 253f156a-d6eb-4f49-a100-d7fd74e8678e
+          Zarlino_1558#CadenceD3:
+            uuid: 504d2724-9aed-4b5a-9660-11574eeae15a
+          Zarlino_1558#ImperfectCadence:
+            uuid: 109ab5a8-3a5d-4e4b-b4d8-e47ede0711a6
+          Zarlino_1558#DimishedCadence:
+            uuid: feb53eea-c743-4c6c-85fa-ad5549bce717
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 1a02cf55-526b-4235-89d6-1f4cb811c5d2
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 818c2ab9-0c81-4ade-bcf9-8262224f60e8
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 22722ae2-75fd-4195-9829-64c995a0c35e
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: e28231fe-15a4-408f-ba32-a75e62bfe523
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 9536e4f3-559a-4784-84d8-e8780e777298
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 3d0d94da-e5d8-4f8d-b21c-94ab2d4b7100
+      cadence269:
+        selection:
+          uuid: 99bcae3f-4268-4c35-932c-e50bc5fba376
+        e13:
+          uuid: 87229e93-d266-418f-94e9-b3990f223efc
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 1f856469-8a5d-41af-824f-f7ed38b52372
+          Zarlino_1558#CadenceG3:
+            uuid: 544cb786-46c0-4bb5-afc3-f3ddb0bae7e2
+          Zarlino_1558#ImperfectCadence:
+            uuid: 547c314c-dd5e-4899-a4d2-b13e384177f7
+          Zarlino_1558#DimishedCadence:
+            uuid: 085f29d6-b21c-4c42-af43-816dc5ee6be8
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: be59a02f-977a-4502-98b3-9e137147039c
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 94ae16ac-5646-48e2-8694-d72223c73f0e
+          Zarlino_1558#bassusHasPenultima:
+            uuid: b68799fb-f5a8-497c-adbb-adf8a5f6b6ba
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 63a0eb38-1d6e-4e70-8325-9174cdbfc380
+          Zarlino_1558#cantusHasFinalis:
+            uuid: a9603b0c-5b75-406b-89b3-88afa7679add
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 202d1dbc-7b7a-4697-8178-4f93a07607e6
+      cadence270:
+        selection:
+          uuid: b7643bf0-8662-47da-b2f0-f95d5995bd41
+        e13:
+          uuid: 4a8d59f2-9c1f-424d-a7bd-9db284ce720e
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 605f68de-b6b5-48ed-8e07-15282f2f2864
+          Zarlino_1558#CadenceG3:
+            uuid: 21564dc5-8a4e-4d54-b403-663ef74a149d
+          Zarlino_1558#DimishedCadence:
+            uuid: e9702c07-2207-4eb2-8f3b-cdcecbe0194c
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 034b4d5c-1ddb-4886-a914-29c002491b1d
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 31ae80d7-a96f-4635-b44c-d65073efc165
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 09a21dc1-e2b0-49c4-8e86-1cecb9ab4dcd
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 5c3f8b3e-2d82-455d-8c94-720bb1284aa0
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 1afa2be1-192f-4ad5-97ec-05a981ebb6b0
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 92f02bc0-50e5-40b9-9369-b01b802be767
+      cadence271:
+        selection:
+          uuid: 1baca35b-ed39-45cf-bee2-1a91f85e2b34
+        e13:
+          uuid: ed119222-6939-456a-b5da-9ef880bad115
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 08ab6b10-395f-466a-81e3-0bd2a3dbdb8e
+          Zarlino_1558#CadenceD5:
+            uuid: 041e8594-1452-4473-8a27-b6cf7d63bb98
+          Zarlino_1558#DimishedCadence:
+            uuid: b4d66148-b62a-4ac7-ade8-f5174350aac6
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 45fe06ee-f0a3-4d15-a879-7e7a13cf7830
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 00d84873-d80a-4971-83b1-87d48007d482
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 22a1416e-04ee-41d9-ac68-bb3650568713
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 0ccdaf95-931d-42dc-87b8-2a6dbe45a3aa
+          Zarlino_1558#tenorHasFinalis:
+            uuid: f1118cc7-e05e-49d4-ab29-d27cba18a2e9
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 1aa8a2c2-9577-48ba-b4c0-d2941f8d815f
+      cadence272:
+        selection:
+          uuid: be1a99e6-6955-4565-a28f-14abc30032f6
+        e13:
+          uuid: 4334a6c9-6c13-4376-9f6e-4c59c5d6481e
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 6a32ed3b-dc26-40ae-a350-e575ea520e38
+          Zarlino_1558#CadenceD4:
+            uuid: 9f5db957-2718-4abb-afff-9aca8fd9950a
+          Zarlino_1558#Cadence6_8:
+            uuid: 549bdd05-564f-4edd-a5a8-7f411dec8be2
+          Zarlino_1558#SimpleCadence:
+            uuid: 5c91bab5-0f5c-4c6c-93ae-468bec851f87
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: 55f6279d-6f2e-460a-8bd0-2992a80906b1
+          Zarlino_1558#altusHasFinalis:
+            uuid: 42d2664a-6a35-44ff-a9fc-ad7c2fafa887
+          Zarlino_1558#altusHasPenultima:
+            uuid: f16b7bc1-f71a-415f-b2eb-7035ddff5741
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 98e7a153-8e86-47fa-8943-9b65dc123607
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 1bf5b99f-3ac1-4e04-afc9-494bb01fba04
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 8203ab12-af69-46a5-95e2-a2b7f45f7b92
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: aed25234-a36a-4ba5-b1ea-ee5e3e4161b3
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 1c012697-0681-4dfb-b72d-7a454249fe16
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 09cbf13e-105a-4d67-a020-9114ef69529f
+      cadence273:
+        selection:
+          uuid: cd60e455-e0f0-4211-9de8-4cfdfd57acd8
+        e13:
+          uuid: 769669a2-c3ff-42c9-ad63-a6198c544416
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: b850fdb1-e4ab-4487-851c-638577894829
+          Zarlino_1558#CadenceG3:
+            uuid: 01efc7ee-6f9e-4353-9785-584b45b71285
+          Zarlino_1558#Cadence6_8:
+            uuid: 2517be76-41d8-4511-a31e-acaeb8a03c09
+          Zarlino_1558#SimpleCadence:
+            uuid: 44b79939-626f-439f-9487-a243f6464250
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 17948c52-13fb-4e6f-98ba-c010fd04a2db
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 9bc61117-c483-40dc-bc71-6d472e80a068
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 455f33c4-bbaf-4a6f-ae3e-1bab7f06c984
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 135839a2-8f07-4ecd-b8ec-aeadd80112ac
+          Zarlino_1558#tenorHasFinalis:
+            uuid: e0cfe5a7-2d8c-4d7c-bbf7-b16415a234fa
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 8e7f14b8-986a-4a5f-8dd5-377a7d9b9652
+      cadence274:
+        selection:
+          uuid: 302cd77e-5f68-459e-8b84-c804561f0d98
+        e13:
+          uuid: e0663fa4-64d2-4567-9145-9b641b7486f7
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 8fda37d1-b082-4ee6-b6b8-9144c5a13af0
+          Zarlino_1558#CadenceA3:
+            uuid: 0b119535-4cf7-4feb-93ba-5e0e267afd2a
+          Zarlino_1558#Cadence6_8:
+            uuid: 394103ad-e4c3-4717-9753-cfe04fc8bebb
+          Zarlino_1558#SimpleCadence:
+            uuid: 11d6409e-0dc8-4948-a6a0-f6269bf296be
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 00d33041-7c0b-4aa1-8898-281e6e896b42
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 969c22a4-9270-4e8f-94ef-0c536f2ff893
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 8b0fb41d-6eb4-4de9-9b27-1dd5f11bf3bc
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 6f99480d-d6fc-4682-81c0-61740db22bce
+          Zarlino_1558#tenorHasFinalis:
+            uuid: d7e12332-07b8-4c7c-b81e-4379891ea2ab
+          Zarlino_1558#tenorHasPenultima:
+            uuid: a3f50e0c-3a21-411f-a0d6-273db847486c
+      cadence275:
+        selection:
+          uuid: ce52ed47-57b7-495e-975c-65511c53ed4f
+        e13:
+          uuid: a3227b0e-64de-4962-8c0d-409b4daa04da
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 85248b8d-2be7-403a-a0dd-75d085310d9a
+          Zarlino_1558#CadenceD4:
+            uuid: 66f6d9e5-31f5-49af-9cf7-2ba8b50179a6
+          Zarlino_1558#Cadence6_8:
+            uuid: 89b5b4ef-8bc9-4afa-ade9-f22e51b70876
+          Zarlino_1558#SimpleCadence:
+            uuid: 9d1dd3b5-bf5a-4eef-a335-70db5b26fdb4
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: aa4d1058-7f20-49f1-91e7-3c6856b5fb7d
+          Zarlino_1558#cantusHasFinalis:
+            uuid: ca89f762-5a2b-4002-8c66-4e4c8adc02d7
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 9734293c-149f-4acc-9496-8e0402a032a6
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: da50aeb7-d82f-4971-9d0e-a3568e3dc08e
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 50ed0786-33cc-49a1-ba2d-591b2c0b04cb
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 52042ea1-172f-4fdd-90ae-d7e34b579e3a
+      cadence276:
+        selection:
+          uuid: 67f96a0b-a6f3-4b65-b5d9-d9011e228a5e
+        e13:
+          uuid: 5e73089d-0442-4a15-a2b9-2bf06c8db0d5
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: a2ee9117-9f29-4dc1-b440-437abb1c6104
+          Zarlino_1558#CadenceG3:
+            uuid: 150b5f9d-9232-47ea-9b1c-176ba05f6ab4
+          Zarlino_1558#Cadence6_8:
+            uuid: 4ab7e9dc-ec55-4d09-96d3-c92620cde530
+          Zarlino_1558#SimpleCadence:
+            uuid: 3bc9ffdb-d193-4b8a-b1b7-9443fe839ed7
+        e13_p:
+          Zarlino_1558#bassusHasFinalis:
+            uuid: e86d3ece-1321-4bd2-991a-66e5be1e5ea4
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 3d4b116f-8150-4f17-8d1c-9d5e3b728413
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: a0dbd34f-8266-4017-b041-d9bda974bcda
+          Zarlino_1558#cantusHasFinalis:
+            uuid: b070a4f9-c509-4240-9325-a3e2bfb77705
+          Zarlino_1558#cantusHasPenultima:
+            uuid: ef869736-1d4d-4993-bd85-0a3dc5098ab3
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: ea85f0e8-544e-4640-b942-aec20256c4cb
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 1f733ade-2f92-4c3a-a1e2-159bb8b6e544
+          Zarlino_1558#tenorHasPenultima:
+            uuid: bda6ddf3-0b24-4e30-8e1d-4d124179525c
+      cadence277:
+        selection:
+          uuid: 769aa67f-06c5-47af-a227-3c2eabd355fa
+        e13:
+          uuid: 12aa4381-097e-4541-bb24-61705470db3d
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 6252dd6e-ec5e-4ff4-bf78-80b02e4ee3ed
+          Zarlino_1558#CadenceD4:
+            uuid: 64e8fc9e-7b5d-46ea-96fd-6743b84cfb50
+          Zarlino_1558#Cadence6_8:
+            uuid: 18290c99-6e6e-45ff-8f1b-b402857ed5d6
+          Zarlino_1558#SimpleCadence:
+            uuid: 90d3c336-4f16-4934-baa2-cc03890c9b37
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: ac774fa5-17ba-49ab-b152-6ecdf2915a64
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 8a00555e-776a-4efd-964c-3c4fb8bd68b7
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 288c1d73-8309-46b9-b735-637638519289
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 196797c6-6ca4-4215-bfa0-bd1ca5b65083
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 2d56bc47-7bb5-4314-96e6-a3b6ead58c88
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 859bf3b7-7c01-415c-85c9-78cec4e13dda
+      cadence278:
+        selection:
+          uuid: 198f6169-8062-4d4a-9c8b-d0e404f4dbaa
+        e13:
+          uuid: d4980b66-fc81-417e-bd11-27122febcfb4
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 3b587102-394a-4360-a94a-1099b9e31ee0
+          Zarlino_1558#CadenceG3:
+            uuid: a6d1a3ed-0faa-492b-85ee-1f2c6f7cb8bd
+          Zarlino_1558#Cadence6_8:
+            uuid: 2818a579-83de-43ac-9ce3-cf5b43337979
+          Zarlino_1558#SimpleCadence:
+            uuid: 845bfc7e-8ac5-49e8-b1e3-e623712f2900
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 956b7e71-1d22-4111-b8a7-0595c09c8151
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 5653e54b-f570-412e-9747-ea7765af8bf9
+          Zarlino_1558#cantusHasPenultima:
+            uuid: a2fd74b4-0299-43ea-a517-663c4576f42a
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: eb180b7a-7160-4b57-a3d8-d49522f4cfcd
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 79a8d06c-8e61-4fbc-9940-b842bf5b5b43
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 6a583cc3-403b-4b5b-9af4-63de4d81a5e0
+      cadence279:
+        selection:
+          uuid: 0a07ea9b-4d66-413b-907d-71a4aba4fa51
+        e13:
+          uuid: 7f29e882-3b72-44d1-994b-acd257fb72e6
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: a27fbc4b-6e13-4b9b-b907-fa1216f420b4
+          Zarlino_1558#CadenceB-3:
+            uuid: 3b8e9a23-6953-4e97-b52d-d9022d0aa2a5
+          Zarlino_1558#Cadence3_1:
+            uuid: c74da04c-cfb8-455d-be1f-f6659db93464
+          Zarlino_1558#DimishedCadence:
+            uuid: 694d1c88-0ae1-4a39-821f-0af0d48aa652
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: f3454f07-33e8-4fe8-bd38-fedd2ede2d9a
+          Zarlino_1558#altusHasFinalis:
+            uuid: 803bf8e2-7557-45fc-a14d-f9508097e6bf
+          Zarlino_1558#altusHasPenultima:
+            uuid: d63187a2-1a08-4299-a67b-25412fb02217
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 8ec681e3-19b2-4ac9-ad8e-a46415308ae0
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 016cba65-2b21-4ecc-8c01-8c6eacacda3c
+          Zarlino_1558#bassusHasPenultima:
+            uuid: f359afbc-099f-436e-bb2f-23d53f5cd66b
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 3cc7ae89-119e-476f-bf9a-7066f8a3c5be
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 17d24146-306e-4b90-afb6-66c9d903acd7
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 376d47c3-6f1c-4d01-ac8c-a4bdd6c74d61
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 1433984a-9893-457d-b7bd-4cf52b1503f9
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 8db9c3cb-4be6-4487-af38-5b5f778fa00d
+          Zarlino_1558#tenorHasPenultima:
+            uuid: aa12046b-83eb-4cc0-96c5-6edb3e4fd19d
+      cadence280:
+        selection:
+          uuid: 7cbb4b1e-2f5c-4ec8-be30-789b37dd7de5
+        e13:
+          uuid: c1b0c788-e53e-434c-ac7f-88c936d0bd68
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 046f93fb-79f3-472c-b0e5-1ffad1a5c106
+          Zarlino_1558#CadenceF3:
+            uuid: d7126f33-2c2a-4106-a961-8f9bf3907acf
+          Zarlino_1558#Cadence6_8:
+            uuid: 3f6fb231-e8af-4f17-a46e-35d5caad52d8
+          Zarlino_1558#DimishedCadence:
+            uuid: 766fc593-3b36-4253-8a01-bdcdca1a8488
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: 15f42964-9e7b-46bf-bac9-260620d75d7c
+          Zarlino_1558#altusHasFinalis:
+            uuid: 07c4a521-2210-47af-a821-6d41544d1ea0
+          Zarlino_1558#altusHasPenultima:
+            uuid: d28f0ed9-ee94-4885-871c-9b29b9567b61
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: fdc77cc3-8894-4033-be1b-8fac43649998
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 4ef03d7e-f487-4c89-ad45-fa856cf407f4
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 0f2aa8f1-9559-4472-97e1-5058455e1e94
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 0af015c2-5b7c-4462-9c00-29dff282d4c9
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 50eda660-0003-48d6-8a12-2735fe927717
+          Zarlino_1558#tenorHasPenultima:
+            uuid: c57acffc-bd5d-483b-aef6-02d1fc6492b1
+      cadence281:
+        selection:
+          uuid: d53ab57d-319c-4436-af95-f6dbda514049
+        e13:
+          uuid: dd1d1bd0-9ded-462a-b99d-8e198cc90b29
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 48f6dff8-8708-4e95-882f-ae05125e318a
+          Zarlino_1558#CadenceD4:
+            uuid: 5f6b62c5-0126-4b38-80a1-f39631a3bb90
+          Zarlino_1558#ImperfectCadence:
+            uuid: fb3f3f70-c997-471f-9e6a-ded75ce5aefa
+          Zarlino_1558#DimishedCadence:
+            uuid: 848a048c-d7b2-4a40-b7e0-4bb2e58dc2bc
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 5341b294-7c32-45da-9453-d6b1d7d9427e
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 5d5d5561-0d56-41eb-989d-c341d8da2bb1
+          Zarlino_1558#bassusHasPenultima:
+            uuid: d17d8dfb-c5ed-452b-9a10-40230070fc21
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: bfe9805e-dd7c-4305-a83d-b21c6f79ea78
+          Zarlino_1558#tenorHasFinalis:
+            uuid: e0e9302d-a0c8-44e9-a7a8-d49abfc1d45a
+          Zarlino_1558#tenorHasPenultima:
+            uuid: b7d77a64-38af-40d8-97aa-c37b3521e5a8
+      cadence282:
+        selection:
+          uuid: 464a0f66-35d2-421a-91c3-2d8cac0c8922
+        e13:
+          uuid: 541baa32-72b3-4469-92fc-99098311da2e
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 0fc6232e-c4d2-43d7-8337-828fe81b380e
+          Zarlino_1558#CadenceG4:
+            uuid: fb10583a-f754-4a99-bf4e-cc686b3ab66c
+          Zarlino_1558#Cadence3_1:
+            uuid: 3751de56-5d2a-4206-ac03-1b257d6c1489
+          Zarlino_1558#DimishedCadence:
+            uuid: 9e430878-692b-46c2-b26b-c198712ce3a3
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 30108d7b-336a-40cd-9908-5b688ae718d0
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 586bd349-5777-435c-a32d-34d380689f7e
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 28ba91f8-97da-4eff-b7dc-fb007f1bf799
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: a60cd2ec-3fb7-4d2b-8308-b2f7578bb714
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 4242d04d-1bc3-4b22-ac70-518ddceab147
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 6d9a3662-909f-4c46-abea-ad4a3b052b75
+      cadence283:
+        selection:
+          uuid: a6a6dce9-8c61-43ec-bad4-9d40ccb7194f
+        e13:
+          uuid: a7d7e35e-c71e-4921-9727-bf919a183dda
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 62f84861-ba47-47fd-906c-9b2d7ce6de42
+          Zarlino_1558#CadenceC3:
+            uuid: d8a25af6-1c10-4fa2-acc1-e2c63e866346
+          Zarlino_1558#ImperfectCadence:
+            uuid: b835ca6c-345e-4d25-a1a7-54ea03dec2a0
+          Zarlino_1558#SimpleCadence:
+            uuid: 3ba71f65-0d83-4f6c-9794-21cc9185ee4b
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: f042d9bc-5d05-457e-bb31-42253a7c00d9
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 5746a496-4e7e-4d15-a997-09b0a95ea1e0
+          Zarlino_1558#bassusHasPenultima:
+            uuid: eeb0d5be-f7c4-4903-8f4b-51291c16d41e
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: af7e7d5a-54f3-40d3-9f5e-cbddae9038a3
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 5dd071c7-0470-4ebf-a268-ec5ba511af70
+          Zarlino_1558#cantusHasPenultima:
+            uuid: a1659bee-f69e-43f3-a88d-db102c01b7ad
+      cadence284:
+        selection:
+          uuid: fdc84049-ba02-4cf7-a355-32f4f8b7e238
+        e13:
+          uuid: 2d358ec8-649b-4950-a2eb-c247a0aad98b
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 146e275d-783e-4424-9849-41a95e8c2369
+          Zarlino_1558#CadenceF3:
+            uuid: c9a059b0-762f-4eb8-9e61-62729e83c9c3
+          Zarlino_1558#Cadence6_8:
+            uuid: ef450c1d-2d37-4f71-becc-8b6da1ff6304
+          Zarlino_1558#SimpleCadence:
+            uuid: f2b95bb3-76ec-43c0-abd8-b0aab6efce7f
+        e13_p:
+          Zarlino_1558#cantusHasFinalis:
+            uuid: ebb55959-f0e5-4260-a097-8a4af7ecade6
+          Zarlino_1558#cantusHasPenultima:
+            uuid: abcffabf-074b-4b81-a1de-9491e299809e
+          Zarlino_1558#tenorHasFinalis:
+            uuid: be01cd74-149a-4c00-8d2b-d702a6ec917f
+          Zarlino_1558#tenorHasPenultima:
+            uuid: bd916e9c-3963-4ae5-84ff-83f1bf9e40f9
+      cadence285:
+        selection:
+          uuid: a58c2fb8-ec45-4efd-8f7b-a09259603f85
+        e13:
+          uuid: b6842b5e-171b-4dee-a2d5-d09a817956ab
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 0f5190d3-9b6a-4d1e-9d3f-c94a115056dc
+          Zarlino_1558#CadenceB-3:
+            uuid: b9525bad-34e9-4e18-b8fb-bb0efcc2f1b1
+          Zarlino_1558#Cadence6_8:
+            uuid: 31298d10-77d2-4e17-b89b-b51fab8d2d07
+          Zarlino_1558#DimishedCadence:
+            uuid: 6e79da41-1f93-4a2a-8fc0-6810155490c2
+        e13_p:
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 3a6bffc5-58fc-4bf3-a639-0a385860a4b0
+          Zarlino_1558#bassusHasFinalis:
+            uuid: 49195843-ff69-4397-98a6-e003c6750652
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 6cf3f6fb-7c0b-4df8-ab9c-9d2cc420f7b9
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: a40ad98a-ac9d-4332-aa01-9e9dda9a458e
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 86c4e473-74d1-4668-8d6a-8dea0e3cbe10
+          Zarlino_1558#cantusHasPenultima:
+            uuid: ae0dfe56-af47-4ee9-b856-4972ff2b69fa
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 44f9fdb0-6424-4b43-85e4-9d0b8027b912
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 61871da1-ae4f-48ca-b7c7-cd5cff58c2ea
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 1e2611fc-d2fd-4b57-9de0-06e1eb53cdd4
+      cadence286:
+        selection:
+          uuid: ccca3e78-1351-444c-8a0e-c0f319410eab
+        e13:
+          uuid: f7d62720-48f2-4cdc-91ca-a38806412efe
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: b49d6167-75cd-40f8-b655-f14bbb995adc
+          Zarlino_1558#CadenceA3:
+            uuid: 25bb76d6-ad0e-44a1-8521-fe6d24fc8b6b
+          Zarlino_1558#Cadence6_8:
+            uuid: 14dd217a-2e1e-40c3-baf2-d1d1318609e9
+          Zarlino_1558#SimpleCadence:
+            uuid: cc542cd1-6c93-4fdb-84b2-877e22025566
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: d835631a-82e2-4699-8f72-29d12a9ce4a7
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 810778cc-a502-4dfe-92a8-108ed0c770c7
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 0840ab41-8fce-4924-9628-a8c200bbff2b
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: b0ba4172-89bb-4932-a127-6e541c07c01b
+          Zarlino_1558#tenorHasFinalis:
+            uuid: ed843a38-817f-4d96-b4b6-30c272be6a0b
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 20cc00be-a20b-488a-a4fd-9a82646fb2f0
+      cadence287:
+        selection:
+          uuid: 744ce46d-d205-4860-94ee-250be0952501
+        e13:
+          uuid: be5616b7-0c99-48b2-afe1-5b0d6d4db3f8
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: f9a9be4d-2589-44d1-b3c9-dda9582b207b
+          Zarlino_1558#CadenceB-3:
+            uuid: 5bb53b30-0fe0-4452-920d-a8f1c33b5b5a
+          Zarlino_1558#Cadence6_8:
+            uuid: e4ac0708-7b94-4971-bf6d-7ae5be3700e4
+          Zarlino_1558#DimishedCadence:
+            uuid: ab10b550-be70-4f54-882c-851e631a82af
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 98c46eed-8d03-4779-ad02-826551c191fe
+          Zarlino_1558#cantusHasFinalis:
+            uuid: f0ac65b7-66ae-433a-bdf6-0dd3799ed9cc
+          Zarlino_1558#cantusHasPenultima:
+            uuid: af7efcfb-b4d7-49ab-9343-201418621bf2
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 9ff12984-0b79-40bb-abd4-72b69bca0513
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 1f541dee-746b-4fea-86e0-becee828e8d2
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 1fdc846c-0071-4b5a-a447-e249e4daa22c
+      cadence288:
+        selection:
+          uuid: 2910d872-5386-4236-8b31-12dc245d1bf0
+        e13:
+          uuid: 065b55ca-4b1f-4f29-afb7-dd4b4714f5de
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 73130016-3249-439d-a941-f2da63371386
+          Zarlino_1558#CadenceD4:
+            uuid: 4dd288f9-cb35-4019-8768-8e3ea1da6605
+          Zarlino_1558#Cadence3_1:
+            uuid: 6820137a-82b0-415b-8771-b75981e3e4de
+          Zarlino_1558#DimishedCadence:
+            uuid: c19228f5-fd55-4247-9e66-361dee626c6f
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 43745d79-2ae2-43c4-8cb9-706b909cb66f
+          Zarlino_1558#cantusHasFinalis:
+            uuid: e27bd9d6-5af7-47a9-99cf-aede268a5a95
+          Zarlino_1558#cantusHasPenultima:
+            uuid: f429c8ed-b34a-40b8-960b-3ae444671cec
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: b1a275db-5cf9-4739-bed4-c762203376ef
+          Zarlino_1558#tenorHasFinalis:
+            uuid: af8e69e1-db77-4ef8-8b33-37e84bf5b795
+          Zarlino_1558#tenorHasPenultima:
+            uuid: f8c56c70-b9bd-461d-82f8-c0cd29737e0d
+      cadence289:
+        selection:
+          uuid: 01fe6d18-f064-421e-8f99-64bb75a596c0
+        e13:
+          uuid: 0212de57-c359-481e-8438-2d128538552c
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 2b0af0c4-99aa-405b-8b87-bbd045c61d0d
+          Zarlino_1558#CadenceG3:
+            uuid: 618f269c-6b15-4ec3-bc9f-84507e7ef079
+          Zarlino_1558#Cadence3_1:
+            uuid: 9bc13d9e-ddcc-41d0-897a-7764370bca0c
+          Zarlino_1558#DimishedCadence:
+            uuid: d6c2a86b-456b-4e8a-858f-c76b548348e3
+        e13_p:
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 93ec6be6-221b-4bc0-af1f-d89ddff78eaa
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 5a401a68-848f-47d4-b309-6760de0d2c55
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 59721618-f32c-4daf-b100-dfe7c891feaf
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 61dcaae7-b645-4283-8c5e-61cfccda03b0
+          Zarlino_1558#tenorHasFinalis:
+            uuid: 0d1e771e-c926-419a-82a3-4c04a1585643
+          Zarlino_1558#tenorHasPenultima:
+            uuid: fc6ec1ae-84ee-4dd1-a12a-3e72bb0c87f5
+      cadence290:
+        selection:
+          uuid: ac1f25f8-00df-4f9b-bf54-45b8184b71fb
+        e13:
+          uuid: 7332b3d8-3000-44b3-9ab4-5e8b4506dd73
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 1bead8d5-1ed4-478a-a8ad-0dd979e126f6
+          Zarlino_1558#CadenceB-2:
+            uuid: 723a0287-33a3-4e45-b656-7862b1ef77bf
+          Zarlino_1558#ImperfectCadence:
+            uuid: 31c02190-a18f-4071-902c-daec43bd886a
+          Zarlino_1558#SimpleCadence:
+            uuid: 63a7ea6a-d6ee-4129-acac-5dab3842ffe8
+        e13_p:
+          Zarlino_1558#altusHasAntepenultima:
+            uuid: 82375784-f15e-4031-92eb-936e17be76ef
+          Zarlino_1558#altusHasFinalis:
+            uuid: 3dfa3da1-0b95-4329-bc33-2427a7036c6f
+          Zarlino_1558#altusHasPenultima:
+            uuid: 8d40dbba-c813-4593-9913-bfe649d40d25
+          Zarlino_1558#bassusHasAntepenultima:
+            uuid: 9f744ae9-6f31-4d68-a653-ee3f7911da03
+          Zarlino_1558#bassusHasFinalis:
+            uuid: ed891276-fe53-4b7d-8b27-f4726e840b72
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 163d63e4-3cfd-44ca-a49a-09fe832ee1fb
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: ff54fe98-13bc-47f9-9b08-9727fbebaa82
+          Zarlino_1558#cantusHasFinalis:
+            uuid: e44067a1-1d77-48ed-a804-024069e72830
+          Zarlino_1558#cantusHasPenultima:
+            uuid: e559ba58-0e39-4c6a-b0bc-d210332a9c15
+          Zarlino_1558#tenorHasAntepenultima:
+            uuid: 3544486a-3431-4df5-9bed-cdb30d322e94
+          Zarlino_1558#tenorHasPenultima:
+            uuid: b2b01cee-4d7b-4f30-a515-4099b54f6b2e
+      cadence291:
+        selection:
+          uuid: e0acb442-0bd1-4ef2-a9ed-4096a9d3e21f
+        e13:
+          uuid: 52deebcc-bfa4-42c9-bbfd-81ca74130af9
+        e13_types:
+          Zarlino_1558#Cadence:
+            uuid: 10155a04-b5ca-47fd-b817-7538b391c86a
+          Zarlino_1558#CadenceG3:
+            uuid: 4d822358-bbc3-4d01-aef2-dfa1b27ff2b8
+          Zarlino_1558#Cadence6_8:
+            uuid: d3cd686e-86e1-468d-a93c-d54145ba401c
+          Zarlino_1558#SimpleCadence:
+            uuid: 235663af-60d5-48cc-a06c-b37a1347bbad
+        e13_p:
+          Zarlino_1558#bassusHasPenultima:
+            uuid: 1d23ff51-5f5c-42a6-8738-38c4e1c32d19
+          Zarlino_1558#cantusHasAntepenultima:
+            uuid: 0e6ea92b-0858-4e38-a529-e702d3f9f820
+          Zarlino_1558#cantusHasFinalis:
+            uuid: 1990a692-69cb-420a-ba8c-cc5a1a416ad1
+          Zarlino_1558#cantusHasPenultima:
+            uuid: 9714e113-f3ef-49ce-9261-d0f08d446d2e
+          Zarlino_1558#tenorHasFinalis:
+            uuid: bc771fa7-9dbf-463f-86a7-5ef39a80ce29
+          Zarlino_1558#tenorHasPenultima:
+            uuid: 0534b85d-9f87-4d99-950f-2f37e0b4f5b1
+      ambitus48:
+        e13:
+          uuid: 2919fc3f-e1f6-4385-aac6-c700e545be63

@@ -1,0 +1,105 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+
+# Christophe
+<fccdf69c-4d6b-482e-869c-785551482dc2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by "Christophe Guillotel-Nothmann" ;
+    .
+
+# Thomas
+<efc50e78-f849-4f2f-9ac1-d384f2fa9843>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Thomas" ;
+        crmdig:L52_has_last_name "Bottini"
+    ] ;
+    .
+
+# Antoine
+<6ea17744-2345-43ee-8a3e-f3c9770e0340>
+    a crm:E21_Person ;
+    .
+
+# Rebecca
+<635f1b1b-322e-4958-88e6-45d1efaed0db>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Rebecca" ;
+        crmdig:L52_has_last_name "Bristow"
+    ] ;
+    .
+
+# Virginie
+<bfe4a11f-6940-4c30-83fa-b0156aceb539>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Virginie" ;
+        crmdig:L52_has_last_name "Julliard"
+    ] ;
+    .
+
+# Augustin Braud
+<60324ad9-35a3-489f-a203-5aecc435f7aa>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Augustin" ;
+        crmdig:L52_has_last_name "Braud"
+    ] ;
+    .
+  
+  # Anne Piéjus
+<ea287800-4345-4649-af12-7253aa185f3f>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Anne" ;
+        crmdig:L52_has_last_name "Piéjus"
+    ] ;
+    .
+
+# Nathalie Berton-Blivet
+<899e29f6-43d7-4a98-8c39-229bb20d23b2>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Nathalie" ;
+        crmdig:L52_has_last_name "Berton-Blivet"
+    ] ;
+    .
+
+# Nicolas Dufétel
+<7ebda3f2-cdfb-4f9c-9b86-0fb559bbfee5>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Nicolas" ;
+        crmdig:L52_has_last_name "Dufétel"
+    ] ;
+    .
+
+# Félix Poullet-Pagès
+<9eb090c2-1ae9-4eeb-82e9-6735ebd8fefd>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Félix" ;
+        crmdig:L52_has_last_name "Poullet-Pagès"
+    ] ;
+    .
+
+# Laurence Decobert
+<710d0c6e-48ed-47b6-b209-00520636d7be>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Laurence" ;
+        crmdig:L52_has_last_name "Decobert"
+    ] ;
+    .

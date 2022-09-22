@@ -38,7 +38,7 @@ def print_menu(focused):
             color = FOCUSED_CHECKED if tasks[i]["checked"] else FOCUSED_NOT_CHECKED
         else:
             color = NOT_FOCUSED_CHECKED if tasks[i]["checked"] else NOT_FOCUSED_NOT_CHECKED
-        stdscr.addstr(i, 0, str(i).ljust(4) + task["name"], curses.color_pair(color))
+        stdscr.addstr(i, 0, str(i).ljust(4) + "[" + task["project_name"] + "] " + task["name"], curses.color_pair(color))
         i += 1
 
     stdscr.addstr("\n")
@@ -92,11 +92,15 @@ if state == "go":
                 elif "script" in step:
                     if step["script"][-3:] == ".py":
                         args = []
-                        for arg_k, arg_v in step["args"].items():
-                            args.append("--"+arg_k)
-                            args.append(arg_v)
-                        subprocess.run([sys.executable, step["script"], *args])
+                        if "args" in step:
+                            for arg_k, arg_v in step["args"].items():
+                                args.append("--"+arg_k)
+                                args.append(arg_v)
+                            subprocess.run([sys.executable, step["script"], *args])
                     elif step["script"][-3:] == ".sh":
                         cmd = ""
                         cmd += step["script"]
-                        subprocess.run(["sh", cmd], env=step["args"])
+                        if "args" in step:
+                            subprocess.run(["sh", cmd], env=step["args"])
+                        else:
+                            subprocess.run(["sh", cmd])

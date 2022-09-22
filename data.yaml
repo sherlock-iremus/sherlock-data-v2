@@ -2,8 +2,8 @@ projects:
   mg:
     name: Édition du Mercure Galant
     tasks:
-      tei2rdf:
-        name: TEI -> CIDOC-CRM Turtle
+      tei2json:
+        name: TEI -> JSON
         steps:
           - git: ../in/mercure-galant-sources-github
             branch: gh-pages
@@ -13,11 +13,49 @@ projects:
               TEI_ARTICLES: out/files/mg/tei/articles
               JSON_ARTICLES: out/files/mg/json/articles
               MGGHXML: ../in/mercure-galant-sources-github/xml
+      tei2rdf:
+        name: TEI -> CIDOC-CRM
+        steps:
+          - git: ../in/mercure-galant-sources-github
+            branch: gh-pages
+          - script: ./rdfizers/mg/tei2rdf.py
+            args:
+              tei: ../in/mercure-galant-sources-github/xml
+              output_ttl: out/ttl/mg/tei.ttl
+              cache_tei: caches/mg/tei.yaml
+  modality-tonality:
+    name: Modality-Tonality
+    tasks:
+      scores:
+        name: MEI -> RDF SHERLOCK
+        steps:
+          - git: ../in/tonalities_pilot
+            branch: main
+          - script: rdfizers/modality-tonality/mei2rdf/mei2rdf.sh
+            args:
+              MEI_DIR: ../in/tonalities_pilot/scores
+              CACHE: caches/modality-tonality/mei.yaml
+              OUTPUT_MEI_FOLDER: out/files/modality-tonality/mei
+              OUTPUT_TTL_FOLDER: out/ttl/modality-tonality/mei
+      analysis:
+        name: OWL analysis data -> RDF SHERLOCK
+        steps:
+          - git: ../in/modal-tonal-ontology
+            branch: main
+          - script: rdfizers/modality-tonality/analysis.py
+            args:
+              analysis_ontology: ../in/modal-tonal-ontology/analysisOntology.rdf
+              cache: caches/modality-tonality/analysis.yaml
+              mei_cache: caches/modality-tonality/mei.yaml
+              historical_models_dir: ../in/modal-tonal-ontology/historicalModels
+              out_ttl: out/ttl/modality-tonality/analysis.ttl
+              researcher_uuid: fccdf69c-4d6b-482e-869c-785551482dc2
+          - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:
       personnes-directus2rdf:
-        name: Référentiel des personnes (Directus —> CIDOC-CRM Turtle)
+        name: Référentiel des personnes (Directus —> CIDOC-CRM)
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
         steps:
@@ -25,3 +63,12 @@ projects:
             args:
               ttl: out/ttl/rar/personnes.ttl
               cache: caches/rar/personnes.yaml
+      lieux-directus2rdf:
+        name: Référentiel des lieux (Directus —> CIDOC-CRM)
+        links:
+          - http://bases-iremus.huma-num.fr/directus-rar/admin/content/lieux
+        steps:
+          - script: rdfizers/rar/lieux-directus_to_ttl.py
+            args:
+              ttl: out/ttl/rar/lieux.ttl
+              cache: caches/rar/lieux.yaml
