@@ -5,7 +5,6 @@ import json
 from lxml import etree
 import os
 from pathlib import PurePath
-from pprint import pprint
 import requests
 import sys
 import yaml
@@ -20,6 +19,12 @@ parser.add_argument("--output_mei_folder")
 parser.add_argument("--output_ttl_folder")
 args = parser.parse_args()
 
+################################################################################
+# DIRECTUS
+################################################################################
+
+print("Récupération des données Directus…")
+
 # Secret YAML
 file = open(os.path.join(sys.path[0], "secret.yaml"))
 secret = yaml.full_load(file)
@@ -27,10 +32,6 @@ r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"],
 access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
-
-# Récupération des données Directus
-
-print("Récupération des données Directus…")
 
 query = """
 query {
@@ -43,6 +44,10 @@ query {
 
 r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
 result = json.loads(r.text)
+
+################################################################################
+# DATA
+################################################################################
 
 for partition in result["data"]["partitions"]:
     uuid = partition["id"]

@@ -48,16 +48,21 @@ projects:
             args:
               analysis_ontology: ../in/modal-tonal-ontology/analysisOntology.rdf
               cache: caches/modality-tonality/analysis.yaml
-              mei_cache: caches/modality-tonality/mei.yaml
               historical_models_dir: ../in/modal-tonal-ontology/historicalModels
               out_ttl: out/ttl/modality-tonality/analysis.ttl
               researcher_uuid: fccdf69c-4d6b-482e-869c-785551482dc2
           - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
+      analysis-prod:
+        name: Mettre en prod les données d'analyse algorithmique
+        steps:
+          - script: prod/modality-tonality.analysis.sh
+            args:
+              STAGING_DIR: ~/Desktop/sherlock-staging
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:
       personnes-directus2rdf:
-        name: 'Personnes : Convertir les données Directus en RDF CIDOC-CRM'
+        name: "Personnes : Convertir les données Directus en RDF CIDOC-CRM"
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
         steps:
@@ -66,7 +71,7 @@ projects:
               ttl: out/ttl/rar/personnes.ttl
               cache: caches/rar/personnes.yaml
       lieux-directus2rdf:
-        name: 'Lieux : convertir les données des Directus en RDF CIDOC-CRM'
+        name: "Lieux : convertir les données des Directus en RDF CIDOC-CRM"
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/lieux
         steps:

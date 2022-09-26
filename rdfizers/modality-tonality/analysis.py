@@ -1,9 +1,11 @@
 import argparse
+import json
+import os
 from pathlib import PurePath
-from pprint import pprint
-import sys
-from typing import Literal
 from rdflib import XSD, Graph, Literal, Namespace, RDF, RDFS, URIRef, DCTERMS
+import requests
+import sys
+import yaml
 from sherlockcachemanagement import Cache
 
 ################################################################################
@@ -13,14 +15,12 @@ from sherlockcachemanagement import Cache
 parser = argparse.ArgumentParser()
 parser.add_argument("--analysis_ontology")
 parser.add_argument("--cache")
-parser.add_argument("--mei_cache")
 parser.add_argument("--historical_models_dir")
 parser.add_argument("--out_ttl")
 parser.add_argument("--researcher_uuid")
 args = parser.parse_args()
 
 cache = Cache(args.cache)
-mei_cache = Cache(args.mei_cache)
 
 crm = Namespace('http://www.cidoc-crm.org/cidoc-crm/')
 crmdig = Namespace('http://www.cidoc-crm.org/crmdig/')
@@ -47,6 +47,39 @@ g_out.bind("mtao", MTNS)
 g_out.bind("sherlock", str(sherlock))
 g_out.bind("sherlockns", str(sherlockns))
 g_out.bind("zarlino1588", zarlino1588)
+
+################################################################################
+# DIRECTUS
+################################################################################
+
+print("Récupération des données Directus…")
+
+# Secret YAML
+file = open(os.path.join(sys.path[0], "secret.yaml"))
+secret = yaml.full_load(file)
+r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
+access_token = r.json()['data']['access_token']
+refresh_token = r.json()['data']['refresh_token']
+file.close()
+
+# Récupération des données Directus
+
+
+query = """
+query {
+  partitions(limit: -1) {
+    id
+    pre_sherlock_url 
+  }
+}
+"""
+
+r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
+result = json.loads(r.text)
+
+mei_file_to_score_uuid = {}
+for partition in result["data"]["partitions"]:
+    mei_file_to_score_uuid[PurePath(partition["pre_sherlock_url"]).name] = partition["id"]
 
 ################################################################################
 # PROCESS
@@ -106,7 +139,7 @@ for analysis in analyses:
         if str(binding["p"]) == MTNS + "hasURL":
             mei_file = str(binding["o"]).replace("https://raw.githubusercontent.com/guillotel-nothmann/", "").replace("/main", "")
             mei_file = PurePath(mei_file).name
-            work = sherlock[URIRef(mei_cache.get_uuid([mei_file]))]
+            work = sherlock[URIRef(mei_file_to_score_uuid[mei_file])]
             g_out.add((analytical_project, crm["P16_used_specific_object"], work))
 
     # Theoretical model
