@@ -83,9 +83,7 @@ curses.wrapper(main)
 if state == "go":
     for task in tasks:
         if task["checked"]:
-            print("#" * 80)
-            print("### " + task["project_name"])
-            print("#" * 80)
+            print("### " + task["project_name"] + " :: " + task["name"])
             for step in task["steps"]:
                 if "git" in step:
                     subprocess.run([f"cd {step['git']} ; git pull origin {step['branch']}"], shell=True)

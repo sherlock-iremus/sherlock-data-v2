@@ -3,7 +3,7 @@ projects:
     name: Édition du Mercure Galant
     tasks:
       tei2json:
-        name: TEI -> JSON
+        name: Convertir les fichiers TEI en fichiers JSON pour la Web App
         steps:
           - git: ../in/mercure-galant-sources-github
             branch: gh-pages
@@ -14,7 +14,7 @@ projects:
               JSON_ARTICLES: out/files/mg/json/articles
               MGGHXML: ../in/mercure-galant-sources-github/xml
       tei2rdf:
-        name: TEI -> CIDOC-CRM
+        name: Convetir les fichiers TEI en RDF CIDOC-CRM
         steps:
           - git: ../in/mercure-galant-sources-github
             branch: gh-pages
@@ -27,18 +27,20 @@ projects:
     name: Modality-Tonality
     tasks:
       scores:
-        name: MEI -> RDF SHERLOCK
+        name: Générer du RDF SHERLOCK à partir des fichiers MEI
         steps:
-          - git: ../in/tonalities_pilot
-            branch: main
-          - script: rdfizers/modality-tonality/mei2rdf/mei2rdf.sh
+          - script: rdfizers/modality-tonality/mei2rdf/main.py
             args:
-              MEI_DIR: ../in/tonalities_pilot/scores
-              CACHE: caches/modality-tonality/mei.yaml
-              OUTPUT_MEI_FOLDER: out/files/modality-tonality/mei
-              OUTPUT_TTL_FOLDER: out/ttl/modality-tonality/mei
+              output_mei_folder: out/files/modality-tonality/mei
+              output_ttl_folder: out/ttl/modality-tonality/mei
+      scores-prod:
+        name: Mettre en prod les fichiers et données MEI
+        steps:
+          - script: prod/modality-tonality.mei.sh
+            args:
+              STAGING_DIR: ~/Desktop/sherlock-staging
       analysis:
-        name: OWL analysis data -> RDF SHERLOCK
+        name: Convertir les données d'analyse automatique OWL en RDF SHERLOCK
         steps:
           - git: ../in/modal-tonal-ontology
             branch: main
@@ -55,7 +57,7 @@ projects:
     name: Référentiel de l'Ancien Régime
     tasks:
       personnes-directus2rdf:
-        name: Référentiel des personnes (Directus —> CIDOC-CRM)
+        name: 'Personnes : Convertir les données Directus en RDF CIDOC-CRM'
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
         steps:
@@ -64,7 +66,7 @@ projects:
               ttl: out/ttl/rar/personnes.ttl
               cache: caches/rar/personnes.yaml
       lieux-directus2rdf:
-        name: Référentiel des lieux (Directus —> CIDOC-CRM)
+        name: 'Lieux : convertir les données des Directus en RDF CIDOC-CRM'
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/lieux
         steps:

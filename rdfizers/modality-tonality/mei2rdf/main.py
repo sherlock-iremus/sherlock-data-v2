@@ -1,8 +1,14 @@
 import argparse
 from asyncio.format_helpers import _format_callback
 import chardet
+import json
 from lxml import etree
+import os
 from pathlib import PurePath
+from pprint import pprint
+import requests
+import sys
+import yaml
 
 from sherlockcachemanagement import Cache
 from sherlock_xml import idize
@@ -10,19 +16,39 @@ from mei_beats import get_beats_data
 from mei_sherlockizer import rdfize
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--input_mei_file")
-parser.add_argument("--cache")
 parser.add_argument("--output_mei_folder")
 parser.add_argument("--output_ttl_folder")
 args = parser.parse_args()
-filename = PurePath(args.input_mei_file).name
 
-cache = Cache(args.cache)
+# Secret YAML
+file = open(os.path.join(sys.path[0], "secret.yaml"))
+secret = yaml.full_load(file)
+r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
+access_token = r.json()['data']['access_token']
+refresh_token = r.json()['data']['refresh_token']
+file.close()
 
-uuid = cache.get_uuid([filename], True)
+# Récupération des données Directus
 
-with open(args.input_mei_file, "rb") as f:
-    f_content = f.read()
+print("Récupération des données Directus…")
+
+query = """
+query {
+  partitions(limit: -1) {
+    id
+    pre_sherlock_url 
+  }
+}
+"""
+
+r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
+result = json.loads(r.text)
+
+for partition in result["data"]["partitions"]:
+    uuid = partition["id"]
+    print(uuid, "…")
+    f_content = requests.get(partition["pre_sherlock_url"]).content
+
     input_mei_file_encoding = chardet.detect(f_content)
     input_mei_file_doc = etree.fromstring(f_content)
     idized_input_mei_file_doc = idize(input_mei_file_doc)
@@ -44,5 +70,3 @@ with open(args.input_mei_file, "rb") as f:
         beats_data["elements"],
         PurePath(args.output_ttl_folder, uuid + ".ttl")
     )
-
-cache.bye()
