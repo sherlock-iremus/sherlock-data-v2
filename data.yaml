@@ -74,3 +74,15 @@ projects:
             args:
               ttl: out/ttl/rar/lieux.ttl
               cache: caches/rar/lieux.yaml
+  users:
+    name: Utilisateurs
+    tasks:
+      orcid-names2rdf:
+        name : Générer les données d'identification basées sur l'API Orcid
+        links:
+          - http://data-iremus.huma-num.fr/sherlock-doc/users/
+        steps:
+          - script: rdfizers/common/orcid-names_to_ttl.py
+            args:
+              ttl: out/ttl/common/orcid-names.ttl
+              cache: caches/common/users.yaml

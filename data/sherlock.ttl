@@ -294,3 +294,8 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Hex color code" ;
     .
+
+<73ea8d74-3526-4f6a-8830-dd369795650d>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "ORCID generated name" ;
+    .
