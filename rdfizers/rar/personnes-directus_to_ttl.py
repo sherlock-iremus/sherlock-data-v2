@@ -1,6 +1,6 @@
 # SEMANTIC DEPENDENCIES TO data/mercure-galant.ttl
 
-from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal as l
+from rdflib import Graph, Namespace, DCTERMS, RDF, SKOS, URIRef, URIRef as u, Literal as l
 import argparse
 from sherlockcachemanagement import Cache
 import requests
@@ -126,7 +126,7 @@ for personne in result["data"]["personnes"]:
     E41_uri = she(cache.get_uuid(["personnes", E21_uri, "E41"], True))
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
-    t(E41_uri, RDFS.label, l(personne["label"]))
+    t(E41_uri, crm("P190_has_symbolic_content"), l(personne["label"]))
     t(E41_uri, crm("P2_has_type"), she("3cf0c743-ee9b-4dfc-8133-7dd383a1b6be")) #Preferred Appellation
 
     # AltLabels
@@ -137,50 +137,24 @@ for personne in result["data"]["personnes"]:
         if altlabel != None:
             E41_alt_uri = she(cache.get_uuid(["personnes", E21_uri, "E41 alt", altlabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
-            t(E41_alt_uri, RDFS.label, l(altlabel))
+            t(E41_alt_uri, crm("P190_has_symbolic_content"), l(altlabel))
             t(E21_uri, crm("P1_is_identified_by"), E41_alt_uri)
             t(E41_alt_uri, crm("P2_has_type"), she("70589b95-4156-431e-a58a-818af6dc795a")) #Alternative Appellation
         n += 1
         clé = "alt_label_" + str(n)
 
-    # Définition
+    # Définition - Removed usage of E13 since all the authority document is signed, not only notes
     if personne["definition"] != None:
-        E13_definition_uri = she(cache.get_uuid(["personnes", E21_uri, "definition", "E13"], True))
-        t(E13_definition_uri, a, crm("E13_Attribute_Assignement"))
-        t(E13_definition_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921")) #Equipe Mercure Galant
-        t(E13_definition_uri, crm("P140_assigned_attribute_to"), E21_uri)
-        t(E13_definition_uri, crm("P141_assigned"), l(personne["definition"]))
-        t(E13_definition_uri, crm("P177_assigned_property_type"), she_ns("definition"))
+        t(E21_uri, she_ns("definition"), l(personne["definition"]))
 
-    # Note historique
+    # Note historique - Removed usage of E13 since all the authority document is signed, not only notes
     if personne["note_historique"] != None:
-        E13_note_uri = she(cache.get_uuid(["personnes", E21_uri, "note historique", "E13"], True))
-        t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
-        t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921")) #Equipe Mercure Galant
-        t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
-        t(E13_note_uri, crm("P141_assigned"), l(personne["note_historique"]))
-        t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+        t(E21_uri, crm("P3_has_note"), l(personne["note_historique"]))
 
-    # Les identifiants IReMus/Hortus seront éventuellement supprimés par Nathalie dans Directus
-
-    # # Identifant IReMus
-    if personne["ref_iremus"] != None: 
-        E42_ref_iremus = she(cache.get_uuid(["personnes", E21_uri, "E42 ref iremus"], True))
-        t(E21_uri, crm("P1_is_identified_by"), E42_ref_iremus)
-        t(E42_ref_iremus, crm('P2_has_type'), she("6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc") ) #Identifiant IReMus
-        t(E42_ref_iremus, crm('P190_has_symbolic_content'), l(personne["ref_iremus"]))
-
-    # Identifiant Hortus
-    if personne["ref_hortus"] != None:
-        E42_ref_hortus = she(cache.get_uuid(["personnes", E21_uri, "E42 ref hortus"], True))
-        t(E21_uri, crm("P1_is_identified_by"), E42_ref_hortus)
-        t(E42_ref_iremus, crm('P2_has_type'), she("6703d6e9-bd46-4c7d-865e-5e5a4c0a549f") ) #Identifiant Hortus
-        t(E42_ref_iremus, crm('P190_has_symbolic_content'), l(personne["ref_hortus"]))
-
-    # Alignements
-    def alignement(champ, E55_uuid):
+    # ASSOCIATING E42
+    def linkE42(champ, E55_uuid):
         """
-        Generate turtle for an alignement in person collection.
+        Generate turtle for an identifier in person collection.
 
         :param str champ: field as it is defined in Directus
         :param str E55_uuid: uuid of the type of alignement
@@ -192,10 +166,14 @@ for personne in result["data"]["personnes"]:
             t(E42_alignement, crm('P2_has_type'), she(E55_uuid))
             t(E42_alignement, crm('P190_has_symbolic_content'), l(personne[champ]))
 
-    alignement(champ = "versailles_alignement", E55_uuid = "f316e967-0a73-442a-a6b9-e1de5171f247")
-    alignement(champ = "data_bnf_alignement", E55_uuid = "df9f27d6-b08b-46e6-ad67-202259c4cdbd")
-    alignement(champ = "catalogue_bnf_alignement", E55_uuid= "59835932-52aa-4a19-ac6e-916d2a4b9228")
-    alignement(champ = "isni_alignement", E55_uuid = "49729025-e609-46ed-a749-5f3ae53dbfbe")
+    linkE42(champ = "versailles_alignement", E55_uuid = "f316e967-0a73-442a-a6b9-e1de5171f247")
+    linkE42(champ = "data_bnf_alignement", E55_uuid = "df9f27d6-b08b-46e6-ad67-202259c4cdbd")
+    linkE42(champ = "catalogue_bnf_alignement", E55_uuid= "59835932-52aa-4a19-ac6e-916d2a4b9228")
+    linkE42(champ = "isni_alignement", E55_uuid = "49729025-e609-46ed-a749-5f3ae53dbfbe")
+
+    # Les identifiants IReMus/Hortus seront éventuellement supprimés par Nathalie dans Directus
+    linkE42(champ = "ref_hortus", E55_uuid = "6703d6e9-bd46-4c7d-865e-5e5a4c0a549f")
+    linkE42(champ = "ref_iremus", E55_uuid = "6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc")
 
 ############################################################################################
 # TESTS
