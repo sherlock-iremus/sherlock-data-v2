@@ -113,8 +113,6 @@ result = json.loads(r.text)
 print("Création des triplets RDF…")
 
 E32_personnes_uri = u(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"]) #Référentiel des personnes
-t(E32_personnes_uri, a, crm("E32_Authority_Document"))
-t(E32_personnes_uri, crm("P1_is_identified_by"), l("Noms de personnes"))
 
 for personne in result["data"]["personnes"]:
     E21_uuid = personne["id"]
@@ -123,25 +121,22 @@ for personne in result["data"]["personnes"]:
     t(E32_personnes_uri, crm("P71_lists"), E21_uri)
 
     # PrefLabel
-    E41_uri = she(cache.get_uuid(["personnes", E21_uri, "E41"], True))
+    E41_uri = she(cache.get_uuid(["personnes", E21_uuid, "E41_pref"], True))
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     t(E41_uri, crm("P190_has_symbolic_content"), l(personne["label"]))
     t(E41_uri, crm("P2_has_type"), she("3cf0c743-ee9b-4dfc-8133-7dd383a1b6be")) #Preferred Appellation
 
     # AltLabels
-    n = 1
-    clé = "alt_label_" + str(n)
-    while clé in personne.keys():
+    for label_index in range(1, 12):
+        clé = "alt_label_" + str(label_index)
         altlabel = personne[clé]
-        if altlabel != None:
-            E41_alt_uri = she(cache.get_uuid(["personnes", E21_uri, "E41 alt", altlabel], True))
+        if altlabel:
+            E41_alt_uri = she(cache.get_uuid(["personnes", E21_uuid, "E41_alt", altlabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, crm("P190_has_symbolic_content"), l(altlabel))
             t(E21_uri, crm("P1_is_identified_by"), E41_alt_uri)
             t(E41_alt_uri, crm("P2_has_type"), she("70589b95-4156-431e-a58a-818af6dc795a")) #Alternative Appellation
-        n += 1
-        clé = "alt_label_" + str(n)
 
     # Définition - Removed usage of E13 since all the authority document is signed, not only notes
     if personne["definition"] != None:
@@ -160,8 +155,8 @@ for personne in result["data"]["personnes"]:
         :param str E55_uuid: uuid of the type of alignement
         """
 
-        if personne[champ] != None:
-            E42_alignement = she(cache.get_uuid(["personnes", E21_uri, champ], True))
+        if personne[champ]:
+            E42_alignement = she(cache.get_uuid(["personnes", E21_uuid, "E42", champ], True))
             t(E21_uri, crm("P1_is_identified_by"), E42_alignement)
             t(E42_alignement, crm('P2_has_type'), she(E55_uuid))
             t(E42_alignement, crm('P190_has_symbolic_content'), l(personne[champ]))

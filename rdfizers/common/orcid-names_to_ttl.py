@@ -40,7 +40,7 @@ query = """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-select ?user ?p ?orcid
+select ?user ?orcid
 where {
  	graph ?g {
 		?user rdf:type crm:E21_Person.
@@ -64,18 +64,18 @@ user_dict = {}
 for row in result["results"]["bindings"]:
     response = requests.get(f"https://pub.orcid.org/v3.0/{row['orcid']['value']}/", headers = { 'Content-Type' : 'application/json' })
     user = response.json()
-    user_dict[row["user"]["value"].split("/")[-1]] = f'{user["person"]["name"]["family-name"]["value"]} - {user["person"]["name"]["given-names"]["value"]}'
+    user_dict[row["user"]["value"].split("/")[-1]] = f'{user["person"]["name"]["given-names"]["value"]} {user["person"]["name"]["family-name"]["value"]}'
 
 ########################################################################################
 # CREATE RDF TRIPLES
 ########################################################################################
 print("Creating RDF triples")
-for uuid, generated_name in user_dict.items():
-    E41_orcid_api_generated_name = she(cache.get_uuid(["user", uuid, "E41_orcid"], True))
-    t(she(uuid), crm("P1_is_identified_by"), E41_orcid_api_generated_name)
-    t(E41_orcid_api_generated_name, RDF.type, crm("E41_Appellation"))
-    t(E41_orcid_api_generated_name, crm("P2_has_type"), she("73ea8d74-3526-4f6a-8830-dd369795650d"))
-    t(E41_orcid_api_generated_name, crm("P190_has_symbolic_content"), Literal(generated_name))
+for uuid, name in user_dict.items():
+    E41_name = she(cache.get_uuid(["user", uuid, "E41_orcid"], True))
+    t(she(uuid), crm("P1_is_identified_by"), E41_name)
+    t(E41_name, RDF.type, crm("E41_Appellation"))
+    t(E41_name, crm("P2_has_type"), she("73ea8d74-3526-4f6a-8830-dd369795650d"))
+    t(E41_name, crm("P190_has_symbolic_content"), Literal(name))
 
 #########################################################################################
 # SERIALISATION DU GRAPHE
