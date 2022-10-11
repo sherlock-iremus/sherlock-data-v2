@@ -74,6 +74,10 @@ projects:
             args:
               ttl: out/ttl/rar/lieux.ttl
               cache: caches/rar/lieux.yaml
+      personnes-prod:
+        name: Mettre en prod les données des personnes du rar-personnes
+        steps:
+          - script: prod/rar/personnes.sh
   users:
     name: Utilisateurs
     tasks:

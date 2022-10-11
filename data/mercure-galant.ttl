@@ -115,12 +115,12 @@
 
 <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Preferred Appellation"@fr ;
+    crm:P1_is_identified_by "Preferred Appellation"@en ;
     .
 
 <70589b95-4156-431e-a58a-818af6dc795a>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Alternative Appellation"@fr ;
+    crm:P1_is_identified_by "Alternative Appellation"@en ;
     .
 
 # Identifiers
