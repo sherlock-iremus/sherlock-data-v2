@@ -8,62 +8,10 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<672c0b4e-e39f-414b-acb8-3cd313570e6e>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Code UMR" ;
-    .
-
-# le CNRS
-<7b38dab1-3f9f-431b-83e5-4bc98ccfd497>
-    a crm:E74_Group ;
-    crm:P1_is_identified_by "Centre national de recherche scientifique" ;
-    crm:P107_has_current_or_former_member <48a8e9ad-4264-4b0b-a76d-953bc9a34498> ;
-    .
-
-# l'IReMus
-<48a8e9ad-4264-4b0b-a76d-953bc9a34498>
-    a crm:E39_Actor ;
-    crm:P1_is_identified_by "Institut de Recherche en Musicologie" ;
-    crm:P1_is_identified_by [
-        a crm:E42_Identifier ;
-        crm:P2_has_type <672c0b4e-e39f-414b-acb8-3cd313570e6e> ;
-        rdfs:label "8823"^^xsd:integer
-    ] ;
-    crm:P107_has_current_or_former_member <fccdf69c-4d6b-482e-869c-785551482dc2> ;
-    crm:P107_has_current_or_former_member <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
-    .
-
-
-# l'équipe SHERLOCK
-<eae1dc18-15eb-42e9-968a-ccf8d0e13419>
-    a crm:E39_Actor ;
-    crm:P1_is_identified_by "Projet SHERLOCK" ;
-    crm:P107_has_current_or_former_member <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
-    crm:P107_has_current_or_former_member <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
- .
-
-# le projet SHERLOCK
-<8605b3e7-46d7-4eda-a07b-d935220b8529>
-    a crm:E65_Creation ;
-    crm:P94_has_created <5af07d03-08d2-45f7-9729-b956d05d4e22> ;
-    crm:P14_carried_out_by <eae1dc18-15eb-42e9-968a-ccf8d0e13419> ;
-.
-
-# le site web SHERLOCK
-<5af07d03-08d2-45f7-9729-b956d05d4e22>
-    a crm:D1_Digital_Object ;
-.
-
 # l'équipe Mercure Galant
 <684b4c1a-be76-474c-810e-0f5984b47921>
     a crm:E74_Group ;
     crm:P1_is_identified_by "Equipe Mercure Galant" ;
-    .
-
-# L'OBVIL
-<417fb659-4bf6-447f-8145-9ac22f511054>
-    a crm:E74_Group ;
-    crm:P1_is_identified_by "OBVIL" ;
     .
 
 # l'équipe Euterpe

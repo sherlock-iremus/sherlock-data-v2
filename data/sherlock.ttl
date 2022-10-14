@@ -27,14 +27,6 @@
       ;
 .
 
-<fb96f7c5-7b26-49ab-8d71-ed6ca7bd3aa2>
-    a crm:E65_Creation ;
-    crm:P94:has_created <58445630-19b4-4070-bc10-586bad027327> ;
-    crm:P14_carried_out_by <efc50e78-f849-4f2f-9ac1-d384f2fa9843>,
-        <635f1b1b-322e-4958-88e6-45d1efaed0db>
-        ;
-.
-
 <792f6ea9-3d3d-4504-9042-4a3f8e23f542>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Partition musicale"@fr ;
@@ -101,12 +93,6 @@
     <19073c4a-0ef7-4ac4-a51a-e0810a596773>,
     <db425957-e8bc-41d7-8a6b-d1b935cfe48d>,
     <1820ce38-34d2-4354-a0a7-c6f220d2ee08>;
-    .
-    
-<09c7ee4e-619d-4fb0-8905-7c8f1128657e>
-    a crm:E65_Creation ;
-    crm:P94:has_created <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29> ;
-    crm:P14_carried_out_by <efc50e78-f849-4f2f-9ac1-d384f2fa9843> ;
     .
 <219fd53d-cdf2-4174-8d71-6d12bdd24016>
     a crm:E55_Type ;
@@ -273,11 +259,6 @@
 <6d72746a-9f28-4739-8786-c6415d53c56d>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Entité analytique"@fr ;
-    .
-
-<5e6dae45-92bf-4173-bc8d-70a7ed8763d3>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Fondamentale"@fr ;
     .
 
 <d7ef2583-ff31-4913-9ed3-bc3a1c664b21>

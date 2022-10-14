@@ -26,6 +26,10 @@ projects:
   modality-tonality:
     name: Modality-Tonality
     tasks:
+      static:
+        name: Mettre en prod les données statiques
+        steps:
+          - script: prod/modality-tonality.static-data.sh
       scores:
         name: Générer du RDF SHERLOCK à partir des fichiers MEI
         steps:
@@ -50,7 +54,7 @@ projects:
               cache: caches/modality-tonality/analysis.yaml
               historical_models_dir: ../in/modal-tonal-ontology/historicalModels
               out_ttl: out/ttl/modality-tonality/analysis.ttl
-              researcher_uuid: fccdf69c-4d6b-482e-869c-785551482dc2
+              researcher_uuid: 5d7bdf74-addd-418b-ab43-38af4e70c158
           - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
       analysis-prod:
         name: Mettre en prod les données d'analyse algorithmique
@@ -70,7 +74,14 @@ projects:
             args:
               ttl: out/ttl/rar/personnes.ttl
               cache: caches/rar/personnes.yaml
-      lieux-directus2rdf:
+      # lieux-skos-to-directus:
+      #   name: "Lieux : injecter les données SKOS dans Directus"
+      #   steps:
+      #     - script: rdfizers/rar/lieux-skos-to-directus.py
+      #       args:
+      #         skos: sources/rar/Lieux_43.rdf
+      #         skos_cache: caches/rar/lieux_skos_cache.yaml
+      lieux-directus-to-rdf:
         name: "Lieux : convertir les données des Directus en RDF CIDOC-CRM"
         links:
           - http://bases-iremus.huma-num.fr/directus-rar/admin/content/lieux
