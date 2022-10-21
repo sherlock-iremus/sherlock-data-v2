@@ -26,6 +26,12 @@ projects:
   modality-tonality:
     name: Modality-Tonality
     tasks:
+      models:
+        name: Mettre en prod les données des ontologies des traités théoriques historiques
+        steps:
+          - git: ../in/modal-tonal-ontology
+            branch: main
+          - script: prod/modality-tonality.mto.sh
       static:
         name: Mettre en prod les données statiques
         steps:
@@ -94,6 +100,13 @@ projects:
         name: Mettre en prod les données des personnes du rar-personnes
         steps:
           - script: prod/rar/personnes.sh
+      indexations-stagiaires:
+        name: Reprise de l'existant des indexations faites par les stagiaires dans des fichiers RTF
+        steps:
+          - script: rdfizers/rar/indexations-caca-to-directus.py
+      #       args:
+      #         lieux_skos_cache: caches/rar/lieux_skos_cache.yaml
+      #         caca_folder: sources/rar/indexations
   users:
     name: Utilisateurs
     tasks:
