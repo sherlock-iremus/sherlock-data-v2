@@ -36,6 +36,14 @@ projects:
         name: Mettre en prod les données statiques
         steps:
           - script: prod/modality-tonality.static-data.sh
+      annotations:
+        name: "Mettre en prod les données d'annotation de Christophe"
+        steps:
+          - git: ../in/tonalities_pilot
+            branch: main
+          - script: rdfizers/modality-tonality/christophe-annotations.py
+            args:
+              owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
       scores:
         name: Générer du RDF SHERLOCK à partir des fichiers MEI
         steps:
@@ -50,7 +58,7 @@ projects:
             args:
               STAGING_DIR: ~/Desktop/sherlock-staging
       analysis:
-        name: Convertir les données d'analyse automatique OWL en RDF SHERLOCK
+        name: "Convertir les données d'analyse automatique OWL en RDF SHERLOCK"
         steps:
           - git: ../in/modal-tonal-ontology
             branch: main
@@ -68,6 +76,10 @@ projects:
           - script: prod/modality-tonality.analysis.sh
             args:
               STAGING_DIR: ~/Desktop/sherlock-staging
+      tonalities:
+        name: Assembler & déployer TONALITIES
+        steps:
+          - script: prod/modality-tonality/tonalities-build-and-deploy.sh
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:
@@ -111,7 +123,7 @@ projects:
     name: Utilisateurs
     tasks:
       orcid-names2rdf:
-        name : Générer les données d'identification basées sur l'API Orcid
+        name: Générer les données d'identification basées sur l'API Orcid
         links:
           - http://data-iremus.huma-num.fr/sherlock-doc/users/
         steps:
