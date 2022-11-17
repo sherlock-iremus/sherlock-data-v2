@@ -80,6 +80,12 @@ projects:
         name: Assembler & déployer TONALITIES
         steps:
           - script: prod/modality-tonality/tonalities-build-and-deploy.sh
+      estampes:
+        name: Estampes -> CRM
+        steps:
+          - git: ../in/mercure-galant-sources
+            branch: main
+          - script: 
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:
