@@ -65,6 +65,8 @@ def dor(x):
 def fab(x):
     return fabio_ns[x]
 
+def opth(concept, thesaurus_id):
+    return u(f"https://opentheso.huma-num.fr/opentheso/?idc={concept}&idt={thesaurus_id}")
 
 def t(s, p, o):
     g.add((s, p, o))

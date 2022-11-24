@@ -21,7 +21,7 @@ projects:
               JSON_ARTICLES: out/files/mg/json/articles
               MGGHXML: ../in/mercure-galant-sources-github/xml
       tei2rdf:
-        name: Convetir les fichiers TEI en RDF CIDOC-CRM
+        name: Convertir les fichiers TEI en RDF CIDOC-CRM
         steps:
           - git: ../in/mercure-galant-sources-github
             branch: gh-pages
@@ -30,6 +30,20 @@ projects:
               tei: ../in/mercure-galant-sources-github/xml
               output_ttl: out/ttl/mg/tei.ttl
               cache_tei: caches/mg/tei.yaml
+      xls-estampes2rdf:
+        name: Convertir les fichiers d'indexation des estampes XLS en RDF CIDOC-CRM
+        steps:
+          - git: ../in/mercure-galant-sources
+            branch: main
+          - script: ./rdfizers/mg/xls_estampes2rdf.py
+            args:
+              xlsx: ../in/mercure-galant-sources/indexation-estampes.xlsx
+              opentheso_id: th391
+              ttl: out/ttl/mg/estampes.ttl
+              cache: caches/mg/estampes.yaml
+              cache_tei: caches/mg/tei.yaml
+              cache_personnes: caches/rar/personnes.yaml
+              cache_lieux: caches/rar/lieux.yaml
   modality-tonality:
     name: Modality-Tonality
     tasks:
@@ -65,7 +79,7 @@ projects:
             args:
               STAGING_DIR: ~/Desktop/sherlock-staging
       analysis:
-        name: "Convertir les données d'analyse automatique OWL en RDF SHERLOCK"
+        name: Convertir les données d'analyse automatique OWL en RDF SHERLOCK
         steps:
           - git: ../in/modal-tonal-ontology
             branch: main
