@@ -9,6 +9,9 @@ import sys
 import yaml
 import json
 
+sys.path.append(os.path.abspath(os.path.join('directus/', '')))
+from helpers_api import graphql_query
+
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
@@ -18,20 +21,6 @@ args = parser.parse_args()
 # Cache
 print(f"Lecture du cache [{args.cache}]")
 cache = Cache(args.cache)
-
-# Secret YAML
-file = open(os.path.join(sys.path[0], "secret.yaml"))
-secret = yaml.full_load(file)
-query =f"""mutation {{
-    auth_login(email: "{secret["email"]}", password: "{secret["password"]}") {{
-        access_token
-        refresh_token
-    }}
-}}"""
-r = requests.post(secret["url"] + 'system', json={'query': query})
-
-access_token = r.json()['data']['auth_login']['access_token']
-file.close()
 
 ############################################################################################
 # INITIALISATION DU GRAPHE ET NAMESPACES
@@ -103,8 +92,7 @@ query {
 	} 
 }"""
 
-r = requests.post(secret["url"] + '?access_token=' + access_token, json={'query': query})
-result = json.loads(r.text)
+result = graphql_query(query)
 
 ############################################################################################
 # CREATION DES TRIPLETS

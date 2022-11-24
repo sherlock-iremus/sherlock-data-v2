@@ -1,12 +1,11 @@
 from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, XSD, RDFS, Literal as l, URIRef as u
-
+from uuid import UUID
 g = None
 
 
 def init_graph():
     global g
     g = Graph()
-
     g.bind("crm", crm_ns)
     g.bind("dcterms", DCTERMS)
     g.bind("lrm", lrmoo_ns)
@@ -70,3 +69,33 @@ def opth(concept, thesaurus_id):
 
 def t(s, p, o):
     g.add((s, p, o))
+
+def triples(s, p, o):
+    return g.triples((s, p, o))
+
+equipe_mercure_galant_uri = she("684b4c1a-be76-474c-810e-0f5984b47921")
+corpus_estampes_uri = she("759d110d-fd68-47bb-92fd-341bb63dbcae")
+estampe_e55_uri = she("1317e1ac-50c8-4b97-9eac-c4d902b7da10")
+identifiant_mercure_e55_uri = she("92c258a0-1e34-437f-9686-e24322b95305")
+identifiant_iiif_e55_uri = she("19073c4a-0ef7-4ac4-a51a-e0810a596773")
+identifiant_bnf_e55_uri = she("15c5867f-f612-4a00-b9f3-17b57e566b8c")
+document_gallica_e55_uri = she("e73699b0-9638-4a9a-bfdd-ed1715416f02")
+titre_sur_l_image_e55_uri = she("01a07474-f2b9-4afd-bb05-80842ecfb527")
+titre_descriptif_forge_e55_uri = she("58fb99dd-1ffb-4e00-a16f-ef6898902301")
+titre_peritexte_e55_uri = she("ded9ea93-b400-4550-9aa8-e5aac1d627a0")
+thematique_e55_uri = she("f2d9b792-2cfd-4265-a2c5-e0a69ce01536")
+inscription_revers_medaille_e55_uri = she("357a459f-4f27-4d46-b5ac-709a410bce04")
+inscription_avers_medaille_e55_uri = she("fc229531-0999-4499-ab0b-b45e18e8196f")
+invenit_e55_uri = she("4d57ac14-247f-4b0e-90ca-0397b6051b8b")
+sculpsit_e55_uri = she("f39eb497-5559-486c-b5ce-6a607f615773")
+technique_de_gravure_e55_uri = she("f8914e8f-c1f1-4e1b-90e6-591bcb75ea95")
+type_representation_e55_uri = she("0205f283-a73a-47e3-81bf-d0c67501fc22")
+personne_associee_e55_uri = she("909049a0-99c3-49a8-b9d6-c4c3517859fb")
+lieu_associe_e55_uri = she("413f7969-406b-4be6-a042-09a800197e8f")
+
+def is_valid_uuid(value):
+    try:
+        UUID(str(value))
+        return True
+    except ValueError:
+        return False
