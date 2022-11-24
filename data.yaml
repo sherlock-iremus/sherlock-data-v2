@@ -1,4 +1,11 @@
 projects:
+  sherlock:
+    name: Fondements du projet SHERLOCK
+    tasks:
+      client:
+        name: Assembler & déployer le client SHERLOCK
+        steps:
+          - script: prod/sherlock/sherlock-client-build-and-deploy.sh
   mg:
     name: Édition du Mercure Galant
     tasks:
@@ -92,6 +99,12 @@ projects:
         name: Assembler & déployer TONALITIES
         steps:
           - script: prod/modality-tonality/tonalities-build-and-deploy.sh
+      estampes:
+        name: Estampes -> CRM
+        steps:
+          - git: ../in/mercure-galant-sources
+            branch: main
+          - script:
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:
