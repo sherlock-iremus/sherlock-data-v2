@@ -1,0 +1,21 @@
+compositeurs:
+  163c385e-4d6e-4645-ada4-1d2202cafe3d:
+    e41_nom:
+      uuid: 19df402d-ad7f-4a3e-a3c8-8f7aa5082e08
+    e41_prenom:
+      uuid: fbfa555b-0a4b-47ac-b06c-6dcfdc64dcda
+  62a58136-4f7b-463c-a99c-1444c3420d1a:
+    e41_nom:
+      uuid: 108cb0f3-0d00-4cdd-91a2-7b3d9ec301e2
+    e41_prenom:
+      uuid: 859323f1-b827-4c1b-86eb-004de5036f54
+  fb4a7b31-1365-47a6-929b-b975710a354d:
+    e41_nom:
+      uuid: db5aaa46-e40b-4a18-a44c-f4c10bedaa39
+    e41_prenom:
+      uuid: 6c1ed6d1-8ad9-461e-aa3a-98ffb8b91abc
+  265ba91d-ed61-4713-836f-3c1d68502618:
+    e41_nom:
+      uuid: 5df95a16-c02c-4a4d-a6af-749fd32e5507
+    e41_prenom:
+      uuid: cb75efc0-3aec-4971-90ad-5b6943a9ed49

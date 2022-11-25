@@ -164,7 +164,7 @@ def explore(id, depth, sous_E32):
                                     t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                     t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                     t(E13_index_uri, crm("P141_assigned"), E93_uri)
-                                    t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                                    t(E13_index_uri, crm("P177_assigned_property_of_type"), crm("P67_refers_to"))
 
                                 except:
                                     print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
@@ -189,7 +189,7 @@ def explore(id, depth, sous_E32):
                                     t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                     t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                     t(E13_index_uri, crm("P141_assigned"), E93_uri)
-                                    t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                                    t(E13_index_uri, crm("P177_assigned_property_of_type"), crm("P67_refers_to"))
 
                                 except:
                                     print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
@@ -206,7 +206,7 @@ def explore(id, depth, sous_E32):
                     note_uri = she(cache_lieux.get_uuid(["lieux", identifier, "E93", "note", note_sha1], True))
                     t(note_uri, RDFS.label, l(v))
                     t(E13_note_uri, crm("P141_assigned"), note_uri)
-                    t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+                    t(E13_note_uri, crm("P177_assigned_property_of_type"), crm("P3_has_note"))
 
         for note in [SKOS.note, SKOS.historyNote, SKOS.definition]:
             process_note(note)

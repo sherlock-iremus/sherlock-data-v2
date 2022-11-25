@@ -375,7 +375,7 @@ for file in os.listdir(args.tei):
             t(E13_note_editoriale, crm("P141_assigned"), Literal(note))
             t(
                 E13_note_editoriale,
-                crm("P177_assigned_property_type"),
+                crm("P177_assigned_property_of_type"),
                 she_ns("editorial_note"),
             )
             n += 1

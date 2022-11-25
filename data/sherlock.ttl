@@ -280,3 +280,17 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Name" ;
     .
+
+################################################################################
+# DÉCRIRE DES GENS
+################################################################################
+
+<bb483a36-1f03-43b5-9793-402bc9ce5ea2>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Prénom" ;
+    .
+
+<bb483a36-1f03-43b5-9793-402bc9ce5ea2>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Nom de famille" ;
+    .

@@ -70,7 +70,7 @@ def make_E13(path, subject, predicate, object):
   t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
   t(E13_uri, crm("P140_assigned_attribute_to"), subject)
   t(E13_uri, crm("P141_assigned"), object)
-  t(E13_uri, crm("P177_assigned_property_type"), predicate)
+  t(E13_uri, crm("P177_assigned_property_of_type"), predicate)
 
 
 ############################################################################################

@@ -101,12 +101,14 @@ projects:
         name: Assembler & déployer TONALITIES
         steps:
           - script: prod/modality-tonality/tonalities-build-and-deploy.sh
-      estampes:
-        name: Estampes -> CRM
+      catalogue2rdf:
+        name: Export RDF du catalogue Directus
         steps:
-          - git: ../in/mercure-galant-sources
-            branch: main
-          - script:
+          - script: rdfizers/modality-tonality/catalogue/catalogue-directus2rdf.py
+            args:
+              cache: caches/modality-tonality/catalogue.yaml
+              secret: directus/opentheso2directus.secret.yaml
+              ttl: out/ttl/modality-tonality/catalogue.ttl
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:

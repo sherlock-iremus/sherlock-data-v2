@@ -146,7 +146,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                   she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E21_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                                t(E13_index_uri, crm("P177_assigned_property_of_type"), crm("P67_refers_to"))
 
                             except:
                                 print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
@@ -169,7 +169,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                                   she("684b4c1a-be76-474c-810e-0f5984b47921"))
                                 t(E13_index_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
                                 t(E13_index_uri, crm("P141_assigned"), E21_uri)
-                                t(E13_index_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                                t(E13_index_uri, crm("P177_assigned_property_of_type"), crm("P67_refers_to"))
 
                             except:
                                 print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
