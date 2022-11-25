@@ -7,6 +7,12 @@ from slugify import slugify
 import requests
 import yaml
 import json
+import re 
+
+# Regex
+
+pattern_article = re.compile("MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_?([0-9]{3})?")
+pattern_livraison = re.compile("[0-9]{4}-[0-9]{2}[a-zA-Z]?")
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
@@ -20,9 +26,9 @@ from helpers_api import graphql_query
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
 parser.add_argument("--xlsx")
-parser.add_argument("--opentheso_id")
+parser.add_argument("--opentheso_id") # opth Thesaurus id ?
 parser.add_argument("--cache")
-parser.add_argument("--cache_tei")
+parser.add_argument("--cache_tei") 
 args = parser.parse_args()
 
 # Caches
@@ -52,14 +58,15 @@ query {
   } 
 }""")
 
-def make_E13(path, subject, predicate, object):
-    global E13_uri
-    E13_uri = she(cache.get_uuid(path, True))
-    t(E13_uri, a, crm("E13_Attribute_Assignement"))
-    t(E13_uri, crm("P14_carried_out_by"), equipe_mercure_galant_uri)
-    t(E13_uri, crm("P140_assigned_attribute_to"), subject)
-    t(E13_uri, crm("P141_assigned"), object)
-    t(E13_uri, crm("P177_assigned_property_type"), predicate)
+def make_E13(path, subject, predicate, object): # - global + return E13 uri
+    e13 = she(cache.get_uuid(path, True))
+    t(e13, a, crm("E13_Attribute_Assignement"))
+    t(e13, crm("P14_carried_out_by"), equipe_mercure_galant_uri)
+    t(e13, crm("P140_assigned_attribute_to"), subject)
+    t(e13, crm("P141_assigned"), object)
+    t(e13, crm("P177_assigned_property_of_type"), predicate)
+
+    return e13
 
 #######################################################################################################
 # Traitement des estampes
@@ -84,78 +91,63 @@ for row in rows:
         #endregion
 
         #region E42: Identifiant Mercure Galant de l'estampe
-        estampe_id_MG = she(cache.get_uuid(["estampes", id, "E36", "identifiant MG"], True))
-        t(estampe_id_MG, a, crm("E42_Identifier"))
-        t(estampe_id_MG, crm("P2_has_type"), identifiant_mercure_e55_uri)
-        t(estampe_id_MG, RDFS.label, l(id))
-        t(estampe, crm("P1_is_identified_by"), estampe_id_MG)
+        E42_uuid = she(cache.get_uuid(["estampes", id, "E42", "uuid"], True))
+        t(E42_uuid, a, crm("E42_Identifier"))
+        t(E42_uuid, crm("P2_has_type"), identifiant_mercure_e55_uri)
+        t(E42_uuid, crm("P190_has_symbolic_content"), l(id))
+        t(estampe, crm("P1_is_identified_by"), E42_uuid)
         #endregion
 
         #region E42: Identifiant IIIF de l'estampe
-        estampe_D1_uri = she(cache.get_uuid(["estampes", id, "E36", "D1", "uuid"], True))
-        t(estampe_D1_uri, a, crmdig("D1_Digital_Object"))
-        t(estampe_D1_uri, crm("P130_shows_features_of"), estampe)
-        estampe_D1_E42_uri = she(cache.get_uuid(["estampes", id, "E36", "D1", "E42", "uuid"], True))
-        t(estampe_D1_E42_uri, a, crm("E42_Identifier"))
-        t(estampe_D1_E42_uri, crm("P2_has_type"), identifiant_iiif_e55_uri)
-        t(estampe_D1_uri, crm("P1_is_identified_by"), estampe_D1_E42_uri)
-        t(estampe_D1_E42_uri, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
+        E42_iiif = she(cache.get_uuid(["estampes", id, "E42_IIIF", "uuid"], True))
+        t(E42_iiif, a, crm("E42_Identifier"))
+        t(E42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
+        t(E42_iiif, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
+        t(estampe, crm("P1_is_identified_by"), E42_iiif)
         #endregion
         
         #region E42: Provenance cliché (identifiant BnF)
         if row["Provenance cliché"]:
-            estampe_id_provenance = she(cache.get_uuid(["estampes", id, "E36", "provenance"], True))
-            t(estampe_id_provenance, a, crm("E42_Identifier"))
-            t(estampe_id_provenance, crm("P2_has_type"), identifiant_bnf_e55_uri)
-            t(estampe_id_provenance, RDFS.label, l(row["Provenance cliché"]))
-            t(estampe, crm("P1_is_identified_by"), estampe_id_provenance)
+            E42_provenance = she(cache.get_uuid(["estampes", id, "E42_provenance", "uuid"], True))
+            t(E42_provenance, a, crm("E42_Identifier"))
+            t(E42_provenance, crm("P2_has_type"), identifiant_bnf_e55_uri)
+            t(E42_provenance, crm("P190_has_symbolic_content"), l(row["Provenance cliché"]))
+            t(estampe, crm("P1_is_identified_by"), E42_provenance)
         #endregion
         
         #region F2: Rattachement à la livraison ou à l'article OBVIL
-        # Si l'article n'est pas précisé:
-        if not row["ID article OBVIL"]:
-            id_image = id
-            id_livraison = id[0:-4]
-            if id_livraison.endswith("_"):
-                id_livraison = id_livraison[0:-1]
-                # Livraison originale
-                livraison_F2_originale = she(
-                    cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-                t(livraison_F2_originale, crm("P106_is_composed_of"), estampe)
-                # Livraison TEI
-                livraison_F2_TEI = she(
-                    cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-                t(livraison_F2_TEI, crm("P106_is_composed_of"), estampe)
-        # Si l'article est précisé:
-        elif (row["ID article OBVIL"][0:3]) == "MG-":
-            id_article = row["ID article OBVIL"][3:]
-            id_livraison = id_article[0:11]
-            try:
-                if id_livraison.endswith("_"):
-                    id_livraison = id_livraison[0:-1]
-                # Article original
-                article_F2_original = she(cache_tei.get_uuid(
-                    ["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-                t(article_F2_original, crm("P106_is_composed_of"), estampe)
-                # Article TEI
-                article_F2_TEI = she(cache_tei.get_uuid(
-                    ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-                t(article_F2_TEI, crm("P106_is_composed_of"), estampe)
-            except:
-                print(id + ": ID OBVIL article : l'article " + str(row["ID article OBVIL"]) + " est introuvable dans les fichiers TEI")
-        # Article annexe à la gravure
+        if row["ID article OBVIL"]:
+            match = pattern_article.search(row["ID article OBVIL"])
+            if match:
+                try:
+                    id_article = match.group(0)[3:]
+                    id_livraison = pattern_livraison.search(id_article).group(0)
+                    article_F2_original = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+                    t(article_F2_original, crm("P106_is_composed_of"), estampe)
+                except:
+                    print(id_article)
+            else:
+                try:
+                    id_livraison = pattern_livraison.search(row["ID estampe"]).group(0)
+                    livraison_F2_TEI = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+                    t(livraison_F2_TEI, crm("P106_is_composed_of"), estampe)
+                except: 
+                    print(id_livraison)
+        #endregion
+
+        #region F2: Article annexe à la gravure
         if row["ID OBVIL article lié"]:
-            id_article = row["ID OBVIL article lié"][3:]
-            id_livraison = id_article[0:10]
-            try:
-                article_F2_TEI = she(cache_tei.get_uuid(
-                    ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-                make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2_TEI)
-                # Commentaire décrivant le lien entre la gravure et l'article
-                if row["Commentaire ID article lié OBVIL"]:
-                    t(E13_uri, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
+            try: 
+                match = pattern_article.search(row["ID article OBVIL"])
+                if match:
+                    id_article = match.group(0)[3:]
+                    id_livraison = pattern_livraison.search(id_article).group(0)
+                    article_F2_TEI = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+                    e13 = make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2_TEI)
+                    if row["Commentaire ID article lié OBVIL"]:
+                        t(e13, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
             except:
-                print(id + ": ID OBVIL article lié : l'article " + str(row["ID OBVIL article lié"]) + " est introuvable dans les fichiers TEI")
+                print(id_article)
         #endregion
         
         #region seeAlso: Lien vers le texte en ligne
@@ -278,7 +270,7 @@ for row in rows:
                         t(médaille_inscrip, a, crm("E33_Linguistic_Object"))
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                                   "avers", "inscription", "E13"], médaille_zone_inscrip, crm("P165_incorporates"), médaille_inscrip)
-                        t(E13_uri, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), inscription_avers_medaille_e55_uri)
+                        t(e13, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), inscription_avers_medaille_e55_uri)
                         # Contenu de l'inscription
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
                                   "inscription",
@@ -299,7 +291,7 @@ for row in rows:
                         t(médaille_inscrip, a, crm("E33_Linguistic_Object"))
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                                   "revers", "inscription", "E13"], médaille_zone_inscrip, crm("P165_incorporates"), médaille_inscrip)
-                        t(E13_uri, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), inscription_revers_medaille_e55_uri)
+                        t(e13, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), inscription_revers_medaille_e55_uri)
                         # Contenu de l'inscription
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                                   "revers", "inscription", "contenu (E13)"], médaille_inscrip, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
@@ -450,3 +442,4 @@ save_graph(args.ttl)
 # TODO ROADBLOACKED INSTITUTIONS : en attente de la saisie des institutions dans directus (stagiaire printemps 2023) 
 # TODO AUTRES LIENS EXTERNES : que fait-on de cette colonne fourre-tout ? P3 ?
 # TODO ID ARTICLE LIÉ : ne sont pas dans le cache tei.
+# TODO sherlock data constants

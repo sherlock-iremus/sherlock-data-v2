@@ -54,7 +54,7 @@
 
 <92c258a0-1e34-437f-9686-e24322b95305>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant Mercure"
+  crm:P1_is_identified_by "Identifiant Mercure Galant"
 .
 
 <fa4f0240-ce36-4268-8c67-d4aa40cb9350>
@@ -227,4 +227,12 @@
 <4af237dd-8ae9-4c69-b4cb-953c79d287bc>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Pièce musicale"
+.
+
+# SOURCES
+
+<759d110d-fd68-47bb-92fd-341bb63dbcae>
+  a crm:E1_Entity ;
+  crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
+  crm:P1_is_identified_by "Corpus des estampes du Mercure Galant"
 .
