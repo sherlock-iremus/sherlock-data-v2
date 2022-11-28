@@ -1,11 +1,4 @@
 projects:
-  sherlock:
-    name: Fondements du projet SHERLOCK
-    tasks:
-      client:
-        name: Assembler & déployer le client SHERLOCK
-        steps:
-          - script: prod/sherlock/sherlock-client-build-and-deploy.sh
   mg:
     name: Édition du Mercure Galant
     tasks:
@@ -97,10 +90,6 @@ projects:
           - script: prod/modality-tonality.analysis.sh
             args:
               STAGING_DIR: ~/Desktop/sherlock-staging
-      tonalities:
-        name: Assembler & déployer TONALITIES
-        steps:
-          - script: prod/modality-tonality/tonalities-build-and-deploy.sh
       catalogue2rdf:
         name: Export RDF du catalogue Directus
         steps:
