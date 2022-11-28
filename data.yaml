@@ -35,8 +35,6 @@ projects:
               ttl: out/ttl/mg/estampes.ttl
               cache: caches/mg/estampes.yaml
               cache_tei: caches/mg/tei.yaml
-              cache_personnes: caches/rar/personnes.yaml
-              cache_lieux: caches/rar/lieux.yaml
   modality-tonality:
     name: Modality-Tonality
     tasks:
