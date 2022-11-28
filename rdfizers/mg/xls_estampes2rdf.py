@@ -13,6 +13,7 @@ import re
 
 pattern_article = re.compile("MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_?([0-9]{3})?")
 pattern_livraison = re.compile("[0-9]{4}-[0-9]{2}[a-zA-Z]?")
+pattern_lieu_opentheso = re.compile("^[0-9]{1,6}$")
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
@@ -190,9 +191,10 @@ for row in rows:
                 lieu = lieu_label.lstrip().split(' ')[0]
                 if (lieu == ''):
                     continue
+                match = pattern_lieu_opentheso.search(lieu)
                 # Transformer ID opentheso en uuid directus
-                if (not is_valid_uuid(lieu)):
-                    lieu = next((x["id"] for x in lieux_directus["data"]["lieux"] if x["opentheso_id"] == int(lieu)), None)
+                if (match):
+                    lieu = next((x["id"] for x in lieux_directus["data"]["lieux"] if x["opentheso_id"] == int(match.group(0))), None)
                 if (not lieu):
                     print(f"Aucun lieu trouvé dans Directus pour : {lieu_label}")
                     continue
@@ -208,8 +210,9 @@ for row in rows:
                 lieu = lieu_label.lstrip().split(' ')[0]
                 if (lieu == ''):
                     continue
+                match = pattern_lieu_opentheso.search(lieu)
                 # Transformer ID opentheso en uuid directus
-                if (not is_valid_uuid(lieu)):
+                if (match):
                     lieu = next((x["id"] for x in lieux_directus["data"]["lieux"] if x["opentheso_id"] == int(lieu)), None)
                 if (not lieu):
                     print(f"Aucun lieu trouvé dans Directus pour : {lieu_label}")
