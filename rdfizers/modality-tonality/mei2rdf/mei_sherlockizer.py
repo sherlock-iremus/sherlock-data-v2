@@ -126,7 +126,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
             e42_id = u(score_uuid + "_" + e.attrib[xmlida] + "_E42")
             g.add((element_id, crm_ns["P1_is_identified_by"], e42_id))
             g.add((e42_id, RDF.type, crm_ns["E42_Identifier"]))
-            g.add((e42_id, RDFS.label, l(e.attrib[xmlida])))
+            g.add((e42_id, crm_ns["P190_has_symbolic_content"], l(e.attrib[xmlida])))
             g.add((e42_id, crm_ns['P2_has_type'], u(
                 "db425957-e8bc-41d7-8a6b-d1b935cfe48d")))  # xml:id
 

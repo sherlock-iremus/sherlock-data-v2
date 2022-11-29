@@ -190,7 +190,7 @@ for file in os.listdir(args.tei):
     )
     t(
         livraison_F2_tei_E42,
-        RDFS.label,
+        crm["P190_has_symbolic_content"],
         URIRef(
             f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/{file[0:-4]}.xml"
         ),
@@ -209,7 +209,7 @@ for file in os.listdir(args.tei):
         crm("P2_has_type"),
         she("92c258a0-1e34-437f-9686-e24322b95305"),
     )
-    t(livraison_F2_tei_E42_id, RDFS.label, Literal(livraison_id))
+    t(livraison_F2_tei_E42_id, crm["P190_has_symbolic_content"], Literal(livraison_id))
 
     # Creation de l'expression TEI
     livraison_F2_tei_F28 = she(
@@ -333,7 +333,7 @@ for file in os.listdir(args.tei):
         )
         t(article_F2_tei, crm("P1_is_identified_by"), article_F2_tei_E42)
         t(article_F2_tei_E42, RDF.type, crm("E42_Identifier"))
-        t(article_F2_tei_E42, RDFS.label, Literal(article_id))
+        t(article_F2_tei_E42, crm["P190_has_symbolic_content"] Literal(article_id))
 
         ## Récupération des notes éditoriales et création des E13
         notes_editoriales = []

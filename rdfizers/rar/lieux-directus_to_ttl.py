@@ -155,7 +155,7 @@ while True:
 		E41_uri = she(cache.get_uuid(["lieux", E93_uri, "E41"], True))
 		t(E93_uri, crm("P1_is_identified_by"), E41_uri)
 		t(E41_uri, a, crm("E41_Appellation"))
-		t(E41_uri, RDFS.label, l(lieu["label"]))
+		t(E41_uri, crm["P190_has_symbolic_content"], l(lieu["label"]))
 		t(E41_uri, crm("P2_has_type"), she("3cf0c743-ee9b-4dfc-8133-7dd383a1b6be"))
 
 		# AltLabels
@@ -166,7 +166,7 @@ while True:
 			if altlabel != None:
 				E41_alt_uri = she(cache.get_uuid(["lieux", E93_uri, "E41 alt", altlabel], True))
 				t(E41_alt_uri, a, crm("E41_Appellation"))
-				t(E41_alt_uri, RDFS.label, l(altlabel))
+				t(E41_alt_uri, crm["P190_has_symbolic_content"], l(altlabel))
 				t(E93_uri, crm("P1_is_identified_by"), E41_alt_uri)
 				t(E41_alt_uri, crm("P2_has_type"), she("70589b95-4156-431e-a58a-818af6dc795a"))
 			n += 1

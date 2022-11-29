@@ -110,14 +110,14 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     t(E32_personnes_uri, crm("P71_lists"), E21_uri)
     t(E21_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
-    t(E41_uri, RDFS.label, ro(opentheso_personne_uri, SKOS.prefLabel))
+    t(E41_uri, crm["P190_has_symbolic_content"], ro(opentheso_personne_uri, SKOS.prefLabel))
     t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
     altLabels = ro_list(opentheso_personne_uri, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
             E41_alt_uri = she(cache_personnes.get_uuid(["personnes", identifier, "E41 alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
-            t(E41_alt_uri, RDFS.label, altLabel)
+            t(E41_alt_uri, crm["P190_has_symbolic_content"], altLabel)
             t(E21_uri, crm("P1_is_identified_by"), E41_alt_uri)
             t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
     # DCTERMS.created/modified ont disparu de l'export SKOS le plus récent: une modification de Nathalie dans opentheso?
@@ -191,7 +191,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
                 continue
             E42_uri = she(cache_personnes.get_uuid(["personnes", identifier, "E42", exactMatch], True))
             t(E42_uri, a, crm("E42_Identifier"))
-            t(E42_uri, RDFS.label, u(exactMatch))
+            t(E42_uri, crm["P190_has_symbolic_content"], u(exactMatch))
             t(E21_uri, crm("P1_is_identified_by"), E42_uri)
             # TODO typer le 42 ? (BNF, etc.)
         except:

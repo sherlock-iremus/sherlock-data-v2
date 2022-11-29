@@ -147,7 +147,7 @@ for analysis in analyses:
     theoretical_model_iri = URIRef(g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasTheoreticalModel> ?tm . ?tm <{MTNS}hasIRI> ?iri }}").bindings[0]['iri'])
     theoretical_model_name = g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasTheoreticalModel> ?tm . ?tm <{MTNS}hasName> ?name }}").bindings[0]['name']
     g_out.add((theoretical_model_iri, RDF.type, lrmoo["F2_Work"]))
-    g_out.add((theoretical_model_iri, RDFS.label, Literal(theoretical_model_name)))
+    g_out.add((theoretical_model_iri, crm["P1_is_identified_by"], Literal(theoretical_model_name)))
     g_out.add((theoretical_model_iri, crm["P2_has_type"], URIRef("ae6c2f18-c8ae-4fac-83c8-9486fd00db2c")))  # E55 « Traité théorique »
     g_out.add((analytical_project, crm["P33_used_specific_technique"], theoretical_model_iri))
 
