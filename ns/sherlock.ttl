@@ -256,7 +256,7 @@ sherlock:Analysis
 
 sherlock:has_document_context
     a owl:ObjectProperty ;
-    rdfs:domain crm:E13_Attribute_Assignment ;
+    rdfs:domain crm:E89_Propositional_Object ;
     rdfs:range crm:E73_Information_Object ;
     .
 

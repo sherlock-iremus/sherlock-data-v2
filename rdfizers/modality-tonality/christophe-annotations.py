@@ -129,7 +129,6 @@ for a in g.subjects(rdflib.RDF.type, rdflib.URIRef("http://www.tonalities#rootAn
     g_out.add((e13, crm_ns["P140_assigned_attribute_to"], p140))
     g_out.add((e13, crm_ns["P177_assigned_property_of_type"], p177))
     g_out.add((e13, crm_ns["P141_assigned"], p141))
-    g_out.add((e13, sherlockns_ns["has_document_context"], rdflib.URIRef(score_iri)))
     g_out.add((e13, rdflib.DCTERMS["created"], rdflib.Literal(date, datatype=rdflib.XSD.dateTime)))
     g_out.add((e13, crm_ns["P14_carried_out_by"], rdflib.URIRef(analyst_iri)))
 

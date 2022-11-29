@@ -128,8 +128,7 @@ for analysis in analyses:
     g_out.add((analytical_project, crm["P16_used_specific_object"], software))
 
     date = g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
-    g_out.add((analytical_project, DCTERMS["created"], Literal(
-        date, datatype=XSD.dateTime)))
+    g_out.add((analytical_project, DCTERMS["created"], Literal(date, datatype=XSD.dateTime)))
 
     # Work
 
@@ -165,7 +164,7 @@ for analysis in analyses:
         g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
         g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
         g_out.add((software, crm["P2_has_type"], sherlock["fd434edb-66c1-4b0a-9b1f-f1aa136c705a"]))
-        g_out.add((main_software, crm["P106_is_composed_of"], software))
+        g_out.add((main_software, crm["P148_has_component"], software))
 
         # Software execution
         software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
@@ -212,7 +211,6 @@ for analysis in analyses:
                 g_out.add((e13, crm["P140_assigned_attribute_to"], selection))
                 g_out.add((e13, crm["P177_assigned_property_of_type"], a["p"]))
                 g_out.add((e13, crm["P141_assigned"], analytical_entity))
-                g_out.add((e13, sherlockns["has_document_context"], work))
                 g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
                 g_out.add((e13, crm["P14_carried_out_by"], software))
                 g_out.add((e13, DCTERMS["created"], software_date))
@@ -228,19 +226,16 @@ for analysis in analyses:
                             g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
                             g_out.add((e13, crm["P177_assigned_property_of_type"], RDF.type))
                             g_out.add((e13, crm["P141_assigned"], URIRef(po["o"])))
-                            g_out.add((e13, sherlockns["has_document_context"], work))
                             g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
                             g_out.add((e13, DCTERMS["created"], software_date))
                             g_out.add((e13, crm["P14_carried_out_by"], software))
                             g_out.add((analytical_project, crm["P9_consists_of"], e13))
                     elif str(po["p"]) != "http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin":
                         note_id = g_in.query(f"SELECT * WHERE {{ <{po['o']}> <{M21NS+'id'}> ?id }}").bindings
-                        note = URIRef(work.split(
-                            "/")[-1] + "_" + str(note_id[0]["id"]))
+                        note = URIRef(work.split("/")[-1] + "_" + str(note_id[0]["id"]))
 
                         # Ajout de la note à la sélection
-                        g_out.add(
-                            (selection, crm["P106_is_composed_of"], note))
+                        g_out.add((selection, crm["P106_is_composed_of"], note))
 
                         # Rattachement de la note à l'entité analytique
                         e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_p", po["p"].split("/")[-1], "uuid"], True))
@@ -248,7 +243,6 @@ for analysis in analyses:
                         g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
                         g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef(po["p"])))
                         g_out.add((e13, crm["P141_assigned"], note))
-                        g_out.add((e13, sherlockns["has_document_context"], work))
                         g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
                         g_out.add((e13, DCTERMS["created"], software_date))
                         g_out.add((e13, crm["P14_carried_out_by"], software))
@@ -259,7 +253,6 @@ for analysis in analyses:
                 g_out.add((e13, RDF.type, crm["E13_Attribute_Assignment"]))
                 g_out.add((e13, crm["P140_assigned_attribute_to"], work))
                 g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef(a["p"])))
-                g_out.add((e13, sherlockns["has_document_context"], work))
                 g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
                 g_out.add((e13, DCTERMS["created"], software_date))
                 g_out.add((e13, crm["P14_carried_out_by"], software))
