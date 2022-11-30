@@ -35,6 +35,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
     g.bind("crmdig", crmdig_ns)
     g.bind("dcterms", DCTERMS)
     g.bind("sherlockmei", sherlockmei_ns)
+    g.bind("sherlockns", sherlock_ns)
 
     score_iri = u(score_uuid)
 

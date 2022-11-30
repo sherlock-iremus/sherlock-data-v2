@@ -57,7 +57,7 @@ projects:
             args:
               owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
       scores:
-        name: Générer du RDF SHERLOCK à partir des fichiers MEI
+        name: MEI2RDF (out .mei + .ttl)
         steps:
           - script: rdfizers/modality-tonality/mei2rdf/main.py
             args:

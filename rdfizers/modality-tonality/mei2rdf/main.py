@@ -4,7 +4,7 @@ import chardet
 import json
 from lxml import etree
 import os
-from pathlib import PurePath
+from pathlib import Path, PurePath
 import requests
 import sys
 import yaml
@@ -18,6 +18,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--output_mei_folder")
 parser.add_argument("--output_ttl_folder")
 args = parser.parse_args()
+
+Path(args.output_mei_folder).mkdir(0o755, True, True)
+Path(args.output_ttl_folder).mkdir(0o755, True, True)
 
 ################################################################################
 # DIRECTUS
@@ -51,12 +54,20 @@ result = json.loads(r.text)
 
 for partition in result["data"]["partitions"]:
     uuid = partition["id"]
-    print(uuid, "…")
+    mei_file = Path(args.output_mei_folder, uuid + ".mei")
+    print(f"? {uuid} — {mei_file} ", end="")
+    if True == mei_file.is_file():
+        print(f"✔")
+        continue
+
+    print(f"⚙ …")
+
     f_content = requests.get(partition["pre_sherlock_url"]).content
 
     input_mei_file_encoding = chardet.detect(f_content)
     input_mei_file_doc = etree.fromstring(f_content)
     idized_input_mei_file_doc = idize(input_mei_file_doc)
+
     with open(PurePath(args.output_mei_folder, uuid + ".mei"), "wb") as f2:
         etree.ElementTree(idized_input_mei_file_doc).write(
             f2,
@@ -75,3 +86,5 @@ for partition in result["data"]["partitions"]:
         beats_data["elements"],
         PurePath(args.output_ttl_folder, uuid + ".ttl")
     )
+
+print(f"{len(result['data']['partitions'])} partitions traitées.")
