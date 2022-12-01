@@ -152,11 +152,17 @@ for p in partitions:
     g.add((f2, RDF.type, lrmoo_ns["F2_Expression"]))
     g.add((f1, lrmoo_ns["R3_is_realised_in"], f2))
 
-    # Pre SHERLOCK URL
+    # MEI file pre SHERLOCK URL
     e42_pre_sherlock_url = URIRef(cache.get_uuid(["partitions", f2_uuid, "e42_pre_sherlock_url", "uuid"], True))
     g.add((e42_pre_sherlock_url, RDF.type, crm_ns["E42_Identifier"]))
     g.add((f2, crm_ns["P1_is_identified_by"], e42_pre_sherlock_url))
     g.add((e42_pre_sherlock_url, crm_ns["P190_has_symbolic_content"], URIRef(p["pre_sherlock_url"])))
+
+    # MEI file post SHERLOCK URL
+    e42_post_sherlock_url = URIRef(cache.get_uuid(["partitions", f2_uuid, "e42_post_sherlock_url", "uuid"], True))
+    g.add((e42_post_sherlock_url, RDF.type, crm_ns["E42_Identifier"]))
+    g.add((f2, crm_ns["P1_is_identified_by"], e42_post_sherlock_url))
+    g.add((e42_post_sherlock_url, crm_ns["P190_has_symbolic_content"], URIRef(f"https://data-iremus.huma-num.fr/files/modality-tonality/mei/{f2}.mei")))
 
     # F28 Expression Creation
     f28 = URIRef(cache.get_uuid(["oeuvres", f2_uuid, "f28", "uuid"], True))
