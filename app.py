@@ -1,5 +1,5 @@
 import curses
-from sqlite3 import adapt
+from pprint import pprint
 import subprocess
 import sys
 import yaml
@@ -14,30 +14,25 @@ for project_k, project_v in data["projects"].items():
     for task_k, task_v in project_v["tasks"].items():
         task_v["id"] = project_k + ":" + task_k
         task_v["project_name"] = project_v["name"]
-        task_v["checked"] = False
         tasks.append(task_v)
 
 stdscr = curses.initscr()
 curses.noecho()
 stdscr.keypad(True)
 curses.start_color()
-NOT_FOCUSED_NOT_CHECKED = 1
-FOCUSED_NOT_CHECKED = 2
-NOT_FOCUSED_CHECKED = 3
-FOCUSED_CHECKED = 4
-curses.init_pair(NOT_FOCUSED_NOT_CHECKED, curses.COLOR_WHITE, curses.COLOR_BLACK)
-curses.init_pair(FOCUSED_NOT_CHECKED, curses.COLOR_MAGENTA, curses.COLOR_BLACK)
-curses.init_pair(NOT_FOCUSED_CHECKED, curses.COLOR_BLACK, curses.COLOR_WHITE)
-curses.init_pair(FOCUSED_CHECKED, curses.COLOR_BLACK, curses.COLOR_MAGENTA)
+NOT_FOCUSED = 1
+FOCUSED = 2
+curses.init_pair(NOT_FOCUSED, curses.COLOR_WHITE, curses.COLOR_BLACK)
+curses.init_pair(FOCUSED, curses.COLOR_MAGENTA, curses.COLOR_BLACK)
 
 
 def print_menu(focused):
     i = 0
     for task in tasks:
         if i == focused:
-            color = FOCUSED_CHECKED if tasks[i]["checked"] else FOCUSED_NOT_CHECKED
+            color = FOCUSED
         else:
-            color = NOT_FOCUSED_CHECKED if tasks[i]["checked"] else NOT_FOCUSED_NOT_CHECKED
+            color = NOT_FOCUSED
         stdscr.addstr(i, 0, str(i).ljust(4) + "[" + task["project_name"] + "] " + task["name"], curses.color_pair(color))
         i += 1
 
@@ -47,9 +42,12 @@ def print_menu(focused):
 
 state = "quit"
 
+task_to_run = None
+
 
 def main(stdscr):
     global state
+    global task_to_run
 
     stdscr.clear()
 
@@ -69,36 +67,31 @@ def main(stdscr):
                 focused -= 1
         if key == "q":
             break
-        if key == "g":
-            state = "go"
-            break
         if key == " ":
-            tasks[focused]["checked"] = not tasks[focused]["checked"]
+            task_to_run = tasks[focused]
+            break
 
         print_menu(focused)
 
 
 curses.wrapper(main)
 
-if state == "go":
-    for task in tasks:
-        if task["checked"]:
-            print("### " + task["project_name"] + " :: " + task["name"])
-            for step in task["steps"]:
-                if "git" in step:
-                    subprocess.run([f"cd {step['git']} ; git pull origin {step['branch']}"], shell=True)
-                elif "script" in step:
-                    if step["script"][-3:] == ".py":
-                        args = []
-                        if "args" in step:
-                            for arg_k, arg_v in step["args"].items():
-                                args.append("--"+arg_k)
-                                args.append(arg_v)
-                            subprocess.run([sys.executable, step["script"], *args])
-                    elif step["script"][-3:] == ".sh":
-                        cmd = ""
-                        cmd += step["script"]
-                        if "args" in step:
-                            subprocess.run(["sh", cmd], env=step["args"])
-                        else:
-                            subprocess.run(["sh", cmd])
+print("🍄", task_to_run["project_name"], "🍄", task_to_run["name"], "🍄")
+for step in task_to_run["steps"]:
+    if "git" in step:
+        subprocess.run([f"cd {step['git']} ; git pull origin {step['branch']}"], shell=True)
+    elif "script" in step:
+        if step["script"][-3:] == ".py":
+            args = []
+            if "args" in step:
+                for arg_k, arg_v in step["args"].items():
+                    args.append("--"+arg_k)
+                    args.append(arg_v)
+                subprocess.run([sys.executable, step["script"], *args])
+        elif step["script"][-3:] == ".sh":
+            cmd = ""
+            cmd += step["script"]
+            if "args" in step:
+                subprocess.run(["sh", cmd], env=step["args"])
+            else:
+                subprocess.run(["sh", cmd])

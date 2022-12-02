@@ -38,6 +38,29 @@ projects:
   modality-tonality:
     name: Modality-Tonality
     tasks:
+      catalogue2rdf:
+        name: Catalogue Directus -> TTL
+        steps:
+          - script: rdfizers/modality-tonality/catalogue/catalogue-directus2rdf.py
+            args:
+              cache: caches/modality-tonality/catalogue.yaml
+              secret: directus/opentheso2directus.secret.yaml
+              ttl: out/ttl/modality-tonality/catalogue.ttl
+      catalogue-prod:
+        name: Mettre en prod les données du catalogue
+        steps:
+          - script: prod/modality-tonality.catalogue.sh
+      scores:
+        name: MEI2RDF (out .mei + .ttl)
+        steps:
+          - script: rdfizers/modality-tonality/mei2rdf/main.py
+            args:
+              output_mei_folder: out/files/modality-tonality/mei
+              output_ttl_folder: out/ttl/modality-tonality/mei
+      scores-prod:
+        name: Mettre en prod les fichiers et données MEI
+        steps:
+          - script: prod/modality-tonality.mei.sh
       models:
         name: Mettre en prod les données des ontologies des traités théoriques historiques
         steps:
@@ -56,19 +79,6 @@ projects:
           - script: rdfizers/modality-tonality/christophe-annotations.py
             args:
               owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
-      scores:
-        name: MEI2RDF (out .mei + .ttl)
-        steps:
-          - script: rdfizers/modality-tonality/mei2rdf/main.py
-            args:
-              output_mei_folder: out/files/modality-tonality/mei
-              output_ttl_folder: out/ttl/modality-tonality/mei
-      scores-prod:
-        name: Mettre en prod les fichiers et données MEI
-        steps:
-          - script: prod/modality-tonality.mei.sh
-            args:
-              STAGING_DIR: ~/Desktop/sherlock-staging
       analysis:
         name: Convertir les données d'analyse automatique OWL en RDF SHERLOCK
         steps:
@@ -86,16 +96,6 @@ projects:
         name: Mettre en prod les données d'analyse algorithmique
         steps:
           - script: prod/modality-tonality.analysis.sh
-            args:
-              STAGING_DIR: ~/Desktop/sherlock-staging
-      catalogue2rdf:
-        name: Export RDF du catalogue Directus
-        steps:
-          - script: rdfizers/modality-tonality/catalogue/catalogue-directus2rdf.py
-            args:
-              cache: caches/modality-tonality/catalogue.yaml
-              secret: directus/opentheso2directus.secret.yaml
-              ttl: out/ttl/modality-tonality/catalogue.ttl
   rar:
     name: Référentiel de l'Ancien Régime
     tasks:

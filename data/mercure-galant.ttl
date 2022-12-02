@@ -127,27 +127,33 @@
 
 <6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant IReMus"@fr
+  crm:P1_is_identified_by "Identifiant IReMus"@fr ;
+  .
 
 <6703d6e9-bd46-4c7d-865e-5e5a4c0a549f>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant Hortus"@fr
+  crm:P1_is_identified_by "Identifiant Hortus"@fr ;
+  .
 
 <f316e967-0a73-442a-a6b9-e1de5171f247>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "URI Versailles"@fr
+  crm:P1_is_identified_by "URI Versailles"@fr ;
+  .
 
 <df9f27d6-b08b-46e6-ad67-202259c4cdbd>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "URI Data BnF"@fr
+  crm:P1_is_identified_by "URI Data BnF"@fr ;
+  .
 
 <59835932-52aa-4a19-ac6e-916d2a4b9228>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "URI Catalogue BnF"@fr
+  crm:P1_is_identified_by "URI Catalogue BnF"@fr ;
+  .
 
 <49729025-e609-46ed-a749-5f3ae53dbfbe>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "URI ISNI"@fr
+  crm:P1_is_identified_by "URI ISNI"@fr ;
+  .
 
 ####################################################################
 ## Indexation musicale

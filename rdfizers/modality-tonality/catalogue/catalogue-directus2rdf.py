@@ -19,6 +19,7 @@ BASE_URI = f"http://bases-iremus.huma-num.fr/directus-catalogue"
 E55_PRENOM = URIRef("bb483a36-1f03-43b5-9793-402bc9ce5ea2")
 E55_NOM = URIRef("bb483a36-1f03-43b5-9793-402bc9ce5ea2")
 E55_PSEUDONYME = URIRef("78930375-9d85-43aa-8a1a-f458fcdbdfd0")
+E55_SCORE = URIRef("bf9dce29-8123-4e8e-b24d-0c7f134bbc8e")
 DOREMUS_COMPOSER = URIRef("http://data.doremus.org/vocabulary/function/composer")
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
@@ -151,6 +152,7 @@ for p in partitions:
     # F2
     g.add((f2, RDF.type, lrmoo_ns["F2_Expression"]))
     g.add((f1, lrmoo_ns["R3_is_realised_in"], f2))
+    g.add((f2, crm_ns["P2_has_type"], E55_SCORE))
 
     # MEI file pre SHERLOCK URL
     e42_pre_sherlock_url = URIRef(cache.get_uuid(["partitions", f2_uuid, "e42_pre_sherlock_url", "uuid"], True))

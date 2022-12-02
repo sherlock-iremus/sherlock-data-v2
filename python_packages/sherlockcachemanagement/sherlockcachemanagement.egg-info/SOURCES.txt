@@ -1,0 +1,6 @@
+setup.py
+sherlockcachemanagement/__init__.py
+sherlockcachemanagement.egg-info/PKG-INFO
+sherlockcachemanagement.egg-info/SOURCES.txt
+sherlockcachemanagement.egg-info/dependency_links.txt
+sherlockcachemanagement.egg-info/top_level.txt
