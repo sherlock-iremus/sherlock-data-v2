@@ -47,7 +47,7 @@ where {
     	?user crm:P1_is_identified_by ?identifier.
     	?identifier rdf:type crm:E42_Identifier.
     	?identifier crm:P2_has_type <http://data-iremus.huma-num.fr/id/d7ef2583-ff31-4913-9ed3-bc3a1c664b21>.
-    	?identifier rdfs:label ?orcid	
+    	?identifier crm:P190_has_symbolic_content ?orcid	
   	}
 }
 """
