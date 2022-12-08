@@ -39,20 +39,14 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
 
     score_iri = u(score_uuid)
 
-    g.add((score_iri, RDF.type, crmdig_ns["D1_Digital_Object"]))
-    g.add((score_iri, RDF.type, crm_ns["E31_Document"]))
-    g.add((score_iri, crm_ns["P2_has_type"], u("bf9dce29-8123-4e8e-b24d-0c7f134bbc8e")))  # Partition MEI
-    g.add((score_iri, DCTERMS["format"], l("application/vnd.mei+xml")))
-
     for measureNumber, beats in score_beats.items():
         for beat in beats:
             score_beat_iri = u(f"{score_uuid}-beat-{measureNumber}-{beat}")
-            g.add((score_beat_iri, sherlockmei_ns["in_score"], score_iri))
+            g.add((score_beat_iri, sherlock_ns["is_fragment_of"], score_iri))
             g.add((score_iri, crm_ns["P106_is_composed_of"], score_beat_iri))
             g.add((score_beat_iri, RDF.type, crmdig_ns["D35_Area"]))
             # the IRI of the concept: "MEI score offset"
             g.add((score_beat_iri, crm_ns["P2_has_type"], u("90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86")))
-            g.add((score_beat_iri, sherlock_ns["is_fragment_of"], score_iri))
 
     for k, v in elements_beats_data.items():
         element_id = u(score_uuid + "_" + k)
@@ -82,7 +76,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
         if xmlida in e.attrib:
             element_id = u(score_uuid + "_" + e.attrib[xmlida])
 
-            g.add((element_id, sherlockmei_ns["in_score"], score_iri))
+            g.add((element_id, sherlock_ns["is_fragment_of"], score_iri))
 
             g.add((element_id, RDF.type, crmdig_ns["D35_Area"]))
 

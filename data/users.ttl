@@ -1,0 +1,78 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# FRANCESCA MIGNOGNA
+
+<31bbca5e-a494-4f73-ad4d-de45cac63354>
+    rdf:type crm:E21_Person ;
+    crm:P1_is_identified_by <3f478394-6580-4b46-8c42-b52516954ffb> , <8db4b3cd-3f50-406e-92b6-4d2008dd523e> , <eaf5adb3-c387-479b-aa39-42e73fa9d393>
+    .
+
+<3f478394-6580-4b46-8c42-b52516954ffb>
+    rdf:type crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-7819-2151" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> ;
+    .
+
+<8db4b3cd-3f50-406e-92b6-4d2008dd523e>
+    rdf:type crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "F75E25" ;
+    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> ;
+    .
+
+<eaf5adb3-c387-479b-aa39-42e73fa9d393>
+    rdf:type crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "F" ;
+    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> ;
+    .
+
+# NICOLAS MEEÙS
+
+<08a13162-1841-40e4-a1c8-c8f4033cbc6c>
+    rdf:type crm:E21_Person ;
+    crm:P1_is_identified_by <9027e6c3-386f-403b-8b22-1db8f8eefec6> , <c4b18aeb-fca7-4703-8dcf-1d7cc779f367> , <e7c16cee-36db-440d-a01e-0a6434cd24cb>
+    .
+
+<9027e6c3-386f-403b-8b22-1db8f8eefec6>
+    rdf:type crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0003-4308-0445" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> ;
+    .
+
+<c4b18aeb-fca7-4703-8dcf-1d7cc779f367>
+    rdf:type crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "F75E25" ;
+    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> ;
+    .
+
+<e7c16cee-36db-440d-a01e-0a6434cd24cb>
+    rdf:type crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "N" ;
+    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> ;
+    .
+
+# HUGUES SERESS
+
+<49c69132-183d-40d4-90f5-2b533ef7dfde>
+    rdf:type crm:E21_Person ;
+    crm:P1_is_identified_by <85b9a53f-43ca-44f4-9a38-388b0e83b620> , <4e384a01-7ee6-4efb-a37b-7b1304a03ce5> , <40cc3cd3-918b-4fdc-b5a6-19cf71568e97>
+    .
+
+<85b9a53f-43ca-44f4-9a38-388b0e83b620>
+    rdf:type crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "0000-0001-9950-2657" ;
+    crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> ;
+    .
+
+<4e384a01-7ee6-4efb-a37b-7b1304a03ce5>
+    rdf:type crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "F75E25" ;
+    crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> ;
+    .
+
+<40cc3cd3-918b-4fdc-b5a6-19cf71568e97>
+    rdf:type crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "H" ;
+    crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> ;
+    .

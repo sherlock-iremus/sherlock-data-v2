@@ -38,6 +38,17 @@ projects:
   modality-tonality:
     name: Modality-Tonality
     tasks:
+      scores:
+        name: MEI2RDF (out .mei + .ttl)
+        steps:
+          - script: rdfizers/modality-tonality/mei2rdf/main.py
+            args:
+              output_mei_folder: out/files/modality-tonality/mei
+              output_ttl_folder: out/ttl/modality-tonality/mei
+      scores-prod:
+        name: Mettre en prod les fichiers et données MEI
+        steps:
+          - script: prod/modality-tonality.mei.sh
       catalogue2rdf:
         name: Catalogue Directus -> TTL
         steps:
@@ -50,17 +61,6 @@ projects:
         name: Mettre en prod les données du catalogue
         steps:
           - script: prod/modality-tonality.catalogue.sh
-      scores:
-        name: MEI2RDF (out .mei + .ttl)
-        steps:
-          - script: rdfizers/modality-tonality/mei2rdf/main.py
-            args:
-              output_mei_folder: out/files/modality-tonality/mei
-              output_ttl_folder: out/ttl/modality-tonality/mei
-      scores-prod:
-        name: Mettre en prod les fichiers et données MEI
-        steps:
-          - script: prod/modality-tonality.mei.sh
       models:
         name: Mettre en prod les données des ontologies des traités théoriques historiques
         steps:
@@ -72,15 +72,19 @@ projects:
         steps:
           - script: prod/modality-tonality.static-data.sh
       annotations:
-        name: "Mettre en prod les données d'annotation de Christophe"
+        name: Générer et mettre en prod les annotation de fondamentales de Christophe & ses collègues
         steps:
           - git: ../in/tonalities_pilot
             branch: main
-          - script: rdfizers/modality-tonality/christophe-annotations.py
+          - script: rdfizers/modality-tonality/fondamentales.py
             args:
+              cache: caches/modality-tonality/fondamentales.yaml
+              directus_secret: directus/opentheso2directus.secret.yaml
+              out_ttl: out/ttl/modality-tonality/fondamentales.ttl
               owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
+          - script: prod/modality-tonality.fondamentales.sh
       analysis:
-        name: Convertir les données d'analyse automatique OWL en RDF SHERLOCK
+        name: Générer les données d'analyse automatique à partir du OWL et les mettre en prod
         steps:
           - git: ../in/modal-tonal-ontology
             branch: main
@@ -92,9 +96,6 @@ projects:
               out_ttl: out/ttl/modality-tonality/analysis.ttl
               researcher_uuid: 5d7bdf74-addd-418b-ab43-38af4e70c158
           - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
-      analysis-prod:
-        name: Mettre en prod les données d'analyse algorithmique
-        steps:
           - script: prod/modality-tonality.analysis.sh
   rar:
     name: Référentiel de l'Ancien Régime

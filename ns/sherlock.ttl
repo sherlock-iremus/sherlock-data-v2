@@ -82,7 +82,7 @@ sherlock:definition
     rdfs:subPropertyOf crm:P3_has_note ;
     .
     
-sherlock:editorial_note
+sherlock:has_editorial_note
     a owl:ObjectProperty ;
     a crm:E55_Type ;
     rdfs:domain crm:E1_CRM_Entity ;

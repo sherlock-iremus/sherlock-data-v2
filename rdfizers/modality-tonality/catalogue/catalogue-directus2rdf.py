@@ -2,7 +2,7 @@ import argparse
 from datetime import datetime
 from pprint import pprint
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import RDF, XSD
+from rdflib.namespace import DCTERMS, RDF, XSD
 import requests
 import yaml
 from sherlockcachemanagement import Cache
@@ -150,9 +150,12 @@ for p in partitions:
     f1 = URIRef(p["oeuvre"])
 
     # F2
-    g.add((f2, RDF.type, lrmoo_ns["F2_Expression"]))
     g.add((f1, lrmoo_ns["R3_is_realised_in"], f2))
+    g.add((f2, RDF.type, lrmoo_ns["F2_Expression"]))
+    g.add((f2, RDF.type, crmdig_ns["D1_Digital_Object"]))
+    g.add((f2, RDF.type, crm_ns["E31_Document"]))
     g.add((f2, crm_ns["P2_has_type"], E55_SCORE))
+    g.add((f2, DCTERMS["format"], Literal("application/vnd.mei+xml")))
 
     # MEI file pre SHERLOCK URL
     e42_pre_sherlock_url = URIRef(cache.get_uuid(["partitions", f2_uuid, "e42_pre_sherlock_url", "uuid"], True))

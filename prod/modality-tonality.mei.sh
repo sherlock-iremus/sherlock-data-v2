@@ -1,10 +1,9 @@
-SCRIPT=`realpath $0`
-DIR=`dirname $SCRIPT`
+SCRIPT_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-scp $DIR/../out/files/modality-tonality/mei/*.mei tbottini@data-iremus.huma-num.fr:sherlock/apache/public_html/files/modality-tonality/mei/
+scp "$SCRIPT_DIR/../out/files/modality-tonality/mei/"*.mei tbottini@data-iremus.huma-num.fr:sherlock/apache/public_html/files/modality-tonality/mei/
 
 ssh tbottini@data-iremus.huma-num.fr "mkdir -p sherlock/rdf-data/modality-tonality/mei"
-scp $DIR/../out/ttl/modality-tonality/mei/*.ttl tbottini@data-iremus.huma-num.fr:sherlock/rdf-data/modality-tonality/mei
+scp "$SCRIPT_DIR/../out/ttl/modality-tonality/mei/"*.ttl tbottini@data-iremus.huma-num.fr:sherlock/rdf-data/modality-tonality/mei
 
 ssh tbottini@data-iremus.huma-num.fr "
 cd sherlock/rdf-data/modality-tonality/mei ;

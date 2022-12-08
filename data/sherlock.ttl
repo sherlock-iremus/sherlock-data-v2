@@ -108,7 +108,11 @@
     .
 <f4262bac-f72c-40e2-aa51-ae352da5a35c>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Ark Gallica" ;
+    crm:P1_is_identified_by "Lien Gallica" ;
+    .
+<b89767f1-38fe-4a9e-9b4d-ea1d5624a687>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Lien data.bnf.fr" ;
     .
 
 <b486f08e-4d50-4363-97b4-d4ea100818e5>
@@ -259,6 +263,7 @@
 <6d72746a-9f28-4739-8786-c6415d53c56d>
     a crm:E55_Type ;
     crm:P1_is_identified_by "Entité analytique"@fr ;
+    crm:P1_is_identified_by "Analytical entity"@en ;
     .
 
 <d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
