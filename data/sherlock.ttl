@@ -150,11 +150,6 @@
     crm:P1_is_identified_by "MEI score offset value"@en ;
     .
 
-<d74076d1-a145-449a-8403-88841ba29dfb>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant cote" ;
-  .
-
 <cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Référence IReMus" ;
@@ -164,6 +159,18 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Numéro d'inventaire" ;
   .  
+
+<15c5867f-f612-4a00-b9f3-17b57e566b8c>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Cote BnF" ;
+    crm:P127_has_broader_term <ea5c35ee-90b9-46a2-93a4-fb4124d58f40> ;
+    .
+
+<ea5c35ee-90b9-46a2-93a4-fb4124d58f40>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Cote bibliothèque" ;
+  crm:P127i_has_narrower_term <15c5867f-f612-4a00-b9f3-17b57e566b8c> ;
+  .
 
 ################################################################################
 # Twitter
@@ -283,7 +290,7 @@
 
 <73ea8d74-3526-4f6a-8830-dd369795650d>
     a crm:E55_Type ;
-    crm:P1_is_identified_by "Name" ;
+    crm:P1_is_identified_by "Name (generated via ORCID API)" ;    
     .
 
 ################################################################################

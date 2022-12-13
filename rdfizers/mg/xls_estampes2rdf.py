@@ -60,6 +60,12 @@ query {
   } 
 }""")
 
+print("Récupération du vocabulaire d'indexation via l'API opentheso...")
+
+r = requests.get(f"https://opentheso.huma-num.fr/opentheso/api/all/theso?id={args.opentheso_id}&format=jsonld", stream=True)
+skos_data = json.loads(r.text)
+concept_uris_list = [concept["@id"] for concept in skos_data]
+
 
 def make_E13(cache_key, p140, p177, p141):
     e13 = she(cache.get_uuid(cache_key, True))
@@ -78,23 +84,24 @@ def make_E13(cache_key, p140, p177, p141):
 
 rows = get_xlsx_rows_as_dicts(args.xlsx)
 
-concepts_used = []
-personnes_used = []
-lieux_used = []
 
 for row in rows:
+
     if row["ID estampe"] is not None:
+        concepts_used = []
+        personnes_used = []
+        lieux_used = []
         id = row["ID estampe"]
 
         # region E36: Estampe
-        estampe = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
+        estampe = she(cache.get_uuid(["estampes", id, "E36_uuid"], True))
         t(estampe, a, crm("E36_Visual_Item"))
         t(corpus_estampes_uri, crm("P106_is_composed_of"), estampe)
         t(estampe, crm("P2_has_type"), estampe_e55_uri)
         # endregion
 
         # region E42: Identifiant Mercure Galant de l'estampe
-        E42_uuid = she(cache.get_uuid(["estampes", id, "E42", "uuid"], True))
+        E42_uuid = she(cache.get_uuid(["estampes", id, "E42_mercure_uuid"], True))
         t(E42_uuid, a, crm("E42_Identifier"))
         t(E42_uuid, crm("P2_has_type"), identifiant_mercure_e55_uri)
         t(E42_uuid, crm("P190_has_symbolic_content"), l(id))
@@ -102,7 +109,7 @@ for row in rows:
         # endregion
 
         # region E42: Identifiant IIIF de l'estampe
-        E42_iiif = she(cache.get_uuid(["estampes", id, "E42_IIIF", "uuid"], True))
+        E42_iiif = she(cache.get_uuid(["estampes", id, "E42_IIIF_uuid"], True))
         t(E42_iiif, a, crm("E42_Identifier"))
         t(E42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
         t(E42_iiif, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
@@ -111,7 +118,7 @@ for row in rows:
 
         # region E42: Provenance cliché (identifiant BnF)
         if row["Provenance cliché"]:
-            E42_provenance = she(cache.get_uuid(["estampes", id, "E42_provenance", "uuid"], True))
+            E42_provenance = she(cache.get_uuid(["estampes", id, "E42_provenance_uuid"], True))
             t(E42_provenance, a, crm("E42_Identifier"))
             t(E42_provenance, crm("P2_has_type"), cote_bnf_e55_uri)
             t(E42_provenance, crm("P190_has_symbolic_content"), l(row["Provenance cliché"]))
@@ -142,7 +149,7 @@ for row in rows:
                     print("[Colonne ID estampe] Livraison TEI inexistante : " + id_livraison)
         # endregion
 
-        # region F2: Article annexe à la gravure
+        # region F2: Article annexe à la grav²ure
         if row["ID OBVIL article lié"]:
             match = pattern_article.search(row["ID OBVIL article lié"])
             if match:
@@ -150,7 +157,7 @@ for row in rows:
                 id_livraison = pattern_livraison.search(id_article_lie).group(0)
                 try:
                     article_F2_TEI = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article_lie, "F2"]))
-                    e13 = make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2_TEI)
+                    e13 = make_E13(["estampes", id, "seeAlso", "E13_uuid"], estampe, RDFS.seeAlso, article_F2_TEI)
                     if row["Commentaire ID article lié OBVIL"]:
                         t(e13, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
                 except:
@@ -178,19 +185,19 @@ for row in rows:
 
         # region E13: Titre sur l'image
         if row["Titre sur l'image"]:
-            make_E13(["estampes", id, "E36", "titre sur l'image"], estampe, titre_sur_l_image_e55_uri, l(row["Titre sur l'image"]))
+            make_E13(["estampes", id, "E13_titre_sur_l_image_uuid"], estampe, titre_sur_l_image_e55_uri, l(row["Titre sur l'image"]))
         # endregion
 
         # region E13: Titre descriptif/forgé
         if row["[titre descriptif forgé]* (Avec Maj - accentuées]"]:
             titre = row["[titre descriptif forgé]* (Avec Maj - accentuées]"].replace("[", "").replace("]", "").replace("*", "")
-            make_E13(["estampes", id, "E36", "titre forgé"], estampe, titre_descriptif_forge_e55_uri, l(titre))
+            make_E13(["estampes", id, "E13_titre_forgé_uuid"], estampe, titre_descriptif_forge_e55_uri, l(titre))
         # endregion
 
         # region E13: Titre dans le péritexte
         if row["[Titre dans le péritexte: Avis, article…]"]:
             titre = row["[Titre dans le péritexte: Avis, article…]"].replace("[", "").replace("]", "").replace("*", "")
-            make_E13(["estampes", id, "E36", "titre péritexte"], estampe, she(titre_peritexte_e55_uri), l(titre))
+            make_E13(["estampes", id, "E13_titre_péritexte_uuid"], estampe, she(titre_peritexte_e55_uri), l(titre))
         # endregion
 
         # region E13: Lieux associés
@@ -207,9 +214,8 @@ for row in rows:
                 if (not lieu):
                     print(f"Aucun lieu trouvé dans Directus pour : {lieu_label}")
                     continue
-                make_E13(["collection", id, "E36", "lieux associés", lieu], estampe, lieu_associe_e55_uri, she(lieu))
+                make_E13(["collection", id, "lieux associés", lieu, "E13_uuid"], estampe, lieu_associe_e55_uri, she(lieu))
                 lieux_used.append(lieu)
-                # TODO: log le numéro de ligne quand erreur
         # endregion
 
         # region E13-P138: Lieux représentés
@@ -226,17 +232,17 @@ for row in rows:
                 if (not lieu):
                     print(f"Aucun lieu trouvé dans Directus pour : {lieu_label}")
                     continue
-                # Zone de l'image comportant la représentation du lieu (E13)
-                estampe_fragment = she(cache.get_uuid(["estampes", id, "E36", "lieux représentés", lieu, "E36_fragment", "uuid"], True))
-                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "E36", "lieux représentés", lieu, "E36_fragment", "E42_IIIF", "uuid"], True))
+
+                estampe_fragment = she(cache.get_uuid(["estampes", id, "lieux représentés", lieu, "E36_fragment", "uuid"], True))
+                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E42_IIIF_uuid"], True))
 
                 t(estampe_fragment, a, crm("E36_Visual_Item"))
                 t(estampe_fragment, she_ns("is_fragment_of"), estampe)
                 t(estampe_fragment_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                 t(estampe_fragment_e42_iiif, RDF.type, crm("E42_Identifier"))
 
-                make_E13(["estampes", id, "E36", "lieux représentés", lieu, "E36_fragment", "E13_IIIF", "uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
-                make_E13(["estampes", id, "E36", "lieux représentés", lieu, "E36_fragment", "E13_P138", "uuid"], estampe_fragment, crm("P138_represents"), she(lieu))
+                make_E13(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
+                make_E13(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), she(lieu))
                 lieux_used.append(lieu)
         # endregion
 
@@ -249,7 +255,7 @@ for row in rows:
                     continue
                 thématique_uri = opth(slugify(thématique), args.opentheso_id)
                 concepts_used.append(thématique_uri)
-                make_E13(["collection", id, "E36", "thématique", thématique, "E13"], estampe, thematique_e55_uri, thématique_uri)
+                make_E13(["collection", id, "thématiques", thématique, "E13_uuid"], estampe, thematique_e55_uri, thématique_uri)
         # endregion
 
         # region E13-P138: Objet représenté
@@ -260,58 +266,65 @@ for row in rows:
                 if objet == "" or objet == " ":
                     continue
 
-                # Zone de l'image représentant l'objet (E13)
-                estampe_zone_img = she(
-                    cache.get_uuid(["estampes", id, "E36", "objets", objet, "zone de l'objet (E36)", "uuid"], True))
-                t(estampe_zone_img, a, crm("E36_Visual_Item"))
-                t(estampe_zone_img, she_ns("is_fragment_of"), estampe)
-                make_E13(["estampes", id, "E36", "objets", objet, "zone de l'objet (E36)", "E13"], estampe, crm("P106_is_composed_of"), estampe_zone_img)
-                objet_uri = opth(slugify(objet), args.opentheso_id)
-                concepts_used.append(objet_uri)
-                make_E13(["estampes", id, "E36", "objets", objet, "zone de l'objet (E36)", "représentation de l'objet (E13)"], estampe_zone_img, crm("P138_represents"), objet_uri)
+                objet_type_uri = opth(slugify(objet), args.opentheso_id)
+                concepts_used.append(objet_type_uri)
+
+                estampe_fragment = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "uuid"], True))
+                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E42_IIIF_uuid"], True))
+                e18_objet = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E18_uuid"], True))
+                
+                t(estampe_fragment, a, crm("E36_Visual_Item"))
+                t(estampe_fragment, she_ns("is_fragment_of"), estampe)
+                t(estampe_fragment_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
+                t(estampe_fragment_e42_iiif, a, crm("E42_Identifier"))
+                t(e18_objet, a, crm("E18_Physical_Thing"))
+                t(e18_objet, crm("P2_has_type"), objet_type_uri)
+
+                make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
+                make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e18_objet)
 
                 # Si l'objet est une médaille et comporte une inscription
                 if objet == "médaille" and row["Médailles: avers"] or row["Médailles: revers"]:
                     if row["Médailles: avers"]:
-                        médaille_zone_inscrip = she(cache.get_uuid(
-                            ["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                             "avers", "uuid"], True))
-                        t(médaille_zone_inscrip, a, crm("E36_Visual_Item"))
-                        t(médaille_zone_inscrip, she_ns("is_fragment_of"), estampe)
-                        make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
-                                  "zone d'inscription (médaille)", "avers", "E13"], estampe_zone_img, crm("P106_is_composed_of"), médaille_zone_inscrip)
-                        médaille_inscrip = she(
-                            cache.get_uuid(
-                                ["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                                 "avers", "inscription", "uuid"], True))
-                        t(médaille_inscrip, a, crm("E33_Linguistic_Object"))
-                        e13 = make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                                  "avers", "inscription", "E13"], médaille_zone_inscrip, crm("P165_incorporates"), médaille_inscrip)
-                        t(e13, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), inscription_avers_medaille_e55_uri)
-                        # Contenu de l'inscription
-                        make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
-                                  "inscription",
-                                  "avers", "inscription", "contenu (E13)"], médaille_inscrip, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]))
+                        estampe_fragment_avers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E36_uuid"], True))
+                        estampe_fragment_avers_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_uuid"], True))
+                        e18_avers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E18_uuid"], True))
+                        e34_inscription = she(cache.get_uuid(["collection", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "uuid"], True))
+
+                        t(estampe_fragment_avers, a, crm("E36_Visual_Item"))
+                        t(estampe_fragment_avers, she_ns("is_fragment_of"), estampe_fragment)
+                        t(e18_objet, crm("P46_is_composed_of"), e18_avers)
+                        t(e18_avers, a, crm("E18_Physical_Thing"))
+                        t(e18_avers, crm("P2_has_type"), avers_medaille_e55_uri)
+                        t(estampe_fragment_avers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
+                        t(estampe_fragment_avers_e42_iiif, a, crm("E42_Identifier"))
+                        t(e34_inscription, a, crm("E34_Inscription"))
+                        t(e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]))
+
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_uuid"], estampe_fragment_avers, crm("P1_is_identified_by"), estampe_fragment_avers_e42_iiif)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P138_uuid"], estampe_fragment_avers, crm("P138_represents"), e18_avers)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "E13_uuid"], e18_avers, crm("P165_incorporates"), e34_inscription)
 
                     # Si la médaille comporte une inscription sur son revers (E13)
                     if row["Médailles: revers"]:
-                        médaille_zone_inscrip = she(cache.get_uuid(
-                            ["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                             "revers", "uuid"], True))
-                        t(médaille_zone_inscrip, a, crm("E36_Visual_Item"))
-                        t(médaille_zone_inscrip, she_ns("is_fragment_of"), estampe)
-                        make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
-                                  "zone d'inscription (médaille)", "revers", "E13"], estampe_zone_img, crm("P106_is_composed_of"), médaille_zone_inscrip)
-                        médaille_inscrip = she(cache.get_uuid(
-                            ["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                             "revers", "inscription", "uuid"], True))
-                        t(médaille_inscrip, a, crm("E33_Linguistic_Object"))
-                        make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                                  "revers", "inscription", "E13"], médaille_zone_inscrip, crm("P165_incorporates"), médaille_inscrip)
-                        t(e13, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), inscription_revers_medaille_e55_uri)
-                        # Contenu de l'inscription
-                        make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
-                                  "revers", "inscription", "contenu (E13)"], médaille_inscrip, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
+                        estampe_fragment_revers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E36_uuid"], True))
+                        estampe_fragment_revers_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_uuid"], True))
+                        e18_revers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E18_uuid"], True))
+                        e34_inscription = she(cache.get_uuid(["collection", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "uuid"], True))
+
+                        t(estampe_fragment_revers, a, crm("E36_Visual_Item"))
+                        t(estampe_fragment_revers, she_ns("is_fragment_of"), estampe_fragment)
+                        t(e18_objet, crm("P46_is_composed_of"), e18_revers)
+                        t(e18_revers, a, crm("E18_Physical_Thing"))
+                        t(e18_revers, crm("P2_has_type"), revers_medaille_e55_uri)
+                        t(estampe_fragment_revers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
+                        t(estampe_fragment_revers_e42_iiif, a, crm("E42_Identifier"))
+                        t(e34_inscription, a, crm("E34_Inscription"))
+                        t(e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
+
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_uuid"], estampe_fragment_revers, crm("P1_is_identified_by"), estampe_fragment_revers_e42_iiif)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P138_uuid"], estampe_fragment_revers, crm("P138_represents"), e18_revers)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "E13_uuid"], e18_revers, crm("P165_incorporates"), e34_inscription)
         # endregion
 
         # region E13-P138: Personnes représentées
@@ -321,8 +334,14 @@ for row in rows:
                 personne = personne.strip().replace("’", "'")
                 if personne == "" or personne == " ":
                     continue
+                estampe_fragment = she(cache.get_uuid(["estampes", id, "personnes représentées", personne, "E36_fragment", "uuid"], True))
+                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "personnes représentées", personne, "E36_fragment", "E42_IIIF_uuid"], True))
+                e21_personne = she(personne)
+
                 personnes_used.append(personne)
-                make_E13(["collection", id, "E36", "personnes", personne, "zone de l'objet (E36)", "personne représentée"], estampe_zone_img, crm("P138_represents"), she(personne))
+                make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
+                make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e21_personne)
+
         # endregion
 
         # region E13: Personnes associées
@@ -420,28 +439,20 @@ for row in rows:
             make_E13(["estampes", id, "E36", "bibliographie", "E13"], estampe, crm("P70_documents"), biblio)
         # endregion
 
-###########################################################################################################
-# Tests concordance indexation
-###########################################################################################################
-
-print("Test de concordance des indexations...")
-
-# VOCABULAIRE
-
-print("Récupération du vocabulaire d'indexation via l'API opentheso...")
-r = requests.get(f"https://opentheso.huma-num.fr/opentheso/api/all/theso?id={args.opentheso_id}&format=jsonld", stream=True)
-skos_data = json.loads(r.text)
-concept_uris_list = [concept["@id"] for concept in skos_data]
-
-for concept in concepts_used:
-    if (str(concept) not in concept_uris_list):
-        print(f"Le concept {concept} ne fait pas partie du vocabulaire.")
+        # region TESTS
+        for concept in concepts_used:
+            if (str(concept) not in concept_uris_list):
+                print(f"[Concept manquant] {concept[45:][:-10]} ({row['ID estampe']})")
+        for personne_uuid in personnes_used:
+            if (not next((x for x in personnes_directus["data"]["personnes"] if x["id"] == personne_uuid), None)):
+                print(f"[Personne manquante] {personne_uuid} ({row['ID estampe']})")
+        for lieu_uuid in lieux_used:
+            if (not next((x for x in lieux_directus["data"]["lieux"] if x["id"] == lieu_uuid), None)):
+                print(f"[Lieu manquant] {lieu_uuid} ({row['ID estampe']})")
+        # endregion
 
 # PERSONNES
 
-for personne_uuid in personnes_used:
-    if (not next((x for x in personnes_directus["data"]["personnes"] if x["id"] == personne_uuid), None)):
-        print(f"L'uuid {personne_uuid} n'existe pas. Regénérer cache personnes ?")
 
 # LIEUX
 
