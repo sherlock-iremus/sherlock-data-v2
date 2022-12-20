@@ -88,6 +88,11 @@ rows = get_xlsx_rows_as_dicts(args.xlsx)
 for row in rows:
 
     if row["ID estampe"] is not None:
+        id_livraison = pattern_livraison.search(row["ID estampe"]).group(0)
+
+        # Dans le cas où la livraison n'aurait jamais été transcrite en TEI, on se donne le droit de la référencer dans le cache
+        livraison_F2_originale = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"], True))
+
         concepts_used = []
         personnes_used = []
         lieux_used = []
@@ -109,20 +114,11 @@ for row in rows:
         # endregion
 
         # region E42: Identifiant IIIF de l'estampe
-        E42_iiif = she(cache.get_uuid(["estampes", id, "E42_IIIF_uuid"], True))
+        E42_iiif = she(cache.get_uuid(["estampes", id, "E42_IIIF_humanum_uuid"], True))
         t(E42_iiif, a, crm("E42_Identifier"))
         t(E42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
         t(E42_iiif, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
         t(estampe, crm("P1_is_identified_by"), E42_iiif)
-        # endregion
-
-        # region E42: Provenance cliché (identifiant BnF)
-        if row["Provenance cliché"]:
-            E42_provenance = she(cache.get_uuid(["estampes", id, "E42_provenance_uuid"], True))
-            t(E42_provenance, a, crm("E42_Identifier"))
-            t(E42_provenance, crm("P2_has_type"), cote_bnf_e55_uri)
-            t(E42_provenance, crm("P190_has_symbolic_content"), l(row["Provenance cliché"]))
-            t(estampe, RDFS.seeAlso, E42_provenance)
         # endregion
 
         # region F2: Rattachement à la livraison ou à l'article
@@ -131,7 +127,6 @@ for row in rows:
             if match:
                 try:
                     id_article = match.group(0)[3:]
-                    id_livraison = pattern_livraison.search(id_article).group(0)
                     article_F2_original = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
                     article_F2_TEI = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
                     t(article_F2_original, crm("P106_is_composed_of"), estampe)
@@ -140,8 +135,6 @@ for row in rows:
                     print("[Colonne ID article OBVIL] Article TEI inexistant : " + id_article)
             else:
                 try:
-                    id_livraison = pattern_livraison.search(row["ID estampe"]).group(0)
-                    livraison_F2_originale = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
                     livraison_F2_TEI = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
                     t(livraison_F2_originale, crm("P106_is_composed_of"), estampe)
                     t(livraison_F2_TEI, crm("P106_is_composed_of"), estampe)
@@ -149,7 +142,7 @@ for row in rows:
                     print("[Colonne ID estampe] Livraison TEI inexistante : " + id_livraison)
         # endregion
 
-        # region F2: Article annexe à la grav²ure
+        # region F2: Article annexe à la gravure
         if row["ID OBVIL article lié"]:
             match = pattern_article.search(row["ID OBVIL article lié"])
             if match:
@@ -170,7 +163,7 @@ for row in rows:
             matches = re.findall(pattern_lien, cell_content)
             for url in matches:
                 if url.startswith("https://gallica.bnf.fr/"):
-                    E42_gallica = she(cache.get_uuid(["estampes", estampe, id, "E42 Gallica", "uuid"], True))
+                    E42_gallica = she(cache.get_uuid(["estampes", id, "E42_gallica_uuid"], True))
                     t(E42_gallica, RDF.type, crm("E42_Identifier"))
                     t(E42_gallica, crm("P190_has_symbolic_content"), u(url))
                     t(E42_gallica, crm("P2_has_type"), lien_gallica_e55_uri)
@@ -234,7 +227,7 @@ for row in rows:
                     continue
 
                 estampe_fragment = she(cache.get_uuid(["estampes", id, "lieux représentés", lieu, "E36_fragment", "uuid"], True))
-                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E42_IIIF_uuid"], True))
+                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E42_IIIF_humanum_uuid"], True))
 
                 t(estampe_fragment, a, crm("E36_Visual_Item"))
                 t(estampe_fragment, she_ns("is_fragment_of"), estampe)
@@ -270,7 +263,7 @@ for row in rows:
                 concepts_used.append(objet_type_uri)
 
                 estampe_fragment = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "uuid"], True))
-                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E42_IIIF_uuid"], True))
+                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E42_IIIF_humanum_uuid"], True))
                 e18_objet = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E18_uuid"], True))
                 
                 t(estampe_fragment, a, crm("E36_Visual_Item"))
@@ -284,12 +277,12 @@ for row in rows:
                 make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e18_objet)
 
                 # Si l'objet est une médaille et comporte une inscription
-                if objet == "médaille" and row["Médailles: avers"] or row["Médailles: revers"]:
+                if objet == "médaille" and (row["Médailles: avers"] or row["Médailles: revers"]):
                     if row["Médailles: avers"]:
                         estampe_fragment_avers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E36_uuid"], True))
-                        estampe_fragment_avers_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_uuid"], True))
+                        estampe_fragment_avers_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_humanum_uuid"], True))
                         e18_avers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E18_uuid"], True))
-                        e34_inscription = she(cache.get_uuid(["collection", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "uuid"], True))
+                        e34_inscription = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "uuid"], True))
 
                         t(estampe_fragment_avers, a, crm("E36_Visual_Item"))
                         t(estampe_fragment_avers, she_ns("is_fragment_of"), estampe_fragment)
@@ -299,18 +292,18 @@ for row in rows:
                         t(estampe_fragment_avers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                         t(estampe_fragment_avers_e42_iiif, a, crm("E42_Identifier"))
                         t(e34_inscription, a, crm("E34_Inscription"))
-                        t(e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]))
+                        t(e18_avers, crm("P165_incorporates"), e34_inscription)
 
-                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_uuid"], estampe_fragment_avers, crm("P1_is_identified_by"), estampe_fragment_avers_e42_iiif)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_humanum_uuid"], estampe_fragment_avers, crm("P1_is_identified_by"), estampe_fragment_avers_e42_iiif)
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P138_uuid"], estampe_fragment_avers, crm("P138_represents"), e18_avers)
-                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "E13_uuid"], e18_avers, crm("P165_incorporates"), e34_inscription)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]))
 
                     # Si la médaille comporte une inscription sur son revers (E13)
                     if row["Médailles: revers"]:
                         estampe_fragment_revers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E36_uuid"], True))
-                        estampe_fragment_revers_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_uuid"], True))
+                        estampe_fragment_revers_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_humanum_uuid"], True))
                         e18_revers = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E18_uuid"], True))
-                        e34_inscription = she(cache.get_uuid(["collection", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "uuid"], True))
+                        e34_inscription = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "uuid"], True))
 
                         t(estampe_fragment_revers, a, crm("E36_Visual_Item"))
                         t(estampe_fragment_revers, she_ns("is_fragment_of"), estampe_fragment)
@@ -320,11 +313,11 @@ for row in rows:
                         t(estampe_fragment_revers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                         t(estampe_fragment_revers_e42_iiif, a, crm("E42_Identifier"))
                         t(e34_inscription, a, crm("E34_Inscription"))
-                        t(e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
+                        t(e18_revers, crm("P165_incorporates"), e34_inscription)
 
-                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_uuid"], estampe_fragment_revers, crm("P1_is_identified_by"), estampe_fragment_revers_e42_iiif)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_humanum_uuid"], estampe_fragment_revers, crm("P1_is_identified_by"), estampe_fragment_revers_e42_iiif)
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P138_uuid"], estampe_fragment_revers, crm("P138_represents"), e18_revers)
-                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "E13_uuid"], e18_revers, crm("P165_incorporates"), e34_inscription)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
         # endregion
 
         # region E13-P138: Personnes représentées
@@ -335,13 +328,12 @@ for row in rows:
                 if personne == "" or personne == " ":
                     continue
                 estampe_fragment = she(cache.get_uuid(["estampes", id, "personnes représentées", personne, "E36_fragment", "uuid"], True))
-                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "personnes représentées", personne, "E36_fragment", "E42_IIIF_uuid"], True))
+                estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "personnes représentées", personne, "E36_fragment", "E42_IIIF_humanum_uuid"], True))
                 e21_personne = she(personne)
 
                 personnes_used.append(personne)
                 make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
                 make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e21_personne)
-
         # endregion
 
         # region E13: Personnes associées
@@ -352,92 +344,109 @@ for row in rows:
                 if personne == "" or personne == " ":
                     continue
                 personnes_used.append(personne)
-                make_E13(["collection", id, "E36", "personnes associées", personne], estampe, personne_associee_e55_uri, she(personne))
+                make_E13(["estampes", id, "personnes associées", personne, "E13_uuid"], estampe, personne_associee_e55_uri, she(personne))
         # endregion
 
-        # region E12: Production de l'estampe
+        # region E65: Production de l'estampe
         if row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"] or row[
                 "Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]:
-            estampe_E12 = she(cache.get_uuid(["estampes", id, "E36", "E12", "uuid"], True))
-            t(estampe_E12, a, crm("E12_Production"))
-            t(estampe_E12, crm("P108_has_produced"), estampe)
+            estampe_E65 = she(cache.get_uuid(["estampes", id, "E65", "uuid"], True))
+            t(estampe_E65, a, crm("E65_Creation"))
+            t(estampe_E65, crm("P94_has_created"), estampe)
         # endregion
 
-        # region sous-E12: Invenit (concepteur de l'estampe)
+        # region sous-E65: Invenit (concepteur de l'estampe)
         if row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"]:
-            estampe_invenit = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "uuid"], True))
-            t(estampe_invenit, a, crm("E12_Production"))
+            estampe_invenit = she(cache.get_uuid(["estampes", id, "E65", "E65_invenit", "uuid"], True))
+            t(estampe_invenit, a, crm("E65_Creation"))
             t(estampe_invenit, crm("P2_has_type"), invenit_e55_uri)
-            t(estampe_E12, crm("P9_consists_of"), estampe_invenit)
+            t(estampe_E65, crm("P9_consists_of"), estampe_invenit)
 
             # Lien entre conception de l'estampe et concepteur (E13)
-            estampe_invenit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "auteur"], True))
-            t(estampe_invenit_auteur, a, crm("E21_Person"))
-            t(estampe_invenit_auteur, RDFS.label,
-              l(row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"]))
-            make_E13(["estampes", id, "E36", "E12", "invenit", "E13"], estampe_invenit, crm("P14_carried_out_by"), estampe_invenit_auteur)
+            concepteur_uuid = row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"].strip().lower()
+            make_E13(["estampes", id, "E65", "E65_invenit", "E13_P14_uuid"], estampe_invenit, crm("P14_carried_out_by"), she(concepteur_uuid))
         # endregion
 
-        # region sous-E12: Sculpsit (graveur de l'estampe)
+        # region sous-E65: Sculpsit (graveur de l'estampe)
         if row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]:
-            estampe_sculpsit = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "uuid"], True))
-            t(estampe_sculpsit, a, crm("E12_Production"))
+            estampe_sculpsit = she(cache.get_uuid(["estampes", id, "E65", "E65_sculpsit", "uuid"], True))
+            t(estampe_sculpsit, a, crm("E65_Creation"))
             t(estampe_sculpsit, crm("P2_has_type"), sculpsit_e55_uri)
-            t(estampe_E12, crm("P9_consists_of"), estampe_sculpsit)
+            t(estampe_E65, crm("P9_consists_of"), estampe_sculpsit)
 
             # Lien entre la gravure de l'estampe et son graveur (E13)
-            estampe_sculpsit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "auteur"], True))
-            t(estampe_sculpsit_auteur, a, crm("E21_Person"))
-            t(estampe_sculpsit_auteur, RDFS.label, l(row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]))
-            make_E13(["estampes", id, "E36", "E12", "sculpsit", "E13"], estampe_sculpsit, crm("P14_carried_out_by"), estampe_sculpsit_auteur)
+            graveur_uuid = row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"].strip().lower()
+            make_E13(["estampes", id, "E65", "E65_sculpsit", "E13_P14_uuid"], estampe_sculpsit, crm("P14_carried_out_by"), she(graveur_uuid))
         # endregion
 
         # region E13: Type de représentation
         if row["Types de représentation"]:
             types = row["Types de représentation"].split(";")
-            for x in types:
-                if x == "" or x == " ":
+            for type_label in types:
+                if type_label == "" or type_label == " ":
                     continue
-                type_uri = opth(slugify(x.strip().replace("’", "'")), args.opentheso_id)
+                slug = slugify(type_label.strip().replace("’", "'"))
+                type_uri = opth(slug, args.opentheso_id)
                 concepts_used.append(type_uri)
-                make_E13(["estampes", id, "E36", "types de représentation", x], estampe, type_representation_e55_uri, type_uri)
+                make_E13(["estampes", id, "types de représentation", slug, "E13_uuid"], estampe, type_representation_e55_uri, type_uri)
         # endregion
 
         # region E13: Technique de gravure
         if row["Technique de la gravure"]:
             techniques = row["Technique de la gravure"].split(",")
-            for x in techniques:
-                if x == "" or x == " ":
+            for technique_label in techniques:
+                if technique_label == "" or technique_label == " ":
                     continue
-                technique_uri = opth(slugify(x.strip().replace("’", "'")), args.opentheso_id)
+                slug = slugify(technique_label.strip().replace("’", "'"))
+                technique_uri = opth(slug, args.opentheso_id)
                 concepts_used.append(technique_uri)
-                make_E13(["estampes", id, "E36", "technique de la gravure", x], estampe, technique_de_gravure_e55_uri, technique_uri)
-        # endregion
-
-        # region E13: Format
-        if row["Format (H x L en cm)"]:
-            format = row["Format (H x L en cm)"].split("x")
-            hauteur_uri = she(cache.get_uuid(["estampes", id, "E36", "E54 hauteur", "uuid"], True))
-            t(hauteur_uri, a, crm("E54_Dimension"))
-            t(hauteur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
-            t(hauteur_uri, crm("P90_has_value"), l(format[0].strip().replace("’", "'")))
-            t(hauteur_uri, crm("P91_has_unit"), l("cm"))
-            make_E13(["estampes", id, "E36", "hauteur", "E13", "uuid"], estampe, crm("P43_has_dimension"), hauteur_uri)
-            largeur_uri = she(cache.get_uuid(["estampes", id, "E36", "E54 largeur", "uuid"], True))
-            t(largeur_uri, a, crm("E54_Dimension"))
-            t(largeur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
-            t(largeur_uri, crm("P90_has_value"), l(format[1].replace("cm", "").strip().replace("’", "'")))
-            t(largeur_uri, crm("P91_has_unit"), l("cm"))
-            make_E13(["estampes", id, "E36", "hauteur", "E13", "uuid"], estampe, crm("P43_has_dimension"), hauteur_uri)
+                make_E13(["estampes", id, "technique de la gravure", slug, "E13_uuid"], estampe, technique_de_gravure_e55_uri, technique_uri)
         # endregion
 
         # region E13-P70: Bibliographie relative à l'estampe
         if row["BIBLIO [y compris liens] relative à la gravure et aux artistes"]:
-            biblio = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "uuid"], True))
-            t(biblio, a, crm("E31_Document"))
-            t(biblio, RDFS.label, l(row["BIBLIO [y compris liens] relative à la gravure et aux artistes"]))
-            make_E13(["estampes", id, "E36", "bibliographie", "E13"], estampe, crm("P70_documents"), biblio)
+            make_E13(["estampes", id, "bibliographie", "E13_P70_uuid"], estampe, e55_note_bibliographique, l(row["BIBLIO [y compris liens] relative à la gravure et aux artistes"]))
         # endregion
+
+        # region Exemplaire physique
+        livraison_F3_consultation = u(cache.get_uuid(["livraisons", id_livraison, "F3_consultation_uuid"], True))
+        livraison_F5_consultation = u(cache.get_uuid(["livraisons", id_livraison, "F5_consultation_uuid"], True))
+        E24_feuille = u(cache.get_uuid(["livraisons", id_livraison, "E24_feuille_uuid"], True))
+
+        t(livraison_F3_consultation, lrm("R4_embodies") , livraison_F2_originale)
+        t(livraison_F2_originale, lrm("R4i_is_embodied_in") , livraison_F3_consultation)
+        t(livraison_F5_consultation, lrm('R7_is_materialization_of'), livraison_F3_consultation)
+        t(livraison_F3_consultation, lrm('R7i_is_materialized_in'), livraison_F5_consultation)
+        t(livraison_F5_consultation, crm("P46_is_composed_of") , E24_feuille)
+        t(E24_feuille, crm("P46i_forms_part_of") , livraison_F5_consultation)
+        t(E24_feuille, crm("P65_shows_visual_item"), estampe)
+
+        #Provenance cliché (identifiant BnF)
+        if row["Provenance cliché"]:
+            E42_provenance = she(cache.get_uuid(["livraisons", id_livraison, "E42_provenance_uuid"], True))
+            t(E42_provenance, a, crm("E42_Identifier"))
+            t(E42_provenance, crm("P2_has_type"), cote_bnf_e55_uri)
+            t(E42_provenance, crm("P190_has_symbolic_content"), l(row["Provenance cliché"]))
+            t(livraison_F5_consultation, crm("P1_is_identified_by"), E42_provenance)
+
+        #Format
+        if row["Format (H x L en cm)"]:
+            format = row["Format (H x L en cm)"].split("x")
+            hauteur_uri = she(cache.get_uuid(["livraisons", id_livraison, id, "E54_hauteur", "uuid"], True))
+            t(hauteur_uri, a, crm("E54_Dimension"))
+            t(hauteur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
+            t(hauteur_uri, crm("P90_has_value"), l(format[0].strip().replace("’", "'")))
+            t(hauteur_uri, crm("P91_has_unit"), u("http://vocab.getty.edu/page/aat/300379098"))            
+            make_E13(["livraisons", id_livraison, id, "E54_hauteur", "E13_P43_dimension_uuid"], E24_feuille, crm("P43_has_dimension"), hauteur_uri)
+            
+            largeur_uri = she(cache.get_uuid(["livraisons", id_livraison, id, "E54_largeur", "uuid"], True))
+            t(largeur_uri, a, crm("E54_Dimension"))
+            t(largeur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
+            t(largeur_uri, crm("P90_has_value"), l(format[1].replace("cm", "").strip().replace("’", "'")))
+            t(largeur_uri, crm("P91_has_unit"), u("http://vocab.getty.edu/page/aat/300379098"))
+            make_E13(["livraisons", id_livraison, id, "E54_largeur", "E13_P43_dimension_uuid"], E24_feuille, crm("P43_has_dimension"), largeur_uri)
+        # endregion
+
 
         # region TESTS
         for concept in concepts_used:
@@ -451,23 +460,14 @@ for row in rows:
                 print(f"[Lieu manquant] {lieu_uuid} ({row['ID estampe']})")
         # endregion
 
-# PERSONNES
-
-
-# LIEUX
-
-for lieu_uuid in lieux_used:
-    if (not next((x for x in lieux_directus["data"]["lieux"] if x["id"] == lieu_uuid), None)):
-        print(f"L'uuid {lieu_uuid} n'existe pas. Regénérer cache lieux ?")
 
 ###########################################################################################################
 # Création du graphe et du cache
 ###########################################################################################################
 
 cache.bye()
+cache_tei.bye()
 save_graph(args.ttl)
 
 # TODO ROADBLOACKED INSTITUTIONS : en attente de la saisie des institutions dans directus (stagiaire printemps 2023)
-# TODO AUTRES LIENS EXTERNES : que fait-on de cette colonne fourre-tout ? P3 ?
-# TODO ID ARTICLE LIÉ : ne sont pas dans le cache tei.
 # TODO sherlock data constants
