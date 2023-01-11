@@ -1,0 +1,80 @@
+personnes 81841\
+personnes 14501\
+lieux 293710\
+mots clés concert public\
+mots clés idylle\
+personnes bracciane_anne-marie_de_la_tremoille-noirmoutier\_(1642_av-1722)\_duchesse_de\
+personnes 81853\
+personnes 81842\
+mots clés **Instrumentiste**\
+mots clés violon\
+mots clés basse de viole\
+mots clés flûte\
+mots clés **Instruments de musique**\
+mots clés interprétation instrumentale\
+personnages amour\
+personnages Neptune\
+personnages Eole\
+personnages tritons\
+oeuvre citée Gourdon, M., Idylle pour la reine d'Espagne\
+oeuvre citée Raybaud, M., Idylle pour la reine d'Espagne\
+mots clés petit opéra\
+mots clés costume de théâtre\
+\
+mots clés messe en musique\
+lieux 293718\
+mots clés motet\
+lieux 293711\
+mots clés réception officielle\
+mots clés **Réception d\'une princesse**\
+mots clés réception publique\
+mots clés **Ode (forme poétique)**\
+mots clés éloge en vers\
+mots clés **Éloge d\'une princesse**\
+\
+mots clés entrée princière\
+mots clés cérémonie civile\
+\
+mots clés messe\
+congrégations jesuite\
+lieux 2689\
+personnes vauvre_jean-louis_de_girardin_de\_(1647-1724)\
+mots clés caractère de la danse\
+mots clés danse française\
+mots clés danse populaire\
+mots clés **Rigaudon**\
+mots clés danseur\
+mots clés disposition pour la danse\
+lieux 2693\
+\
+\
+mots clés décor éphémère\
+lieux 2657\
+lieux 2674\
+mots clés tambour\
+mots clés trompette\
+mots clés timbale\
+mots clés illuminations\
+mots clés feu d'artifice\
+mots clés basson\
+mots clés hautbois\
+mots clés **Folies d\'Espagne**\
+mots clés mise en air\
+mots clés souper\
+mots clés concert privé\
+mots clés **Danse provençale**\
+lieux 2669\
+mots clés messe en musique\
+lieux 2666\
+mots clés fifre\
+lieux 2660\
+mots clés symphonie\
+\
+personnes grignan_françois_adhemar_de_monteil\_(1632-1714)\_marquis_de\
+personnes 28073\
+personnes forville_alphonse_de_fortia\_(-1711)\_marquis_de\
+personnes habert_de_montmor_jean-louis\_(1648-1720)\
+personnes 28074\
+\
+lieux 427\
+personnes bon_philibert_de\_(1636-1711)

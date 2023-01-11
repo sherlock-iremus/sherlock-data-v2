@@ -1,0 +1,10 @@
+personnes 82929\
+lieux 257934\
+mots clés célébration d\'une naissance princière\
+personnes 70438\
+mots clés fête\
+mots clés illuminations\
+mots clés feu d'artifice\
+lieux 294473\
+mots clés souper\
+mots clés bal

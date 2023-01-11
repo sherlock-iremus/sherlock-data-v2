@@ -2,25 +2,25 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX schema: <http://schema.org/>
 
 DELETE {
-  GRAPH <http://data-iremus.huma-num.fr/graph/musrad30> {
-    ?w rdf:type schema:MusicComposition .
-    ?me rdf:type schema:MusicEvent .
-    ?me schema:workPerformed ?w .
-    ?bce schema:broadcastOfEvent ?me .
-    ?bce schema:superEvent ?se .
-    ?se schema:subEvent ?bce .
-  }
+ GRAPH <http://data-iremus.huma-num.fr/graph/musrad30> {
+  ?w rdf:type schema:MusicComposition .
+  ?me rdf:type schema:MusicEvent .
+  ?me schema:workPerformed ?w .
+  ?bce schema:broadcastOfEvent ?me .
+  ?bce schema:superEvent ?se .
+  ?se schema:subEvent ?bce .
+ }
 }
 WHERE {
-  GRAPH <http://data-iremus.huma-num.fr/graph/musrad30> {
-    ?w rdf:type schema:MusicComposition .
-    ?me rdf:type schema:MusicEvent .
-    ?me schema:workPerformed ?w .
-    ?bce schema:broadcastOfEvent ?me .
-    ?bce schema:superEvent ?se .
-    ?se schema:subEvent ?bce .
-    FILTER NOT EXISTS { ?w schema:composer ?composer . }
-    FILTER NOT EXISTS { ?me schema:performer ?performer . }
-    FILTER NOT EXISTS { ?w schema:name ?name . }
-  }
+ GRAPH <http://data-iremus.huma-num.fr/graph/musrad30> {
+  ?w rdf:type schema:MusicComposition .
+  ?me rdf:type schema:MusicEvent .
+  ?me schema:workPerformed ?w .
+  ?bce schema:broadcastOfEvent ?me .
+  ?bce schema:superEvent ?se .
+  ?se schema:subEvent ?bce .
+  FILTER NOT EXISTS { ?w schema:composer ?composer . }
+  FILTER NOT EXISTS { ?me schema:performer ?performer . }
+  FILTER NOT EXISTS { ?w schema:name ?name . }
+ }
 }

@@ -200,7 +200,7 @@
         <bibl><title>Mercure galant</title>, novembre 1678 [tome 11], p. 43-45.</bibl>
         <p>C’est dans la pensée de vous en procurer un tres-grand [plaisir], que je vous fais part d’une nouvelle Chanson de M<hi rend="sup">r</hi> Gouët. Elle est à quatre Parties. Je ne vous en envoye pas souvent de semblables. L’harmonie estoit autrefois le remede dont on se servoit le plus pour la guérison des Malades, &amp; ainsi je croy vous pouvoir parler de Musique apres vous avoir parlé de Medecins.</p>
         <quote rend="border">
-          <label rend="center">CHANSON.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : la Chanson qui commence par <hi rend="i">Il n’est point de Printemps que sur le teint d’Iris</hi>, doit regarder la page 44.</note>
+          <label rend="center">CHANSON.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : la Chanson qui commence par <hi rend="i">Il n’est point de Printemps que sur le teint d’Iris</hi>, doit regarder la page 44.</note><note resp="editor">Cet air est imprimé recto verso. Il a également été publié dans le <hi rend="italic">XXIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1680, f. 6v-8, cf. LADDA 1680-04).</note>
           <lg><l rend="i">Il n’est plus de Printemps, que sur le teint d’Iris ;</l>
           <l rend="i">L’Hyver a fait mourir les Roses &amp; les Lys</l>
           <l rend="i"><space/>Que le Zephir &amp; Flore</l>
@@ -696,7 +696,7 @@
       <div type="article" xml:id="MG-1678-11_347" resp="mercure">
         <head>[Air de M. Charpentier]</head>
         <bibl><title>Mercure galant</title>, novembre 1678 [tome 11], p. 347-348.</bibl>
-        <p>Vous ne serez pas fâchée de voir pour la seconde fois un Madrigal que vous avez déja lû avec plaisir, puis que je vous le renvoye mis en Air par M<hi rend="sup">r</hi> Charpentier. Comme ces sortes d’Ouvrages parlent d’eux-mesmes, je vous laisseray juger à l’avenir de leur bonté, &amp; me contenteray de vous en nommer les Autheurs.</p>
+        <p>Vous ne serez pas fâchée de voir pour la seconde fois un Madrigal que vous avez déja lû avec plaisir<note resp="editor">Le madrigal avait été publié en octobre 1678 (cf. <ref target="MG-1678-10_151b">MG-1678-10_151b</ref>).</note>, puis que je vous le renvoye mis en Air par M<hi rend="sup">r</hi> Charpentier. Comme ces sortes d’Ouvrages parlent d’eux-mesmes, je vous laisseray juger à l’avenir de leur bonté, &amp; me contenteray de vous en nommer les Autheurs.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par <hi rend="i">Ah qu’on est malheureux d’avoir eu des desirs</hi>, doit regarder la page 347.</note>
           <lg>

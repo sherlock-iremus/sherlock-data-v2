@@ -158,7 +158,7 @@
         <bibl><title>Mercure galant</title>, mai 1678 [tome 5], non paginé.</bibl>
         <p>L'Impression de ce Volume estant achevée, on s’est apperçeu que dans le Ballet Impromptu
           de Monsieur le Duc de S. Aignan, on avoit oublié le Recit qui suit. Il doit estre mis
-          entre le <ref target="#MG-1678-05_170">Concert des Flustes</ref>, &amp; la sixiéme
+          entre le <ref target="MG-1678-05_170">Concert des Flustes</ref>, &amp; la sixiéme
           Entrée.</p>
         <quote rend="border">
           <label rend="center">RECIT DU DIEU PAN,<lb/>Au milieu des Bergers joüans &amp;
@@ -1348,7 +1348,7 @@
           <stage>Deux Bergers, deux Bergeres, &amp; deux Pastres.</stage>
           <label rend="center"><hi rend="i">CONCERT DE FLUSTES.</hi></label>
         </quote>
-        <p>[Voir le <ref target="#MG-1678-05_000c"><hi rend="i">Recit du Dieu Pan</hi> oublié lors
+        <p>[Voir le <ref target="MG-1678-05_000c"><hi rend="i">Recit du Dieu Pan</hi> oublié lors
             de l’impression et donné au début de ce volume</ref>.]</p>
         <label rend="center">6. ENTRÉE.</label>
         <stage>L’Amour de Village, &amp; l’Hymen champestre, accompagnez du Jeu, du Ris, &amp; de

@@ -959,8 +959,8 @@
       </div>
       <div type="article" xml:id="MG-1679-02_253" resp="mercure">
         <head>[Air de M. du Pré]*</head>
-        <bibl><title>Mercure galant</title>, février 1679 [tome 2], p. 253. <note resp="editor" place="margin"> 	Peut-être s'agit-il de Laurent Dupré (1642-1709) ?</note></bibl>
-        <p>La liberté est un bien si doux, qu’on ne se lasse jamais d’en chanter les avantages. L'Air qui suit vous le fera voir. Il est de M<hi rend="sup">r</hi> du Pré.</p>
+        <bibl><title>Mercure galant</title>, février 1679 [tome 2], p. 253.</bibl>
+        <p>La liberté est un bien si doux, qu’on ne se lasse jamais d’en chanter les avantages. L'Air qui suit vous le fera voir. Il est de M<hi rend="sup">r</hi> du Pré.<note resp="editor"> Peut-être Laurent Dupré (1642-1709).</note></p>
         <quote>
           <lg><l rend="i">Ah, qu’il est doux de vivre en liberté !<note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par <hi rend="i">Ah qu’il est doux de vivre en liberté</hi>, doit regarder la page 253.</note></l>
           <l rend="i"><seg type="tab">    </seg><seg type="tab">    </seg>Quand on s’engage,</l>
@@ -1005,7 +1005,7 @@
       <div type="article" xml:id="MG-1679-02_345" resp="mercure">
         <head>[Explication de la premiere Enigme en Vers]</head>
         <bibl><title>Mercure galant</title>, février 1679 [tome 2], p. 345-346.<note resp="author" place="margin">L'enigme se trouve dans <ref target="MG-1679-01_325">cet article</ref> du Mercure du mois de janvier 1679.</note></bibl>
-        <p>La premiere<note resp="editor">Voir <ref target="#MG-1679-01_325">l'Enigme</ref> du mois de janvier 1679, p. 325-327.</note> expliquée sur l’<hi rend="i">Opéra</hi> par M<hi rend="sup">r</hi> Bachelon, l’a esté sur le vray sens. Ce Madrigal est de luy.</p>
+        <p>La premiere<note resp="editor">Voir <ref target="MG-1679-01_325">l'Enigme</ref> du mois de janvier 1679, p. 325-327.</note> expliquée sur l’<hi rend="i">Opéra</hi> par M<hi rend="sup">r</hi> Bachelon, l’a esté sur le vray sens. Ce Madrigal est de luy.</p>
         <quote rend="border">
           <l rend="i">Vous voulez, aimable Angélique,</l>
           <l rend="i">Que sur le champ je vous explique</l>

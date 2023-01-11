@@ -1,0 +1,65 @@
+mots clés fête\
+mots clés divertissement princier\
+mots clés réjouissances\
+lieux 2808\
+personnes louis_dauphin_de_france\_(1661-1711)\
+personnes conde_henri-jules_de_bourbon\_(1643-1709)\_prince_de\
+mots clés collation\
+mots clés chasse\
+\
+mots clés musique de plein air\
+mots clés musique champêtre\
+mots clés décor éphémère\
+\
+mots clés concert privé\
+mots clés timbale\
+mots clés trompette\
+\
+lieux 294867\
+personnes conde_louis_iii_de_bourbon\_(1668-1710)\_prince_de\
+personnes conti_françois-louis_de_bourbon\_(1664-1709)\_prince_de\
+mots clés repas\
+\
+mots clés harmonie\
+mots clés hautbois\
+mots clés flûte\
+mots clés musette\
+mots clés symphonie champêtre\
+mots clés musique champêtre\
+\
+mots clés interprétation musicale\
+mots clés interprète\
+mots clés acteur\
+mots clés danseur\
+personnes lully_jean-baptiste_ii\_(1665-1743)\
+mots clés représentation privée\
+mots clés danse champêtre\
+mots clés ballet champêtre\
+personnes moliere_jean-baptiste_poquelin\_(1622-1673)\_dit\
+oeuvre citée Molière, La Princesse d'Élide\
+\
+mots clés cor de chasse\
+mots clés symphonie\
+mots clés jeu\
+\
+mots clés opéra\
+lieux 2810\
+mots clés décor éphémère\
+mots clés décor de théâtre\
+oeuvre citée Paolo Lorenzani, Orontée\
+mots clés tragédie en musique\
+mots clés tragédie\
+\
+personnes conde_louise-françoise_de_bourbon\_(1673-1743)\_princesse_de\
+personnes conti_marie-therese_de_bourbon\_(1666-1732)\_princesse_de\
+personnes vendome_louis-joseph_de_bourbon\_(1654-1712)\_duc_de\
+\
+mots clés **Soirées d\'appartement**\
+mots clés **Jeu de l\'arquebuse**\
+mots clés jeu d'adresse\
+mots clés jeu de paume\
+\
+lieux 294873\
+\
+mots clés illuminations\
+mots clés feu d'artifice

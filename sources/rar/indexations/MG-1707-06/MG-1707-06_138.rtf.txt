@@ -1,0 +1,20 @@
+lieux 453\
+institutions academie_des_jeux_floraux_de_toulouse\
+mots clés distribution de prix\
+mots clés cérémonie\
+lieux 470\
+institutions mainteneurs_des_jeux_floraux_de_toulouse\
+institutions 294585\
+mots clés hautbois\
+mots clés trompette\
+\
+personnes 83033\
+institutions capitoul_de_toulouse\
+lieux 294577\
+mots clés compliment (art oratoire)\
+mots clés tambour\
+mots clés marche\
+mots clés panégyrique\
+personnes isaure_clemence\_(1450_ca-1500_ca)\
+mots clés sermon (art oratoire)\
+mots clés éloge\

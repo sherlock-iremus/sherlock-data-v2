@@ -1,150 +1,127 @@
-projects:
-  mg:
-    name: Édition du Mercure Galant
-    tasks:
-      tei2json:
-        name: Convertir les fichiers TEI en fichiers JSON pour la Web App
-        steps:
-          - git: ../in/mercure-galant-sources-github
-            branch: gh-pages
-          - script: ./sources-processors/mg-tei/mg-tei-to-json.sh
-            args:
-              TEI_LIVRAISONS: out/files/mg/tei/livraisons
-              TEI_ARTICLES: out/files/mg/tei/articles
-              JSON_ARTICLES: out/files/mg/json/articles
-              MGGHXML: ../in/mercure-galant-sources-github/xml
-      tei2rdf:
-        name: Convertir les fichiers TEI en RDF CIDOC-CRM
-        steps:
-          - git: ../in/mercure-galant-sources-github
-            branch: gh-pages
-          - script: ./rdfizers/mg/tei2rdf.py
-            args:
-              tei: ../in/mercure-galant-sources-github/xml
-              output_ttl: out/ttl/mg/tei.ttl
-              cache_tei: caches/mg/tei.yaml
-      xls-estampes2rdf:
-        name: Convertir les fichiers d'indexation des estampes XLS en RDF CIDOC-CRM
-        steps:
-          - git: ../in/mercure-galant-sources
-            branch: main
-          - script: ./rdfizers/mg/xls_estampes2rdf.py
-            args:
-              xlsx: ../in/mercure-galant-sources/indexation-estampes.xlsx
-              opentheso_id: th391
-              ttl: out/ttl/mg/estampes.ttl
-              cache: caches/mg/estampes.yaml
-              cache_tei: caches/mg/tei.yaml
-  modality-tonality:
-    name: Modality-Tonality
-    tasks:
-      scores:
-        name: MEI2RDF (out .mei + .ttl)
-        steps:
-          - script: rdfizers/modality-tonality/mei2rdf/main.py
-            args:
-              output_mei_folder: out/files/modality-tonality/mei
-              output_ttl_folder: out/ttl/modality-tonality/mei
-      scores-prod:
-        name: Mettre en prod les fichiers et données MEI
-        steps:
-          - script: prod/modality-tonality.mei.sh
-      catalogue2rdf:
-        name: Catalogue Directus -> TTL
-        steps:
-          - script: rdfizers/modality-tonality/catalogue/catalogue-directus2rdf.py
-            args:
-              cache: caches/modality-tonality/catalogue.yaml
-              secret: directus/opentheso2directus.secret.yaml
-              ttl: out/ttl/modality-tonality/catalogue.ttl
-      catalogue-prod:
-        name: Mettre en prod les données du catalogue
-        steps:
-          - script: prod/modality-tonality.catalogue.sh
-      models:
-        name: Mettre en prod les données des ontologies des traités théoriques historiques
-        steps:
-          - git: ../in/modal-tonal-ontology
-            branch: main
-          - script: prod/modality-tonality.mto.sh
-      static:
-        name: Mettre en prod les données statiques
-        steps:
-          - script: prod/modality-tonality.static-data.sh
-      annotations:
-        name: Générer et mettre en prod les annotation de fondamentales de Christophe & ses collègues
-        steps:
-          - git: ../in/tonalities_pilot
-            branch: main
-          - script: rdfizers/modality-tonality/fondamentales.py
-            args:
-              cache: caches/modality-tonality/fondamentales.yaml
-              directus_secret: directus/opentheso2directus.secret.yaml
-              out_ttl: out/ttl/modality-tonality/fondamentales.ttl
-              owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
-          - script: prod/modality-tonality.fondamentales.sh
-      analysis:
-        name: Générer les données d'analyse automatique à partir du OWL et les mettre en prod
-        steps:
-          - git: ../in/modal-tonal-ontology
-            branch: main
-          - script: rdfizers/modality-tonality/analysis.py
-            args:
-              analysis_ontology: ../in/modal-tonal-ontology/analysisOntology.rdf
-              cache: caches/modality-tonality/analysis.yaml
-              historical_models_dir: ../in/modal-tonal-ontology/historicalModels
-              out_ttl: out/ttl/modality-tonality/analysis.ttl
-              researcher_uuid: 5d7bdf74-addd-418b-ab43-38af4e70c158
-          - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
-          - script: prod/modality-tonality.analysis.sh
-  rar:
-    name: Référentiel de l'Ancien Régime
-    tasks:
-      personnes-directus2rdf:
-        name: "Personnes : Convertir les données Directus en RDF CIDOC-CRM"
-        links:
-          - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
-        steps:
-          - script: rdfizers/rar/personnes-directus_to_ttl.py
-            args:
-              ttl: out/ttl/rar/personnes.ttl
-              cache: caches/rar/personnes.yaml
-      # lieux-skos-to-directus:
-      #   name: "Lieux : injecter les données SKOS dans Directus"
-      #   steps:
-      #     - script: rdfizers/rar/lieux-skos-to-directus.py
-      #       args:
-      #         skos: sources/rar/Lieux_43.rdf
-      #         skos_cache: caches/rar/lieux_skos_cache.yaml
-      lieux-directus-to-rdf:
-        name: "Lieux : convertir les données des Directus en RDF CIDOC-CRM"
-        links:
-          - http://bases-iremus.huma-num.fr/directus-rar/admin/content/lieux
-        steps:
-          - script: rdfizers/rar/lieux-directus_to_ttl.py
-            args:
-              ttl: out/ttl/rar/lieux.ttl
-              cache: caches/rar/lieux.yaml
-      personnes-prod:
-        name: Mettre en prod les données des personnes du rar-personnes
-        steps:
-          - script: prod/rar/personnes.sh
-      indexations-stagiaires:
-        name: Reprise de l'existant des indexations faites par les stagiaires dans des fichiers RTF
-        steps:
-          - script: rdfizers/rar/indexations-caca-to-directus.py
-      #       args:
-      #         lieux_skos_cache: caches/rar/lieux_skos_cache.yaml
-      #         caca_folder: sources/rar/indexations
-  users:
-    name: Utilisateurs
-    tasks:
-      orcid-names2rdf:
-        name: Générer les données d'identification basées sur l'API Orcid
-        links:
-          - http://data-iremus.huma-num.fr/sherlock-doc/users/
-        steps:
-          - script: rdfizers/common/orcid-names_to_ttl.py
-            args:
-              ttl: out/ttl/common/orcid-names.ttl
-              cache: caches/common/users.yaml
+﻿projects:
+ mg:
+  name: Édition du Mercure Galant
+  tasks:
+   tei2json:
+    name: Convertir les fichiers TEI en fichiers JSON pour la Web App
+    steps:
+     - git: ../in/mercure-galant-sources-github
+       branch: gh-pages
+     - script: ./sources-processors/mg-tei/mg-tei-to-json.sh
+       args:
+        TEI_LIVRAISONS: out/files/mg/tei/livraisons
+        TEI_ARTICLES: out/files/mg/tei/articles
+        JSON_ARTICLES: out/files/mg/json/articles
+        MGGHXML: ../in/mercure-galant-sources-github/xml
+   tei2rdf:
+    name: Convertir les fichiers TEI en RDF CIDOC-CRM
+    steps:
+     - git: ../in/mercure-galant-sources-github
+       branch: gh-pages
+     - script: ./rdfizers/mg/tei2rdf.py
+       args:
+        tei: ../in/mercure-galant-sources-github/xml
+        output_ttl: out/ttl/mg/tei.ttl
+        cache_tei: caches/mg/tei.yaml
+   xls-estampes2rdf:
+    name: Convertir les fichiers d'indexation des estampes XLS en RDF CIDOC-CRM
+    steps:
+     - git: ../in/mercure-galant-sources
+       branch: main
+     - script: ./rdfizers/mg/xls_estampes2rdf.py
+       args:
+         xlsx: ../in/mercure-galant-sources/indexation-estampes.xlsx
+         opentheso_id: th391
+         ttl: out/ttl/mg/estampes.ttl
+         cache: caches/mg/estampes.yaml
+         cache_tei: caches/mg/tei.yaml
+ modality-tonality:
+  name: Modality-Tonality
+  tasks:
+   scores:
+    name: MEI2RDF (out .mei + .ttl)
+    steps:
+     - script: rdfizers/modality-tonality/mei2rdf/main.py
+       args:
+         output_mei_folder: out/files/modality-tonality/mei
+         output_ttl_folder: out/ttl/modality-tonality/mei
+   catalogue2rdf:
+    name: Catalogue Directus -> TTL
+    steps:
+     - script: rdfizers/modality-tonality/catalogue/catalogue-directus2rdf.py
+       args:
+         cache: caches/modality-tonality/catalogue.yaml
+         secret: directus/directus.secret.yaml
+         ttl: out/ttl/modality-tonality/catalogue.ttl
+   models:
+    name: Mettre en prod les données des ontologies des traités théoriques historiques
+    steps:
+     - git: ../in/modal-tonal-ontology
+       branch: main
+     - script: prod/modality-tonality/modality-tonality.mto.sh
+   annotations:
+    name: Générer et mettre en prod les annotation de fondamentales de Christophe & ses collègues
+    steps:
+     - git: ../in/tonalities_pilot
+       branch: main
+     - script: rdfizers/modality-tonality/fondamentales.py
+       args:
+         cache: caches/modality-tonality/fondamentales.yaml
+         directus_secret: directus/directus.secret.yaml
+         out_ttl: out/ttl/modality-tonality/fondamentales.ttl
+         owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
+     - script: prod/modality-tonality/modality-tonality.fondamentales.sh
+   analysis:
+    name: Générer les données d'analyse automatique à partir du OWL et les mettre en prod
+    steps:
+     - git: ../in/modal-tonal-ontology
+       branch: main
+     - script: rdfizers/modality-tonality/analysis.py
+       args:
+         analysis_ontology: ../in/modal-tonal-ontology/analysisOntology.rdf
+         cache: caches/modality-tonality/analysis.yaml
+         historical_models_dir: ../in/modal-tonal-ontology/historicalModels
+         out_ttl: out/ttl/modality-tonality/analysis.ttl
+         researcher_uuid: 5d7bdf74-addd-418b-ab43-38af4e70c158
+     - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
+     - script: prod/modality-tonality/modality-tonality.analysis.sh
+ rar:
+  name: Référentiel de l'Ancien Régime
+  tasks:
+   personnes-directus2rdf:
+    name: "Personnes : Convertir les données Directus en RDF CIDOC-CRM"
+    links:
+     - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
+    steps:
+     - script: rdfizers/rar/personnes-directus_to_ttl.py
+       args:
+         ttl: out/ttl/rar/personnes.ttl
+         cache: caches/rar/personnes.yaml
+   # lieux-skos-to-directus:
+   #  name: "Lieux : injecter les données SKOS dans Directus"
+   #  steps:
+   #   - script: rdfizers/rar/lieux-skos-to-directus.py
+   #    args:
+   #     skos: sources/rar/Lieux_43.rdf
+   #     skos_cache: caches/rar/lieux_skos_cache.yaml
+   lieux-directus-to-rdf:
+    name: "Lieux : convertir les données des Directus en RDF CIDOC-CRM"
+    links:
+     - http://bases-iremus.huma-num.fr/directus-rar/admin/content/lieux
+    steps:
+     - script: rdfizers/rar/lieux-directus_to_ttl.py
+       args:
+         ttl: out/ttl/rar/lieux.ttl
+         cache: caches/rar/lieux.yaml
+ users:
+  name: Utilisateurs
+  tasks:
+   orcid-names2rdf:
+    name: Générer les données d'identification basées sur l'API Orcid
+    links:
+     - http://data-iremus.huma-num.fr/sherlock-doc/users/
+    steps:
+     - script: rdfizers/common/orcid-names_to_ttl.py
+       args:
+         ttl: out/ttl/common/orcid-names.ttl
+         cache: caches/common/users.yaml

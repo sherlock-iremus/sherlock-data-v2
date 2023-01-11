@@ -1,0 +1,68 @@
+lieux 293\
+mots clés chasse\
+personnes louis_xiv\_(1638-1715)\_roi_de_france\
+personnes bourgogne_marie-adelaide_de_savoie\_(1685-1712)\_duchesse_de\
+personnes louis_dauphin_de_france\_(1661-1711)\
+personnes bourgogne_louis_de_france\_(1682-1712)\_duc_de\
+mots clés souper\
+personnes toulouse_louis-alexandre_de_bourbon\_(1678-1737)\_comte_de\
+personnes orleans_elisabeth-charlotte_de_baviere\_(1652-1722)\_duchesse_d\
+personnes orleans_philippe_ii\_(1674-1723)\_duc_d\
+personnes aumont_anne-louise-julie_de_crevant_dhumieres\_(1670-1748)\_duchesse_d\
+personnes 28099\
+mots clés salut\
+lieux 288\
+personnes berry_charles_de_bourbon\_(1686-1714)\_duc_de\
+lieux 295\
+mots clés concert privé\
+mots clés musique italienne\
+mots clés **Air instrumental**\
+personnes forqueray_antoine\_(1672-1745)\
+personnes forqueray_michel_i\_(1650-1714)\
+mots clés **Viole**\
+personnes 81437\
+mots clés clavecin\
+personnes 81553\
+mots clés violon\
+personnes conti_marie-anne_de_bourbon\_(1666-1739)\_princesse_de\
+\
+lieux 290\
+oeuvre citée M. Corneille, le Menteur\
+mots clés comédien\
+mots clés public de la comédie\
+mots clés comédie\
+personnes corneille_pierre\_(1606-1684)\
+\
+mots clés jeu\
+mots clés **Jeu de cartes**\
+mots clés **Soirées d\'appartement**\
+\
+oeuvre citée M. Racine, Britanicus\
+oeuvre citée M. Molière, Le cocu imaginaire\
+personnes racine_jean\_(1639-1699)\
+personnes moliere_jean-baptiste_poquelin\_(1622-1673)\_dit\
+\
+mots clés messe\
+mots clés vêpres\
+mots clés vêpres en musique\
+institutions chapelle-musique_du_roi\
+mots clés illuminations\
+mots clés anniversaire\
+\
+mots clés fête de Saint-Hubert\
+oeuvre citée M. Molière, Le Misanthrope\
+oeuvre citée M. Corneille, Rodogune\
+oeuvre citée M. Molière, Le médecin malgré lui\
+mots clés tragédie\
+mots clés tragédie antique\
+mots clés comédie française\
+\
+mots clés complies\
+congrégations 295021\
+\
+oeuvre citée M. Corneille, Horaces\
+oeuvre citée M. Molière, L'école des maris\
+\
+mots clés orgue\
+lieux 217\
+\

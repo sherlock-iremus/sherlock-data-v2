@@ -1,0 +1,30 @@
+institutions academie_francaise\
+mots clés fête de Saint-Louis\
+mots clés fête\
+mots clés messe en musique\
+mots clés panégyrique d\'un saint\
+mots clés **Panégyrique du roi**\
+personnes louis_ix\_(1214-1270)\_roi_de_france\
+personnes louis_xiv\_(1638-1715)\_roi_de_france\
+personnes bousset_jean-baptiste_drouard_de\_(1662-1725)\
+mots clés psaume en musique\
+personnes 83077\
+mots clés éloge\
+personnes blanche_de_castille\_(1188-1252)\_reine_de_france\
+personnes choisy_françois-timoleon\_(1644-1724)\_abbe_de\
+personnes louis_dauphin_de_france\_(1661-1711)\
+mots clés psaume\
+mots clés verset\
+personnes 82929\
+\
+\
+institutions academie_royale_des_inscriptions_et_belles-lettres\
+institutions academie_royale_des_sciences\
+lieux 19\
+mots clés messe\
+personnes 82875\
+personnes 83079\
+mots clés messe en musique\
+mots clés stances\
+personnes moreau_de_mautour_philibert-bernard\_(1654-1737)\
+mots clés motet

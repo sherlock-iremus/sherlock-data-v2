@@ -16,291 +16,291 @@
 ################################################################################
 
 <58445630-19b4-4070-bc10-586bad027327>
-    a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Types de documents"@fr ;
-    crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
-      <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
-      <7d7fc017-61ba-4f80-88e1-744f1d00dd60>,
-      <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
-      <14926d58-83e7-4414-90a8-1a3f5ca8fec1>,
-      <792f6ea9-3d3d-4504-9042-4a3f8e23f542>
-      ;
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Types de documents"@fr ;
+  crm:P71_lists <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>,
+   <62b49ca2-ec73-4d72-aaf3-045da6869a15>,
+   <7d7fc017-61ba-4f80-88e1-744f1d00dd60>,
+   <e73699b0-9638-4a9a-bfdd-ed1715416f02>,
+   <14926d58-83e7-4414-90a8-1a3f5ca8fec1>,
+   <792f6ea9-3d3d-4504-9042-4a3f8e23f542>
+   ;
 .
 
 <792f6ea9-3d3d-4504-9042-4a3f8e23f542>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Partition musicale"@fr ;
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Partition musicale"@fr ;
 .
 
 <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Partition MEI"@fr ;
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Partition MEI"@fr ;
 .
 
 <62b49ca2-ec73-4d72-aaf3-045da6869a15>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Fichier TEI"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Fichier TEI"@fr ;
+  .
 
 <e73699b0-9638-4a9a-bfdd-ed1715416f02>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Document Gallica" ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Document Gallica" ;
+ .
 
 <7d7fc017-61ba-4f80-88e1-744f1d00dd60>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Texte original" ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Texte original" ;
+ .
 
 <14926d58-83e7-4414-90a8-1a3f5ca8fec1>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Collection d'images" ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Collection d'images" ;
+ .
 
 ################################################################################
 # Types d'objets MEI+
 ################################################################################
 
 <90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "MEI score offset"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "MEI score offset"@en ;
+  .
 
 <689e148d-a97d-45b4-898d-c395a24884df>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Note offset anchor"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Note offset anchor"@en ;
+  .
 
 <d2a536eb-4a95-484f-b13d-f597ac8ea2fd>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Note"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Note"@en ;
+  .
 
 ################################################################################
 # Types d'identifiants techniques
 ################################################################################
 
 <c9b9f7f6-9f96-4464-a5bd-85a1eab7bb29>
-    a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Identifiants techniques"@fr ;
-    crm:P71_lists <219fd53d-cdf2-4174-8d71-6d12bdd24016>,
-    <a1e06dc7-f2d8-403a-8061-50d56411c031>, 
-    <9b63d6ef-5c5b-4eca-92f4-76c083918129>,
-    <f4262bac-f72c-40e2-aa51-ae352da5a35c>,
-    <01de41ec-850f-473b-bd7f-268a18afc6a3>,
-    <b486f08e-4d50-4363-97b4-d4ea100818e5>,
-    <466bb717-b90f-4104-8f4e-5a13fdde3bc3>,
-    <19073c4a-0ef7-4ac4-a51a-e0810a596773>,
-    <db425957-e8bc-41d7-8a6b-d1b935cfe48d>,
-    <1820ce38-34d2-4354-a0a7-c6f220d2ee08>;
-    .
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Identifiants techniques"@fr ;
+  crm:P71_lists <219fd53d-cdf2-4174-8d71-6d12bdd24016>,
+  <a1e06dc7-f2d8-403a-8061-50d56411c031>, 
+  <9b63d6ef-5c5b-4eca-92f4-76c083918129>,
+  <f4262bac-f72c-40e2-aa51-ae352da5a35c>,
+  <01de41ec-850f-473b-bd7f-268a18afc6a3>,
+  <b486f08e-4d50-4363-97b4-d4ea100818e5>,
+  <466bb717-b90f-4104-8f4e-5a13fdde3bc3>,
+  <19073c4a-0ef7-4ac4-a51a-e0810a596773>,
+  <db425957-e8bc-41d7-8a6b-d1b935cfe48d>,
+  <1820ce38-34d2-4354-a0a7-c6f220d2ee08>;
+  .
 <219fd53d-cdf2-4174-8d71-6d12bdd24016>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Fichier SHERLOCK"@fr ;
-    .
-<9b63d6ef-5c5b-4eca-92f4-76c083918129>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "URI de fichier XML" ;
-    .
-<a1e06dc7-f2d8-403a-8061-50d56411c031>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "XPathSelector" ;
-    .
-<f4262bac-f72c-40e2-aa51-ae352da5a35c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Lien Gallica" ;
-    .
-<b89767f1-38fe-4a9e-9b4d-ea1d5624a687>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Lien data.bnf.fr" ;
-    .
-
-<b486f08e-4d50-4363-97b4-d4ea100818e5>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "XML Fragment" ;
-    .
-
-<01de41ec-850f-473b-bd7f-268a18afc6a3>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "SHA1" ;
-    .
-
-<466bb717-b90f-4104-8f4e-5a13fdde3bc3>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Numéro de page" ;
-    .
-
-<19073c4a-0ef7-4ac4-a51a-e0810a596773>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Identifiant IIIF version 3.0" ;
-    .
-
-<db425957-e8bc-41d7-8a6b-d1b935cfe48d>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "xml:id" ;
-    .
-
-<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Identifiant GitHub" ;
-    .
-
-<1820ce38-34d2-4354-a0a7-c6f220d2ee08>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "MEI score offset value"@en ;
-    .
-
-<d74076d1-a145-449a-8403-88841ba29dfb>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant cote" ;
+  crm:P1_is_identified_by "Fichier SHERLOCK"@fr ;
+  .
+<9b63d6ef-5c5b-4eca-92f4-76c083918129>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "URI de fichier XML" ;
+  .
+<a1e06dc7-f2d8-403a-8061-50d56411c031>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "XPathSelector" ;
+  .
+<f4262bac-f72c-40e2-aa51-ae352da5a35c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Lien Gallica" ;
+  .
+<b89767f1-38fe-4a9e-9b4d-ea1d5624a687>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Lien data.bnf.fr" ;
   .
 
+<b486f08e-4d50-4363-97b4-d4ea100818e5>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "XML Fragment" ;
+  .
+
+<01de41ec-850f-473b-bd7f-268a18afc6a3>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "SHA1" ;
+  .
+
+<466bb717-b90f-4104-8f4e-5a13fdde3bc3>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Numéro de page" ;
+  .
+
+<19073c4a-0ef7-4ac4-a51a-e0810a596773>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiant IIIF version 3.0" ;
+  .
+
+<db425957-e8bc-41d7-8a6b-d1b935cfe48d>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "xml:id" ;
+  .
+
+<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiant GitHub" ;
+  .
+
+<1820ce38-34d2-4354-a0a7-c6f220d2ee08>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "MEI score offset value"@en ;
+  .
+
+<d74076d1-a145-449a-8403-88841ba29dfb>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Identifiant cote" ;
+ .
+
 <cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Référence IReMus" ;
-  .  
-        
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Référence IReMus" ;
+ . 
+    
 <8cefd485-0d51-4b95-a135-0feaf4896d11>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Numéro d'inventaire" ;
-  .  
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Numéro d'inventaire" ;
+ . 
 
 ################################################################################
 # Twitter
 ################################################################################
 
 <4c54339f-6220-4a3a-9d4c-687177d314bf>
-    a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Concepts pour décrire un corpus Twitter"@fr ;
-    crm:P71_lists <70867d47-25d5-494a-8843-3ac6bbd1e724>,
-        <d474af68-baa5-4afc-9c2d-eeeb2fada37d> ;
-    .
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Concepts pour décrire un corpus Twitter"@fr ;
+  crm:P71_lists <70867d47-25d5-494a-8843-3ac6bbd1e724>,
+    <d474af68-baa5-4afc-9c2d-eeeb2fada37d> ;
+  .
 <d474af68-baa5-4afc-9c2d-eeeb2fada37d>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Tweet"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Tweet"@fr ;
+  .
 <4a0a1e11-b71b-4458-8afe-11cc386cf008>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Hashtag" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Hashtag" ;
+  .
 
 ################################################################################
 # Analyse sémiotique de Twitter
 ################################################################################
 
 <3279e2a7-09e5-4454-aadf-a06963c4d29f>
-    a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Concepts pour l'analyse sémiotique de Twitter"@fr ;
-    crm:P71_lists <451a9db1-f2c9-4e68-83b1-4d984159de63>,
-    <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8> ;
-    .
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Concepts pour l'analyse sémiotique de Twitter"@fr ;
+  crm:P71_lists <451a9db1-f2c9-4e68-83b1-4d984159de63>,
+  <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8> ;
+  .
 <451a9db1-f2c9-4e68-83b1-4d984159de63>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Énonciateur" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Énonciateur" ;
+  .
 <3e9e3a20-a5f2-47ee-80df-b9f7e5741bc8>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Compte Twitter" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Compte Twitter" ;
+  .
 <b8b5f8ac-ecb9-4739-a505-a854b1ab2b18>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Source" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Source" ;
+  .
 <70d0f445-217a-40de-855a-fad263cecd8c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Hastag contextualisé" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Hastag contextualisé" ;
+  .
 
 ################################################################################
 # Fonctions de base SHERLOCK en lien avec l'IHM
 ################################################################################
 
 <1763bb50-103b-4101-a9a7-777ba7ebba3b>
-    a crm:E32_Authority_Document ;
-    crm:P1_is_identified_by "Concepts pour l'IHM SHERLOCK"@fr ;
-    crm:P71_lists <6db65be7-65f8-42bd-83bc-6fbf2148dc4a> ;
-    .
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Concepts pour l'IHM SHERLOCK"@fr ;
+  crm:P71_lists <6db65be7-65f8-42bd-83bc-6fbf2148dc4a> ;
+  .
 
 <6db65be7-65f8-42bd-83bc-6fbf2148dc4a>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Abonné"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Abonné"@fr ;
+  .
 
 ################################################################################
 # Analyse
 ################################################################################
 
 <f122c08a-5084-4a94-80ed-019102976309>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Projet analytique"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Projet analytique"@fr ;
+  .
 
 <ae6c2f18-c8ae-4fac-83c8-9486fd00db2c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Traité théorique"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Traité théorique"@fr ;
+  .
 
 <4b0d8fbe-b386-4683-9353-986c0de27d27>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Annotation"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Annotation"@fr ;
+  .
 
 <9d0388cb-a178-46b2-b047-b5a98f7bdf0b>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Sélection"@fr ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Sélection"@fr ;
+  .
 
 <29b00e39-75da-4945-b6c4-a0ca00f96f68>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Software program"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Software program"@en ;
+  .
 
 <fd434edb-66c1-4b0a-9b1f-f1aa136c705a>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Software function"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Software function"@en ;
+  .
 
 <6d72746a-9f28-4739-8786-c6415d53c56d>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Entité analytique"@fr ;
-    crm:P1_is_identified_by "Analytical entity"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Entité analytique"@fr ;
+  crm:P1_is_identified_by "Analytical entity"@en ;
+  .
 
 <d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "ORCID iD" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "ORCID iD" ;
+  .
 
 <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Emoji" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Emoji" ;
+  .
 
 <5f1bb74f-6ea0-4073-8b68-086f98454f1c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Hex color code" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Hex color code" ;
+  .
 
 <73ea8d74-3526-4f6a-8830-dd369795650d>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Name" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Name" ;
+  .
 
 ################################################################################
 # DÉCRIRE DES GENS
 ################################################################################
 
 <bb483a36-1f03-43b5-9793-402bc9ce5ea2>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Prénom" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Prénom" ;
+  .
 
 <bb483a36-1f03-43b5-9793-402bc9ce5ea2>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Nom de famille" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Nom de famille" ;
+  .
 
 <78930375-9d85-43aa-8a1a-f458fcdbdfd0>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Pseudonyme" ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Pseudonyme" ;
+  .

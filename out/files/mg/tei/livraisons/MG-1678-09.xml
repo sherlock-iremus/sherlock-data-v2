@@ -633,12 +633,9 @@
       <div type="article" xml:id="MG-1678-09_103a" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 103.</bibl>
-        <p>L’Air qui suit est de la composition de M<hi rend="sup">r</hi> Merieux. Voicy les
-          Paroles.</p>
+        <p>L’Air qui suit est de la composition de M<hi rend="sup">r</hi> Merieux. Voicy les Paroles <note resp="editor">. L'année suivante, cet air sert à la démonstration d'une nouvelle notation musicale en chiffres proposée par M. Chaudel (cf. <ref target="MG-1679-03e_276">MG-1679-03e_276)</ref></note>.</p>
         <quote>
-          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
-              placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Amis, puis que Bacchus
-              nous assemble en ce jour</hi>, doit regarder la page 103.</note>
+          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Amis, puis que Bacchus nous assemble en ce jour</hi>, doit regarder la page 103.</note>
           <lg>
             <l rend="i">Amis, puis que Bacchus nous assemble en ce jour,</l>
             <l rend="i"><space/>Chassons l’amoureuse folie.</l>
@@ -1428,7 +1425,7 @@
               >Mercure</hi></note></bibl>
         <p>Les Enigmes sont toûjours expliquées dans leur vray sens par quantité de Personnes. Vous
           trouverez celuy de la premiere du dernier Mois<note resp="editor">Voir l'<ref
-              target="#MG-1678-08_346">Enigme</ref> du mois d'août 1678.</note> dans ces Vers de
+              target="MG-1678-08_346">Enigme</ref> du mois d'août 1678.</note> dans ces Vers de
             M<hi rend="sup">r</hi> le Courrier, de Caën.</p>
         <quote>
           <lg>

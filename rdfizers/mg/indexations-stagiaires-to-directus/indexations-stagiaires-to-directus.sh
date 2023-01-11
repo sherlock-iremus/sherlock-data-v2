@@ -1,0 +1,1 @@
+python3 indexations-stagiaires-to-directus.py --caca_folder ../../../sources/rar/indexations --secret_file ../../../directus/directus.secret.yaml --data ./data.json --skos_motsclefs_json_from_ot ./skos_motsclefs_json_from_ot.json

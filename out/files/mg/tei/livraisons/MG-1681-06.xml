@@ -492,13 +492,9 @@
    </div>
    <div type="article" xml:id="MG-1681-06_088">
     <head>Air nouveau</head>
-    <bibl><title>Mercure galant</title>, juin 1681 [tome 6], p. 88-89.<note resp="editor"
-      place="margin">Le nom de l'auteur des vers est révélé plus loin dans la livraison (Mercure,
-      juin 1681, p. 233) : <ref target="MG-1681-06_162"><hi rend="i">Dans l´endroit de l´Air de M<hi
-         rend="sup">r</hi> de Pulvigny, j´ay oublié de vous dire que les Vers qu´il a notez sont de
-         M<hi rend="sup">r</hi> le Comte de Rocquebrune.</hi></ref></note></bibl>
-    <p>Les Vers qui suivent ont esté notez par M<hi rend="sup">r</hi> de Pulvigny. Un Amant s’y
-     plaint. Vous n’en serez pas surprise. C’est le langage ordinaire de tous ceux qui aiment.</p>
+    <bibl><title>Mercure galant</title>, juin 1681 [tome 6], p. 88-89.</bibl>
+    <p>Les Vers qui suivent <note resp="editor">Le nom de l'auteur des vers est révélé plus loin, p. 233 : « Dans l´endroit de l´Air de Mr de Pulvigny, j´ay oublié de vous dire que les Vers qu´il a notez sont de Mr le Comte de Rocquebrune (cf. <ref target="MG-1681-06_233">cet article</ref>). »</note> ont esté notez par M<hi rend="sup">r</hi> de Pulvigny <note resp="editor">Une version à voix seule et basse continue de cet air, ainsi que son double, figure également dans les <hi rend="italic">Airs de Monsieur Lambert non Imprimez</hi> (F-Pc/ Rés. 584, f. 94-95v), avec quelques variantes mélodiques et rythmiques. La présence de cet air dans ce recueil, dont l'attribution à Lambert n'a pas été remise en cause par C. Massip, rend douteuse celle avancée par le rédacteur du <hi rend="italic">Mercure galant</hi> (cf. Catherine Massip, <hi rend="italic">L'art de bien chanter : Michel Lambert (1610-1696)</hi>, Paris, Société française de musicologie, 1999, p. 169-177).</note>. Un Amant s’y
+     plaint. Vous n’en serez pas surprise. C’est le langage ordinaire de tous ceux qui aiment .</p>
     <quote>
      <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les
        Figures</hi> : l’Air qui commence par <hi rend="i">Petits Oyseaux de la Saison nouvelle</hi>,
@@ -962,10 +958,7 @@
    <div type="article" xml:id="MG-1681-06_162">
     <head>[Description du Canal qui joint les deux Mers, avec la premiere Navigation qui vient
      d’estre faite sur le mesme Canal]</head>
-    <bibl><title>Mercure galant</title>, juin 1681 [tome 6], p. 162-247.<note resp="editor"
-      place="margin">D'après P. Chauveau (Dictionnaire des lettres françaises. XVIIe siècle, Paris,
-      Fayard et Librairie générale Française, 1996, p. 750), <hi rend="i">M<hi rend="sup">r</hi>
-       Lepul premier consul de la ville [i.e. Castelnauday]</hi> est Charles Le Pul.</note></bibl>
+    <bibl><title>Mercure galant</title>, juin 1681 [tome 6], p. 162-247.</bibl>
     <p>Si l’Eau charme tous les jours la veuë par ses Cascades, &amp; par les autres embellissemens
      qu’elle preste aux plus superbes Maisons, elle n’a jamais servy à une plus noble &amp; plus
      utile Entreprise qu’à celle du Canal de Languedoc, qui joint les deux Mers, &amp; sur lequel la
@@ -1415,7 +1408,9 @@
      fut chanté à l’Ecluse la plus basse par les S<hi rend="sup">rs</hi> de Vezeau &amp; Bornes,
      deux des plus belles Voix de la Province, dont l’un représentoit le Dieu du Canal, &amp;
      l’autre, la Nymphe d’Orb. Les Vers sont de M<hi rend="sup">r</hi> Lepul, premier Consul de la
-     Ville. Je vous envoye les premiers notez.</p>
+     Ville<note resp="editor">D'après P. Chauveau (<hi rend="italic">Dictionnaire des lettres françaises. XVIIe siècle</hi> (Paris,
+      Fayard et Librairie générale Française, 1996, p. 750), >M<hi rend="sup">r</hi>
+       le premier consul de Castelnauday est Charles Le Pul.</note>. Je vous envoye les premiers notez.</p>
     <quote>
      <label>DIALOGUE DU DIEU DU CANAL,<lb/>ET<lb/><hi rend="i">DE LA NYMPHE D’ORB.</hi></label>
      <lg>

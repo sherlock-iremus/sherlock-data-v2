@@ -1,0 +1,42 @@
+personnes bayern_von_wittelsbach_joseph_clemens\_(1671-1723)\
+personnes 81851\
+lieux 294415\
+personnes 82901\
+lieux 294445\
+lieux 294419\
+mots clés messe\
+lieux 294421\
+personnes baviere_maximilien_ii_emmanuel_de\_(1662-1726)\
+personnes 82903\
+\
+mots clés cérémonies publiques et religieuses\
+mots clés timbale\
+mots clés trompette\
+mots clés procession\
+\
+personnes 82905\
+institutions 294451\
+institutions 294453\
+institutions 294433\
+mots clés costume ecclésiastique\
+congrégations 294437\
+mots clés motet\
+mots clés messe en musique\
+mots clés musique de cérémonie religieuse\
+personnes lalande_michel-richard_de\_(1657-1726)\
+\
+mots clés Veni creator spiritus mentes en musique\
+mots clés oraison\
+mots clés **Usquequo Domine oblivisceris**\
+mots clés oraison pour le roi\
+mots clés Te Deum laudamus\
+mots clés Benedictus\
+mots clés souper\
+institutions 294435\
+\
+mots clés musique française\
+mots clés vêpres en musique\
+mots clés feu d'artifice\
+mots clés illuminations\
+mots clés médaille\
+lieux 2701

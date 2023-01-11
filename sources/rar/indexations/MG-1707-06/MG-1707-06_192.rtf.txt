@@ -1,0 +1,37 @@
+lieux 2929\
+personnes 83027\
+personnes 83035\
+lieux 294579\
+personnes 83017\
+personnes san_pedro_francesco_maria_spinola\_(1659-1727)\_duque_de\
+personnes 83037\
+personnes 83039\
+personnes 83041\
+personnes san_pedro_isabel_spinola_y\_colónna_duquesa_de\
+personnes 83043\
+personnes 83045\
+mots clés fête\
+mots clés célébration d\'une victoire militaire\
+mots clés feu d'artifice\
+mots clés hautbois\
+mots clés trompette\
+mots clés timbale\
+mots clés symphonie\
+mots clés violon\
+mots clés concert privé\
+mots clés danse\
+personnes 83047\
+\
+lieux 409\
+lieux 278116\
+mots clés Te Deum laudamus\
+congrégations 294587\
+mots clés feu d'artifice\
+lieux 294581\
+\
+lieux 2689\
+personnes 83049\
+lieux 294583\
+mots clés illuminations\
+mots clés bal\
+mots clés souper

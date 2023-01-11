@@ -1,0 +1,32 @@
+personnes 83017\
+personnes 14501\
+mots clés célébration d\'une naissance princière\
+personnes 83097\
+personnes 83039\
+mots clés fête\
+lieux 294543\
+mots clés illuminations\
+mots clés trompette\
+mots clés timbale\
+mots clés violon\
+mots clés hautbois\
+mots clés concert privé\
+\
+mots clés Te Deum laudamus\
+lieux 242\
+mots clés **Dîner**\
+mots clés jeu\
+mots clés symphonie\
+mots clés feu d'artifice\
+mots clés tambour\
+\
+personnes san_pedro_francesco_maria_spinola\_(1659-1727)\_duque_de\
+personnes 83099\
+personnes 83101\
+personnes 83103\
+\
+mots clés bal\
+lieux 294623\
+personnes 83105\
+personnes 83107\
+mots clés masque

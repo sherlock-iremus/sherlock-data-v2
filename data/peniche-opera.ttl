@@ -3,217 +3,217 @@
 @prefix dcterms: <http://purl.org/dc/terms/> . 
 
 <900cae97-53ff-471a-a018-cde3d7a262a2>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Types Péniche Opéra" ;
-  crm:P71_lists <1d2f3f12-5bde-492e-a8ba-a3ac50652758>,
-  <5cdb2ecf-c05e-4b97-a51f-49e597e89f54>,
-  <caf3ea36-ae41-42dd-a7ed-d7c2405f18a5>,
-  <441ffd78-a065-420f-bb5a-87779dd133c7>,
-  <77e3eba7-154b-4a42-afde-a73c03839faf>,
-  <caafe301-465c-4084-966f-c1e939d40819>,
-  <ce4b0274-4697-44e2-9610-a72714a4ea56>,
-  <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>,
-  <8d8a50cb-db2e-4c2a-b513-1e646abdf9ba>,
-  <8d5b9d50-27a1-488a-82a6-19ee59acd847>,
-  <c0e9693e-3e60-4d89-b005-56dcd864180d>,
-  <68b77a08-d6c8-42ed-bd3d-a922ec52b064>,
-  <de64ccd2-6a0a-4017-b3fe-7530a27d778c>,
-  <06a632d6-44c5-4337-8922-a04e5bd3641e>,
-  <181dc490-d221-41e8-81e6-1de21326c15f>,
-  <561e8ef8-6786-4df4-8cd5-c74479860753>,
-  <e5e5890d-d774-43cc-b573-e1dc871bd05b>,
-  <ff33c9d3-8e91-4b1e-ba5c-1d7f4c8c34bd>,
-  <12597890-dcac-42f4-b780-d9795364ed74>,
-  <63da5276-9d37-4e5f-9d40-b16723c42ed2>,
-  <8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d>,
-  <ed23180f-5cd4-448a-9852-4078aeebc53b>,
-  <6a9dc63f-f6f0-467f-9703-864e7781b47d>,
-  <4b774fbe-6557-4589-9ae2-f9965e8e9bba>,
-  <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b>,
-  <721457eb-85fd-4265-88f9-d9650184e436>,
-  <d0bf0c77-1a79-4a66-9679-4cd8326cd226>,
-  <92b8d777-0495-4482-ad2d-f17c9ea682d1>,
-  <1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4>,
-  <4583a259-9bfa-4275-bb17-06d0d1c28779>,
-  <bf07dbd8-09ef-4152-bd6e-570984ec294f>,
-  <b9b15a16-0c60-499a-8eca-dc8dee26c5a8>,
-  <a00ca873-c10a-4ca6-8a4f-835d7e9bd211>,
-  <d214ea65-1734-41d8-a0e6-e3dbbab3849a>,
-  <ca835f2c-395b-4420-804e-c5ea7ebcc62c> ;
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Types Péniche Opéra" ;
+ crm:P71_lists <1d2f3f12-5bde-492e-a8ba-a3ac50652758>,
+ <5cdb2ecf-c05e-4b97-a51f-49e597e89f54>,
+ <caf3ea36-ae41-42dd-a7ed-d7c2405f18a5>,
+ <441ffd78-a065-420f-bb5a-87779dd133c7>,
+ <77e3eba7-154b-4a42-afde-a73c03839faf>,
+ <caafe301-465c-4084-966f-c1e939d40819>,
+ <ce4b0274-4697-44e2-9610-a72714a4ea56>,
+ <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>,
+ <8d8a50cb-db2e-4c2a-b513-1e646abdf9ba>,
+ <8d5b9d50-27a1-488a-82a6-19ee59acd847>,
+ <c0e9693e-3e60-4d89-b005-56dcd864180d>,
+ <68b77a08-d6c8-42ed-bd3d-a922ec52b064>,
+ <de64ccd2-6a0a-4017-b3fe-7530a27d778c>,
+ <06a632d6-44c5-4337-8922-a04e5bd3641e>,
+ <181dc490-d221-41e8-81e6-1de21326c15f>,
+ <561e8ef8-6786-4df4-8cd5-c74479860753>,
+ <e5e5890d-d774-43cc-b573-e1dc871bd05b>,
+ <ff33c9d3-8e91-4b1e-ba5c-1d7f4c8c34bd>,
+ <12597890-dcac-42f4-b780-d9795364ed74>,
+ <63da5276-9d37-4e5f-9d40-b16723c42ed2>,
+ <8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d>,
+ <ed23180f-5cd4-448a-9852-4078aeebc53b>,
+ <6a9dc63f-f6f0-467f-9703-864e7781b47d>,
+ <4b774fbe-6557-4589-9ae2-f9965e8e9bba>,
+ <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b>,
+ <721457eb-85fd-4265-88f9-d9650184e436>,
+ <d0bf0c77-1a79-4a66-9679-4cd8326cd226>,
+ <92b8d777-0495-4482-ad2d-f17c9ea682d1>,
+ <1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4>,
+ <4583a259-9bfa-4275-bb17-06d0d1c28779>,
+ <bf07dbd8-09ef-4152-bd6e-570984ec294f>,
+ <b9b15a16-0c60-499a-8eca-dc8dee26c5a8>,
+ <a00ca873-c10a-4ca6-8a4f-835d7e9bd211>,
+ <d214ea65-1734-41d8-a0e6-e3dbbab3849a>,
+ <ca835f2c-395b-4420-804e-c5ea7ebcc62c> ;
 .
 
 <1d2f3f12-5bde-492e-a8ba-a3ac50652758>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Composition" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Composition" ;
 .
 
 <5cdb2ecf-c05e-4b97-a51f-49e597e89f54>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ecriture du libretto" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ecriture du libretto" ;
 .
 
 <caf3ea36-ae41-42dd-a7ed-d7c2405f18a5>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ecriture électronique" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ecriture électronique" ;
 .
 
 <441ffd78-a065-420f-bb5a-87779dd133c7>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Première représentation" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Première représentation" ;
 .
 
 <77e3eba7-154b-4a42-afde-a73c03839faf>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Dernière représentation" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Dernière représentation" ;
 .
 
 <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Création" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Création" ;
 .
 
 <ce4b0274-4697-44e2-9610-a72714a4ea56>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Re-création" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Re-création" ;
 .
 
 <caafe301-465c-4084-966f-c1e939d40819>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Reprise" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Reprise" ;
 .
 
 <8d5b9d50-27a1-488a-82a6-19ee59acd847>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Interprétation" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Interprétation" ;
 .
 
 <c0e9693e-3e60-4d89-b005-56dcd864180d>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Effectif" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Effectif" ;
 .
 
 <68b77a08-d6c8-42ed-bd3d-a922ec52b064>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Danse" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Danse" ;
 .
 
 <de64ccd2-6a0a-4017-b3fe-7530a27d778c>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Performance Plan" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Performance Plan" ;
 .
 
 <ffc01a36-69b8-4ca2-9048-714961d1397b>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Série de représentations" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Série de représentations" ;
 .
 
 <561e8ef8-6786-4df4-8cd5-c74479860753>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Chorégraphie" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Chorégraphie" ;
 .
 
 <e5e5890d-d774-43cc-b573-e1dc871bd05b>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Scénographie" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Scénographie" ;
 .
 
 <ff33c9d3-8e91-4b1e-ba5c-1d7f4c8c34bd>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Mise en scène" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Mise en scène" ;
 .
 
 <12597890-dcac-42f4-b780-d9795364ed74>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Dramaturgie" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Dramaturgie" ;
 .
 
 <63da5276-9d37-4e5f-9d40-b16723c42ed2>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Dialogues" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Dialogues" ;
 .
 
 <181dc490-d221-41e8-81e6-1de21326c15f>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Costumes" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Costumes" ;
 .
 
 <06a632d6-44c5-4337-8922-a04e5bd3641e>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Décors" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Décors" ;
 .
 
 
 <8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Eclairages" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Eclairages" ;
 .
 
 <ed23180f-5cd4-448a-9852-4078aeebc53b>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Régie" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Régie" ;
 .
 
 <6a9dc63f-f6f0-467f-9703-864e7781b47d>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Maquillage" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Maquillage" ;
 .
 
 <4b774fbe-6557-4589-9ae2-f9965e8e9bba>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Bande son" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Bande son" ;
 .
 
 <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Direction musicale" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Direction musicale" ;
 .
 
 <721457eb-85fd-4265-88f9-d9650184e436>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Chef d'orchestre" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Chef d'orchestre" ;
 .
 
 <d0bf0c77-1a79-4a66-9679-4cd8326cd226>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Sonorisation" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Sonorisation" ;
 .
 
 <92b8d777-0495-4482-ad2d-f17c9ea682d1>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Marionnettes" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Marionnettes" ;
 .
 
 <1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Images et vidéo" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Images et vidéo" ;
 .
 
 <4583a259-9bfa-4275-bb17-06d0d1c28779>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Direction technique" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Direction technique" ;
 .
 
 <bf07dbd8-09ef-4152-bd6e-570984ec294f>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Direction d'orchestre" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Direction d'orchestre" ;
 .
 
 <b9b15a16-0c60-499a-8eca-dc8dee26c5a8>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Oeuvre composite" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Oeuvre composite" ;
 .
 
 <a00ca873-c10a-4ca6-8a4f-835d7e9bd211>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ensemble" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ensemble" ;
 .
 
 <d214ea65-1734-41d8-a0e6-e3dbbab3849a>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Institution" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Institution" ;
 .
 
 <ca835f2c-395b-4420-804e-c5ea7ebcc62c>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Maison d'édition" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Maison d'édition" ;
 .

@@ -4,137 +4,137 @@
 @prefix dcterms: <http://purl.org/dc/terms/> . 
 
 <900cae97-53ff-471a-a018-cde3d7a262a2>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Types Euterpe" ;
-  crm:P71_lists <31c6d6b8-09ca-46fd-994a-ca8aa8d9583b>,
-  <4f324bd5-5982-4d99-949a-a9063e328599>,
-  <7727e6e7-8c66-46c7-8bfe-7b2de70063c8>,
-  <b7f72f03-ae41-4605-bd1c-ba636b5165a2>,
-  <ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581>,
-  <a4d8ae34-ffb2-4562-9a92-2d8536004745>,
-  <bb919bee-7a73-4ade-a42c-996062df8ac2>,
-  <48b6de1f-259b-41b9-af48-a1a05094ab9f>,
-  <84b986a0-a1d9-46be-b1c3-447f4b9c4f10>,
-  <70c9af37-5b2e-4731-89f6-e3f317da2bf0>,
-  <a146f796-e82f-4319-8741-c8eb400918a9>,
-  <20eb5622-0c9b-4bfd-b1f4-67664d7f47e2>,
-  <916a8978-391e-4b02-b237-6aa7a9b44bb0>,
-  <93d99e9b-b857-4fc0-8fa0-b82a76735038>,
-  <6555e041-d417-4df2-b8b5-ac25dca95fd4>,
-  <aaad25f5-1da4-4980-8e3e-ff0618f76e53>,
-  <1cabd329-38a9-4712-adc7-04fadfa5ba05>,
-  <cae60963-9c65-4e29-bd6e-6b52c628ce41>,
-  <5cfae3b1-1493-492f-a687-80825d8f5f68>,
-  <5d86a902-8f9f-432e-9d80-3d095d6563af>
-  ;
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Types Euterpe" ;
+ crm:P71_lists <31c6d6b8-09ca-46fd-994a-ca8aa8d9583b>,
+ <4f324bd5-5982-4d99-949a-a9063e328599>,
+ <7727e6e7-8c66-46c7-8bfe-7b2de70063c8>,
+ <b7f72f03-ae41-4605-bd1c-ba636b5165a2>,
+ <ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581>,
+ <a4d8ae34-ffb2-4562-9a92-2d8536004745>,
+ <bb919bee-7a73-4ade-a42c-996062df8ac2>,
+ <48b6de1f-259b-41b9-af48-a1a05094ab9f>,
+ <84b986a0-a1d9-46be-b1c3-447f4b9c4f10>,
+ <70c9af37-5b2e-4731-89f6-e3f317da2bf0>,
+ <a146f796-e82f-4319-8741-c8eb400918a9>,
+ <20eb5622-0c9b-4bfd-b1f4-67664d7f47e2>,
+ <916a8978-391e-4b02-b237-6aa7a9b44bb0>,
+ <93d99e9b-b857-4fc0-8fa0-b82a76735038>,
+ <6555e041-d417-4df2-b8b5-ac25dca95fd4>,
+ <aaad25f5-1da4-4980-8e3e-ff0618f76e53>,
+ <1cabd329-38a9-4712-adc7-04fadfa5ba05>,
+ <cae60963-9c65-4e29-bd6e-6b52c628ce41>,
+ <5cfae3b1-1493-492f-a687-80825d8f5f68>,
+ <5d86a902-8f9f-432e-9d80-3d095d6563af>
+ ;
 .
 
 <31c6d6b8-09ca-46fd-994a-ca8aa8d9583b>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Edition" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Edition" ;
 .
 
 <4f324bd5-5982-4d99-949a-a9063e328599>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Invention" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Invention" ;
 .
 
 <7727e6e7-8c66-46c7-8bfe-7b2de70063c8>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Gravure" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Gravure" ;
 .
 
 <b7f72f03-ae41-4605-bd1c-ba636b5165a2>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Création artistique" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Création artistique" ;
 .
 
 <ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Attribution" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Attribution" ;
 .
 
 <a4d8ae34-ffb2-4562-9a92-2d8536004745>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ancienne attribution" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ancienne attribution" ;
 .
 
 <bb919bee-7a73-4ade-a42c-996062df8ac2>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Précision oeuvre" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Précision oeuvre" ;
 .
 
 <48b6de1f-259b-41b9-af48-a1a05094ab9f>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Commentaire" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Commentaire" ;
 .
 
 <84b986a0-a1d9-46be-b1c3-447f4b9c4f10>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Précision instruments" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Précision instruments" ;
 .
 
 <70c9af37-5b2e-4731-89f6-e3f317da2bf0>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Précision musique" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Précision musique" ;
 .
 
 <a146f796-e82f-4319-8741-c8eb400918a9>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Thématique" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Thématique" ;
 .
 
 <20eb5622-0c9b-4bfd-b1f4-67664d7f47e2>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ecole (auteur)" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ecole (auteur)" ;
 .
 
 <916a8978-391e-4b02-b237-6aa7a9b44bb0>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Inscription" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Inscription" ;
 .
 
 <93d99e9b-b857-4fc0-8fa0-b82a76735038>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ecole (lieu)" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ecole (lieu)" ;
 .
 
 <6555e041-d417-4df2-b8b5-ac25dca95fd4>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Période" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Période" ;
 .
 
 <aaad25f5-1da4-4980-8e3e-ff0618f76e53>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Spécialité" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Spécialité" ;
 .
 
 <1cabd329-38a9-4712-adc7-04fadfa5ba05>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Oeuvre en rapport" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Oeuvre en rapport" ;
 .
 
 <cae60963-9c65-4e29-bd6e-6b52c628ce41>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Contient/contenue dans" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Contient/contenue dans" ;
 .
 
 <5cfae3b1-1493-492f-a687-80825d8f5f68>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "A la manière de" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "A la manière de" ;
 .
 
 <5d86a902-8f9f-432e-9d80-3d095d6563af>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Source littéraire" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Source littéraire" ;
 .
 
 <40ef565d-ea1f-4762-998f-ffb373179af4>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Composition" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Composition" ;
 .
 
 <14aafc3e-302f-4182-949f-3013382bb77c>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Ecriture du libretto" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Ecriture du libretto" ;
 .

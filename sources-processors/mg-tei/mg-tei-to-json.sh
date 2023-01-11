@@ -25,7 +25,7 @@ do
   cp $f $TEI_LIVRAISONS
   
   # FRAGMENTATION DES FICHIERS TEI
-  saxon -s:$f -xsl:$SCRIPT_DIR/fragment.xslt -o:$TEI_ARTICLES/TOKILL.xml
+  saxon -s:$f -xsl:"$SCRIPT_DIR"/fragment.xslt -o:$TEI_ARTICLES/TOKILL.xml
   rm $TEI_ARTICLES/TOKILL.xml
 
   # FORMATAGE DES FRAGMENTS TEI
@@ -43,6 +43,6 @@ do
 
     # JSONISATION DES FRAGMENTS TEI
     echo "    $(file_name $f) [TEI] -> $article_id [JSON]"
-    python3 $SCRIPT_DIR/xml2json.py $f $JSON_ARTICLES/$article_id.json
+    python3 "$SCRIPT_DIR"/xml2json.py $f $JSON_ARTICLES/$article_id.json
   done
 done

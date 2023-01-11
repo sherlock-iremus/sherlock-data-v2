@@ -1,0 +1,34 @@
+personnes louis_xiv\_(1638-1715)\_roi_de_france\
+personnes antin_louis-antoine_de_pardaillon_de_gondrin\_(1665-1736)\_marquis_d\
+personnes bourgogne_marie-adelaide_de_savoie\_(1685-1712)\_duchesse_de\
+personnes orleans_elisabeth-charlotte_de_baviere\_(1652-1722)\_duchesse_d\
+personnes lude_marguerite-louise_de_bethune\_(1643_ca-1726)\
+personnes mailly_anne-marie-françoise_de_sainte-hermine\_(1670_ca-1734)\_comtesse_de\
+lieux 2772\
+lieux 294635\
+mots clés messe\
+mots clés interprète\
+mots clés motet\
+\
+lieux 289\
+personnes louis_dauphin_de_france\_(1661-1711)\
+personnes berry_charles_de_bourbon\_(1686-1714)\_duc_de\
+personnes bourgogne_louis_de_france\_(1682-1712)\_duc_de\
+mots clés chasse\
+mots clés jeu\
+mots clés souper\
+\
+mots clés comédie\
+mots clés comédie française\
+oeuvre citée Molière, Tartuffe\
+mots clés repas\
+\
+personnes modene_marie-beatrice_de\_(1658-1718)\_reine_dangleterre\
+personnes 82423\
+personnes stuart_jacques-françois\_(1688-1766)\
+personnes conti_marie-anne_de_bourbon\_(1666-1739)\_princesse_de\
+institutions chapelle-musique_du_roi\
+lieux 295\
+oeuvre citée Pierre Corneille, Cinna\
+mots clés tragédie\
+mots clés représentation théâtrale

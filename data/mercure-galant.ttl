@@ -4,74 +4,74 @@
 @prefix dcterms: <http://purl.org/dc/terms/> . 
 
 <03499b44-ba0b-491f-9452-978e03bef78a>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Types Mercure Galant" ;
-  crm:P71_lists <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>, 
-    <13f43e00-680a-4a6d-a223-48e8d9bbeaae>,
-    <1317e1ac-50c8-4b97-9eac-c4d902b7da10>,
-    <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>,
-    <11f1b780-2325-498e-811f-c96a617873de>,
-    <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>,
-    <92c258a0-1e34-437f-9686-e24322b95305>,
-    <768197b9-6cc6-4a62-aec9-7282a9c07983>,
-    <e6836743-fa50-4995-b534-ba13d1d24380>,
-    <46561c75-fc5d-4f0c-9b82-ea8779264bfd>,
-    <8b1ec2e2-37d0-4122-a541-2590ebfbd965>,  
-    <5891daa1-81be-494a-8bf9-9055574f0530>,
-    <a9d51926-c0ff-4304-b49d-9a18aff02d7e>,
-    <a7453d39-b7f0-4ca2-ba62-9fc560438c60>,
-    <f6ca9e82-e5fa-442d-a9e5-79fca664566e>
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Types Mercure Galant" ;
+ crm:P71_lists <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>, 
+  <13f43e00-680a-4a6d-a223-48e8d9bbeaae>,
+  <1317e1ac-50c8-4b97-9eac-c4d902b7da10>,
+  <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>,
+  <11f1b780-2325-498e-811f-c96a617873de>,
+  <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>,
+  <92c258a0-1e34-437f-9686-e24322b95305>,
+  <768197b9-6cc6-4a62-aec9-7282a9c07983>,
+  <e6836743-fa50-4995-b534-ba13d1d24380>,
+  <46561c75-fc5d-4f0c-9b82-ea8779264bfd>,
+  <8b1ec2e2-37d0-4122-a541-2590ebfbd965>, 
+  <5891daa1-81be-494a-8bf9-9055574f0530>,
+  <a9d51926-c0ff-4304-b49d-9a18aff02d7e>,
+  <a7453d39-b7f0-4ca2-ba62-9fc560438c60>,
+  <f6ca9e82-e5fa-442d-a9e5-79fca664566e>
 .
 
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Livraison" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Livraison" ;
 .
 
 <13f43e00-680a-4a6d-a223-48e8d9bbeaae>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Article" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Article" ;
 .
 
 <1317e1ac-50c8-4b97-9eac-c4d902b7da10>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Estampe" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Estampe" ;
 .
 
 <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Énigme" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Énigme" ;
 .
 
 <11f1b780-2325-498e-811f-c96a617873de>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Poème" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Poème" ;
 .
 <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Partition" ;
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Partition" ;
 .
 
 <92c258a0-1e34-437f-9686-e24322b95305>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant Mercure Galant"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Identifiant Mercure Galant"
 .
 
 <fa4f0240-ce36-4268-8c67-d4aa40cb9350>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Oeuvre citée"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Oeuvre citée"
 .
 
 <9acad7ae-1335-4ab4-b79c-489319e5d595>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Encodage TEI"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Encodage TEI"
 .
 
 
 <13660ed8-d429-4771-ae41-316816b24db8>
-    a crm:E65_Creation ;
-    crm:P94:has_created <03499b44-ba0b-491f-9452-978e03bef78a> ;
-    crm:P14_carried_out_by <eae1dc18-15eb-42e9-968a-ccf8d0e13419> ;
+  a crm:E65_Creation ;
+  crm:P94:has_created <03499b44-ba0b-491f-9452-978e03bef78a> ;
+  crm:P14_carried_out_by <eae1dc18-15eb-42e9-968a-ccf8d0e13419> ;
 .
 
 ####################################################################
@@ -79,81 +79,81 @@
 ####################################################################
 
 <b18e2fad-4827-4533-946a-1b9914df6e18>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Référentiels de l'Ancien Régime" ;
-  crm:P71_lists <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>,
-  <4e7cdc71-b834-412a-8cab-daa363a8334e>, <8a29e857-3faf-49f1-969b-91572e77218e>,
-  <a5145217-5642-4f08-8566-1c1bbe9c0b4e>, <7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a>;
-  .
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Référentiels de l'Ancien Régime" ;
+ crm:P71_lists <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>,
+ <4e7cdc71-b834-412a-8cab-daa363a8334e>, <8a29e857-3faf-49f1-969b-91572e77218e>,
+ <a5145217-5642-4f08-8566-1c1bbe9c0b4e>, <7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a>;
+ .
 
 <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Noms de personnes"
-  .
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Noms de personnes"
+ .
 
 <4e7cdc71-b834-412a-8cab-daa363a8334e>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Noms de lieux"
-  .
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Noms de lieux"
+ .
 
 <8a29e857-3faf-49f1-969b-91572e77218e>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Noms d'institutions et de corporations'"
-  .
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Noms d'institutions et de corporations'"
+ .
 
 <a5145217-5642-4f08-8566-1c1bbe9c0b4e>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Congrégations religieuses"
-  .
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Congrégations religieuses"
+ .
 
 <7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a>
-  a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Référentiel Ancien Régime Mots-clefs"
-  .
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by "Référentiel Ancien Régime Mots-clefs"
+ .
 
 # Appellations
 
 <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Preferred Appellation"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Preferred Appellation"@en ;
+  .
 
 <70589b95-4156-431e-a58a-818af6dc795a>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Alternative Appellation"@en ;
-    .
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Alternative Appellation"@en ;
+  .
 
 # Identifiers
 
 <6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant IReMus"@fr ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Identifiant IReMus"@fr ;
+ .
 
 <6703d6e9-bd46-4c7d-865e-5e5a4c0a549f>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant Hortus"@fr ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Identifiant Hortus"@fr ;
+ .
 
 <f316e967-0a73-442a-a6b9-e1de5171f247>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "URI Versailles"@fr ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "URI Versailles"@fr ;
+ .
 
 <df9f27d6-b08b-46e6-ad67-202259c4cdbd>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "URI Data BnF"@fr ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "URI Data BnF"@fr ;
+ .
 
 <59835932-52aa-4a19-ac6e-916d2a4b9228>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "URI Catalogue BnF"@fr ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "URI Catalogue BnF"@fr ;
+ .
 
 <49729025-e609-46ed-a749-5f3ae53dbfbe>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "URI ISNI"@fr ;
-  .
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "URI ISNI"@fr ;
+ .
 
 ####################################################################
 ## Indexation musicale
@@ -161,69 +161,69 @@
 
 
 <a9d51926-c0ff-4304-b49d-9a18aff02d7e>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Air"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Air"
 .
 
 <fb1ac98a-1645-460f-9f26-23f36e216f7e>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Texte d'une chanson"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Texte d'une chanson"
 .
 
 <768197b9-6cc6-4a62-aec9-7282a9c07983>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Note sur la musique"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Note sur la musique"
 .
 
 <e6836743-fa50-4995-b534-ba13d1d24380>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Genre musical"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Genre musical"
 .
 
 <1deed97c-80cd-4ff5-a16b-b9e0cfc55a4c>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Forme musicale"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Forme musicale"
 .
 
 <99239c96-a989-4a39-9c00-20c9d4b4c424>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Forme poétique"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Forme poétique"
 .
 
 
 <d1b826ac-83f6-4a39-a53d-3cf582c134da>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Effectif musical"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Effectif musical"
 .
 
 <d1ffe2ea-fee5-4363-9f43-1ba289f01ef7>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Tonalité"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Tonalité"
 .
 
 <46561c75-fc5d-4f0c-9b82-ea8779264bfd>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Instrument mentionné"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Instrument mentionné"
 .
 
 <8b1ec2e2-37d0-4122-a541-2590ebfbd965>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiants de catalogues externes"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Identifiants de catalogues externes"
 .
 
 <5891daa1-81be-494a-8bf9-9055574f0530>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Incipit principal ou premier"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Incipit principal ou premier"
 .
 
 <a7453d39-b7f0-4ca2-ba62-9fc560438c60>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Incipit français"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Incipit français"
 .
 
 <f6ca9e82-e5fa-442d-a9e5-79fca664566e>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Incipit musical"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Incipit musical"
 .
 
 ####################################################################
@@ -231,14 +231,14 @@
 ####################################################################
 
 <4af237dd-8ae9-4c69-b4cb-953c79d287bc>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Pièce musicale"
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Pièce musicale"
 .
 
 # SOURCES
 
 <759d110d-fd68-47bb-92fd-341bb63dbcae>
-  a crm:E1_Entity ;
-  crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
-  crm:P1_is_identified_by "Corpus des estampes du Mercure Galant"
+ a crm:E1_Entity ;
+ crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
+ crm:P1_is_identified_by "Corpus des estampes du Mercure Galant"
 .

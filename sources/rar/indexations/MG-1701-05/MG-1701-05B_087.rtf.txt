@@ -1,0 +1,62 @@
+personnes bourgogne_louis_de_france\_(1682-1712)\_duc_de\
+personnes philippe_v\_(1683-1746)\_roi_despagne\
+personnes berry_charles_de_bourbon\_(1686-1714)\_duc_de\
+mots clés **Compliment (genre épidictique)**\
+mots clés fanfare\
+mots clés trompette\
+lieux 536\
+personnes 81355\
+institutions prevot_des_marchands_de_lyon\
+mots clés opéra\
+mots clés tragédie en musique\
+oeuvre citée Jean-Baptiste Lully, Phaëton\
+lieux 538\
+mots clés instrumentiste\
+lieux 540\
+mots clés messe en musique\
+lieux 257861\
+mots clés vêpres\
+mots clés tambour\
+mots clés hautbois\
+mots clés jeu de l\'arquebuse\
+lieux 549\
+lieux 293166\
+mots clés concert public\
+mots clés petit opéra\
+mots clés publication du livret\
+mots clés prologue\
+mots clés timbale\
+personnes virgile\_(70_av_j-c-19_av_j-c)\
+mots clés madrigal\
+mots clés messe\
+lieux 547\
+personnes 81356\
+oeuvre citée André Campra, l'Europe Galante\
+mots clés récitation de poésie\
+mots clés flûte\
+lieux 1905\
+mots clés ode\
+personnes 14520\
+oeuvre citée M. de Senecé, Le voyage des Princes\
+personnes noailles_anne-jules\_(1650-1708)\_duc_de\
+personnes 57437\
+personnes granges_m\_des\
+institutions 293737\
+mots clés cloche\
+mots clés **Harangue (genre épidictique)**\
+personnages nymphe\
+personnages Castor & Pollux\
+mots clés fifre\
+mots clés vêpres\
+lieux 1900\
+mots clés motet\
+mots clés **Musique polychorale**\
+mots clés symphonie\
+lieux 1868\
+mots clés fête royale\
+mots clés entrée princière\
+mots clés entrée solennelle\
+mots clés divertissement princier\
+mots clés feu d'artifice\
+mots clés illuminations\
+mots clés éloge d'un prince

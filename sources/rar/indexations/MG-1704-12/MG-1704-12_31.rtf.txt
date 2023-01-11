@@ -1,0 +1,10 @@
+institutions academie_royale_des_inscriptions_et_belles-lettres\
+lieux 121\
+mots clés ode (forme poétique)\
+personnes mantoue_charles_iii_ferdinand_de_gonzague\_(1652-1708)\_duc_de\
+personnes 38578\
+\
+personnes virgile\_(70_av_j-c-19_av_j-c)\
+mots clés lyre\
+oeuvre citée Abbé Boutard, Virgile lui avait apparu trois fois pendant la nuit\
+mots clés ouverture

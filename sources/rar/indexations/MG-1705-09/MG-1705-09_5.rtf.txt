@@ -1,0 +1,33 @@
+mots clés fête de Saint-Louis\
+institutions academie_francaise\
+institutions academie_royale_des_sciences\
+institutions academie_royale_des_inscriptions_et_belles-lettres\
+mots clés sermon (art oratoire)\
+mots clés distribution de prix\
+mots clés éloquence (art oratoire)\
+mots clés éloge\
+lieux 122\
+mots clés messe en musique\
+\
+oeuvre citée M. du Bousset, *Beati omnes qui timent Dominum*\
+personnes bousset_jean-baptiste_drouard_de\_(1662-1725)\
+\
+personnes fleury_andre-hercule_de\_(1653-1743)\_cardinal\
+personnes le_prevost_pierre-robert\_(1675-1735)\
+mots clés **Panégyrique d\'un saint**\
+personnes louis_xiv\_(1638-1715)\_roi_de_france\
+mots clés éloge du roi\
+\
+lieux 19\
+personnes 82315\
+personnes bignon_jean-paul\_(1662-1743)\
+personnes quiqueran_de_beaujeu_honore\_(1655-1736)\
+oeuvre citée M. du Bousset, *Cæli enarrant gloriam Dei*\
+personnes 82317\
+\
+personnes 82319\
+personnes houdar_de_la_motte_antoine\_(1672-1731)\
+mots clés dissertation\
+oeuvre citée M. Hericourt fils, si la prospérité est aussi utile pour le salut que l'adversité\
+\
+mots clés harangue (art oratoire)
