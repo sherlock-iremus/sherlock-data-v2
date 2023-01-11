@@ -10,13 +10,18 @@ import yaml
 import json
 
 sys.path.append(os.path.abspath(os.path.join('directus/', '')))
-from helpers_api import graphql_query
+from helpers_graphql_api import graphql_query
 
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
 parser.add_argument("--cache")
+parser.add_argument("--directus_secret")
 args = parser.parse_args()
+
+# Directus secret
+file = open(args.directus_secret)
+secret = yaml.full_load(file)
 
 # Cache
 print(f"Lecture du cache [{args.cache}]")
@@ -92,7 +97,7 @@ query {
 	} 
 }"""
 
-result = graphql_query(query)
+result = graphql_query(query, secret)
 
 ############################################################################################
 # CREATION DES TRIPLETS
