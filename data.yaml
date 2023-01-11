@@ -35,6 +35,14 @@ projects:
               ttl: out/ttl/mg/estampes.ttl
               cache: caches/mg/estampes.yaml
               cache_tei: caches/mg/tei.yaml
+      indexation-estampes-prod:
+        name: Mettre en prod les données d'indexation des estampes
+        steps: 
+          - script: prod/mg/indexation.sh
+      static-prod:
+        name: Mettre en prod les données statiques du Mercure Galant
+        steps: 
+          - script: prod/mg/static.sh 
   modality-tonality:
     name: Modality-Tonality
     tasks:
