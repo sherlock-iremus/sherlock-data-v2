@@ -106,6 +106,7 @@ projects:
             args:
               ttl: out/ttl/rar/personnes.ttl
               cache: caches/rar/personnes.yaml
+              directus_secret: directus/secret.rar.yaml
       # lieux-skos-to-directus:
       #  name: "Lieux : injecter les données SKOS dans Directus"
       #  steps:
