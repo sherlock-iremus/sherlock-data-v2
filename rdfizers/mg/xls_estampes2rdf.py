@@ -22,7 +22,7 @@ from helpers_rdf import *  # nopep8
 sys.path.append(os.path.abspath(os.path.join('python_packages/helpers_excel', '')))
 from helpers_excel import *  # nopep8
 sys.path.append(os.path.abspath(os.path.join('directus/', '')))
-from helpers_api import graphql_query  # nopep8
+from helpers_graphql_api import graphql_query  # nopep8
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -31,7 +31,12 @@ parser.add_argument("--xlsx")
 parser.add_argument("--opentheso_id")  # opth Thesaurus id ?
 parser.add_argument("--cache")
 parser.add_argument("--cache_tei")
+parser.add_argument("--directus_secret")
 args = parser.parse_args()
+
+# Directus secret
+file = open(args.directus_secret)
+secret = yaml.full_load(file)
 
 # Caches
 cache = Cache(args.cache)
@@ -48,7 +53,7 @@ query {
   personnes(limit: -1) {
     id
   } 
-}""")
+}""", secret)
 
 print("Récupération des lieux via l'API directus...")
 
@@ -58,7 +63,7 @@ query {
     id
     opentheso_id
   } 
-}""")
+}""", secret)
 
 print("Récupération du vocabulaire d'indexation via l'API opentheso...")
 
@@ -265,7 +270,7 @@ for row in rows:
                 estampe_fragment = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "uuid"], True))
                 estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E42_IIIF_humanum_uuid"], True))
                 e18_objet = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E18_uuid"], True))
-                
+
                 t(estampe_fragment, a, crm("E36_Visual_Item"))
                 t(estampe_fragment, she_ns("is_fragment_of"), estampe)
                 t(estampe_fragment_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
@@ -413,15 +418,15 @@ for row in rows:
         livraison_F5_consultation = u(cache.get_uuid(["livraisons", id_livraison, "F5_consultation_uuid"], True))
         E24_feuille = u(cache.get_uuid(["livraisons", id_livraison, "E24_feuille_uuid"], True))
 
-        t(livraison_F3_consultation, lrm("R4_embodies") , livraison_F2_originale)
-        t(livraison_F2_originale, lrm("R4i_is_embodied_in") , livraison_F3_consultation)
+        t(livraison_F3_consultation, lrm("R4_embodies"), livraison_F2_originale)
+        t(livraison_F2_originale, lrm("R4i_is_embodied_in"), livraison_F3_consultation)
         t(livraison_F5_consultation, lrm('R7_is_materialization_of'), livraison_F3_consultation)
         t(livraison_F3_consultation, lrm('R7i_is_materialized_in'), livraison_F5_consultation)
-        t(livraison_F5_consultation, crm("P46_is_composed_of") , E24_feuille)
-        t(E24_feuille, crm("P46i_forms_part_of") , livraison_F5_consultation)
+        t(livraison_F5_consultation, crm("P46_is_composed_of"), E24_feuille)
+        t(E24_feuille, crm("P46i_forms_part_of"), livraison_F5_consultation)
         t(E24_feuille, crm("P65_shows_visual_item"), estampe)
 
-        #Provenance cliché (identifiant BnF)
+        # Provenance cliché (identifiant BnF)
         if row["Provenance cliché"]:
             E42_provenance = she(cache.get_uuid(["livraisons", id_livraison, "E42_provenance_uuid"], True))
             t(E42_provenance, a, crm("E42_Identifier"))
@@ -429,16 +434,16 @@ for row in rows:
             t(E42_provenance, crm("P190_has_symbolic_content"), l(row["Provenance cliché"]))
             t(livraison_F5_consultation, crm("P1_is_identified_by"), E42_provenance)
 
-        #Format
+        # Format
         if row["Format (H x L en cm)"]:
             format = row["Format (H x L en cm)"].split("x")
             hauteur_uri = she(cache.get_uuid(["livraisons", id_livraison, id, "E54_hauteur", "uuid"], True))
             t(hauteur_uri, a, crm("E54_Dimension"))
             t(hauteur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
             t(hauteur_uri, crm("P90_has_value"), l(format[0].strip().replace("’", "'")))
-            t(hauteur_uri, crm("P91_has_unit"), u("http://vocab.getty.edu/page/aat/300379098"))            
+            t(hauteur_uri, crm("P91_has_unit"), u("http://vocab.getty.edu/page/aat/300379098"))
             make_E13(["livraisons", id_livraison, id, "E54_hauteur", "E13_P43_dimension_uuid"], E24_feuille, crm("P43_has_dimension"), hauteur_uri)
-            
+
             largeur_uri = she(cache.get_uuid(["livraisons", id_livraison, id, "E54_largeur", "uuid"], True))
             t(largeur_uri, a, crm("E54_Dimension"))
             t(largeur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
@@ -446,7 +451,6 @@ for row in rows:
             t(largeur_uri, crm("P91_has_unit"), u("http://vocab.getty.edu/page/aat/300379098"))
             make_E13(["livraisons", id_livraison, id, "E54_largeur", "E13_P43_dimension_uuid"], E24_feuille, crm("P43_has_dimension"), largeur_uri)
         # endregion
-
 
         # region TESTS
         for concept in concepts_used:

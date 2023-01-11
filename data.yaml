@@ -35,14 +35,15 @@ projects:
               ttl: out/ttl/mg/estampes.ttl
               cache: caches/mg/estampes.yaml
               cache_tei: caches/mg/tei.yaml
+              directus_secret: directus/secret.rar.yaml
       indexation-estampes-prod:
         name: Mettre en prod les données d'indexation des estampes
-        steps: 
+        steps:
           - script: prod/mg/indexation.sh
       static-prod:
         name: Mettre en prod les données statiques du Mercure Galant
-        steps: 
-          - script: prod/mg/static.sh 
+        steps:
+          - script: prod/mg/static.sh
   modality-tonality:
     name: Modality-Tonality
     tasks:
@@ -59,7 +60,7 @@ projects:
           - script: rdfizers/modality-tonality/catalogue/catalogue-directus2rdf.py
             args:
               cache: caches/modality-tonality/catalogue.yaml
-              secret: directus/directus.secret.yaml
+              secret: directus/secret.catalogue.yaml
               ttl: out/ttl/modality-tonality/catalogue.ttl
       models:
         name: Mettre en prod les données des ontologies des traités théoriques historiques
@@ -75,7 +76,7 @@ projects:
           - script: rdfizers/modality-tonality/fondamentales.py
             args:
               cache: caches/modality-tonality/fondamentales.yaml
-              directus_secret: directus/directus.secret.yaml
+              directus_secret: directus/secret.mt.yaml
               out_ttl: out/ttl/modality-tonality/fondamentales.ttl
               owl: ../in/tonalities_pilot/annotations/rootAnnotations.owl
           - script: prod/modality-tonality/modality-tonality.fondamentales.sh
