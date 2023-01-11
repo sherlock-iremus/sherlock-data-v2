@@ -242,3 +242,10 @@
  crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
  crm:P1_is_identified_by "Corpus des estampes du Mercure Galant"
 .
+
+# INDEXATION
+
+<bffeb363-05ee-449c-a666-bb16eafde48c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "BIBLIO [y compris liens] relative à la gravure et aux artistes" ;
+.

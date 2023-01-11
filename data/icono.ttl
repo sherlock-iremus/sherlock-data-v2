@@ -3,128 +3,85 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> . 
 
-
 ##########################################################################################
-## MERCURE GALANT
+# MERCURE GALANT
 ##########################################################################################
 
+# Types d'objets représentés
 
-<16394b16-8be4-41e4-8abd-6184889416a0>
- a crm:E32_Controlled_Vocabulary ;
- crm:P1_is_identified_by "Opérations iconographiques sur le corpus Mercure Galant" ;
- crm:P71_lists <01a07474-f2b9-4afd-bb05-80842ecfb527>,
-  <ded9ea93-b400-4550-9aa8-e5aac1d627a0>,
-  <58fb99dd-1ffb-4e00-a16f-ef6898902301>, 
-  <357a459f-4f27-4d46-b5ac-709a410bce04>,
-  <fc229531-0999-4499-ab0b-b45e18e8196f>,
-  <f2d9b792-2cfd-4265-a2c5-e0a69ce01536>,
-  <4d57ac14-247f-4b0e-90ca-0397b6051b8b>,
-  <f39eb497-5559-486c-b5ce-6a607f615773>,
-  <20674932-def8-4a73-9b67-ac49a16b5243>,
-  <fa4959c8-8537-4ef0-8d58-4f761e9679b1>, 
-  <4b51d9dc-3623-47f4-ab45-239604e18930>, 
-  <15c5867f-f612-4a00-b9f3-17b57e566b8c>,
-  <0205f283-a73a-47e3-81bf-d0c67501fc22>
- .
-
-<15c5867f-f612-4a00-b9f3-17b57e566b8c>
-a crm:E55_Type ;
-  crm:P1_is_identified_by "Identifiant BnF" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+<226e7258-2b03-4f46-8815-8415095287fb>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Revers de médaille"
   .
+<74773744-7d22-41f5-b504-61486e1f5057>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Avers de médaille"
+  .
+
+# Types d'annotations
 
 <01a07474-f2b9-4afd-bb05-80842ecfb527>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Titre sur l'image" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
   .
-
 <ded9ea93-b400-4550-9aa8-e5aac1d627a0>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Titre dans le péritexte" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
   .
-
-<58fb99dd-1ffb-4e00-a16f-ef6898902301>
- a crm:E55_Type ;
-  crm:P1_is_identified_by "Titre descriptif/forgé" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
-  .
-
-<357a459f-4f27-4d46-b5ac-709a410bce04>
- a crm:E55_Type ;
-  crm:P1_is_identified_by "Inscription sur le revers de la médaille" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
-  .
-
-<fc229531-0999-4499-ab0b-b45e18e8196f>
- a crm:E55_Type ;
-  crm:P1_is_identified_by "Inscription sur l'avers de la médaille" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
-  .
-
 <f2d9b792-2cfd-4265-a2c5-e0a69ce01536>
- a crm:E55_Type ;
- crm:P1_is_identified_by "Thématique" ;
- dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
- .
-
-<4d57ac14-247f-4b0e-90ca-0397b6051b8b>
- a crm:E55_Type ;
-  crm:P1_is_identified_by "Invenit" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
- .
-
-<f39eb497-5559-486c-b5ce-6a607f615773>
- a crm:E55_Type ;
-  crm:P1_is_identified_by "Sculpsit" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
- .
-
-
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Thématique" ;
+  .
+<58fb99dd-1ffb-4e00-a16f-ef6898902301>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Titre descriptif/forgé" ;
+  .
 <0205f283-a73a-47e3-81bf-d0c67501fc22>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Type de représentation" ;
   dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
- .
-
+  .
 <f8914e8f-c1f1-4e1b-90e6-591bcb75ea95>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Technique de gravure" ;
   dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
- .
+  .
+
+# Types de métadonnées
+
+<15c5867f-f612-4a00-b9f3-17b57e566b8c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiant BnF" ;
+  .
+
+# Types de rôles dans le contexte de production
+
+<4d57ac14-247f-4b0e-90ca-0397b6051b8b>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Invenit" ;
+  .
+<f39eb497-5559-486c-b5ce-6a607f615773>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Sculpsit" ;
+  .
 
 ##########################################################################################
-## EUTERPE
+# EUTERPE
 ##########################################################################################
-
-<6c9b635c-04b7-4963-bacf-0124f7ec14a0>
- a crm:E32_Controlled_Vocabulary ;
- crm:P1_is_identified_by "Opérations iconographiques sur le corpus Euterpe" ;
- crm:P71_lists <1126a1f7-2b7d-45ab-b02c-a25b225e2977>,
- <dad7fbf8-c629-437e-96ef-594a674e5e37>, <894b8a02-1f03-48ad-b22a-875aead9b326>;
- .
 
 <1126a1f7-2b7d-45ab-b02c-a25b225e2977>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Titre principal" ;
-  dcterms:created <846ef057-41d5-48e1-bd7f-2299b2faaf00> ;
- .
-
+  .
 <dad7fbf8-c629-437e-96ef-594a674e5e37>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Titre alternatif" ;
-  dcterms:created <846ef057-41d5-48e1-bd7f-2299b2faaf00> ;
- .
-
+  .
 <894b8a02-1f03-48ad-b22a-875aead9b326>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "domaine" ;
-  dcterms:created <846ef057-41d5-48e1-bd7f-2299b2faaf00> ;
- .
-
+  .
 <1483a1a9-7193-4cb2-853f-ab6193155673>
- a crm:E55_Type ;
+  a crm:E55_Type ;
   crm:P1_is_identified_by "référence agence" ;
-  dcterms:created <846ef057-41d5-48e1-bd7f-2299b2faaf00> ;
- .
+  .
