@@ -265,3 +265,4 @@ sherlock:is_fragment_of
     rdfs:domain crm:E1_CRM_Entity ;
     rdfs:range crm:E1_CRM_Entity ;
     .
+

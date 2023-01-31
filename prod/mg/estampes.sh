@@ -1,6 +1,6 @@
 SCRIPT_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-scp "$SCRIPT_DIR/../out/ttl/mg/estampes.ttl" tbottini@data-iremus.huma-num.fr:sherlock/rdf-data/mercure-galant/
+scp "$SCRIPT_DIR/../../out/ttl/mg/estampes.ttl" tbottini@data-iremus.huma-num.fr:sherlock/rdf-data/mercure-galant/
 
 ssh tbottini@data-iremus.huma-num.fr "
 cd sherlock/rdf-data/mercure-galant ;

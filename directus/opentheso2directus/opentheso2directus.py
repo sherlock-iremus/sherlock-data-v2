@@ -116,15 +116,7 @@ r = requests.post(f"{args.directus_url}/collections?access_token={access_token}"
 print_response(r)
 r = requests.get(f"{args.directus_url}/collections/{args.directus_collection}?access_token={access_token}")
 print_response(r)
-# if r.status_code != 403:
-#     # Clear all items
-#     r = requests.get(f"{args.directus_url}/items/{args.directus_collection}?access_token={access_token}&limit=-1")
-#     all_id = list(map(lambda x: x["id"], r.json()["data"]))
-#     r = requests.delete(f"{args.directus_url}/items/{args.directus_collection}?access_token={access_token}", json=all_id)
-#     print_response(r)
-#     # Delete collection
-#     r = requests.delete(f"{args.directus_url}/collections/{args.directus_collection}?access_token={access_token}")
-#     print_response(r)
+
 r = requests.post(f"{args.directus_url}/collections?access_token={access_token}", json={
     "collection": args.directus_collection,
     "meta": {
