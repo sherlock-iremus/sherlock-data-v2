@@ -282,6 +282,19 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Projet analytique"@fr ;
   crm:P1_is_identified_by "Analytical Project"@en ;
+  .
+
+<cabe46bf-23d4-4392-aa20-b3eb21ad7dfd>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Brouillon"@fr ;
+  crm:P1_is_identified_by "Draft"@en ;
+  .
+
+<54a5cf00-a46a-4435-b893-6eda0cdc5462>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Publié"@fr ;
+  crm:P1_is_identified_by "Published"@en;
+  .
 
 <d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
   a crm:E55_Type ;
