@@ -95,7 +95,6 @@
   <1820ce38-34d2-4354-a0a7-c6f220d2ee08>;
   .
 <219fd53d-cdf2-4174-8d71-6d12bdd24016>
-<<<<<<< HEAD
   a crm:E55_Type ;
   crm:P1_is_identified_by "Fichier SHERLOCK"@fr ;
   .
@@ -152,65 +151,9 @@
   .
 
 <d74076d1-a145-449a-8403-88841ba29dfb>
- a crm:E55_Type ;
- crm:P1_is_identified_by "Identifiant cote" ;
- .
-=======
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Fichier SHERLOCK"@fr ;
-    .
-<9b63d6ef-5c5b-4eca-92f4-76c083918129>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "URI de fichier XML" ;
-    .
-<a1e06dc7-f2d8-403a-8061-50d56411c031>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "XPathSelector" ;
-    .
-<f4262bac-f72c-40e2-aa51-ae352da5a35c>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Lien Gallica" ;
-    .
-<b89767f1-38fe-4a9e-9b4d-ea1d5624a687>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Lien data.bnf.fr" ;
-    .
-
-<b486f08e-4d50-4363-97b4-d4ea100818e5>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "XML Fragment" ;
-    .
-
-<01de41ec-850f-473b-bd7f-268a18afc6a3>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "SHA1" ;
-    .
-
-<466bb717-b90f-4104-8f4e-5a13fdde3bc3>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Numéro de page" ;
-    .
-
-<19073c4a-0ef7-4ac4-a51a-e0810a596773>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Identifiant IIIF version 3.0" ;
-    .
-
-<db425957-e8bc-41d7-8a6b-d1b935cfe48d>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "xml:id" ;
-    .
-
-<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "Identifiant GitHub" ;
-    .
-
-<1820ce38-34d2-4354-a0a7-c6f220d2ee08>
-    a crm:E55_Type ;
-    crm:P1_is_identified_by "MEI score offset value"@en ;
-    .
->>>>>>> f709922880143c42b52b0b890dff4d5afefc53ab
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiant cote" ;
+  .
 
 <cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19>
  a crm:E55_Type ;
@@ -224,9 +167,9 @@
 
 <15c5867f-f612-4a00-b9f3-17b57e566b8c>
   a crm:E55_Type ;
-    crm:P1_is_identified_by "Cote BnF" ;
-    crm:P127_has_broader_term <ea5c35ee-90b9-46a2-93a4-fb4124d58f40> ;
-    .
+  crm:P1_is_identified_by "Cote BnF" ;
+  crm:P127_has_broader_term <ea5c35ee-90b9-46a2-93a4-fb4124d58f40> ;
+  .
 
 <ea5c35ee-90b9-46a2-93a4-fb4124d58f40>
   a crm:E55_Type ;
@@ -334,6 +277,11 @@
   crm:P1_is_identified_by "Entité analytique"@fr ;
   crm:P1_is_identified_by "Analytical entity"@en ;
   .
+
+<21816195-6708-4bbd-a758-ee354bb84900>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Projet analytique"@fr ;
+  crm:P1_is_identified_by "Analytical Project"@en ;
 
 <d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
   a crm:E55_Type ;

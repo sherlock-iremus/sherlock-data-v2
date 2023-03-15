@@ -256,8 +256,14 @@ sherlock:Analysis
 
 sherlock:has_document_context
     a owl:ObjectProperty ;
-    rdfs:domain crm:E89_Propositional_Object ;
+    rdfs:domain crm:E13_Attribute_Assignment ;
     rdfs:range crm:E73_Information_Object ;
+    .
+
+sherlock:has_privacy_type
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E7_Activity ;
+    rdfs:range crm:E55_Type;
     .
 
 sherlock:is_fragment_of

@@ -3565,6 +3565,9 @@ estampes:
               uuid: 16714eeb-7eb4-4a01-827b-ac3f777b5e1e
               E13_uuid: ce5c6daa-58cb-4144-a9fc-d2c0d1745e5d
             E13_P138_uuid: 55f751df-2723-47ca-af4b-019a6cc9fcd1
+            E13_P165_uuid: 56942d3e-219a-4f4a-8732-6437eeb47471
+            médaille_physique:
+              E13_P46_uuid: 0a10281e-49eb-4ece-ad34-50da9daff7d1
           médaille_revers:
             E36_uuid: a15e0136-efc2-43a7-8bf5-d885fb641afe
             E42_IIIF_humanum_uuid: 84717c9a-05fc-431f-bcf7-944b0650e530
@@ -3573,6 +3576,9 @@ estampes:
               uuid: e23f610b-7ee4-4d43-a0ab-37051efd391c
               E13_uuid: ddbce86f-cf47-47e3-949c-7df39082362d
             E13_P138_uuid: 80081cb5-16cd-4e25-89f1-ce06eef8ece5
+            E13_P165_uuid: f9434e72-fe6a-47bb-babd-1dfff9ca734e
+            médaille_physique:
+              E13_P46_uuid: 3f292f40-b129-4410-81a8-e63eca41ec1b
       lys:
         E36_fragment:
           uuid: aa4ef97d-2c19-4626-8799-a68a45491e8a
@@ -4729,6 +4735,9 @@ estampes:
               uuid: 9a8c79fa-3ee6-4ea3-b810-6f3e42eef098
               E13_uuid: 1a83a037-7242-46e7-8be9-3ddeb25be2cb
             E13_P138_uuid: b46b93e3-ad5a-4e87-b242-bc13f9c18aec
+            E13_P165_uuid: 175e7691-6d29-4562-bfa2-8ead3655d693
+            médaille_physique:
+              E13_P46_uuid: 3ee2ca91-1b01-45c6-bbf3-ab65955f94ba
           médaille_revers:
             E36_uuid: 9312deb9-1a56-41a3-a61f-1d2ffacfed5f
             E42_IIIF_humanum_uuid: c30f7add-470d-4495-a1ac-bb861f9ae5c1
@@ -4737,6 +4746,9 @@ estampes:
               uuid: 4b9b5c53-6e52-465b-b252-26f2dc1581e5
               E13_uuid: 4a250864-357c-4817-8cf5-265e311333bb
             E13_P138_uuid: 985d9fb4-ce5b-4e48-a698-6a4d0d050f26
+            E13_P165_uuid: ea1d10b2-a5c9-4780-9b28-634920786283
+            médaille_physique:
+              E13_P46_uuid: 6dcb1f39-41ae-4d09-9236-06439ca2750d
       bouclier:
         E36_fragment:
           uuid: 1db02260-e068-460a-af18-bcaf9b81ce0f
@@ -5474,6 +5486,9 @@ estampes:
               uuid: e7178600-b638-47ba-b1a0-723476175499
               E13_uuid: d2bf848d-ac59-4df7-8e32-5f46119183fb
             E13_P138_uuid: 524e1b24-464f-4b3a-93f7-87046225c6e2
+            E13_P165_uuid: 086dd5c4-0ab5-4356-9146-ee0cc1296f54
+            médaille_physique:
+              E13_P46_uuid: 6929db98-8c0e-415c-b168-24cfbfc8151e
       ruche:
         E36_fragment:
           uuid: 1802570f-0d71-4863-af0f-f7e837f07153
@@ -5717,6 +5732,9 @@ estampes:
               uuid: 9ccaa37d-3e7c-46c6-a9c0-f0f01b4b6363
               E13_uuid: c090ac91-af7e-4636-8f28-f013a3f12580
             E13_P138_uuid: fa9babfc-c2d7-4fe7-8c36-953c36089d43
+            E13_P165_uuid: f11ee997-1e7b-4d9f-b052-659fb7412742
+            médaille_physique:
+              E13_P46_uuid: b2ba4609-1108-4330-96a5-f0f22d807265
           médaille_revers:
             E36_uuid: 37a9aa43-e8a5-4966-a655-96178c51c1c1
             E42_IIIF_humanum_uuid: 6fc6317a-d561-485c-970a-88f05ee9fc1b
@@ -5725,6 +5743,9 @@ estampes:
               uuid: 6e2702ca-7362-461d-a614-0fde4834cefc
               E13_uuid: 53d6ef33-514e-4369-9f47-346e09771901
             E13_P138_uuid: d5efcafd-626a-4cd2-9cdf-24ddc2c5cbdf
+            E13_P165_uuid: 43638494-6913-4281-9f1b-02ae219a0a17
+            médaille_physique:
+              E13_P46_uuid: 4a8b8917-2d40-4b40-bfc6-fd957ee6a687
       forteresse:
         E36_fragment:
           uuid: a400d74f-f122-4423-9eee-5ea6b33d3fc4
@@ -5841,6 +5862,9 @@ estampes:
               uuid: 730a159b-d25e-496e-b5da-db5a1ee1fd61
               E13_uuid: 5a427f1d-af8a-4280-9b67-8c03e9a0897d
             E13_P138_uuid: b877c3e8-a263-4db9-b49b-8ade6871e37a
+            E13_P165_uuid: d4bb679c-2db3-4180-bf5d-d7ccbbff30f7
+            médaille_physique:
+              E13_P46_uuid: 78232369-7240-4912-a289-3e03d22b2937
           médaille_revers:
             E36_uuid: 482b28df-eda4-4643-8124-c126dffc3ed1
             E42_IIIF_humanum_uuid: 739d4a25-28ff-4fa6-82be-a29d8a127319
@@ -5849,6 +5873,9 @@ estampes:
               uuid: f2eae65b-2b78-4bec-9596-bc0a103baaa7
               E13_uuid: 6f73d53c-b9db-4641-8c80-46735945a7fb
             E13_P138_uuid: 497055b7-a4ac-406b-aeb1-583d6d178891
+            E13_P165_uuid: 04d67cd3-67ee-4564-8f4e-5660fb3e9695
+            médaille_physique:
+              E13_P46_uuid: 6c0a66f7-a45a-4c9a-adac-098e70c57ba2
       cuirasse:
         E36_fragment:
           uuid: 1637d560-155a-4dde-b0ff-ce514d8b6c9c
@@ -5905,6 +5932,9 @@ estampes:
               uuid: 847fb410-654f-489d-b8a2-94df88e4694a
               E13_uuid: aa98b797-66f8-4ffc-8f7f-ef4687b4c9b2
             E13_P138_uuid: a7162520-7f6f-499b-8eaa-4887be6aed1f
+            E13_P165_uuid: 4a5c389b-c65a-4a46-ab2b-7561b1b13a05
+            médaille_physique:
+              E13_P46_uuid: cd8d6f25-d760-4f6a-b268-ae78db3fe744
           médaille_revers:
             E36_uuid: 204c2c88-4f39-4026-bdd3-1638ab93601e
             E42_IIIF_humanum_uuid: 7e3fdf56-c377-4001-8d7b-a6604e9f0aa8
@@ -5913,6 +5943,9 @@ estampes:
               uuid: b6ef8fec-268a-44d9-9ab8-b6f60aabce5f
               E13_uuid: 9d135f6f-ea7d-4d36-b03d-5f035cfc0734
             E13_P138_uuid: 6d24d0c5-68dd-4d20-b8f2-eb4158e55b0a
+            E13_P165_uuid: f1904aee-f3b3-48bf-8f4e-e1d97c56457e
+            médaille_physique:
+              E13_P46_uuid: b9269b95-6361-4030-b05a-acecb25c6922
       palme:
         E36_fragment:
           uuid: 83d550e9-013c-4c57-89bc-ad2369d28eb0
@@ -7013,6 +7046,9 @@ estampes:
               uuid: e2015f8a-56ca-4b75-8ba8-cefc990a3ee1
               E13_uuid: 97635771-48f0-4cf8-97f4-bd057414a0c7
             E13_P138_uuid: bcb42e03-1314-4a97-9efc-9d7718200f6f
+            E13_P165_uuid: e01eca33-6c6c-4d5c-90bd-d63740034306
+            médaille_physique:
+              E13_P46_uuid: 03ecea2b-425e-4cc4-9a40-746466941e50
           médaille_revers:
             E36_uuid: f22c4863-f472-4ffd-8027-32ae6e6af614
             E42_IIIF_humanum_uuid: 5a5037c5-c2f4-44f7-971c-d07d335bf813
@@ -7021,6 +7057,9 @@ estampes:
               uuid: 0d8d2f39-c549-4664-9b69-0ab89200d2ba
               E13_uuid: 8293fd10-b8e3-4390-9362-2b64b29281cb
             E13_P138_uuid: 60ec17b9-01fb-4a9e-98ab-15f02c75a087
+            E13_P165_uuid: 2b391a8c-7956-46cf-8843-07cfd48008ae
+            médaille_physique:
+              E13_P46_uuid: 62b5f667-1687-4568-a0dc-f1a66f8e450f
       aigle:
         E36_fragment:
           uuid: 560060ba-b425-4496-87b5-fedf97dc9b39
@@ -7815,6 +7854,9 @@ estampes:
               uuid: a88c9a7c-b865-4518-9247-690b64326898
               E13_uuid: 101e67e6-5ab7-4436-870c-c7202702ec30
             E13_P138_uuid: 7484249d-a9dc-4067-a23a-25d993788389
+            E13_P165_uuid: 999748ec-2818-455f-b48d-8d7390924fbc
+            médaille_physique:
+              E13_P46_uuid: 5881e5f1-76f5-4072-8351-ca509b370d1c
           médaille_revers:
             E36_uuid: 5446feee-6707-4d89-9c7d-1b8a6acc5928
             E42_IIIF_humanum_uuid: 46f6b6cb-bedc-4af9-b807-a10f817d7805
@@ -7823,6 +7865,9 @@ estampes:
               uuid: 48c6dff6-64d2-4ad2-acd4-0af1c8ff5646
               E13_uuid: 6425c4f0-72ee-4bf2-b02a-0ae48043c64f
             E13_P138_uuid: f047692b-a46e-4bc9-bed4-a4f5185b5071
+            E13_P165_uuid: 54c2459f-669e-4689-9194-8c8d98c24283
+            médaille_physique:
+              E13_P46_uuid: 02a58ad2-252d-41ac-bd36-b6f50874aaa4
       armée navale:
         E36_fragment:
           uuid: ac8bafbd-9193-4fc9-b4f0-4dd9535b527c
@@ -8038,6 +8083,9 @@ estampes:
               uuid: af997ac8-f580-4077-816e-49dd9c930280
               E13_uuid: 0cba2559-9d55-429e-9769-2ca327798d17
             E13_P138_uuid: a60118d6-d460-4adf-b007-0deb0863f924
+            E13_P165_uuid: 710c73ff-167a-4705-b59d-99223b820ffc
+            médaille_physique:
+              E13_P46_uuid: 43d1518b-f505-46a1-8796-c149b204f8b2
           médaille_revers:
             E36_uuid: 679b6e36-2abd-4b35-8e7e-450adbe96502
             E42_IIIF_humanum_uuid: 45853df0-d6fa-451d-a939-1236bffe3ea9
@@ -8046,6 +8094,9 @@ estampes:
               uuid: 4f5d6064-dd00-4564-8494-3532a273f750
               E13_uuid: d56ed4ff-0d76-41e8-9720-55a8270c43cc
             E13_P138_uuid: 0455876c-e3ad-4e4f-8f3b-9205dadd3a55
+            E13_P165_uuid: 9181f3dd-9ff4-4af7-9f43-6301c6d2e991
+            médaille_physique:
+              E13_P46_uuid: 694f2378-d153-4ab6-b5c2-d0f0260868b1
       mer:
         E36_fragment:
           uuid: 9b01f3c8-e1ab-448a-b082-abd8f5b3fb17
@@ -8629,6 +8680,9 @@ estampes:
               uuid: fbfc4a8b-00dc-4296-97fd-6d0a1a85766c
               E13_uuid: ff7f3ca8-af16-4990-9ac3-eb5e9ea2b503
             E13_P138_uuid: e189d967-17ca-4ee5-ad8c-651ffde5cfb0
+            E13_P165_uuid: dde0ddd7-6fbc-4193-8a92-0de9a25dd7be
+            médaille_physique:
+              E13_P46_uuid: a832f453-68a3-4540-8ae5-aa68aa035f45
           médaille_revers:
             E36_uuid: 226799b6-a969-4146-9c04-2c26c576588c
             E42_IIIF_humanum_uuid: ccf1cb34-441c-4cc8-b0d2-0217953a15b3
@@ -8637,6 +8691,9 @@ estampes:
               uuid: b91238d0-af17-4ea3-83d0-de29698a9e7a
               E13_uuid: a52dba5c-fbc0-4967-983f-aa6b8386252a
             E13_P138_uuid: 1c2886ec-f093-4af1-9c7d-b855412a7062
+            E13_P165_uuid: c5a30f6a-41c0-4fb7-be34-8517d12088cf
+            médaille_physique:
+              E13_P46_uuid: db0e8263-a960-4271-b45d-6d6ef1d987ac
       soleil:
         E36_fragment:
           uuid: 60cebfdc-cd1c-4711-846a-84bb33aa1005
@@ -9103,6 +9160,9 @@ estampes:
               uuid: d5e35672-bd59-4ed6-888b-f25c3943ad25
               E13_uuid: f775fef9-e7ed-4589-a8e8-cdcf05dae38f
             E13_P138_uuid: dedbb786-c31c-4246-a06d-c905e4317c01
+            E13_P165_uuid: b79bd187-2c9f-4efb-9487-c010eae60017
+            médaille_physique:
+              E13_P46_uuid: 0d2d1879-fe00-4263-92ee-ea6f64390bae
           médaille_revers:
             E36_uuid: f5900ce8-f777-4ae0-8196-c95f3f97d982
             E42_IIIF_humanum_uuid: 8d6d0cb8-15f5-40fb-a3a2-c27c65be03e0
@@ -9111,6 +9171,9 @@ estampes:
               uuid: e879d2b8-ffbf-4907-9527-27985f782f37
               E13_uuid: 5c201c08-a056-45c5-83a2-d8e1317559de
             E13_P138_uuid: 2ca458bc-f88b-4501-b85c-1d31384b2e09
+            E13_P165_uuid: 0a66e99b-7fb1-4c79-b528-fcb2992af602
+            médaille_physique:
+              E13_P46_uuid: f7da7f4a-64ec-4e71-af15-59206e0eb51b
       Victoire (personnification):
         E36_fragment:
           uuid: 9997f01c-5b74-456a-9fa1-e385c14cbf4b
@@ -9534,6 +9597,9 @@ estampes:
               uuid: 6676adb4-325a-48e6-828d-488a6d489a49
               E13_uuid: 29c2d19b-f267-4e60-ad0d-3838a1d46623
             E13_P138_uuid: 4e45fe34-6c76-4f0e-844f-8c71aa50c0b4
+            E13_P165_uuid: 8e1f28a1-e649-46eb-9e6a-6951c793ab0d
+            médaille_physique:
+              E13_P46_uuid: 414b4139-33c4-40d1-9ef8-3e9f84be02ff
     personnes représentées:
       1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6:
         E36_fragment:
@@ -9802,6 +9868,9 @@ estampes:
               uuid: 742ab045-1d9b-4e79-929c-b0254f447732
               E13_uuid: 13803223-de84-4eac-93e6-476946c1e997
             E13_P138_uuid: eab079b9-6e9d-4728-9803-4ae2e3a7ea22
+            E13_P165_uuid: 0ff1bce2-2e73-444f-82d2-02c3d598cf6f
+            médaille_physique:
+              E13_P46_uuid: 9c5d3d6b-4b1a-491c-97d3-2d72336527e2
           médaille_revers:
             E36_uuid: 40e20690-bdfe-44a3-836b-f75717cc9af4
             E42_IIIF_humanum_uuid: e16bd7dd-5339-40c5-aec4-7dd65c0ca2be
@@ -9810,6 +9879,9 @@ estampes:
               uuid: 3438a8e2-757a-4e79-9c0d-fbf3ed60aeea
               E13_uuid: 28a088df-79e8-4134-a493-be935b7650da
             E13_P138_uuid: 0eca8bec-07a4-4130-a3b2-9127c3594065
+            E13_P165_uuid: 07da6790-3914-465d-9c92-37fbc4dc0d46
+            médaille_physique:
+              E13_P46_uuid: 13f79500-9c12-4b73-9b96-7e163cd19bb0
       mer:
         E36_fragment:
           uuid: f279017c-921c-486e-a89c-75b089499c30
@@ -10262,6 +10334,9 @@ estampes:
               uuid: 86f293a9-6d2e-46e1-a4da-c22981dbf28d
               E13_uuid: 3daad832-a504-4111-a94e-b9e697e5c3f3
             E13_P138_uuid: d78f1613-65f2-4a4b-97c3-417ad56e9cdb
+            E13_P165_uuid: 7332258a-cb9d-41de-97f1-2df44b11ed0e
+            médaille_physique:
+              E13_P46_uuid: 194675b3-f2af-4813-8889-c7ae4641fbe4
           médaille_revers:
             E36_uuid: 01de4c89-c383-437c-8551-37f033334f26
             E42_IIIF_humanum_uuid: 68936f2b-3961-4cea-9741-880c23cdd986
@@ -10270,6 +10345,9 @@ estampes:
               uuid: 326bc5a7-5c3e-431c-8e42-d34b17da0f3a
               E13_uuid: 62555978-07cc-448b-9038-393256e7f202
             E13_P138_uuid: 095ad845-441e-4212-b08d-e417eefd6076
+            E13_P165_uuid: 64ab111a-e0c6-4bd6-bd5c-4914c5c65b9b
+            médaille_physique:
+              E13_P46_uuid: c6428657-0c75-46d6-87b4-f3bb211600ce
     personnes représentées:
       06cc6a97-a959-4b97-be44-8b4e26046cc7:
         E36_fragment:
@@ -10387,6 +10465,9 @@ estampes:
               uuid: d060a529-87ad-4ce5-bdfc-c79e2edc439c
               E13_uuid: 4708497f-4d51-4709-86c5-6fac548e7e61
             E13_P138_uuid: 16e28e9d-7e49-445e-8999-235e4a14fb7e
+            E13_P165_uuid: 73365655-d2da-424a-8b83-c2a121555d73
+            médaille_physique:
+              E13_P46_uuid: fbedaf3f-b239-4fb2-b108-1a040f74f189
           médaille_revers:
             E36_uuid: 13b7db41-e8eb-4ca1-80d4-bdd377e42f78
             E42_IIIF_humanum_uuid: bba5e908-27e4-4386-9c1f-8a799d919acb
@@ -10395,6 +10476,9 @@ estampes:
               uuid: 62d8d83e-0e69-4070-9097-d46163e6c988
               E13_uuid: ce34c2e5-a666-4453-99a8-28679dc2bd72
             E13_P138_uuid: 5a886f92-ac8d-4e04-8dc1-3ba757d5bca0
+            E13_P165_uuid: 70375836-e6d0-4433-a2ed-5f877fdaf4b4
+            médaille_physique:
+              E13_P46_uuid: 29dcd189-f2a6-4a2b-8bba-f9080b3b18b7
       corne d'abondance:
         E36_fragment:
           uuid: c7c9b360-8e66-4bf0-b9a4-787685a41ccc
@@ -10526,6 +10610,9 @@ estampes:
               uuid: 814284e0-e72e-4335-b580-cfcd1eb4f376
               E13_uuid: b7fdad13-b1b2-421a-b1dc-ca2c6b6b44d5
             E13_P138_uuid: 269b1c2d-210d-4527-840a-ba1201b69594
+            E13_P165_uuid: d31cbbb7-6fe4-4ce9-b4e0-6f95202a1130
+            médaille_physique:
+              E13_P46_uuid: 1a8a25b7-3315-4261-ba08-9d561d8310dd
           médaille_revers:
             E36_uuid: 27121318-9c82-4873-b36d-9ff5445eebb7
             E42_IIIF_humanum_uuid: a036b6ef-7a4a-4f75-8d51-06b171ccd7e1
@@ -10534,6 +10621,9 @@ estampes:
               uuid: e1d5221a-83d5-4857-a047-72129976418a
               E13_uuid: 940b65e1-42eb-4bc9-8163-376d898ba77c
             E13_P138_uuid: 726462a5-0548-4a97-bcb3-4c21e7620072
+            E13_P165_uuid: da4bbf74-019b-411a-9ccb-ee61806c2766
+            médaille_physique:
+              E13_P46_uuid: d8ee51b3-b8aa-426f-9597-5c411256f4a4
       coq:
         E36_fragment:
           uuid: b31db6a5-faac-4cf7-bc83-5dc5b8e020e0
@@ -10598,6 +10688,9 @@ estampes:
               uuid: 9aeb39d0-4968-49f0-83e4-faef9763b5a1
               E13_uuid: 98ecc996-5b65-4974-9e92-d3face2369c9
             E13_P138_uuid: 6abb13ff-38c9-4209-b3bf-626ec4ad6240
+            E13_P165_uuid: 54648770-6043-4af1-bfbd-e321f4d0953f
+            médaille_physique:
+              E13_P46_uuid: 3aaa454a-f204-4b1b-985f-86076a7036b3
           médaille_revers:
             E36_uuid: aa6134c0-8313-4b4f-8f02-48af4c84bf05
             E42_IIIF_humanum_uuid: 920727d2-206e-4af4-870b-80dc001ba4a2
@@ -10606,6 +10699,9 @@ estampes:
               uuid: 09248aee-cb08-4fdd-856f-a841d90815dd
               E13_uuid: e4bca405-4f12-422a-bf6c-06f9044baae0
             E13_P138_uuid: bdf19c82-64b0-4621-a0dc-83544cf302c6
+            E13_P165_uuid: 38511861-98ab-4b2f-b925-5edd414da6fd
+            médaille_physique:
+              E13_P46_uuid: c0bf3855-e622-40ff-9b1e-e6aa57058e8e
       fleuve, rivière, ruisseau:
         E36_fragment:
           uuid: ef17b241-0b44-4a11-ba09-3edc9b75b6f1
@@ -10850,6 +10946,9 @@ estampes:
               uuid: c3adbbec-cab9-4e3e-b2e6-ab38d4a9f1c6
               E13_uuid: b3ae3978-73bd-4739-91a6-f863efe28dc9
             E13_P138_uuid: 8c5a0309-19a5-498a-bf49-ceb19c55ce91
+            E13_P165_uuid: bdedb5c3-4484-439b-a9f7-26d92ad923f5
+            médaille_physique:
+              E13_P46_uuid: 94d9b7d0-a122-4c6a-bfba-ab4dbec7dd29
           médaille_revers:
             E36_uuid: 6c49e4f4-033d-4099-81bb-7e81c4136111
             E42_IIIF_humanum_uuid: d5a9da31-3b67-496e-9680-87e9073d819d
@@ -10858,6 +10957,9 @@ estampes:
               uuid: c688075c-ec97-4245-9f3f-3bafd542657f
               E13_uuid: 8c4812b7-9ebd-4291-9987-f7d4ec6acf2f
             E13_P138_uuid: c92f2e4f-c489-43f1-856d-4aa1465b16bf
+            E13_P165_uuid: 6973add6-ffb9-4802-944f-80a03e7bf11a
+            médaille_physique:
+              E13_P46_uuid: dba2c4ae-6b7b-4fd9-9d18-9bcd02b649e4
       Arts (personnification):
         E36_fragment:
           uuid: 29b79473-c91f-4e8a-9ae4-79fc53455e65
@@ -11980,6 +12082,9 @@ estampes:
               uuid: 1a597f7b-14f2-49c4-b13b-06fa95dfe48d
               E13_uuid: 3d7e133d-e06a-4808-88f6-ec696491146b
             E13_P138_uuid: 252da8d3-1dff-4c59-8264-916f2d449490
+            E13_P165_uuid: cc449098-af16-4960-b58b-d2e4f90de44c
+            médaille_physique:
+              E13_P46_uuid: 3f077bbf-689e-472a-a7dd-9e45135c458b
           médaille_revers:
             E36_uuid: 23604b3c-0496-498c-a17c-580f724743a8
             E42_IIIF_humanum_uuid: 83116059-0458-420f-b1b9-839c5af865ff
@@ -11988,6 +12093,9 @@ estampes:
               uuid: ffcbce40-97c8-4306-b98a-f293f09f8b55
               E13_uuid: fbb6accb-c6b9-4b67-a3e9-e84bce75bbe8
             E13_P138_uuid: ed89a422-b28c-4bac-a517-104d43a5e6aa
+            E13_P165_uuid: 2e78c92c-81e5-4921-9d49-458868db3ec6
+            médaille_physique:
+              E13_P46_uuid: c70ae7d4-058f-40d0-9af1-e8a79e6e4e04
       grenade (arme):
         E36_fragment:
           uuid: 0d6b4b61-6922-4f82-98dd-5953f2eb7978
@@ -12066,6 +12174,9 @@ estampes:
               uuid: c4b2c71c-cb0b-49ed-9259-69905021c69f
               E13_uuid: 717978d6-3944-4646-a4f0-af03c9c5b0d4
             E13_P138_uuid: 150e7aeb-91f9-4b0e-be54-f6e1dd2e81a0
+            E13_P165_uuid: 58d97fb2-8aa6-4b2a-bc90-4116b68b1076
+            médaille_physique:
+              E13_P46_uuid: 5f5155f9-d614-4537-b14b-3cbb6e5920ae
     personnes représentées:
       74e87d92-c385-49bf-a988-0d113c4ecaf7:
         E36_fragment:
@@ -12872,6 +12983,9 @@ estampes:
               uuid: f4f46730-abef-461e-b054-c7c00c26bf6b
               E13_uuid: b46b9709-a48a-4017-b2a5-518e258c98a6
             E13_P138_uuid: f16f755c-91ba-4506-b8e2-53afa1d04d67
+            E13_P165_uuid: c0ee9011-430c-47f8-9a95-17d4bb016fdf
+            médaille_physique:
+              E13_P46_uuid: 9d037010-396f-42c2-b05e-bb8a32b4b319
           médaille_revers:
             E36_uuid: 73756773-a11d-4d27-b851-6002f208826f
             E42_IIIF_humanum_uuid: 16e4acc6-f1d6-4640-81eb-719268ea0bf8
@@ -12880,6 +12994,9 @@ estampes:
               uuid: c8d8f7d2-a154-4b51-884a-b519a2802235
               E13_uuid: 9d9e7fb6-1a29-4268-887b-e0f7dcf1d216
             E13_P138_uuid: 0850bc57-030b-4c23-9fd0-8d684cdd3399
+            E13_P165_uuid: 2458dd8d-a0bf-4a4a-a741-55ca269b16d8
+            médaille_physique:
+              E13_P46_uuid: 1483fdb8-a0b6-4f11-ae67-dafdc8521189
       cheval:
         E36_fragment:
           uuid: 364e1f27-3e21-46c5-9104-a2c0ace81990
@@ -13014,6 +13131,9 @@ estampes:
               uuid: 9b3a59c1-61ff-458d-aeb8-3d5166c061a6
               E13_uuid: dc3eb176-0e8a-4542-976c-5f96a7495739
             E13_P138_uuid: 659d89fe-32b1-4bc8-82f3-5e179327b7f0
+            E13_P165_uuid: 71264d43-1e22-4327-9c4e-5e84c59fb009
+            médaille_physique:
+              E13_P46_uuid: 2a49aa2f-c686-4315-ac04-59afa3627e12
           médaille_revers:
             E36_uuid: 9ba0c35d-9c5a-442e-8045-cba6fe134d0d
             E42_IIIF_humanum_uuid: c8d34825-9675-47f2-8a38-ba3a7230f42d
@@ -13022,6 +13142,9 @@ estampes:
               uuid: 43ebfff3-9c52-4288-9759-697e20989804
               E13_uuid: 80f48bf0-45c3-4ff8-8b06-15b1c9847881
             E13_P138_uuid: 80b1c6b2-140c-4c8a-adb4-5b84a87a1b5d
+            E13_P165_uuid: df2b50b8-4964-4c9f-be3c-4f57bfc2c510
+            médaille_physique:
+              E13_P46_uuid: 40052955-6cfc-479c-8cc1-c230822b00d4
       armoiries:
         E36_fragment:
           uuid: b6c9b573-efea-4d39-833c-bb2f13c4b48a
@@ -13545,6 +13668,9 @@ estampes:
               uuid: e7454a7b-ea40-4877-8266-7aa686d5447f
               E13_uuid: 3dbdbf39-bf67-4852-bca3-2019d0628149
             E13_P138_uuid: cb64cb0c-1396-4c3f-9ed7-6fe67314d3c5
+            E13_P165_uuid: c211348e-11a2-4bc9-bbce-58e67312f984
+            médaille_physique:
+              E13_P46_uuid: 2dd323da-ba47-42c5-bd8c-844c488ff726
           médaille_revers:
             E36_uuid: dd725395-721c-4003-b110-895a225c3ede
             E42_IIIF_humanum_uuid: cbc6f44d-867f-4c47-8f6c-e428dd6bcd41
@@ -13553,6 +13679,9 @@ estampes:
               uuid: 24f11789-8158-42c7-be45-4819422cb06e
               E13_uuid: 57afc3ac-1c0b-41ce-8834-ae7f60b9ffcd
             E13_P138_uuid: 2f5f0294-6ca9-4d37-8631-a6fd6cdf3a26
+            E13_P165_uuid: 0e5bee22-f0ed-4443-a136-3d7ea14e5d47
+            médaille_physique:
+              E13_P46_uuid: 34c164c1-f277-4f40-9986-f59cb7194449
       Justice (personnification):
         E36_fragment:
           uuid: a4d9c979-1368-45c8-b320-8d42c23ae978
@@ -15476,6 +15605,9 @@ estampes:
               uuid: 06e9799e-5a56-43f4-9f31-54da206f756c
               E13_uuid: 0fc151a4-6f87-4a88-877a-b412c27a6895
             E13_P138_uuid: 26230a00-d9fb-4a27-8cc0-d7f636ad75ce
+            E13_P165_uuid: 3c5d1dc2-825b-4108-8b3d-497afc70918a
+            médaille_physique:
+              E13_P46_uuid: 3f270309-5d12-4f92-aaa3-839fdf78b25e
           médaille_revers:
             E36_uuid: b4809271-46cb-4063-a4b4-a0cca967c585
             E42_IIIF_humanum_uuid: a07f9862-a1c4-4b13-a341-199dd3ba0038
@@ -15484,6 +15616,9 @@ estampes:
               uuid: 8b51c7bc-e8c6-4994-9c68-1951ce764901
               E13_uuid: 05be72c2-f93c-49c2-9d40-f5a6f75df3ec
             E13_P138_uuid: 82f0daa1-12ff-4e4f-b9b4-4b0e76d90de4
+            E13_P165_uuid: 61512b73-2d40-4ded-8a2e-1af31fd21001
+            médaille_physique:
+              E13_P46_uuid: 488eb937-cae1-43df-9232-a6fdfaaa53ba
       foudre:
         E36_fragment:
           uuid: ee7cfed4-f364-4e13-8a26-532416d93f42
@@ -16360,6 +16495,9 @@ estampes:
               uuid: fa7a5873-3260-4da0-818a-ddb23b3aeac6
               E13_uuid: 5f7a0e03-e435-4358-a7c4-55332822e3df
             E13_P138_uuid: 1d2b0e56-8d7b-40a1-b43b-865e4b82a3d5
+            E13_P165_uuid: 6cb408ec-d996-44a9-9c63-4e71438b5bec
+            médaille_physique:
+              E13_P46_uuid: 55b235a4-18d2-4863-944b-9d1f6c0b1203
       Minerve:
         E36_fragment:
           uuid: 45597a86-7579-4916-a544-2a8671c2c1bc
@@ -16424,6 +16562,9 @@ estampes:
               uuid: 7cbbf3e8-be9a-482f-99dc-fd946a26cc60
               E13_uuid: 084a0f16-3f1d-4a70-be56-2ad74f35b4c7
             E13_P138_uuid: f017f9f6-4848-4711-b070-d1cd004e6e82
+            E13_P165_uuid: 28c2e39a-a09c-4d6b-9e51-a48eba5bb16c
+            médaille_physique:
+              E13_P46_uuid: b0a11305-0c5b-4cfc-942e-74c96e01edf0
           médaille_revers:
             E36_uuid: 3b31408d-9c60-4d24-adc3-e8e44400bb49
             E42_IIIF_humanum_uuid: c61540dd-87e7-4d99-a386-fbc6373f15e6
@@ -16432,6 +16573,9 @@ estampes:
               uuid: b0857f26-8468-4510-a16e-86073407b6a1
               E13_uuid: 6e2bd3be-9b7c-41fe-ae37-7af455899127
             E13_P138_uuid: a3bc420c-d147-4e4d-a0b6-cf04b3f12bcf
+            E13_P165_uuid: 8ea34e2d-e472-4dc4-a2a9-f0333ef8595a
+            médaille_physique:
+              E13_P46_uuid: b5226e3b-5ef1-40ff-bf73-c8e1b9794db1
     personnes représentées:
       bc60a506-a9a7-488e-b45a-dcb07a2167e6:
         E36_fragment:
@@ -18096,6 +18240,9 @@ estampes:
               uuid: 22cb48fc-ead8-4f5c-9cc1-82bdc1ea0443
               E13_uuid: 055d308e-146b-4d40-9e34-1e143fcc6f45
             E13_P138_uuid: 2ff849ff-5133-4b79-b944-d31ba994570a
+            E13_P165_uuid: 78936dc6-4f7d-4f54-9d8f-377796d297fb
+            médaille_physique:
+              E13_P46_uuid: 6c880dd4-d25a-427f-a280-d0d4e2996d86
           médaille_revers:
             E36_uuid: 9908329b-299e-4891-b113-b8474e795cb6
             E42_IIIF_humanum_uuid: bc4ce9fb-895e-4749-93ef-25127af01b92
@@ -18104,6 +18251,9 @@ estampes:
               uuid: 7738549a-99ed-4f61-aaa0-9ee6e1c51fe7
               E13_uuid: 9be1eefc-dd96-48b6-8535-c2c45d726c83
             E13_P138_uuid: ee0a97bc-9b04-4bdf-9411-7bf034f6af80
+            E13_P165_uuid: cc63aefe-df30-4daa-8d92-18ef5b808838
+            médaille_physique:
+              E13_P46_uuid: e4697b29-6010-4f3b-8c63-fb1afb2856c6
       ville:
         E36_fragment:
           uuid: 710b9de7-8aab-4fa1-91e9-83b08bbd224f
@@ -18536,6 +18686,9 @@ estampes:
               uuid: aa3f0c49-0a68-4b77-a5ca-eb2eb3d26833
               E13_uuid: 2c801bbf-5a05-44e7-8e5f-2187d9b9e595
             E13_P138_uuid: f6b06aa9-e8c4-4ede-ac35-0c590a180300
+            E13_P165_uuid: ed388b43-f50f-469e-b751-7ae601ba3d9c
+            médaille_physique:
+              E13_P46_uuid: c9db6413-710d-4ac0-8259-67371e613bdb
           médaille_revers:
             E36_uuid: a7b13553-6a9e-47aa-b67f-8770c9c19970
             E42_IIIF_humanum_uuid: ac64b90b-42b5-4d09-822c-b3b669f84503
@@ -18544,6 +18697,9 @@ estampes:
               uuid: bd4e2579-ec90-49a9-ba09-a7a01cf4c7e7
               E13_uuid: 6c0c408d-7aa6-4fdf-a37b-883d5b1c0507
             E13_P138_uuid: 79413a51-c03b-40bd-a2a2-948725542f95
+            E13_P165_uuid: 7630920d-c81d-4dc7-ba68-9578b087d04d
+            médaille_physique:
+              E13_P46_uuid: bdce166e-4e50-40ca-9835-52f416cee5a3
       lion (animal):
         E36_fragment:
           uuid: 1c80e820-a4dd-40ce-b213-1a32870fe3c9
@@ -18623,6 +18779,9 @@ estampes:
               uuid: c9dbab05-5755-4f20-9cf8-43f96e7301ba
               E13_uuid: db1e7425-0cb7-480b-a74f-a84826b15b21
             E13_P138_uuid: d0f119fb-88c6-47b1-958f-b5175eac7dd8
+            E13_P165_uuid: 32c4ce88-6f54-4d40-8211-b5d2a9c917e7
+            médaille_physique:
+              E13_P46_uuid: b307aa2e-10da-4c79-89f4-f53d8ec753e2
           médaille_revers:
             E36_uuid: 8251b890-bce0-455f-8cb7-9d09bde469bf
             E42_IIIF_humanum_uuid: 22e39350-fb17-49fe-b445-05b0373ff44f
@@ -18631,6 +18790,9 @@ estampes:
               uuid: 709a5b90-fb0e-4fdb-a7b9-94a5143692b0
               E13_uuid: 3c4ff82f-75e6-4295-8abd-ac92da661989
             E13_P138_uuid: 023de124-c490-4e35-be52-fe8a27e98ae3
+            E13_P165_uuid: 59d3cb15-61ca-4442-b325-728309ab46d4
+            médaille_physique:
+              E13_P46_uuid: fd5153b3-ea98-458f-adbc-8152ed6712c0
       Justice (personnification):
         E36_fragment:
           uuid: 4ae1dc54-6268-49ac-ad6c-62981b2e4643
@@ -18922,6 +19084,9 @@ estampes:
               uuid: e46bf745-5730-4e58-9796-0a5de6d0dc87
               E13_uuid: 17ad8d49-8fbc-4836-a5c7-20cf271332ad
             E13_P138_uuid: b0b6cd66-80a7-4411-a5f3-45e273bd478c
+            E13_P165_uuid: 7f73694a-7be1-4a71-9913-7d038d9285b9
+            médaille_physique:
+              E13_P46_uuid: fd2b6e39-2d42-4004-8237-9dfcd696a62b
           médaille_revers:
             E36_uuid: fe4b3ecb-b064-4f9f-b405-a591531a8fac
             E42_IIIF_humanum_uuid: faa35147-d18f-4fd1-9066-fdfeb002995d
@@ -18930,6 +19095,9 @@ estampes:
               uuid: 16fbe6c7-b8c9-4ccb-bc22-f4b7f871c016
               E13_uuid: 0159eaa5-5fd8-4223-97db-e007052095af
             E13_P138_uuid: cde2ee40-1251-40b2-9b7d-68a32f64d702
+            E13_P165_uuid: cc459074-aa46-403a-909b-bd3a06bc17fe
+            médaille_physique:
+              E13_P46_uuid: b0c08080-8b3b-481d-a4c0-9352ed114d85
       soleil:
         E36_fragment:
           uuid: b2f47d32-b75b-4280-afdb-c3ced6357f7e
@@ -19062,6 +19230,9 @@ estampes:
               uuid: 7c1a734d-c9a8-4b4b-b588-d412f9dec481
               E13_uuid: e50833a4-6606-40be-a85f-dbfc853eeee2
             E13_P138_uuid: 579d4c7c-9413-4c00-b090-ba4f27a52ee1
+            E13_P165_uuid: 53006a81-ad59-4638-b4ac-4a518d86b32d
+            médaille_physique:
+              E13_P46_uuid: 01ca13d1-c85b-4cf5-ba5d-40118d0dad5f
           médaille_revers:
             E36_uuid: f7e19879-ba73-4a7e-8e21-f0771856e2ab
             E42_IIIF_humanum_uuid: f6758cd9-64aa-41ed-a385-f264744750fa
@@ -19070,6 +19241,9 @@ estampes:
               uuid: 6d0a40a0-1176-4ae3-b977-04bbc06be0cc
               E13_uuid: ae4e0fb0-30a7-4d9e-a0f9-900f3cff6e13
             E13_P138_uuid: 889a6255-1ad5-4a64-8f6c-4a858ce2395b
+            E13_P165_uuid: 5328d4fc-c77d-4d97-a926-f0da01d6d02c
+            médaille_physique:
+              E13_P46_uuid: 9d8acb01-316b-4831-b0d8-4f098298d7d2
       statue:
         E36_fragment:
           uuid: c89bc57b-c70c-463e-9af7-8bf65b009993
@@ -19141,6 +19315,9 @@ estampes:
               uuid: fcfb9251-ed2c-43d0-929f-665ce36af030
               E13_uuid: 732043c4-1fd1-4962-b0fc-bdb8231d66a2
             E13_P138_uuid: 8715f599-bacd-4e55-9dae-d4a2b8176dad
+            E13_P165_uuid: b30ad918-0328-4a36-a688-4e052569c73e
+            médaille_physique:
+              E13_P46_uuid: 260f5fb6-262f-42d2-b416-dc16157179fc
           médaille_revers:
             E36_uuid: 245e85cd-67e5-4c0f-9c9d-77cbcc71fcdc
             E42_IIIF_humanum_uuid: 364e3a1a-e695-4072-a664-b684dec591a5
@@ -19149,6 +19326,9 @@ estampes:
               uuid: f1a51b99-a434-42cc-a336-f135ff61eb5d
               E13_uuid: 5f8ccb76-f467-43db-b944-878745775f47
             E13_P138_uuid: aceddf55-c91f-44fa-ad80-48f1a7e607b7
+            E13_P165_uuid: b78f31a4-53e3-4631-973e-d380af72c9d7
+            médaille_physique:
+              E13_P46_uuid: 05d657aa-c740-47e6-ae03-1abee949068f
       balance:
         E36_fragment:
           uuid: 1a0dfdfc-e093-40b2-bfc0-3eade8d4d756
@@ -19206,6 +19386,9 @@ estampes:
               uuid: fd1b71e6-3819-4269-a386-99fe9b3cb520
               E13_uuid: 6317a99f-771d-45c1-b273-0fffcddbc8b9
             E13_P138_uuid: 1ea93370-1a1d-435a-943d-a96b084b1bbd
+            E13_P165_uuid: d07d08a8-4f74-473a-86ac-cd9c1dc34bd1
+            médaille_physique:
+              E13_P46_uuid: 16e76f09-4b0d-4859-b94b-88b21820926d
           médaille_revers:
             E36_uuid: 0c6fc8b5-56c5-48c0-a8aa-ffa58f194e96
             E42_IIIF_humanum_uuid: 0056b661-8100-491e-8d31-f748179d8235
@@ -19214,6 +19397,9 @@ estampes:
               uuid: ac25354b-5ace-4360-a778-495592b962c0
               E13_uuid: 2b2ffda2-0769-45a5-ba8d-83f6af9f6a75
             E13_P138_uuid: c7e88a38-350f-4639-96a9-01cc352726e1
+            E13_P165_uuid: e57bada5-c824-4247-b85e-8df872a1b18f
+            médaille_physique:
+              E13_P46_uuid: 8cd66130-40c5-40d2-ae4f-c42c6673105e
       balance:
         E36_fragment:
           uuid: 459df367-0662-4204-bbc3-e9fa475412a6
@@ -19567,6 +19753,9 @@ estampes:
               uuid: f10ec63e-3fb7-472a-b765-0dd8cbdd4145
               E13_uuid: 2edb46ae-c04d-48c4-8514-196c6a5b403d
             E13_P138_uuid: b6e10cb3-1154-4857-99cc-347fe8b67cf8
+            E13_P165_uuid: a05a6bbd-52f5-452f-993d-30c2d4997cf9
+            médaille_physique:
+              E13_P46_uuid: 70f764ae-56eb-4745-aa25-15bd05a46584
       colonne:
         E36_fragment:
           uuid: e6cb1e61-7f56-429e-91ab-d1c551122178
@@ -19668,6 +19857,9 @@ estampes:
               uuid: ebf2d8e7-5abf-422b-9e2c-0dc6e11c7ee3
               E13_uuid: 2272dbf6-51ce-4a58-a2b2-9b3134c36d11
             E13_P138_uuid: e522dfa3-be4e-46f5-ba3d-adb98b14e259
+            E13_P165_uuid: f1fa77d5-a8a3-48f3-aa73-b739a95229d8
+            médaille_physique:
+              E13_P46_uuid: 3a43f1f3-7273-4956-9150-d956659b4e7b
           médaille_revers:
             E36_uuid: 3e1dd27e-036e-41ba-a008-da490f237e9a
             E42_IIIF_humanum_uuid: a4e404a2-2919-4e29-8d10-27a4cbcb909b
@@ -19676,6 +19868,9 @@ estampes:
               uuid: 8491f051-285e-4e2c-a9d1-75ad8372b59f
               E13_uuid: a62428ff-e86b-457f-b158-3f6cd5012236
             E13_P138_uuid: d905342c-1946-4cd1-a9e4-af1784a1e28d
+            E13_P165_uuid: 3c1361c7-5a62-4bba-951a-159b8a1368ee
+            médaille_physique:
+              E13_P46_uuid: fa411c00-7576-4502-88c8-51f2dabf2102
       arc de triomphe:
         E36_fragment:
           uuid: cb1b640b-c0bd-43c4-9287-1c636061a441
@@ -20158,6 +20353,9 @@ estampes:
               uuid: dfa8944b-9f6a-4bae-aea3-38468a4d547d
               E13_uuid: dfd05172-f31b-4591-8a44-46a6ed4db240
             E13_P138_uuid: 3d392ffb-18ea-4b8c-b31f-ebbfc367ac94
+            E13_P165_uuid: 1ce13d60-3fc3-44b5-a7ea-3197440c2e21
+            médaille_physique:
+              E13_P46_uuid: be3a2228-61a0-4978-848b-64cc5969cf86
       trophée:
         E36_fragment:
           uuid: 7f745f2b-46bf-476f-9b5a-ba2e35437552
@@ -20241,6 +20439,9 @@ estampes:
               uuid: c6ebcb4a-c243-4d73-be1d-f68ebfe6f74e
               E13_uuid: e1e594c3-b415-4c9e-8c33-3df680c12e8d
             E13_P138_uuid: 3955e32d-7f29-46c9-a58d-fa5dd0e823e5
+            E13_P165_uuid: 419ea6a6-46ac-4762-a3ff-f898f92d19ed
+            médaille_physique:
+              E13_P46_uuid: 02751935-490d-4f3d-9593-37bdab5c1779
           médaille_revers:
             E36_uuid: 6991fa3e-567a-4690-b4e6-e786910b4303
             E42_IIIF_humanum_uuid: 01e107ac-3781-4022-bccd-66c9001c1eb6
@@ -20249,6 +20450,9 @@ estampes:
               uuid: 74d3d788-877a-42ec-b46b-5dc8bb483f6c
               E13_uuid: 2145ca90-b31f-437e-8d7f-1eac4c32d42b
             E13_P138_uuid: e2aee215-0f2c-4fb0-9ca4-834f1393dfd9
+            E13_P165_uuid: 07db5df6-9c9f-4b2f-9412-fde00f980fc4
+            médaille_physique:
+              E13_P46_uuid: faf7d716-ac47-4beb-af42-e0ba7f725cfd
       colonne:
         E36_fragment:
           uuid: ba18cee2-d76c-4df3-b705-ded9c19a963b
@@ -20304,6 +20508,9 @@ estampes:
               uuid: f18ec4c4-383c-4c10-b079-723c07bb8cca
               E13_uuid: 2b8212b6-2049-4031-a55b-c3edc9eb7a1c
             E13_P138_uuid: caca9176-90a5-4764-bed8-ad823bc646a1
+            E13_P165_uuid: bc513263-85b0-4fcb-9fac-4a767ece8cd4
+            médaille_physique:
+              E13_P46_uuid: 303ce751-0c3d-414d-801d-701c18469091
       mer:
         E36_fragment:
           uuid: a2f78436-39f0-4f20-aab2-f1ab0cd58977
@@ -20375,6 +20582,9 @@ estampes:
               uuid: bd6a9c15-d085-4b52-bfdd-647982bc2b42
               E13_uuid: 5d0e3f7b-ff36-4a9c-bdd1-a96de915da73
             E13_P138_uuid: dff936b8-3134-45ea-93ea-0fff1c2694fe
+            E13_P165_uuid: 7c74e362-6d44-4937-a011-a7cf524f2306
+            médaille_physique:
+              E13_P46_uuid: 82f4711b-4eac-4c7e-aace-0a7046377d13
       Père Rhin (personnification):
         E36_fragment:
           uuid: 5444c19c-a2d0-4ab0-8ecc-9b1093d8ece5
@@ -20463,6 +20673,9 @@ estampes:
               uuid: 5e3f2096-2627-48ca-b635-e56ef6b5dc4f
               E13_uuid: c18b0ef9-5599-4c2c-bf51-9798a18b6b6f
             E13_P138_uuid: 5b5432e5-9dd2-4a86-926d-2ee366ca72c8
+            E13_P165_uuid: 60d3af70-7f62-4c38-9b17-162a823a4b2c
+            médaille_physique:
+              E13_P46_uuid: a3def96c-95a6-4608-b48e-c9d07b162a78
       Mercure:
         E36_fragment:
           uuid: 00e56c95-6f5a-4fa2-8134-482b2bbbc775
@@ -20648,6 +20861,9 @@ estampes:
               uuid: d23b705e-6122-4fa6-91ca-ef2be186e05f
               E13_uuid: f26740cf-97e6-4c17-a549-5dc9fe283c5d
             E13_P138_uuid: 155dd11d-24dc-459c-8272-87f6e64a428a
+            E13_P165_uuid: 53c83dcc-ffb5-4ccb-84b1-68cc787f5877
+            médaille_physique:
+              E13_P46_uuid: eaab18fa-1d6d-441a-a4cf-c856aa70890b
       lance:
         E36_fragment:
           uuid: bc4ebba1-576f-4cce-9e7a-adc1ede2be37
@@ -20870,6 +21086,9 @@ estampes:
               uuid: 24de53da-059d-4ab8-9bbb-6c044010417e
               E13_uuid: 7ea0505c-4506-42a7-a975-206246b91028
             E13_P138_uuid: 41ee0e59-8b43-4f61-9f03-bf7156151dc2
+            E13_P165_uuid: ad29422d-e410-4fec-addf-e4f31060378c
+            médaille_physique:
+              E13_P46_uuid: 331055ed-04d2-42df-9fe2-b8ab0760c977
       forteresse:
         E36_fragment:
           uuid: 5d73bdcc-7542-41a2-bda8-c79cdcb854fe
@@ -21084,6 +21303,9 @@ estampes:
               uuid: 8c5c0cb8-3363-4478-b5ab-0e2753598842
               E13_uuid: 952213bb-6630-44cb-a678-ac550a255056
             E13_P138_uuid: e24d6726-13ec-4018-9c5a-b52761ed5009
+            E13_P165_uuid: 6ddab8e7-023d-479f-b917-565f61131bb8
+            médaille_physique:
+              E13_P46_uuid: 82fa4273-082d-40fa-9516-36ac618165f9
       armoiries:
         E36_fragment:
           uuid: cb7c5c8b-71e6-4620-9a91-0fbaa4f68c48
@@ -21384,6 +21606,9 @@ estampes:
               uuid: 056d0486-468d-4f50-8c93-07ee6e3b7b71
               E13_uuid: 615c4973-6c32-4f9a-9948-36de455d5a03
             E13_P138_uuid: 35cb8048-f7e8-4b72-887e-35ad1b8eec6a
+            E13_P165_uuid: 3cd00694-5ab9-44bd-ac03-1ecce0856140
+            médaille_physique:
+              E13_P46_uuid: cf82f9d2-84ce-4460-b8ba-c763f1c71256
       arc de triomphe:
         E36_fragment:
           uuid: 1a511fa6-57c9-48d1-b3c6-6d26bbce96c0
@@ -21459,6 +21684,9 @@ estampes:
               uuid: 116b2572-2371-40a0-a54c-84ba6ed3cad2
               E13_uuid: 4418a108-8bd7-49a2-92c1-feb1083ae5da
             E13_P138_uuid: f17dcaad-5155-4112-8e42-7e9a694b7e0f
+            E13_P165_uuid: 893e4fae-9246-4be4-b606-816eaeee9ee9
+            médaille_physique:
+              E13_P46_uuid: b522df8d-da19-429f-9c3c-d6ae69b6e48b
       ancre:
         E36_fragment:
           uuid: 5b7fccfe-e8ce-4095-aac6-18a5700e3239
@@ -21549,6 +21777,9 @@ estampes:
               uuid: 11574c04-4367-4e01-9115-c40286441d32
               E13_uuid: 78968713-3331-4c57-9628-fa0afa089c44
             E13_P138_uuid: 83b0515f-e8bd-4b64-a6d1-8800d93cd429
+            E13_P165_uuid: 8eed688c-55ef-4b1e-9175-a7c86e4d7a19
+            médaille_physique:
+              E13_P46_uuid: 1e050129-efd0-43bb-b5a4-95576b862784
           médaille_revers:
             E36_uuid: 9a104007-bfec-4d97-ac89-b9fa9ba90476
             E42_IIIF_humanum_uuid: e7919c89-1d5b-49cb-a929-ccfd1a890b00
@@ -21557,6 +21788,9 @@ estampes:
               uuid: 63fec7e0-237a-4b0a-8de1-8abc9ed3415b
               E13_uuid: b68c7156-cb47-42e2-a2b4-ec6a380dde33
             E13_P138_uuid: 86f4b314-e7ce-42f5-93ae-e2ff83b2a6ba
+            E13_P165_uuid: b0cf7d08-a563-43bd-a4fe-f5e4db6cefbf
+            médaille_physique:
+              E13_P46_uuid: 6b328e4c-27d7-4dd6-bfb7-0f56bbf65384
       texte en hébreu:
         E36_fragment:
           uuid: 28970e09-4065-4dde-a5bd-be9b033371f2
@@ -21833,6 +22067,9 @@ estampes:
               uuid: 1cc4aab4-43f5-4782-843d-f6ce8d85a2f3
               E13_uuid: 806c9f2f-1fe2-4189-ad41-db4bb402249b
             E13_P138_uuid: 193889eb-e8f3-4db0-a085-726fa54f8efc
+            E13_P165_uuid: 8355d6f5-1933-40b3-a55b-1346af6f324d
+            médaille_physique:
+              E13_P46_uuid: 44355d91-c91f-46f3-b215-bcb817176735
           médaille_revers:
             E36_uuid: 2eca6f79-7ca6-4e30-95c7-71e6b46da6ce
             E42_IIIF_humanum_uuid: 0c810db6-8076-488d-b31a-c3857ed04068
@@ -21841,6 +22078,9 @@ estampes:
               uuid: 6fab071c-475e-4cee-bef7-e501cad00aa7
               E13_uuid: f3e92bc2-5688-4ac1-8e0f-9ceee1faa402
             E13_P138_uuid: e9277ebf-976c-493c-9f4a-8a0bd5beeec9
+            E13_P165_uuid: 147fe68e-f514-4de6-a3be-c426cc16e89d
+            médaille_physique:
+              E13_P46_uuid: 4e0483a2-82ec-4b8a-8be2-a71a771c8fd9
       enfant:
         E36_fragment:
           uuid: 17eb4a58-2181-409b-87fc-f30fa88a1cc7
@@ -22034,6 +22274,9 @@ estampes:
               uuid: 8f70f4dc-1205-4c70-b5fd-fb54147c757c
               E13_uuid: 1a530dd6-e772-405b-a33a-d6fc659a5c73
             E13_P138_uuid: 164898d2-abfa-4d32-88aa-4c0ae3685f05
+            E13_P165_uuid: b5efa83d-af65-4a05-ae08-32f88f59ceeb
+            médaille_physique:
+              E13_P46_uuid: 45591928-3d37-4907-9559-ea7bce72a430
       soleil:
         E36_fragment:
           uuid: 8d7d58fb-8e01-42de-8c95-aa289127d773
@@ -22400,6 +22643,9 @@ estampes:
               uuid: dcdeffe5-3e4e-41bd-860d-4273b0848627
               E13_uuid: 021cefad-9fdb-4373-8f7c-206ec634ec15
             E13_P138_uuid: bed4fbf6-dac4-44bc-ac25-c2fc91c394d5
+            E13_P165_uuid: 57101d0e-0bda-4058-a3cc-8934350e2741
+            médaille_physique:
+              E13_P46_uuid: a5e7b652-5fda-4bbe-9ee6-51b895c4200a
       foudre:
         E36_fragment:
           uuid: d5ef936a-801c-41f5-8c4b-d5e4dbdafbda
@@ -22585,6 +22831,9 @@ estampes:
               uuid: 986edc74-aed0-4cf7-b829-39a070a1e6de
               E13_uuid: d0cf8202-cd77-45e4-a025-cd52276b3259
             E13_P138_uuid: 717f6993-f3ee-4d51-8e8c-1db26f8fa5f4
+            E13_P165_uuid: 9f37fed9-663d-4cf1-8077-96084f839f50
+            médaille_physique:
+              E13_P46_uuid: 924d026e-13ee-4a31-84ec-7ae7114ebd8e
       char:
         E36_fragment:
           uuid: cae0fc2e-e2db-4439-b176-d0dfdef18d5e
@@ -22658,6 +22907,9 @@ estampes:
               uuid: dd26e29a-80be-410f-bd9e-cdec67bb76ae
               E13_uuid: 4890aced-5ffb-4f97-a4ab-10d15038e35a
             E13_P138_uuid: 9b6730c2-1ac3-437c-9e4c-0fbc338537fd
+            E13_P165_uuid: 7ec184fd-77c7-4be6-a705-d32ffaa1f061
+            médaille_physique:
+              E13_P46_uuid: b503c5e9-4b0d-4923-a187-41d240d03ee4
           médaille_revers:
             E36_uuid: fbf3548a-f2c0-4198-8da7-3185ee4af877
             E42_IIIF_humanum_uuid: a727b1dd-e641-47e5-bcab-6e76956d502d
@@ -22666,6 +22918,9 @@ estampes:
               uuid: 56cf951b-e839-4dd4-a198-b2e52e359035
               E13_uuid: efe93185-114d-444d-b465-26f45b2358c0
             E13_P138_uuid: 29899d67-eacd-48ec-bc52-20bf2f61d860
+            E13_P165_uuid: f0bd359a-3dff-4d9a-bb97-ddd5feed343d
+            médaille_physique:
+              E13_P46_uuid: 0178c093-15dd-4d19-91ce-26035293b58a
       mulet:
         E36_fragment:
           uuid: b490b2a8-dd8d-47f5-9079-b7e5062ec0bb
@@ -22735,6 +22990,9 @@ estampes:
               uuid: 644ec687-20ae-4391-9491-dcdc242a1d3d
               E13_uuid: f31261d4-63ec-414f-b6db-de90af4c870b
             E13_P138_uuid: e6d35d3e-ad66-4a8f-ba39-4f7efea63470
+            E13_P165_uuid: 3717f7f2-b65b-48c9-b944-de6229c3f6a3
+            médaille_physique:
+              E13_P46_uuid: d45f92fc-80d0-49cd-b55f-8dd213b9a97a
           médaille_revers:
             E36_uuid: 1a3a57d6-cc9c-454c-927f-f9b575a74ef7
             E42_IIIF_humanum_uuid: 1edf11c5-e1b0-47fc-bb9e-9f1db8f11fb3
@@ -22743,6 +23001,9 @@ estampes:
               uuid: 28605115-5a01-4ed0-8ebc-872d2df3eb9e
               E13_uuid: 8e37c25d-4838-4d13-b72c-4f1890f9bc79
             E13_P138_uuid: 0fb5f4d2-9238-4641-8fd3-c89e89be24fc
+            E13_P165_uuid: 2f4e0f98-710c-458a-9b21-cbc99413944e
+            médaille_physique:
+              E13_P46_uuid: 4b43366d-54ed-4abc-a4af-2733db1dba5d
       dragon du jardin des Hespérides:
         E36_fragment:
           uuid: 467001d4-4255-4c96-b68a-dd8bca39b968
@@ -22798,6 +23059,9 @@ estampes:
               uuid: c8daf895-1806-407b-be75-150e52a64531
               E13_uuid: 99fe3695-1b65-4ee5-977a-3845c53e4009
             E13_P138_uuid: e5d0b657-ba95-4749-a7ab-543d2f6a9654
+            E13_P165_uuid: 1b047709-a46a-4776-b192-4782ea61de50
+            médaille_physique:
+              E13_P46_uuid: 3941a282-27c2-4c8a-afc3-b02776fcef62
       forteresse:
         E36_fragment:
           uuid: 780a55c8-e198-4b1b-bb84-3cfa5c2f6706
@@ -22860,6 +23124,9 @@ estampes:
               uuid: 65add946-f34f-4534-a2b8-c9a30cd83ce3
               E13_uuid: 1da9fbca-0ec1-4b52-9f3d-7dd57c54ed16
             E13_P138_uuid: e664472e-2dbe-4d5c-8cfd-161a7bd8c869
+            E13_P165_uuid: b9610989-e422-485c-a5ee-0be2854865e7
+            médaille_physique:
+              E13_P46_uuid: 0b7d28a6-6f5a-438c-bcda-e707d84eef0e
       Afrique (personnification):
         E36_fragment:
           uuid: efe2c002-691b-422a-b6e5-34a272865ccf
@@ -23033,6 +23300,9 @@ estampes:
               uuid: e6a57c01-e394-4e4a-b589-c55501a30b80
               E13_uuid: 9c89bf70-d7a3-4880-977b-b9d046319ddf
             E13_P138_uuid: c09322de-51ac-4fab-90ac-bbd341306fd6
+            E13_P165_uuid: a9edac34-db0e-45ee-9aba-89b92e9c27df
+            médaille_physique:
+              E13_P46_uuid: e668aa00-67bc-48b7-a52f-56286e7049d0
           médaille_revers:
             E36_uuid: 6b9b452b-20a0-466f-89a3-d39a1ae7ceda
             E42_IIIF_humanum_uuid: 72f2e3a8-b047-4915-a985-05cc988ef0f8
@@ -23041,6 +23311,9 @@ estampes:
               uuid: d424855b-5d4d-46ba-bc34-22c2732a660c
               E13_uuid: ab074cbc-d7de-4720-9a7a-54db2bdc4370
             E13_P138_uuid: 86c00e2b-e037-43f2-afa4-d051609bc35b
+            E13_P165_uuid: 55c92edf-1a1f-4cb1-9ca9-b71a38cfeab7
+            médaille_physique:
+              E13_P46_uuid: d1e007e6-3f0f-4fd2-b527-aa10d16d0019
       piédestal:
         E36_fragment:
           uuid: 34bddc4b-9020-4243-81d3-eeef68e20ae4
@@ -23217,6 +23490,9 @@ estampes:
               uuid: f17df80d-3b13-4b05-9c4b-8d22a6054843
               E13_uuid: 2baf8cb6-fe4b-4894-9b5a-e530895e3e64
             E13_P138_uuid: b649fe68-5658-4db4-807e-b9085a3c8e45
+            E13_P165_uuid: ace86d52-93ec-4d58-8457-f9e2dd2e5d57
+            médaille_physique:
+              E13_P46_uuid: cfa4167f-900a-4571-984b-f7eadb142cfa
       Paix (personnification):
         E36_fragment:
           uuid: c11dfe06-deb4-4c2d-ac00-25e101fa2716
@@ -23279,6 +23555,9 @@ estampes:
               uuid: a2466b3b-13e1-4f76-b7fb-ab5eb9e9819e
               E13_uuid: 374dd2c5-285e-4838-9f34-9a74413e2173
             E13_P138_uuid: 2ebf45c0-ad1d-40c6-a99d-de3ff9666206
+            E13_P165_uuid: 0cd991ef-17c9-4d87-bd3f-b89bf1e732c4
+            médaille_physique:
+              E13_P46_uuid: 937d1595-b00c-40c0-b383-4ea9886cbe24
       soleil:
         E36_fragment:
           uuid: 853b9ef9-852e-471d-8bfc-35b7cfedda49
@@ -23355,6 +23634,9 @@ estampes:
               uuid: e8eccb4f-aa19-4896-a7b5-164107dfbf0c
               E13_uuid: e9be044f-ac0f-4684-be97-21e4a66227b1
             E13_P138_uuid: 281a11e0-907b-4d8c-9365-e44c41e01a0d
+            E13_P165_uuid: 34581314-8e96-4733-a4d4-0f9beab7f2e3
+            médaille_physique:
+              E13_P46_uuid: 8250f823-b439-471d-b9ec-ec0f786578eb
           médaille_revers:
             E36_uuid: 439b00bb-6cc0-4d24-bdde-1b9bbc3f7b8a
             E42_IIIF_humanum_uuid: 80a578a3-590c-4d10-8add-4f7f24e50ce2
@@ -23363,6 +23645,9 @@ estampes:
               uuid: 28ff60a2-ca66-4c1d-8233-3ef481316591
               E13_uuid: 83833b8d-25d0-4cc8-a671-04c1c07eea0c
             E13_P138_uuid: cc415866-5f67-467c-9cb9-3f850368e8c1
+            E13_P165_uuid: cf5a279e-870f-4664-95cd-a6657e1d1e6e
+            médaille_physique:
+              E13_P46_uuid: 395c15b9-871e-42c1-b908-d39264a35db3
       église:
         E36_fragment:
           uuid: 16e72756-bfe4-450b-b27b-7247f6a290aa
@@ -23446,6 +23731,9 @@ estampes:
               uuid: 15da9e00-58e4-4d24-9154-d8fed43f1873
               E13_uuid: 864ebc06-0347-4a42-b97d-d0df12226cc2
             E13_P138_uuid: baa67c5f-b88d-4926-9fde-fd09f0b541f1
+            E13_P165_uuid: e1ff684d-86df-4f92-9c1d-28d422861c0f
+            médaille_physique:
+              E13_P46_uuid: 5b8644d3-fa03-4930-884e-2789274642e2
           médaille_revers:
             E36_uuid: 9f588fe2-7da1-4151-b6a3-6d96160331cf
             E42_IIIF_humanum_uuid: ec4eea2f-67e8-49e0-a423-e2267154fc48
@@ -23454,6 +23742,9 @@ estampes:
               uuid: d1785a8c-d914-46dc-bd81-e37f374307c3
               E13_uuid: c79b13ae-46f1-4394-b833-e7c83cfc8a66
             E13_P138_uuid: 6cbbe0b9-540c-437c-97f6-0a14af50c182
+            E13_P165_uuid: f9e1bcb2-12b6-4976-b814-f5728df2d07e
+            médaille_physique:
+              E13_P46_uuid: 08b89dd1-612b-474c-926b-f131fbc19083
       pape:
         E36_fragment:
           uuid: e2f541a3-68c0-4b4d-90c1-4e386ea71c1d
@@ -23509,6 +23800,9 @@ estampes:
               uuid: a09ff4bc-0ee3-4593-9ea6-ed6019f9d5fa
               E13_uuid: 2174cb6b-c481-4219-84e0-3d7af4edad2f
             E13_P138_uuid: 4b8fa56a-6ccf-4a8e-9c86-1022fb0f44a6
+            E13_P165_uuid: c9d6ae3f-326c-42dc-bee7-8e55331df01c
+            médaille_physique:
+              E13_P46_uuid: ff34361a-d0b5-4860-a292-ce00995fc085
           médaille_revers:
             E36_uuid: 0d3b83ac-00e9-47a6-bd2e-20e4fce9d650
             E42_IIIF_humanum_uuid: 3667ecc9-7f61-4875-8199-ff05d87c85ba
@@ -23517,6 +23811,9 @@ estampes:
               uuid: f3cb2840-d7d7-4fb6-a091-2f9960ed9b03
               E13_uuid: b4155318-69e4-4bcc-b664-7dfcea532aec
             E13_P138_uuid: 8a283fdf-e3e1-4860-b928-cb9ce89b9527
+            E13_P165_uuid: ee5982f5-a231-4586-b5d9-141881da8236
+            médaille_physique:
+              E13_P46_uuid: 5df71905-420f-4340-9854-d4f4b956ff0d
       piédestal:
         E36_fragment:
           uuid: 32e181c0-d8bd-430b-92a9-83d667c376c5
@@ -23579,6 +23876,9 @@ estampes:
               uuid: cd635526-298a-4c57-84a4-5cbaaf3d0b62
               E13_uuid: 866af389-e411-4f0f-bb34-bbeb9e151048
             E13_P138_uuid: 6c501a6c-d1ad-493e-9904-4f546841ff19
+            E13_P165_uuid: df62ad6d-5310-43d0-be11-d5e623e2e649
+            médaille_physique:
+              E13_P46_uuid: ef122742-bd56-4758-85ea-0f136680707e
       combat naval:
         E36_fragment:
           uuid: 21036a86-814b-4c3d-bd3a-658c88ea2f69
@@ -23812,6 +24112,9 @@ estampes:
               uuid: 8ce5baba-c3f4-46bb-9d92-55ece99273fe
               E13_uuid: 14c40f90-9ea7-445f-9120-7b4ce6db9d51
             E13_P138_uuid: 1aa8bcd7-dbb8-4ac7-b18e-882553444169
+            E13_P165_uuid: 694256e3-47dc-4fdc-8361-e5c8e4ba88b2
+            médaille_physique:
+              E13_P46_uuid: 858b25cc-f628-4aee-81ef-5ae99147b79c
           médaille_revers:
             E36_uuid: 878eb2a4-3d8b-4ad5-9ef4-57e386ecebfb
             E42_IIIF_humanum_uuid: 3ea865df-6c19-4bda-93d2-9b27f5293b7f
@@ -23820,6 +24123,9 @@ estampes:
               uuid: 013b97a8-ebf0-4501-b43f-87bdb8c3c908
               E13_uuid: 2a3be9e1-cc5d-4168-a66c-300cdcb85d89
             E13_P138_uuid: bac52c70-2a8e-46cf-80c0-0dc890516df5
+            E13_P165_uuid: 640cb4a6-89ed-4046-9023-64161fe9dd7b
+            médaille_physique:
+              E13_P46_uuid: 75cdbc23-26f3-411a-a2f2-8adde09240fb
       combat naval:
         E36_fragment:
           uuid: 84b8f55f-aedc-4958-82c4-815384ea5760
@@ -23930,6 +24236,9 @@ estampes:
               uuid: 55901f64-694b-418e-a4e0-85e7a28844b0
               E13_uuid: df4b7c61-1c40-463f-9e8b-0aebdba398c5
             E13_P138_uuid: be5eedbd-c7cb-4985-95aa-3685afa78b6b
+            E13_P165_uuid: 82b49c1a-c67c-4c98-8c56-09c482ebdb96
+            médaille_physique:
+              E13_P46_uuid: 3c13982e-a565-4ccd-9bec-14040af36c17
           médaille_revers:
             E36_uuid: 5a78e9dc-24b4-4911-aff0-fff993120ae9
             E42_IIIF_humanum_uuid: fc7927f9-f0e1-447f-b1d6-54fee41acb1e
@@ -23938,6 +24247,9 @@ estampes:
               uuid: 0c2af5aa-8c07-4fb9-8f29-92bb42bcff14
               E13_uuid: 625a9fb1-b469-43a0-b653-e33c08b139c3
             E13_P138_uuid: 24fa8e52-367d-4956-b7be-ded3e9e9f2d5
+            E13_P165_uuid: 3328b840-b332-44df-98bc-20a4333e0f2a
+            médaille_physique:
+              E13_P46_uuid: 804e4ce4-51ec-40a1-87f8-d70f7f397f9e
       armoiries:
         E36_fragment:
           uuid: 75de160b-1511-49c9-a607-f82be639daaa
@@ -24006,6 +24318,9 @@ estampes:
               uuid: 90d990cb-f85c-49e5-8ab7-f2405a0a6619
               E13_uuid: 15ef466a-3266-4e04-8637-4e94a1cb7b2c
             E13_P138_uuid: 84be6053-9f22-44cf-acbc-a8b2f2e77e70
+            E13_P165_uuid: ad236978-5b2f-4c91-8e8c-80c6ad0ec9a3
+            médaille_physique:
+              E13_P46_uuid: 7a665c7e-09bc-4bfc-bf32-389fe1590155
       ville:
         E36_fragment:
           uuid: c28b0099-337b-4c20-a4ec-22c6ae92f754
@@ -24112,6 +24427,9 @@ estampes:
               uuid: f9aa5c8c-1b04-4b67-a444-0cfb7c171102
               E13_uuid: 87098999-617a-409c-9f25-b211f39d7585
             E13_P138_uuid: fce93822-321e-466e-9894-cc54a11c3240
+            E13_P165_uuid: 595bf117-1aae-4d74-85ff-5d44f419035c
+            médaille_physique:
+              E13_P46_uuid: f7ba8fbc-2752-4e18-a61b-ab0c0a8fdc04
       armoiries:
         E36_fragment:
           uuid: 0a193add-b08b-4ed6-a2a1-fa7560731d28
@@ -24191,6 +24509,9 @@ estampes:
               uuid: 874101eb-476e-4a2f-a79e-b286f321250a
               E13_uuid: 3fce1919-562b-447d-bdfb-49aeef83cc63
             E13_P138_uuid: 5bdaaa66-fa7e-4061-bf80-afc0f89abb51
+            E13_P165_uuid: 39d75718-4e1e-472a-b2f0-80914a4ce1c4
+            médaille_physique:
+              E13_P46_uuid: 0ff82bbd-d25f-4076-8241-67b942f49de6
       trophée:
         E36_fragment:
           uuid: bbfd090a-3ce9-4898-848c-5f33c421dde1
@@ -24246,6 +24567,9 @@ estampes:
               uuid: 631c0be4-6a53-4c74-a016-46ec5b5de9db
               E13_uuid: 044db893-f7d3-4343-adfc-d3cc20911f7d
             E13_P138_uuid: 3102982a-8d77-4d0a-a8b4-630e5396b079
+            E13_P165_uuid: 64ebb0e2-0965-497e-a36f-b6603223ade4
+            médaille_physique:
+              E13_P46_uuid: bb200675-e567-4046-8f69-b21ead26ddf8
           médaille_revers:
             E36_uuid: cce611ba-172b-4cf8-a62f-c08f4ce7b3cd
             E42_IIIF_humanum_uuid: 2075fb16-fa34-4c00-8af8-91f575f9351b
@@ -24254,6 +24578,9 @@ estampes:
               uuid: 851390d1-350a-49aa-b08c-bace5c01df6a
               E13_uuid: 565be0ba-993c-4a9a-bc8e-6e65d01357a7
             E13_P138_uuid: 6f8db3aa-f146-46db-92d0-4f8f8dffcd03
+            E13_P165_uuid: 59668dbb-86f3-4dbc-9780-8e1699c21b1b
+            médaille_physique:
+              E13_P46_uuid: 8ca1059a-0448-4b49-9233-febf75384477
       armoiries:
         E36_fragment:
           uuid: dbaa59c5-c890-4292-903b-1765623b4357
@@ -24344,6 +24671,9 @@ estampes:
               uuid: 1078df09-3d7a-40ea-88d5-ab6797946f31
               E13_uuid: 3abb61b8-bb12-4786-897b-542048181f53
             E13_P138_uuid: b73edee3-7c6e-487d-9704-7faecbb47f4a
+            E13_P165_uuid: 8be535a6-159d-4e38-9cbb-025bd1c89b2b
+            médaille_physique:
+              E13_P46_uuid: 65495ef9-be3a-4583-8091-95a879d22c8e
           médaille_revers:
             E36_uuid: 3c554e65-84c8-4b4e-892a-eca26c0e146e
             E42_IIIF_humanum_uuid: de095cff-3d47-4f5f-8b19-bbd03ebd3dad
@@ -24352,6 +24682,9 @@ estampes:
               uuid: 73b4e6c6-5aa8-4ebe-a041-6a4b3139e2f1
               E13_uuid: 4af7e123-8c2b-43c1-85d4-0da8cf8bd22c
             E13_P138_uuid: f898e852-c6ba-4e9b-8e32-6288d983c944
+            E13_P165_uuid: b2768bba-50d1-4f80-8444-653758147737
+            médaille_physique:
+              E13_P46_uuid: ff42a76f-0b27-4ba8-a038-2e1269ec8ffc
       armoiries:
         E36_fragment:
           uuid: 031b8602-7e39-4a24-afc3-26d1a34ec80b
@@ -24438,6 +24771,9 @@ estampes:
               uuid: 53d9d62e-48b7-4acc-b0ad-0c35b4c26034
               E13_uuid: d4a11d58-1346-4741-aa55-afbefad00668
             E13_P138_uuid: 2c540a86-8df0-4a75-9443-85490481b726
+            E13_P165_uuid: be637c44-cc59-4e03-ab22-726945328611
+            médaille_physique:
+              E13_P46_uuid: 60b1a76d-33e9-4f56-895f-d13c77bf3eae
       armée:
         E36_fragment:
           uuid: d724e92c-e40d-411c-85c7-f7218e81feed
@@ -24502,6 +24838,9 @@ estampes:
               uuid: 0745e485-a81d-4fea-ac8b-797293c21399
               E13_uuid: 7ef2f95e-87e7-43fe-b62d-a9270ecd19b3
             E13_P138_uuid: f0edaaf3-8480-49e4-8c99-7aff71202b8f
+            E13_P165_uuid: cecfc6c5-60e8-4c65-8534-65ef5675c8a1
+            médaille_physique:
+              E13_P46_uuid: 3a7bffc3-c121-4541-aa40-c958e7483b93
       piédestal:
         E36_fragment:
           uuid: 45c6125d-31a4-4b01-bf13-fc2e14dbfa3c
@@ -24601,6 +24940,9 @@ estampes:
               uuid: 22d612bf-0cb1-4c0e-ab37-3ae4756ce956
               E13_uuid: 8c8df5f0-33ba-4211-9355-05f96db12922
             E13_P138_uuid: 2f3854db-7d01-49be-89e9-45f4c797f0bf
+            E13_P165_uuid: b874ade0-1947-408b-9916-c5204ac26dbc
+            médaille_physique:
+              E13_P46_uuid: c15f09a9-fe8b-466f-86a2-f97169e27af7
     types de représentation:
       reproduction-de-medaille-jeton-ou-monnaie:
         E13_uuid: 2e1f5f75-e369-41e4-a11f-6d4ce5c8ef02
@@ -24637,6 +24979,9 @@ estampes:
               uuid: 05d596b0-4d16-46cd-845a-2c4c33470bab
               E13_uuid: 21c86939-e0df-41e8-a0a2-7feaf827c84b
             E13_P138_uuid: d0e219cb-d0c9-4f46-a182-5e956266cdb6
+            E13_P165_uuid: 43f97637-8d3d-4ec4-9801-14b4d9531776
+            médaille_physique:
+              E13_P46_uuid: c9cbb4a7-3d44-4685-b84c-a899f6b13354
       église:
         E36_fragment:
           uuid: 4f1b1e8f-2534-4bf0-8072-2ecbec30344a
@@ -24692,6 +25037,9 @@ estampes:
               uuid: 4213737d-9fca-4b74-ae8b-f015e0363447
               E13_uuid: 27d6db85-95a9-4b8f-9a7c-84166038a6fe
             E13_P138_uuid: f04aa8e8-86fd-44a0-b7a8-a62e90089018
+            E13_P165_uuid: 7911745e-7051-4047-aab5-82d3b1c46868
+            médaille_physique:
+              E13_P46_uuid: 8ea7901e-8902-4bf6-a98c-0a4ed3f32c39
       île:
         E36_fragment:
           uuid: 0d1334c5-d530-41a3-9e41-d9032f9ca372
@@ -24919,6 +25267,9 @@ estampes:
               uuid: d148c984-10fb-4600-9e68-78dfd1efe9fd
               E13_uuid: 2a7393dd-25f8-4db0-98fb-f0615300f9be
             E13_P138_uuid: 0f6b4555-cceb-47db-a6f6-0ea95f451e52
+            E13_P165_uuid: b9acce04-d47c-4cf5-8fcc-ca206758f3e6
+            médaille_physique:
+              E13_P46_uuid: 7cb657bf-f004-4a43-af25-d7293dc76dc1
           médaille_revers:
             E36_uuid: 5dc24169-442f-4ed5-84b1-8c1b6103c1e1
             E42_IIIF_humanum_uuid: d5762157-d1f7-4d7e-a5cf-1f68d467734a
@@ -24927,6 +25278,9 @@ estampes:
               uuid: cc5dffbe-7176-4d5f-837e-ada815cda111
               E13_uuid: 93db0713-76dd-4a4e-a583-bd37137acf6d
             E13_P138_uuid: 53d83c38-f8fb-440f-a9ea-608ea78b69f4
+            E13_P165_uuid: a5bf14ea-603f-47a8-8054-ae91d4b70c63
+            médaille_physique:
+              E13_P46_uuid: dcaaceb5-87b4-4d9b-b5e9-e79814962cbf
       main:
         E36_fragment:
           uuid: f22f3347-e6a7-4cc7-8e5a-69fcafb6e250
@@ -25017,6 +25371,9 @@ estampes:
               uuid: 4583d074-0253-4b4d-bb54-afc047c68718
               E13_uuid: 281ca397-0e3e-42bc-9ddb-8092d6d747de
             E13_P138_uuid: b755cb53-0720-413e-b6c2-e7e4f69e7381
+            E13_P165_uuid: 9e6408fa-b42c-42d2-9a6a-fc3855f02b93
+            médaille_physique:
+              E13_P46_uuid: 00c15e00-2ba6-4dd0-b299-52ba2c050a36
       couronne:
         E36_fragment:
           uuid: b3234ec4-484d-423b-b8e6-8b3dfd9fdb07
@@ -25065,6 +25422,9 @@ estampes:
               uuid: 437a268e-d1cf-40e2-b905-b342ea1ecdc3
               E13_uuid: ca51f3a6-a22a-46ae-8f8b-746d7c4a0e81
             E13_P138_uuid: aa71f871-d0ab-4dec-bb05-39b8559f9922
+            E13_P165_uuid: 6d2fa821-058d-47dd-8036-fc0eb9f05c3f
+            médaille_physique:
+              E13_P46_uuid: 7482e6d3-60a6-4103-bd92-7896be57de53
       ville:
         E36_fragment:
           uuid: 02d8cd3d-b3bb-4aa5-8962-615c36578164
@@ -25170,6 +25530,9 @@ estampes:
               uuid: 9b9eafdf-4e5f-47c8-90d5-6fac2b5f4edd
               E13_uuid: d55c4f92-2c8e-4c5e-8b79-e1d8eabca17b
             E13_P138_uuid: 5baaea87-6c79-49de-9e50-08b3c81b17e4
+            E13_P165_uuid: 53425088-6e65-4535-b516-5d5793a8d302
+            médaille_physique:
+              E13_P46_uuid: a95d9cdf-37ab-48fe-8e13-0bdcc8574191
       drapeau ou étendard:
         E36_fragment:
           uuid: 9ca65e63-68f4-4cb6-80db-834d17bab4e5
@@ -25274,6 +25637,9 @@ estampes:
               uuid: b1f0edf9-e9fc-4c61-bf48-c4fb0479d3c7
               E13_uuid: 4b5fffb3-74f7-4a36-a3d5-3ab0974b5816
             E13_P138_uuid: fb6ce069-9442-4e5f-a9ea-e108971df808
+            E13_P165_uuid: c5037f6a-2fe1-4735-ba18-c0d6f0bb70e3
+            médaille_physique:
+              E13_P46_uuid: bd969a7f-9ffa-4ef0-ab68-a50961f5ed3d
       ville:
         E36_fragment:
           uuid: 60af1af2-7495-4c6e-9a08-756608bbf217
@@ -25523,6 +25889,9 @@ estampes:
               uuid: 6c0b7b0e-f291-43da-8da7-e469d273d7c1
               E13_uuid: fa440ea7-6038-43c1-970c-51bf76d25bee
             E13_P138_uuid: 19a81ce6-2f49-42a5-851b-4301b28cc346
+            E13_P165_uuid: 69f1f8a2-4190-4507-bce4-8e73ec0a8cec
+            médaille_physique:
+              E13_P46_uuid: 57dbde03-7e1d-4fdf-82f1-979acea8a3c7
           médaille_revers:
             E36_uuid: 1f0f0132-4a38-4d75-921f-e6ed39bdfa62
             E42_IIIF_humanum_uuid: ab80f2af-bfaf-46f0-9129-953821da65ec
@@ -25531,6 +25900,9 @@ estampes:
               uuid: ea2ba0f8-0030-4662-a850-eb5d6450893c
               E13_uuid: b7db2a71-fdb6-4dd2-996a-a2a999322466
             E13_P138_uuid: b7fdcfe8-6352-4925-aa37-0c332c66b821
+            E13_P165_uuid: 66269c83-accb-41c9-a132-e290a57a29e1
+            médaille_physique:
+              E13_P46_uuid: 20c33fe6-5ef8-4e6e-a48e-f84aeb229529
       roseau:
         E36_fragment:
           uuid: 8f4a82cf-9f3f-4d40-b55b-96f65533c9fc
@@ -25621,6 +25993,9 @@ estampes:
               uuid: 802aeee5-1fb9-46f6-bbeb-5bf2d03fe579
               E13_uuid: 0d969de9-c723-4f83-b4bc-a731fc0826db
             E13_P138_uuid: 6a0ec417-8ccf-4265-98b0-e1c9840d4b15
+            E13_P165_uuid: 1d188f4a-6772-4ba4-acdd-57952d3ff2f7
+            médaille_physique:
+              E13_P46_uuid: 09d60168-b64d-4890-aaec-a3b844dbd66a
       Renommée (personnification):
         E36_fragment:
           uuid: 338e4b60-fe8c-460a-9274-4ff667aafb95
@@ -25685,6 +26060,9 @@ estampes:
               uuid: 9f58a00e-f02d-472c-81a9-cdd917a43c97
               E13_uuid: 6f220673-9de6-444a-981e-2e9b68c670af
             E13_P138_uuid: fb3da6c9-ab3c-4d1e-8f56-c614c5eab599
+            E13_P165_uuid: 62220c64-7f4d-4fa1-94e3-5c42bd6237c1
+            médaille_physique:
+              E13_P46_uuid: a4a3acf0-2b78-443c-9757-0b4f3292522e
       Charité (personnification):
         E36_fragment:
           uuid: 7cb79a76-0e9a-450b-82d8-4c39a4af0bb0
@@ -25745,6 +26123,9 @@ estampes:
               uuid: e4642c08-c4af-4ba4-83f1-f752c63866cd
               E13_uuid: 37d3fa06-6285-4e3c-8eaa-3c4de0ba6dc4
             E13_P138_uuid: 2978e4b1-caed-44e8-b62b-173951255227
+            E13_P165_uuid: a632f15f-1a46-4fca-bb72-a1f277bee43d
+            médaille_physique:
+              E13_P46_uuid: 8421993b-8976-4d2c-b2c4-71609d0a440d
       trident:
         E36_fragment:
           uuid: 5a979b1f-9f79-4d91-a8e1-65b60af09681
@@ -25809,6 +26190,9 @@ estampes:
               uuid: cd1a6cba-760d-48e8-b875-b5dcd3532ed7
               E13_uuid: a8014bf4-1e5d-405b-af30-0da855227cdc
             E13_P138_uuid: c10aed0d-4688-43b0-9535-fb526b64f04b
+            E13_P165_uuid: e91c2d80-fe8a-4e6e-a28d-eefcec6c19a2
+            médaille_physique:
+              E13_P46_uuid: 91969871-110e-45fa-83ef-430d373cf954
       Victoire (personnification):
         E36_fragment:
           uuid: 384515fb-5e10-4df4-83e4-7b7104304e74
@@ -26026,6 +26410,9 @@ estampes:
               uuid: 63385600-275e-4012-9524-3298c8cd8e9f
               E13_uuid: 3263532b-bc83-4734-95ce-68808d62138e
             E13_P138_uuid: 87ba1429-2a32-4a56-a4b9-1d9660882857
+            E13_P165_uuid: 19ce1f8c-08cf-48c4-a392-79e48895fb34
+            médaille_physique:
+              E13_P46_uuid: e3dfddd7-642f-4c7c-a156-892baba3669d
           médaille_revers:
             E36_uuid: 0aaf5a70-3116-42a9-bf98-7ddb12afe1c3
             E42_IIIF_humanum_uuid: 88f519cc-5bc2-48d2-a591-b03e74fecf58
@@ -26034,6 +26421,9 @@ estampes:
               uuid: 508f4fb1-7e4b-45d5-ba70-043e3b2d1358
               E13_uuid: 03ef5d11-d133-430b-8bb5-2f7190027d07
             E13_P138_uuid: 82878144-201e-4997-9f60-36d76296883b
+            E13_P165_uuid: 40d1b932-6c37-43cb-bd5d-0cfdbfdb1166
+            médaille_physique:
+              E13_P46_uuid: af710d3f-4541-41bf-8395-ccf56503acaf
       étoile:
         E36_fragment:
           uuid: 906963bd-7c43-49c6-97e9-673cc427c182
@@ -26391,6 +26781,9 @@ estampes:
               uuid: 113b75f6-3d78-4e3c-8418-1a237045cf77
               E13_uuid: 07b2b35a-a082-4ab5-b567-b63e11b59d56
             E13_P138_uuid: 0c0289c8-0633-4c8b-a366-8ccbae025417
+            E13_P165_uuid: d835cad4-69c8-4316-a601-fd3c671836af
+            médaille_physique:
+              E13_P46_uuid: 8e9c0996-0289-45dc-b8de-f1ba7d0b8ec6
       Libéralité (personnification):
         E36_fragment:
           uuid: e5335c94-1393-4352-8e94-60024b2eecd8
@@ -26596,6 +26989,9 @@ estampes:
               uuid: afb0a6b3-1dce-48a0-8462-15284e3ea7bc
               E13_uuid: fbb2beae-aef7-406f-8f1b-cfcf527af16d
             E13_P138_uuid: d958ea59-ba77-4407-916c-bc85842f9618
+            E13_P165_uuid: 8b15a80f-1c0e-4304-a7d9-ae469ae51171
+            médaille_physique:
+              E13_P46_uuid: db542132-902d-45f0-8b14-3106d624c5bd
       Victoire (personnification):
         E36_fragment:
           uuid: 08341caa-093c-4af1-b174-4b60e8650afa
@@ -26651,6 +27047,9 @@ estampes:
               uuid: 6060c64c-00c6-4029-b288-06358b98019b
               E13_uuid: 820db4bf-60c4-41e0-9882-a4931e2bbb27
             E13_P138_uuid: 807814ae-ecdc-4413-a3b5-15e6bff2deea
+            E13_P165_uuid: cb310fde-5aa4-45e3-a20e-d0220279e59a
+            médaille_physique:
+              E13_P46_uuid: 2dcf40d8-1953-460d-a1f5-c26b99ce5fea
       trophée:
         E36_fragment:
           uuid: d479a18c-73e1-4583-ab05-d1c0478e7fd2
@@ -26708,6 +27107,9 @@ estampes:
               uuid: 6a6fc6a4-1cdc-4d9f-9e20-b282c121326d
               E13_uuid: 58a29112-0d6f-4650-a7ce-b1470b632402
             E13_P138_uuid: 4621cfd6-58f8-4fcc-8371-f05562efcbbc
+            E13_P165_uuid: b80e83e4-16e6-4006-bf08-4c9c9249c14c
+            médaille_physique:
+              E13_P46_uuid: 0ea2d0a1-31de-431b-90fc-329bfd641321
           médaille_revers:
             E36_uuid: 77bbd753-adf2-4a67-a336-6ad475a2f5a1
             E42_IIIF_humanum_uuid: 706bd968-1d93-498e-be31-3d276553ddd3
@@ -26716,6 +27118,9 @@ estampes:
               uuid: ae42fd47-d9cf-4fa8-bcd0-7f2875658bc6
               E13_uuid: b49138a9-0809-4250-9c22-e7eccf7861e1
             E13_P138_uuid: bd0ad8e2-fd07-42ba-9667-4e1c46bae826
+            E13_P165_uuid: 3d74b9ba-2a95-4d30-a5fb-0737cfa4df52
+            médaille_physique:
+              E13_P46_uuid: f7bf16da-1d71-4000-b9e5-f804091532c8
       trident:
         E36_fragment:
           uuid: 251d726a-7ae4-486f-abc9-e5f9e5b2fb03
@@ -26785,6 +27190,9 @@ estampes:
               uuid: e4c88cc6-3f3a-46a3-aa01-6e6c8cd28fe9
               E13_uuid: 8411b013-34e5-40c2-90d8-fc3b59a903b1
             E13_P138_uuid: 3eac139b-1f5b-4217-b560-3b05c1e074f0
+            E13_P165_uuid: 745eedff-e157-4a9b-9c5c-8b6448e7e176
+            médaille_physique:
+              E13_P46_uuid: 92777eff-a07a-45e6-9d9d-72cb3f939425
       grenade (végétal):
         E36_fragment:
           uuid: 12eed066-9cc5-41c9-a04a-ad9b70e4a45e
@@ -27136,6 +27544,9 @@ estampes:
               uuid: 6a4b8c02-4ad7-4493-a8b5-15c358267157
               E13_uuid: fe1cbd8d-c225-4d9b-9d81-7f59c0678603
             E13_P138_uuid: 9ca926ca-2ab2-4858-9c26-8bfe507ae386
+            E13_P165_uuid: 99193281-b9ae-4024-9262-63e64d90edb6
+            médaille_physique:
+              E13_P46_uuid: bd128193-12df-4c41-b8a0-727fda49e43f
     personnes représentées:
       f4833b12-71ab-4cf4-a338-9365d11b8e2e:
         E36_fragment:
@@ -27482,6 +27893,9 @@ estampes:
               uuid: ba4e741b-4b0b-47ed-bb8f-7cd29211e3e6
               E13_uuid: 58bb79ef-dcde-40f0-a72c-544a9cba069a
             E13_P138_uuid: 38f7b5ba-a789-4a3d-99f3-1768e9bdf86e
+            E13_P165_uuid: bdb8bd5b-4e50-4a16-b553-f4c40fa6da17
+            médaille_physique:
+              E13_P46_uuid: 773c7df0-ec22-4bd9-b216-d2788fcf7dcd
     personnes représentées:
       5c9edf3a-330e-4c4f-8e61-c75a75e1b747:
         E36_fragment:
@@ -28429,6 +28843,9 @@ estampes:
               uuid: 29850ba3-3f8e-4589-a913-b392c8f35b0c
               E13_uuid: 44da855c-ea5d-46b9-b0ef-0b5b7733e38d
             E13_P138_uuid: 85e5aacf-b892-419a-b7a4-89f56f2133ee
+            E13_P165_uuid: c007279b-c09b-4fe7-b2d9-7eb34eaee9a1
+            médaille_physique:
+              E13_P46_uuid: ba11ae4c-7e82-4cc7-9205-b9c6aaf236ff
           médaille_revers:
             E36_uuid: 970f4114-7045-4309-a205-ef4ef17aa337
             E42_IIIF_humanum_uuid: d31a64a4-20a1-446f-867f-414b17ff8326
@@ -28437,6 +28854,9 @@ estampes:
               uuid: ee1f0bf6-4ef2-4181-abaa-d4916b7f27bc
               E13_uuid: c6759366-e42c-4e0e-ba66-1649106310b1
             E13_P138_uuid: 95ed5655-dfe9-4dba-84e6-a695034cb9ad
+            E13_P165_uuid: 686519c1-9a48-4777-a5b9-7f277170fe03
+            médaille_physique:
+              E13_P46_uuid: 74c7ae22-f160-4401-9b89-4c8ed3b579e3
       Hercule:
         E36_fragment:
           uuid: ed79cc3a-b557-49a6-8c4e-53403da336e0
@@ -28499,6 +28919,9 @@ estampes:
               uuid: f2d22fe3-d5ac-4a95-9ca3-a902bb92ca4a
               E13_uuid: d6397e8e-dd93-4217-a776-a8ed3f3e8835
             E13_P138_uuid: 6fe13a73-ffe2-4a52-b5a1-fd67371dd56e
+            E13_P165_uuid: 89b9994d-ab0d-4443-b6ab-4ea583792b7e
+            médaille_physique:
+              E13_P46_uuid: fdd9ded9-fb0e-49b7-aaae-b334535563ff
           médaille_revers:
             E36_uuid: 5be4e1d8-5378-465e-b799-f30b687a6234
             E42_IIIF_humanum_uuid: 171aff46-c799-42d6-bc58-01f3836fc587
@@ -28507,6 +28930,9 @@ estampes:
               uuid: e2e09831-7863-45ea-9867-c8192b57fea6
               E13_uuid: fcae2283-6728-4c91-a0bf-121faebaf0c5
             E13_P138_uuid: 8ddfd660-2744-47ca-bb00-23bc43749ae0
+            E13_P165_uuid: ded1e12a-2a22-4183-91f3-a81923398f2b
+            médaille_physique:
+              E13_P46_uuid: 71359dfe-4ca2-4d56-8403-108916b60afd
       aigle:
         E36_fragment:
           uuid: 30b80248-6242-41bf-88ff-bf650c102e00
@@ -29163,6 +29589,9 @@ estampes:
               uuid: 45c640da-3f61-44b8-8cb8-fbf168607037
               E13_uuid: 7aeec9ed-d27f-4c4b-9bbd-384ccb159fb4
             E13_P138_uuid: 9f13f14a-668f-4ae3-b619-0e0b03ded0bd
+            E13_P165_uuid: 21c49cb8-9b22-4477-8fb6-97af62f14d68
+            médaille_physique:
+              E13_P46_uuid: c03f5f98-1783-4e14-9272-4e1b9afe1fb6
           médaille_revers:
             E36_uuid: 2974eb30-e02c-4f7a-b665-f3c00249df47
             E42_IIIF_humanum_uuid: c657b1f4-dbb4-4361-a4d2-412ef7fbe0a1
@@ -29171,6 +29600,9 @@ estampes:
               uuid: 3691e0ce-aaa3-40a4-817c-fc13a3a1a6f6
               E13_uuid: 964222bb-fd75-43c3-b6c6-bcb288b000bc
             E13_P138_uuid: 1cc28489-dbbc-4048-a813-1e34bfece8c4
+            E13_P165_uuid: a344e976-f714-428f-a6bd-b0a7b3aceb3c
+            médaille_physique:
+              E13_P46_uuid: 11d21469-a615-4f0a-aeb8-f670648c0dec
       église:
         E36_fragment:
           uuid: 1a4b8886-39ac-43d2-8f4a-eeee55e85301
@@ -29956,6 +30388,9 @@ estampes:
               uuid: 2d30427b-4c75-4d1b-9e1f-b542a7db8683
               E13_uuid: dc0618b2-c2c9-4f01-bf5c-9a9956749471
             E13_P138_uuid: e56913f0-f086-4293-8535-af6e5debf620
+            E13_P165_uuid: 6817ed53-bfec-4ce7-a5a2-0675b087a6e0
+            médaille_physique:
+              E13_P46_uuid: f278ea6b-b8d4-4eb3-ac45-af840fd78b56
           médaille_revers:
             E36_uuid: e63c2fb6-fa49-4cd8-9bb3-08737725fceb
             E42_IIIF_humanum_uuid: 2e586ee0-55e0-4cf2-8c19-2747923a703b
@@ -29964,6 +30399,9 @@ estampes:
               uuid: ec9f41ff-b9fb-4f7f-ae62-f4167ba08a15
               E13_uuid: 71a06120-8cdd-475b-83bc-b76474a485f7
             E13_P138_uuid: 2e978a11-90f5-45da-9763-5bc1d8190be9
+            E13_P165_uuid: 07d6f67c-c5ac-4188-81bf-f3647f6dd327
+            médaille_physique:
+              E13_P46_uuid: 16468a38-b8ae-4385-bcd7-22ae71c8f6dd
       Hercule:
         E36_fragment:
           uuid: c6dba6d2-bb0f-4463-84fc-e18e1e2ebe9a
@@ -30035,6 +30473,9 @@ estampes:
               uuid: bb98c82b-b5ee-4a9c-b00e-0d47f326f15f
               E13_uuid: 3090c911-0e44-4e71-a437-6a1bb1e69001
             E13_P138_uuid: c024ec42-264e-4a44-af65-d0960eaa1398
+            E13_P165_uuid: 096de88a-54d3-44b4-afba-9b1969279830
+            médaille_physique:
+              E13_P46_uuid: a5b33936-db21-42a8-a5a2-58a7c9a51e52
           médaille_revers:
             E36_uuid: 4e198315-55f6-447b-a3fe-a993964586ef
             E42_IIIF_humanum_uuid: eb8bdc17-038f-4e3f-bf47-e9f186c63759
@@ -30043,6 +30484,9 @@ estampes:
               uuid: faecd59a-cb1d-449f-85b3-09236afeb792
               E13_uuid: efded9b5-4d7d-4a9a-b890-103407d31722
             E13_P138_uuid: c0de51fd-0c24-4876-9526-50637d3ab7f7
+            E13_P165_uuid: 80c95546-52c0-4f69-92e1-dd72ff84c529
+            médaille_physique:
+              E13_P46_uuid: 230bb9b2-deb5-4857-9366-6203173a9136
       colombe:
         E36_fragment:
           uuid: c2197cb0-f515-4b8e-b716-e2de0b3d2e9b
