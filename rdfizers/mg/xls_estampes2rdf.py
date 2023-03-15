@@ -297,10 +297,12 @@ for row in rows:
                         t(estampe_fragment_avers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                         t(estampe_fragment_avers_e42_iiif, a, crm("E42_Identifier"))
                         t(e34_inscription, a, crm("E34_Inscription"))
-                        t(e18_avers, crm("P165_incorporates"), e34_inscription)
+                        t(e34_inscription, a, crm("E33_Linguistic_Object"))
 
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_humanum_uuid"], estampe_fragment_avers, crm("P1_is_identified_by"), estampe_fragment_avers_e42_iiif)
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P138_uuid"], estampe_fragment_avers, crm("P138_represents"), e18_avers)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P165_uuid"], estampe_fragment_avers, crm("P165_incorporates"), e34_inscription)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "médaille_physique", "E13_P46_uuid"], e18_avers, crm("P46_is_composed_of"), e34_inscription)
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]))
 
                     # Si la médaille comporte une inscription sur son revers (E13)
@@ -318,10 +320,12 @@ for row in rows:
                         t(estampe_fragment_revers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                         t(estampe_fragment_revers_e42_iiif, a, crm("E42_Identifier"))
                         t(e34_inscription, a, crm("E34_Inscription"))
-                        t(e18_revers, crm("P165_incorporates"), e34_inscription)
+                        t(e34_inscription, a, crm("E33_Linguistic_Object"))
 
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_humanum_uuid"], estampe_fragment_revers, crm("P1_is_identified_by"), estampe_fragment_revers_e42_iiif)
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P138_uuid"], estampe_fragment_revers, crm("P138_represents"), e18_revers)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P165_uuid"], estampe_fragment_revers, crm("P165_incorporates"), e34_inscription)
+                        make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "médaille_physique", "E13_P46_uuid"], e18_revers, crm("P46_is_composed_of"), e34_inscription)
                         make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
         # endregion
 
