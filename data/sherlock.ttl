@@ -247,6 +247,11 @@
   crm:P1_is_identified_by "Projet analytique"@fr ;
   .
 
+<cc909242-ee52-4419-b404-17bd96c0fda4>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Corpus"@fr ;
+    .
+
 <ae6c2f18-c8ae-4fac-83c8-9486fd00db2c>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Traité théorique"@fr ;
@@ -276,12 +281,6 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Entité analytique"@fr ;
   crm:P1_is_identified_by "Analytical entity"@en ;
-  .
-
-<21816195-6708-4bbd-a758-ee354bb84900>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Projet analytique"@fr ;
-  crm:P1_is_identified_by "Analytical Project"@en ;
   .
 
 <cabe46bf-23d4-4392-aa20-b3eb21ad7dfd>
