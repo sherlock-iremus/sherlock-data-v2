@@ -77,7 +77,7 @@ def make_E13(path, subject, predicate, object):
 ## DONNEES STATIQUES
 ############################################################################################
 
-E32_lieux_uri = u(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
+E32_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
 t(E32_lieux_uri, a, crm("E32_Authority_Document"))
 t(E32_lieux_uri, crm("P1_is_identified_by"), l("Lieux"))
 
