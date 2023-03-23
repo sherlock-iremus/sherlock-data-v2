@@ -71,7 +71,7 @@
     <body>
       <head><hi rend="i">Mercure galant</hi>, janvier 1678 [tome 1].</head>
       <div type="article" xml:id="MG-1678-01_000" resp="mercure">
-        <head>[Annonce des Extraordinaires]</head>
+        <head>[Annonce des Extraordinaires]*</head>
         <bibl><title>Mercure galant</title>, janvier 1678 [tome 1], non paginé.</bibl>
         <p>JE prie ceux qui ont des Parens ou des Amis à l’Armée, de supléer à la modestie qui les
           empesche de me faire part par eux-mesmes de tout ce qu’ils font de remarquable. Quoy que
@@ -1407,11 +1407,7 @@
           vous envoyer tous les Mois. Voicy les Paroles du premier que je mets icy sans les noter,
           afin que vous les puissiez lire d’abord sans embarras.</p>
         <quote rend="border">
-          <label>AIR NOUVEAU.<note resp="author" place="margin">cf. <ref
-                target="http://neuma.huma-num.fr/home/opus/timbres:airsmercure:1678_01_224/"><hi
-                  rend="i">Ton troupeau Sylvie</hi></ref>, janvier 1678, <hi rend="i">in</hi>
-              <ref target="http://neuma.huma-num.fr/home/corpus/timbres:airsmercure/">Airs du
-                Mercure galant (1678-1710)</ref></note></label>
+          <label>AIR NOUVEAU.</label>
           <lg>
             <l rend="i">TOn Troupeau, Sylvie,</l>
             <l rend="i">Peut seul t’engager.</l>
@@ -1471,17 +1467,11 @@
       </div>
       <div type="article" xml:id="MG-1678-01_229" resp="mercure">
         <head>[Second Air noté]</head>
-        <bibl><title>Mercure galant</title>, janvier 1678 [tome 1], p. 229-230.<note resp="editor">Catherine Cessac (Bulletin de la Société Marc-Antoine Charpentier n° 20 (2003), p. 3, note 10) attribue le texte de cet air à Mme Deshoulières, en raison de la mention d'un autre texte de cette autrice mis en musique par M. de La Tour (<ref
-              target="MG-1678-01_226"><hi rend="i">Iris sur la fougère</hi></ref>) introduit par le commentaire : « En voicy d'autres [paroles] dont vous allez trouver l'air noté ». Mais l'adjectif indéfini ne suffit pas à attribuer l'air « Quoi rien ne peut vous arrêter » à la même autrice. </note>
+        <bibl><title>Mercure galant</title>, janvier 1678 [tome 1], p. 229-230.
         </bibl>
         <p>En voicy d’autres dont vous allez trouver l’Air noté.</p>
         <quote>
-          <label>AIR NOUVEAU.<note resp="author" place="margin">cf. <ref
-                target="http://neuma.huma-num.fr/home/opus/timbres:airsmercure:1678_01_229/"><hi
-                  rend="i">Quoy rien ne peut vous arester</hi></ref>, janvier 1678, <hi rend="i"
-                >in</hi>
-              <ref target="http://neuma.huma-num.fr/home/corpus/timbres:airsmercure/">Airs du
-                Mercure galant (1678-1710)</ref></note></label>
+          <label>AIR NOUVEAU.</label>
           <lg>
             <l rend="i">QUoy, rien ne vous peut arrester ?</l>
             <l rend="i"><space/><space/>L’Amour cede à la Gloire,</l>
@@ -1499,7 +1489,8 @@
           tous ceux de Circé &amp; de l’Inconnu. Il a demeuré longtemps en Italie, où il voyoit
           souvent le Charissimi, qui estoit le plus grand Maistre de Musique que nous ayons eu
           depuis longtemps. Vous avez lû les Paroles de l’Air de M<hi rend="sup">r</hi> Charpentier,
-          voyez les notées. <ref target="images/1678-01_229.JPG">
+          voyez les notées <note resp="editor">Catherine Cessac (<hi rend="italic">Bulletin de la Société Marc-Antoine Charpentier</hi> n° 20 (2003), p. 3, note 10) attribue le texte de cet air à Mme Deshoulières, en raison de la mention d'un autre texte de cette autrice mis en musique par M. de La Tour (<ref
+            target="MG-1678-01_226"><hi rend="i">Iris sur la fougère</hi></ref>) introduit par le commentaire : « En voicy d'autres [paroles] dont vous allez trouver l'air noté ». Mais l'adjectif indéfini ne suffit pas à attribuer l'air « Quoi rien ne peut vous arrêter » à la même autrice. </note>. <ref target="images/1678-01_229.JPG">
             <figure>
               <graphic url="images/1678-01_229.JPG"/>
             </figure>

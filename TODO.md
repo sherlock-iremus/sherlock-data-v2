@@ -7,7 +7,7 @@
 - Dire à Antoine de faire les index uniquement sur les liens entre F2
 ✔ - Je crois que des F2 articles TEI sont imbriqués dans des F2 livraisons physique
 
-## Corpora iconographiques 
+## Corpora iconographiques
 
 ✔ - dcterms:creator (= personne), pas created (= date)
 

@@ -441,7 +441,7 @@
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, mars 1691 [tome 3], p. 86-87.</bibl>
         <p>Je n'ay rien autre chose à vous dire de l'Air nouveau dont vous allez lire les paroles,
-          sinon qu'il est de la composition d'un fort habile Musicien.</p>
+          sinon qu'il est de la composition d'un fort habile Musicien <note resp="editor">L'attribution du poème à Testu de Belleval est due à Frédéric Lachèvre (<hi rend="italic">Bibliographie des recueils collectifs de poésie...</hi>, tome II, p. 631).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Si vous voulez que je
@@ -1316,7 +1316,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1691-03_284" resp="mercure">
-        <head>Article des Enigmes</head>
+        <head>[Article des Enigmes, extrait]*</head>
         <bibl><title>Mercure galant</title>, mars 1691 [tome 3], p. 284-293.<note resp="author"
             place="margin">Voir <ref target="MG-1691-02_293">l'énoncé de
           l'énigme</ref>.</note></bibl>
@@ -1329,7 +1329,7 @@
         <bibl><title>Mercure galant</title>, mars 1691 [tome 3], p. 295-296.</bibl>
         <p>Je vous envoye un second Air de la composition d'un habile Maistre. Les paroles sont d'un
           Amant si respectueux, qu'il y a grande apparence qu'il ne trouvera jamais parmy les Belles
-          d'opposition à ses desirs.</p>
+          d'opposition à ses desirs <note resp="editor">Deux autres mises en musique du poème ont été publiées, la première dans le <hi rend="italic">Mercure galant</hi> de novembre 1703 (cf. <ref target="MG-1703-10-11_343">cet article</ref> ; voir aussi sa réédition dans le <hi rend="italic">Recueil d'airs sérieux et à boire</hi> de décembre 1703, p. 228-229), la seconde par S. de Brossard dans son <hi rend="italic">IV. livre d'airs sérieux et à boire</hi> (Paris, Christophe Ballard, 1696, cf. SdB.125). Toutes deux présentent une variante (différente) au troisième vers.</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Pourquoy me fuyez-vous,

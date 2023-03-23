@@ -823,11 +823,9 @@
       </div>
       <div type="article" xml:id="MG-1683-06_111" resp="nbb" copyOf="JLB_MG-1683-06_111">
         <head>Réponse à M<hi rend="sup">r</hi> Quinaut</head>
-        <bibl><title>Mercure galant</title>, juin 1683 [tome 6], p. 111-114.<note resp="author"
-            place="margin">Voir <ref target="MG-1683-02_253">cet article</ref> qui contient le
-            madrigal de Quinault.</note></bibl>
+        <bibl><title>Mercure galant</title>, juin 1683 [tome 6], p. 111-114.</bibl>
         <p>Je vous envoyay dans ma Lettre de Fevrier un Madrigal de M<hi rend="sup">r</hi> Quinaut,
-          que tout le monde a trouvé fort agreable. Voicy la Réponse que luy a fait le Berger de
+          que tout le monde a trouvé fort agreable<note resp="editor">Voir <ref target="MG-1683-02_253">cet article</ref>.</note>. Voicy la Réponse que luy a fait le Berger de
           Flore.</p>
         <quote>
           <label>REPONSE<lb/>A M<hi rend="sup">r</hi> QUINAUT.</label>
@@ -1343,15 +1341,14 @@
             rend="sup">r</hi> l'Evesque d'Angers. Ce Prélat la reçeut apres les Vespres dans
           l'Eglise Cathédrale, revétu de ses Habits Pontificaux, avec tout l'éclat &amp; toute la
           pompe que demandoit une chose si avantageuse à l'Eglise. [...]</p>
-        <p>Ce Discours<note resp="editor">Voir dans le volume : "Exhortation de l'Evesque d'Angers
-            aux Ministres de Baugé, &amp; de Chasteau-du-Loir", p. 240-250.</note> estant finy, M<hi
+        <p>Ce Discours<note resp="editor">Voir dans le volume : <hi rend rend="italic">Exhortation de l'Evesque d'Angers
+          aux Ministres de Baugé, &amp; de Chasteau-du-Loir</hi>, p. 240-250.</note> estant finy, M<hi
             rend="sup">r</hi> l'Evesque d'Angers entonna le <hi rend="i">Te Deum</hi>, qui fut
           chanté en Musique, par le Chœur de l'Eglise Cathédrale au son de toutes les Cloches.</p>
       </div>
       <div type="article" xml:id="MG-1683-06_251" resp="mercure">
         <head>[Concert]</head>
-        <bibl><title>Mercure galant</title>, juin 1683 [tome 6], p. 251-267.<note resp="author"
-            place="margin">Voir<ref target="MG-1683-01_219"> cet article</ref> qui relate la
+        <bibl><title>Mercure galant</title>, juin 1683 [tome 6], p. 251-267.<note resp="editor">Voir<ref target="MG-1683-01_219"> cet article</ref> qui relate la
             création du Banquet des dieux.</note></bibl>
         <p>La France n'ayant jamais eu de Monarque qui ait porté sa gloire si loin que <hi rend="sc"
             >Loüis le Grand</hi>, il ne faut pas s'étonner si la Naissance de Monseigneur le Duc de

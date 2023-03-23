@@ -120,7 +120,7 @@
           <p/>
           <p>Ceux qui cherchent le délassement de leur esprit dans les plaisirs du Theatre, en auront beaucoup à lire le nouvel Ouvrage que je vous envoye de M<hi rend="sup">r</hi> de Vin. Il est fait contre les Sifflets, dont le mauvais usage s’est introduit depuis quelque temps à la Comedie avec une telle fureur, que les Acteurs sont souvent interrompus, &amp; mesme contraints quelquefois de quitter une Piece nouvelle dés le troisiéme Acte, pour en representer une des anciennes, selon qu’il plaist aux Siffleurs de la demander. Cette licence est d’autant plus dangereuse, que rebutant les Auteurs, elle étouffe en quelque façon les genies les plus heureux par le dégoust qu’elle leur inspire pour le Theatre ; outre qu’il ne faut qu’une Cabale contraire pour faire tomber, au moyen de ces Sifflets, une Piece, qui sans cela, pourroit meriter l’approbation des Connoisseurs. C’est le sujet de la Requeste que presente la Muse qui préside à la Comedie.</p>
           <quote>
-            <label>THALIE<lb/>AU ROY.</label>
+            <label>[Theses au Roy] THALIE<lb/>AU ROY.</label>
             <lg>
               <l rend="i"> Sire, à tes pieds tu vois Thalie,</l>
               <l rend="i">Le cœur gros de soupirs &amp; l’œil noyé de pleurs,</l>
@@ -613,8 +613,9 @@
         </div>
       <div type="article" xml:id="MG-1693-09_271" resp="angele">
         <head>Chanson à boire</head>
-        <bibl><title>Mercure galant</title>, septembre 1693 [tome 11], p. 271-272.<note resp="author" place="margin">L'attribution du poème à Dubuisson est due à F. Lachèvre (t. III, p. 320).</note></bibl>
-        <p>L'Air nouveau dont vous allez lire les paroles, est fort de saison.</p>
+        <bibl><title>Mercure galant</title>, septembre 1693 [tome 11], p. 271-272.
+        </bibl>
+        <p>L'Air nouveau dont vous allez lire les paroles, est fort de saison <note resp="editor">L'attribution du poème à Dubuisson est due à F. Lachèvre (t. III, p. 320), qui précise à son propos : « Ce Du Buisson ne serait-il pas le capitaine tour à tour au service de la Hollande et de la France, officier distingué et écrivain élégant, à qui M. Albert Waddington, professeur à la Faculté des Lettres de l'Université de Lyon, attribue les "Mémoires de Hollande" ? Du Buisson est l'auteur d'une vie de Turenne publiée en 1685. » </note>.</p>
         <quote>
           <label>CHANSON A BOIRE.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air doit regarder la page 271.</note>
           <lg><l rend="i">Toy qui présides sur la Vigne,</l>

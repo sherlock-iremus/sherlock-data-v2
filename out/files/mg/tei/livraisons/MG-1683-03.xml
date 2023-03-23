@@ -66,7 +66,7 @@
     <body>
       <head><hi rend="i">Mercure galant</hi>, mars 1683 [tome 3].</head>
       <div type="article" xml:id="MG-1683-03_023" resp="nbb">
-        <head>Sur les superbes Apartemens de Versailles</head>
+        <head>[Sonnet de M. l’Abbé de Tallemant, de l’Académie Françoise] Sur les superbes Apartemens de Versailles</head>
         <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 23-26</bibl>
         <p>Comme le Roy a soin de l’agreable aussi-bien que de l’utile, les superbes Apartemens de
           son Palais de Versailles, où toutes les Personnes d’une qualité distinguée sont bien
@@ -841,9 +841,9 @@
         <head>[Lettre de Venise]</head>
         <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 228-232</bibl>
         <p/>
-        <p>L'excellent Discours de M<hi rend="sup">r</hi> de S. Evremont<note resp="editor">voir
+        <p>L'excellent Discours de M<hi rend="sup">r</hi> de S. Evremont<note resp="editor">Voir le
               <ref target="MG-1683-02_070">Discours de M. S. Evremont sur les Opéra François &amp;
-              Italiens.</ref></note>, que je vous envoyay le dernier Mois, sur les Opéra François
+              Italiens</ref>.</note>, que je vous envoyay le dernier Mois, sur les Opéra François
           &amp; Italiens, vous en doit avoir appris la diférence. S'il vous reste encor quelque
           chose à souhaiter sur cette matiere, la Description de ceux qui ont occupé ce Carnaval,
           les Théatres de Venise, pourra satisfaire pleinement vostre curiosité. Elle est du mesme
@@ -1239,13 +1239,10 @@
       </div>
       <div type="article" xml:id="MG-1683-03_281" resp="mercure">
         <head>[Opéra de Coriolan]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 281-282<note resp="author"
-            place="margin"><ref target="MG-1683-03_282">Cet article</ref>, <ref
-              target="MG-1683-03_285">cet article</ref>, <ref target="MG-1683-03_288">cet
-              article</ref>, <ref target="MG-1683-03_291">cet article</ref>, <ref
-              target="MG-1683-03_293">cet article</ref>, <ref target="MG-1683-03_297">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 281-282<note resp="editor">Les articles de <ref target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref
+          target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref
+            target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+              target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p><hi rend="i">Coriolan</hi>, est le titre du second Opéra que l'on a représenté sur ce
@@ -1264,13 +1261,10 @@
       </div>
       <div type="article" xml:id="MG-1683-03_282" resp="mercure">
         <head>[Opéra de Virgilia]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 282-285<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_285">cet article</ref>, <ref target="MG-1683-03_288">cet
-              article</ref>, <ref target="MG-1683-03_291">cet article</ref>, <ref
-              target="MG-1683-03_293">cet article</ref>, <ref target="MG-1683-03_297">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 282-285<note resp="editor">Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+          target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref
+            target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+              target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p>Le Théatre de S. Angelo n'est pas si grand que les autres, quoy qu'il soit aussi peint,
           doré, &amp; fort propre. Il contient cinq rangs de Pales, vingt-neuf à chaque rang. La
@@ -1297,13 +1291,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_285" resp="mercure">
         <head>[Opéra de Silla]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 285-288<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_288">cet
-              article</ref>, <ref target="MG-1683-03_291">cet article</ref>, <ref
-              target="MG-1683-03_293">cet article</ref>, <ref target="MG-1683-03_297">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 285-288<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref
+              target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+                target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p>La seconde Piece est intitulée <hi rend="i">Silla</hi>. Lucius-Cornelius-Silla estant
@@ -1333,13 +1325,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_288" resp="mercure">
         <head>[Opéra de Thémistocle]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 288-291<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_285">cet
-              article</ref>, <ref target="MG-1683-03_291">cet article</ref>, <ref
-              target="MG-1683-03_293">cet article</ref>, <ref target="MG-1683-03_297">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 288-291<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref
+              target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+                target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p>Le Théatre de S. Cassian est aussi peint &amp; doré comme les autres, à cinq rangs de
@@ -1368,13 +1358,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_291" resp="mercure">
         <head>[Opéra de l'Innocence justifiée]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 291-295<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_285">cet
-              article</ref>, <ref target="MG-1683-03_288">cet article</ref>, <ref
-              target="MG-1683-03_293">cet article</ref>, <ref target="MG-1683-03_297">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 291-295<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref
+              target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+                target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p>Le second que l'on a représenté sur le mesme Théatre de S. Cassian, est intitulé <hi
@@ -1393,13 +1381,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_293" resp="mercure">
         <head>[Opéra de Cidippe]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 293-297<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_285">cet
-              article</ref>, <ref target="MG-1683-03_288">cet article</ref>, <ref
-              target="MG-1683-03_291">cet article</ref>, <ref target="MG-1683-03_297">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 293-297<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref
+              target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+                target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p>Le Théatre du Canareggio, ou du Canal Royal, est fort petit, mais bien peint. Il est
@@ -1438,13 +1424,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_297" resp="mercure">
         <head>[Machines ajoûtées à l'Opéra du Roy Infant]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 297-300<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_285">cet
-              article</ref>, <ref target="MG-1683-03_288">cet article</ref>, <ref
-              target="MG-1683-03_291">cet article</ref>, <ref target="MG-1683-03_293">cet
-              article</ref>, <ref target="MG-1683-03_300">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 297-300<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref
+              target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_300">mars 1683, p. 300</ref> et <ref
+                target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p>L'Opéra du Roy Infant, dont je vous ay fait la description, a esté trouvé si beau, que
@@ -1477,13 +1461,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_300" resp="mercure">
         <head>[Opéra intitulé Orontea]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 300-302<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_285">cet
-              article</ref>, <ref target="MG-1683-03_288">cet article</ref>, <ref
-              target="MG-1683-03_291">cet article</ref>, <ref target="MG-1683-03_293">cet
-              article</ref>, <ref target="MG-1683-03_297">cet article</ref> et <ref
-              target="MG-1683-03_301">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 300-302<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref
+              target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref> et <ref
+                target="MG-1683-03_301">mars 1683, p. 301</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p/>
         <p>On a jouë un troisiéme Opéra au Théatre de S. Jean &amp; Paul, intitulé <hi rend="i"
@@ -1498,13 +1480,11 @@
       </div>
       <div type="article" xml:id="MG-1683-03_301" resp="mercure" copyOf="JLB-MG-1683-03_302">
         <head>[Opéra de Justin]</head>
-        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 301-309<note resp="author"
-            place="margin"><ref target="MG-1683-03_281">Cet article</ref>, <ref
-              target="MG-1683-03_282">cet article</ref>, <ref target="MG-1683-03_285">cet
-              article</ref>, <ref target="MG-1683-03_288">cet article</ref>, <ref
-              target="MG-1683-03_291">cet article</ref>, <ref target="MG-1683-03_293">cet
-              article</ref>, <ref target="MG-1683-03_297">cet article</ref> et <ref
-              target="MG-1683-03_300">cet article</ref>, font état des spectacles donnés à
+        <bibl><title>Mercure galant</title>, mars 1683 [tome 3], p. 301-309<note resp="editor"
+          >Les articles de <ref target="MG-1683-03_281">mars 1683, p. 281</ref>, <ref
+            target="MG-1683-03_282">mars 1683, p. 282</ref>, <ref target="MG-1683-03_285">mars 1683, p. 285</ref>, <ref target="MG-1683-03_288">mars 1683, p. 288</ref>, <ref
+              target="MG-1683-03_291">mars 1683, p. 291</ref>, <ref target="MG-1683-03_293">mars 1683, p. 293</ref>, <ref target="MG-1683-03_297">mars 1683, p. 297</ref> et <ref
+                target="MG-1683-03_300">mars 1683, p. 300</ref>, font état des spectacles donnés à
             Venise.</note></bibl>
         <p>Depuis huit jours on en a aussi joüé un second sur le Théatre de S. Luc, ou S. Salvator.
           Il est tout remply de Spéctacles &amp; de Machines. Il faut retenir les Chaises du
@@ -1789,7 +1769,7 @@
           sçachant de quelle maniere elle s'acquite de toutes les choses dont elle se mesle, vous
           vous attendez à une Feste de bon goust. Monseigneur le Dauphin avoit concerté une grande
           Mascarade pour y venir. Il la fit faire, &amp; on la trouva tres-belle. Elle représentoit
-          une Nôce de Village<note resp="author" place="margin">Voir <ref target="MG-1683-04_159"
+          une Nôce de Village<note resp="editor">Voir <ref target="MG-1683-04_159"
               >cet article</ref> pour la gravure représentant le cortège de la Noce de
             village.</note>. Voicy les noms de ceux qui la composoient, les Personnages qu'ils
           représentoient, &amp; dans quel ordre ils entrerent.</p>

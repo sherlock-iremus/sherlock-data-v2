@@ -440,7 +440,7 @@
           des Personnes des-intéressées.</p>
       </div>
       <div type="article" xml:id="MG-1679-05_057" resp="mercure">
-        <head>[Feste de la Naissance de Madame Royale]</head>
+        <head>[Feste de la Naissance de Madame Royale] [et] [Origine du Vvirtschaf]</head>
         <bibl><title>Mercure galant</title>, mai 1679 [tome 5], p. 57-77.</bibl>
         <p>Les Festes publiques ont toûjours esté regardées comme de glorieuses marques de la
           grandeur d’un Etat. En effet, rien ne fait si bien connoistre la magnificence &amp; la
@@ -638,8 +638,8 @@
       <div type="article" xml:id="MG-1679-05_109" resp="mercure">
         <head>Bouquet</head>
         <bibl><title>Mercure galant</title>, mai 1679 [tome 5], p. 109-111.</bibl>
-        <p>Je ne doute point, Madame, qu’une si exacte description<note n="1" place="bottom"><p>La
-              description de la calèche donnée par le duc de Vivonne au roi (p. 85-109).</p></note>
+        <p>Je ne doute point, Madame, qu’une si exacte description <note resp="editor"></note> La
+              description de la calèche donnée par le duc de Vivonne au roi (cf. p. 85-109 de la même livraison).</note>
           ne vous represente parfaitement ce que tous les Curieux ont veu icy avec grand plaisir.
           Elle est de l’Autheur mesme de la Caleche qui fut presentée au Roy par M<hi rend="sup"
             >r</hi> le Duc de Vivonne le 15. de l’autre Mois. Sa Majesté en parut fort satisfaite.
@@ -1390,8 +1390,7 @@
       <div type="article" xml:id="MG-1679-05_235" copyOf="JLB-MG-1679-05_234" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, mai 1679 [tome 5], p. 235-236.</bibl>
-        <p>La matiere<note resp="editor">Celle de la maladie du roi de Suède. Voir l'article
-            précédent.</note> est triste. Je la quite pour vous faire part d’une seconde Chanson sur
+        <p>La matiere<note resp="editor">Celle de la maladie du roi de Suède (cf. <ref target="MG-1679-05_226">l'article précédent</ref>.</note> est triste. Je la quite pour vous faire part d’une seconde Chanson sur
           le retour du Printemps. Les Paroles sont de M<hi rend="sup">r</hi> l’Abbé Mallement de
           Messange.</p>
         <quote>
@@ -1500,7 +1499,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1679-05_243" resp="mercure">
-        <head>[Tout ce qui s’est passé à l’Académie Françoise]</head>
+        <head>[Tout ce qui s’est passé à l’Académie Françoise le jour de la Reception de M. l’Abbé de la Vau]</head>
         <bibl><title>Mercure galant</title>, mai 1679 [tome 5], p. 243-263.</bibl>
         <p>Vous sçavez que M<hi rend="sup">r</hi> de Montmort, Doyen des Maîtres des Requestes,
           mourut il y a environ deux Mois. Il estoit l’un des quarante de l’Académie Françoise. M<hi
@@ -1894,9 +1893,8 @@
       <div type="article" xml:id="MG-1679-05_335" resp="mercure">
         <head>[Explication en Vers de la premiere Enigme du mois passé]</head>
         <bibl><title>Mercure galant</title>, mai 1679 [tome 5], p. 335-339.<note resp="author"
-            place="margin">L'énigme se trouve dans <ref target="MG-1679-04_356">l'article du Mercure
-              du mois d'avril 1679</ref>. La solution figure dans <ref target="MG-1679-06e_249"
-              >l'article de l'Extraordinaire du mois d'avril 1679</ref>.</note></bibl>
+            place="margin">L'énigme se trouve dans <ref target="MG-1679-04_356">cet article</ref>et la solution dans <ref target="MG-1679-06e_249"
+              >celui-ci</ref>.</note></bibl>
         <p><seg type="tab">    </seg>Les Enigmes divertissent toûjours le Public à l’ordinaire. M<hi
             rend="sup">r</hi> de Grammarais, de Roüen, a expliqué ainsi la premiere du dernier Mois
           dans son vray sens.</p>

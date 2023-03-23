@@ -409,7 +409,7 @@
               <l rend="i">Un riche Partisan passera bien sa vie</l>
               <l rend="i"> Avec Philis. Reste Silvie.</l>
               <l rend="i"> Il faut aussi l’expédier,</l>
-              <l> <hi rend="i">L’envoyer à l’Académie<note resp="author">galante, [doit apparaître en note]</note>,</hi></l>
+              <l> <hi rend="i">L’envoyer à l’Académie<note resp="author">galante,</note>,</hi></l>
               <l rend="i">Et pour vivre content, ne me point marier.</l>
             </lg>
           </quote>
@@ -504,7 +504,7 @@
       <div type="article" xml:id="MG-1682-09e_252">
         <head>Sentiment sur les questions proposées dans le dernier Extraordinaire</head>
         <bibl><title>Extraordinaire du Mercure galant</title>, quartier de juillet <date>1682</date> (<biblScope unit="volume">tome XIX</biblScope>), <biblScope unit="page">p. 252-253</biblScope>.</bibl>
-        <p>SENTIMENS SUR LES Questions proposées dans le dernier Extraordinaire.<note resp="author" place="margin">Voir <ref target="MG-1682-06e_398b">cet article</ref> pour la question et <ref target="MG-1682-12e_168">cet article</ref> pour une autre réponse</note></p>
+        <p>SENTIMENS SUR LES Questions proposées dans le dernier Extraordinaire.<note resp="editor">Voir <ref target="MG-1682-06e_398b">cet article</ref> pour la question et <ref target="MG-1682-12e_168">celui-ci</ref> pour une autre réponse</note>.</p>
         <p/>
         <p>[...]</p>
         <p>On a demandé, si le sentiment de Phinée dans l'Opéra de Persée, est d'un veritable Amant, lors qu'il dit, qu'il aime mieux voir Andromede devorée par un Monstre, qu'entre les bras de son Rival.</p>
@@ -789,7 +789,7 @@
       <div type="article" xml:id="MG-1682-09e_371">
         <head>Sentiment sur les questions du dernier Extraordinaire</head>
         <bibl><title>Extraordinaire du Mercure galant</title>, quartier de juillet <date>1682</date> (<biblScope unit="volume">tome XIX</biblScope>), <biblScope unit="page">p. 371-372</biblScope>.</bibl>
-        <p>SENTIMENS SUR LES Questions du dernier Extraordinaire.<note resp="author" place="margin">Voir <ref target="MG-1682-09e_370">cet article</ref> et <ref target="MG-1682-09e_390">cet article</ref>.</note></p>
+        <p>SENTIMENS SUR LES Questions du dernier Extraordinaire.<note resp="editor">Voir <ref target="MG-1682-09e_390">cet article</ref>.</note></p>
         <p/>
         <p>[...]</p>
         <p>Sur la Question de l'Opéra de Persée.</p>
@@ -1379,7 +1379,7 @@
       <div type="article" xml:id="MG-1682-09e_390">
         <head>Sur la question de l'opéra de Persée</head>
         <bibl><title>Extraordinaire du Mercure galant</title>, quartier de juillet <date>1682</date> (<biblScope unit="volume">tome XIX</biblScope>), <biblScope unit="page">p. 390-391</biblScope>.</bibl>
-        <p>Sur la question de l'Opéra de Persée.<note resp="author" place="margin">Voir <ref target="MG-1682-09e_252">cet article</ref> et <ref target="MG-1682-09e_371">cet article</ref>.</note></p>
+        <p>Sur la question de l'Opéra de Persée.<note resp="editor">Voir <ref target="MG-1682-09e_252">cet article</ref> et <ref target="MG-1682-09e_371">celui-ci</ref>.</note></p>
         <p/>
         <p>LA Cruauté sans-doute avec moy n'est point née,</p>
         <p>Cependant en amour je suis tel que Phinée.</p>

@@ -91,7 +91,7 @@
         <p>obeïssant Serviteur, D.</p>
       </div>
       <div type="article" xml:id="MG-1678-06_000b" resp="mercure">
-        <head>[Dialogue du Fleuret &amp; de l’Epée]</head>
+        <head>Dialogue du Fleuret &amp; de l’Epée</head>
         <bibl><title>Mercure galant</title>, juin 1678 [tome 6], non paginé.</bibl>
         <castList>
           <castItem xml:id="le-fleuret"/>
@@ -1241,7 +1241,7 @@
       <div type="article" xml:id="MG-1678-06_170" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, juin 1678 [tome 6], p. 170-171.</bibl>
-        <p>Heureux qui pourroit se servir de ces leçons ! On se mettroit à couvert de bien des chagrins, &amp; particulierement de ceux que cause le changement qui est presque toûjours inévitable en amour. Nous n’avons rien à reprocher là-dessus à vostre Sexe, si on s’en rapporte à ces Vers que j’ay reçeus de Puyperlan en Xaintonge. Ils m’ont esté envoyez avec la Note<note resp="editor">En septembre 1678, le Mercure galant publie un court article attribuant cet air à M. de L. M. (cf. <ref target="MG-1678-09_226">MG-1678-09_226</ref>).</note>, au nom d’une tres-spirituelle Communauté. C’est le moindre éloge que je luy puisse donner sur la Lettre dont ils estoient accompagnez.</p>
+        <p>Heureux qui pourroit se servir de ces leçons ! On se mettroit à couvert de bien des chagrins, &amp; particulierement de ceux que cause le changement qui est presque toûjours inévitable en amour. Nous n’avons rien à reprocher là-dessus à vostre Sexe, si on s’en rapporte à ces Vers que j’ay reçeus de Puyperlan en Xaintonge. Ils m’ont esté envoyez avec la Note<note resp="editor">En septembre 1678, le <hi rend="italic">Mercure galant</hi> publie un court article attribuant cet air à M. de L. M. (cf. <ref target="MG-1678-09_226">cet article</ref>).</note>, au nom d’une tres-spirituelle Communauté. C’est le moindre éloge que je luy puisse donner sur la Lettre dont ils estoient accompagnez.</p>
         <quote><label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Quand sur nos charmans rivages</hi>, doit regarder la page 171.</note>
           <lg>
             <l rend="i">Quand sur nos charmans rivages</l>
@@ -1717,13 +1717,10 @@
       </div>
       <div type="article" xml:id="MG-1678-06_317" resp="mercure">
         <head>[Explication de l’Enigme de la Flute en Vers]</head>
-        <bibl><title>Mercure galant</title>, juin 1678 [tome 6], p. 317-319.<note resp="author"
-            place="margin"><ref target="MG-1678-05_355">Pour l'énigme</ref>, <ref
-              target="MG-1678-06e_119">pour une lettre sur cette énigme</ref> et dans <ref
-              target="MG-1678-06e_130"><hi rend="i">Mercure</hi></ref></note></bibl>
+        <bibl><title>Mercure galant</title>, juin 1678 [tome 6], p. 317-319.</bibl>
         <p>Les Enigmes continuënt toûjours à exercer agreablement les Esprits. M<hi rend="sup"
             >r</hi> Robbe qui a trouvé le vray sens des deux en Vers de ma Lettre du Mois de May, a
-          expliqué ainsi la premiere.</p>
+          expliqué ainsi la premiere <note resp="editor"> Pour l'énigme, cf. <ref target="MG-1678-05_355">cet article</ref>, pour une lettre sur cette énigme, cf. <ref target="MG-1678-06e_119">cet article</ref></note>.</p>
         <quote>
           <l>Jadis Pan inventa la Fluste,</l>
           <l>Pour expliquer son amoureux tourment.</l>

@@ -1,0 +1,182 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:03358f7d-3712-458d-95a2-0d8e7e826d0d a skos:Concept ;
+    dctrerms:identifier "03358f7d-3712-458d-95a2-0d8e7e826d0d" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Grèce"@fr .
+
+opentheso:180b9026-0c6b-448d-ac42-88dd815ed7dd a skos:Concept ;
+    dctrerms:identifier "180b9026-0c6b-448d-ac42-88dd815ed7dd" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Perse"@fr .
+
+opentheso:28c706c8-92de-4760-b33c-aacba2d8688b a skos:Concept ;
+    dctrerms:identifier "28c706c8-92de-4760-b33c-aacba2d8688b" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Hollande"@fr .
+
+opentheso:2c7ba64b-b3da-4be9-82ec-226ba7a9327d a skos:Concept ;
+    dctrerms:identifier "2c7ba64b-b3da-4be9-82ec-226ba7a9327d" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Hongrie"@fr .
+
+opentheso:2d0e1689-02a1-4e97-8a42-88a9fb972888 a skos:Concept ;
+    dctrerms:identifier "2d0e1689-02a1-4e97-8a42-88a9fb972888" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Colombie"@fr .
+
+opentheso:35f6a2c0-fa42-4dfa-8d3a-a24260f74aba a skos:Concept ;
+    dctrerms:identifier "35f6a2c0-fa42-4dfa-8d3a-a24260f74aba" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Canada"@fr .
+
+opentheso:365011cc-34b7-4409-8158-865fabfefafa a skos:Concept ;
+    dctrerms:identifier "365011cc-34b7-4409-8158-865fabfefafa" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Yougoslavie"@fr .
+
+opentheso:3a9c3796-7585-427a-be94-5e23bd754744 a skos:Concept ;
+    dctrerms:identifier "3a9c3796-7585-427a-be94-5e23bd754744" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Portugal"@fr .
+
+opentheso:3d563898-b8ac-499e-abf9-d939f5996be3 a skos:Concept ;
+    dctrerms:identifier "3d563898-b8ac-499e-abf9-d939f5996be3" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Allemagne"@fr .
+
+opentheso:40a250b1-8a7b-4861-8f67-e19c3b547966 a skos:Concept ;
+    dctrerms:identifier "40a250b1-8a7b-4861-8f67-e19c3b547966" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Suède"@fr .
+
+opentheso:58916a81-fe06-4a3f-8be9-a5275376a4b5 a skos:Concept ;
+    dctrerms:identifier "58916a81-fe06-4a3f-8be9-a5275376a4b5" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Italie"@fr .
+
+opentheso:5a56872b-8108-48f0-971b-88c1ea828c22 a skos:Concept ;
+    dctrerms:identifier "5a56872b-8108-48f0-971b-88c1ea828c22" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Suisse"@fr .
+
+opentheso:5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a a skos:Concept ;
+    dctrerms:identifier "5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Espagne"@fr .
+
+opentheso:77a33d19-5384-4fd2-a03b-efa2be314370 a skos:Concept ;
+    dctrerms:identifier "77a33d19-5384-4fd2-a03b-efa2be314370" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Afrique"@fr .
+
+opentheso:892f29bf-e19f-4068-885b-af5e17b79ad1 a skos:Concept ;
+    dctrerms:identifier "892f29bf-e19f-4068-885b-af5e17b79ad1" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Ecole inconnue"@fr .
+
+opentheso:8f1db912-6732-4911-81ab-5b8199e36f26 a skos:Concept ;
+    dctrerms:identifier "8f1db912-6732-4911-81ab-5b8199e36f26" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Afrique du Sud"@fr .
+
+opentheso:901ae980-e2bf-4c10-ad4f-244b1f8023b9 a skos:Concept ;
+    dctrerms:identifier "901ae980-e2bf-4c10-ad4f-244b1f8023b9" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Autriche"@fr .
+
+opentheso:962f8bb9-52d5-4cc5-a165-93db27927352 a skos:Concept ;
+    dctrerms:identifier "962f8bb9-52d5-4cc5-a165-93db27927352" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Tchécoslovaquie"@fr .
+
+opentheso:b1c72862-4f70-4ad7-8d1e-ae33182179f9 a skos:Concept ;
+    dctrerms:identifier "b1c72862-4f70-4ad7-8d1e-ae33182179f9" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Inde"@fr .
+
+opentheso:b8470c9b-0227-4f36-9f1b-d090a4e8ddb7 a skos:Concept ;
+    dctrerms:identifier "b8470c9b-0227-4f36-9f1b-d090a4e8ddb7" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Amérique du Sud"@fr .
+
+opentheso:c0592fcb-8484-4582-abd1-372a13e4d51e a skos:Concept ;
+    dctrerms:identifier "c0592fcb-8484-4582-abd1-372a13e4d51e" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Flandres"@fr .
+
+opentheso:db4194eb-687a-4cee-97f4-c57a681ebab1 a skos:Concept ;
+    dctrerms:identifier "db4194eb-687a-4cee-97f4-c57a681ebab1" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Etats-Unis"@fr .
+
+opentheso:dd099d23-9329-4002-b94c-0c87abcc2163 a skos:Concept ;
+    dctrerms:identifier "dd099d23-9329-4002-b94c-0c87abcc2163" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "France"@fr .
+
+opentheso:e08beffd-199e-4f76-98f7-6482466de451 a skos:Concept ;
+    dctrerms:identifier "e08beffd-199e-4f76-98f7-6482466de451" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Grande-Bretagne"@fr .
+
+opentheso:ea59e24a-1808-4726-af03-549dba2fb79f a skos:Concept ;
+    dctrerms:identifier "ea59e24a-1808-4726-af03-549dba2fb79f" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Pologne"@fr .
+
+opentheso:ee14ba8f-0317-4cbb-bfd3-340d16301a9f a skos:Concept ;
+    dctrerms:identifier "ee14ba8f-0317-4cbb-bfd3-340d16301a9f" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Danemark"@fr .
+
+opentheso:f77317f2-e8da-4c3d-a2fe-1c2141770837 a skos:Concept ;
+    dctrerms:identifier "f77317f2-e8da-4c3d-a2fe-1c2141770837" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Russie"@fr .
+
+opentheso:f9af238a-7094-40d2-a518-03eb24a32ed6 a skos:Concept ;
+    dctrerms:identifier "f9af238a-7094-40d2-a518-03eb24a32ed6" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Europe du Nord"@fr .
+
+opentheso:fc038ba3-c1f1-4336-bf96-944047e7647c a skos:Concept ;
+    dctrerms:identifier "fc038ba3-c1f1-4336-bf96-944047e7647c" ;
+    skos:inScheme opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 ;
+    skos:prefLabel "Pays-Bas"@fr .
+
+opentheso:b34ffc43-3c91-4c1a-9335-d15d46b466e1 a skos:ConceptScheme ;
+    dctrerms:identifier "b34ffc43-3c91-4c1a-9335-d15d46b466e1" ;
+    skos:hasTopConcept opentheso:03358f7d-3712-458d-95a2-0d8e7e826d0d,
+        opentheso:180b9026-0c6b-448d-ac42-88dd815ed7dd,
+        opentheso:28c706c8-92de-4760-b33c-aacba2d8688b,
+        opentheso:2c7ba64b-b3da-4be9-82ec-226ba7a9327d,
+        opentheso:2d0e1689-02a1-4e97-8a42-88a9fb972888,
+        opentheso:35f6a2c0-fa42-4dfa-8d3a-a24260f74aba,
+        opentheso:365011cc-34b7-4409-8158-865fabfefafa,
+        opentheso:3a9c3796-7585-427a-be94-5e23bd754744,
+        opentheso:3d563898-b8ac-499e-abf9-d939f5996be3,
+        opentheso:40a250b1-8a7b-4861-8f67-e19c3b547966,
+        opentheso:58916a81-fe06-4a3f-8be9-a5275376a4b5,
+        opentheso:5a56872b-8108-48f0-971b-88c1ea828c22,
+        opentheso:5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a,
+        opentheso:77a33d19-5384-4fd2-a03b-efa2be314370,
+        opentheso:892f29bf-e19f-4068-885b-af5e17b79ad1,
+        opentheso:8f1db912-6732-4911-81ab-5b8199e36f26,
+        opentheso:901ae980-e2bf-4c10-ad4f-244b1f8023b9,
+        opentheso:962f8bb9-52d5-4cc5-a165-93db27927352,
+        opentheso:b1c72862-4f70-4ad7-8d1e-ae33182179f9,
+        opentheso:b8470c9b-0227-4f36-9f1b-d090a4e8ddb7,
+        opentheso:c0592fcb-8484-4582-abd1-372a13e4d51e,
+        opentheso:db4194eb-687a-4cee-97f4-c57a681ebab1,
+        opentheso:dd099d23-9329-4002-b94c-0c87abcc2163,
+        opentheso:e08beffd-199e-4f76-98f7-6482466de451,
+        opentheso:ea59e24a-1808-4726-af03-549dba2fb79f,
+        opentheso:ee14ba8f-0317-4cbb-bfd3-340d16301a9f,
+        opentheso:f77317f2-e8da-4c3d-a2fe-1c2141770837,
+        opentheso:f9af238a-7094-40d2-a518-03eb24a32ed6,
+        opentheso:fc038ba3-c1f1-4336-bf96-944047e7647c ;
+    skos:prefLabel "Écoles"@fr .
+

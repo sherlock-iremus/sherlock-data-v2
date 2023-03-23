@@ -24,7 +24,7 @@ projects:
               output_ttl: out/ttl/mg/tei.ttl
               cache_tei: caches/mg/tei.yaml
       xls-estampes2rdf:
-        name: Convertir les fichiers d'indexation des estampes XLS en RDF CIDOC-CRM
+        name: Convertir le XLS des estampes en RDF CIDOC-CRM
         steps:
           - git: ../in/mercure-galant-sources
             branch: main
@@ -36,10 +36,10 @@ projects:
               cache: caches/mg/estampes.yaml
               cache_tei: caches/mg/tei.yaml
               directus_secret: directus/secret.rar.yaml
-      indexation-estampes-prod:
-        name: Mettre en prod les données d'indexation des estampes
+      estampes-prod:
+        name: Mettre en prod les données des estampes
         steps:
-          - script: prod/mg/indexation.sh
+          - script: prod/mg/estampes.sh
       static-prod:
         name: Mettre en prod les données statiques du Mercure Galant
         steps:

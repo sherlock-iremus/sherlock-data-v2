@@ -393,7 +393,7 @@
             noté</head>
           <bibl><title>Mercure galant</title>, octobre et novembre 1703 [première partie] [tome 10], p. 147-149.</bibl>
           <p>Je vous envoye un air que vous trouverez dans l’article suivant, il est noté par Mr
-            l’Abbé Castel.</p>
+            l’Abbé Castel. <note resp="editor">L'auteur de ce poème est aussi celui de l'air <ref target="MG-1704-09_440">« Fuyez les loups »</ref>.</note></p>
           <quote>
             <label><hi rend="i">A la belle Mademoiselle R… en luy envoyant un Bouquet, un Cœur,
                 &amp; un air noté.</hi></label>
@@ -958,7 +958,7 @@
         <div type="article" xml:id="MG-1703-10-11_343">
           <head>Air nouveau</head>
           <bibl><title>Mercure galant</title>, octobre et novembre 1703 [première partie] [tome 10], p. 343.</bibl>
-          <p>L’air suivant est de Mr de Montailly, vous en avez souvent admiré de sa façon.</p>
+          <p>L’air suivant est de Mr de Montailly, vous en avez souvent admiré de sa façon. <note resp="editor">L'air a été également publié dans le <hi rend="italic">Recueil d'airs sérieux et à boire</hi> de décembre 1703 (p. 228-229). Deux autres mises en musique du poème ont été publiées, la première dans le <hi rend="italic">Mercure galant</hi> de mars 1691(cf. <ref target="MG-1691-03_295">cet article</ref>), la seconde par S. de Brossard dans son <hi rend="italic">IV. livre d'airs sérieux et à boire</hi> (Paris, Christophe Ballard, 1696, cf. SdB.125). Toutes deux présentent une variante (différente) au 3e vers.</note></p>
           <quote>
             <label>AIR NOUVEAU.</label><note resp="author" place="margin">L’Air, <hi rend="i">Pourquoy me fuyez-vous</hi>, page 343.</note>
             <lg>

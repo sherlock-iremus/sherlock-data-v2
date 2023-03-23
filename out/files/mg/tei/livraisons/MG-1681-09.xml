@@ -181,9 +181,8 @@
    </div>
    <div type="article" xml:id="MG-1681-09_013">
     <head>[Lettre de Hanover]</head>
-    <bibl><title>Mercure galant</title>, septembre 1681 [tome 10], p. 13-25.<note resp="author"
-      place="margin">Voir <ref target="MG-1681-08_144">cet article</ref> et <ref
-       target="MG-1681-09_331">cet article</ref> qui relatent ces mêmes divertissements de
+    <bibl><title>Mercure galant</title>, septembre 1681 [tome 10], p. 13-25.<note resp="editor"> <ref target="MG-1681-08_144">Cet article</ref> et <ref
+       target="MG-1681-09_331">celui-ci</ref> relatent ces mêmes divertissements de
       Hanovre.</note></bibl>
     <p>Je vous fis le dernier mois un fort long détail du Balet champestre dancé à Hanover sous le
      titre de <hi rend="i">la Chasse de Diane</hi>, mais ce fut sans vous rien dire de particulier
@@ -1326,7 +1325,7 @@
      </lg>
      <lg>
       <label>DAPHNIS<note resp="editor">Le nom du personnage manque dans le <hi rend="i">Mercure
-         Galant</hi>. Texte complété grâce à l'édition de <hi rend="i">Pièces de poësie qui ont
+         galant</hi>. Texte complété grâce à l'édition des <hi rend="i">Pièces de poësie qui ont
          remporté le prix de l'Académie Françoise depuis 1671 jusqu'à 1757</hi>, Paris, Imprimerie
         de J. B. Coignard, 1747, p. 51.</note>.</label>
       <l><hi rend="i">Tel un Chesne aux longs bras, au front haut &amp; superbe,</hi></l>
@@ -1429,11 +1428,9 @@
    </div>
    <div type="article" xml:id="MG-1681-09_186">
     <head>[Cerémonies faites à Marseille]</head>
-    <bibl><title>Mercure galant</title>, septembre 1681 [tome 10], p. 186-191.<note resp="author"
-      place="margin">Voir <ref target="MG-1681-08_305">cet article</ref> qui relate le baptème des
-      cinquante nègres.</note></bibl>
+    <bibl><title>Mercure galant</title>, septembre 1681 [tome 10], p. 186-191.</bibl>
     <p>Je vous entretins la derniere fois d’une Cerémonie faite à Marseille pour le Baptéme de
-     cinquante Négres. J’en ay appris depuis ce temps-là des circonstances que je croy devoir
+     cinquante Négres<note resp="editor">Voir <ref target="MG-1681-08_305">cet article</ref>.</note>. J’en ay appris depuis ce temps-là des circonstances que je croy devoir
      adjoûter icy. M<hi rend="sup">r</hi> le Maréchal Duc de Vivonne les avoit fait instruire depuis
      six mois des Mysteres de nostre Religion, afin de les disposer à recevoir le Baptéme. Le jour
      choisy pour cela estant venu, on se rendit dans la grande Place qui est au devant de l’Eglise
@@ -1955,9 +1952,8 @@
    </div>
    <div type="article" xml:id="MG-1681-09_331">
     <head>[Suite des Divertissemens de Hanover]</head>
-    <bibl><title>Mercure galant</title>, septembre 1681 [tome 10], p. 331-342.<note resp="author"
-      place="margin">Voir <ref target="MG-1681-08_144">cet article</ref> et <ref
-       target="MG-1681-09_13">cet article</ref> qui relatent ces mêmes divertissements de
+    <bibl><title>Mercure galant</title>, septembre 1681 [tome 10], p. 331-342.<note resp="editor">Voir <ref target="MG-1681-08_144">cet article</ref> et <ref
+       target="MG-1681-09_013">celui-ci</ref> qui relatent ces mêmes divertissements de
       Hanovre.</note></bibl>
     <p>On m’a fait voir une seconde Lettre de Hanover, dont je vous envoye une Copie. Vous vous
      souviendrez que lors qu’on y parle de la Reyne, c’est de la Reyne Mere de Dannemark qu’on

@@ -852,7 +852,7 @@
       <div type="article" xml:id="MG-1691-09_311" resp="wordpro">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, septembre 1691 [tome 9], p. 311-312.</bibl>
-        <p>Les paroles que je vous envoye sont de M. Buquet d'Abbeville. Elles ont esté mis en chant par M. Normandeau, Organiste du College Royal de Navarre.</p>
+        <p>Les paroles que je vous envoye sont de M. Buquet d'Abbeville. Elles ont esté mis en chant par M. Normandeau, Organiste du College Royal de Navarre <note resp="editor">La planche de musique annoncée (et indiquée dans l'avis pour placer les figures placé en fin de volume) ne figure dans aucun exemplaire répertorié (F-Pn, 8-LC2-33 ; F-Po, PI-1750 ; F-Pn, BP-166 ; F-Pa, 8-H-26483 (autre air en regard, cf. <ref target="MG-1691-09_311b">cet article</ref>) ; F-Pa, 8-H-26484 (autre air en regard, cf. <ref target="MG-1691-09_311b">cet article</ref>) et F-Pa, 8-H-26492 ; F-Pm, 8° 33890-266 ; D-Bsb, Eur 511 m 1691,9, ni dans le recueil des airs du Mercure galant aujourd'hui conservé à la bibliothèque municipale de Grenoble (F-G, C.1551). La musique pourrait ne pas avoir été publiée.</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">La Feste d'une riche Cour</hi>, doit regarder la page 312.</note>
           <lg>
@@ -869,7 +869,7 @@
         <head>[Air nouveau]*</head>
         <bibl><title>Mercure galant</title>, septembre 1691 [tome 9], p. 311-312.</bibl>
         <quote>
-          <label>[AIR NOUVEAU.]*</label>
+          <label>[AIR NOUVEAU.]* <note resp="editor">Cet air, qui ne correspond pas à l’article introductif, figure en lieu et place de « La fête d’une riche cour » (cf. <ref target="MG-1691-09_311">cet article</ref>) dans les exemplaires F-Pa, 8-H-26483 ; F-Pa, 8-H-26484 ; F-Pm, 8° 33890-266, peut-être en raison d’une erreur de reliure ou d'impression.</note></label>
           <lg>
             <l>[Ce n’est point seulement aux loups</l>
             <l>que les bois servent de re traittes.</l>

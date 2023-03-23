@@ -688,7 +688,7 @@
         <p>Voicy une Fable dont la moralité peut faire rentrer beaucoup de gens en eux-mesmes. Le
           dessein en est tiré des Emblêmes d’Alciat.</p>
         <quote>
-          <label>L’ASNE ET L’AVARE.</label>
+          <label>L’ASNE ET L’AVARE. [Fable]</label>
           <lg>
             <l rend="i"> Un Asne portoit sur son dos</l>
             <l rend="i"> Quantité de friands morceaux,</l>
@@ -717,8 +717,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1687-12_230" resp="wordpro">
-        <head>[Sur le livre de Bouhours De la manière de bien penser dans les Ouvrages d’esprit
-          suivi d'un Madrigal]*</head>
+        <head>[Madrigal][Sur le livre de Bouhours De la manière de bien penser dans les Ouvrages d’esprit]</head>
         <bibl><title>Mercure galant</title>, décembre 1687 [tome 17], p. 230-231</bibl>
         <p/>
         <p>Le Pere Bouhours, qui écrit toûjours d’une maniere si juste, aprés nous avoir donné des
@@ -897,7 +896,7 @@
       <div type="article" xml:id="MG-1687-12_328" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, décembre 1687 [tome 17], p. 328-329.</bibl>
-        <p>Voicy un autre Air nouveau que vous ne trouverez pas moins beau que le premier.</p>
+        <p>Voicy un autre Air nouveau que vous ne trouverez pas moins beau que le premier <note resp="editor">En janvier 1687 (cf. <ref target="MG-1687-01a_194">cet article</ref>), le <hi rend="italic">Mercure galant</hi> publie un air de Labbé, qu'il juge « ... aussi beau que celuy du mois passé, de la composition de cet illustre Autheur ». Deux airs ont été publiés en décembre 1686 : l'un de Bacilly et celui-ci, que l'on peut donc attribuer à Labbé.</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">A qui sçait bien aimer il n'est rien d'impossible</hi>, doit regarder la page 328.</note>
           <lg><l rend="i">A qui sçait bien aimer il n'est rien d'impossible,</l>

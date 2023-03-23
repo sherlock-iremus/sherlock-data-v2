@@ -1,0 +1,170 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:05be30f1-812a-4cbf-9ed0-d5495ba821d3 a skos:Concept ;
+    dctrerms:identifier "05be30f1-812a-4cbf-9ed0-d5495ba821d3" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "compositeur"@fr .
+
+opentheso:129c5b61-0c62-4479-bfa2-70e23b4f3956 a skos:Concept ;
+    dctrerms:identifier "129c5b61-0c62-4479-bfa2-70e23b4f3956" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "poète"@fr .
+
+opentheso:17fc8f21-74d1-4d5b-8cac-47abd356ae55 a skos:Concept ;
+    dctrerms:identifier "17fc8f21-74d1-4d5b-8cac-47abd356ae55" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "journaliste"@fr .
+
+opentheso:1a7e52f6-d43f-4eed-b9be-9c916ab14901 a skos:Concept ;
+    dctrerms:identifier "1a7e52f6-d43f-4eed-b9be-9c916ab14901" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "chanteur"@fr .
+
+opentheso:243d31e3-3073-4854-83b9-a2032d99814e a skos:Concept ;
+    dctrerms:identifier "243d31e3-3073-4854-83b9-a2032d99814e" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "violoniste"@fr .
+
+opentheso:2e863009-27d2-4d59-b899-3d91e02391d5 a skos:Concept ;
+    dctrerms:identifier "2e863009-27d2-4d59-b899-3d91e02391d5" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "enlumineur"@fr .
+
+opentheso:335a89cd-73f7-43a2-bad6-0f933577f75a a skos:Concept ;
+    dctrerms:identifier "335a89cd-73f7-43a2-bad6-0f933577f75a" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "photographe"@fr .
+
+opentheso:3a1216d9-24d3-4e82-902a-7c9aa6b8532b a skos:Concept ;
+    dctrerms:identifier "3a1216d9-24d3-4e82-902a-7c9aa6b8532b" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "philosophe"@fr .
+
+opentheso:50e03858-756f-41ee-b98b-94c0846a583b a skos:Concept ;
+    dctrerms:identifier "50e03858-756f-41ee-b98b-94c0846a583b" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "pédagogue"@fr .
+
+opentheso:53f2f497-45da-407d-bec3-9fc2b90e5bad a skos:Concept ;
+    dctrerms:identifier "53f2f497-45da-407d-bec3-9fc2b90e5bad" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "danseur"@fr .
+
+opentheso:5b2b72e7-7924-4245-9cfa-2a7718d9bdca a skos:Concept ;
+    dctrerms:identifier "5b2b72e7-7924-4245-9cfa-2a7718d9bdca" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "joueur d'instrument"@fr .
+
+opentheso:6a785fac-2b0c-4594-9a44-54955a77a2e3 a skos:Concept ;
+    dctrerms:identifier "6a785fac-2b0c-4594-9a44-54955a77a2e3" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "acteur"@fr .
+
+opentheso:6f2f1d13-50b4-4f27-83bd-21769408d966 a skos:Concept ;
+    dctrerms:identifier "6f2f1d13-50b4-4f27-83bd-21769408d966" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "claveciniste"@fr .
+
+opentheso:70801518-e87a-4f69-aa53-7ac8a9c22338 a skos:Concept ;
+    dctrerms:identifier "70801518-e87a-4f69-aa53-7ac8a9c22338" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "organiste"@fr .
+
+opentheso:86b8c1ac-1936-4c3d-814a-0f4cb8782eac a skos:Concept ;
+    dctrerms:identifier "86b8c1ac-1936-4c3d-814a-0f4cb8782eac" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "sculpteur"@fr .
+
+opentheso:8ec1f39b-f9ad-46cf-a939-67612ea0f0a1 a skos:Concept ;
+    dctrerms:identifier "8ec1f39b-f9ad-46cf-a939-67612ea0f0a1" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "peintre"@fr .
+
+opentheso:9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1 a skos:Concept ;
+    dctrerms:identifier "9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "tapissier"@fr .
+
+opentheso:a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999 a skos:Concept ;
+    dctrerms:identifier "a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "chorégraphe"@fr .
+
+opentheso:abdebca9-5b12-43c6-8c11-d879bb4224ff a skos:Concept ;
+    dctrerms:identifier "abdebca9-5b12-43c6-8c11-d879bb4224ff" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "écrivain"@fr .
+
+opentheso:b59adba7-7937-484d-93b4-a089d9c21cbb a skos:Concept ;
+    dctrerms:identifier "b59adba7-7937-484d-93b4-a089d9c21cbb" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "graveur"@fr .
+
+opentheso:c8f5dd53-2364-43bb-9ee7-f67a1521b0aa a skos:Concept ;
+    dctrerms:identifier "c8f5dd53-2364-43bb-9ee7-f67a1521b0aa" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "romancier"@fr .
+
+opentheso:cac1d0ba-d443-4635-ba61-a43da665d0ad a skos:Concept ;
+    dctrerms:identifier "cac1d0ba-d443-4635-ba61-a43da665d0ad" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "violoncelliste"@fr .
+
+opentheso:cf340c5a-8a8f-4b73-8b40-0da34265f7e2 a skos:Concept ;
+    dctrerms:identifier "cf340c5a-8a8f-4b73-8b40-0da34265f7e2" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "librettiste"@fr .
+
+opentheso:dfa4d65b-44e3-4231-b5e4-2a3aa1c90343 a skos:Concept ;
+    dctrerms:identifier "dfa4d65b-44e3-4231-b5e4-2a3aa1c90343" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "dessinateur"@fr .
+
+opentheso:e84afafc-5990-473f-b591-d5acff683cb9 a skos:Concept ;
+    dctrerms:identifier "e84afafc-5990-473f-b591-d5acff683cb9" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "éditeur"@fr .
+
+opentheso:ec17fecf-de28-4e95-b6f2-dd6a6c42c629 a skos:Concept ;
+    dctrerms:identifier "ec17fecf-de28-4e95-b6f2-dd6a6c42c629" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "architecte"@fr .
+
+opentheso:ec894fe2-5367-4f56-a2db-7ed9c4b2212c a skos:Concept ;
+    dctrerms:identifier "ec894fe2-5367-4f56-a2db-7ed9c4b2212c" ;
+    skos:inScheme opentheso:656a657c-0091-410a-b05c-aa91bbbc707a ;
+    skos:prefLabel "auteur dramatique"@fr .
+
+opentheso:656a657c-0091-410a-b05c-aa91bbbc707a a skos:ConceptScheme ;
+    dctrerms:identifier "656a657c-0091-410a-b05c-aa91bbbc707a" ;
+    skos:hasTopConcept opentheso:05be30f1-812a-4cbf-9ed0-d5495ba821d3,
+        opentheso:129c5b61-0c62-4479-bfa2-70e23b4f3956,
+        opentheso:17fc8f21-74d1-4d5b-8cac-47abd356ae55,
+        opentheso:1a7e52f6-d43f-4eed-b9be-9c916ab14901,
+        opentheso:243d31e3-3073-4854-83b9-a2032d99814e,
+        opentheso:2e863009-27d2-4d59-b899-3d91e02391d5,
+        opentheso:335a89cd-73f7-43a2-bad6-0f933577f75a,
+        opentheso:3a1216d9-24d3-4e82-902a-7c9aa6b8532b,
+        opentheso:50e03858-756f-41ee-b98b-94c0846a583b,
+        opentheso:53f2f497-45da-407d-bec3-9fc2b90e5bad,
+        opentheso:5b2b72e7-7924-4245-9cfa-2a7718d9bdca,
+        opentheso:6a785fac-2b0c-4594-9a44-54955a77a2e3,
+        opentheso:6f2f1d13-50b4-4f27-83bd-21769408d966,
+        opentheso:70801518-e87a-4f69-aa53-7ac8a9c22338,
+        opentheso:86b8c1ac-1936-4c3d-814a-0f4cb8782eac,
+        opentheso:8ec1f39b-f9ad-46cf-a939-67612ea0f0a1,
+        opentheso:9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1,
+        opentheso:a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999,
+        opentheso:abdebca9-5b12-43c6-8c11-d879bb4224ff,
+        opentheso:b59adba7-7937-484d-93b4-a089d9c21cbb,
+        opentheso:c8f5dd53-2364-43bb-9ee7-f67a1521b0aa,
+        opentheso:cac1d0ba-d443-4635-ba61-a43da665d0ad,
+        opentheso:cf340c5a-8a8f-4b73-8b40-0da34265f7e2,
+        opentheso:dfa4d65b-44e3-4231-b5e4-2a3aa1c90343,
+        opentheso:e84afafc-5990-473f-b591-d5acff683cb9,
+        opentheso:ec17fecf-de28-4e95-b6f2-dd6a6c42c629,
+        opentheso:ec894fe2-5367-4f56-a2db-7ed9c4b2212c ;
+    skos:prefLabel "Spécialités"@fr .
+

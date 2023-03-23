@@ -255,7 +255,7 @@
           representez ce Carnaval, &amp; c’est pour vous que j’ay prié qu’on me l’envoyast. Je sçay
           bien que pour vous satisfaire entierement, il faudroit vous faire voir quelque échantillon
           de leur Musique ; mais à ce defaut, vous vous contenterez, s’il vous plaist, des Airs
-          nouveaux dont je continuëray à vous faire part.<note resp="author" place="margin"><ref
+          nouveaux dont je continuëray à vous faire part.<note resp="editor" place="margin"><ref
               target="MG-1678-02_18"><hi rend="i">Air nouveau du mois de février 1678</hi></ref> et
               <ref target="MG-1678-01_224"><hi rend="i">Air prétendument nouveau du mois de janvier
                 1678 </hi></ref> dans <hi rend="i">Mercure airs</hi>. Voir également <ref
@@ -266,19 +266,14 @@
       <div type="article" xml:id="MG-1678-02_016" resp="mercure">
         <head>[Paroles de M. Vaumorieres notées par M. Charpentier]</head>
         <bibl><title>Mercure galant</title>, février 1678 [tome 2], p. 16-19.</bibl>
-        <p>Vous avez raison de me dire que le premier des deux<note resp="author"><p>Airs nouveaux
-              envoyés le mois précédent.</p></note> que je vous ay déja envoyez ne l’estoit pas.
+        <p>Vous avez raison de me dire que le premier des deux [Airs nouveaux] que je vous ay déja envoyez [le mois précédent] ne l’estoit pas.
           J’en avois crû ceux qui me l’avoient donné pour nouveau. Je n’y seray plus surpris, &amp;
           je puis répondre avec certitude que celuy que vous allez trouver icy noté n’a encor esté
           veu de personne. Je vous laisse juger des Paroles. L’Air est de M<hi rend="sup"
           >r</hi> Charpentier, dont vous me dites que les Ouvrages sont si estimez dans vostre
           Province.</p>
         <quote>
-          <label>AIR.<note resp="editor" place="margin">cf. <ref
-                target="http://neuma.huma-num.fr/home/opus/timbres:airsmercure:1678_02_016/"><hi
-                  rend="i">En vain rivaux assidus</hi></ref>, février 1678, <hi rend="i">in</hi>
-              <ref target="http://neuma.huma-num.fr/home/corpus/timbres:airsmercure/">Airs du
-                Mercure galant (1678-1710)</ref></note></label>
+          <label>AIR.</label>
           <l rend="i">En vain, Rivaux assidus</l>
           <l rend="i">Vous me donnez de la peine,</l>
           <l rend="i">Tous vos soûpirs pour Climene</l>
@@ -1114,12 +1109,9 @@
           est au dessus de toute sorte de loüanges. Le nom de Madame des Houlieres vous en fera
           demeurer d’accord.</p>
         <quote rend="border">
-          <label>AIR NOUVEAU.<note resp="editor" place="margin">cf. <ref
-                target="http://neuma.huma-num.fr/home/opus/timbres:airsmercure:1678_02_163/"><hi
-                  rend="i">Ah, que je sens d’inquietude !</hi></ref>, février 1678, <hi rend="i"
-                >in</hi>
-              <ref target="http://neuma.huma-num.fr/home/corpus/timbres:airsmercure/">Airs du
-                Mercure galant (1678-1710)</ref></note></label>
+          <label>AIR NOUVEAU.<note resp="author"
+                place="margin"><hi rend="i">Avis pour placer les Figures</hi> : la seconde Chanson
+                qui commence par Ah que je sens d’inquietude, doit regarder la Page 164.</note></label>
           <lg>
             <l rend="i"><space/>Ah, que je sens d’inquietude !</l>
             <l rend="i">Que j’ay de mouvemens qui m’estoient inconnus !</l>
@@ -1130,9 +1122,7 @@
             <l rend="i">Avec tant d’amertume &amp; tant de violence ?</l>
             <l rend="i">De tout ce que je fais mon cœur n’est point content.</l>
             <l rend="i">Helas ! cruel Amour que je méprisois tant,</l>
-            <l rend="i">Ces maux ne sont-ils point l’effet de ta vengeance ?<note resp="author"
-                place="margin"><hi rend="i">Avis pour placer les Figures</hi> : la seconde Chanson
-                qui commence par Ah que je sens d’inquietude, doit regarder la Page 164.</note></l>
+            <l rend="i">Ces maux ne sont-ils point l’effet de ta vengeance ?</l>
           </lg>
         </quote>
         <ref target="images/1678-02_163.JPG">
@@ -1475,11 +1465,9 @@
       <div type="article" xml:id="MG-1678-02_218" resp="mercure">
         <head>Air Nouveau</head>
         <bibl><title>Mercure galant</title>, février 1678 [tome 2], p. 218-219.</bibl>
-        <p>Il n’est pas juste de vous parler de Musique, à vous qui l’aimez avec tant de passion, sans vous donner moyen de chanter. Lisez ces Paroles d’un troisiéme air, avant que de vous attacher à la Note.<note resp="editor">Cet air publié sans nom d'auteur est de « celuy-mesme dont je vous en ay envoyé un d'abord que tout le monde sçavoit ». Ce commentaire fait référence à l'air « Iris sur la fougère », dont le poème de Mme Deshoulières a été mis en air par M. de La Tour (cf. <ref target="MG-1678-01_226">MG-1678-01_226</ref>). Le Mercure, fidèle à sa volonté de ne publier que des airs nouveaux, n'en publie que les paroles car "[le rédacteur a] déja entendu parler de cet Air en quelques endroits  ».</note></p>
+        <p>Il n’est pas juste de vous parler de Musique, à vous qui l’aimez avec tant de passion, sans vous donner moyen de chanter. Lisez ces Paroles d’un troisiéme air, avant que de vous attacher à la Note.<note resp="editor">Cet air publié sans nom d'auteur est de « celuy-mesme dont je vous en ay envoyé un d'abord que tout le monde sçavoit ». Ce commentaire fait référence à l'air « Iris sur la fougère », dont le poème de Mme Deshoulières a été mis en air par M. de La Tour (cf. <ref target="MG-1678-01_226">MG-1678-01_226</ref>). Le <hi rend="italic">Mercure galant</hi>, fidèle à sa volonté de ne publier que des airs nouveaux, n'en publie que les paroles car "[le rédacteur a] déja entendu parler de cet Air en quelques endroits ».</note></p>
         <quote rend="border">
-          <label>AIR NOUVEAU.<note resp="editor" place="margin">cf. <ref
-                target="http://neuma.huma-num.fr/home/opus/timbres:airsmercure:1678_02_218/"><hi rend="i">Doux habitans de ces bois</hi></ref>, février 1678, <hi rend="i">in</hi> <ref target="http://neuma.huma-num.fr/home/corpus/timbres:airsmercure/">Airs du
-                Mercure galant (1678-1710)</ref></note></label>
+          <label>AIR NOUVEAU.</label>
           <lg>
             <l rend="i">Doux Habitans de ces Bois,</l>
             <l rend="i">Que vostre amoureux ramage</l>
@@ -1874,7 +1862,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1678-02_315a" resp="mercure">
-        <head>[Sur le Comte d’Essex et Lyncée]</head>
+        <head>Sur le Comte d’Essex et Lyncée</head>
         <bibl><title>Mercure galant</title>, février 1678 [tome 2], p. 315.</bibl>
         <p><hi rend="i">Le Comte d’Essex</hi> de M<hi rend="sup">r</hi> de Corneille le jeune est
           imprimé. Je vous l’envoye, &amp; ne doute point que vous ne receviez beaucoup de plaisir
@@ -1892,11 +1880,7 @@
           point encor esté veu. Il est de M<hi rend="sup">r</hi> Sicard, qui chante, qui montre,
           &amp; qui compose tres-bien. En voicy les Paroles &amp; les Notes.</p>
         <quote>
-          <label>AIR NOUVEAU.<note resp="editor" place="margin">cf. <ref
-                target="http://neuma.huma-num.fr/home/opus/timbres:airsmercure:1678_02_315/"><hi
-                  rend="i">Vous qui d'un tendre amour</hi></ref>, février 1678, <hi rend="i">in</hi>
-              <ref target="http://neuma.huma-num.fr/home/corpus/timbres:airsmercure/">Airs du
-                Mercure galant (1678-1710)</ref></note></label>
+          <label>AIR NOUVEAU.</label>
           <lg>
             <l rend="i">Vous qui d’un tendre amour avez le cœur capable,</l>
             <l rend="i">Ne vous laissez jamais charmer.</l>

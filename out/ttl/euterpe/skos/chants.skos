@@ -1,0 +1,116 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:1921628d-e3f9-44c3-ba74-d14c5fb9b555 a skos:Concept ;
+    dctrerms:identifier "1921628d-e3f9-44c3-ba74-d14c5fb9b555" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "ange chantant"@fr .
+
+opentheso:1a3118c1-5773-4c84-94b1-29d2b1aa28b4 a skos:Concept ;
+    dctrerms:identifier "1a3118c1-5773-4c84-94b1-29d2b1aa28b4" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chantre"@fr .
+
+opentheso:1d358338-02ac-41d9-8004-29f7e7e9b9f1 a skos:Concept ;
+    dctrerms:identifier "1d358338-02ac-41d9-8004-29f7e7e9b9f1" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "choeur"@fr .
+
+opentheso:1fa591ea-50c4-4378-a675-30edcac47ae7 a skos:Concept ;
+    dctrerms:identifier "1fa591ea-50c4-4378-a675-30edcac47ae7" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteur dans un groupe"@fr .
+
+opentheso:33653641-2ae3-432f-a996-cbb663791c88 a skos:Concept ;
+    dctrerms:identifier "33653641-2ae3-432f-a996-cbb663791c88" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteuse d'opéra"@fr .
+
+opentheso:4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3 a skos:Concept ;
+    dctrerms:identifier "4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "animal chantant"@fr .
+
+opentheso:57066719-9229-494d-b479-87f48acbfbe3 a skos:Concept ;
+    dctrerms:identifier "57066719-9229-494d-b479-87f48acbfbe3" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "groupe de chanteurs"@fr .
+
+opentheso:819b525f-4070-41df-92f0-ff8f24ca8046 a skos:Concept ;
+    dctrerms:identifier "819b525f-4070-41df-92f0-ff8f24ca8046" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteur de salon"@fr .
+
+opentheso:89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8 a skos:Concept ;
+    dctrerms:identifier "89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteur"@fr .
+
+opentheso:8e3bfe86-bec2-4371-b1cf-672f658bbd0c a skos:Concept ;
+    dctrerms:identifier "8e3bfe86-bec2-4371-b1cf-672f658bbd0c" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteuse de salon"@fr .
+
+opentheso:9819bb34-a317-4ca4-936c-a0182b4288cd a skos:Concept ;
+    dctrerms:identifier "9819bb34-a317-4ca4-936c-a0182b4288cd" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "maître de chant"@fr .
+
+opentheso:99aca482-891b-4e5e-8eb1-da4687739be0 a skos:Concept ;
+    dctrerms:identifier "99aca482-891b-4e5e-8eb1-da4687739be0" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteur des rues"@fr .
+
+opentheso:a008a602-39e9-4c08-b229-a0bd6e83a33b a skos:Concept ;
+    dctrerms:identifier "a008a602-39e9-4c08-b229-a0bd6e83a33b" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteur d'opéra"@fr .
+
+opentheso:b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5 a skos:Concept ;
+    dctrerms:identifier "b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "choeur d'anges"@fr .
+
+opentheso:c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5 a skos:Concept ;
+    dctrerms:identifier "c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "enfant chantant"@fr .
+
+opentheso:d77741b9-e322-464d-a7ad-299a96129735 a skos:Concept ;
+    dctrerms:identifier "d77741b9-e322-464d-a7ad-299a96129735" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteuse"@fr .
+
+opentheso:d8c7325a-51ba-4100-b69c-86ca6c4d51bb a skos:Concept ;
+    dctrerms:identifier "d8c7325a-51ba-4100-b69c-86ca6c4d51bb" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chanteur des rues s'accompagnant"@fr .
+
+opentheso:ec949b8e-2808-485a-99e8-c28c5ea3144f a skos:Concept ;
+    dctrerms:identifier "ec949b8e-2808-485a-99e8-c28c5ea3144f" ;
+    skos:inScheme opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 ;
+    skos:prefLabel "chorale"@fr .
+
+opentheso:8292ec09-ba15-4aa1-a815-d71c00dbef08 a skos:ConceptScheme ;
+    dctrerms:identifier "8292ec09-ba15-4aa1-a815-d71c00dbef08" ;
+    skos:hasTopConcept opentheso:1921628d-e3f9-44c3-ba74-d14c5fb9b555,
+        opentheso:1a3118c1-5773-4c84-94b1-29d2b1aa28b4,
+        opentheso:1d358338-02ac-41d9-8004-29f7e7e9b9f1,
+        opentheso:1fa591ea-50c4-4378-a675-30edcac47ae7,
+        opentheso:33653641-2ae3-432f-a996-cbb663791c88,
+        opentheso:4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3,
+        opentheso:57066719-9229-494d-b479-87f48acbfbe3,
+        opentheso:819b525f-4070-41df-92f0-ff8f24ca8046,
+        opentheso:89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8,
+        opentheso:8e3bfe86-bec2-4371-b1cf-672f658bbd0c,
+        opentheso:9819bb34-a317-4ca4-936c-a0182b4288cd,
+        opentheso:99aca482-891b-4e5e-8eb1-da4687739be0,
+        opentheso:a008a602-39e9-4c08-b229-a0bd6e83a33b,
+        opentheso:b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5,
+        opentheso:c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5,
+        opentheso:d77741b9-e322-464d-a7ad-299a96129735,
+        opentheso:d8c7325a-51ba-4100-b69c-86ca6c4d51bb,
+        opentheso:ec949b8e-2808-485a-99e8-c28c5ea3144f ;
+    skos:prefLabel "Chants"@fr .
+

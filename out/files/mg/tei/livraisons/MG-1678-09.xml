@@ -131,9 +131,7 @@
       </div>
       <div type="article" xml:id="MG-1678-09_008" resp="mercure">
         <head>[Description en Prose et en Vers d’une Feste donnée par M. de Matignon]</head>
-        <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 8-37.<note resp="author"
-            place="margin"><ref target="MG-1678-07_108">Article</ref> dans <hi rend="i"
-            >Mercure</hi></note></bibl>
+        <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 8-37.</bibl>
         <p>On peut dire que quand mesme la Guerre ne finiroit point, tout y demeuroit dans le mesme
           état, puis que tant qu’elle a duré, il s’est fait beaucoup de Festes, tant publiques que
           particulieres, dans toutes les Provinces du Royaume. Vous en avez veu les Descriptions
@@ -143,7 +141,8 @@
           <label rend="center">À MADEMOISELLE***</label>
           <p><hi rend="i">Si vous avez crû, Mademoiselle, qu’il ne se pouvoit rien voir de
               magnifique apres ce qui se fit il y a quelque temps pour la reception de Madame la
-              Duchesse de Toscane, dans le voyage qu’elle fit à Caën, la Feste dont j’ay à vous
+              Duchesse de Toscane, dans le voyage qu’elle fit à Caën <note resp="editor">
+                À propos de cette fête, voir <ref target="MG-1678-07_108">cet article</ref></note>, la Feste dont j’ay à vous
               entretenir aujourd’huy, vous va faire changer de sentimens. Je suis seûr que vous la
               trouverez digne de celuy qui l’a donnée, &amp; que vous n’en pourrez apprendre les
               particularitez, sans avoüer que Monsieur de Matignon a toûjours de nouvelles manieres
@@ -633,7 +632,7 @@
       <div type="article" xml:id="MG-1678-09_103a" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 103.</bibl>
-        <p>L’Air qui suit est de la composition de M<hi rend="sup">r</hi> Merieux. Voicy les Paroles <note resp="editor">. L'année suivante, cet air sert à la démonstration d'une nouvelle notation musicale en chiffres proposée par M. Chaudel (cf. <ref target="MG-1679-03e_276">MG-1679-03e_276)</ref></note>.</p>
+        <p>L’Air qui suit est de la composition de M<hi rend="sup">r</hi> Merieux. Voicy les Paroles <note resp="editor">. L'année suivante, cet air sert à la démonstration d'une nouvelle notation musicale en chiffres proposée par M. Chaudel (cf. <ref target="MG-1679-03e_276">cet article)</ref></note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Amis, puis que Bacchus nous assemble en ce jour</hi>, doit regarder la page 103.</note>
           <lg>
@@ -1103,10 +1102,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1678-09_179" resp="mercure">
-        <head>[Présent fait au Roy par M. l’Abbé du Montal<note n="1" place="bottom"><p>D’après
-              MEYER, Véronique, <hi rend="i">Pour la plus grande gloire du roi : Louis XIV en thèses
-                : Catalogue</hi>, Rennes, Centre de recherche du château de Versailles/Presses
-              universitaires de Rennes, 2017, p. 258-260.</p></note>]</head>
+        <head>[Présent fait au Roy par M. l’Abbé du Montal]</head>
         <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 179-192.</bibl>
         <note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : Les
           Devises doivent regarder la page 179.</note>
@@ -1180,18 +1176,20 @@
           Soûtenant par le Chancelier. Cette Cerémonie finit l’Action.</p>
       </div>
       <div type="article" xml:id="MG-1678-09_192" resp="mercure">
-        <head>[Portraits de M. l’Archevêque de Paris et de Leurs Majestés]*</head>
-        <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 192-193.</bibl>
+        <head>[Portraits de M. l’Archevêque de Paris, gravé par Mademoiselle Stella]*</head>
+        <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 192-193.</bibl>
         <p>Si le talent de graver donne de la réputation aux Hommes, il faut dire à l’avantage de
           celles de vostre Sexe, qu’il n’y a point d’Art où elles ne réüssissent admirablement. Le
           Livre de Pastorales, &amp; d’autres Ouvrages que nous avons de Mademoiselle Stella, luy
           avoient acquis déja beaucoup de gloire, mais elle a fort augmenté l’estime qu’on avoit
           pour elle, par le Portrait qu’elle a gravé depuis peu de monsieur l’Archevesque de Paris.
           Il est accopagné de Figures qui marquent les vertus de ce grand &amp; zelé Prélat. On ne
-          peut rien voir de plus achevé. Mademoiselle Masson la suit de pres dans ce merveilleux
-          talent. Elle a gravé les Portraits de Leurs Majestez avec une si entiere ressemblance,
-          qu’aucun trait n’y est oublié. J’ay appris qu’elle travailloit presentement à ceux de
-          Leurs Altesses Royales.</p>
+          peut rien voir de plus achevé.</p>
+      </div>
+      <div type="article" xml:id="MG-1678-09_193" resp="mercure">
+        <head>[Portraits de Leurs Majestés gravez par Mademoiselle Masson]*</head>
+        <bibl><title>Mercure galant</title>, septembre 1678 [tome 9], p. 193.</bibl>
+        Mademoiselle Masson la suit de pres dans ce merveilleux talent. Elle a gravé les Portraits de Leurs Majestez avec une si entiere ressemblance, qu’aucun trait n’y est oublié. J’ay appris qu’elle travailloit presentement à ceux de Leurs Altesses Royales.</p>
       </div>
       <div type="article" xml:id="MG-1678-09_194" resp="mercure">
         <head>[Madrigal sur le tremblement de terre arrivé à Avignon et en Provence]*</head>
@@ -1387,7 +1385,7 @@
         </ref>
       </div>
       <div type="article" xml:id="MG-1678-09_226" resp="mercure">
-        <head>[Annonce éditoriale]*</head>
+        <head>[Fautes glissées dans quelques Volumes precedens] [au sujet d'un air]*</head>
         <bibl><title>Mercure galant</title>, septembre [tome 9], 1678, p. 226-227.</bibl>
         <p>J’ay toûjours oublié à vous dire que l’Air de ma Lettre du Mois de Juin, dont les Paroles
           commencent par ce Vers, <hi rend="i">Quand sur nos charmans rivages, &amp;c.</hi> estoit
@@ -1419,13 +1417,11 @@
       </div>
       <div type="article" xml:id="MG-1678-09_342" resp="mercure">
         <head>[Explication de la premiere Enigme en Vers du Mois dernier]</head>
-        <bibl><title>Mercure galant</title>, septembre [tome 9], 1678, p. 342-345.<note
-            resp="author" place="margin"><ref target="MG-1678-08_346">Pour l'énigme</ref> et <ref
-              target="MG-1678-04_389">pour l'explication de l'énigme</ref> dans <hi rend="i"
-              >Mercure</hi></note></bibl>
+        <bibl><title>Mercure galant</title>, septembre [tome 9], 1678, p. 342-345.</bibl>
         <p>Les Enigmes sont toûjours expliquées dans leur vray sens par quantité de Personnes. Vous
-          trouverez celuy de la premiere du dernier Mois<note resp="editor">Voir l'<ref
-              target="MG-1678-08_346">Enigme</ref> du mois d'août 1678.</note> dans ces Vers de
+          trouverez celuy de la premiere du dernier Mois <note resp="editor">Voir l'<ref
+            target="MG-1678-08_346"><hi rend="i">Enigme</hi></ref> du mois d'août 1678 et <ref
+              target="MG-1678-04_389"> l'explication de l'énigme</ref>.</note>dans ces Vers de
             M<hi rend="sup">r</hi> le Courrier, de Caën.</p>
         <quote>
           <lg>

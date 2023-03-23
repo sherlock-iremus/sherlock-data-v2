@@ -47,9 +47,9 @@
                     <head>Chanson</head>
                     <bibl><title>Nouveau Mercure galant</title>, juillet 1715 [tome 7], p. 290-295.</bibl>
                   <p>Ma Lettre doit, si je ne me trompe, vous paroistre assez variée, &amp; je me contenterois volontiers de la longue lecture où elle vous a engagé pour y mettre le sceau du dernier compliment, s'il ne me restoit pas encore deux ou trois choses indispensables à vous dire. Vous n'avez vû ny ma Chanson ny mes Enigmes, &amp; mon Livre seroit en verité un plaisant Livre, si ces deux articles n'y estoient pas. Je n'ay garde de commettre une faute si grossiere, &amp; la Chanson que j'ay à vous presenter me paroist trop jolie pour ne pas vous prier de la chanter.</p>
-                    <quote><note resp="author" place="margin">À la fin de la table, l'auteur précise à propos de l'air gravé que "La figure doit regarder la p. 292".</note>
+                    <quote>
                       <label>CHANSON.</label><note resp="author" place="margin">La figure doit regarder la p. 292.</note>
-                      <label>La Blonde &amp; la Brune. <hi rend="i">Vaudeville</hi>.</label>
+                      <label>La Blonde &amp; la Brune. <hi rend="i">Vaudeville</hi><note resp="editor">La première strophe de l'air, transposée en Sol Majeur, est publiée anonymement dans le <hi rend="italic">Recueil d'airs sérieux et à boire</hi> de décembre 1715 (Paris, Ballard, 1715, p. 239).Le poème a également été mis en musique par M. Turquois dans le <hi rend="italic">Recueil d'airs sérieux et à boire</hi> d'octobre 1715 (Paris, Ballard, 1715, p. 186-187).</note>.</label>
                       <lg>
                         <l><hi rend="i">À l'ombre de ce verd bocage,</hi></l>
                         <l><hi rend="i">J'ay trouvé deux rares beautez,</hi></l>

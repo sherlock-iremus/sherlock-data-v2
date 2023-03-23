@@ -65,7 +65,7 @@
   </teiHeader>
   <text>
     <body>
-      <head><hi rend="i">Le Nouveau Mercure galant</hi>, juillet 1677 (tome V)<note resp="editor">Il existe une autre édition parisienne, réalisée "Suivant la Copie imprimée" par Guillaume de Luyne, dont la pagination diffère.</note>.</head>
+      <head><hi rend="i">Le Nouveau Mercure galant</hi>, juillet 1677 (tome V).</head>
       <div type="article" xml:id="MG-1677-07_001" resp="mercure" copyOf="JLB-MG-1677-07_002">
         <head>[Sonnet de Monsieur de Fontenelle à une de ses Amies qui l’avoit prié de luy apprendre l’Espagnol]</head>
         <bibl><title>Le Nouveau Mercure galant</title>, juillet 1677 (tome V), p. 1-6<note resp="editor">Il existe une autre édition parisienne, réalisée "Suivant la Copie imprimée" par Guillaume de Luyne, dont la pagination diffère.</note>.</bibl>
@@ -1035,9 +1035,9 @@
       </div>
       <div type="article" xml:id="MG-1677-07_283" resp="mercure">
         <head>[Annonce éditoriale]*</head>
-        <bibl><title>Le Nouveau Mercure galant</title>, juillet 1677 (tome V), p. 283-284<note resp="editor">Dans le volume, les numéros de page sont 283-284, au lieu de [291-292]. Il existe une autre édition parisienne, réalisée "Suivant la Copie imprimée" par Guillaume de Luyne, dont la pagination diffère.</note>.<note resp="author" place="margin"><ref target="MG-1677-06_132"><hi rend="i">Lettre en chansons de M. Galand</hi></ref></note></bibl>
+        <bibl><title>Le Nouveau Mercure galant</title>, juillet 1677 (tome V), p. 283-284<note resp="editor">Dans le volume, les numéros de page sont 283-284, au lieu de [291-292]. Il existe une autre édition parisienne, réalisée "Suivant la Copie imprimée" par Guillaume de Luyne, dont la pagination diffère.</note>.</bibl>
         <p>Puis que vous me demandez encor des Lettres en Chansons, &amp; que vous les trouvez divertissantes, je croy que je pourray vous en envoyer le Mois prochain. Je suis ravy que celle de M<hi rend="sup">r</hi> Galant
-          ne vous ait pas moins plû qu’elle a fait à tout Paris. La Copie dont je vous ay fait part, avoit passé parmy tant de mains, qu’elle n’estoit pas conforme à l’Original, &amp; il y avoit mesmes quelques Couplets d’oubliez. Je suis obligé de vous en avertir pour la gloire de l’Autheur.</p>
+          ne vous ait pas moins plû qu’elle a fait à tout Paris. La Copie dont je vous ay fait part, avoit passé parmy tant de mains, qu’elle n’estoit pas conforme à l’Original, &amp; il y avoit mesmes quelques Couplets d’oubliez. Je suis obligé de vous en avertir pour la gloire de l’Autheur<note resp="editor"> Voir <ref target="MG-1677-06_132">cet article</ref></note>.</p>
       </div>
     </body>
   </text>

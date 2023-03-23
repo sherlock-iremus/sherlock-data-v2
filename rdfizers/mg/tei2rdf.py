@@ -60,7 +60,7 @@ for file in os.listdir(args.tei):
     try:
         tree = etree.parse(os.path.join(args.tei, file))
     except:
-        print("Fichier pourri :", file)
+        print("Fichier XML invalide :", file)
         continue
 
     root = tree.getroot()

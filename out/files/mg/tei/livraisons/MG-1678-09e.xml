@@ -1757,7 +1757,7 @@
             <l>Philis, &amp; mes tendres vœux.</l>
             <l>Aussi veux-je que ma veine</l>
             <l>Qui pour toy coule sans peine,</l>
-            <l>Quittant ce triste<note n="1" place="bottom"> C'est Ré.</note><hi rend="sup">*</hi>
+            <l>Quittant ce triste<note resp="editor"> C'est Ré.</note><hi rend="sup">*</hi>
               Climat,</l>
             <l>Grave au Temple de Memoire,</l>
             <l>Que des rayons de ta gloire</l>
@@ -2912,11 +2912,10 @@
       <div type="article" xml:id="MG-1678-09e_309" resp="mercure">
         <head>[Réponses aux énigmes] *</head>
         <bibl><title>Extraordinaire du Mercure galant</title>, quartier de juillet 1678 (tome III),
-          p. 309-317.<note resp="author" place="margin"><ref target="MG-1678-08_346">Pour
-              l'énigme</ref> et pour <ref target="MG-1678-09_342">pour la solution de cette
-              énigme</ref> dans le <hi rend="i">Mercure</hi></note></bibl>
+          p. 309-317.</bibl>
         <p>Voicy comme les Enigmes du <hi rend="i">Clavessin</hi> &amp; du <hi rend="i"
-            >Tournebroche</hi> ont esté expliquées par diférentes Personnes.</p>
+            >Tournebroche</hi> ont esté expliquées par diférentes Personnes <note resp="editor">Voir <ref target="MG-1678-08_346">cet article pour
+              l'énigme</ref> et <ref target="MG-1678-09_342">celui-ci pour la solution</note>.</p>
         <quote>
           <label rend="center">Explication des Deux.</label>
           <l>Je ne sçay si je me méprens</l>

@@ -63,7 +63,7 @@
     <body>
       <head><hi rend="i">Mercure galant</hi>, juillet 1689 (première partie) [tome 7].</head>
         <div type="article" xml:id="MG-1689-07a_007" resp="wordpro">
-          <head>Pour le Roy, sur le grand nombre de ses Ennemis</head>
+          <head>Pour le Roy, sur le grand nombre de ses Ennemis [Sonnet]</head>
           <bibl><title>Mercure galant</title>, juillet 1689 (première partie) [tome 7], p. 7-12.</bibl>
           <p/>
           <p>Il y a grande apparence, Madame, que le temps ne fera que confirmer ce que j’ay jugé des projets mal soutenus des Ennemis de Sa Majesté, lors qu’en vous parlant la derniere fois de leurs inutiles mouvemens, je vous ay dit que la Saison avançoit plus qu’eux. Jamais tant de Princes ne furent liguez contre une seule Puissance, &amp; jamais ligue ne parut moins en estat de venir à bout de ses entreprises. Le degré de gloire où la France est élevée blessera long-temps ses envieux sans qu’ils puissent l’abaisser. Elle est gouvernée par un Monarque, dont la sagesse ne sçauroit estre surprise. Sa prudence fait la seureté de ses Sujets, &amp; plus il aura d’Ennemis unis ensemble, plus son triomphe sera éclatant. C’est ce qu’a dit fort agreablement Mademoiselle de Serigny dans le Sonnet que vous allez lire. Je ne vous diray rien à l’avantage de cette nouvelle Muse, ses Vers parleront pour elle, &amp; vous feront voir combien elle a de talent pour la Poësie ; mais lors qu’il s’agit de loüer le Roy, on n’a qu’à s’abandonner à ce qu’on sçait de ses grandes actions. La beauté de la matiere échauffe l’esprit, &amp; il ne faut qu’écrire naturellement quand il n’y a rien à exagerer.</p>
@@ -386,8 +386,8 @@
         </div>
       <div type="article" xml:id="MG-1689-07a_112" resp="camille" copyOf="MG-1689-07a_112">
         <head>Air nouveau</head>
-        <bibl><title>Mercure galant</title>, juillet 1689 (première partie) [tome 7], p. 112-113.<note resp="author" place="margin">Les seuls airs régulièrement publiés par le Mercure à cette date dont les paroles et la musique soient du même auteur sont (hormis <ref target="MG-1688-01-080">celui de Guillegault</ref>, auteur peu connu) ceux de Bacilly, qui jouissait effectivement d'une grande notoriété.</note></bibl>
-        <p>Voicy un Air nouveau d’un Maistre celebre, qui fait ordinairement toutes les paroles des Airs de sa composition, en quoy l’on peut dire qu’il est l’unique parmy ceux qui font des Ouvrages de Musique.</p>
+        <bibl><title>Mercure galant</title>, juillet 1689 (première partie) [tome 7], p. 112-113.</bibl>
+        <p>Voicy un Air nouveau d’un Maistre celebre, qui fait ordinairement toutes les paroles des Airs de sa composition, en quoy l’on peut dire qu’il est l’unique parmy ceux qui font des Ouvrages de Musique <note resp="editor">À cette date, les seuls airs régulièrement publiés par le <hi rend="italic">Mercure galant</hi> dont le compositeur est aussi l'auteur des paroles sont, hormis celui de Guillegault, musicien peu connu (cf. <ref target="MG-1688-01_080">cet article</ref>), ceux de Bacilly, qui jouissait d'une grande notoriété. L'air a également été publié, avec basse continue, dans le <hi rend="italic">XXXIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1690, p. 17-18, cf. LADDA 1690-08). </note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Iris, si c'est vous offenser</hi>, doit regarder la page 113.</note>
           <lg>
@@ -733,7 +733,7 @@
       <div type="article" xml:id="MG-1689-07a_307" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, juillet 1689 (première partie) [tome 7], p. 307-309.</bibl>
-        <p>Je vous envoye un second Air nouveau, qui est d'un de nos plus sçavans Maistres. Il donne avis d'une repetition de ces mots, <hi rend="i">Taisez-vous</hi>, dans le premier Vers des paroles notées. Comme il semble qu'elle en embarasse la mesure, on pourra la supprimer si on le veut, &amp; suivre le chant de mesme qu'il est marqué à la fin de l'Air.</p>
+        <p>Je vous envoye un second Air nouveau, qui est d'un de nos plus sçavans Maistres. Il donne avis d'une repetition de ces mots, <hi rend="i">Taisez-vous</hi>, dans le premier Vers des paroles notées. Comme il semble qu'elle en embarasse la mesure, on pourra la supprimer si on le veut, &amp; suivre le chant de mesme qu'il est marqué à la fin de l'Air <note resp="editor">L'air a également été publié, avec une basse continue différente, dans le <hi rend="italic">XXXIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1690, p. 26-28, cf. LADDA 1690-12).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Taisez-vous, Rossignols</hi>, doit regarder la page 308.</note>
           <lg><l rend="i">Taisez-vous, Rossignols, vous redoublez ma flame,</l>

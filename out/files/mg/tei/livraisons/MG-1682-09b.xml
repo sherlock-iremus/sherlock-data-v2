@@ -1247,14 +1247,13 @@
           183-187.</bibl>
         <p/>
         <p>Le Roy un peu avant son départ, fit entendre à Madame la Dauphine, cette merveilleuse
-          Romaine, dont je vous ay entretenuë dans deux ou trois de mes Lettres<note resp="author"
-            place="margin">Voir <ref target="MG-1682-04_008">cet article d'avril 1682</ref> et <ref
+          Romaine, dont je vous ay entretenuë dans deux ou trois de mes Lettres<note resp="editor">Voir <ref target="MG-1682-04_008">cet article d'avril 1682</ref> et <ref
               target="MG-1682-07_236">cet article de juillet 1682</ref>.</note>. Elle avoit
           extrémement plû les premieres fois qu'elle avoit chanté mais elle charma dans cette
           derniere occasion. M<hi rend="sup">r</hi> Lorenzani Maître de Chapelle &amp; Intendant de
           la Musique de la Reyne, qui doit aussi sa naissance à la premiere Ville du monde, avoit
-          fait un Concert où entroit la Lyre<note resp="author" place="margin">Pour la lire
-            italienne, voir Marin Mersenne, L'Harmonie universelle, livre 4, p. 204-207,
+          fait un Concert où entroit la Lyre<note resp="editor">Pour la lire
+            italienne, voir Marin Mersenne, <hi rend="italic">L'Harmonie universelle</hi>, livre 4, p. 204-207,
             215-216</note> que touche si agreablement cette admirable Personne. Ce Concert plût
           tellement à Leurs Majestez, qu'on le fit repéter plus d'une fois. De la maniere que Mlle
           Carousi fut applaudie de tout ce qui l'entendit, qu'on peut dire avoir esté l'Assemblée
@@ -2307,8 +2306,7 @@
       <div type="article" xml:id="MG-1682-09b_347">
         <head>[Réjouissances à Asnières-sur-Oise pour la naissance du duc de Bourgogne]*</head>
         <bibl><title>Mercure galant</title>, septembre 1682 (seconde partie) [tome 10], p.
-            347-349.<note resp="author" place="margin"><ref target="MG-1683-09_054">Cet
-              article</ref> relate le premier anniversaire de cette fondation.</note></bibl>
+            347-349.</bibl>
         <p/>
         <p>Il me reste à vous parler d'une maniere de montrer sa joye, qui vous surprendra. Aussi
           est-elle si peu commune, que je ne connois qu'une Personne qui en ait donné de pareilles
@@ -2319,7 +2317,8 @@
           renduë à Viarmes, elle y passa un Contract devant le Tabellion Juré au Bailliage &amp;
           Chastellenie de ce Lieu, en date du 4. Aoust, par lequel elle fonde une grande Messe, un
             <hi rend="i">Te Deum</hi>, &amp; un Salut, pour estre chantez tous les ans à perpétuité
-          le 6. Aoust, jour de la Naissance de Monseigneur le Duc de Bourgogne. Il seroit difficile
+          le 6. Aoust, jour de la Naissance de Monseigneur le Duc de Bourgogne<note resp="editor"><ref target="MG-1683-09_054">Cet
+            article</ref> relate le premier anniversaire de cette fondation.</note>. Il seroit difficile
           de mieux prouver son attachement pour la Famille Royale.</p>
       </div>
     </body>

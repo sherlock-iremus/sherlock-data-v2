@@ -642,7 +642,7 @@
        <l> Mais satisfaite de mon sort,</l>
        <l> Dans cette eau sale &amp; croupissante,</l>
        <l> Dans ces mets fades &amp; gâtez,</l>
-        <l>Je trouve plus de goust que<note resp="editor">Le mot <hi rend="i">que</hi> figure dans l'édition lyonnaise (<hi rend="i">Mercure Galant</hi>, octobre 1681, p. 75), mais manque dans l'édition parisienne (<hi rend="i">Mercure Galant</hi>, octobre 1681, p. 106).</note> vous en vos Pastez.</l>
+        <l>Je trouve plus de goust [que]<note resp="editor">Mot manquant dans l'édition parisienne (p. 106) ; ajouté d'après l'édition lyonnaise (octobre 1681, p. 75).</note> vous en vos Pastez.</l>
        <l> Je ne suis point oisive &amp; faineante,</l>
        <l>Je travaille sans cesse, &amp; fais tous les Etez</l>
        <l>Provision de Bled pour la saison des neiges.</l>
@@ -1601,7 +1601,7 @@
       Merveilles du Monde, tant par sa grandeur &amp; par la somptuosité de son Edifice, que par la
       hauteur de ses Clochers tous faits à jour, &amp; par sa structure inimitable. Apres que M<hi rend="sup">r</hi> l’Evesque de Strasbourg eut fait la Cerémonie de la rebenir, il reçeut les
       Complimens du Magistrat, &amp; de toutes les Personnes qualifiées. Voicy ce que c’est que le
-      Magistrat. <note resp="author" place="margin">Voir <ref target="MG-1681-11_17">cet article</ref> qui relate la messe à laquelle assista le roi dans la cathédrale de Strasbourg</note>Il y a vingt-deux Tribus, qui ont chacune un Echevin, desquels on choisit le Consul
+      Magistrat. <note resp="editor">Voir <ref target="MG-1681-11_017">cet article</ref> qui relate la messe à laquelle assista le roi dans la cathédrale de Strasbourg.</note>Il y a vingt-deux Tribus, qui ont chacune un Echevin, desquels on choisit le Consul
       qu’on nomme <hi rend="i">Ammeister</hi>, qui avec les Echevins élit dix Gentilshommes de la
       Ville pour Sénateurs, &amp; tous ensemble ils composent le Sénat. Quatre de ces dix
       Gentilshommes sont faits <hi rend="i">Statmeister</hi> ou Préteurs, &amp; dans les
@@ -1631,7 +1631,7 @@
     <div type="article" xml:id="MG-1681-10_375">
      <head>Air nouveau</head>
       <bibl><title>Mercure galant</title>, octobre 1681 [tome 11], p. 375.</bibl>
-      <p>Je vous envoye une seconde Chanson, dont les Paroles ont esté faites par le mesme qui a fait celles de la premiere <note resp="editor"> C'est-à-dire M. de Montbron (cf. <ref target=">" MG-1681-10_125>cet article</ref>). Une mise en musique différente du poème a été publiée dans le <hi rend="italic">XXXVI. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1693 p. 24-25, cf. LADDA 1693-09).</note> L’Air est encor de M<hi rend="sup">r</hi> de Bassilly.</p>
+      <p>Je vous envoye une seconde Chanson, dont les Paroles ont esté faites par le mesme qui a fait celles de la premiere <note resp="editor"> C'est-à-dire M. de Montbron (cf. <ref target="MG-1681-10_125">cet article</ref>). Une mise en musique différente du poème a été publiée dans le <hi rend="italic">XXXVI. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1693 p. 24-25, cf. LADDA 1693-09).</note> L’Air est encor de M<hi rend="sup">r</hi> de Bassilly.</p>
      <quote>
        <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Sans le vouloir, etc.</hi> doit regarder la page 375.</note>
       <lg>
@@ -1650,7 +1650,7 @@
       </ref>
     </div>
     <div type="article" xml:id="MG-1681-10_376">
-     <head>[Explications des énigmes précédentes]*</head>
+      <head>[Noms de ceux qui ont deviné les Enigmes du dernier Mois] [et explications des énigmes précédentes]*</head>
      <bibl><title>Mercure galant</title>, octobre 1681 [tome 11], p. 376-377.</bibl>
      <p>Les deux Enigmes du dernier Mois estoient sur le mesme Mot, &amp; quoy que faciles en
       apparence, elles ont esté expliquées dans leur vray sens par peu de Personnes. Vous le

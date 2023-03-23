@@ -65,7 +65,7 @@
   </teiHeader>
   <text>
     <body>
-      <head><hi rend="i">Le Nouveau Mercure galant</hi>, juin 1677 (tome IV)<note resp="editor">Il existe une autre édition parisienne, réalisée "Suivant la Copie imprimée" par Claude Barbin, dont la pagination diffère.</note>.</head>
+      <head><hi rend="i">Le Nouveau Mercure galant</hi>, juin 1677 (tome IV).</head>
       <div type="article" xml:id="MG-1677-06_001" resp="mercure">
         <head>[Compliments au Cardinal d’Estrées]*</head>
         <bibl><title>Le Nouveau Mercure galant</title>, juin 1677 (tome IV), p. 1-30<note resp="editor">Il existe une autre édition parisienne, réalisée "Suivant la Copie imprimée" par Claude Barbin, dont la pagination diffère.</note>.</bibl>
@@ -219,7 +219,7 @@
           </lg>
         </quote>
         <quote>
-          <label>AU ROY, <lb/>RONDEAU <lb/>ACROSTICHE<note resp="editor">Dans le volume, la première lettre de chaque vers est tournée à 90° vers la droite.</note>.</label>
+          <label>AU ROY, <lb/>RONDEAU <lb/>ACROSTICHE.</label>
           <lg>
             <l>A Vous, Grand Roy, <hi rend="i">seroit grande bonté</hi></l>
             <l>V<hi rend="i">ouloir souffrir qu’avecque liberté,</hi></l>

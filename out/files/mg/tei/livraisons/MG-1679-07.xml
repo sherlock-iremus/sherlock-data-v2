@@ -1211,7 +1211,7 @@
       <div type="article" xml:id="MG-1679-07_207" resp="mercure">
         <head>[Les Chenilles &amp; le Buisson, Fable]</head>
         <bibl><title>Mercure galant</title>, juillet 1679 [tome 7], p. 207-225.</bibl>
-        <p>Cette matiere<note n="1" place="bottom"><p>l’envie.</p></note> ne peut estre traitée ny
+        <p>Cette matiere [l’envie] ne peut estre traitée ny
           plus agréablement, ny avec plus d’esprit qu’elle l’est dans la Fable que je vous envoye.
           Quoy qu’elle soit un peu longue, je suis assuré qu’elle ne vous ennuyera pas. M<hi
             rend="sup">r</hi> de Frontiniere en est l’Autheur. Il a un talent admirable pour la
@@ -1219,8 +1219,7 @@
           a fait la plûpart des belles Paroles que M<hi rend="sup">r</hi> Lambert a mises en Air.
           Celles que je vous envoyay notées le dernier Mois, commençant par <hi rend="i">Ombre de
             mon Amant</hi>, sont de luy. Il n’y a personne aujourd’huy qui ne les chante.<note
-            resp="author" place="margin">Voir <ref target="MG-1679-06_259">cet article</ref> où est
-            publié le poème <hi rend="i">Ombre de mon amant</hi>.</note></p>
+            resp="editor">Pour la publication du poème, cf. <ref target="MG-1679-06_259">cet article</ref>.</note></p>
         <quote>
           <label type="head">Les <lb/>Chenilles <lb/>et le Buisson.</label>
           <label type="head">Fable.</label>
@@ -2015,7 +2014,7 @@
           Parties à soûtenir. Ils sont du nombre des plus excellens Maistres de France.</p>
       </div>
       <div type="article" xml:id="MG-1679-07_353" resp="mercure">
-        <head>[Enigme du mois passé]</head>
+        <head>[Explication en vers de la premiere Enigme du mois passé]</head>
         <bibl><title>Mercure galant</title>, juillet 1679 [tome 7], p. 353.</bibl>
         <p>J'avois crû les Enigmes du dernier Mois plus difficiles à expliquer qu’à l’ordinaire,
           mais il n’en échape aucune à ceux qui se font un plaisir d’en chercher le sens. <hi

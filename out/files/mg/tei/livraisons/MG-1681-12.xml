@@ -66,7 +66,7 @@
     <body>
       <head><hi rend="i">Mercure galant</hi>, décembre 1681 [tome 13].</head>
       <div type="article" xml:id="MG-1681-12_016">
-        <head>[De l’Académie Royale d’Arles]*</head>
+        <head>[Panégyrique du Roy adressé à Messieurs de l’Académie Royale d’Arles]*</head>
         <bibl><title>Mercure galant</title>, décembre 1681 [tome 13], p. 16-18.</bibl>
         <p>Strasbourg &amp; Cazal ayant fait parler toute l’Europe, ont esté une féconde &amp;
           glorieuse matiere pour M<hi rend="sup">rs</hi> de l’Académie Royale d’Arles, dont la plus
@@ -1280,10 +1280,10 @@
           Baron dans le Sérieux, &amp; Arlequin dans le Comique. M<hi rend="sup">r</hi> de la
           Chapelle, Autheur de la Cléopatre, s’est acquis beaucoup de gloire en réüssissant dans un
           Sujet traité autrefois avec beaucoup de succés par M<hi rend="sup">r</hi> de Benserade,
-          &amp; par feu M<hi rend="sup">r</hi> Mairet<note resp="author" place="margin">Le rédacteur
-            du <hi rend="i">Mercure</hi> se trompe car Jean Mairet, auteur de la tragédie <hi
+          &amp; par feu M<hi rend="sup">r</hi> Mairet<note resp="editor">Le rédacteur
+            du <hi rend="i">Mercure galant</hi> se trompe car Jean Mairet, auteur de la tragédie <hi
               rend="i">Le Marc-Antoine, ou La Cléopâtre</hi> parue en 1635 n'était pas encore
-            décédé.</note> . Je vous envoyeray sa Piece si-tost qu’elle sera imprimée, afin que vous
+            décédé.</note>. Je vous envoyeray sa Piece si-tost qu’elle sera imprimée, afin que vous
           ayez le plaisir de voir ce qui a tiré des larmes de quantité de beaux yeux.</p>
       </div>
       <div type="article" xml:id="MG-1681-12_320">
@@ -1325,10 +1325,9 @@
       </div>
       <div type="article" xml:id="MG-1681-12_323">
         <head>[Divertissemens à la Cour]</head>
-        <bibl><title>Mercure galant</title>, décembre 1681 [tome 13], p. 323-329.<note resp="author"
-            place="margin">Voir aussi <ref target="MG-1681-11_41">cet article</ref></note></bibl>
+        <bibl><title>Mercure galant</title>, décembre 1681 [tome 13], p. 323-329.</bibl>
         <p>Je vous ay déja marqué qu’au retour du Voyage du Roy on a joüé à la Cour <hi rend="i">le
-            Bourgeois Gentilhomme</hi> alternativement avec <hi rend="i">le Pourceaugnac</hi>. Apres
+            Bourgeois Gentilhomme</hi> alternativement avec <hi rend="i">le Pourceaugnac</hi><note resp="editor">Voir <ref target="MG-1681-11_041">cet article</ref>.</note>. Apres
           quelques Représentations, Monseigneur le Dauphin voulut se donner le plaisir de dancer
           dans l’une des Entrées qui font l’ornement de chacune de ces Pieces. Il choisit dans <hi
             rend="i">le Bourgeois Gentilhomme</hi> l’Entrée des Espagnols &amp; Espagnoletes, &amp;
@@ -1391,9 +1390,7 @@
             <l>Si la perte est irreparable</l>
             <l>Je veux à ma douleur mettre une juste fin</l>
             <l>On est jamais inconsolable</l>
-            <l>Quand on possede encor la bouteille et le vin<note resp="editor" place="margin">Ces
-                paroles apparaissent sur la page de l'air gravé mais, contrairement à celle de la
-                majorité des airs, ne sont pas typographiées</note>.]</l>
+            <l>Quand on possede encor la bouteille et le vin<note resp="editor">Contrairement à son habitude, le rédacteur du <hi rend="italic">Mercure galant</hi> ne publie que la musique, sans les paroles. Nous les transcrivons d'après la gravure musicale.</note>.]</l>
           </lg>
         </quote>
         <ref target="images/1681-12_337.JPG">

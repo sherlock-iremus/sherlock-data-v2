@@ -494,7 +494,7 @@
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, février 1690 [tome 2], p. 88-89.</bibl>
         <p>Toutes les Chansons que je vous envoye sont toûjours choisies par un des plus habiles
-          Musiciens que nous ayons ; vous le connoistrez par celle-cy.</p>
+          Musiciens que nous ayons ; vous le connoistrez par celle-cy <note resp="editor">L'air a également été publié, avec variantes rythmiques, dans le <hi rend="italic">XXXIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1690, p. 13-14, cf. LADDA 1690-06). </note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Envain, cruelle Iris,
@@ -769,7 +769,7 @@
       </div>
       <div type="article" xml:id="MG-1690-02_129" resp="wordpro">
         <head>A Monsieur de la Quintinye, sur son livre de l’Instruction des Jardins Fruitiers &amp;
-          Potagers</head>
+          Potagers [Idile]</head>
         <bibl><title>Mercure galant</title>, février 1690 [tome 2], p. 129-151.</bibl>
         <p>On imprime un fort beau Livre touchant l’instruction des Jardins Fruitiers &amp;
           Potagers. Il est de M<hi rend="sup">r</hi> de la Quintinye, qui étoit préposé à la culture

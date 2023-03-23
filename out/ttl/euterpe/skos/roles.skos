@@ -1,0 +1,38 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:2b20adc9-54a8-4573-8347-2a994809e622 a skos:Concept ;
+    dctrerms:identifier "2b20adc9-54a8-4573-8347-2a994809e622" ;
+    skos:inScheme opentheso:9f2399a7-2a3b-499e-a2a1-7cd927595c7a ;
+    skos:prefLabel "Graveur"@fr .
+
+opentheso:524db20d-156d-4c1e-b60f-a69e59b722ea a skos:Concept ;
+    dctrerms:identifier "524db20d-156d-4c1e-b60f-a69e59b722ea" ;
+    skos:inScheme opentheso:9f2399a7-2a3b-499e-a2a1-7cd927595c7a ;
+    skos:prefLabel "Artiste"@fr .
+
+opentheso:8a2902e4-434f-461d-882e-9c243ebef0b2 a skos:Concept ;
+    dctrerms:identifier "8a2902e4-434f-461d-882e-9c243ebef0b2" ;
+    skos:inScheme opentheso:9f2399a7-2a3b-499e-a2a1-7cd927595c7a ;
+    skos:prefLabel "Éditeur"@fr .
+
+opentheso:8bed3a6e-fc91-4819-be6b-6dcc19ea6be3 a skos:Concept ;
+    dctrerms:identifier "8bed3a6e-fc91-4819-be6b-6dcc19ea6be3" ;
+    skos:inScheme opentheso:9f2399a7-2a3b-499e-a2a1-7cd927595c7a ;
+    skos:prefLabel "Compositeur"@fr .
+
+opentheso:d79389e9-172f-4654-b053-f4648bc32ced a skos:Concept ;
+    dctrerms:identifier "d79389e9-172f-4654-b053-f4648bc32ced" ;
+    skos:inScheme opentheso:9f2399a7-2a3b-499e-a2a1-7cd927595c7a ;
+    skos:prefLabel "Librettiste"@fr .
+
+opentheso:9f2399a7-2a3b-499e-a2a1-7cd927595c7a a skos:ConceptScheme ;
+    dctrerms:identifier "9f2399a7-2a3b-499e-a2a1-7cd927595c7a" ;
+    skos:hasTopConcept opentheso:2b20adc9-54a8-4573-8347-2a994809e622,
+        opentheso:524db20d-156d-4c1e-b60f-a69e59b722ea,
+        opentheso:8a2902e4-434f-461d-882e-9c243ebef0b2,
+        opentheso:8bed3a6e-fc91-4819-be6b-6dcc19ea6be3,
+        opentheso:d79389e9-172f-4654-b053-f4648bc32ced ;
+    skos:prefLabel "Rôles"@fr .
+

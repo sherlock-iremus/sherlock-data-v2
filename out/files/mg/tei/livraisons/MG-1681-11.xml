@@ -172,9 +172,9 @@
     <div type="article" xml:id="MG-1681-11_017">
      <head>[Ce qui s’est passé à Strasbourg, &amp; dans le retour du Roy, jusques à son arrivée à S.
       Germain]</head>
-     <bibl><title>Mercure galant</title>, novembre 1681 [tome 12], p. 17-19.<note resp="author" place="margin">Voir <ref target="MG-1681-10_306">cet article</ref> qui relate le reste du voyage du roi</note></bibl>
+     <bibl><title>Mercure galant</title>, novembre 1681 [tome 12], p. 17-19.</bibl>
      <p>Le Voyage de Sa Majesté à Strasbourg a fait trop de bruit pour n’en parler qu’une fois,
-      &amp; vous voudrez bien sans doute, que nous reprenions cette matiére. Le jour que le Roy
+      &amp; vous voudrez bien sans doute, que nous reprenions cette matiére<note resp="editor">Voir <ref target="MG-1681-10_306">cet article</ref> qui relate le reste du voyage du roi.</note>. Le jour que le Roy
       entendit la Messe dans l’Eglise Cathédrale, M<hi rend="sup">r</hi> l’Evesque de Strasbourg qui
       le reçeut à la Porte, comme je vous l’ay déja marqué, n’êtoit pas seulement accompagné d’une
       partie de son Chapitre, mais encor de sept Abbez mitrez avec leurs Crosses. Jamais
@@ -808,7 +808,7 @@
      <head>Chanson</head>
      <bibl><title>Mercure galant</title>, novembre 1681 [tome 12], p. 113-114.</bibl>
      <p>Les Paroles que vous trouverez icy notées sont de M<hi rend="sup">r</hi> Daubaine, dont vous
-      avez déja veu de fort jolis Vers <note resp="editor">Le poème a aussi été mis en musique par H. d'Ambruis (cf. MG-1682-11_242).</note>. L’Air est d’un habile Maître.</p>
+      avez déja veu de fort jolis Vers <note resp="editor">Le poème a aussi été mis en musique par H. d'Ambruis (cf. <ref target="MG-1682-11_242">cet article</ref>).</note>. L’Air est d’un habile Maître.</p>
      <quote>
       <label>CHANSON.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par <hi rend="i">On peut encor dans la Prairie</hi>, doit regarder la page 113.</note>
       <lg>
@@ -1949,8 +1949,8 @@
     <div type="article" xml:id="MG-1681-11_313">
      <head>[Retour de Monsieur à Paris, &amp; tout ce que ce Prince y a fait pendant son
       sejour]</head>
-     <bibl><title>Mercure galant</title>, novembre 1681 [tome 12], p. 313-318.<note resp="author" place="margin">Voir aussi <ref target="MG-1681-11_41">cet article</ref></note></bibl>
-     <p>Je vous ay parlé au commencement de ma Lettre du retour du Roy à Saint Germain, mais je ne
+     <bibl><title>Mercure galant</title>, novembre 1681 [tome 12], p. 313-318.</bibl>
+     <p>Je vous ay parlé au commencement de ma Lettre du retour du Roy à Saint Germain<note resp="editor">Voir <ref target="MG-1681-11_041">cet article</ref>.</note>, mais je ne
       vous ay rien dit de Monsieur. Ce Prince arriva avec toute sa Cour, un jour avant Leurs
       Majestez, &amp; se rendit à Paris, où il a demeuré huit ou dix jours. Il avoit de
       l’impatience, ainsi que Madame, de voir M<hi rend="sup">r</hi> le Duc de Chartres, qui estoit

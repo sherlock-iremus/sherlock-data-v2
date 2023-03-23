@@ -283,8 +283,8 @@
           pensées.</p>
       </div>
       <div type="article" xml:id="MG-1683-09_051" resp="nbb">
-        <head>[Lectures de M. l’abbé de Régnier, de Quinaut, de l’abbé Tallemant, de Ménage et de
-          Boyer]*</head>
+        <head>[Lectures Régnier, de Quinaut, de Tallemant et de
+          Boyer [académiciens]]*</head>
         <bibl><title>Mercure galant</title>, septembre 1683 [tome 10], p. 51-54.</bibl>
         <p>Ce fut donc M<hi rend="sup">r</hi> de Santeüil qui le remporta. Le procedé de M<hi
             rend="sup">r</hi> de la Monnoye fut fort estimé de l’Assemblée, devant laquelle on lût
@@ -309,15 +309,15 @@
       <div type="article" xml:id="MG-1683-09_054" resp="mercure" copyOf="JLB-MG-1683-09_055">
         <head>[Relation de la fête célébrée à Asnières pour l'anniversaire de la naissance du Duc de
           Bourgogne]*</head>
-        <bibl><title>Mercure galant</title>, septembre 1683 [tome 10], p. 54-57, 79-80.<note
-            resp="author" place="margin">Voir <ref target="MG-1682-09b_347">cet article</ref> qui
-            informe de la fondation d'une grand'messe, d'un <hi rend="i">Te Deum</hi> et d'un Salut
-            tous les 6 août pour célébrer la naissance du duc de Bourgogne.</note></bibl>
+        <bibl><title>Mercure galant</title>, septembre 1683 [tome 10], p. 54-57, 79-80.</bibl>
         <p>Je ne vous répete point ce que je vous ay déja dit en d’autres occasions, de la fondation
           de ces Prix. Il vaut mieux que je vous entretienne de ce qui se fit au commencement du
           dernier mois, dans une Solemnité, fondée par Mademoiselle Martineau à Asnieres sur Oise,
           pour y estre celebrée tous les ans le 6. Aoust, jour de la Naissance de Monseigneur le Duc
-          de Bourgogne. La mort de la Reyne a esté cause qu'on en a retranché cette année toutes les
+          de Bourgogne <note
+            resp="editor">Voir <ref target="MG-1682-09b_347">cet article</ref> qui
+            informe de la fondation d'une grand'messe, d'un <hi rend="i">Te Deum</hi> et d'un Salut
+            tous les 6 août pour célébrer la naissance du duc de Bourgogne.</note>. La mort de la Reyne a esté cause qu'on en a retranché cette année toutes les
           marques de joye qui devoient l'accompagner ; mais si la Musique, les Concerts de Voix
           &amp; d'Instrumens, les Feux d'artifice, &amp; d'autres choses semblables y ont manqué, le
           zele de la Fondatrice y a paru d'autant plus exact, qu'elle a voulu qu'on ait commencé la
@@ -409,7 +409,7 @@
             <l rend="i">Et que ce Favory de la Reyne des Cieux</l>
             <l rend="i">Eut du Grand Aléxandre une juste *Ordonnance !</l>
           </lg>
-          <note><p>* Aléxandre défendit de tuer aucun Paon, sur peine de la vie.</p></note>
+          <note resp="author">* Aléxandre défendit de tuer aucun Paon, sur peine de la vie.</note>
           <lg>
             <l rend="i">Ce bel Arc que Dieu fit en signe d’alliance,</l>
             <l rend="i">Lors qu’il paroist là-haut, est bien moins gracieux,</l>

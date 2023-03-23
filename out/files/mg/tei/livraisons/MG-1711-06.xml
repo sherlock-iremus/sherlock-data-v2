@@ -46,11 +46,11 @@
                 <div type="article" xml:id="MG-1711-06_001">
                     <head><hi rend="i">Chansons nouvelles.</hi></head>
                     <bibl><title>Mercure galant</title>, juin 1711 [tome 6], deuxième partie, p. 1-8.</bibl>
-                  <p>Qui se peuvent chanter separément, mais elles sont faites pour estre placées entre les trois Couplets qu'on a donnez dans le mois precedent. On a mis icy en petit caractere ces trois Couplets avec les deux Chansons nouvelles, dans l'ordre où se doit chanter le tout ensemble.</p>
-                    <quote>
-                        <label>Chansons nouvelles</label>
-                      <lg>
-                        <l>I. Couplet. <note resp="editor" place="margin">cf. "1711-05_071"</note></l>
+                  <label>Chansons nouvelles.</label>
+                  <p>Qui se peuvent chanter separément, mais elles sont faites pour estre placées entre les trois Couplets qu'on a donnez dans le mois precedent. On a mis icy en petit caractere ces trois Couplets avec les deux Chansons nouvelles, dans l'ordre où se doit chanter le tout ensemble <note resp="editor">Les couplets de cet air s'ajoutent à ceux de l'air du mois précédent (cf. <ref target="MG-1711-05_071">cet article</ref>).</note>.</p>
+                  <quote>
+<lg>
+                        <l>I. Couplet.</l>
                         <l><hi rend="i">Le vin nous fait parler &amp; le vin nous fait taire,</hi></l>
                         <l><hi rend="i">Le silence à longs traits s'avale avec le vin,</hi></l>
                         <l><hi rend="i">Et le caquet se trouve au fond du verre,</hi></l>
@@ -64,7 +64,7 @@
                         <l><hi rend="i">Vîte, vîte, vîte, pour me faire taire</hi></l>
                         <l><hi rend="i">Remplissez mon verre,</hi></l>
                         <l><hi rend="i">On ne dit mot pendant qu'on boit</hi></l>
-                        <l><hi rend="i">Le vin m'a fait parler, &amp; le vin m'a fait taire<note resp="editor" place="margin">« Le vin nous fait parler, et le vin nous fait taire. » dans la source musicale.</note>.</hi></l>
+                        <l><hi rend="i">Le vin m'a fait parler, &amp; le vin m'a fait taire<note resp="editor">« Le vin nous fait parler, et le vin nous fait taire. » dans la source musicale.</note>.</hi></l>
                       </lg>
                       <lg>
                         <l>I. CHANSON.</l>
@@ -76,7 +76,7 @@
                         <l><hi rend="i">Le vin endort l'amour, &amp; le vin le réveille.</hi></l>
                       </lg>
                       <lg>
-                        <l>2. Couplet.<note resp="editor" place="margin">cf. "1711-05_071"</note></l> 
+                        <l>2. Couplet.</l> 
                         <l><hi rend="i">Le vin nous fait parler &amp; le vin nous fait taire,</hi></l>
                         <l><hi rend="i">Lors qu'à table un sçavant s'apperçoit à propos</hi></l>
                         <l><hi rend="i">Qu'un esprit naturel va le confondre,</hi></l>
@@ -105,7 +105,7 @@
                         <l><hi rend="i">Le vin les fait aimer, &amp; l'amour les fait boire.</hi></l>
                       </lg>
                       <lg>
-                        <l>3. Couplet.<note resp="editor" place="margin">cf. "1711-05_071"</note></l>
+                        <l>3. Couplet.</l>
                           <l><hi rend="i">Le Vin nous fait parler &amp; le Vin nous fait taire,</hi></l>
                           <l><hi rend="i">En silence une prude, à petits coups boira :</hi></l>
                           <l><hi rend="i">Mais si vous remplissez souvent son verre,</hi></l>

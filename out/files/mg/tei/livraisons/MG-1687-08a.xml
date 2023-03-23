@@ -454,7 +454,7 @@
         <p>Je vous envoye des Paroles qui ont esté notées par la jeune Mademoiselle Laurent, assez
           distinguée par les talens extraordinaires qu'elle a pour la Danse, pour la Musique, &amp;
           pour sa delicatesse à joüer du Clavessin. Elle fit chanter l'Hyver dernier quelques
-          Ouvrages devant Madame la Dauphine, qui l'honora de son approbation.</p>
+          Ouvrages devant Madame la Dauphine, qui l'honora de son approbation <note resp="editor">L'air a également été publié, avec de nombreuses variantes dans la partie de basse continue, dans le <hi rend="italic">XXXI. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1688, p. 12-13, cf. LADDA 1688-04). </note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Rien n'approche de la
@@ -614,9 +614,8 @@
           bonté, qu’il les montreroit au Roy.</p>
       </div>
       <div type="article" xml:id="MG-1687-08a_124" resp="wordpro">
-        <head>[Derniere partie de la Medecine Universelle. Sur Ovide]*</head>
-        <bibl><title>Mercure Galant</title>, août, première partie [tome 11], 1687,
-          p. 124-125</bibl>
+        <head>[Derniere Partie de la Medecine Universelle de M. de Comiers, où l’on voit la composition de ce remede pour la guerison des plus facheuses maladies, &amp; pour prolonger la vie.]</head>
+        <bibl><title>Mercure Galant</title>, août, première partie [tome 11], 1687, p. 124-125</bibl>
         <p/>
         <p><hi rend="i">Si les Oyseaux &amp; les Animaux peuvent rajeunir, on peut conclure qu’il
             n’est pas impossible à l’homme de joüir du mesme avantage. En naissant nostre
@@ -928,13 +927,8 @@
       </div>
       <div type="article" xml:id="MG-1687-08a_299" resp="angele">
         <head>Air nouveau</head>
-        <bibl><title>Mercure Galant</title>, août, première partie [tome 11], 1687,p. 299-300.<note
-            resp="author" place="margin">L'attribution de cet air à Lambert est possible grâce au
-              <hi rend="i">XXXIe Livre d'airs de differents autheurs [...]</hi> (Paris, C. Ballard,
-            1688), ainsi que par les sources manuscrites F-Pn/ Rés. Vmd. ms. 302 et F-Pn/ Rés. Vma.
-            ms. 958. L'attribution du poème à La Sablières est due à Anne-Madeleine Goulet (cf.
-            LADDA 1688-01).</note></bibl>
-        <p>Voicy une seconde Chanson dont apparemment vous serez contente.</p>
+        <bibl><title>Mercure Galant</title>, août, première partie [tome 11], 1687,p. 299-300.</bibl>
+        <p>Voicy une seconde Chanson dont apparemment vous serez contente <note resp="editor">Attribution à Lambert grâce aux <hi rend="italic">Airs de M. Lambert</hi> (Paris, Christophe Ballard, 1689, p. 116-117) ainsi qu'aux sources manuscrites F-Pn/ Rés. Vmd. ms. 302 et F-Pn/ Rés. Vma. ms. 958 p. 225. L'attribution du poème à La Sablières est due à A.-M. Goulet (cf. LADDA 1688-01). L'air a été publié, avec basse continue et variantes rythmiques et mélodiques à la voix, dans le <hi rend="italic">XXXI. livre d'airs de differents auteurs</hi> (Paris, Christophe Ballard, 1688, p. 2-4 ; LADDA 1688-01).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Iris n'est plus, mon

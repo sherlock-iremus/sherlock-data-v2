@@ -245,7 +245,7 @@
       <div type="article" xml:id="MG-1698-12_084" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, décembre 1698 [tome 12], p. 84-85.</bibl>
-        <p>Je vous envoye une Air nouveau qui a beaucoup pleu icy aux Connoisseurs, &amp; dont les paroles ont paru fort agreables. Elles sont de l'Auteur de la Vie de M<hi rend="sup">r</hi> de Saint André.</p>
+        <p>Je vous envoye une Air nouveau qui a beaucoup pleu icy aux Connoisseurs, &amp; dont les paroles ont paru fort agreables. Elles sont de l'Auteur de la Vie de M<hi rend="sup">r</hi> de Saint André. <note resp="editor">L'air <ref target="MG-1698-12_271">« Non on n'aima jamais autant que je vous aime »</ref>) est des mêmes auteurs.</note></p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin">L’Air qui commence par <hi rend="i">Lors que pour moy, &amp;c.</hi>, regarde la page 85.</note>
           <lg><l rend="i">Lors que pour moy l'amour eut sceu vous enflammer,</l>
@@ -451,7 +451,7 @@
       <div type="article" xml:id="MG-1698-12_271" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, décembre 1698 [tome 12], p. 271-272.</bibl>
-        <p>Voicy une réponse à la Chanson que vous avez trouvée dans les premieres feuilles de cette Lettre. Les paroles sont du même Auteur, &amp; c'est le même Musicien qui les a mises en Air.</p>
+        <p>Voicy une réponse à la Chanson que vous avez trouvée dans les premieres feuilles de cette Lettre. Les paroles sont du même Auteur, &amp; c'est le même Musicien qui les a mises en Air. <note resp="editor">L'air <ref target="MG-1698-12_084">« Lorsque pour moi l'amour a su vous enflammer »</ref> est des mêmes auteurs ; les vers sont donc de « l'auteur de la Vie de Mr de Saint André ».</note></p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin">L’Air qui commence par <hi rend="i">Non, on n'aima jamais, &amp;c.</hi>, regarde la page 272.</note>
           <lg><l rend="i">Non, on n'aima jamais autant que je vous aime</l>

@@ -392,11 +392,9 @@
       </div>
       <div type="article" xml:id="MG-1678-10_031" resp="mercure">
         <head>Air nouveau</head>
-        <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 31-36.<note resp="author"
-            place="margin">Voir aussi <ref target="MG-1678-10_031">l'article
-          précédent</ref></note></bibl>
+        <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 31-36.</bibl>
         <p>S’il y avoit beaucoup de Musetes aussi douces que doit estre celle dont il est parlé dans
-          cet Idylle<note resp="editor">Voir l'article précédent.</note>, avoüez qu’il est peu de
+          cet Idylle<note resp="editor">Voir <ref target="MG-1678-10_020">cet article </ref>.</note>, avoüez qu’il est peu de
           plaisirs qu’on préferast à celuy de les écouter. Je ne sçay mesme si elles ne seroient pas
           propres à faire cesser les chagrins, contre le sentiment de l’Amant infortuné qu’on fait
           parler dans ces Vers que M<hi rend="sup">r</hi> Goüet a depuis peu mis en Air.</p>
@@ -580,7 +578,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1678-10_070" resp="mercure">
-        <head>[Nouveau Livres de Genealogie]</head>
+        <head>[Nouveaux Livres de Genealogie]</head>
         <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 70-74.</bibl>
         <p>Je croy vous donner une agreable nouvelle, à vous qui estes curieuse de Genealogies, en
           vous disant que nous verrons bien-tost un Livre de celle de plusieurs Illustres Familles.
@@ -986,7 +984,7 @@
       <div type="article" xml:id="MG-1678-10_126" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 126-128.</bibl>
-        <p>C’est là-dessus<note resp="editor">Sur la paix. Voir l'article précédent.</note> qu’on a
+        <p>C’est là-dessus<note resp="editor">Sur la paix et sur les vendanges, cf. <ref target="MG-1678-10_126">cet article</ref>.</note> qu’on a
           fait les Vers que vous allez voir. Ils ont esté mis en Air par M<hi rend="sup">r</hi> du
           Parc.</p>
         <quote>
@@ -1046,8 +1044,7 @@
             s’éloignast de la Cour.</p>
           <p>On peut faire deux Parties de la Question, &amp; considérer sur chacune le bien &amp;
             le mal qui en peut revenir. Voyez si je m’y prens comme il faut.</p>
-          <p><hi rend="i">À se taire</hi><note n="3" place="bottom">La mise en page de l’énumération
-              qui suit est un système en accolade, non reproduit ici.</note>
+          <p><hi rend="i">À se taire</hi>
           </p>
           <p rend="i">Les inconveniens sont </p>
           <p rend="i">1. Que l’on hazarde par les combats, sa vertu. [ou] son repos. </p>
@@ -1186,8 +1183,8 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1678-10_153" resp="mercure">
-        <head>[Deux Lettres touchant l’origine des Cadrans Solaire] *</head>
-        <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 153-185.</bibl>
+        <head>[Lettre touchant l’origine des Cadrans]</head>
+        <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 153-166.</bibl>
         <p>Je m’imaginois bien, Madame, que sur la lecture de la Lettre qui finit celle que je vous
           ay envoyée extraordinairement depuis quinze jours, vous me presseriez de vous tenir parole
           touchant les deux autres que je vous promettois. Il est juste de vous satisfaire. Vous
@@ -1269,6 +1266,10 @@
             ait inventez, on donne presque toûjours le mesme Autheur au Globe &amp; à l’Horloge
             Solaire. Il me vient quelque chose en pensée sur la Statuë de Memnon que je pourray vous
             mander une autre fois. En voila plus qu’il n’en faut pour aujourd’huy.</p>
+      </div>
+      <div type="article" xml:id="MG-1678-10_166" resp="mercure">
+        <head>[Autre sur le mesme sujet]</head>
+        <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 166-185.</bibl>
           <label rend="center">Lettre II.</label>
           <p>Quelques adoucissemens que le Mercure y donne, la gloire d’estre Autheur n’est pas sans
             poids. Il faut avoir les épaules bien fortes pour la porter. N’y pensons point,
@@ -1398,8 +1399,7 @@
       <div type="article" xml:id="MG-1678-10_225" resp="mercure">
         <head>[L’Amant Batelier, Histoire]</head>
         <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 225-253.</bibl>
-        <p>La pensée de cette Chanson<note n="5" place="bottom">Référence à l’air nouveau précédent
-            cette histoire. (note du transcripteur).</note> peut n’estre qu’une imagination du
+        <p>La pensée de cette Chanson<note resp="editor">Référence à l’air nouveau qui précède, cf. <ref target="MG-1678-10_224">cet article</ref>.</note> peut n’estre qu’une imagination du
           Poëte ; mais ce que je vous vay apprendre vous fera connoistre qu’une belle Copie fait
           quelquefois de fortes impressions, quand on sçait que l’Original est effectif, Un
           Gentilhomme de Province étably depuis longtemps à la Cour, y avoit acquis tout ce que le
@@ -1901,8 +1901,7 @@
         <head>[Avanture causée par la Question proposée dans le second Extraordinaire du
           Mercure]</head>
         <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 316-326.</bibl>
-        <p>Je ne resiste point aux loüanges que vous donnez à la derniere<note n="6" place="bottom"
-            >Lettre Extraordinaire du Mercure Galant. (note du transcripteur)</note> que vous avez
+        <p>Je ne resiste point aux loüanges que vous donnez à la derniere [<hi rend="italic">Lettre Extraordinaire du Mercure Galant</hi>] que vous avez
           reçeuë de moy. Elle est remplie de tant d’agreables Ouvrages ausquels je n’ay point de
           part, que je croy pouvoir consentir au bien que vous m’en dites, sans me faire accuser de
           vanité. Les Fictions sur l’origine des Mouches, &amp; les Réponses sur la confidence de
@@ -2003,7 +2002,7 @@
           confidence.</p>
       </div>
       <div type="article" xml:id="MG-1678-10_327" resp="mercure">
-        <head>[Au Roy, Epigramme de Mademoiselle Certain-Huron] *</head>
+        <head>[Epigramme de Mademoiselle Certain-Huron] *</head>
         <bibl><title>Mercure galant</title>, octobre 1678 [tome 10], p. 327-328.</bibl>
         <p>Le beau Sexe ne se taist pas quand il s’agist de marquer l’admiration où l’on est des
           grandes Actions du Roy. Voyez les par ces Vers de Mademoiselle Certain-Huron.</p>
@@ -2097,9 +2096,7 @@
           moins d’éclat que si elle estoit accompagnée des ornemens qui sont recherchez par toutes
           les Belles. Le mauvais temps fut cause qu’on se promena peu dans les délicieux Jardins de
           S. Cloud, mais il n’empscha pas le Roy d’aller voir l’état de ses Bastimens de Versailles,
-          &amp; de visiter la Maison des Invalides<note n="7" place="bottom">La fin de cette phrase
-            concerne un autre article signalé ainsi dans la table du Mercure : « Le Roy va visiter
-            la Maison des Invalides » (note du transcripteur).</note>.</p>
+          &amp; de visiter la Maison des Invalides<note resp="editor">Allusion à l'article suivant dans la livraison, « Le Roy va visiter la Maison des Invalides » (p. 335-337), non traité dans notre édition.</note>.</p>
       </div>
       <div type="article" xml:id="MG-1678-10_340" resp="mercure">
         <head>[Le Roy donne une Abbaye à M. Robert Maistre de Musique de sa Chapelle]</head>

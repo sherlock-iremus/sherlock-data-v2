@@ -1,2 +1,0 @@
-# curl https://opentheso.huma-num.fr/opentheso/api/all/theso\?id\=th317\&format\=jsonld > 317.json
-python3 ./opentheso2directus.py --skos_jsonld_file ./317.json --directus_secret ../secret.rar.yaml --directus_url http://bases-iremus.huma-num.fr/directus-rar --directus_collection thesaurus_mots_clefs

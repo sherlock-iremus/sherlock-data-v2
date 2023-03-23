@@ -455,9 +455,7 @@
       <div type="article" xml:id="MG-1678-05_034" resp="mercure">
         <head>[Elegie sur le Langage des Yeux]</head>
         <bibl><title>Mercure galant</title>, mai 1678 [tome 5], p. 34-39.</bibl>
-        <p>L'Amour qui a fait faire ces deux Mariages<note resp="editor">Le mariage de M. Lanta de
-            Grammont et de Mademoiselle de Riquet de S. Felix ; et celui de M. de Preval de la
-            Matrossiere et de Mademoiselle de la Selle.</note>, a donné lieu aux Vers qui suivent.
+        <p>L'Amour qui a fait faire ces deux Mariages<note resp="editor">Le mariage, d'une part, de M. Lanta de Grammont et de Mademoiselle de Riquet de S. Felix et, d'autre part, celui de M. de Preval de la Matrossiere et de Mademoiselle de la Selle.</note>, a donné lieu aux Vers qui suivent.
           L'Autheur m’en est inconnu. Je ne doute point qu’apres les avoir leûs, vous ne condamniez
           la modestie qui l’a obligé à se cacher.</p>
         <quote rend="border">
@@ -2504,13 +2502,8 @@
       </div>
       <div type="article" xml:id="MG-1678-05_355" resp="mercure">
         <head>[Deux nouvelles énigmes]*</head>
-        <bibl><title>Mercure galant</title>, mai 1678 [tome 5], p. 355-358.<note resp="author"
-            place="margin">Voir <ref target="MG-1678-06_317"><hi rend="i">cet article</hi></ref> du
-              <hi rend="i">Mercure</hi> pour l'explication de cette énigme et <ref
-              target="MG-1678-06e_119"><hi rend="i">cet article</hi></ref> pour une lettre sur cette
-            énigme. Voir aussi <ref target="MG-1678-06e_130"><hi rend="i">cet
-            article</hi></ref></note></bibl>
-        <p>Je vous envoye deux nouvelles Enigmes. La premiere est de M<hi rend="sup">r</hi> l’Abbé
+        <bibl><title>Mercure galant</title>, mai 1678 [tome 5], p. 355-358.</bibl>
+        <p>Je vous envoye deux nouvelles Enigmes <note resp="editor">Pour l'explication de cette énigme, cf. <ref target="MG-1678-06_317">cet article, </ref> et pour une lettre à propos de l'énigme, cf. <ref target="MG-1678-06e_119">cet article</ref></note>. La premiere est de M<hi rend="sup">r</hi> l’Abbé
           d’Albert d’Aix.</p>
         <quote rend="border">
           <label rend="center">ENIGME.</label>

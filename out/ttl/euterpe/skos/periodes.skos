@@ -1,0 +1,224 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:05d7a305-e10f-4a33-a31c-4ee0516353a1 a skos:Concept ;
+    dctrerms:identifier "05d7a305-e10f-4a33-a31c-4ee0516353a1" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "13e siècle"@fr .
+
+opentheso:0a7049b6-e15c-4d2a-8443-d9ab78e082e1 a skos:Concept ;
+    dctrerms:identifier "0a7049b6-e15c-4d2a-8443-d9ab78e082e1" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "18e siècle"@fr .
+
+opentheso:14746925-9c24-4803-8eed-4299a194bb58 a skos:Concept ;
+    dctrerms:identifier "14746925-9c24-4803-8eed-4299a194bb58" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1ère moitié 17e siècle"@fr .
+
+opentheso:148cab97-2ec1-4b2d-b195-e41f268a87dd a skos:Concept ;
+    dctrerms:identifier "148cab97-2ec1-4b2d-b195-e41f268a87dd" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "4e quart 18e siècle"@fr .
+
+opentheso:18f37b6f-d142-43f6-a2a6-0ad685d8cace a skos:Concept ;
+    dctrerms:identifier "18f37b6f-d142-43f6-a2a6-0ad685d8cace" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "11e siècle"@fr .
+
+opentheso:21181da8-e241-491c-9f26-e3f69cc50f0b a skos:Concept ;
+    dctrerms:identifier "21181da8-e241-491c-9f26-e3f69cc50f0b" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1er quart 15e siècle"@fr .
+
+opentheso:3873b07c-16aa-47f1-be95-496d1a385b54 a skos:Concept ;
+    dctrerms:identifier "3873b07c-16aa-47f1-be95-496d1a385b54" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e moitié 16e siècle"@fr .
+
+opentheso:3d301254-e067-46c9-b03b-5f42bc5b2650 a skos:Concept ;
+    dctrerms:identifier "3d301254-e067-46c9-b03b-5f42bc5b2650" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "17e siècle"@fr .
+
+opentheso:3ed69df7-236b-4e43-a706-c80ffc4a23c4 a skos:Concept ;
+    dctrerms:identifier "3ed69df7-236b-4e43-a706-c80ffc4a23c4" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1ère moitié 18e siècle"@fr .
+
+opentheso:3f51a364-dd30-4b63-926a-f27c11ed008b a skos:Concept ;
+    dctrerms:identifier "3f51a364-dd30-4b63-926a-f27c11ed008b" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e moitié 19e siècle"@fr .
+
+opentheso:4d46d3ea-0cc6-4d36-bc55-4c95fdd83497 a skos:Concept ;
+    dctrerms:identifier "4d46d3ea-0cc6-4d36-bc55-4c95fdd83497" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "19e siècle"@fr .
+
+opentheso:5344c792-e3d6-431a-874b-04c91c313a35 a skos:Concept ;
+    dctrerms:identifier "5344c792-e3d6-431a-874b-04c91c313a35" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "14e siècle"@fr .
+
+opentheso:553c3ce3-f827-486b-94f0-40a4e84716ee a skos:Concept ;
+    dctrerms:identifier "553c3ce3-f827-486b-94f0-40a4e84716ee" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1er millénaire"@fr .
+
+opentheso:5e07e461-7b01-4493-9504-51a90e71c308 a skos:Concept ;
+    dctrerms:identifier "5e07e461-7b01-4493-9504-51a90e71c308" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "ère chrétienne"@fr .
+
+opentheso:62e6a8e3-94d9-419c-b0e1-9c62b3666717 a skos:Concept ;
+    dctrerms:identifier "62e6a8e3-94d9-419c-b0e1-9c62b3666717" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1ère moitié 16e siècle"@fr .
+
+opentheso:70df216c-d491-4920-bafa-12197abeacc7 a skos:Concept ;
+    dctrerms:identifier "70df216c-d491-4920-bafa-12197abeacc7" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1er quart 16e siècle"@fr .
+
+opentheso:7ed12b22-9a25-4cd6-8137-fc7959d31c12 a skos:Concept ;
+    dctrerms:identifier "7ed12b22-9a25-4cd6-8137-fc7959d31c12" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1ère moitié 19e siècle"@fr .
+
+opentheso:92bd8251-1845-48a0-b794-b53ad72c76f1 a skos:Concept ;
+    dctrerms:identifier "92bd8251-1845-48a0-b794-b53ad72c76f1" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "4e quart 14e siècle"@fr .
+
+opentheso:a0905123-4649-4fc3-8ccc-2341fcd01b54 a skos:Concept ;
+    dctrerms:identifier "a0905123-4649-4fc3-8ccc-2341fcd01b54" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "4e quart 16e siècle"@fr .
+
+opentheso:a881dc34-028e-4b4f-89dc-fd9c748c0d01 a skos:Concept ;
+    dctrerms:identifier "a881dc34-028e-4b4f-89dc-fd9c748c0d01" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e millénaire"@fr .
+
+opentheso:ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62 a skos:Concept ;
+    dctrerms:identifier "ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "20e siècle"@fr .
+
+opentheso:bdfdd084-443f-4d01-9753-3b9d5cd74687 a skos:Concept ;
+    dctrerms:identifier "bdfdd084-443f-4d01-9753-3b9d5cd74687" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "12e siècle"@fr .
+
+opentheso:caef433b-9739-4480-bb24-78fce686e208 a skos:Concept ;
+    dctrerms:identifier "caef433b-9739-4480-bb24-78fce686e208" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e moitié 14e siècle"@fr .
+
+opentheso:cc2ec291-d013-4b6e-8d48-655bb1f7430a a skos:Concept ;
+    dctrerms:identifier "cc2ec291-d013-4b6e-8d48-655bb1f7430a" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1ère moitié 15e siècle"@fr .
+
+opentheso:d06ea777-ca8f-4820-a046-a033e214dff5 a skos:Concept ;
+    dctrerms:identifier "d06ea777-ca8f-4820-a046-a033e214dff5" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1er quart 19e siècle"@fr .
+
+opentheso:d141bdaa-7a71-471b-9507-8938db38759a a skos:Concept ;
+    dctrerms:identifier "d141bdaa-7a71-471b-9507-8938db38759a" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "4e quart 19e siècle"@fr .
+
+opentheso:d6cbde73-d545-49e5-b669-1bdce893a76b a skos:Concept ;
+    dctrerms:identifier "d6cbde73-d545-49e5-b669-1bdce893a76b" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e moitié 18e siècle"@fr .
+
+opentheso:d7cf8105-c80f-418c-9d03-4609847e3bad a skos:Concept ;
+    dctrerms:identifier "d7cf8105-c80f-418c-9d03-4609847e3bad" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e moitié 15e siècle"@fr .
+
+opentheso:e2519f29-e880-44ca-80c5-c61d4d65f637 a skos:Concept ;
+    dctrerms:identifier "e2519f29-e880-44ca-80c5-c61d4d65f637" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "9e siècle"@fr .
+
+opentheso:e917efdf-d1ab-4189-a74b-ca9af35027d0 a skos:Concept ;
+    dctrerms:identifier "e917efdf-d1ab-4189-a74b-ca9af35027d0" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "4e quart 15e siècle"@fr .
+
+opentheso:ea170bea-4080-41e1-9c64-e114bf481212 a skos:Concept ;
+    dctrerms:identifier "ea170bea-4080-41e1-9c64-e114bf481212" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "2e moitié 17e siècle"@fr .
+
+opentheso:f161e15d-4be3-420b-8d11-c4cb2d0c8ba1 a skos:Concept ;
+    dctrerms:identifier "f161e15d-4be3-420b-8d11-c4cb2d0c8ba1" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "16e siècle"@fr .
+
+opentheso:f4ae3d66-5235-4c4f-b1fe-61fde9815678 a skos:Concept ;
+    dctrerms:identifier "f4ae3d66-5235-4c4f-b1fe-61fde9815678" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "10e siècle"@fr .
+
+opentheso:f67ce01b-b412-4487-a02c-670d5af8a454 a skos:Concept ;
+    dctrerms:identifier "f67ce01b-b412-4487-a02c-670d5af8a454" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "4e quart 17e siècle"@fr .
+
+opentheso:f6a35902-d0f9-4949-b071-bf9abd65172e a skos:Concept ;
+    dctrerms:identifier "f6a35902-d0f9-4949-b071-bf9abd65172e" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "1er quart 17e siècle"@fr .
+
+opentheso:ff64f0bf-a02e-4278-8bb3-60a661b7d4af a skos:Concept ;
+    dctrerms:identifier "ff64f0bf-a02e-4278-8bb3-60a661b7d4af" ;
+    skos:inScheme opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 ;
+    skos:prefLabel "15e siècle"@fr .
+
+opentheso:419c3cbc-d6a6-4f52-9a41-9381eb653743 a skos:ConceptScheme ;
+    dctrerms:identifier "419c3cbc-d6a6-4f52-9a41-9381eb653743" ;
+    skos:hasTopConcept opentheso:05d7a305-e10f-4a33-a31c-4ee0516353a1,
+        opentheso:0a7049b6-e15c-4d2a-8443-d9ab78e082e1,
+        opentheso:14746925-9c24-4803-8eed-4299a194bb58,
+        opentheso:148cab97-2ec1-4b2d-b195-e41f268a87dd,
+        opentheso:18f37b6f-d142-43f6-a2a6-0ad685d8cace,
+        opentheso:21181da8-e241-491c-9f26-e3f69cc50f0b,
+        opentheso:3873b07c-16aa-47f1-be95-496d1a385b54,
+        opentheso:3d301254-e067-46c9-b03b-5f42bc5b2650,
+        opentheso:3ed69df7-236b-4e43-a706-c80ffc4a23c4,
+        opentheso:3f51a364-dd30-4b63-926a-f27c11ed008b,
+        opentheso:4d46d3ea-0cc6-4d36-bc55-4c95fdd83497,
+        opentheso:5344c792-e3d6-431a-874b-04c91c313a35,
+        opentheso:553c3ce3-f827-486b-94f0-40a4e84716ee,
+        opentheso:5e07e461-7b01-4493-9504-51a90e71c308,
+        opentheso:62e6a8e3-94d9-419c-b0e1-9c62b3666717,
+        opentheso:70df216c-d491-4920-bafa-12197abeacc7,
+        opentheso:7ed12b22-9a25-4cd6-8137-fc7959d31c12,
+        opentheso:92bd8251-1845-48a0-b794-b53ad72c76f1,
+        opentheso:a0905123-4649-4fc3-8ccc-2341fcd01b54,
+        opentheso:a881dc34-028e-4b4f-89dc-fd9c748c0d01,
+        opentheso:ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62,
+        opentheso:bdfdd084-443f-4d01-9753-3b9d5cd74687,
+        opentheso:caef433b-9739-4480-bb24-78fce686e208,
+        opentheso:cc2ec291-d013-4b6e-8d48-655bb1f7430a,
+        opentheso:d06ea777-ca8f-4820-a046-a033e214dff5,
+        opentheso:d141bdaa-7a71-471b-9507-8938db38759a,
+        opentheso:d6cbde73-d545-49e5-b669-1bdce893a76b,
+        opentheso:d7cf8105-c80f-418c-9d03-4609847e3bad,
+        opentheso:e2519f29-e880-44ca-80c5-c61d4d65f637,
+        opentheso:e917efdf-d1ab-4189-a74b-ca9af35027d0,
+        opentheso:ea170bea-4080-41e1-9c64-e114bf481212,
+        opentheso:f161e15d-4be3-420b-8d11-c4cb2d0c8ba1,
+        opentheso:f4ae3d66-5235-4c4f-b1fe-61fde9815678,
+        opentheso:f67ce01b-b412-4487-a02c-670d5af8a454,
+        opentheso:f6a35902-d0f9-4949-b071-bf9abd65172e,
+        opentheso:ff64f0bf-a02e-4278-8bb3-60a661b7d4af ;
+    skos:prefLabel "Périodes"@fr .
+

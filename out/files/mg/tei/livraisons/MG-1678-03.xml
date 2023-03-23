@@ -572,11 +572,9 @@
       </div>
       <div type="article" xml:id="MG-1678-03_065" resp="mercure">
         <head>[L’Amour sans partage]</head>
-        <bibl><title>Mercure galant</title>, mars 1678 [tome 3], p. 65-72.<note resp="author"
-            place="margin">Voir aussi l'air<ref target="MG-1678-07_250"><hi rend="i">Vous demandez
-                Iris</hi></ref> construit sur le premier quatrain de ce poème</note></bibl>
+        <bibl><title>Mercure galant</title>, mars 1678 [tome 3], p. 65-72.</bibl>
         <p>Il est naturel de vouloir estre aimé pour aimer, &amp; c’est là-dessus que sont faits les
-          Vers qui suivent.</p>
+          Vers qui suivent <note resp="editor">Voir l'air<ref target="MG-1678-07_250"><hi rend="i">Vous demandez Iris</hi></ref> construit sur le premier quatrain de ce poème</note>.</p>
         <quote>
           <label>L’AMOUR <lb/>SANS PARTAGE</label>
           <lg>
@@ -933,7 +931,8 @@
         </ref>
       </div>
       <div type="article" xml:id="MG-1678-03_171" resp="mercure">
-        <head>[Livres nouveaux]*</head>
+        <head>[Livres nouveaux:  <hi> rend="i">Les Arts de l’Homme d’Epée</hi>, ou <hi rend="i">le Dictionnaire du
+            Gentilhomme</hi>]*</head>
         <bibl><title>Mercure galant</title>, mars 1678 [tome 3], p. 171-174.</bibl>
         <p>Quoy que j’évite autant que je puis de me servir des termes qui sont particuliers à
           beaucoup d’Arts, parce qu’ils peuvent n’estre pas connus de tout le monde, s’il m’en
@@ -1306,7 +1305,7 @@
         <bibl><title>Mercure galant</title>, mars 1678 [tome 3], p. 256-258.</bibl>
         <p>Apres plusieurs Airs François, je vous en envoye un Italien. M<hi rend="sup">r</hi> Ménage connu par toute la terre à cause de sa profonde érudition, a fait les Paroles. Un de ses Amis les a envoyées à Rome, &amp; elles y ont paru si belles à un des plus fameux Maistres de Musique d’Italie, qu’il a pris plaisir à les noter. Lisez &amp; chantez.</p>
         <quote>
-          <label>AIR ITALIEN.<note resp="editor">Le Mercure galant du mois de mai 1678 publie une <ref target="MG-1678-05_109b">traduction du poème</ref>.</note></label>
+          <label>AIR ITALIEN.<note resp="editor">Le <hi rend="italic">Mercure galant</hi> du mois de mai 1678 publie une <ref target="MG-1678-05_109b">traduction du poème</ref>.</note></label>
           <lg>
             <l rend="i">QUesta bella d’amor nemica e mia<note resp="author" place="margin"><hi
                   rend="i">Avis pour placer les Figures</hi> : l’Air Italien doit regarder la page

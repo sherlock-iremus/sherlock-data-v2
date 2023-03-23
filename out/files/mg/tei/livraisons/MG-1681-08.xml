@@ -65,7 +65,7 @@
    <head><hi rend="i">Mercure galant</hi>, août 1681 [tome 9].</head>
    <div type="article" xml:id="MG-1681-08_001">
     <head>[Avant-propos contenant un Eloge du Roy, en Prose &amp; en Vers envoyé de Rome, &amp;
-     composé par la Solitaria del Monte Pinceno]</head>
+     composé par la <hi rend="italic">Solitaria del Monte Pinceno]</hi></head>
     <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 1-19.</bibl>
     <p>Je croy, Madame, qu’il me seroit difficile de commencer cette Lettre d’une maniere plus
      agreable pour vous, qu’en vous faisant part de ce qu’une des plus spirituelles Personnes de
@@ -792,8 +792,8 @@
       >r</hi> le Prince d’Eysenach, avec M<hi rend="sup">rs</hi> les deux Princes aînez de Hanover,
      &amp; Mesdames les Princesses de Zell, de Hanover, &amp; de Meklebourg. On y a donné trois
      Représentations de l’Opéra Italien d’<hi rend="i">Alceste</hi>, &amp; dancé deux fois le grand
-     Balet intitulé <hi rend="i">le Charme de l’Amour</hi>, <note resp="author" place="margin">Voir
-       <ref target="MG-1681-01_246a">cet article</ref> qui relate la représentation du <hi rend="i"
+     Balet intitulé <hi rend="i">le Charme de l’Amour</hi>, <note resp="editor">Voir
+       <ref target="MG-1681-04_133">cet article</ref> qui relate la représentation du <hi rend="i"
        >Charme de l'amour</hi>.</note>que l’on avoit augmenté de quelques Entrées. Je vous en fis la
      description dans ma Lettre du Mois d’Avril, &amp; l’accompagnay des Vers qui ont esté faits sur
      cette matiere. La Reyne de Danemark s’est fort divertie à ce Balet. On en prépare un nouveau,
@@ -1004,14 +1004,11 @@
     </quote>
    </div>
    <div type="article" xml:id="MG-1681-08_114" resp="mercure">
-    <head>[These soûtenuë par M. le Marquis de Louvoys<note n="1" place="bottom"><p>D'après MEYER,
-       Véronique, <hi rend="i">Pour la plus grande gloire du roi : Louis XIV en thèses :
-        Catalogue</hi>, Rennes, Centre de recherche du château de Versailles/Presses universitaires
-       de Rennes, 2017, p. 322.</p></note>]</head>
+    <head>[These soûtenuë par M. le Marquis de Louvoys]</head>
     <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 114-120.</bibl>
     <p>Le Vendredy 8. du mois, M<hi rend="sup">r</hi> le Marquis de Louvoys, Fils aîné de Monsieur
      le Marquis de Louvoys, Ministre &amp; Secretaire d’Etat, soûtint un Acte de toute la
-     Philosophie au College de Clermont. La Thése estoit dédiée au Roy, qu’elle représentoit fort au
+     Philosophie au College de Clermont<note resp="editor">Voir Véronique Meyer, <hi rend="i">Pour la plus grande gloire du roi. Louis XIV en thèses</hi>, Rennes, Centre de recherche du château de Versailles/Presses universitaires de Rennes, 2017, <ref target="https://books.openedition.org/pur/155165"><hi rend="italic">Table des thèses dédiées au roi</hi></ref>p. 301-308.</note>. La Thése estoit dédiée au Roy, qu’elle représentoit fort au
      naturel. Au bout de la Salle estoit élevé un Dais, sous lequel on avoit mis le Portrait de ce
      grand Prince. Monsieur de Louvoys, Pere de ce jeune Répondant, &amp; Monsieur l’Archevesque de
      Rheims son Oncle, faisoient les honneurs de l’Assemblée. Vous jugez-bien qu’elle fut aussi
@@ -1230,12 +1227,11 @@
     </quote>
    </div>
    <div type="article" xml:id="MG-1681-08_144">
-    <head>[Divertissemens à la Cour de Hanover, avec le Balet champestre qu’on y a dancé […]]</head>
-    <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 144-187.<note resp="author"
-      place="margin">Voir <ref target="MG-1681-09_13">cet article</ref> et <ref
-       target="MG-1681-09_331">cet article</ref> qui relatent ces mêmes divertissements de
-      Hanovre.</note></bibl>
-    <p>J’ay eu des nouvelles de la Cour de Hanover plutost qu’on ne m’en faisoit attendre. Le Balet
+    <head>[Divertissemens à la Cour de Hanover, avec le Balet champestre qu’on y a dancé pour le divertissement de la Reyne de Danemark, &amp; les Vers du Balet]</head>
+    <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 144-187.</bibl>
+    <p>J’ay eu des nouvelles de la Cour de Hanover plutost qu’on ne m’en faisoit attendre<note resp="editor"><ref target="MG-1681-09_013">Cet article</ref> et <ref
+     target="MG-1681-09_331">celui-ci</ref> relatent ces mêmes divertissements de
+     Hanovre.</note>. Le Balet
      champestre que je vous ay dit qu’on y préparoit, a déja esté dancé, &amp; la Reyne Mere de
      Danemark s’y est extrémement divertie. Vous voyez par là que M<hi rend="sup">r</hi> le Duc de
      Hanover n’a rien voulu épargner pour recevoir agreablement cette Princesse. Cependant, quelque
@@ -1709,8 +1705,7 @@
     <p>Je voudrois, Madame, pour vostre entiere satisfaction, vous pouvoir fournir les Notes de
      quelqu’un des Airs qu’on a chantez au Balet, dont je viens de vous marquer toutes les Entrées.
      A ce défaut je vous envoye des Paroles fort agreables qu’un habile Maistre a mises en Air
-     depuis peu de jours <note resp="editor">Attribution de cet air à Lambert grâce aux manuscrits F-Pc/ Rés. 584 et F-Pn/ Rés. Vma. ms. 958 p. 107.
-      L"air a également été publié dans le <hi rend="italic">XXV. livre d'airs de differents auteurs</hi> (Paris, Christophe Ballard, 1682, f. 10v-11, cf. LADDA 1682-07),</note>.</p>
+     depuis peu de jours <note resp="editor">Attribution de cet air à Lambert grâce aux manuscrits F-Pc/ Rés. 584 et F-Pn/ Rés. Vma. ms. 958 p. 107. L'air a également été publié dans le <hi rend="italic">XXV. livre d'airs de differents auteurs</hi> (Paris, Christophe Ballard, 1682, f. 10v-11, cf. LADDA 1682-07),</note>.</p>
     <quote>
      <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les
        Figures</hi> : l’Air qui commence par <hi rend="i">Si je puis bannir de mon cœur</hi>, doit
@@ -2024,9 +2019,7 @@
    </div>
    <div type="article" xml:id="MG-1681-08_237">
     <head>[Esclaves rachetez par les Peres de la Mercy, avec l’origine de cet Ordre]</head>
-    <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 237-243.<note resp="author"
-      place="margin">Voir <ref target="MG-1681-09_186">l'article du <hi rend="i">Mercure</hi> de
-       septembre 1681</ref> qui complète cet article.</note></bibl>
+    <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 237-243.<note resp="editor">Voir <ref target="MG-1681-09_186">Cet article</ref>, paru en septembre 1681, complète celui-ci.</note></bibl>
     <p>Jamais les grands biens ne sont mieux goustez, que quand nostre mauvaise fortune nous en a
      privez longtemps. Pour bien connoistre quelle est la douceur de la liberté, il faut avoir
      éprouvé les rigueurs de l’Esclavage. Les Captifs que les Peres de la Mercy ont rachetez depuis
@@ -2196,9 +2189,7 @@
    </div>
    <div type="article" xml:id="MG-1681-08_305">
     <head>[Baptéme de cinquante Négres]</head>
-    <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 305-310.<note resp="author"
-      place="margin"><ref target="MG-1681-09_186">L'article du <hi rend="i">Mercure</hi> de
-       septembre 1681</ref> complète cet article.</note></bibl>
+    <bibl><title>Mercure galant</title>, août 1681 [tome 9], p. 305-310.<note resp="editor"><ref target="MG-1681-09_186">Cet article</ref>, paru en septembre 1681, complète celui-ci.</note></bibl>
     <p>Il s’est fait un grand Baptême à Marseille. Je l’appelle grand, à cause de la qualité des
      Parrains &amp; des Marraines, &amp; du nombre de ceux qui ont esté baptisez. Ce sont cinquante
      Négres. Chaque Parrain &amp; chaque Marraine en nommerent dix. M<hi rend="sup">r</hi> le

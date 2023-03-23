@@ -344,8 +344,7 @@
       <div type="article" xml:id="MG-1679-08_052" resp="mercure">
         <head>Le Temps Medecin. Fable, a Iris</head>
         <bibl><title>Mercure galant</title>, août 1679 [tome 8], p. 52-59.</bibl>
-        <p>Heureux qui se peut servir de son<note resp="editor"><p>Le temps. (note du
-              transcripteur)</p></note>secours. Il guérit souvent les plus grands maux, &amp; la
+        <p>Heureux qui se peut servir de son secours <note resp="editor">du temps.</note>. Il guérit souvent les plus grands maux, &amp; la
           Fable que je vous envoye vous va l’apprendre. Elle est de M<hi rend="sup">r</hi> du
           Livety.</p>
         <quote>
@@ -652,8 +651,8 @@
         <head>[Estampes gravées par l’ordre du Roy, &amp; données au Public]</head>
         <bibl><title>Mercure galant</title>, août 1679 [tome 8], p. 88-134.</bibl>
         <p>L'étroite alliance qu’ont les beaux Arts avec les Sciences, que ceux de cette illustre
-            Compagnie<note resp="editor">Il s’agit des Académiciens Français, se référer à l’article
-            précédent. (note du transcripteur)</note> possedent au plus haut point, m’oblige à vous
+            Compagnie<note resp="editor">Il s’agit des Académiciens Français, cf. l’article
+              précédent, <hi rend="italic">Compliment de M. Verjus à l'Academie Françoise le jour de sa Reception, avec la Réponse de M. Boyer</hi>, p. 59-87.</note> possedent au plus haut point, m’oblige à vous
           en faire icy un Article particulier. Je vous ay parlé dans la plûpart de mes Lettres du
           progrés qu’on leur voyoit faire de jour en jour. Ce sont des merveilles dont pres de trois
           cens Planches gravées publient aujourd’huy la verité. Rien n’est plus propre à faire
@@ -675,7 +674,7 @@
           <l>V. La Feste de Versailles de l’année 1674. contenant six Planches gravées par Chauveau
             &amp; le Pautre. 3 l. 10 s.</l>
           <l>Les Estampes de chacun de ces Divertissemens, separées du Discours. 6 sols.</l>
-          <l>VI.<note resp="editor">Il y a omission du numéro V. (note du transcripteur)</note> La
+          <l>VI.<note resp="editor">Omission du numéro V.</note> La
             premiere Partie des Tableaux du Cabinet du Roy, contenant vingt-quatre Pieces gravées
             par Rousselet, Picart, Eddelink, Chasteau, &amp;c. avec les Descriptions. En grand
             papier, 12 l. En petit papier, 10 l.</l>
@@ -929,9 +928,8 @@ Modifier index (écrit préalablement valiene) (corrigé)
       <div type="article" xml:id="MG-1679-08_134" resp="mercure">
         <head>[Réjoüissances faites à Madrid]</head>
         <bibl><title>Mercure galant</title>, août 1679 [tome 8], p.134-146.</bibl>
-        <p>Si je me suis un peu étendu sur cet Article<note resp="editor">Celui des <hi rend="i"
-              >Estampes gravées par l’ordre du Roy, &amp; données au Public</hi> (note du
-            transcripteur).</note>, je l’ay fait non seulement en faveur de nos Curieux à qui un
+        <p>Si je me suis un peu étendu sur cet Article<note resp="editor">Celui des <ref target="MG-1679-08_088"><hi rend="i"
+              >Estampes gravées par l’ordre du Roy</hi></ref>.</note>, je l’ay fait non seulement en faveur de nos Curieux à qui un
           pareil avis estoit necessaire, mais aussi pour en faire part aux Etrangers qui lisent mes
           Lettres. Vous sçavez, Madame, qu’elles sont assez heureuses pour aller par tout, &amp;
           qu’il n’y a point de Cours dans l’Europe, où elles ne soient veuës avec plaisir. Celle
@@ -2028,9 +2026,8 @@ Modifier index (écrit préalablement valiene) (corrigé)
       <div type="article" xml:id="MG-1679-08_310" resp="mercure">
         <head>[Le Duc de Pastrane part de Madrid pour venir en France]</head>
         <bibl><title>Mercure galant</title>, août 1679 [tome 8], p. 310-315.</bibl>
-        <p>Il est marqué sur la fin de cette Lettre<note resp="editor">Cf. l’article précédent, <hi
-              rend="i">Lettre de la Lorraine Espagnolete, touchant les Festes d’Espagne.</hi> (note
-            du transcripteur)</note>, que M<hi rend="sup">r</hi> le Duc de Pastrane, ou de
+        <p>Il est marqué sur la fin de cette Lettre<note resp="editor">Cf. <ref target="MG-1679-08_274"><hi
+          rend="i">Lettre de la Lorraine Espagnolete, touchant les Festes d’Espagne.</hi> </ref></note>, que M<hi rend="sup">r</hi> le Duc de Pastrane, ou de
           l’Infantade, (car il a droit de prendre l’un &amp; l’autre nom,) a esté choisy pour
           apporter les Présens que le Roy son Maistre envoye à Mademoiselle. Il partit le 30. de
           Juillet ; &amp; pour répondre plus galamment à l’impatience d’un jeune Monarque qui brûle
@@ -2158,8 +2155,7 @@ Modifier index (écrit préalablement valiene) (corrigé)
         <head>[These soûtenuë par M. le Prince de Turenne]</head>
         <bibl><title>Mercure galant</title>, août 1679 [tome 8], p. 330-333.</bibl>
         <p>Le mesme jour de l’Entrée dont je viens de vous parler<note resp="editor">« Le 13. de ce
-            mois » cf. <hi rend="i">Entrée de l’Ambassadeur Extraordinaire de Pologne</hi> (note du
-            transcripteur).</note>, Monsieur le Prince de Turenne, Fils aîné de Monsieur le Duc de
+          mois » cf. <hi rend="i">Entrée de l’Ambassadeur Extraordinaire de Pologne</hi>, <ref target="MG-1679-08_319">p. 324</ref>.</note>, Monsieur le Prince de Turenne, Fils aîné de Monsieur le Duc de
           Boüillon, soûtint des Théses de Philosophie au College des Jesuites, avec une penétration,
           une étenduë, &amp; une justesse d’esprit qui luy attirerent beaucoup de loüanges. Monsieur
           le Prince de la Roche-sur-Yon, plusieurs autres Princes, la plûpart des Seigneurs de la

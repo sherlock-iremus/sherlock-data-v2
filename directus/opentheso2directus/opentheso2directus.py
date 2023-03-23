@@ -1,22 +1,17 @@
 import argparse
-from attr import has
 import json
-from lxml import html
 import os
-from pprint import pprint
-from rdflib import DCTERMS, Graph, RDF, SKOS
-import re
+from pathlib import Path
+from rdflib import DCTERMS, RDF, SKOS
 import requests
 from slugify import slugify
 import sys
-from urllib.parse import urlparse
-from urllib.parse import parse_qs
 import xml.etree.ElementTree as ET
 import yaml
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--skos_jsonld_file")
+parser.add_argument("--skos_jsonld_file")  # En écriture seulement, pour voir, jamais mis en cache
 parser.add_argument("--skos_jsonld_api")
 parser.add_argument("--directus_secret")
 parser.add_argument("--directus_url")
@@ -25,12 +20,10 @@ args = parser.parse_args()
 
 print("Récupération des données SKOS…")
 skos_data = {}
-if args.skos_jsonld_file:
-    with open(args.skos_jsonld_file) as f:
-        skos_data = json.loads(f.read())
-else:
-    r = requests.get(args.skos_jsonld_api, stream=True)
-    skos_data = json.loads(r.text)
+r = requests.get(args.skos_jsonld_api, stream=True)
+skos_data = json.loads(r.text)
+with open(args.skos_jsonld_file, "w") as outfile:
+    outfile.write(json.dumps(skos_data, indent=4, ensure_ascii=False))
 
 print("Analyse des données SKOS…")
 
@@ -51,6 +44,8 @@ def census(broader, narrower):
 print("Création des labels des broaders…")
 
 for x in skos_data:
+    if x["@type"][0] != "http://www.w3.org/2004/02/skos/core#Concept":
+        continue
     skos_directus_data[x["@id"]] = {
         "uuid": x["http://purl.org/dc/terms/identifier"][0]["@value"].strip(),
         "preflabel": x["http://www.w3.org/2004/02/skos/core#prefLabel"][0]["@value"].strip()
@@ -107,9 +102,9 @@ def print_response(r):
 
 print(f"Création de la collection… [{args.directus_collection}]")
 r = requests.post(f"{args.directus_url}/collections?access_token={access_token}", json={
-    "collection": "thesaurus_opentheso",
+    "collection": "thesaurii_opentheso",
     "meta": {
-        "collection": "thesaurus_opentheso",
+        "collection": "thesaurii_opentheso",
         "icon": "folder"
     }
 })
@@ -122,7 +117,7 @@ r = requests.post(f"{args.directus_url}/collections?access_token={access_token}"
     "meta": {
         "collection": args.directus_collection,
         "icon": "tag",
-        "group": "thesaurus_opentheso",
+        "group": "thesaurii_opentheso",
         "note": "Cache Opentheso"
     },
     "schema": {},

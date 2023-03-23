@@ -1,0 +1,146 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:0799e005-5f5e-4ab2-8701-6e40b7e04a25 a skos:Concept ;
+    dctrerms:identifier "0799e005-5f5e-4ab2-8701-6e40b7e04a25" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "maquette"@fr .
+
+opentheso:111ace6d-8b53-4f96-a010-00931703c06b a skos:Concept ;
+    dctrerms:identifier "111ace6d-8b53-4f96-a010-00931703c06b" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Photographie"@fr .
+
+opentheso:122f2768-fe58-4301-b12a-64852bc7ca81 a skos:Concept ;
+    dctrerms:identifier "122f2768-fe58-4301-b12a-64852bc7ca81" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Orfévrerie"@fr .
+
+opentheso:1442a552-6c20-45f5-8b09-5abe2c10b406 a skos:Concept ;
+    dctrerms:identifier "1442a552-6c20-45f5-8b09-5abe2c10b406" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Objet au sens large"@fr .
+
+opentheso:250573a3-ecf3-4211-adb1-201673f9f69c a skos:Concept ;
+    dctrerms:identifier "250573a3-ecf3-4211-adb1-201673f9f69c" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Emaillerie"@fr .
+
+opentheso:357625e8-17e2-4530-8a4b-973eaa4937d3 a skos:Concept ;
+    dctrerms:identifier "357625e8-17e2-4530-8a4b-973eaa4937d3" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Beaux-arts"@fr .
+
+opentheso:362e6ee9-318c-4f9b-84eb-e438c61ad962 a skos:Concept ;
+    dctrerms:identifier "362e6ee9-318c-4f9b-84eb-e438c61ad962" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Céramique"@fr .
+
+opentheso:3f2f5763-4819-4cdd-915d-71dd22e6f1c9 a skos:Concept ;
+    dctrerms:identifier "3f2f5763-4819-4cdd-915d-71dd22e6f1c9" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Tapisserie"@fr .
+
+opentheso:4042970c-9ba1-4572-8928-c393c606aec6 a skos:Concept ;
+    dctrerms:identifier "4042970c-9ba1-4572-8928-c393c606aec6" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Textile"@fr .
+
+opentheso:66eeeefe-8254-4d20-9ad8-63186f31654f a skos:Concept ;
+    dctrerms:identifier "66eeeefe-8254-4d20-9ad8-63186f31654f" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Facture instrumentale"@fr .
+
+opentheso:6db6ba96-49ff-4238-a595-e1009a306cfd a skos:Concept ;
+    dctrerms:identifier "6db6ba96-49ff-4238-a595-e1009a306cfd" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Spectacle - fête"@fr .
+
+opentheso:716ce07a-03fc-4d42-8833-0f457810c1f7 a skos:Concept ;
+    dctrerms:identifier "716ce07a-03fc-4d42-8833-0f457810c1f7" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Sculpture"@fr .
+
+opentheso:82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1 a skos:Concept ;
+    dctrerms:identifier "82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Ebénisterie"@fr .
+
+opentheso:88a25f58-662d-44f0-be6c-ce5b62c3b13a a skos:Concept ;
+    dctrerms:identifier "88a25f58-662d-44f0-be6c-ce5b62c3b13a" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Enluminure"@fr .
+
+opentheso:8a513bdb-2a5d-4c3c-8254-d637deb5ed95 a skos:Concept ;
+    dctrerms:identifier "8a513bdb-2a5d-4c3c-8254-d637deb5ed95" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "support mixte"@fr .
+
+opentheso:8f20dece-e9e3-464f-b522-78476f34b288 a skos:Concept ;
+    dctrerms:identifier "8f20dece-e9e3-464f-b522-78476f34b288" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Arts décoratifs"@fr .
+
+opentheso:a656d5cb-7ef1-47db-84d5-a6a3bd60e765 a skos:Concept ;
+    dctrerms:identifier "a656d5cb-7ef1-47db-84d5-a6a3bd60e765" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Estampe"@fr .
+
+opentheso:c8cb86c0-e005-460b-a028-3f54afffb93d a skos:Concept ;
+    dctrerms:identifier "c8cb86c0-e005-460b-a028-3f54afffb93d" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Architecture"@fr .
+
+opentheso:da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da a skos:Concept ;
+    dctrerms:identifier "da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Art mobilier"@fr .
+
+opentheso:dadda380-e23f-4157-8ed6-ec2c4ad3ad87 a skos:Concept ;
+    dctrerms:identifier "dadda380-e23f-4157-8ed6-ec2c4ad3ad87" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Peinture"@fr .
+
+opentheso:eb8b06e6-a6bf-45fb-a07e-03a8215884a5 a skos:Concept ;
+    dctrerms:identifier "eb8b06e6-a6bf-45fb-a07e-03a8215884a5" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Dessin"@fr .
+
+opentheso:f296fff7-675f-4986-b156-ef714606f7f9 a skos:Concept ;
+    dctrerms:identifier "f296fff7-675f-4986-b156-ef714606f7f9" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Vitrail"@fr .
+
+opentheso:fb6390a6-e571-4fae-bad2-2ef192f7c110 a skos:Concept ;
+    dctrerms:identifier "fb6390a6-e571-4fae-bad2-2ef192f7c110" ;
+    skos:inScheme opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 ;
+    skos:prefLabel "Mosaïque"@fr .
+
+opentheso:60f5821f-68ab-4b22-b4b1-03f7c5a07242 a skos:ConceptScheme ;
+    dctrerms:identifier "60f5821f-68ab-4b22-b4b1-03f7c5a07242" ;
+    skos:hasTopConcept opentheso:0799e005-5f5e-4ab2-8701-6e40b7e04a25,
+        opentheso:111ace6d-8b53-4f96-a010-00931703c06b,
+        opentheso:122f2768-fe58-4301-b12a-64852bc7ca81,
+        opentheso:1442a552-6c20-45f5-8b09-5abe2c10b406,
+        opentheso:250573a3-ecf3-4211-adb1-201673f9f69c,
+        opentheso:357625e8-17e2-4530-8a4b-973eaa4937d3,
+        opentheso:362e6ee9-318c-4f9b-84eb-e438c61ad962,
+        opentheso:3f2f5763-4819-4cdd-915d-71dd22e6f1c9,
+        opentheso:4042970c-9ba1-4572-8928-c393c606aec6,
+        opentheso:66eeeefe-8254-4d20-9ad8-63186f31654f,
+        opentheso:6db6ba96-49ff-4238-a595-e1009a306cfd,
+        opentheso:716ce07a-03fc-4d42-8833-0f457810c1f7,
+        opentheso:82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1,
+        opentheso:88a25f58-662d-44f0-be6c-ce5b62c3b13a,
+        opentheso:8a513bdb-2a5d-4c3c-8254-d637deb5ed95,
+        opentheso:8f20dece-e9e3-464f-b522-78476f34b288,
+        opentheso:a656d5cb-7ef1-47db-84d5-a6a3bd60e765,
+        opentheso:c8cb86c0-e005-460b-a028-3f54afffb93d,
+        opentheso:da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da,
+        opentheso:dadda380-e23f-4157-8ed6-ec2c4ad3ad87,
+        opentheso:eb8b06e6-a6bf-45fb-a07e-03a8215884a5,
+        opentheso:f296fff7-675f-4986-b156-ef714606f7f9,
+        opentheso:fb6390a6-e571-4fae-bad2-2ef192f7c110 ;
+    skos:prefLabel "Domaines"@fr .
+

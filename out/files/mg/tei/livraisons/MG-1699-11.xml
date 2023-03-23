@@ -245,7 +245,7 @@
           <bibl><title>Mercure galant</title>, novembre 1699 [tome 11], p. 126-135.</bibl>
           <p>Le Conte que je vous envoye vous divertira, il est de M<hi rend="sup">r</hi> de Vin.</p>
           <quote>
-            <label><hi rend="i">LE RAMONNEUR</hi><lb/><hi rend="i">pris pour un Spectre.</hi></label>
+            <label><hi rend="i">LE RAMONNEUR</hi><lb/><hi rend="i">pris pour un Spectre. [conte]</hi></label>
             <lg>
               <l>Veux-tu remplir ton cœur d’une masse asseurance,</l>
               <l>Et ne point te troubler au plus affreux aspect ;</l>
@@ -517,8 +517,8 @@
         </div>
       <div type="article" xml:id="MG-1699-11_178" resp="angele">
         <head>Air nouveau</head>
-        <bibl><title>Mercure galant</title>, novembre 1699 [tome 11], p. 178-179.<note resp="author" place="margin">Le poème figure dans les Poésies galantes de Madame de Sainctonge (Paris, Guignard, 1696, p. 69, cf. LADDA 1685-06).</note></bibl>
-        <p>L'Hiver qui approche a donné occasion de faire les Vers que je vous envoye gravez.</p>
+        <bibl><title>Mercure galant</title>, novembre 1699 [tome 11], p. 178-179.</bibl>
+        <p>L'Hiver qui approche a donné occasion de faire les Vers que je vous envoye gravez. <note resp="editor">Le poème figure dans les <hi rend="italic">Poésies galantes de Madame de Sainctonge</hi> (Paris, Guignard, 1696, p. 69). Une autre mise en musique, anonyme, a été publiée dans le <hi rend="italic">XXVIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1685, f. 8-8v, cf. LADDA 1685-06) ; une mise en musique de Cappus a été publiée dans le <hi rend="italic">Recueil d'airs sérieux et à boire</hi> de novembre 1699 (Paris, Ballard, 1699, p. 210-211).</note></p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Reviens affreux Hiver</hi>, doit regarder la page 178.</note>
           <lg><l rend="i">Reviens, affreux Hiver, regne dans nos boccages,</l>

@@ -1,0 +1,74 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:26aa6132-f573-485f-884f-144a20452b3b a skos:Concept ;
+    dctrerms:identifier "26aa6132-f573-485f-884f-144a20452b3b" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "opéra"@fr .
+
+opentheso:301ceecd-ee25-498a-9db8-c9b176814bff a skos:Concept ;
+    dctrerms:identifier "301ceecd-ee25-498a-9db8-c9b176814bff" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "opéra-bouffe"@fr .
+
+opentheso:35373c18-a91e-4d30-98fc-fa8b340ef69c a skos:Concept ;
+    dctrerms:identifier "35373c18-a91e-4d30-98fc-fa8b340ef69c" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "comédie ballet"@fr .
+
+opentheso:72c96aaf-e918-4714-8ac7-816d8fdd754f a skos:Concept ;
+    dctrerms:identifier "72c96aaf-e918-4714-8ac7-816d8fdd754f" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "opéra féerique"@fr .
+
+opentheso:85ea70b3-9aba-4384-a19e-b3d9fd673a35 a skos:Concept ;
+    dctrerms:identifier "85ea70b3-9aba-4384-a19e-b3d9fd673a35" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "opéra comique"@fr .
+
+opentheso:8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3 a skos:Concept ;
+    dctrerms:identifier "8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "opéra-ballet"@fr .
+
+opentheso:c17dc3bf-bdca-419c-b3bc-d57be659bd92 a skos:Concept ;
+    dctrerms:identifier "c17dc3bf-bdca-419c-b3bc-d57be659bd92" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "tragédie musicale"@fr .
+
+opentheso:cde8d027-ddc4-453f-80b7-c2ea400c9110 a skos:Concept ;
+    dctrerms:identifier "cde8d027-ddc4-453f-80b7-c2ea400c9110" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "ballet"@fr .
+
+opentheso:e1b33ce8-962c-4779-839e-73458c931cfd a skos:Concept ;
+    dctrerms:identifier "e1b33ce8-962c-4779-839e-73458c931cfd" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "comédie musicale"@fr .
+
+opentheso:e2b6cb99-24b4-41bf-990d-20baa47de3e5 a skos:Concept ;
+    dctrerms:identifier "e2b6cb99-24b4-41bf-990d-20baa47de3e5" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "ballet-pantomime"@fr .
+
+opentheso:faa11506-2eda-4389-b540-c6480899887c a skos:Concept ;
+    dctrerms:identifier "faa11506-2eda-4389-b540-c6480899887c" ;
+    skos:inScheme opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b ;
+    skos:prefLabel "drame lyrique"@fr .
+
+opentheso:ead6ff5f-60fa-4883-a064-11a53a4b502b a skos:ConceptScheme ;
+    dctrerms:identifier "ead6ff5f-60fa-4883-a064-11a53a4b502b" ;
+    skos:hasTopConcept opentheso:26aa6132-f573-485f-884f-144a20452b3b,
+        opentheso:301ceecd-ee25-498a-9db8-c9b176814bff,
+        opentheso:35373c18-a91e-4d30-98fc-fa8b340ef69c,
+        opentheso:72c96aaf-e918-4714-8ac7-816d8fdd754f,
+        opentheso:85ea70b3-9aba-4384-a19e-b3d9fd673a35,
+        opentheso:8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3,
+        opentheso:c17dc3bf-bdca-419c-b3bc-d57be659bd92,
+        opentheso:cde8d027-ddc4-453f-80b7-c2ea400c9110,
+        opentheso:e1b33ce8-962c-4779-839e-73458c931cfd,
+        opentheso:e2b6cb99-24b4-41bf-990d-20baa47de3e5,
+        opentheso:faa11506-2eda-4389-b540-c6480899887c ;
+    skos:prefLabel "Types d'œuvres"@fr .
+

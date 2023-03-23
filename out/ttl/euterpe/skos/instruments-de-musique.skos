@@ -1,0 +1,2420 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:00563104-50b3-424e-a9be-f2f9c85a47a5 a skos:Concept ;
+    dctrerms:identifier "00563104-50b3-424e-a9be-f2f9c85a47a5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Orpharion)"@fr .
+
+opentheso:01bc3285-27b3-4c07-962e-b0c9a1e49534 a skos:Concept ;
+    dctrerms:identifier "01bc3285-27b3-4c07-962e-b0c9a1e49534" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Mandore)"@fr .
+
+opentheso:02162c82-3e1a-47a4-96b1-f254e1177773 a skos:Concept ;
+    dctrerms:identifier "02162c82-3e1a-47a4-96b1-f254e1177773" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.12 - Cithares planche proprement dites avec résonateur"@fr .
+
+opentheso:03516cce-2fa7-4474-b889-61c943ac359b a skos:Concept ;
+    dctrerms:identifier "03516cce-2fa7-4474-b889-61c943ac359b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.12 - Instruments à anche double groupés"@fr .
+
+opentheso:040a9771-3671-4c36-a02c-23006cbc2a00 a skos:Concept ;
+    dctrerms:identifier "040a9771-3671-4c36-a02c-23006cbc2a00" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.23 - Tambours en double cône"@fr .
+
+opentheso:050a5544-587b-4dec-b412-966dc29077a0 a skos:Concept ;
+    dctrerms:identifier "050a5544-587b-4dec-b412-966dc29077a0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.243(Tambour de bois)"@fr .
+
+opentheso:05c01e3f-6bad-4f80-bb59-337781ed2064 a skos:Concept ;
+    dctrerms:identifier "05c01e3f-6bad-4f80-bb59-337781ed2064" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Contrebasse)"@fr .
+
+opentheso:05f0fd77-f354-4308-8649-4ef91bfb7454 a skos:Concept ;
+    dctrerms:identifier "05f0fd77-f354-4308-8649-4ef91bfb7454" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.11-9(Serinette)"@fr .
+
+opentheso:06b0df3e-f6a9-4259-b7c6-08a7050e61ab a skos:Concept ;
+    dctrerms:identifier "06b0df3e-f6a9-4259-b7c6-08a7050e61ab" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "131.21(Violon de fer)"@fr .
+
+opentheso:07a89554-3423-4f59-b4ec-e31c96a5bfe7 a skos:Concept ;
+    dctrerms:identifier "07a89554-3423-4f59-b4ec-e31c96a5bfe7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.2(Saxhorn)"@fr .
+
+opentheso:0811f3ab-9d62-4b0f-8986-4beee53a5b4e a skos:Concept ;
+    dctrerms:identifier "0811f3ab-9d62-4b0f-8986-4beee53a5b4e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-61(Orgue à bouche)"@fr .
+
+opentheso:08240cab-418d-4a5c-bf49-132f930d024d a skos:Concept ;
+    dctrerms:identifier "08240cab-418d-4a5c-bf49-132f930d024d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.311(Tabor)"@fr .
+
+opentheso:08727362-5cfb-4302-9ccf-c3f7f47cef9b a skos:Concept ;
+    dctrerms:identifier "08727362-5cfb-4302-9ccf-c3f7f47cef9b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.121 - Instruments à anche double groupés à perce cylindrique"@fr .
+
+opentheso:088e9a32-82a5-432a-b889-b48539ad57c4 a skos:Concept ;
+    dctrerms:identifier "088e9a32-82a5-432a-b889-b48539ad57c4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.212 - Instruments à anche lippales chromatiques à trous, à perce conique étroite"@fr .
+
+opentheso:08aaa08c-a3ae-4ee3-95cc-70942f8fbe4f a skos:Concept ;
+    dctrerms:identifier "08aaa08c-a3ae-4ee3-95cc-70942f8fbe4f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.4 - Flûtes-récipients à conduit intérieur, isolées"@fr .
+
+opentheso:094ce569-3934-43ae-9d73-0941893a8968 a skos:Concept ;
+    dctrerms:identifier "094ce569-3934-43ae-9d73-0941893a8968" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.1 - Timbales ou tambours en chaudron"@fr .
+
+opentheso:09678602-5940-43c7-9951-ab34c1994e55 a skos:Concept ;
+    dctrerms:identifier "09678602-5940-43c7-9951-ab34c1994e55" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112 - Instruments à anche double isolés à perce conique"@fr .
+
+opentheso:0a66dd4d-ce13-4b15-8eb6-2dd2fae7e519 a skos:Concept ;
+    dctrerms:identifier "0a66dd4d-ce13-4b15-8eb6-2dd2fae7e519" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "232.2(Waldteufel)"@fr .
+
+opentheso:0b7ebab6-144d-4240-8071-8130d8745b95 a skos:Concept ;
+    dctrerms:identifier "0b7ebab6-144d-4240-8071-8130d8745b95" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62-8(Concertina)"@fr .
+
+opentheso:0c12ca1c-ebe7-4d62-999b-058e594e0e4a a skos:Concept ;
+    dctrerms:identifier "0c12ca1c-ebe7-4d62-999b-058e594e0e4a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.1(Tambour militaire)"@fr .
+
+opentheso:0c2adcf0-64dc-4fea-9f55-beadfaf07b19 a skos:Concept ;
+    dctrerms:identifier "0c2adcf0-64dc-4fea-9f55-beadfaf07b19" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Lira da braccio)"@fr .
+
+opentheso:0ceb1ba0-2412-4d1d-98ee-3f0650f1c30e a skos:Concept ;
+    dctrerms:identifier "0ceb1ba0-2412-4d1d-98ee-3f0650f1c30e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Trompette à replis)"@fr .
+
+opentheso:0e93e2ff-0a20-422a-81b2-6b81f49a051b a skos:Concept ;
+    dctrerms:identifier "0e93e2ff-0a20-422a-81b2-6b81f49a051b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62-8(Harmonium)"@fr .
+
+opentheso:0f21fefa-c4dd-43c1-9042-9e491e6a7e0f a skos:Concept ;
+    dctrerms:identifier "0f21fefa-c4dd-43c1-9042-9e491e6a7e0f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.22 - Plaques percutées"@fr .
+
+opentheso:0f2991fa-f451-45a8-bac0-81931c05e931 a skos:Concept ;
+    dctrerms:identifier "0f2991fa-f451-45a8-bac0-81931c05e931" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.21(Carnyx)"@fr .
+
+opentheso:0f74eb91-f0a7-4e84-be16-739b7f43298f a skos:Concept ;
+    dctrerms:identifier "0f74eb91-f0a7-4e84-be16-739b7f43298f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Violone, contrebasse de viole)"@fr .
+
+opentheso:0fe07564-3099-4833-9114-628ab9095293 a skos:Concept ;
+    dctrerms:identifier "0fe07564-3099-4833-9114-628ab9095293" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242.12 - Cloche isolée suspendue"@fr .
+
+opentheso:106f3b3a-692a-4da5-b7a6-e27e0ac45b96 a skos:Concept ;
+    dctrerms:identifier "106f3b3a-692a-4da5-b7a6-e27e0ac45b96" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.3 - Tambours sur cadre"@fr .
+
+opentheso:114ee235-ebed-46fe-b82c-51054e1307ac a skos:Concept ;
+    dctrerms:identifier "114ee235-ebed-46fe-b82c-51054e1307ac" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.211(Trompette à clés)"@fr .
+
+opentheso:115f8233-3e0a-42c4-8ebb-9153ab8e0605 a skos:Concept ;
+    dctrerms:identifier "115f8233-3e0a-42c4-8ebb-9153ab8e0605" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.12 - Timbales groupées"@fr .
+
+opentheso:11d5c52a-9a60-41c7-a3f6-86c62ee2c800 a skos:Concept ;
+    dctrerms:identifier "11d5c52a-9a60-41c7-a3f6-86c62ee2c800" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.232 - Tubes percutés groupés"@fr .
+
+opentheso:1233262a-5802-4cd9-ba39-899a333b710c a skos:Concept ;
+    dctrerms:identifier "1233262a-5802-4cd9-ba39-899a333b710c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "42 - Instruments à vent proprement dits"@fr .
+
+opentheso:133abe04-e94f-4f0e-a2c8-4dc371349872 a skos:Concept ;
+    dctrerms:identifier "133abe04-e94f-4f0e-a2c8-4dc371349872" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8(Orgue portatif)"@fr .
+
+opentheso:13fc6277-97de-48d1-804c-08d78ea232eb a skos:Concept ;
+    dctrerms:identifier "13fc6277-97de-48d1-804c-08d78ea232eb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.212 - Instruments à anche simple isolés à perce conique"@fr .
+
+opentheso:14502157-e583-438f-8928-bc2c600784ab a skos:Concept ;
+    dctrerms:identifier "14502157-e583-438f-8928-bc2c600784ab" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Piano harpe)"@fr .
+
+opentheso:145e8e5e-e6ef-4d05-ab60-4fb3232afcac a skos:Concept ;
+    dctrerms:identifier "145e8e5e-e6ef-4d05-ab60-4fb3232afcac" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242.11 - Cloche isolée déposée"@fr .
+
+opentheso:15a530ce-9e14-45e6-a367-ca9edf7b7fd3 a skos:Concept ;
+    dctrerms:identifier "15a530ce-9e14-45e6-a367-ca9edf7b7fd3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.11 - Hochets suspendus"@fr .
+
+opentheso:164cdc94-f6bb-4bca-9a1d-ffa139edfbb7 a skos:Concept ;
+    dctrerms:identifier "164cdc94-f6bb-4bca-9a1d-ffa139edfbb7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-6-8 - Cithares planche proprement dites à résonateur en forme de boîte, jouées avec un plectre, à clavier"@fr .
+
+opentheso:16a8f8a2-78c5-496b-b9f2-589664cc027f a skos:Concept ;
+    dctrerms:identifier "16a8f8a2-78c5-496b-b9f2-589664cc027f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.22 - Instruments à anches lippales chromatiques à coulisse"@fr .
+
+opentheso:16f424d9-4a5c-47f9-bd10-6efaf83fc455 a skos:Concept ;
+    dctrerms:identifier "16f424d9-4a5c-47f9-bd10-6efaf83fc455" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.22(Crwth)"@fr .
+
+opentheso:196df2aa-a94c-4d9c-b5ec-9ec4b89e6829 a skos:Concept ;
+    dctrerms:identifier "196df2aa-a94c-4d9c-b5ec-9ec4b89e6829" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Viole de bras)"@fr .
+
+opentheso:1b065c9f-3880-45d2-be57-320a6fb46d7b a skos:Concept ;
+    dctrerms:identifier "1b065c9f-3880-45d2-be57-320a6fb46d7b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422 - Instruments à anche"@fr .
+
+opentheso:1bb1c298-96c5-4bd3-b18c-ddc7d6de961a a skos:Concept ;
+    dctrerms:identifier "1bb1c298-96c5-4bd3-b18c-ddc7d6de961a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Vèze, turelurette)"@fr .
+
+opentheso:1bc8be49-29ab-43e3-b82a-10040f0493ef a skos:Concept ;
+    dctrerms:identifier "1bc8be49-29ab-43e3-b82a-10040f0493ef" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8(Orgue hydraulique)"@fr .
+
+opentheso:1c19668b-8c91-4c39-9cd4-6de0e7fcdf25 a skos:Concept ;
+    dctrerms:identifier "1c19668b-8c91-4c39-9cd4-6de0e7fcdf25" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.12(Galoubet)"@fr .
+
+opentheso:1c433597-42c2-45f8-94e9-57819b110c6f a skos:Concept ;
+    dctrerms:identifier "1c433597-42c2-45f8-94e9-57819b110c6f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.21 - Harpe à cadre sans dispositif de raccourcissement des cordes"@fr .
+
+opentheso:1cd12e1b-9c02-4f76-8f9f-37a9cdd9b587 a skos:Concept ;
+    dctrerms:identifier "1cd12e1b-9c02-4f76-8f9f-37a9cdd9b587" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.241.1(Tambour en acier)"@fr .
+
+opentheso:1d59ed9c-6db0-4d9f-8ec2-e39b7d6495df a skos:Concept ;
+    dctrerms:identifier "1d59ed9c-6db0-4d9f-8ec2-e39b7d6495df" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.2 - Flûtes à conduit d'insufflation"@fr .
+
+opentheso:1da16bed-7982-4c1c-a68b-af874aef40b6 a skos:Concept ;
+    dctrerms:identifier "1da16bed-7982-4c1c-a68b-af874aef40b6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.21 - Bâtons percutés"@fr .
+
+opentheso:1e52b127-60b7-4fca-85e9-1bf2401ae00f a skos:Concept ;
+    dctrerms:identifier "1e52b127-60b7-4fca-85e9-1bf2401ae00f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.1 - Aérophones libres à interruption à anche"@fr .
+
+opentheso:1e9c7cdd-b34a-45c4-bc86-b4c6d1b24cba a skos:Concept ;
+    dctrerms:identifier "1e9c7cdd-b34a-45c4-bc86-b4c6d1b24cba" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.22(Sacqueboute)"@fr .
+
+opentheso:1f1f4207-92d9-42ab-82d0-e6cdb399856c a skos:Concept ;
+    dctrerms:identifier "1f1f4207-92d9-42ab-82d0-e6cdb399856c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.231 - Tube percuté isolé"@fr .
+
+opentheso:1fa6575b-1527-4d7e-a87a-79925948c630 a skos:Concept ;
+    dctrerms:identifier "1fa6575b-1527-4d7e-a87a-79925948c630" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "11 - Idiophones frappés"@fr .
+
+opentheso:1fc1fb8a-b5f3-47bf-b104-8d1b4b536e92 a skos:Concept ;
+    dctrerms:identifier "1fc1fb8a-b5f3-47bf-b104-8d1b4b536e92" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.1(Caisse claire)"@fr .
+
+opentheso:20c514c1-e222-4d66-a45c-680248f12dbb a skos:Concept ;
+    dctrerms:identifier "20c514c1-e222-4d66-a45c-680248f12dbb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.24 - Tambours en sablier"@fr .
+
+opentheso:21a53af4-3511-4f4a-82e1-90a144f56e8f a skos:Concept ;
+    dctrerms:identifier "21a53af4-3511-4f4a-82e1-90a144f56e8f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.122-62(Cabrette)"@fr .
+
+opentheso:22183f9a-9083-4554-857d-5ac8a20801a6 a skos:Concept ;
+    dctrerms:identifier "22183f9a-9083-4554-857d-5ac8a20801a6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.31 - Luth à pointe"@fr .
+
+opentheso:2271ace9-2c23-4022-9786-6ddba3d31796 a skos:Concept ;
+    dctrerms:identifier "2271ace9-2c23-4022-9786-6ddba3d31796" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.11-9 - Flûtes à conduit intérieur, groupées, ouvertes, sans trous, actionnées mécaniquement"@fr .
+
+opentheso:22b7da53-1f82-4b58-a08d-5467f7453571 a skos:Concept ;
+    dctrerms:identifier "22b7da53-1f82-4b58-a08d-5467f7453571" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.211.2(Clarinette)"@fr .
+
+opentheso:230937b5-5c61-475c-9357-f75fa1dd578a a skos:Concept ;
+    dctrerms:identifier "230937b5-5c61-475c-9357-f75fa1dd578a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.111.2(Cervelas)"@fr .
+
+opentheso:23595110-d003-4aa9-b8ad-44c6df803d91 a skos:Concept ;
+    dctrerms:identifier "23595110-d003-4aa9-b8ad-44c6df803d91" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Basson)"@fr .
+
+opentheso:256e0af5-9af5-4eb8-9cd9-5126096fbbc0 a skos:Concept ;
+    dctrerms:identifier "256e0af5-9af5-4eb8-9cd9-5126096fbbc0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.41 - Flûtes-récipients à conduit intérieur, isolées, sans trous"@fr .
+
+opentheso:25cb89fc-c647-418e-a82f-f8c78303bb2b a skos:Concept ;
+    dctrerms:identifier "25cb89fc-c647-418e-a82f-f8c78303bb2b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.11 - Bâtons à entrechoc"@fr .
+
+opentheso:25d854d8-a72f-47e4-a8ca-ed8f3ef77669 a skos:Concept ;
+    dctrerms:identifier "25d854d8-a72f-47e4-a8ca-ed8f3ef77669" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.2 - Instruments à anche simple"@fr .
+
+opentheso:2637301f-c05d-4fa9-90d8-732d84310d7e a skos:Concept ;
+    dctrerms:identifier "2637301f-c05d-4fa9-90d8-732d84310d7e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Tambourin à cordes)"@fr .
+
+opentheso:265dbd68-2f27-4055-9d20-a84d4905dff6 a skos:Concept ;
+    dctrerms:identifier "265dbd68-2f27-4055-9d20-a84d4905dff6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.22(Kithara)"@fr .
+
+opentheso:271a47ea-801a-4035-92c6-322954222258 a skos:Concept ;
+    dctrerms:identifier "271a47ea-801a-4035-92c6-322954222258" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.21(Barbitos ou barbiton)"@fr .
+
+opentheso:293ca7b4-9498-45e2-9d4d-5f17d3c5c91e a skos:Concept ;
+    dctrerms:identifier "293ca7b4-9498-45e2-9d4d-5f17d3c5c91e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.211 - Bâton percuté isolé"@fr .
+
+opentheso:2a361b1d-3ee5-4795-9298-d8eeb9607328 a skos:Concept ;
+    dctrerms:identifier "2a361b1d-3ee5-4795-9298-d8eeb9607328" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Hautbois d'amour)"@fr .
+
+opentheso:2af07a08-1e55-4738-86b6-c04b25a53cd3 a skos:Concept ;
+    dctrerms:identifier "2af07a08-1e55-4738-86b6-c04b25a53cd3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.13(Appeau)"@fr .
+
+opentheso:2c42984f-a9a5-43f9-91a5-504115edea5c a skos:Concept ;
+    dctrerms:identifier "2c42984f-a9a5-43f9-91a5-504115edea5c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "23 - Tambours à frictions"@fr .
+
+opentheso:2c8d3c9e-6f73-4250-8882-a75218b84bda a skos:Concept ;
+    dctrerms:identifier "2c8d3c9e-6f73-4250-8882-a75218b84bda" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.12 - Plaques à entrechoc"@fr .
+
+opentheso:2e35441d-2912-4fb1-b4ff-b8e239ad6632 a skos:Concept ;
+    dctrerms:identifier "2e35441d-2912-4fb1-b4ff-b8e239ad6632" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.241.1 - Gong isolé"@fr .
+
+opentheso:2ef4eb92-e67f-410e-8ef9-dd2244e572e9 a skos:Concept ;
+    dctrerms:identifier "2ef4eb92-e67f-410e-8ef9-dd2244e572e9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.12(Cor des Alpes)"@fr .
+
+opentheso:2f116b10-9b82-4e82-944d-8cc146e00480 a skos:Concept ;
+    dctrerms:identifier "2f116b10-9b82-4e82-944d-8cc146e00480" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.121.12(Piccolo)"@fr .
+
+opentheso:2f5336db-a077-4055-bc00-bebd2bf97627 a skos:Concept ;
+    dctrerms:identifier "2f5336db-a077-4055-bc00-bebd2bf97627" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Orphica)"@fr .
+
+opentheso:2fd038a3-762f-4e3a-84d3-1c1f1996118d a skos:Concept ;
+    dctrerms:identifier "2fd038a3-762f-4e3a-84d3-1c1f1996118d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Hautbois)"@fr .
+
+opentheso:307a6cb0-8fad-48f3-a042-f5ea4214aba4 a skos:Concept ;
+    dctrerms:identifier "307a6cb0-8fad-48f3-a042-f5ea4214aba4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "12 - Idiophones pincés ou lamellophones"@fr .
+
+opentheso:31b2b389-da4f-407d-be56-16cc026eeaa7 a skos:Concept ;
+    dctrerms:identifier "31b2b389-da4f-407d-be56-16cc026eeaa7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.1 - Harpe ouverte"@fr .
+
+opentheso:322d494a-7519-42f8-a5ec-dbfdd532bc62 a skos:Concept ;
+    dctrerms:identifier "322d494a-7519-42f8-a5ec-dbfdd532bc62" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Epinette des Vosges)"@fr .
+
+opentheso:33aebda6-dccb-4ed1-ad3e-48cf5db93e6c a skos:Concept ;
+    dctrerms:identifier "33aebda6-dccb-4ed1-ad3e-48cf5db93e6c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.22(Trombone à pistons)"@fr .
+
+opentheso:35d0be17-9e05-47b1-b4ec-59311d5b234a a skos:Concept ;
+    dctrerms:identifier "35d0be17-9e05-47b1-b4ec-59311d5b234a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Quinton)"@fr .
+
+opentheso:369baa7e-b848-4795-9cf3-31c334b11709 a skos:Concept ;
+    dctrerms:identifier "369baa7e-b848-4795-9cf3-31c334b11709" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "131.21(Cristal Baschet)"@fr .
+
+opentheso:372cc469-cbeb-4a0b-bdb2-f1b58e3f3781 a skos:Concept ;
+    dctrerms:identifier "372cc469-cbeb-4a0b-bdb2-f1b58e3f3781" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Trompette naturelle)"@fr .
+
+opentheso:37cd5d46-5b44-4b6e-8eaa-77c8b810ede6 a skos:Concept ;
+    dctrerms:identifier "37cd5d46-5b44-4b6e-8eaa-77c8b810ede6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.26 - Tambours en gobelet"@fr .
+
+opentheso:384203cb-fa8b-4d6f-bc19-52f9a8214cc6 a skos:Concept ;
+    dctrerms:identifier "384203cb-fa8b-4d6f-bc19-52f9a8214cc6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.11 - Instruments à anches lippales tubulaires à embouchure terminale, droits, sans embouchure"@fr .
+
+opentheso:3aa1622b-fe8e-44aa-997c-8c124cb87ed2 a skos:Concept ;
+    dctrerms:identifier "3aa1622b-fe8e-44aa-997c-8c124cb87ed2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "212 - Tambours hochets"@fr .
+
+opentheso:3aee11a3-a5b6-4b6f-95cb-c8c911d57931 a skos:Concept ;
+    dctrerms:identifier "3aee11a3-a5b6-4b6f-95cb-c8c911d57931" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242.2(Carillon)"@fr .
+
+opentheso:3b78dfbd-d311-47ec-8675-d9fed1c64381 a skos:Concept ;
+    dctrerms:identifier "3b78dfbd-d311-47ec-8675-d9fed1c64381" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Archiluth)"@fr .
+
+opentheso:3bae42eb-30a6-4f2f-9909-d8d4fb68daf9 a skos:Concept ;
+    dctrerms:identifier "3bae42eb-30a6-4f2f-9909-d8d4fb68daf9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.21(Shofar)"@fr .
+
+opentheso:3cc6e636-185b-45f0-a639-0195aac31f0a a skos:Concept ;
+    dctrerms:identifier "3cc6e636-185b-45f0-a639-0195aac31f0a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.121.12(Flûte traversière)"@fr .
+
+opentheso:3cddc6e4-a65b-4088-9333-a34cde003eeb a skos:Concept ;
+    dctrerms:identifier "3cddc6e4-a65b-4088-9333-a34cde003eeb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.141 - Castagnettes"@fr .
+
+opentheso:3ce1faa4-296c-414a-ab63-71b0fdf7d307 a skos:Concept ;
+    dctrerms:identifier "3ce1faa4-296c-414a-ab63-71b0fdf7d307" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.213(Bugle à clés)"@fr .
+
+opentheso:3d06266d-0ec4-4004-9daa-a217706201d4 a skos:Concept ;
+    dctrerms:identifier "3d06266d-0ec4-4004-9daa-a217706201d4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Vihuela)"@fr .
+
+opentheso:3d201976-ae74-430d-88b6-e22cd48d7efc a skos:Concept ;
+    dctrerms:identifier "3d201976-ae74-430d-88b6-e22cd48d7efc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71 - Luth à manche rapporté à résonateur en forme de boite, joué par frottement avec un archet"@fr .
+
+opentheso:3d374ff3-03fb-4a6a-81c4-3db0de106841 a skos:Concept ;
+    dctrerms:identifier "3d374ff3-03fb-4a6a-81c4-3db0de106841" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "132.1(Scie musicale)"@fr .
+
+opentheso:3daf237e-dfa5-4d73-922f-dc3a961be7ef a skos:Concept ;
+    dctrerms:identifier "3daf237e-dfa5-4d73-922f-dc3a961be7ef" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Pianoforte)"@fr .
+
+opentheso:3e2ef79b-041e-4e23-9fc9-5c8667e9c3bc a skos:Concept ;
+    dctrerms:identifier "3e2ef79b-041e-4e23-9fc9-5c8667e9c3bc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121 - Instruments à anches lippales tubulaires à embouchure terminale"@fr .
+
+opentheso:404e3648-c2b8-4cff-87b4-b13e2fb65fa1 a skos:Concept ;
+    dctrerms:identifier "404e3648-c2b8-4cff-87b4-b13e2fb65fa1" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.2 - Idiophones raclés ou racloirs"@fr .
+
+opentheso:41581ca9-144d-4b22-92cc-d98ecb4d6a5a a skos:Concept ;
+    dctrerms:identifier "41581ca9-144d-4b22-92cc-d98ecb4d6a5a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.11 - Harpe arquée"@fr .
+
+opentheso:427d2f4b-310e-4dad-ae74-81661e8fed70 a skos:Concept ;
+    dctrerms:identifier "427d2f4b-310e-4dad-ae74-81661e8fed70" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.2 - Aérophones à interruption sans anche"@fr .
+
+opentheso:44133443-dbc5-4a49-a87a-db58184a7310 a skos:Concept ;
+    dctrerms:identifier "44133443-dbc5-4a49-a87a-db58184a7310" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8(Orgue)"@fr .
+
+opentheso:444ec03f-e168-4e83-b55f-466bbdf02697 a skos:Concept ;
+    dctrerms:identifier "444ec03f-e168-4e83-b55f-466bbdf02697" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Cor)"@fr .
+
+opentheso:446d8a6a-1e96-4e1b-8a6d-679a368bb14f a skos:Concept ;
+    dctrerms:identifier "446d8a6a-1e96-4e1b-8a6d-679a368bb14f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.112 - Flûtes sans conduit d'insufflation, à bouche terminale, groupées"@fr .
+
+opentheso:458da315-862e-4ae1-aae6-30cf7a445520 a skos:Concept ;
+    dctrerms:identifier "458da315-862e-4ae1-aae6-30cf7a445520" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.11 - Cithares planches proprement dites sans résonateur"@fr .
+
+opentheso:45ad09fe-953f-4b5e-a900-ae3fe40f1285 a skos:Concept ;
+    dctrerms:identifier "45ad09fe-953f-4b5e-a900-ae3fe40f1285" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.211 - Instruments à anche simple isolés à perce cylindrique"@fr .
+
+opentheso:45b89c35-cc0a-4abf-88b0-72c2898e5e68 a skos:Concept ;
+    dctrerms:identifier "45b89c35-cc0a-4abf-88b0-72c2898e5e68" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "133.2 - Récipients frottés groupés"@fr .
+
+opentheso:4605d92d-8765-441c-b5ec-fad927371b1d a skos:Concept ;
+    dctrerms:identifier "4605d92d-8765-441c-b5ec-fad927371b1d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.231 - Bugles à piston"@fr .
+
+opentheso:4661b133-fdb8-43b9-be32-1de89f01f280 a skos:Concept ;
+    dctrerms:identifier "4661b133-fdb8-43b9-be32-1de89f01f280" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Piano pyramidal)"@fr .
+
+opentheso:46f0339c-3383-451a-8373-dfdeb9ebee1d a skos:Concept ;
+    dctrerms:identifier "46f0339c-3383-451a-8373-dfdeb9ebee1d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.2 - Idiophones percutés"@fr .
+
+opentheso:4744c74c-8911-4952-b6b6-de877f01df55 a skos:Concept ;
+    dctrerms:identifier "4744c74c-8911-4952-b6b6-de877f01df55" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.2 - Luth à joug ou lyre"@fr .
+
+opentheso:47ed7158-5d5a-4fbd-acda-2a95a1c48ff2 a skos:Concept ;
+    dctrerms:identifier "47ed7158-5d5a-4fbd-acda-2a95a1c48ff2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Angélique)"@fr .
+
+opentheso:47fe78c6-ac32-4219-852e-60a3ebfe7484 a skos:Concept ;
+    dctrerms:identifier "47fe78c6-ac32-4219-852e-60a3ebfe7484" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "231.13(Rommelpot)"@fr .
+
+opentheso:48214a97-4dc8-43f7-8594-8e110a01a6dd a skos:Concept ;
+    dctrerms:identifier "48214a97-4dc8-43f7-8594-8e110a01a6dd" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.21 - Instruments à anches lippales chromatiques à trous"@fr .
+
+opentheso:48ffef21-5ffb-422f-94af-128e5a64d198 a skos:Concept ;
+    dctrerms:identifier "48ffef21-5ffb-422f-94af-128e5a64d198" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.1 - Luth-arc ou pluriarc"@fr .
+
+opentheso:4996d5fe-d039-4531-8a5b-290a8e0ba902 a skos:Concept ;
+    dctrerms:identifier "4996d5fe-d039-4531-8a5b-290a8e0ba902" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.23 - Instruments à anches lippales chromatiques à pistons"@fr .
+
+opentheso:499d920e-1b9c-4fdb-820c-37f04e3c4893 a skos:Concept ;
+    dctrerms:identifier "499d920e-1b9c-4fdb-820c-37f04e3c4893" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Trompette)"@fr .
+
+opentheso:4aeb8452-0af1-41d5-bc7e-2c7e5fe31210 a skos:Concept ;
+    dctrerms:identifier "4aeb8452-0af1-41d5-bc7e-2c7e5fe31210" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.2 - Cors à piston à perce large"@fr .
+
+opentheso:4bb4ceb3-7d8e-46aa-875a-d17fe5e9e00c a skos:Concept ;
+    dctrerms:identifier "4bb4ceb3-7d8e-46aa-875a-d17fe5e9e00c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.13 - Flûtes-récipients (sans bec)"@fr .
+
+opentheso:4cc10180-2b4f-4d04-9649-15445bd2c11e a skos:Concept ;
+    dctrerms:identifier "4cc10180-2b4f-4d04-9649-15445bd2c11e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Citole)"@fr .
+
+opentheso:4d205d27-29e2-4712-8a1f-37ae67794e87 a skos:Concept ;
+    dctrerms:identifier "4d205d27-29e2-4712-8a1f-37ae67794e87" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.12(Huchet)"@fr .
+
+opentheso:4e1e511e-da70-4725-8701-a01d0986d4f4 a skos:Concept ;
+    dctrerms:identifier "4e1e511e-da70-4725-8701-a01d0986d4f4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.1 - Instruments à anches lippales tubulaires à embouchure terminale, droites"@fr .
+
+opentheso:4e3b7137-9e2f-4ebf-94b3-bd29841a69dc a skos:Concept ;
+    dctrerms:identifier "4e3b7137-9e2f-4ebf-94b3-bd29841a69dc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.23 - Tubes percutés"@fr .
+
+opentheso:4ec9166e-764b-4255-a50a-5be4f3cfe395 a skos:Concept ;
+    dctrerms:identifier "4ec9166e-764b-4255-a50a-5be4f3cfe395" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.11-9(Orgue de barbarie)"@fr .
+
+opentheso:4fc28088-8851-428c-b0cc-4fad4ce9e2e2 a skos:Concept ;
+    dctrerms:identifier "4fc28088-8851-428c-b0cc-4fad4ce9e2e2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "24 - Membranes chantantes ou mirlitons"@fr .
+
+opentheso:50265f0e-314a-4a17-9018-1f2aa0f13670 a skos:Concept ;
+    dctrerms:identifier "50265f0e-314a-4a17-9018-1f2aa0f13670" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242.2(Chapeau chinois)"@fr .
+
+opentheso:5125c54a-2d25-4107-9ab0-89d36970944f a skos:Concept ;
+    dctrerms:identifier "5125c54a-2d25-4107-9ab0-89d36970944f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "3 - CORDOPHONES"@fr .
+
+opentheso:515afce6-c3f1-44b2-96b0-8b7fb45c6bf5 a skos:Concept ;
+    dctrerms:identifier "515afce6-c3f1-44b2-96b0-8b7fb45c6bf5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.13 - Gouttières à entrechoc"@fr .
+
+opentheso:5185312f-b4a0-4ef9-bb10-00adeb21c8fc a skos:Concept ;
+    dctrerms:identifier "5185312f-b4a0-4ef9-bb10-00adeb21c8fc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-6-8(Clavecin vertical)"@fr .
+
+opentheso:5226feae-a55f-4b53-8658-0c2f6f392cfd a skos:Concept ;
+    dctrerms:identifier "5226feae-a55f-4b53-8658-0c2f6f392cfd" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222 - Plaques percutées groupées"@fr .
+
+opentheso:52655002-1506-4c30-983a-a502fef06401 a skos:Concept ;
+    dctrerms:identifier "52655002-1506-4c30-983a-a502fef06401" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Vièle)"@fr .
+
+opentheso:52e0de23-61bf-4dc1-a30c-2c5a938452d7 a skos:Concept ;
+    dctrerms:identifier "52e0de23-61bf-4dc1-a30c-2c5a938452d7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.231.2(Sousaphone)"@fr .
+
+opentheso:5331f9a4-19e9-4229-ba34-be38e0e037c4 a skos:Concept ;
+    dctrerms:identifier "5331f9a4-19e9-4229-ba34-be38e0e037c4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.311(Tambourin)"@fr .
+
+opentheso:53844cf0-968f-4ec7-8eb5-47ed2a0fa2c8 a skos:Concept ;
+    dctrerms:identifier "53844cf0-968f-4ec7-8eb5-47ed2a0fa2c8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "4 - AEROPHONES"@fr .
+
+opentheso:540aaa7d-11c0-463c-ae0d-886f97e85767 a skos:Concept ;
+    dctrerms:identifier "540aaa7d-11c0-463c-ae0d-886f97e85767" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.21(Lituus)"@fr .
+
+opentheso:5438fbe0-e4c9-4914-99b3-3a53919d5a84 a skos:Concept ;
+    dctrerms:identifier "5438fbe0-e4c9-4914-99b3-3a53919d5a84" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "21 - Membranophones frappés"@fr .
+
+opentheso:5462e94c-6c9b-4742-ae94-c34624e8ebb8 a skos:Concept ;
+    dctrerms:identifier "5462e94c-6c9b-4742-ae94-c34624e8ebb8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.11(Buisine)"@fr .
+
+opentheso:5479cdb9-ac48-4f3e-aaa9-d117e315ee83 a skos:Concept ;
+    dctrerms:identifier "5479cdb9-ac48-4f3e-aaa9-d117e315ee83" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Luth théorbé)"@fr .
+
+opentheso:549fad04-b3cc-4a51-8c16-10ad186b0631 a skos:Concept ;
+    dctrerms:identifier "549fad04-b3cc-4a51-8c16-10ad186b0631" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.21 - Lyre à résonateur en forme de bol"@fr .
+
+opentheso:556aad74-ee97-4d1a-8e6d-18cc0b41bcd9 a skos:Concept ;
+    dctrerms:identifier "556aad74-ee97-4d1a-8e6d-18cc0b41bcd9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423 - Instruments à anches lippales"@fr .
+
+opentheso:557bc185-a989-429a-9638-bb1e7b579964 a skos:Concept ;
+    dctrerms:identifier "557bc185-a989-429a-9638-bb1e7b579964" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321 - Luth"@fr .
+
+opentheso:577a878c-977b-4bbb-bcff-c2d02fe645d0 a skos:Concept ;
+    dctrerms:identifier "577a878c-977b-4bbb-bcff-c2d02fe645d0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112 - Idiophones frappés indirectement"@fr .
+
+opentheso:57930f79-5969-401e-bac4-bb8ff6362642 a skos:Concept ;
+    dctrerms:identifier "57930f79-5969-401e-bac4-bb8ff6362642" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62 - Aérophones libres groupés à interruption à anche libre, avec réservoir à air flexible"@fr .
+
+opentheso:59bb1b2f-f062-4dde-afec-8cb77380fe2b a skos:Concept ;
+    dctrerms:identifier "59bb1b2f-f062-4dde-afec-8cb77380fe2b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.2 - Instruments à anches lippales tubulaires à embouchure terminale, courbes"@fr .
+
+opentheso:59e6371a-f1b8-4540-8e32-3d3366379aee a skos:Concept ;
+    dctrerms:identifier "59e6371a-f1b8-4540-8e32-3d3366379aee" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Violoncelle)"@fr .
+
+opentheso:5a265965-9299-4b62-9b23-cfb5a78646ae a skos:Concept ;
+    dctrerms:identifier "5a265965-9299-4b62-9b23-cfb5a78646ae" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.12 - Flûtes à conduit intérieur, isolées, ouvertes, avec trous"@fr .
+
+opentheso:5a37b9e3-1917-4347-bdd5-e27cad8f2033 a skos:Concept ;
+    dctrerms:identifier "5a37b9e3-1917-4347-bdd5-e27cad8f2033" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111 - Idiophones frappés directement"@fr .
+
+opentheso:5a429d8a-8351-432c-bd0a-98e3a8348c9d a skos:Concept ;
+    dctrerms:identifier "5a429d8a-8351-432c-bd0a-98e3a8348c9d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.111.2(Cromorne)"@fr .
+
+opentheso:5a4cafe8-0fa3-478f-9c84-ec050de7b0d3 a skos:Concept ;
+    dctrerms:identifier "5a4cafe8-0fa3-478f-9c84-ec050de7b0d3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "131.21 - Tiges frottées groupées à friction directe"@fr .
+
+opentheso:5a574d99-e443-4a99-aba4-adf803412497 a skos:Concept ;
+    dctrerms:identifier "5a574d99-e443-4a99-aba4-adf803412497" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.13(Grelotière, bracelet à grelots)"@fr .
+
+opentheso:5a799ee2-509c-4280-a7af-f82153cf15aa a skos:Concept ;
+    dctrerms:identifier "5a799ee2-509c-4280-a7af-f82153cf15aa" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.14(Crotales)"@fr .
+
+opentheso:5a8e68da-6fdb-4a77-9f15-0a85657145c8 a skos:Concept ;
+    dctrerms:identifier "5a8e68da-6fdb-4a77-9f15-0a85657145c8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.11 - Flûte sans conduit d'insufflation à bouche terminale"@fr .
+
+opentheso:5aa47702-b788-4cd4-89b4-99a0f2c48e63 a skos:Concept ;
+    dctrerms:identifier "5aa47702-b788-4cd4-89b4-99a0f2c48e63" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222(Métallophone)"@fr .
+
+opentheso:5b16e925-28e3-43ad-9b8d-ff98811e0048 a skos:Concept ;
+    dctrerms:identifier "5b16e925-28e3-43ad-9b8d-ff98811e0048" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322 - Luth à manche rapporté à résonateur en forme de boîte"@fr .
+
+opentheso:5b4a3aaa-4f33-4f71-97cc-2d465f16c90d a skos:Concept ;
+    dctrerms:identifier "5b4a3aaa-4f33-4f71-97cc-2d465f16c90d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Cithare)"@fr .
+
+opentheso:5b83f9e7-c253-4f80-8ab7-646cc92a3abd a skos:Concept ;
+    dctrerms:identifier "5b83f9e7-c253-4f80-8ab7-646cc92a3abd" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.12 - Instruments à anches lippales tubulaires"@fr .
+
+opentheso:5b9174ee-0b47-4624-b5dc-ce50041b8d24 a skos:Concept ;
+    dctrerms:identifier "5b9174ee-0b47-4624-b5dc-ce50041b8d24" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421 - Aérophones à biseaux, flûtes"@fr .
+
+opentheso:5b93133e-60e1-4c62-be6f-2b607bb2ded9 a skos:Concept ;
+    dctrerms:identifier "5b93133e-60e1-4c62-be6f-2b607bb2ded9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.11(Cornet à pistons)"@fr .
+
+opentheso:5c38962e-0d99-4308-a2a4-e47989b5cce6 a skos:Concept ;
+    dctrerms:identifier "5c38962e-0d99-4308-a2a4-e47989b5cce6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311.221(Bumbass ou basse de Flandre)"@fr .
+
+opentheso:5c505565-16ab-4079-9a38-4f3663b66a20 a skos:Concept ;
+    dctrerms:identifier "5c505565-16ab-4079-9a38-4f3663b66a20" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321 - Luth à manche rapporté à résonateur en forme de bol"@fr .
+
+opentheso:5d56c37b-9290-41a7-b801-28be712b6350 a skos:Concept ;
+    dctrerms:identifier "5d56c37b-9290-41a7-b801-28be712b6350" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.21 - Tambours cylindriques"@fr .
+
+opentheso:5e04bf07-3f08-43f7-a2f7-1f62e92ea29c a skos:Concept ;
+    dctrerms:identifier "5e04bf07-3f08-43f7-a2f7-1f62e92ea29c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Viole de gambe)"@fr .
+
+opentheso:60323350-f0f0-4262-8296-6f8e7bb336c9 a skos:Concept ;
+    dctrerms:identifier "60323350-f0f0-4262-8296-6f8e7bb336c9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Harpe éolienne)"@fr .
+
+opentheso:60a92210-4ddf-4644-8489-8dc3d1a18a7f a skos:Concept ;
+    dctrerms:identifier "60a92210-4ddf-4644-8489-8dc3d1a18a7f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.22(Trompette à coulisse)"@fr .
+
+opentheso:62d8eb74-b15a-40e5-b5eb-408631413d38 a skos:Concept ;
+    dctrerms:identifier "62d8eb74-b15a-40e5-b5eb-408631413d38" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.213(Serpent)"@fr .
+
+opentheso:632b90d5-f2f9-4a14-ae69-7334db9d3768 a skos:Concept ;
+    dctrerms:identifier "632b90d5-f2f9-4a14-ae69-7334db9d3768" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-72(Organistrum)"@fr .
+
+opentheso:640c11f4-03f3-4fd8-9d7b-c1e7ea7b6d4a a skos:Concept ;
+    dctrerms:identifier "640c11f4-03f3-4fd8-9d7b-c1e7ea7b6d4a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.2 - Instruments à anches lippales chromatiques"@fr .
+
+opentheso:64cf28a9-1a14-4b5d-bc8c-eb41df1109fb a skos:Concept ;
+    dctrerms:identifier "64cf28a9-1a14-4b5d-bc8c-eb41df1109fb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8(Orgue positif)"@fr .
+
+opentheso:6793a247-43d2-483f-8187-05622e40af1f a skos:Concept ;
+    dctrerms:identifier "6793a247-43d2-483f-8187-05622e40af1f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "31 - Cordophones simples ou cithares"@fr .
+
+opentheso:679a2f50-340b-42c2-8ca8-4be05a92f489 a skos:Concept ;
+    dctrerms:identifier "679a2f50-340b-42c2-8ca8-4be05a92f489" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "122.2 - Lamellophones sur planche idioglottes"@fr .
+
+opentheso:67e090ae-06b7-4352-9396-84237ccca435 a skos:Concept ;
+    dctrerms:identifier "67e090ae-06b7-4352-9396-84237ccca435" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.12(Flageolet d'oiseau)"@fr .
+
+opentheso:6851e975-06a5-4c72-afce-e9a9f94e05e2 a skos:Concept ;
+    dctrerms:identifier "6851e975-06a5-4c72-afce-e9a9f94e05e2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.22 - Tambours en tonneau"@fr .
+
+opentheso:68bfc5d3-71dc-4cf9-a5ce-29a2c2569ed8 a skos:Concept ;
+    dctrerms:identifier "68bfc5d3-71dc-4cf9-a5ce-29a2c2569ed8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.111 - Instruments à anche double isolés à perce cylindrique"@fr .
+
+opentheso:6aaccc38-be23-489e-bfb6-e9a42a6f0cef a skos:Concept ;
+    dctrerms:identifier "6aaccc38-be23-489e-bfb6-e9a42a6f0cef" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.22 - Aérophones à interruption sans anche à rotation axiale"@fr .
+
+opentheso:6ac33623-a166-4ac3-8700-1311fcd1f929 a skos:Concept ;
+    dctrerms:identifier "6ac33623-a166-4ac3-8700-1311fcd1f929" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5 - Luth à manche rapporté à résonateur en forme de boite, joué par pincement avec les doigts"@fr .
+
+opentheso:6b0284c3-3d7f-4ad7-a96c-805d9dc2e13e a skos:Concept ;
+    dctrerms:identifier "6b0284c3-3d7f-4ad7-a96c-805d9dc2e13e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.122-62 - Instruments à anche double isolés à perce conique, avec réservoir d'air flexible"@fr .
+
+opentheso:6d8f9069-2ea4-441d-b4c8-dcab9b75e414 a skos:Concept ;
+    dctrerms:identifier "6d8f9069-2ea4-441d-b4c8-dcab9b75e414" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Piano)"@fr .
+
+opentheso:6de4e7a4-7fa2-4d5a-8733-2163c4d9c2d9 a skos:Concept ;
+    dctrerms:identifier "6de4e7a4-7fa2-4d5a-8733-2163c4d9c2d9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.111.2 - Instruments à anche double isolés à perce cylindrique, avec trous"@fr .
+
+opentheso:6df6f17d-3c26-4377-a27f-3297ce2c36d0 a skos:Concept ;
+    dctrerms:identifier "6df6f17d-3c26-4377-a27f-3297ce2c36d0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.243 - Tambour à fente"@fr .
+
+opentheso:6e608ecd-cbbb-4d7d-9d4c-4d2987872d3e a skos:Concept ;
+    dctrerms:identifier "6e608ecd-cbbb-4d7d-9d4c-4d2987872d3e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8(Trompette courbe)"@fr .
+
+opentheso:6f03acf2-922b-4d2c-9b8a-bbe848fb7306 a skos:Concept ;
+    dctrerms:identifier "6f03acf2-922b-4d2c-9b8a-bbe848fb7306" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Théorbe)"@fr .
+
+opentheso:6f78c944-60f3-46fb-aa40-7c768e6ceeb8 a skos:Concept ;
+    dctrerms:identifier "6f78c944-60f3-46fb-aa40-7c768e6ceeb8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242.1 - Cloche isolée"@fr .
+
+opentheso:6fbc857e-051f-498b-809b-4a7ccd00ccac a skos:Concept ;
+    dctrerms:identifier "6fbc857e-051f-498b-809b-4a7ccd00ccac" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.122-62(Cornemuse)"@fr .
+
+opentheso:7011e161-3942-4634-8815-314af86be6a8 a skos:Concept ;
+    dctrerms:identifier "7011e161-3942-4634-8815-314af86be6a8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.121.12(Fifre)"@fr .
+
+opentheso:70ef3f8a-006d-443f-b7ac-6245039810b8 a skos:Concept ;
+    dctrerms:identifier "70ef3f8a-006d-443f-b7ac-6245039810b8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.1 - Flûtes à conduit intérieur, isolées, ouvertes"@fr .
+
+opentheso:715d655d-581e-479a-9d76-2ed5d8ddbad1 a skos:Concept ;
+    dctrerms:identifier "715d655d-581e-479a-9d76-2ed5d8ddbad1" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.31 - Tambours sur cadre sans manche"@fr .
+
+opentheso:716ca2eb-3ba5-446f-b20b-1a57f975baab a skos:Concept ;
+    dctrerms:identifier "716ca2eb-3ba5-446f-b20b-1a57f975baab" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.12(Sistre)"@fr .
+
+opentheso:71d099c8-9cb3-4550-931c-d664e1d2138a a skos:Concept ;
+    dctrerms:identifier "71d099c8-9cb3-4550-931c-d664e1d2138a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "232.1 - Tambours à friction à cordes, stationnaire"@fr .
+
+opentheso:71d9f8c0-7daf-405f-a2fb-11ca1915f8a5 a skos:Concept ;
+    dctrerms:identifier "71d9f8c0-7daf-405f-a2fb-11ca1915f8a5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Oliphant)"@fr .
+
+opentheso:73bba10d-8f60-4515-afa3-a8958d4108ad a skos:Concept ;
+    dctrerms:identifier "73bba10d-8f60-4515-afa3-a8958d4108ad" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.12 - Flûtes à bouche latérale"@fr .
+
+opentheso:74732c8b-a484-4d10-9f43-1c54ed631f05 a skos:Concept ;
+    dctrerms:identifier "74732c8b-a484-4d10-9f43-1c54ed631f05" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.121 - Flûte à embouchure latérale, isolées"@fr .
+
+opentheso:74ec3297-ee8e-4c80-b871-470b3a283063 a skos:Concept ;
+    dctrerms:identifier "74ec3297-ee8e-4c80-b871-470b3a283063" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.213(Serpent droit, basson russe)"@fr .
+
+opentheso:751c8528-ccca-42f0-b4d0-3e5c66c6bcfd a skos:Concept ;
+    dctrerms:identifier "751c8528-ccca-42f0-b4d0-3e5c66c6bcfd" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Arpeggione)"@fr .
+
+opentheso:75a6746c-d7c6-4b88-a72b-61e9cc70bc87 a skos:Concept ;
+    dctrerms:identifier "75a6746c-d7c6-4b88-a72b-61e9cc70bc87" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.221 - Plaque percutée isolée"@fr .
+
+opentheso:75cbec0a-c027-40bc-a0be-72b3e5386e1c a skos:Concept ;
+    dctrerms:identifier "75cbec0a-c027-40bc-a0be-72b3e5386e1c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.22(Rotte)"@fr .
+
+opentheso:76a407eb-b575-465f-b550-71e9c35b96c5 a skos:Concept ;
+    dctrerms:identifier "76a407eb-b575-465f-b550-71e9c35b96c5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.212(Enclume)"@fr .
+
+opentheso:771a606b-1b2f-4f80-a63b-5f029e868a28 a skos:Concept ;
+    dctrerms:identifier "771a606b-1b2f-4f80-a63b-5f029e868a28" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222(Célesta)"@fr .
+
+opentheso:7744bc3e-44f9-4923-8a1d-325ef1c2dbfc a skos:Concept ;
+    dctrerms:identifier "7744bc3e-44f9-4923-8a1d-325ef1c2dbfc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.32 - Luth à manche rapporté"@fr .
+
+opentheso:7911c86d-50d9-443b-844d-58bbcbcfb067 a skos:Concept ;
+    dctrerms:identifier "7911c86d-50d9-443b-844d-58bbcbcfb067" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.11 - Instruments à anche double isolés"@fr .
+
+opentheso:7970dc7e-4169-486c-80c4-689119f501b7 a skos:Concept ;
+    dctrerms:identifier "7970dc7e-4169-486c-80c4-689119f501b7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "231.13 - Tambours à friction à bâton libre"@fr .
+
+opentheso:798d7e9f-4958-4a34-9e48-010eee01f3fb a skos:Concept ;
+    dctrerms:identifier "798d7e9f-4958-4a34-9e48-010eee01f3fb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Piano organisé)"@fr .
+
+opentheso:79bd8477-3fc0-42fd-91b4-4c0494ae9725 a skos:Concept ;
+    dctrerms:identifier "79bd8477-3fc0-42fd-91b4-4c0494ae9725" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.212(Saxophone)"@fr .
+
+opentheso:79f46675-f8d8-426b-9c7b-5715f74757dc a skos:Concept ;
+    dctrerms:identifier "79f46675-f8d8-426b-9c7b-5715f74757dc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132(Harmonica)"@fr .
+
+opentheso:7a42cd42-77b7-4c2d-ac18-788643ca4a56 a skos:Concept ;
+    dctrerms:identifier "7a42cd42-77b7-4c2d-ac18-788643ca4a56" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311.1 - Arcs musicaux"@fr .
+
+opentheso:7a4356d2-628a-423e-bd7f-d08570b412ae a skos:Concept ;
+    dctrerms:identifier "7a4356d2-628a-423e-bd7f-d08570b412ae" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222 - Flûtes à conduit intérieur, groupées"@fr .
+
+opentheso:7b4ceddf-6211-4196-9ccb-3b676fed6208 a skos:Concept ;
+    dctrerms:identifier "7b4ceddf-6211-4196-9ccb-3b676fed6208" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.12 - Harpe angulaire"@fr .
+
+opentheso:7b63a2e8-fc54-44f3-b442-38c8925e8e38 a skos:Concept ;
+    dctrerms:identifier "7b63a2e8-fc54-44f3-b442-38c8925e8e38" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62-8(Régale)"@fr .
+
+opentheso:7bed535f-a900-4fc9-a03c-fe8c0a96474f a skos:Concept ;
+    dctrerms:identifier "7bed535f-a900-4fc9-a03c-fe8c0a96474f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-71 - Luth à manche rapporté à résonateur en forme de bol, joué par frottement avec un archet"@fr .
+
+opentheso:7c4df170-c60b-439c-8102-3914b4965d9b a skos:Concept ;
+    dctrerms:identifier "7c4df170-c60b-439c-8102-3914b4965d9b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.12(Bugle)"@fr .
+
+opentheso:7c5c7bf1-615a-4cb2-9ccb-08f5e012c1cd a skos:Concept ;
+    dctrerms:identifier "7c5c7bf1-615a-4cb2-9ccb-08f5e012c1cd" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.12(Grelots à cadre)"@fr .
+
+opentheso:7cf1a1a0-3de2-47da-bff2-93b545ec53c8 a skos:Concept ;
+    dctrerms:identifier "7cf1a1a0-3de2-47da-bff2-93b545ec53c8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "232.2 - Tambours à friction à corde, à rotation"@fr .
+
+opentheso:7d8db98a-0452-4f38-ae7a-c326d7d5b1c9 a skos:Concept ;
+    dctrerms:identifier "7d8db98a-0452-4f38-ae7a-c326d7d5b1c9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-6-8(Virginal)"@fr .
+
+opentheso:7dd4f7ab-c64b-4b3a-b79e-01912e6bdb27 a skos:Concept ;
+    dctrerms:identifier "7dd4f7ab-c64b-4b3a-b79e-01912e6bdb27" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Clavecin organisé, clavi-organum)"@fr .
+
+opentheso:800703c3-2cd3-4835-a0a8-f45a94131818 a skos:Concept ;
+    dctrerms:identifier "800703c3-2cd3-4835-a0a8-f45a94131818" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.222 -  Harpe à cadre à pédales"@fr .
+
+opentheso:808a4923-561e-4607-a04a-e307dabc49f1 a skos:Concept ;
+    dctrerms:identifier "808a4923-561e-4607-a04a-e307dabc49f1" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314 - Cithares planche"@fr .
+
+opentheso:8345d7cb-ddd7-4af9-8bf1-fadf9c0edd03 a skos:Concept ;
+    dctrerms:identifier "8345d7cb-ddd7-4af9-8bf1-fadf9c0edd03" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Clairon)"@fr .
+
+opentheso:8349bbdf-9ea0-4ddc-a2f2-eaa1a7718c12 a skos:Concept ;
+    dctrerms:identifier "8349bbdf-9ea0-4ddc-a2f2-eaa1a7718c12" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.212(Cornet à bouquin)"@fr .
+
+opentheso:84da605e-da5f-4f98-8b18-f8796838b157 a skos:Concept ;
+    dctrerms:identifier "84da605e-da5f-4f98-8b18-f8796838b157" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132 - Aérophones libres groupés à interruption à anche libre"@fr .
+
+opentheso:84daa5de-2296-44aa-a14e-97411690d4f1 a skos:Concept ;
+    dctrerms:identifier "84daa5de-2296-44aa-a14e-97411690d4f1" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.22(Rhombe)"@fr .
+
+opentheso:8580f6e3-2207-45ce-92d0-e1be82a4e504 a skos:Concept ;
+    dctrerms:identifier "8580f6e3-2207-45ce-92d0-e1be82a4e504" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-72(Vielle à roue)"@fr .
+
+opentheso:86f8dd23-2177-4586-9525-684a222c0fa2 a skos:Concept ;
+    dctrerms:identifier "86f8dd23-2177-4586-9525-684a222c0fa2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.211.2(Chalumeau)"@fr .
+
+opentheso:8787eaa2-fde6-4daa-9790-d2c57d63a2cc a skos:Concept ;
+    dctrerms:identifier "8787eaa2-fde6-4daa-9790-d2c57d63a2cc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322 - Harpe"@fr .
+
+opentheso:87b89ed5-1148-42c2-bec5-1a765ab0b633 a skos:Concept ;
+    dctrerms:identifier "87b89ed5-1148-42c2-bec5-1a765ab0b633" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221 - Flûtes à conduit intérieur, isolées"@fr .
+
+opentheso:8836c0f2-0d10-40c4-9e9d-12e28277b372 a skos:Concept ;
+    dctrerms:identifier "8836c0f2-0d10-40c4-9e9d-12e28277b372" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.241 - Gongs"@fr .
+
+opentheso:888de636-2fa2-4c0d-a2a4-c11c9d54e4f8 a skos:Concept ;
+    dctrerms:identifier "888de636-2fa2-4c0d-a2a4-c11c9d54e4f8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-71(Rebec)"@fr .
+
+opentheso:88d5fab7-5124-45e1-a5f3-0e4120738915 a skos:Concept ;
+    dctrerms:identifier "88d5fab7-5124-45e1-a5f3-0e4120738915" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.211.2 - Instruments à anche simple isolés à perce cylindrique avec trous"@fr .
+
+opentheso:892f79dd-8f91-4982-8f28-1a98da0e6b68 a skos:Concept ;
+    dctrerms:identifier "892f79dd-8f91-4982-8f28-1a98da0e6b68" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242.2 - Cloches groupées"@fr .
+
+opentheso:89863520-f9b0-4e99-aee0-b4c516e36187 a skos:Concept ;
+    dctrerms:identifier "89863520-f9b0-4e99-aee0-b4c516e36187" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.122 - Aérophones libres groupés à interruption à anche battante"@fr .
+
+opentheso:8c7d0430-e177-4393-8937-92d343fc098f a skos:Concept ;
+    dctrerms:identifier "8c7d0430-e177-4393-8937-92d343fc098f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Lirone)"@fr .
+
+opentheso:8d23a69b-053f-4d17-9f9a-f6fe2ee84631 a skos:Concept ;
+    dctrerms:identifier "8d23a69b-053f-4d17-9f9a-f6fe2ee84631" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62-8 - Aérophones libres groupés à interruption à anche libre, avec réservoir à air flexible, à clavier"@fr .
+
+opentheso:8db56750-609d-48de-af84-4f96d7cb8e13 a skos:Concept ;
+    dctrerms:identifier "8db56750-609d-48de-af84-4f96d7cb8e13" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "13 - Idiophones frottés"@fr .
+
+opentheso:8e11bfaa-0be8-48ef-b788-1b9ec1900b63 a skos:Concept ;
+    dctrerms:identifier "8e11bfaa-0be8-48ef-b788-1b9ec1900b63" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.213 - Instruments à anche lippales chromatiques à trous, à perce conique large"@fr .
+
+opentheso:8ecb96f3-5360-4a00-a47c-11acad8c38c7 a skos:Concept ;
+    dctrerms:identifier "8ecb96f3-5360-4a00-a47c-11acad8c38c7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.21(Lyre antique)"@fr .
+
+opentheso:8fac7910-8caa-47b5-b545-9a0d5cb68c2c a skos:Concept ;
+    dctrerms:identifier "8fac7910-8caa-47b5-b545-9a0d5cb68c2c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.112(Syrinx)"@fr .
+
+opentheso:8fe79a14-eecf-4283-837d-15dae6c1f5b0 a skos:Concept ;
+    dctrerms:identifier "8fe79a14-eecf-4283-837d-15dae6c1f5b0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311.22 - Cithares bâtons proprement dites"@fr .
+
+opentheso:8ff4e940-3c13-493c-a130-7e484a0e015e a skos:Concept ;
+    dctrerms:identifier "8ff4e940-3c13-493c-a130-7e484a0e015e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.12(Cor d'harmonie)"@fr .
+
+opentheso:9156d3c3-5c57-4bfe-997c-bfce81cf4ff9 a skos:Concept ;
+    dctrerms:identifier "9156d3c3-5c57-4bfe-997c-bfce81cf4ff9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.1 - Tambour cylindrique isolé à deux membranes"@fr .
+
+opentheso:927486dc-d15c-43fc-85c5-751edf4f99b7 a skos:Concept ;
+    dctrerms:identifier "927486dc-d15c-43fc-85c5-751edf4f99b7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Viole)"@fr .
+
+opentheso:92890736-a049-4742-b5da-59e8f837e3e5 a skos:Concept ;
+    dctrerms:identifier "92890736-a049-4742-b5da-59e8f837e3e5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.3 - Luth à manche"@fr .
+
+opentheso:93648881-e33e-4920-9864-b932db86cda2 a skos:Concept ;
+    dctrerms:identifier "93648881-e33e-4920-9864-b932db86cda2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.22(Trombone)"@fr .
+
+opentheso:937dccf2-25c0-4748-8d1f-08a1f4bfa30d a skos:Concept ;
+    dctrerms:identifier "937dccf2-25c0-4748-8d1f-08a1f4bfa30d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Chalemie)"@fr .
+
+opentheso:939466c3-1252-4bea-94bf-9524ac806683 a skos:Concept ;
+    dctrerms:identifier "939466c3-1252-4bea-94bf-9524ac806683" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-61 - Aérophones libres groupés à interruption à anche libre, avec réservoir à air fixe"@fr .
+
+opentheso:94757414-a458-44f5-a5a7-efbd93ec12a0 a skos:Concept ;
+    dctrerms:identifier "94757414-a458-44f5-a5a7-efbd93ec12a0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242 -  Cloches"@fr .
+
+opentheso:947abd9a-bdff-4f80-8d22-1a7022c03bdf a skos:Concept ;
+    dctrerms:identifier "947abd9a-bdff-4f80-8d22-1a7022c03bdf" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.1 - Flûtes sans conduit d'insufflation"@fr .
+
+opentheso:9572903f-da06-4117-a63f-af5041187d89 a skos:Concept ;
+    dctrerms:identifier "9572903f-da06-4117-a63f-af5041187d89" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "132.1 - Plaques frottées isolées"@fr .
+
+opentheso:965e616b-458a-4713-ba50-d4bea5358a9b a skos:Concept ;
+    dctrerms:identifier "965e616b-458a-4713-ba50-d4bea5358a9b" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.231.2(Hélicon)"@fr .
+
+opentheso:97292bce-058a-472f-9609-e202bb51f1aa a skos:Concept ;
+    dctrerms:identifier "97292bce-058a-472f-9609-e202bb51f1aa" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.24 - Racloirs-roue ou crécelles"@fr .
+
+opentheso:9745519d-160e-403f-ae95-0e438da096e9 a skos:Concept ;
+    dctrerms:identifier "9745519d-160e-403f-ae95-0e438da096e9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.25 - Tambours coniques"@fr .
+
+opentheso:97a9781c-2556-477a-ad96-5406af1bdaf5 a skos:Concept ;
+    dctrerms:identifier "97a9781c-2556-477a-ad96-5406af1bdaf5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.1 - Cithares planche proprement dites"@fr .
+
+opentheso:98a9ecd5-1bdd-4c6c-b9f4-1fb18ebc6701 a skos:Concept ;
+    dctrerms:identifier "98a9ecd5-1bdd-4c6c-b9f4-1fb18ebc6701" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "133.2(Glass harmonica)"@fr .
+
+opentheso:9a2de772-149a-4eaf-8c2b-55a11b72dc42 a skos:Concept ;
+    dctrerms:identifier "9a2de772-149a-4eaf-8c2b-55a11b72dc42" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Ukulele)"@fr .
+
+opentheso:9a36bc0f-07b5-4b21-beff-e7d752f27fd4 a skos:Concept ;
+    dctrerms:identifier "9a36bc0f-07b5-4b21-beff-e7d752f27fd4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.2 - Tambours tubulaires"@fr .
+
+opentheso:9a4a7e1d-d729-40c6-a9f4-67bce209e420 a skos:Concept ;
+    dctrerms:identifier "9a4a7e1d-d729-40c6-a9f4-67bce209e420" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.21 - Instruments à anche lippales tubulaires à embouchure terminale, courbes, sans embouchure"@fr .
+
+opentheso:9bc1d3ad-02a6-436a-9986-58d13e8e8f6d a skos:Concept ;
+    dctrerms:identifier "9bc1d3ad-02a6-436a-9986-58d13e8e8f6d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.211 - Instruments à anches lippales chromatiques à trous, à perce cylindrique"@fr .
+
+opentheso:9be8aa48-45fe-488a-9ce9-265641ac6cbb a skos:Concept ;
+    dctrerms:identifier "9be8aa48-45fe-488a-9ce9-265641ac6cbb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.13 - Hochets récipients"@fr .
+
+opentheso:9c172b12-de06-472a-9cad-2c6aaac0622d a skos:Concept ;
+    dctrerms:identifier "9c172b12-de06-472a-9cad-2c6aaac0622d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.231.2 - Bugles à piston à perce large"@fr .
+
+opentheso:9ce60cee-828a-463d-ac59-3b3c20bc6d0e a skos:Concept ;
+    dctrerms:identifier "9ce60cee-828a-463d-ac59-3b3c20bc6d0e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.231.2(Tuba)"@fr .
+
+opentheso:9d383f14-9292-450e-a352-f0087ce77ec6 a skos:Concept ;
+    dctrerms:identifier "9d383f14-9292-450e-a352-f0087ce77ec6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.1 - Cors à piston à perce étroite"@fr .
+
+opentheso:9ea9835e-2901-4f13-9da3-90200f3ffdb8 a skos:Concept ;
+    dctrerms:identifier "9ea9835e-2901-4f13-9da3-90200f3ffdb8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.242(Clochette)"@fr .
+
+opentheso:9ef93182-c12a-45a8-ad47-1557aaa4f63d a skos:Concept ;
+    dctrerms:identifier "9ef93182-c12a-45a8-ad47-1557aaa4f63d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Cistre)"@fr .
+
+opentheso:9f10b52f-6f4f-4403-93b5-d524e8622620 a skos:Concept ;
+    dctrerms:identifier "9f10b52f-6f4f-4403-93b5-d524e8622620" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "41 - Aérophones libres"@fr .
+
+opentheso:9fb26dda-6856-4c67-9b77-47ab39f64278 a skos:Concept ;
+    dctrerms:identifier "9fb26dda-6856-4c67-9b77-47ab39f64278" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "242 - Mirlitons à tubes ou à récipient"@fr .
+
+opentheso:9fdf6735-b845-4e51-af80-71693dd3ac8f a skos:Concept ;
+    dctrerms:identifier "9fdf6735-b845-4e51-af80-71693dd3ac8f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Tympanon)"@fr .
+
+opentheso:a0f375a7-f269-4bd5-9a99-2b6e4a54893c a skos:Concept ;
+    dctrerms:identifier "a0f375a7-f269-4bd5-9a99-2b6e4a54893c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.1 - Instruments à anches lippales naturels"@fr .
+
+opentheso:a1a648ba-4e97-4217-b93e-228b6e7b7d02 a skos:Concept ;
+    dctrerms:identifier "a1a648ba-4e97-4217-b93e-228b6e7b7d02" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8 - Flûtes à conduit intérieur, groupées, ouvertes, sans trous, avec réservoir à air flexible, à clavier"@fr .
+
+opentheso:a27d04f1-b670-4d60-8734-0aaf55560ec4 a skos:Concept ;
+    dctrerms:identifier "a27d04f1-b670-4d60-8734-0aaf55560ec4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.12(Flûte à bec)"@fr .
+
+opentheso:a366cd0d-4562-4bc0-a47f-61a9d2a1c0f1 a skos:Concept ;
+    dctrerms:identifier "a366cd0d-4562-4bc0-a47f-61a9d2a1c0f1" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.13(Maracas)"@fr .
+
+opentheso:a3da7332-fdca-434e-961d-d38c26633607 a skos:Concept ;
+    dctrerms:identifier "a3da7332-fdca-434e-961d-d38c26633607" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "2 - MEMBRANOPHONES"@fr .
+
+opentheso:a42bd35c-f6a9-4939-84a2-c1af022277a9 a skos:Concept ;
+    dctrerms:identifier "a42bd35c-f6a9-4939-84a2-c1af022277a9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.1(Grosse caisse)"@fr .
+
+opentheso:a4a31d99-2074-4ada-9e68-f0ba4241f298 a skos:Concept ;
+    dctrerms:identifier "a4a31d99-2074-4ada-9e68-f0ba4241f298" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "122.1(Sanza)"@fr .
+
+opentheso:a7650465-30d0-42f6-a161-bf89da9c211c a skos:Concept ;
+    dctrerms:identifier "a7650465-30d0-42f6-a161-bf89da9c211c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Clavicorde)"@fr .
+
+opentheso:a8ddaa02-9621-436b-9ebd-fea68c77fc5c a skos:Concept ;
+    dctrerms:identifier "a8ddaa02-9621-436b-9ebd-fea68c77fc5c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.212 - Bâtons percutés groupés"@fr .
+
+opentheso:a94454ae-651d-4e70-a039-5f18f74b47ad a skos:Concept ;
+    dctrerms:identifier "a94454ae-651d-4e70-a039-5f18f74b47ad" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.121 - Cithares planche proprement dite avec résonateur en forme de bol"@fr .
+
+opentheso:a94d971f-ce89-4a26-92c4-44d589daca79 a skos:Concept ;
+    dctrerms:identifier "a94d971f-ce89-4a26-92c4-44d589daca79" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "122.1 - Lamellophones sur planche hétéroglottes"@fr .
+
+opentheso:a94f0350-d074-4aed-a40a-12d3bfb787e3 a skos:Concept ;
+    dctrerms:identifier "a94f0350-d074-4aed-a40a-12d3bfb787e3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22 - Instruments à anches lippales tubulaires à embouchure terminale, courbes, avec embouchure"@fr .
+
+opentheso:a9a3f547-a738-48df-9708-268bc0595f26 a skos:Concept ;
+    dctrerms:identifier "a9a3f547-a738-48df-9708-268bc0595f26" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.111 - Flûtes sans conduit d'insufflation, à bouche terminale, isolée"@fr .
+
+opentheso:ab718dd6-50fa-4066-8756-9949e8744b86 a skos:Concept ;
+    dctrerms:identifier "ab718dd6-50fa-4066-8756-9949e8744b86" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.12(Nacaires)"@fr .
+
+opentheso:ac5525ff-6cfb-4775-b4d6-05783af173c4 a skos:Concept ;
+    dctrerms:identifier "ac5525ff-6cfb-4775-b4d6-05783af173c4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Nyckelharpa)"@fr .
+
+opentheso:acd1d7e3-ce14-4f19-b8bc-ca598ea625b9 a skos:Concept ;
+    dctrerms:identifier "acd1d7e3-ce14-4f19-b8bc-ca598ea625b9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Guitare anglaise)"@fr .
+
+opentheso:ad2ebda3-faf9-46be-8866-77bcb507f6cb a skos:Concept ;
+    dctrerms:identifier "ad2ebda3-faf9-46be-8866-77bcb507f6cb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.21(Lyre d'après l'antique)"@fr .
+
+opentheso:ad83a5a3-d7dc-441b-9e93-a7b7b301e610 a skos:Concept ;
+    dctrerms:identifier "ad83a5a3-d7dc-441b-9e93-a7b7b301e610" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.13(Hochet)"@fr .
+
+opentheso:adad2308-724f-46ae-b2b6-8f96aa8f22fb a skos:Concept ;
+    dctrerms:identifier "adad2308-724f-46ae-b2b6-8f96aa8f22fb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Huchet)"@fr .
+
+opentheso:af5f3392-3d54-4a7e-addf-eb8c361be091 a skos:Concept ;
+    dctrerms:identifier "af5f3392-3d54-4a7e-addf-eb8c361be091" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.14 - Récipients à entrechoc"@fr .
+
+opentheso:af88ce18-a89c-4764-a1fa-5c4cd9e67724 a skos:Concept ;
+    dctrerms:identifier "af88ce18-a89c-4764-a1fa-5c4cd9e67724" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.11 - Timbale isolée"@fr .
+
+opentheso:afc7aed9-adb2-432f-bb95-95533b114962 a skos:Concept ;
+    dctrerms:identifier "afc7aed9-adb2-432f-bb95-95533b114962" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Guiterne)"@fr .
+
+opentheso:afea8332-b6bb-4d42-936c-38c0f7a7be14 a skos:Concept ;
+    dctrerms:identifier "afea8332-b6bb-4d42-936c-38c0f7a7be14" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Colachon)"@fr .
+
+opentheso:b027dade-23b3-495f-8649-8901b98a8099 a skos:Concept ;
+    dctrerms:identifier "b027dade-23b3-495f-8649-8901b98a8099" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.24 - Récipients percutés"@fr .
+
+opentheso:b111a417-9366-4b59-b0d0-3363c27a242e a skos:Concept ;
+    dctrerms:identifier "b111a417-9366-4b59-b0d0-3363c27a242e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8 - Cithares planche proprement dites à résonateur en forme de boîte, jouées avec des marteaux, à clavier"@fr .
+
+opentheso:b24a765a-e70c-44dd-8fa1-42cfb87628c8 a skos:Concept ;
+    dctrerms:identifier "b24a765a-e70c-44dd-8fa1-42cfb87628c8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.1(Tambourin de Provence)"@fr .
+
+opentheso:b2564493-a0f4-4bb3-a37a-e9f80bcc02c2 a skos:Concept ;
+    dctrerms:identifier "b2564493-a0f4-4bb3-a37a-e9f80bcc02c2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "121 - Lamellophones à cadre"@fr .
+
+opentheso:b256e815-2bd3-47cc-a7da-2d49f9239499 a skos:Concept ;
+    dctrerms:identifier "b256e815-2bd3-47cc-a7da-2d49f9239499" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.211.2(Cor de basset)"@fr .
+
+opentheso:b41d65f4-f742-42d3-be52-f315419099c4 a skos:Concept ;
+    dctrerms:identifier "b41d65f4-f742-42d3-be52-f315419099c4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.212(Echelette)"@fr .
+
+opentheso:b4481870-2db0-4938-91c4-c3c9d4834e62 a skos:Concept ;
+    dctrerms:identifier "b4481870-2db0-4938-91c4-c3c9d4834e62" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Guitare battente)"@fr .
+
+opentheso:b538acef-77cb-4117-9cfd-c340f4e84ff2 a skos:Concept ;
+    dctrerms:identifier "b538acef-77cb-4117-9cfd-c340f4e84ff2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.311 - Tambours sur cadre sans manche à une membrane"@fr .
+
+opentheso:b56aa8c4-3749-4edc-ae0d-a28f0aac3a28 a skos:Concept ;
+    dctrerms:identifier "b56aa8c4-3749-4edc-ae0d-a28f0aac3a28" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.232(Chimes)"@fr .
+
+opentheso:b5feaa62-b05c-4f0c-bdbd-af3682cf7796 a skos:Concept ;
+    dctrerms:identifier "b5feaa62-b05c-4f0c-bdbd-af3682cf7796" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "32 - Cordophones composites"@fr .
+
+opentheso:b671e633-1aae-4404-bfa9-07a1f4a6f6a6 a skos:Concept ;
+    dctrerms:identifier "b671e633-1aae-4404-bfa9-07a1f4a6f6a6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Bûche de Flandre, de Meuse)"@fr .
+
+opentheso:b6fe75a8-947e-4de6-be8b-062ff393dc83 a skos:Concept ;
+    dctrerms:identifier "b6fe75a8-947e-4de6-be8b-062ff393dc83" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211 - Tambours frappés directement"@fr .
+
+opentheso:b719368f-3b18-4f7d-aad6-0c0c467f5a60 a skos:Concept ;
+    dctrerms:identifier "b719368f-3b18-4f7d-aad6-0c0c467f5a60" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222(Glockenspiel, jeu de timbres)"@fr .
+
+opentheso:b7929b12-bd2c-4883-b66a-f2ea068e2da3 a skos:Concept ;
+    dctrerms:identifier "b7929b12-bd2c-4883-b66a-f2ea068e2da3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "121.2 - Guimbardes"@fr .
+
+opentheso:b8034bbe-9717-408a-ab11-ddbc2e99b32c a skos:Concept ;
+    dctrerms:identifier "b8034bbe-9717-408a-ab11-ddbc2e99b32c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Bellharp)"@fr .
+
+opentheso:b8982102-7b45-41ba-b92d-1de7ac75a98a a skos:Concept ;
+    dctrerms:identifier "b8982102-7b45-41ba-b92d-1de7ac75a98a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-72 - Luth à manche rapporté à résonateur en forme de boite, joué par frottement avec une roue"@fr .
+
+opentheso:b8f61e00-297a-4ee0-a0ee-be52331346a7 a skos:Concept ;
+    dctrerms:identifier "b8f61e00-297a-4ee0-a0ee-be52331346a7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Piano à queue)"@fr .
+
+opentheso:ba69e209-dc24-4657-b52d-eb64299313f4 a skos:Concept ;
+    dctrerms:identifier "ba69e209-dc24-4657-b52d-eb64299313f4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.311(Tambourin à sonnailles)"@fr .
+
+opentheso:bab7c8b6-ded2-48da-96d4-ffe17e35a97a a skos:Concept ;
+    dctrerms:identifier "bab7c8b6-ded2-48da-96d4-ffe17e35a97a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.14 - Hochets à plaque"@fr .
+
+opentheso:bad0d4b8-cb09-480e-a25b-77ac037d8a1f a skos:Concept ;
+    dctrerms:identifier "bad0d4b8-cb09-480e-a25b-77ac037d8a1f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "131 - Tiges frottées"@fr .
+
+opentheso:bb9aa003-1cc5-4c6d-afaa-300d1638c2c4 a skos:Concept ;
+    dctrerms:identifier "bb9aa003-1cc5-4c6d-afaa-300d1638c2c4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "315 - Cithares en creux"@fr .
+
+opentheso:bbfbf3fb-c147-4732-9eaa-ade1e3823de8 a skos:Concept ;
+    dctrerms:identifier "bbfbf3fb-c147-4732-9eaa-ade1e3823de8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "313 - Cithares radeau"@fr .
+
+opentheso:be2ff459-de8e-4ffa-8eb7-7cdd6114e77c a skos:Concept ;
+    dctrerms:identifier "be2ff459-de8e-4ffa-8eb7-7cdd6114e77c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.22 - Harpe à cadre avec dispositif de raccourcissement des cordes"@fr .
+
+opentheso:bfbbc108-b370-473f-a58f-50dc280bc903 a skos:Concept ;
+    dctrerms:identifier "bfbbc108-b370-473f-a58f-50dc280bc903" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Basse de violon)"@fr .
+
+opentheso:c11ff514-c800-4a92-9cf4-6477dfb293df a skos:Concept ;
+    dctrerms:identifier "c11ff514-c800-4a92-9cf4-6477dfb293df" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.2 - Tambours cylindriques groupés à deux membranes"@fr .
+
+opentheso:c19d3065-a668-46d6-a324-e4c95e01c828 a skos:Concept ;
+    dctrerms:identifier "c19d3065-a668-46d6-a324-e4c95e01c828" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.13(Ocarina)"@fr .
+
+opentheso:c2254177-8467-40ea-ac13-2cd23ea4d20d a skos:Concept ;
+    dctrerms:identifier "c2254177-8467-40ea-ac13-2cd23ea4d20d" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311.2 - Cithares bâton"@fr .
+
+opentheso:c23d8bc6-431c-4d90-94d3-00052ab4edbf a skos:Concept ;
+    dctrerms:identifier "c23d8bc6-431c-4d90-94d3-00052ab4edbf" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62-8(Accordéon)"@fr .
+
+opentheso:c2964456-b22a-4338-9979-c42ee016f526 a skos:Concept ;
+    dctrerms:identifier "c2964456-b22a-4338-9979-c42ee016f526" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.213(Ophicléide)"@fr .
+
+opentheso:c31bcb1b-49b4-4761-a97e-25662abf2398 a skos:Concept ;
+    dctrerms:identifier "c31bcb1b-49b4-4761-a97e-25662abf2398" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Banjo)"@fr .
+
+opentheso:c52bb68f-0986-4f17-b2ee-eb683dab0c71 a skos:Concept ;
+    dctrerms:identifier "c52bb68f-0986-4f17-b2ee-eb683dab0c71" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-72(Chifonie)"@fr .
+
+opentheso:c6bf1023-1c98-4863-bdf7-506fa6ff7a9e a skos:Concept ;
+    dctrerms:identifier "c6bf1023-1c98-4863-bdf7-506fa6ff7a9e" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "133 - Récipients frottés"@fr .
+
+opentheso:c6e62365-6bc1-43f9-b152-6a000f2f61c7 a skos:Concept ;
+    dctrerms:identifier "c6e62365-6bc1-43f9-b152-6a000f2f61c7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.11 - Cors à piston à perce étroite, à colonne d'air courte"@fr .
+
+opentheso:c74469ca-8312-493c-8fd7-91d5686745c9 a skos:Concept ;
+    dctrerms:identifier "c74469ca-8312-493c-8fd7-91d5686745c9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.211(Triangle)"@fr .
+
+opentheso:c75300d6-e661-467d-94f5-eca492162a97 a skos:Concept ;
+    dctrerms:identifier "c75300d6-e661-467d-94f5-eca492162a97" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Viole d'amour)"@fr .
+
+opentheso:c790cbfb-2813-4a6b-af01-acd7f2be3254 a skos:Concept ;
+    dctrerms:identifier "c790cbfb-2813-4a6b-af01-acd7f2be3254" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.22 - Flûtes à conduit intérieur"@fr .
+
+opentheso:c7a73b7b-bbe6-4cb3-8f0f-8fb890aefc95 a skos:Concept ;
+    dctrerms:identifier "c7a73b7b-bbe6-4cb3-8f0f-8fb890aefc95" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.12(Flageolet)"@fr .
+
+opentheso:c7c5f4b4-4317-491a-bc49-b432d4daf82c a skos:Concept ;
+    dctrerms:identifier "c7c5f4b4-4317-491a-bc49-b432d4daf82c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122 - Cithare à cordes frottées"@fr .
+
+opentheso:c87d72a0-0385-4dcf-aba2-1acf5ca874d9 a skos:Concept ;
+    dctrerms:identifier "c87d72a0-0385-4dcf-aba2-1acf5ca874d9" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.212.1(Caisse roulante)"@fr .
+
+opentheso:c8a1b415-c813-4daa-8485-65a98e54469f a skos:Concept ;
+    dctrerms:identifier "c8a1b415-c813-4daa-8485-65a98e54469f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.112(Flûte de Pan)"@fr .
+
+opentheso:cb81afcb-2276-4071-b0f2-6927eeb8b5e6 a skos:Concept ;
+    dctrerms:identifier "cb81afcb-2276-4071-b0f2-6927eeb8b5e6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311.21 - Arcs-bâtons"@fr .
+
+opentheso:cc0e4f29-4baf-40c2-8871-3a27749c26fe a skos:Concept ;
+    dctrerms:identifier "cc0e4f29-4baf-40c2-8871-3a27749c26fe" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.21 - Instruments à anche simple isolés"@fr .
+
+opentheso:cd14cdd4-143e-4f9b-98f1-571f9a8007ab a skos:Concept ;
+    dctrerms:identifier "cd14cdd4-143e-4f9b-98f1-571f9a8007ab" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.22(Cor naturel)"@fr .
+
+opentheso:ce504cdf-6f27-4cbd-a661-3cc5d84f38c1 a skos:Concept ;
+    dctrerms:identifier "ce504cdf-6f27-4cbd-a661-3cc5d84f38c1" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Cor anglais)"@fr .
+
+opentheso:d16519f2-2319-4c43-a95a-0bbcdd653f69 a skos:Concept ;
+    dctrerms:identifier "d16519f2-2319-4c43-a95a-0bbcdd653f69" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "132 - Plaques frottées"@fr .
+
+opentheso:d34c9d5f-1eb8-4ead-8e7f-132da545dc1c a skos:Concept ;
+    dctrerms:identifier "d34c9d5f-1eb8-4ead-8e7f-132da545dc1c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-6-8(Clavecin)"@fr .
+
+opentheso:d4761cef-5587-43df-b358-9d429b2a04f2 a skos:Concept ;
+    dctrerms:identifier "d4761cef-5587-43df-b358-9d429b2a04f2" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-6-8(Arpanetta)"@fr .
+
+opentheso:d4845530-3394-4d47-98a7-75b9d3f4d0f7 a skos:Concept ;
+    dctrerms:identifier "d4845530-3394-4d47-98a7-75b9d3f4d0f7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Mandoline)"@fr .
+
+opentheso:d5270c05-bb18-4d01-a568-aef53c3f8dc4 a skos:Concept ;
+    dctrerms:identifier "d5270c05-bb18-4d01-a568-aef53c3f8dc4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232.12 - Cors à piston à perce étroite, à colonne d'air longue"@fr .
+
+opentheso:d70157c6-9bbc-413c-bcb2-3a6586569159 a skos:Concept ;
+    dctrerms:identifier "d70157c6-9bbc-413c-bcb2-3a6586569159" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Violon alto ou alto)"@fr .
+
+opentheso:d7877946-a528-4c5e-9139-3f47659300f5 a skos:Concept ;
+    dctrerms:identifier "d7877946-a528-4c5e-9139-3f47659300f5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-4-8(Piano carré)"@fr .
+
+opentheso:d7bd141a-dc4b-4931-afdd-42647e8b5fa3 a skos:Concept ;
+    dctrerms:identifier "d7bd141a-dc4b-4931-afdd-42647e8b5fa3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "411 - Aérophones libres à déplacement"@fr .
+
+opentheso:d8f68bc2-8e8a-465a-8b3f-4167761884a0 a skos:Concept ;
+    dctrerms:identifier "d8f68bc2-8e8a-465a-8b3f-4167761884a0" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.12 - Sonnailles à cadre"@fr .
+
+opentheso:da9e4dff-128d-4070-95cd-96e2f724b4fe a skos:Concept ;
+    dctrerms:identifier "da9e4dff-128d-4070-95cd-96e2f724b4fe" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.1 - Idiophones à entrechoc ou claquettes"@fr .
+
+opentheso:dad60d34-3a23-4ae0-b4c7-6522242d9334 a skos:Concept ;
+    dctrerms:identifier "dad60d34-3a23-4ae0-b4c7-6522242d9334" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Baryton)"@fr .
+
+opentheso:df0c4e9d-3bd4-4770-8201-26e17fdb8808 a skos:Concept ;
+    dctrerms:identifier "df0c4e9d-3bd4-4770-8201-26e17fdb8808" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412 - Aérophones libres à interruption"@fr .
+
+opentheso:df8544dd-868d-4526-b2fe-7c1aba66cfb6 a skos:Concept ;
+    dctrerms:identifier "df8544dd-868d-4526-b2fe-7c1aba66cfb6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "232 - Tambours à friction à corde"@fr .
+
+opentheso:df95e3b0-fa0f-47fe-ae40-24b16bd55c03 a skos:Concept ;
+    dctrerms:identifier "df95e3b0-fa0f-47fe-ae40-24b16bd55c03" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.12 - Instruments à anches lippales tubulaires à embouchure terminale, droits, avec embouchure"@fr .
+
+opentheso:dfc4f567-4e95-4c56-ba59-fcba0cb78cc6 a skos:Concept ;
+    dctrerms:identifier "dfc4f567-4e95-4c56-ba59-fcba0cb78cc6" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.122 - Instruments à anche double groupés à perce conique"@fr .
+
+opentheso:e0408489-cb49-4b83-88d3-b073eb5eede3 a skos:Concept ;
+    dctrerms:identifier "e0408489-cb49-4b83-88d3-b073eb5eede3" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222(Lyre militaire)"@fr .
+
+opentheso:e0f57c8d-f65b-4057-89c8-42459fe56e53 a skos:Concept ;
+    dctrerms:identifier "e0f57c8d-f65b-4057-89c8-42459fe56e53" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122 - Cithares planche proprement dites à résonateur en forme de boîte"@fr .
+
+opentheso:e1cbe454-b6c7-4fa4-af43-f55d89bc935f a skos:Concept ;
+    dctrerms:identifier "e1cbe454-b6c7-4fa4-af43-f55d89bc935f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.221 -  Harpe à cadre à dispositif de raccourcissement des cordes manuel"@fr .
+
+opentheso:e2bc242f-542c-4198-94c2-fbe799d53488 a skos:Concept ;
+    dctrerms:identifier "e2bc242f-542c-4198-94c2-fbe799d53488" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Bandore, pandore)"@fr .
+
+opentheso:e3ce190d-05d9-49ba-8753-7232705081d7 a skos:Concept ;
+    dctrerms:identifier "e3ce190d-05d9-49ba-8753-7232705081d7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122-6-8(Epinette)"@fr .
+
+opentheso:e42bfabf-7cc3-4f25-a883-55ce8df27cb4 a skos:Concept ;
+    dctrerms:identifier "e42bfabf-7cc3-4f25-a883-55ce8df27cb4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.1 - Instruments à anche double"@fr .
+
+opentheso:e49bb0ab-43c1-4558-8d0a-2ce674c60096 a skos:Concept ;
+    dctrerms:identifier "e49bb0ab-43c1-4558-8d0a-2ce674c60096" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.311(Tambourin à grelots)"@fr .
+
+opentheso:e4fc067f-233f-4810-b9a1-27be6ec3d845 a skos:Concept ;
+    dctrerms:identifier "e4fc067f-233f-4810-b9a1-27be6ec3d845" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.1 - Flûtes à conduit intérieur, groupées, ouvertes"@fr .
+
+opentheso:e5321185-8a99-4fb2-92f9-201680296119 a skos:Concept ;
+    dctrerms:identifier "e5321185-8a99-4fb2-92f9-201680296119" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311 - Cithares barre"@fr .
+
+opentheso:e5ea7cd1-e9fd-46b5-9463-11c658cad87c a skos:Concept ;
+    dctrerms:identifier "e5ea7cd1-e9fd-46b5-9463-11c658cad87c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222(Cristallophone)"@fr .
+
+opentheso:e7b17063-1aef-4a99-b337-694c46295b91 a skos:Concept ;
+    dctrerms:identifier "e7b17063-1aef-4a99-b337-694c46295b91" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "122 - Lamellophones sur planche"@fr .
+
+opentheso:e8375656-c7a6-4c8c-80bb-2b58113eb505 a skos:Concept ;
+    dctrerms:identifier "e8375656-c7a6-4c8c-80bb-2b58113eb505" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Violon)"@fr .
+
+opentheso:e8c7565e-1940-434b-aa79-ba44f80b9761 a skos:Concept ;
+    dctrerms:identifier "e8c7565e-1940-434b-aa79-ba44f80b9761" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.112(Bombarde)"@fr .
+
+opentheso:e8c7d6fe-fe98-4ff1-a554-7f0402ef3e35 a skos:Concept ;
+    dctrerms:identifier "e8c7d6fe-fe98-4ff1-a554-7f0402ef3e35" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.11 - Conque marine"@fr .
+
+opentheso:e8da72b7-ceb9-48eb-93de-e9ff88e41535 a skos:Concept ;
+    dctrerms:identifier "e8da72b7-ceb9-48eb-93de-e9ff88e41535" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Pochette)"@fr .
+
+opentheso:e9280d95-a8a3-40ac-8f91-9455c24f6869 a skos:Concept ;
+    dctrerms:identifier "e9280d95-a8a3-40ac-8f91-9455c24f6869" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "322.2 -  Harpe à cadre"@fr .
+
+opentheso:e96a847c-a7c3-48c6-b0bb-46bbf7e246fa a skos:Concept ;
+    dctrerms:identifier "e96a847c-a7c3-48c6-b0bb-46bbf7e246fa" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.142 - Cymbales"@fr .
+
+opentheso:e9e1a360-8839-4321-a6b8-8935c0625937 a skos:Concept ;
+    dctrerms:identifier "e9e1a360-8839-4321-a6b8-8935c0625937" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Guitare)"@fr .
+
+opentheso:eaca130b-661f-4014-8840-99b9eae2f83a a skos:Concept ;
+    dctrerms:identifier "eaca130b-661f-4014-8840-99b9eae2f83a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Monocorde)"@fr .
+
+opentheso:eb0eeafe-bd75-48cf-9498-0d8cdb290d14 a skos:Concept ;
+    dctrerms:identifier "eb0eeafe-bd75-48cf-9498-0d8cdb290d14" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.233 - Trompettes à piston"@fr .
+
+opentheso:eb10dda0-4109-4923-a2f7-1648fa3e4b12 a skos:Concept ;
+    dctrerms:identifier "eb10dda0-4109-4923-a2f7-1648fa3e4b12" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Luth)"@fr .
+
+opentheso:eb7229bf-8689-46bc-8012-03d4aa9e1bcc a skos:Concept ;
+    dctrerms:identifier "eb7229bf-8689-46bc-8012-03d4aa9e1bcc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "1 - IDIOPHONES"@fr .
+
+opentheso:ec438673-a70a-49e8-b896-4d5dfa39267c a skos:Concept ;
+    dctrerms:identifier "ec438673-a70a-49e8-b896-4d5dfa39267c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.22 - Lyre à résonateur en forme de boîte"@fr .
+
+opentheso:ee5487bb-cf03-4d3b-810a-708c57ef56b5 a skos:Concept ;
+    dctrerms:identifier "ee5487bb-cf03-4d3b-810a-708c57ef56b5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.221.12(Sifflet)"@fr .
+
+opentheso:eed310e7-3dcc-4e88-ab4d-81f78e56b5d4 a skos:Concept ;
+    dctrerms:identifier "eed310e7-3dcc-4e88-ab4d-81f78e56b5d4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.232 - Cors à piston"@fr .
+
+opentheso:eeece1b9-e9ae-411a-8a07-9aa50d162b0f a skos:Concept ;
+    dctrerms:identifier "eeece1b9-e9ae-411a-8a07-9aa50d162b0f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.12(Trompe)"@fr .
+
+opentheso:f08377fb-9df7-4927-b8b6-735e071da533 a skos:Concept ;
+    dctrerms:identifier "f08377fb-9df7-4927-b8b6-735e071da533" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.13 - Aérophones libres à interruption à anche libre"@fr .
+
+opentheso:f136caaa-ffac-42be-9255-00440d11b4c4 a skos:Concept ;
+    dctrerms:identifier "f136caaa-ffac-42be-9255-00440d11b4c4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "311.221 - Cithares bâton à une gourde-résonateur"@fr .
+
+opentheso:f13c7810-5a19-47f0-8186-c2430747afc4 a skos:Concept ;
+    dctrerms:identifier "f13c7810-5a19-47f0-8186-c2430747afc4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5 - Luth à manche rapporté à résonateur en forme de bol, joué par pincement avec les doigts"@fr .
+
+opentheso:f1c1212e-54d0-4541-ada6-38d836f46dd4 a skos:Concept ;
+    dctrerms:identifier "f1c1212e-54d0-4541-ada6-38d836f46dd4" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.1 - Idiophones secoués ou hochets"@fr .
+
+opentheso:f1caf5f7-1040-49f1-b9ad-515349338431 a skos:Concept ;
+    dctrerms:identifier "f1caf5f7-1040-49f1-b9ad-515349338431" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "314.122(Psaltérion)"@fr .
+
+opentheso:f418f461-70a1-439e-9ae2-27097bf4db09 a skos:Concept ;
+    dctrerms:identifier "f418f461-70a1-439e-9ae2-27097bf4db09" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.21(Cornu)"@fr .
+
+opentheso:f48008ec-7d74-4da4-a91a-682c6fa3e970 a skos:Concept ;
+    dctrerms:identifier "f48008ec-7d74-4da4-a91a-682c6fa3e970" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "421.222.12-62-8(Orgue monumental)"@fr .
+
+opentheso:f4843118-d67b-4e5b-99ad-1b74e730d2fe a skos:Concept ;
+    dctrerms:identifier "f4843118-d67b-4e5b-99ad-1b74e730d2fe" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "131.2 - Tiges frottées groupées"@fr .
+
+opentheso:f4b50210-9a88-4351-ba25-8b7bc387b4bc a skos:Concept ;
+    dctrerms:identifier "f4b50210-9a88-4351-ba25-8b7bc387b4bc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Chitarrone)"@fr .
+
+opentheso:f5ec673e-cb3e-4994-b617-6faf91a912a5 a skos:Concept ;
+    dctrerms:identifier "f5ec673e-cb3e-4994-b617-6faf91a912a5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-71(Trompette marine)"@fr .
+
+opentheso:f60342f6-4ef6-4386-bd9d-2b13bc46a7fb a skos:Concept ;
+    dctrerms:identifier "f60342f6-4ef6-4386-bd9d-2b13bc46a7fb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.12 - Aérophones libres à interruption à anche battante"@fr .
+
+opentheso:f63c8f19-5ec1-4db0-95ac-b02b143c471c a skos:Concept ;
+    dctrerms:identifier "f63c8f19-5ec1-4db0-95ac-b02b143c471c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.312 - Tambours sur cadre sans manche à deux membranes"@fr .
+
+opentheso:f6d9e8de-288f-4694-a83c-54e564bf3e64 a skos:Concept ;
+    dctrerms:identifier "f6d9e8de-288f-4694-a83c-54e564bf3e64" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.222(Carillon)"@fr .
+
+opentheso:f70527ac-9f2e-4216-b844-f5100efed5dd a skos:Concept ;
+    dctrerms:identifier "f70527ac-9f2e-4216-b844-f5100efed5dd" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "231 - Tambours à friction à bâton"@fr .
+
+opentheso:f7f3461c-4695-4a49-9d10-4b53c927de21 a skos:Concept ;
+    dctrerms:identifier "f7f3461c-4695-4a49-9d10-4b53c927de21" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-5(Guitare lyre)"@fr .
+
+opentheso:f8cb6fe7-ab85-4def-b3aa-2e6676532862 a skos:Concept ;
+    dctrerms:identifier "f8cb6fe7-ab85-4def-b3aa-2e6676532862" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.321-5(Balalaika)"@fr .
+
+opentheso:f8eb5690-08f8-40d0-b671-1e6be1d7ea62 a skos:Concept ;
+    dctrerms:identifier "f8eb5690-08f8-40d0-b671-1e6be1d7ea62" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "122.2(Boîte à musique)"@fr .
+
+opentheso:f94ce8db-9969-4cd7-b9fa-2cdc98d1a5bb a skos:Concept ;
+    dctrerms:identifier "f94ce8db-9969-4cd7-b9fa-2cdc98d1a5bb" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.211(Triangle à anneaux)"@fr .
+
+opentheso:fa4f40c6-a8cb-4804-a117-27cfb58987c8 a skos:Concept ;
+    dctrerms:identifier "fa4f40c6-a8cb-4804-a117-27cfb58987c8" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.122-62(Musette de cour)"@fr .
+
+opentheso:fb50a39e-22ab-4610-982a-9a7920dd395c a skos:Concept ;
+    dctrerms:identifier "fb50a39e-22ab-4610-982a-9a7920dd395c" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "412.132-62-8(Bandonéon)"@fr .
+
+opentheso:fb8376ae-16f8-46cc-817e-675a8b854337 a skos:Concept ;
+    dctrerms:identifier "fb8376ae-16f8-46cc-817e-675a8b854337" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.212(Xylophone)"@fr .
+
+opentheso:fb954cba-be40-4fdc-aaec-1bc68898be1a a skos:Concept ;
+    dctrerms:identifier "fb954cba-be40-4fdc-aaec-1bc68898be1a" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "312 - Cithares tube"@fr .
+
+opentheso:fc27d447-96b8-48b7-afb2-1559cc460165 a skos:Concept ;
+    dctrerms:identifier "fc27d447-96b8-48b7-afb2-1559cc460165" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "111.241.2 - Gongs groupés"@fr .
+
+opentheso:fc91da34-5b0b-4883-b13d-e8834b0a1475 a skos:Concept ;
+    dctrerms:identifier "fc91da34-5b0b-4883-b13d-e8834b0a1475" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "133.2(Harmonica de verre)"@fr .
+
+opentheso:fceef8b1-6e9c-4c7a-9b21-219629a9994f a skos:Concept ;
+    dctrerms:identifier "fceef8b1-6e9c-4c7a-9b21-219629a9994f" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.12(Hochets à cadre)"@fr .
+
+opentheso:fd23ffab-39e2-4140-82fd-f2deabfece28 a skos:Concept ;
+    dctrerms:identifier "fd23ffab-39e2-4140-82fd-f2deabfece28" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.121.12(Trompette droite)"@fr .
+
+opentheso:fd3b31cc-6ddb-47d0-ba05-62e32e8647dc a skos:Concept ;
+    dctrerms:identifier "fd3b31cc-6ddb-47d0-ba05-62e32e8647dc" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "112.13(Grelot)"@fr .
+
+opentheso:fe52a955-f0bc-4c97-bcf7-70bd4154c341 a skos:Concept ;
+    dctrerms:identifier "fe52a955-f0bc-4c97-bcf7-70bd4154c341" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "423.11 - Conques"@fr .
+
+opentheso:fef8d1d8-e24f-4dd5-8357-b3a2388edef5 a skos:Concept ;
+    dctrerms:identifier "fef8d1d8-e24f-4dd5-8357-b3a2388edef5" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "211.311(Tambourin à grelots et à sonnailles)"@fr .
+
+opentheso:ff23458a-140e-43f2-8a0f-14353dcbdfe7 a skos:Concept ;
+    dctrerms:identifier "ff23458a-140e-43f2-8a0f-14353dcbdfe7" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "422.121(Aulos, tibia)"@fr .
+
+opentheso:ff4fa823-88e7-438a-b664-05a3ab973448 a skos:Concept ;
+    dctrerms:identifier "ff4fa823-88e7-438a-b664-05a3ab973448" ;
+    skos:inScheme opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a ;
+    skos:prefLabel "321.322-71(Ténor de violon)"@fr .
+
+opentheso:5dd2b08c-f98e-44d2-aedc-17c241b3e54a a skos:ConceptScheme ;
+    dctrerms:identifier "5dd2b08c-f98e-44d2-aedc-17c241b3e54a" ;
+    skos:hasTopConcept opentheso:00563104-50b3-424e-a9be-f2f9c85a47a5,
+        opentheso:01bc3285-27b3-4c07-962e-b0c9a1e49534,
+        opentheso:02162c82-3e1a-47a4-96b1-f254e1177773,
+        opentheso:03516cce-2fa7-4474-b889-61c943ac359b,
+        opentheso:040a9771-3671-4c36-a02c-23006cbc2a00,
+        opentheso:050a5544-587b-4dec-b412-966dc29077a0,
+        opentheso:05c01e3f-6bad-4f80-bb59-337781ed2064,
+        opentheso:05f0fd77-f354-4308-8649-4ef91bfb7454,
+        opentheso:06b0df3e-f6a9-4259-b7c6-08a7050e61ab,
+        opentheso:07a89554-3423-4f59-b4ec-e31c96a5bfe7,
+        opentheso:0811f3ab-9d62-4b0f-8986-4beee53a5b4e,
+        opentheso:08240cab-418d-4a5c-bf49-132f930d024d,
+        opentheso:08727362-5cfb-4302-9ccf-c3f7f47cef9b,
+        opentheso:088e9a32-82a5-432a-b889-b48539ad57c4,
+        opentheso:08aaa08c-a3ae-4ee3-95cc-70942f8fbe4f,
+        opentheso:094ce569-3934-43ae-9d73-0941893a8968,
+        opentheso:09678602-5940-43c7-9951-ab34c1994e55,
+        opentheso:0a66dd4d-ce13-4b15-8eb6-2dd2fae7e519,
+        opentheso:0b7ebab6-144d-4240-8071-8130d8745b95,
+        opentheso:0c12ca1c-ebe7-4d62-999b-058e594e0e4a,
+        opentheso:0c2adcf0-64dc-4fea-9f55-beadfaf07b19,
+        opentheso:0ceb1ba0-2412-4d1d-98ee-3f0650f1c30e,
+        opentheso:0e93e2ff-0a20-422a-81b2-6b81f49a051b,
+        opentheso:0f21fefa-c4dd-43c1-9042-9e491e6a7e0f,
+        opentheso:0f2991fa-f451-45a8-bac0-81931c05e931,
+        opentheso:0f74eb91-f0a7-4e84-be16-739b7f43298f,
+        opentheso:0fe07564-3099-4833-9114-628ab9095293,
+        opentheso:106f3b3a-692a-4da5-b7a6-e27e0ac45b96,
+        opentheso:114ee235-ebed-46fe-b82c-51054e1307ac,
+        opentheso:115f8233-3e0a-42c4-8ebb-9153ab8e0605,
+        opentheso:11d5c52a-9a60-41c7-a3f6-86c62ee2c800,
+        opentheso:1233262a-5802-4cd9-ba39-899a333b710c,
+        opentheso:133abe04-e94f-4f0e-a2c8-4dc371349872,
+        opentheso:13fc6277-97de-48d1-804c-08d78ea232eb,
+        opentheso:14502157-e583-438f-8928-bc2c600784ab,
+        opentheso:145e8e5e-e6ef-4d05-ab60-4fb3232afcac,
+        opentheso:15a530ce-9e14-45e6-a367-ca9edf7b7fd3,
+        opentheso:164cdc94-f6bb-4bca-9a1d-ffa139edfbb7,
+        opentheso:16a8f8a2-78c5-496b-b9f2-589664cc027f,
+        opentheso:16f424d9-4a5c-47f9-bd10-6efaf83fc455,
+        opentheso:196df2aa-a94c-4d9c-b5ec-9ec4b89e6829,
+        opentheso:1b065c9f-3880-45d2-be57-320a6fb46d7b,
+        opentheso:1bb1c298-96c5-4bd3-b18c-ddc7d6de961a,
+        opentheso:1bc8be49-29ab-43e3-b82a-10040f0493ef,
+        opentheso:1c19668b-8c91-4c39-9cd4-6de0e7fcdf25,
+        opentheso:1c433597-42c2-45f8-94e9-57819b110c6f,
+        opentheso:1cd12e1b-9c02-4f76-8f9f-37a9cdd9b587,
+        opentheso:1d59ed9c-6db0-4d9f-8ec2-e39b7d6495df,
+        opentheso:1da16bed-7982-4c1c-a68b-af874aef40b6,
+        opentheso:1e52b127-60b7-4fca-85e9-1bf2401ae00f,
+        opentheso:1e9c7cdd-b34a-45c4-bc86-b4c6d1b24cba,
+        opentheso:1f1f4207-92d9-42ab-82d0-e6cdb399856c,
+        opentheso:1fa6575b-1527-4d7e-a87a-79925948c630,
+        opentheso:1fc1fb8a-b5f3-47bf-b104-8d1b4b536e92,
+        opentheso:20c514c1-e222-4d66-a45c-680248f12dbb,
+        opentheso:21a53af4-3511-4f4a-82e1-90a144f56e8f,
+        opentheso:22183f9a-9083-4554-857d-5ac8a20801a6,
+        opentheso:2271ace9-2c23-4022-9786-6ddba3d31796,
+        opentheso:22b7da53-1f82-4b58-a08d-5467f7453571,
+        opentheso:230937b5-5c61-475c-9357-f75fa1dd578a,
+        opentheso:23595110-d003-4aa9-b8ad-44c6df803d91,
+        opentheso:256e0af5-9af5-4eb8-9cd9-5126096fbbc0,
+        opentheso:25cb89fc-c647-418e-a82f-f8c78303bb2b,
+        opentheso:25d854d8-a72f-47e4-a8ca-ed8f3ef77669,
+        opentheso:2637301f-c05d-4fa9-90d8-732d84310d7e,
+        opentheso:265dbd68-2f27-4055-9d20-a84d4905dff6,
+        opentheso:271a47ea-801a-4035-92c6-322954222258,
+        opentheso:293ca7b4-9498-45e2-9d4d-5f17d3c5c91e,
+        opentheso:2a361b1d-3ee5-4795-9298-d8eeb9607328,
+        opentheso:2af07a08-1e55-4738-86b6-c04b25a53cd3,
+        opentheso:2c42984f-a9a5-43f9-91a5-504115edea5c,
+        opentheso:2c8d3c9e-6f73-4250-8882-a75218b84bda,
+        opentheso:2e35441d-2912-4fb1-b4ff-b8e239ad6632,
+        opentheso:2ef4eb92-e67f-410e-8ef9-dd2244e572e9,
+        opentheso:2f116b10-9b82-4e82-944d-8cc146e00480,
+        opentheso:2f5336db-a077-4055-bc00-bebd2bf97627,
+        opentheso:2fd038a3-762f-4e3a-84d3-1c1f1996118d,
+        opentheso:307a6cb0-8fad-48f3-a042-f5ea4214aba4,
+        opentheso:31b2b389-da4f-407d-be56-16cc026eeaa7,
+        opentheso:322d494a-7519-42f8-a5ec-dbfdd532bc62,
+        opentheso:33aebda6-dccb-4ed1-ad3e-48cf5db93e6c,
+        opentheso:35d0be17-9e05-47b1-b4ec-59311d5b234a,
+        opentheso:369baa7e-b848-4795-9cf3-31c334b11709,
+        opentheso:372cc469-cbeb-4a0b-bdb2-f1b58e3f3781,
+        opentheso:37cd5d46-5b44-4b6e-8eaa-77c8b810ede6,
+        opentheso:384203cb-fa8b-4d6f-bc19-52f9a8214cc6,
+        opentheso:3aa1622b-fe8e-44aa-997c-8c124cb87ed2,
+        opentheso:3aee11a3-a5b6-4b6f-95cb-c8c911d57931,
+        opentheso:3b78dfbd-d311-47ec-8675-d9fed1c64381,
+        opentheso:3bae42eb-30a6-4f2f-9909-d8d4fb68daf9,
+        opentheso:3cc6e636-185b-45f0-a639-0195aac31f0a,
+        opentheso:3cddc6e4-a65b-4088-9333-a34cde003eeb,
+        opentheso:3ce1faa4-296c-414a-ab63-71b0fdf7d307,
+        opentheso:3d06266d-0ec4-4004-9daa-a217706201d4,
+        opentheso:3d201976-ae74-430d-88b6-e22cd48d7efc,
+        opentheso:3d374ff3-03fb-4a6a-81c4-3db0de106841,
+        opentheso:3daf237e-dfa5-4d73-922f-dc3a961be7ef,
+        opentheso:3e2ef79b-041e-4e23-9fc9-5c8667e9c3bc,
+        opentheso:404e3648-c2b8-4cff-87b4-b13e2fb65fa1,
+        opentheso:41581ca9-144d-4b22-92cc-d98ecb4d6a5a,
+        opentheso:427d2f4b-310e-4dad-ae74-81661e8fed70,
+        opentheso:44133443-dbc5-4a49-a87a-db58184a7310,
+        opentheso:444ec03f-e168-4e83-b55f-466bbdf02697,
+        opentheso:446d8a6a-1e96-4e1b-8a6d-679a368bb14f,
+        opentheso:458da315-862e-4ae1-aae6-30cf7a445520,
+        opentheso:45ad09fe-953f-4b5e-a900-ae3fe40f1285,
+        opentheso:45b89c35-cc0a-4abf-88b0-72c2898e5e68,
+        opentheso:4605d92d-8765-441c-b5ec-fad927371b1d,
+        opentheso:4661b133-fdb8-43b9-be32-1de89f01f280,
+        opentheso:46f0339c-3383-451a-8373-dfdeb9ebee1d,
+        opentheso:4744c74c-8911-4952-b6b6-de877f01df55,
+        opentheso:47ed7158-5d5a-4fbd-acda-2a95a1c48ff2,
+        opentheso:47fe78c6-ac32-4219-852e-60a3ebfe7484,
+        opentheso:48214a97-4dc8-43f7-8594-8e110a01a6dd,
+        opentheso:48ffef21-5ffb-422f-94af-128e5a64d198,
+        opentheso:4996d5fe-d039-4531-8a5b-290a8e0ba902,
+        opentheso:499d920e-1b9c-4fdb-820c-37f04e3c4893,
+        opentheso:4aeb8452-0af1-41d5-bc7e-2c7e5fe31210,
+        opentheso:4bb4ceb3-7d8e-46aa-875a-d17fe5e9e00c,
+        opentheso:4cc10180-2b4f-4d04-9649-15445bd2c11e,
+        opentheso:4d205d27-29e2-4712-8a1f-37ae67794e87,
+        opentheso:4e1e511e-da70-4725-8701-a01d0986d4f4,
+        opentheso:4e3b7137-9e2f-4ebf-94b3-bd29841a69dc,
+        opentheso:4ec9166e-764b-4255-a50a-5be4f3cfe395,
+        opentheso:4fc28088-8851-428c-b0cc-4fad4ce9e2e2,
+        opentheso:50265f0e-314a-4a17-9018-1f2aa0f13670,
+        opentheso:5125c54a-2d25-4107-9ab0-89d36970944f,
+        opentheso:515afce6-c3f1-44b2-96b0-8b7fb45c6bf5,
+        opentheso:5185312f-b4a0-4ef9-bb10-00adeb21c8fc,
+        opentheso:5226feae-a55f-4b53-8658-0c2f6f392cfd,
+        opentheso:52655002-1506-4c30-983a-a502fef06401,
+        opentheso:52e0de23-61bf-4dc1-a30c-2c5a938452d7,
+        opentheso:5331f9a4-19e9-4229-ba34-be38e0e037c4,
+        opentheso:53844cf0-968f-4ec7-8eb5-47ed2a0fa2c8,
+        opentheso:540aaa7d-11c0-463c-ae0d-886f97e85767,
+        opentheso:5438fbe0-e4c9-4914-99b3-3a53919d5a84,
+        opentheso:5462e94c-6c9b-4742-ae94-c34624e8ebb8,
+        opentheso:5479cdb9-ac48-4f3e-aaa9-d117e315ee83,
+        opentheso:549fad04-b3cc-4a51-8c16-10ad186b0631,
+        opentheso:556aad74-ee97-4d1a-8e6d-18cc0b41bcd9,
+        opentheso:557bc185-a989-429a-9638-bb1e7b579964,
+        opentheso:577a878c-977b-4bbb-bcff-c2d02fe645d0,
+        opentheso:57930f79-5969-401e-bac4-bb8ff6362642,
+        opentheso:59bb1b2f-f062-4dde-afec-8cb77380fe2b,
+        opentheso:59e6371a-f1b8-4540-8e32-3d3366379aee,
+        opentheso:5a265965-9299-4b62-9b23-cfb5a78646ae,
+        opentheso:5a37b9e3-1917-4347-bdd5-e27cad8f2033,
+        opentheso:5a429d8a-8351-432c-bd0a-98e3a8348c9d,
+        opentheso:5a4cafe8-0fa3-478f-9c84-ec050de7b0d3,
+        opentheso:5a574d99-e443-4a99-aba4-adf803412497,
+        opentheso:5a799ee2-509c-4280-a7af-f82153cf15aa,
+        opentheso:5a8e68da-6fdb-4a77-9f15-0a85657145c8,
+        opentheso:5aa47702-b788-4cd4-89b4-99a0f2c48e63,
+        opentheso:5b16e925-28e3-43ad-9b8d-ff98811e0048,
+        opentheso:5b4a3aaa-4f33-4f71-97cc-2d465f16c90d,
+        opentheso:5b83f9e7-c253-4f80-8ab7-646cc92a3abd,
+        opentheso:5b9174ee-0b47-4624-b5dc-ce50041b8d24,
+        opentheso:5b93133e-60e1-4c62-be6f-2b607bb2ded9,
+        opentheso:5c38962e-0d99-4308-a2a4-e47989b5cce6,
+        opentheso:5c505565-16ab-4079-9a38-4f3663b66a20,
+        opentheso:5d56c37b-9290-41a7-b801-28be712b6350,
+        opentheso:5e04bf07-3f08-43f7-a2f7-1f62e92ea29c,
+        opentheso:60323350-f0f0-4262-8296-6f8e7bb336c9,
+        opentheso:60a92210-4ddf-4644-8489-8dc3d1a18a7f,
+        opentheso:62d8eb74-b15a-40e5-b5eb-408631413d38,
+        opentheso:632b90d5-f2f9-4a14-ae69-7334db9d3768,
+        opentheso:640c11f4-03f3-4fd8-9d7b-c1e7ea7b6d4a,
+        opentheso:64cf28a9-1a14-4b5d-bc8c-eb41df1109fb,
+        opentheso:6793a247-43d2-483f-8187-05622e40af1f,
+        opentheso:679a2f50-340b-42c2-8ca8-4be05a92f489,
+        opentheso:67e090ae-06b7-4352-9396-84237ccca435,
+        opentheso:6851e975-06a5-4c72-afce-e9a9f94e05e2,
+        opentheso:68bfc5d3-71dc-4cf9-a5ce-29a2c2569ed8,
+        opentheso:6aaccc38-be23-489e-bfb6-e9a42a6f0cef,
+        opentheso:6ac33623-a166-4ac3-8700-1311fcd1f929,
+        opentheso:6b0284c3-3d7f-4ad7-a96c-805d9dc2e13e,
+        opentheso:6d8f9069-2ea4-441d-b4c8-dcab9b75e414,
+        opentheso:6de4e7a4-7fa2-4d5a-8733-2163c4d9c2d9,
+        opentheso:6df6f17d-3c26-4377-a27f-3297ce2c36d0,
+        opentheso:6e608ecd-cbbb-4d7d-9d4c-4d2987872d3e,
+        opentheso:6f03acf2-922b-4d2c-9b8a-bbe848fb7306,
+        opentheso:6f78c944-60f3-46fb-aa40-7c768e6ceeb8,
+        opentheso:6fbc857e-051f-498b-809b-4a7ccd00ccac,
+        opentheso:7011e161-3942-4634-8815-314af86be6a8,
+        opentheso:70ef3f8a-006d-443f-b7ac-6245039810b8,
+        opentheso:715d655d-581e-479a-9d76-2ed5d8ddbad1,
+        opentheso:716ca2eb-3ba5-446f-b20b-1a57f975baab,
+        opentheso:71d099c8-9cb3-4550-931c-d664e1d2138a,
+        opentheso:71d9f8c0-7daf-405f-a2fb-11ca1915f8a5,
+        opentheso:73bba10d-8f60-4515-afa3-a8958d4108ad,
+        opentheso:74732c8b-a484-4d10-9f43-1c54ed631f05,
+        opentheso:74ec3297-ee8e-4c80-b871-470b3a283063,
+        opentheso:751c8528-ccca-42f0-b4d0-3e5c66c6bcfd,
+        opentheso:75a6746c-d7c6-4b88-a72b-61e9cc70bc87,
+        opentheso:75cbec0a-c027-40bc-a0be-72b3e5386e1c,
+        opentheso:76a407eb-b575-465f-b550-71e9c35b96c5,
+        opentheso:771a606b-1b2f-4f80-a63b-5f029e868a28,
+        opentheso:7744bc3e-44f9-4923-8a1d-325ef1c2dbfc,
+        opentheso:7911c86d-50d9-443b-844d-58bbcbcfb067,
+        opentheso:7970dc7e-4169-486c-80c4-689119f501b7,
+        opentheso:798d7e9f-4958-4a34-9e48-010eee01f3fb,
+        opentheso:79bd8477-3fc0-42fd-91b4-4c0494ae9725,
+        opentheso:79f46675-f8d8-426b-9c7b-5715f74757dc,
+        opentheso:7a42cd42-77b7-4c2d-ac18-788643ca4a56,
+        opentheso:7a4356d2-628a-423e-bd7f-d08570b412ae,
+        opentheso:7b4ceddf-6211-4196-9ccb-3b676fed6208,
+        opentheso:7b63a2e8-fc54-44f3-b442-38c8925e8e38,
+        opentheso:7bed535f-a900-4fc9-a03c-fe8c0a96474f,
+        opentheso:7c4df170-c60b-439c-8102-3914b4965d9b,
+        opentheso:7c5c7bf1-615a-4cb2-9ccb-08f5e012c1cd,
+        opentheso:7cf1a1a0-3de2-47da-bff2-93b545ec53c8,
+        opentheso:7d8db98a-0452-4f38-ae7a-c326d7d5b1c9,
+        opentheso:7dd4f7ab-c64b-4b3a-b79e-01912e6bdb27,
+        opentheso:800703c3-2cd3-4835-a0a8-f45a94131818,
+        opentheso:808a4923-561e-4607-a04a-e307dabc49f1,
+        opentheso:8345d7cb-ddd7-4af9-8bf1-fadf9c0edd03,
+        opentheso:8349bbdf-9ea0-4ddc-a2f2-eaa1a7718c12,
+        opentheso:84da605e-da5f-4f98-8b18-f8796838b157,
+        opentheso:84daa5de-2296-44aa-a14e-97411690d4f1,
+        opentheso:8580f6e3-2207-45ce-92d0-e1be82a4e504,
+        opentheso:86f8dd23-2177-4586-9525-684a222c0fa2,
+        opentheso:8787eaa2-fde6-4daa-9790-d2c57d63a2cc,
+        opentheso:87b89ed5-1148-42c2-bec5-1a765ab0b633,
+        opentheso:8836c0f2-0d10-40c4-9e9d-12e28277b372,
+        opentheso:888de636-2fa2-4c0d-a2a4-c11c9d54e4f8,
+        opentheso:88d5fab7-5124-45e1-a5f3-0e4120738915,
+        opentheso:892f79dd-8f91-4982-8f28-1a98da0e6b68,
+        opentheso:89863520-f9b0-4e99-aee0-b4c516e36187,
+        opentheso:8c7d0430-e177-4393-8937-92d343fc098f,
+        opentheso:8d23a69b-053f-4d17-9f9a-f6fe2ee84631,
+        opentheso:8db56750-609d-48de-af84-4f96d7cb8e13,
+        opentheso:8e11bfaa-0be8-48ef-b788-1b9ec1900b63,
+        opentheso:8ecb96f3-5360-4a00-a47c-11acad8c38c7,
+        opentheso:8fac7910-8caa-47b5-b545-9a0d5cb68c2c,
+        opentheso:8fe79a14-eecf-4283-837d-15dae6c1f5b0,
+        opentheso:8ff4e940-3c13-493c-a130-7e484a0e015e,
+        opentheso:9156d3c3-5c57-4bfe-997c-bfce81cf4ff9,
+        opentheso:927486dc-d15c-43fc-85c5-751edf4f99b7,
+        opentheso:92890736-a049-4742-b5da-59e8f837e3e5,
+        opentheso:93648881-e33e-4920-9864-b932db86cda2,
+        opentheso:937dccf2-25c0-4748-8d1f-08a1f4bfa30d,
+        opentheso:939466c3-1252-4bea-94bf-9524ac806683,
+        opentheso:94757414-a458-44f5-a5a7-efbd93ec12a0,
+        opentheso:947abd9a-bdff-4f80-8d22-1a7022c03bdf,
+        opentheso:9572903f-da06-4117-a63f-af5041187d89,
+        opentheso:965e616b-458a-4713-ba50-d4bea5358a9b,
+        opentheso:97292bce-058a-472f-9609-e202bb51f1aa,
+        opentheso:9745519d-160e-403f-ae95-0e438da096e9,
+        opentheso:97a9781c-2556-477a-ad96-5406af1bdaf5,
+        opentheso:98a9ecd5-1bdd-4c6c-b9f4-1fb18ebc6701,
+        opentheso:9a2de772-149a-4eaf-8c2b-55a11b72dc42,
+        opentheso:9a36bc0f-07b5-4b21-beff-e7d752f27fd4,
+        opentheso:9a4a7e1d-d729-40c6-a9f4-67bce209e420,
+        opentheso:9bc1d3ad-02a6-436a-9986-58d13e8e8f6d,
+        opentheso:9be8aa48-45fe-488a-9ce9-265641ac6cbb,
+        opentheso:9c172b12-de06-472a-9cad-2c6aaac0622d,
+        opentheso:9ce60cee-828a-463d-ac59-3b3c20bc6d0e,
+        opentheso:9d383f14-9292-450e-a352-f0087ce77ec6,
+        opentheso:9ea9835e-2901-4f13-9da3-90200f3ffdb8,
+        opentheso:9ef93182-c12a-45a8-ad47-1557aaa4f63d,
+        opentheso:9f10b52f-6f4f-4403-93b5-d524e8622620,
+        opentheso:9fb26dda-6856-4c67-9b77-47ab39f64278,
+        opentheso:9fdf6735-b845-4e51-af80-71693dd3ac8f,
+        opentheso:a0f375a7-f269-4bd5-9a99-2b6e4a54893c,
+        opentheso:a1a648ba-4e97-4217-b93e-228b6e7b7d02,
+        opentheso:a27d04f1-b670-4d60-8734-0aaf55560ec4,
+        opentheso:a366cd0d-4562-4bc0-a47f-61a9d2a1c0f1,
+        opentheso:a3da7332-fdca-434e-961d-d38c26633607,
+        opentheso:a42bd35c-f6a9-4939-84a2-c1af022277a9,
+        opentheso:a4a31d99-2074-4ada-9e68-f0ba4241f298,
+        opentheso:a7650465-30d0-42f6-a161-bf89da9c211c,
+        opentheso:a8ddaa02-9621-436b-9ebd-fea68c77fc5c,
+        opentheso:a94454ae-651d-4e70-a039-5f18f74b47ad,
+        opentheso:a94d971f-ce89-4a26-92c4-44d589daca79,
+        opentheso:a94f0350-d074-4aed-a40a-12d3bfb787e3,
+        opentheso:a9a3f547-a738-48df-9708-268bc0595f26,
+        opentheso:ab718dd6-50fa-4066-8756-9949e8744b86,
+        opentheso:ac5525ff-6cfb-4775-b4d6-05783af173c4,
+        opentheso:acd1d7e3-ce14-4f19-b8bc-ca598ea625b9,
+        opentheso:ad2ebda3-faf9-46be-8866-77bcb507f6cb,
+        opentheso:ad83a5a3-d7dc-441b-9e93-a7b7b301e610,
+        opentheso:adad2308-724f-46ae-b2b6-8f96aa8f22fb,
+        opentheso:af5f3392-3d54-4a7e-addf-eb8c361be091,
+        opentheso:af88ce18-a89c-4764-a1fa-5c4cd9e67724,
+        opentheso:afc7aed9-adb2-432f-bb95-95533b114962,
+        opentheso:afea8332-b6bb-4d42-936c-38c0f7a7be14,
+        opentheso:b027dade-23b3-495f-8649-8901b98a8099,
+        opentheso:b111a417-9366-4b59-b0d0-3363c27a242e,
+        opentheso:b24a765a-e70c-44dd-8fa1-42cfb87628c8,
+        opentheso:b2564493-a0f4-4bb3-a37a-e9f80bcc02c2,
+        opentheso:b256e815-2bd3-47cc-a7da-2d49f9239499,
+        opentheso:b41d65f4-f742-42d3-be52-f315419099c4,
+        opentheso:b4481870-2db0-4938-91c4-c3c9d4834e62,
+        opentheso:b538acef-77cb-4117-9cfd-c340f4e84ff2,
+        opentheso:b56aa8c4-3749-4edc-ae0d-a28f0aac3a28,
+        opentheso:b5feaa62-b05c-4f0c-bdbd-af3682cf7796,
+        opentheso:b671e633-1aae-4404-bfa9-07a1f4a6f6a6,
+        opentheso:b6fe75a8-947e-4de6-be8b-062ff393dc83,
+        opentheso:b719368f-3b18-4f7d-aad6-0c0c467f5a60,
+        opentheso:b7929b12-bd2c-4883-b66a-f2ea068e2da3,
+        opentheso:b8034bbe-9717-408a-ab11-ddbc2e99b32c,
+        opentheso:b8982102-7b45-41ba-b92d-1de7ac75a98a,
+        opentheso:b8f61e00-297a-4ee0-a0ee-be52331346a7,
+        opentheso:ba69e209-dc24-4657-b52d-eb64299313f4,
+        opentheso:bab7c8b6-ded2-48da-96d4-ffe17e35a97a,
+        opentheso:bad0d4b8-cb09-480e-a25b-77ac037d8a1f,
+        opentheso:bb9aa003-1cc5-4c6d-afaa-300d1638c2c4,
+        opentheso:bbfbf3fb-c147-4732-9eaa-ade1e3823de8,
+        opentheso:be2ff459-de8e-4ffa-8eb7-7cdd6114e77c,
+        opentheso:bfbbc108-b370-473f-a58f-50dc280bc903,
+        opentheso:c11ff514-c800-4a92-9cf4-6477dfb293df,
+        opentheso:c19d3065-a668-46d6-a324-e4c95e01c828,
+        opentheso:c2254177-8467-40ea-ac13-2cd23ea4d20d,
+        opentheso:c23d8bc6-431c-4d90-94d3-00052ab4edbf,
+        opentheso:c2964456-b22a-4338-9979-c42ee016f526,
+        opentheso:c31bcb1b-49b4-4761-a97e-25662abf2398,
+        opentheso:c52bb68f-0986-4f17-b2ee-eb683dab0c71,
+        opentheso:c6bf1023-1c98-4863-bdf7-506fa6ff7a9e,
+        opentheso:c6e62365-6bc1-43f9-b152-6a000f2f61c7,
+        opentheso:c74469ca-8312-493c-8fd7-91d5686745c9,
+        opentheso:c75300d6-e661-467d-94f5-eca492162a97,
+        opentheso:c790cbfb-2813-4a6b-af01-acd7f2be3254,
+        opentheso:c7a73b7b-bbe6-4cb3-8f0f-8fb890aefc95,
+        opentheso:c7c5f4b4-4317-491a-bc49-b432d4daf82c,
+        opentheso:c87d72a0-0385-4dcf-aba2-1acf5ca874d9,
+        opentheso:c8a1b415-c813-4daa-8485-65a98e54469f,
+        opentheso:cb81afcb-2276-4071-b0f2-6927eeb8b5e6,
+        opentheso:cc0e4f29-4baf-40c2-8871-3a27749c26fe,
+        opentheso:cd14cdd4-143e-4f9b-98f1-571f9a8007ab,
+        opentheso:ce504cdf-6f27-4cbd-a661-3cc5d84f38c1,
+        opentheso:d16519f2-2319-4c43-a95a-0bbcdd653f69,
+        opentheso:d34c9d5f-1eb8-4ead-8e7f-132da545dc1c,
+        opentheso:d4761cef-5587-43df-b358-9d429b2a04f2,
+        opentheso:d4845530-3394-4d47-98a7-75b9d3f4d0f7,
+        opentheso:d5270c05-bb18-4d01-a568-aef53c3f8dc4,
+        opentheso:d70157c6-9bbc-413c-bcb2-3a6586569159,
+        opentheso:d7877946-a528-4c5e-9139-3f47659300f5,
+        opentheso:d7bd141a-dc4b-4931-afdd-42647e8b5fa3,
+        opentheso:d8f68bc2-8e8a-465a-8b3f-4167761884a0,
+        opentheso:da9e4dff-128d-4070-95cd-96e2f724b4fe,
+        opentheso:dad60d34-3a23-4ae0-b4c7-6522242d9334,
+        opentheso:df0c4e9d-3bd4-4770-8201-26e17fdb8808,
+        opentheso:df8544dd-868d-4526-b2fe-7c1aba66cfb6,
+        opentheso:df95e3b0-fa0f-47fe-ae40-24b16bd55c03,
+        opentheso:dfc4f567-4e95-4c56-ba59-fcba0cb78cc6,
+        opentheso:e0408489-cb49-4b83-88d3-b073eb5eede3,
+        opentheso:e0f57c8d-f65b-4057-89c8-42459fe56e53,
+        opentheso:e1cbe454-b6c7-4fa4-af43-f55d89bc935f,
+        opentheso:e2bc242f-542c-4198-94c2-fbe799d53488,
+        opentheso:e3ce190d-05d9-49ba-8753-7232705081d7,
+        opentheso:e42bfabf-7cc3-4f25-a883-55ce8df27cb4,
+        opentheso:e49bb0ab-43c1-4558-8d0a-2ce674c60096,
+        opentheso:e4fc067f-233f-4810-b9a1-27be6ec3d845,
+        opentheso:e5321185-8a99-4fb2-92f9-201680296119,
+        opentheso:e5ea7cd1-e9fd-46b5-9463-11c658cad87c,
+        opentheso:e7b17063-1aef-4a99-b337-694c46295b91,
+        opentheso:e8375656-c7a6-4c8c-80bb-2b58113eb505,
+        opentheso:e8c7565e-1940-434b-aa79-ba44f80b9761,
+        opentheso:e8c7d6fe-fe98-4ff1-a554-7f0402ef3e35,
+        opentheso:e8da72b7-ceb9-48eb-93de-e9ff88e41535,
+        opentheso:e9280d95-a8a3-40ac-8f91-9455c24f6869,
+        opentheso:e96a847c-a7c3-48c6-b0bb-46bbf7e246fa,
+        opentheso:e9e1a360-8839-4321-a6b8-8935c0625937,
+        opentheso:eaca130b-661f-4014-8840-99b9eae2f83a,
+        opentheso:eb0eeafe-bd75-48cf-9498-0d8cdb290d14,
+        opentheso:eb10dda0-4109-4923-a2f7-1648fa3e4b12,
+        opentheso:eb7229bf-8689-46bc-8012-03d4aa9e1bcc,
+        opentheso:ec438673-a70a-49e8-b896-4d5dfa39267c,
+        opentheso:ee5487bb-cf03-4d3b-810a-708c57ef56b5,
+        opentheso:eed310e7-3dcc-4e88-ab4d-81f78e56b5d4,
+        opentheso:eeece1b9-e9ae-411a-8a07-9aa50d162b0f,
+        opentheso:f08377fb-9df7-4927-b8b6-735e071da533,
+        opentheso:f136caaa-ffac-42be-9255-00440d11b4c4,
+        opentheso:f13c7810-5a19-47f0-8186-c2430747afc4,
+        opentheso:f1c1212e-54d0-4541-ada6-38d836f46dd4,
+        opentheso:f1caf5f7-1040-49f1-b9ad-515349338431,
+        opentheso:f418f461-70a1-439e-9ae2-27097bf4db09,
+        opentheso:f48008ec-7d74-4da4-a91a-682c6fa3e970,
+        opentheso:f4843118-d67b-4e5b-99ad-1b74e730d2fe,
+        opentheso:f4b50210-9a88-4351-ba25-8b7bc387b4bc,
+        opentheso:f5ec673e-cb3e-4994-b617-6faf91a912a5,
+        opentheso:f60342f6-4ef6-4386-bd9d-2b13bc46a7fb,
+        opentheso:f63c8f19-5ec1-4db0-95ac-b02b143c471c,
+        opentheso:f6d9e8de-288f-4694-a83c-54e564bf3e64,
+        opentheso:f70527ac-9f2e-4216-b844-f5100efed5dd,
+        opentheso:f7f3461c-4695-4a49-9d10-4b53c927de21,
+        opentheso:f8cb6fe7-ab85-4def-b3aa-2e6676532862,
+        opentheso:f8eb5690-08f8-40d0-b671-1e6be1d7ea62,
+        opentheso:f94ce8db-9969-4cd7-b9fa-2cdc98d1a5bb,
+        opentheso:fa4f40c6-a8cb-4804-a117-27cfb58987c8,
+        opentheso:fb50a39e-22ab-4610-982a-9a7920dd395c,
+        opentheso:fb8376ae-16f8-46cc-817e-675a8b854337,
+        opentheso:fb954cba-be40-4fdc-aaec-1bc68898be1a,
+        opentheso:fc27d447-96b8-48b7-afb2-1559cc460165,
+        opentheso:fc91da34-5b0b-4883-b13d-e8834b0a1475,
+        opentheso:fceef8b1-6e9c-4c7a-9b21-219629a9994f,
+        opentheso:fd23ffab-39e2-4140-82fd-f2deabfece28,
+        opentheso:fd3b31cc-6ddb-47d0-ba05-62e32e8647dc,
+        opentheso:fe52a955-f0bc-4c97-bcf7-70bd4154c341,
+        opentheso:fef8d1d8-e24f-4dd5-8357-b3a2388edef5,
+        opentheso:ff23458a-140e-43f2-8a0f-14353dcbdfe7,
+        opentheso:ff4fa823-88e7-438a-b664-05a3ab973448 ;
+    skos:prefLabel "Instruments de musique"@fr .
+

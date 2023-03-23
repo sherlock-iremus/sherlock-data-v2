@@ -66,7 +66,7 @@
     <body>
       <head><hi rend="i">Mercure galant</hi>, août 1692 [tome 10].</head>
       <div type="article" xml:id="MG-1692-08a_010" resp="wordpro">
-        <head>Sur la Prise de Namur. Au Roy</head>
+        <head>[Aubade donnée à la Ville de Namur] Sur la Prise de Namur. Au Roy</head>
         <bibl><title>Mercure galant</title>, août 1692 [tome 10], p. 10-23.</bibl>
         <p>Je vous ay déja fait part de quelques Ouvrages qui ont esté faits sur ce sujet. En voicy
           d’autres, que vous trouverez tres-dignes de l’applaudissement qu’ils ont receu des
@@ -1043,7 +1043,7 @@
             M<hi rend="sup">r</hi> de Luxembourg.</p>
       </div>
       <div type="article" xml:id="MG-1692-08a_274" resp="wordpro">
-        <head>Sur la defaite du Prince d’Orange. Au Roy</head>
+        <head>[Sonnet] Sur la defaite du Prince d’Orange. Au Roy</head>
         <bibl><title>Mercure galant</title>, août 1692 [tome 10], p. 274-275.</bibl>
         <quote>
           <label>SUR LA DEFAITE<lb/>du Prince d’Orange.<lb/>AU ROY.</label>
@@ -1077,10 +1077,8 @@
       </div>
       <div type="article" xml:id="MG-1692-08a_288" resp="angele">
         <head>Air nouveau</head>
-        <bibl><title>Mercure galant</title>, août 1692 [tome 10], p. 288.<note resp="author"
-            place="margin">L'air figure, sous le nom de Montailly, dans le Livre d'airs de
-            différents auteurs, XXXVI, 1693 (cf. LADDA 1693-03).</note></bibl>
-        <p>Je vous envoye un Air nouveau dont assurément les paroles vous plairont.</p>
+        <bibl><title>Mercure galant</title>, août 1692 [tome 10], p. 288.</bibl>
+        <p>Je vous envoye un Air nouveau dont assurément les paroles vous plairont <note resp="editor">L'air est publié sous le nom de Montailly dans le <hi rend="italic">XXXVI. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1693, p. 8-10, cf. LADDA 1693-03).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin">L’Air, page 288.</note>
           <lg>

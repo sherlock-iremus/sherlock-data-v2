@@ -69,8 +69,8 @@
             <label>EXPLICATION<lb/>DE LA GALERIE<lb/>DE VERSAILLES.</label>
             <p>L’Allégorie est la maniere la plus ancienne d’exprimer les pensées par des caracteres. Les lettres n’ont esté en usage que longtemps apres que les Egyptiens eurent, par des figures, laissé à la Postérité les Mistéres de leur Religion, &amp; les Loix de leur Etat. Les Poëtes depuis, sous des sens allégoriques, dans les Métamorphoses, &amp; dans les Fables, nous ont donné les plus beaux préceptes, &amp; les leçons les plus utiles de la Philosophie. [...]</p>
             <p>Dans le second, <hi rend="i">a</hi> on reconnoist l’institution des Académies. Le Roy est accompagné de Minerve, qui tient un Plan de l’Observatoire. L’Académie Françoise porte un Câducée <hi rend="i">b</hi> à la main. Elle est à la teste de ses Compagnes, pour lesquelles elle remercie le Prince de l’honneur de sa protection. [...]</p>
-            <note><p>a <hi rend="i">Du costé des Fenestres.</hi></p></note>
-            <note><p>b <hi rend="i">Symbole de l’Eloquence.</hi></p></note>
+            <note resp="author">a <hi rend="i">Du costé des Fenestres.</hi></note>
+            <note resp="author">b <hi rend="i">Symbole de l’Eloquence.</hi></note>
           </quote>
         </div>
         <div type="article" xml:id="MG-1684-12_085" resp="wordpro">
@@ -311,9 +311,9 @@
         </div>
         <div type="article" xml:id="MG-1684-12_136" resp="mercure">
           <head>[Détails des Cerémonies faites au Mariage de Mad. La Princesse de Hanover]</head>
-          <bibl><title>Mercure galant</title>, décembre 1684 [tome 14], p. 136, 138-139, 150-154, 158-173, 168-174, 180-181.<note resp="author" place="margin">Voir aussi <ref target="MG-1684-11_221">cet article</ref> pour la première relation de ce mariage</note>.</bibl>
+          <bibl><title>Mercure galant</title>, décembre 1684 [tome 14], p. 136, 138-139, 150-154, 158-173, 168-174, 180-181..</bibl>
           <p/>
-          <p>Je vous ay déja parlé du Mariage de Mr le Prince Eléctoral de Brandebourg avec Madame la Princesse de Hanover. En voicy de plus amples circonstances. [...]</p>
+          <p>Je vous ay déja parlé du Mariage de Mr le Prince Eléctoral de Brandebourg avec Madame la Princesse de Hanover <note resp="editor">Voir <ref target="MG-1684-11_221">cet article</ref></note>. En voicy de plus amples circonstances. [...]</p>
           <p/>
           <p>Madame la Princesse de Hanover est une Personne tres-aimable. [...] Pour de l’esprit, elle en a beaucoup, &amp; une douceur fort engageante. Elle chante bien ; jouë du Clavessin, danse avec beaucoup de grace, &amp; sçait ce que fort peu de Personnes sçavent dans un âge aussi-peu avancé que le sien. Elle eue justement seize ans accomplis le jour que se fit son Mariage.</p>
           <p/>
@@ -626,7 +626,7 @@
       <div type="article" xml:id="MG-1684-12_311" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, décembre 1684 [tome 14], p. 311-312.</bibl>
-        <p>Je vous envoye un second Air nouveau qui ne vous plaira pas moins que le premier.</p>
+        <p>Je vous envoye un second Air nouveau qui ne vous plaira pas moins que le premier <note resp="editor">L'air a également été publié, pour voix et basse continue avec variantes rythmiques, dans le <hi rend="italic">XXVIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1685, f. 34v-36, cf. LADDA 1685-27).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par <hi rend="i">Les Tambours &amp; les Trompetes</hi>, doit regarder la page 312.</note>
           <lg><l rend="i">Les Tambours &amp; les Trompetes</l>

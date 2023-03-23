@@ -127,7 +127,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1685-06_001" resp="wordpro">
-        <head>Prélude</head>
+        <head>[Prélude]</head>
         <bibl><title>Mercure galant</title>, juin 1685 [tome 6], p. 1-3</bibl>
         <p>Je vous l’ay dit bien des fois, Madame. L’Eloge du Roy est une matiere inépuisable. Les
           actions qu’il fait dans le cours de chaque mois, dignes d’estre conservées à la posterité,
@@ -415,7 +415,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1685-06_071" resp="wordpro">
-        <head>La Fauvette à Sapho</head>
+        <head>[Vers de Mademoiselle de Scudery] La Fauvette à Sapho</head>
         <bibl><title>Mercure galant</title>, juin 1685 [tome 6], p. 71-74</bibl>
         <p>Ces Vers me font souvenir de ceux que vous m’avez demandez de Mademoiselle de Scudery. Le
           trop de matiere m’empescha de vous les envoyer la derniere fois.</p>
@@ -816,8 +816,7 @@
           [...]</p>
       </div>
       <div type="article" xml:id="MG-1685-06_120">
-        <head> AIR NOUVEAU<note resp="editor" place="margin">Une version antérieure de cet air a été
-            publiée en mai 1684.</note></head>
+        <head> AIR NOUVEAU</head>
         <bibl><title>Mercure galant</title>, juin 1685 [tome 6], p. 120-127</bibl>
         <p>Je vous envoye un Air que vous trouverez fort agréable, si vous considerez seulement le
           chant. Cependant comme il n’est pas tout à fait régulier pour ce qui regarde les paroles
@@ -855,7 +854,7 @@
           grande habitude qu'il a de traiter la Langue Françoise, à laquelle il sçait donner avec
           une entiere justesse le chant qui luy est propre selon les differens mots qu'il doit
           employer. La correction de cét Air est au bas, &amp; l'on pourra voir par là, lequel des
-          deux a raison. En voicy les paroles.</p>
+          deux a raison. En voicy les paroles <note resp="editor">Une version initiale de cet air avait été publiée en avril 1684 (cf. <ref target="MG-1684-04_168">cet article</ref>). Peu après la version amendée de juin 1685, Ballard republie l'air, avec de légères variantes, dans le <hi rend="italic">XXVIII. livre d'airs de différents auteurs</hi> (Paris, Christophe Ballard, 1685, f. 10-11 ; LADDA 1685-08).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label>
           <lg>
@@ -1710,12 +1709,8 @@
       </div>
       <div type="article" xml:id="MG-1685-06_334" resp="angele">
         <head>Air nouveau</head>
-        <bibl><title>Mercure galant</title>, juin 1685 [tome 6], p. 334.<note resp="editor"
-            place="margin">L'air est attribué à Lambert d'après le <hi rend="i">XXIXe Livre d'airs
-              de differents autheurs [...]</hi> (Paris, C. Ballard, 1686), et les sources
-            manuscrites F-Pn/ Vmd. ms. 302, F-Pn/ Res. Vma. ms. 958, F-Pn/ Res. Vmc. ms. 63 et F-Pc/
-            Res. F. 673.</note></bibl>
-        <p>Je vous envoye un second Air qui ne vous déplaira pas.</p>
+        <bibl><title>Mercure galant</title>, juin 1685 [tome 6], p. 334.</bibl>
+        <p>Je vous envoye un second Air qui ne vous déplaira pas <note resp="editor">Attribution à Lambert grâce aux sources manuscrites F-Pn/ Vmd. ms. 302, F-Pn/ Res. Vma. ms. 958 p. 7-8, F-Pn/ Res. Vmc. ms. 63 et F-Pc/ Res. F. 673. L'air a également été publié, avec quelques variantes rythmiques, dans le <hi rend="italic">XXIX. livre d'airs de differents auteurs</hi> (Paris, Christophe Ballard, 1686, f. 7-7v ; LADDA 1686-05).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par <hi rend="i">Je suis aimé de celle

@@ -1,1 +1,0 @@
-python3 .\rdfizers\mg\indexations-caca-to-directus.py --secret_file .\directus\opentheso2directus.secret.yaml --caca_folder .\sources\rar\indexations\ --data out/temp/mg-indexations-stagiaires.json --skos_lieux_json_from_ot out/temp/skos_lieux_json_from_ot.json

@@ -345,7 +345,7 @@
         </quote>
       </div>
       <div type="article" xml:id="MG-1687-05_024" resp="wordpro">
-        <head>Au Roy. Sur ce qu’en le peignant on ne sçauroit peindre sa Grandeur</head>
+        <head>[Sonnet] Au Roy. Sur ce qu’en le peignant on ne sçauroit peindre sa Grandeur</head>
         <bibl><title>Mercure galant</title>, mai 1687 [tome 7], p. 24-26</bibl>
         <p>Le Sonnet qui suit consolera vos Amies du besoin qu’elles auront que vous leur donniez
           l’explication de ces deux Vers. Il est de M<hi rend="sup">r</hi> Robbe, connu par
@@ -385,7 +385,7 @@
       <div type="article" xml:id="MG-1687-05_042" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, mai 1687 [tome 7], p. 42-43.</bibl>
-        <p>Je vous envoye un Printemps que vous chanterez avec plaisir. Les Vers ont esté notez par un des plus Sçavans hommes que nous ayons en Musique.</p>
+        <p>Je vous envoye un Printemps que vous chanterez avec plaisir. Les Vers ont esté notez par un des plus Sçavans hommes que nous ayons en Musique <note resp="editor">L'air <ref target="MG-1687-05_350"><hi rend="italic">Toutes les fois que je vous vois</hi></ref> est du même compositeur, non identifié, que celui-ci.</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Taisez-vous, Rossignols, vostre chant m'importunne</hi>, doit regarder la page 43.</note>
           <lg><l rend="i">Taisez-vous, Rossignols, vostre chant m'importune,</l>
@@ -1629,7 +1629,7 @@
           partie.</p>
       </div>
       <div type="article" xml:id="MG-1687-05_339" resp="wordpro">
-        <head>[Sur le livre de voyage du chevalier Chardin]*</head>
+        <head>[Livres nouveaux] [Sur le livre de voyage du chevalier Chardin]*</head>
         <bibl><title>Mercure galant</title>, mai 1687 [tome 7], p. 339-342</bibl>
         <p>Vous n’entendez, dites-vous, parler que du voyage de M<hi rend="sup">r</hi> le Chevalier
           Chardin, imprimé en Angleterre, en Hollande, &amp; en France. Vous m’en demandez la
@@ -1699,7 +1699,7 @@
       <div type="article" xml:id="MG-1687-05_350" resp="angele">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, mai 1687 [tome 7], p. 350-351.</bibl>
-        <p>Vous avez trouvé un Printemps au commencement de cette Lettre ; voi-cy une autre Chanson du mesme Autheur.</p>
+        <p>Vous avez trouvé un Printemps au commencement de cette Lettre ; voi-cy une autre Chanson du mesme Autheur <note resp="editor">L'air <ref target="MG-1687-05_042"><hi rend="italic">Taisez-vous rossignols</hi></ref> est du même compositeur, non identifié, que celui-ci.</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Toutes les fois que je vous voy</hi>, doit regarder la page 350.</note>
           <lg><l rend="i">TOUTES les fois que je vous voy,</l>

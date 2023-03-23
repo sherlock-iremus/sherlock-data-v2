@@ -1,0 +1,38 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:40bcb6ff-dcb4-4e51-a09d-6508d5326486 a skos:Concept ;
+    dctrerms:identifier "40bcb6ff-dcb4-4e51-a09d-6508d5326486" ;
+    skos:inScheme opentheso:d27bf851-3a1c-463d-b04d-b56f7ce7b1de ;
+    skos:prefLabel "Numérique"@fr .
+
+opentheso:4b3f5f03-f786-4955-a8cf-6f19a812186c a skos:Concept ;
+    dctrerms:identifier "4b3f5f03-f786-4955-a8cf-6f19a812186c" ;
+    skos:inScheme opentheso:d27bf851-3a1c-463d-b04d-b56f7ce7b1de ;
+    skos:prefLabel "Diapositive"@fr .
+
+opentheso:72f9c788-73af-474a-861e-2b62364d86cb a skos:Concept ;
+    dctrerms:identifier "72f9c788-73af-474a-861e-2b62364d86cb" ;
+    skos:inScheme opentheso:d27bf851-3a1c-463d-b04d-b56f7ce7b1de ;
+    skos:prefLabel "APS"@fr .
+
+opentheso:b101f62f-2040-4269-b3a9-3c54e2334c94 a skos:Concept ;
+    dctrerms:identifier "b101f62f-2040-4269-b3a9-3c54e2334c94" ;
+    skos:inScheme opentheso:d27bf851-3a1c-463d-b04d-b56f7ce7b1de ;
+    skos:prefLabel "Ekta"@fr .
+
+opentheso:e05c2707-aac8-4739-8c9d-2c91b6ad60e9 a skos:Concept ;
+    dctrerms:identifier "e05c2707-aac8-4739-8c9d-2c91b6ad60e9" ;
+    skos:inScheme opentheso:d27bf851-3a1c-463d-b04d-b56f7ce7b1de ;
+    skos:prefLabel "tirage papier"@fr .
+
+opentheso:d27bf851-3a1c-463d-b04d-b56f7ce7b1de a skos:ConceptScheme ;
+    dctrerms:identifier "d27bf851-3a1c-463d-b04d-b56f7ce7b1de" ;
+    skos:hasTopConcept opentheso:40bcb6ff-dcb4-4e51-a09d-6508d5326486,
+        opentheso:4b3f5f03-f786-4955-a8cf-6f19a812186c,
+        opentheso:72f9c788-73af-474a-861e-2b62364d86cb,
+        opentheso:b101f62f-2040-4269-b3a9-3c54e2334c94,
+        opentheso:e05c2707-aac8-4739-8c9d-2c91b6ad60e9 ;
+    skos:prefLabel "Supports"@fr .
+

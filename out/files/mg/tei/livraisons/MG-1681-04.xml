@@ -668,9 +668,7 @@
    </div>
    <div type="article" xml:id="MG-1681-04_127">
     <head>[Mort de Francisque Corbet, &amp; son Epitaphe]</head>
-    <bibl><title>Mercure galant</title>, avril 1681 [tome 4], p. 127-133.<note resp="author"
-      place="margin">Voir <ref target="MG-1679-03_281">le Dialogue de Mars, la Victoire et la Paix
-       dans le <hi rend="i">Mercure</hi> de mars 1679</ref></note></bibl>
+    <bibl><title>Mercure galant</title>, avril 1681 [tome 4], p. 127-133.</bibl>
     <p>Dans ce mesme temps nous avons perdu un Homme, qui par les merveilles de sa Guitarre, a
      remply toute l’Europe de sa réputation. C’est le S<hi rend="sup">r</hi> Francisque Corbet. Son
      mérite qui estoit tres-singulier, m’oblige à m’étendre un peu sur son histoire. Il est né à
@@ -696,7 +694,7 @@
      mesme estime, &amp; sur tout il a reçeu dans ses derniers jours plusieurs marques sensibles des
      bontez de Son Altesse Royale Madame. M<hi rend="sup">r</hi> Médard qui a pris de ses Leçons,
      &amp; qui est Autheur du Concert de la Paix, dont je vous ay parlé dans quelqu’une de mes
-     Lettres, ne s’est pas contenté de composer une Piece sur sa Guitarre, qui exprime les plaintes
+     Lettres<note resp="editor">Voir le Dialogue de Mars, la Victoire et la Paix dans le <hi rend="i">Mercure galant</hi> de <ref target="MG-1679-03_281">mars 1679</ref>.</note>, ne s’est pas contenté de composer une Piece sur sa Guitarre, qui exprime les plaintes
      de cet Instrument sur la mort de son Maistre. Il a voulu encor faire voir par l’Epitaphe qui
      suit, combien sa mémoire luy estoit chere.</p>
     <quote>
@@ -725,13 +723,11 @@
    </div>
    <div type="article" xml:id="MG-1681-04_133">
     <head>[Balet dancé à Hanover, avec les Vers du Sujet]</head>
-    <bibl><title>Mercure galant</title>, avril 1681 [tome 4], p. 133-200.<note resp="author"
-      place="margin"><ref target="MG-1681-08_144">Article du <hi rend="i">Mercure</hi> d'août
-       1681</ref> qui signale une reprise des Charmes de l'Amour</note></bibl>
+    <bibl><title>Mercure galant</title>, avril 1681 [tome 4], p. 133-200.</bibl>
     <p>Pendant que Monseigneur le Dauphin faisoit préparer le magnifique Balet du Triomphe de
      l’Amour, qui a servy de divertissement à Leurs Majestez tout le Carnaval, la Cour de Hanover
      qui imite si galamment toutes les manieres de celle de France, se disposoit à faire paroistre
-     une Mascarade mise en Balet, presque sous le mesme titre. Ce Balet, appellé <hi rend="i">le
+     une Mascarade mise en Balet, presque sous le mesme titre<note resp="editor"><ref target="MG-1681-08_144">Cet article</ref> paru en août 1681 signale une reprise des Charmes de l'Amour</note>. Ce Balet, appellé <hi rend="i">le
       Charme de l’Amour</hi>, a esté dancé par Madame la Princesse de Hanover, Fille aînée du Duc
      qui porte aujourd’huy ce nom, à qui elle a voulu témoigner, en luy donnant ce Spéctacle, la
      joye qu’elle avoit de son retour d’Italie. On avoit feint, pour Sujet de la Mascarade, que
@@ -1995,8 +1991,7 @@
     <head>[Mort de l’abbesse de Malnouë]*</head>
     <bibl><title>Mercure galant</title>, avril 1681 [tome 4], p. 288-294.</bibl>
     <p>Je viens d’apprendre la mort de Madame l’Abbesse de Malnouë<note resp="editor"><hi rend="i"
-       >Malmouë</hi> dans le texte original. Cependant on peut lire la forme <hi rend="i"
-       >Malnouë</hi> plus bas.</note>, arrivée le 8. de ce mois. Elle s’appelloit Marie-Eleonor de
+       >Malmouë</hi> dans le texte original ; nous corrigeons en suivant la graphie usuelle.</note>, arrivée le 8. de ce mois. Elle s’appelloit Marie-Eleonor de
      Rohan, &amp; estoit Fille d’Hercule de Rohan, Duc de Montbazon, Pair &amp; Grand-Véneur de
      France, &amp; de Marie de Bretagne. Ceux qui connoistront la grandeur &amp; l’antiquité de ce
      Nom illustre, sçauront que c’est assez, pour rendre la naissance de cette Princesse
@@ -2258,7 +2253,7 @@
       rend="i">l’Histoire.</hi></p>
    </div>
    <div type="article" xml:id="MG-1681-04_346">
-    <head>[Explication de la seconde Enigme […]]</head>
+    <head>[Explication de la seconde Enigme avec les noms de ceux qui en ont trouvé le sens]</head>
     <bibl><title>Mercure galant</title>, avril 1681 [tome 4], p. 346.</bibl>
     <p>La seconde a donné lieu à ce Madrigal de M<hi rend="sup">r</hi> de S. Placide, du Cloistre S.
      Germain de Lauxerrois.</p>

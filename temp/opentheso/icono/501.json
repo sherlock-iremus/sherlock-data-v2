@@ -1,0 +1,1668 @@
+[
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//66666/th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/created": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#date",
+                "@value": "2023-02-20"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/language": [
+            {
+                "@value": "fr"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#date",
+                "@value": "2023-02-20"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "[ICONO] Périodes"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=14746925-9c24-4803-8eed-4299a194bb58&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=0a7049b6-e15c-4d2a-8443-d9ab78e082e1&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=05d7a305-e10f-4a33-a31c-4ee0516353a1&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3d301254-e067-46c9-b03b-5f42bc5b2650&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=148cab97-2ec1-4b2d-b195-e41f268a87dd&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=18f37b6f-d142-43f6-a2a6-0ad685d8cace&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=21181da8-e241-491c-9f26-e3f69cc50f0b&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3873b07c-16aa-47f1-be95-496d1a385b54&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3f51a364-dd30-4b63-926a-f27c11ed008b&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3ed69df7-236b-4e43-a706-c80ffc4a23c4&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=5e07e461-7b01-4493-9504-51a90e71c308&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=5344c792-e3d6-431a-874b-04c91c313a35&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=4d46d3ea-0cc6-4d36-bc55-4c95fdd83497&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=553c3ce3-f827-486b-94f0-40a4e84716ee&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=62e6a8e3-94d9-419c-b0e1-9c62b3666717&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=92bd8251-1845-48a0-b794-b53ad72c76f1&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=70df216c-d491-4920-bafa-12197abeacc7&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=7ed12b22-9a25-4cd6-8137-fc7959d31c12&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=a0905123-4649-4fc3-8ccc-2341fcd01b54&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=bdfdd084-443f-4d01-9753-3b9d5cd74687&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=a881dc34-028e-4b4f-89dc-fd9c748c0d01&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d7cf8105-c80f-418c-9d03-4609847e3bad&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=caef433b-9739-4480-bb24-78fce686e208&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=cc2ec291-d013-4b6e-8d48-655bb1f7430a&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d141bdaa-7a71-471b-9507-8938db38759a&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d06ea777-ca8f-4820-a046-a033e214dff5&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d6cbde73-d545-49e5-b669-1bdce893a76b&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=ea170bea-4080-41e1-9c64-e114bf481212&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=e2519f29-e880-44ca-80c5-c61d4d65f637&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=e917efdf-d1ab-4189-a74b-ca9af35027d0&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=ff64f0bf-a02e-4278-8bb3-60a661b7d4af&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f4ae3d66-5235-4c4f-b1fe-61fde9815678&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f6a35902-d0f9-4949-b071-bf9abd65172e&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f161e15d-4be3-420b-8d11-c4cb2d0c8ba1&idt=th501"
+            },
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f67ce01b-b412-4487-a02c-670d5af8a454&idt=th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "[ICONO] Périodes"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=05d7a305-e10f-4a33-a31c-4ee0516353a1&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "05d7a305-e10f-4a33-a31c-4ee0516353a1"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "05d7a305-e10f-4a33-a31c-4ee0516353a1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "13e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=0a7049b6-e15c-4d2a-8443-d9ab78e082e1&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "0a7049b6-e15c-4d2a-8443-d9ab78e082e1"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "0a7049b6-e15c-4d2a-8443-d9ab78e082e1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "18e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=14746925-9c24-4803-8eed-4299a194bb58&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "14746925-9c24-4803-8eed-4299a194bb58"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "14746925-9c24-4803-8eed-4299a194bb58"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1ère moitié 17e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=148cab97-2ec1-4b2d-b195-e41f268a87dd&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "148cab97-2ec1-4b2d-b195-e41f268a87dd"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "148cab97-2ec1-4b2d-b195-e41f268a87dd"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "4e quart 18e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=18f37b6f-d142-43f6-a2a6-0ad685d8cace&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "18f37b6f-d142-43f6-a2a6-0ad685d8cace"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "18f37b6f-d142-43f6-a2a6-0ad685d8cace"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "11e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=21181da8-e241-491c-9f26-e3f69cc50f0b&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "21181da8-e241-491c-9f26-e3f69cc50f0b"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "21181da8-e241-491c-9f26-e3f69cc50f0b"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1er quart 15e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3873b07c-16aa-47f1-be95-496d1a385b54&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "3873b07c-16aa-47f1-be95-496d1a385b54"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "3873b07c-16aa-47f1-be95-496d1a385b54"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e moitié 16e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3d301254-e067-46c9-b03b-5f42bc5b2650&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "3d301254-e067-46c9-b03b-5f42bc5b2650"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "3d301254-e067-46c9-b03b-5f42bc5b2650"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "17e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3ed69df7-236b-4e43-a706-c80ffc4a23c4&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "3ed69df7-236b-4e43-a706-c80ffc4a23c4"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "3ed69df7-236b-4e43-a706-c80ffc4a23c4"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1ère moitié 18e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=3f51a364-dd30-4b63-926a-f27c11ed008b&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "3f51a364-dd30-4b63-926a-f27c11ed008b"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "3f51a364-dd30-4b63-926a-f27c11ed008b"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e moitié 19e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=4d46d3ea-0cc6-4d36-bc55-4c95fdd83497&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "4d46d3ea-0cc6-4d36-bc55-4c95fdd83497"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "4d46d3ea-0cc6-4d36-bc55-4c95fdd83497"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "19e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=5344c792-e3d6-431a-874b-04c91c313a35&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "5344c792-e3d6-431a-874b-04c91c313a35"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "5344c792-e3d6-431a-874b-04c91c313a35"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "14e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=553c3ce3-f827-486b-94f0-40a4e84716ee&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "553c3ce3-f827-486b-94f0-40a4e84716ee"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "553c3ce3-f827-486b-94f0-40a4e84716ee"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1er millénaire"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=5e07e461-7b01-4493-9504-51a90e71c308&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "5e07e461-7b01-4493-9504-51a90e71c308"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "5e07e461-7b01-4493-9504-51a90e71c308"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "ère chrétienne"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=62e6a8e3-94d9-419c-b0e1-9c62b3666717&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "62e6a8e3-94d9-419c-b0e1-9c62b3666717"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "62e6a8e3-94d9-419c-b0e1-9c62b3666717"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1ère moitié 16e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=70df216c-d491-4920-bafa-12197abeacc7&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "70df216c-d491-4920-bafa-12197abeacc7"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "70df216c-d491-4920-bafa-12197abeacc7"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1er quart 16e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=7ed12b22-9a25-4cd6-8137-fc7959d31c12&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "7ed12b22-9a25-4cd6-8137-fc7959d31c12"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "7ed12b22-9a25-4cd6-8137-fc7959d31c12"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1ère moitié 19e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=92bd8251-1845-48a0-b794-b53ad72c76f1&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "92bd8251-1845-48a0-b794-b53ad72c76f1"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "92bd8251-1845-48a0-b794-b53ad72c76f1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "4e quart 14e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=a0905123-4649-4fc3-8ccc-2341fcd01b54&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "a0905123-4649-4fc3-8ccc-2341fcd01b54"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "a0905123-4649-4fc3-8ccc-2341fcd01b54"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "4e quart 16e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=a881dc34-028e-4b4f-89dc-fd9c748c0d01&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "a881dc34-028e-4b4f-89dc-fd9c748c0d01"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "a881dc34-028e-4b4f-89dc-fd9c748c0d01"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e millénaire"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "20e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=bdfdd084-443f-4d01-9753-3b9d5cd74687&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "bdfdd084-443f-4d01-9753-3b9d5cd74687"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "bdfdd084-443f-4d01-9753-3b9d5cd74687"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "12e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=caef433b-9739-4480-bb24-78fce686e208&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "caef433b-9739-4480-bb24-78fce686e208"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "caef433b-9739-4480-bb24-78fce686e208"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e moitié 14e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=cc2ec291-d013-4b6e-8d48-655bb1f7430a&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "cc2ec291-d013-4b6e-8d48-655bb1f7430a"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "cc2ec291-d013-4b6e-8d48-655bb1f7430a"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1ère moitié 15e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d06ea777-ca8f-4820-a046-a033e214dff5&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "d06ea777-ca8f-4820-a046-a033e214dff5"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "d06ea777-ca8f-4820-a046-a033e214dff5"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1er quart 19e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d141bdaa-7a71-471b-9507-8938db38759a&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "d141bdaa-7a71-471b-9507-8938db38759a"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "d141bdaa-7a71-471b-9507-8938db38759a"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "4e quart 19e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d6cbde73-d545-49e5-b669-1bdce893a76b&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "d6cbde73-d545-49e5-b669-1bdce893a76b"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "d6cbde73-d545-49e5-b669-1bdce893a76b"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e moitié 18e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=d7cf8105-c80f-418c-9d03-4609847e3bad&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "d7cf8105-c80f-418c-9d03-4609847e3bad"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "d7cf8105-c80f-418c-9d03-4609847e3bad"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e moitié 15e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=e2519f29-e880-44ca-80c5-c61d4d65f637&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "e2519f29-e880-44ca-80c5-c61d4d65f637"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "e2519f29-e880-44ca-80c5-c61d4d65f637"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "9e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=e917efdf-d1ab-4189-a74b-ca9af35027d0&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "e917efdf-d1ab-4189-a74b-ca9af35027d0"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "e917efdf-d1ab-4189-a74b-ca9af35027d0"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "4e quart 15e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=ea170bea-4080-41e1-9c64-e114bf481212&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "ea170bea-4080-41e1-9c64-e114bf481212"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "ea170bea-4080-41e1-9c64-e114bf481212"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "2e moitié 17e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f161e15d-4be3-420b-8d11-c4cb2d0c8ba1&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "f161e15d-4be3-420b-8d11-c4cb2d0c8ba1"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "f161e15d-4be3-420b-8d11-c4cb2d0c8ba1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "16e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f4ae3d66-5235-4c4f-b1fe-61fde9815678&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "f4ae3d66-5235-4c4f-b1fe-61fde9815678"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "f4ae3d66-5235-4c4f-b1fe-61fde9815678"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "10e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f67ce01b-b412-4487-a02c-670d5af8a454&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "f67ce01b-b412-4487-a02c-670d5af8a454"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "f67ce01b-b412-4487-a02c-670d5af8a454"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "4e quart 17e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=f6a35902-d0f9-4949-b071-bf9abd65172e&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "f6a35902-d0f9-4949-b071-bf9abd65172e"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "f6a35902-d0f9-4949-b071-bf9abd65172e"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "1er quart 17e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    },
+    {
+        "@id": "https://opentheso.huma-num.fr/opentheso//?idc=ff64f0bf-a02e-4278-8bb3-60a661b7d4af&idt=th501",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/contributor": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/creator": [
+            {
+                "@value": "tbottini"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "@value": "ff64f0bf-a02e-4278-8bb3-60a661b7d4af"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "ff64f0bf-a02e-4278-8bb3-60a661b7d4af"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@language": "fr",
+                "@value": "15e siècle"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "https://opentheso.huma-num.fr/opentheso//th501"
+            }
+        ]
+    }
+]

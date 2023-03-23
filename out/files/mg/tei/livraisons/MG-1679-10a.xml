@@ -433,7 +433,7 @@
             <l rend="i"><seg type="tab">    </seg>Ont-ils bien consulté le vostre ?</l>
           </lg>
         </quote>
-        <p>Le tour aisé de ces Vers méritoit bien qu’un grand Maistre les fist chanter. Tout ce que vous avez veu de cet Autheur a toûjours esté de vostre goust, &amp; je croy que vous apprendrez avec beaucoup de plaisir qu’il promet de me donner ses Airs tous les Mois. Ce sera un embellissement pour mes Lettres où vous les aurez corrects, au lieu qu’en les surprenant comme on fait, pour les insérer dans les Livres de diférens Autheurs, on les défigure par mille fautes<note resp="author" ><ref target="MG-1679-11_1679">Cet article</ref> et <ref target="MG-1679-09e_278">celui-ci</ref> font allusion à cette contrefaçon</note>. Cela se peut remarquer mesme dans celuy qu’on a imprimé cette année, intitulé, <hi rend="i">Premier Livre d’Airs sérieux &amp; à boire, de diférens Autheurs</hi>. Ce Livre n’est à proprement parler que son <hi rend="i">Journal des Nouveautez du Chant</hi> de 1678. qui se vendoit chaque Mois en petits Cayers, &amp; qu’on vend présentement relié en deux Volumes chez les Sieurs de Luyne &amp; Blageart, avec ses seconds Couplets en diminution ; le tout gravé au Burin.</p>
+        <p>Le tour aisé de ces Vers méritoit bien qu’un grand Maistre les fist chanter. Tout ce que vous avez veu de cet Autheur a toûjours esté de vostre goust, &amp; je croy que vous apprendrez avec beaucoup de plaisir qu’il promet de me donner ses Airs tous les Mois. Ce sera un embellissement pour mes Lettres où vous les aurez corrects, au lieu qu’en les surprenant comme on fait, pour les insérer dans les Livres de diférens Autheurs, on les défigure par mille fautes<note resp="editor" ><ref target="MG-1679-11_1679">Cet article</ref> et <ref target="MG-1679-09e_278">celui-ci</ref> font allusion à cette contrefaçon</note>. Cela se peut remarquer mesme dans celuy qu’on a imprimé cette année, intitulé, <hi rend="i">Premier Livre d’Airs sérieux &amp; à boire, de diférens Autheurs</hi>. Ce Livre n’est à proprement parler que son <hi rend="i">Journal des Nouveautez du Chant</hi> de 1678. qui se vendoit chaque Mois en petits Cayers, &amp; qu’on vend présentement relié en deux Volumes chez les Sieurs de Luyne &amp; Blageart, avec ses seconds Couplets en diminution ; le tout gravé au Burin.</p>
         <ref target="images/1679-10a_098.JPG">
           <figure>
             <graphic url="images/1679-10a_098.JPG"/>
@@ -1552,15 +1552,15 @@
       <div type="article" xml:id="MG-1679-10a_321" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, octobre 1679 (première partie) [tome 10], p. 321-322.
-            <note resp="editor" place="margin">Selon le <hi rend="italic">Mercure galant</hi>, les airs <ref target="MG-1679-10a_098"><hi rend="i">Vous demandez des vers</hi></ref>, <ref target="MG-1679-10a_321"><hi rend="i">Vous avez de l'esprit</hi></ref>, <ref
+            </bibl>
+        <p>Voicy un second Air nouveau, dont j’ay fait graver les Notes pour vous. Il est du mesme
+          Autheur que le premier, &amp; fait à la priere de la mesme Dame qui en a aussi donné les
+          Paroles<note resp="editor" place="margin">Selon le <hi rend="italic">Mercure galant</hi>, les airs <ref target="MG-1679-10a_098"><hi rend="i">Vous demandez des vers</hi></ref>, <ref target="MG-1679-10a_321"><hi rend="i">Vous avez de l'esprit</hi></ref>, <ref
 target="MG-1679-11_040"><hi rend="i">Je suis prêt de revoir</hi></ref>, <ref
  target="MG-1679-11_332"><hi rend="i">Premier objet de ma tendresse</hi></ref>, <ref
  target="MG-1679-12_082"><hi rend="i">Pendant que vous donnez</hi></ref>, <ref
  target="MG-1680-01a_174"><hi rend="i">Reine aussi belle que bonne</hi></ref> sont dus
- au même auteur. Or <ref target="MG-1679-11_040">cet article </ref> permet d'attribuer l'air <ref target="MG-1679-10a_098"><hi rend="i">Vous demandez des vers</hi></ref> à Bertrand de Bacilly qui serait donc aussi l'auteur des autres airs cités. </note></bibl>
-        <p>Voicy un second Air nouveau, dont j’ay fait graver les Notes pour vous. Il est du mesme
-          Autheur que le premier, &amp; fait à la priere de la mesme Dame qui en a aussi donné les
-          Paroles.</p>
+ au même auteur. Or <ref target="MG-1679-11_040">cet article </ref> permet d'attribuer l'air <ref target="MG-1679-10a_098"><hi rend="i">Vous demandez des vers</hi></ref> à Bertrand de Bacilly qui serait donc aussi l'auteur des autres airs cités. </note>.</p>
         <quote>
           <label type="head">AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i"
               >Avis pour placer les Figures</hi> : l’Air qui commence par <hi rend="i">Vous avez de

@@ -124,8 +124,7 @@
           <l>D’un Héros accomply l’infaillible présage,</l>
           <l>Me montra dans le cours d’un heureux avenir,</l>
           <l>Parce qu’il est déja, ce qu’il doit devenir.</l>
-          <l> <note n="1" place="bottom"> Messieurs les Princes de Conty. [note issue du texte
-              original]</note>Glorieux Rejettons du cette tige Illustre,</l>
+          <l> <note resp="author"> Messieurs les Princes de Conty.</note>Glorieux Rejettons du cette tige Illustre,</l>
           <l>D’où les Lys ont tiré tant de force &amp; de lustre,</l>
           <l>Ornemens précieux de sa nouvelle Cour,</l>
           <l>Dont les charmes naissans croissent de jour en jour,</l>
@@ -1667,7 +1666,7 @@
       <div type="article" xml:id="MG-1678-07_250" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, juillet 1678 [tome 7], p. 250-251.</bibl>
-        <p>Encor un Air nouveau, &amp; je passe à un Article qui fait l’entretien de tout Paris. Les Vers d’une petite Piece que je vous envoyay il y a quelque temps<note resp="editor">Cet air met en musique la première strophe d'un poème publié sous le titre de 'L'amour sans partage" dans la livraison de mars 1678 du Mercure galant (cf. <ref target= "MG-1678-03_065"></ref>).</note>, ont tellement plû à M. l’Abbé Brossard, qu’il en a mis le premier Quatrain en Air.</p>
+        <p>Encor un Air nouveau, &amp; je passe à un Article qui fait l’entretien de tout Paris. Les Vers d’une petite Piece que je vous envoyay il y a quelque temps<note resp="editor">Cet air met en musique la première strophe d'un poème publié sous le titre de "L'amour sans partage" dans la livraison de mars 1678 du <hi rend="italic">Mercure galant</hi> (cf. <ref target= "MG-1678-03_065"></ref>).</note>, ont tellement plû à M. l’Abbé Brossard, qu’il en a mis le premier Quatrain en Air.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par, <hi rend="i">Vous demandez, Iris,
@@ -1716,11 +1715,9 @@
       </div>
       <div type="article" xml:id="MG-1678-07_252b" resp="mercure">
         <head>[Procés touchant la cessation du Testament de Madame du Puis.]</head>
-        <bibl><title>Mercure galant</title>, juillet 1678 [tome 7], p. 252-260.<note resp="author"
-            place="margin"/><ref target="MG-1677-12_056"><hi rend="i">Article</hi></ref> dans <hi
-            rend="i">Mercure</hi></bibl>
+        <bibl><title>Mercure galant</title>, juillet 1678 [tome 7], p. 252-260.</bibl>
         <p>Vous avez veu dans quelqu’une de mes Lettres plusieurs Articles du Testament de Madame Du
-          Puis, celebre Joüeuse de Harpe. Ce Testement a fait grand bruit depuis peu. On a plaidé
+          Puis, celebre Joüeuse de Harpe <note resp="editor">Voir <ref target="MG-1677-12_056">cet article.</ref></note>. Ce Testement a fait grand bruit depuis peu. On a plaidé
           pour le faire casser ; &amp; M<hi rend="sup">rs</hi> Maurice, Vautier &amp; de Feriere,
           fameux Avocats, on fait paroistre leur esprit, le premier en le defendant, &amp; les deux
           autres en l’attaquant. La Pension que la Defunte laisse à son Chat, &amp; les Visites

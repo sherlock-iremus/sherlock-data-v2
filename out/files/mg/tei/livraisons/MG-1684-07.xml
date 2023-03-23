@@ -168,7 +168,7 @@
               <l rend="i">Et dans nos jours heureux, le célebre Vauban</l>
               <l rend="i">A perfectionné le Dessein de Pagan.</l>
             </lg>
-            <note><p>* Bertolde Schuvart, Cordelier Allemand, inventa la Poudre à Canon, il y a trois cens ans.</p></note>
+            <note resp="author">* Bertolde Schuvart, Cordelier Allemand, inventa la Poudre à Canon, il y a trois cens ans.</note>
           </quote>
         </div>
         <div type="article" xml:id="MG-1684-07_015" resp="mercure">
@@ -598,8 +598,8 @@
         </div>
       <div type="article" xml:id="MG-1684-07_096" resp="angele">
         <head>Air nouveau</head>
-        <bibl><title>Mercure galant</title>, juillet 1684 [tome 9], p. 96-97.  <note resp="editor" place="margin">L'attribution de cet air à Lambert est possible grâce au « XXVIIIe Livre d'airs de differents autheurs [...] » (Paris, C. Ballard, 1685), ainsi que par les sources manuscrites F-Pn/ Res. Vmd. ms. 302 et Res. Vma. ms. 958. </note></bibl>
-        <p>Si vous avez esté contente depuis quelques mois de tous les Airs nouveaux que je vous ay envoyez, vous ne le serez pas moins de celuy-cy, puis qu'il est de la composition d'un des plus grands Maistres que nous ayons en Musique.</p>
+        <bibl><title>Mercure galant</title>, juillet 1684 [tome 9], p. 96-97. </bibl>
+        <p>Si vous avez esté contente depuis quelques mois de tous les Airs nouveaux que je vous ay envoyez, vous ne le serez pas moins de celuy-cy, puis qu'il est de la composition d'un des plus grands Maistres que nous ayons en Musique <note resp="editor">Attribution de cet air à Lambert grâce aux <hi rend="italic">Airs de M. Lambert</hi> (Paris, Christophe Ballard, 1686, p. 28-30) et aux sources manuscrites F-Pn/ Res. Vmd. ms. 302 et Res. Vma. ms. 958 p. 177. L'air a également été publié, avec basse continue et avec variantes rythmiques pour la partie vocale, dans le <hi rend="italic">XXVIII. Livre d'airs de differents auteurs</hi> (Paris, Christophe Ballard, 1685, f. 1v-2 ; LADDA 1685-01).</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air qui commence par <hi rend="i">Une jeune &amp; tendre beauté</hi>, doit regarder la page 97.</note>
           <lg><l rend="i">Une jeune &amp; tendre Beauté</l>

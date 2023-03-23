@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1683-03e">
+sentiments<?xml-model href="https://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre" xml:id="MG-1683-03e">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,7 +101,7 @@
           </quote>
         </div>
         <div type="article" xml:id="MG-1683-03e_065" resp="nbb">
-          <head>[Sentiments sur les questions posées par les précédents Extraordinaires]</head>
+          <head>[Sentiments sur les questions posées par les précédents Extraordinaires]*</head>
           <bibl><title>Extraordinaire du Mercure Galant</title>, quartier de janvier [tome 21], 1683, p. 65-81</bibl>
           <quote>
             <label>Si la beauté de l’Esprit est plus<lb/>propre à charmer que celle<lb/>du Corps.</label>
@@ -228,7 +228,7 @@
           </quote>
         </div>
         <div type="article" xml:id="MG-1683-03e_102" resp="nbb">
-          <head>[Epître de Mr Comiers à Monseigneur le Duc de Bougogne]</head>
+          <head>[Epître de Mr Comiers à Monseigneur le Duc de Bougogne]*</head>
           <bibl><title>Extraordinaire du Mercure Galant</title>, quartier de janvier [tome 21], 1683, p. 102-108.</bibl>
           <quote>
             <p><hi rend="i">Lors que je vous eus envoyé le commencement du Traité des Lunetes employé dans le XIX. Tome de l’Extraordinaire, vous me témoignastes que puis qu’il estoit dédié à Monseigneur le Duc de Bourgogne, vous seriez bien-aise d’en voir l’Epistre, parce qu’il avoit paru singulier à quelques-uns qu’on eust adressé un Traité de cette nature à un Prince qui estoit encor dans le Berceau. Lisez, Madame, &amp; faites lire à tous vos Amis cette Epistre qu’ils attendent avec tant d’impatience. Ils la trouveront tres-digne de son Autheur, &amp; je ne doute point qu’apres l’avoir lûe, ils n’avoüent que les choses les plus éloignées entr’elles, peuvent avoir du raport, pourveu qu’on les sçache bien tourner. Voicy de quelle maniere M<hi rend="sup">r</hi> Comiers parle à Monseigneur le Duc de Bourgogne.</hi></p>
@@ -737,7 +737,7 @@
           <p>Bergomas a remarqué que l'usage des grandes Cloches n'a esté introduit chez les Grecs dans l'Asie, que depuis l'an 870 parce qu'un certain Duc de Venise, nommé Ursus, en envoya douze d'une grandeur assez considerable à l'Empereur Basile, alors regnant à Constantinople ; ce qui fait voir qu'on ne s'y servoit que de petites Cloches, ou de Symandres jusques à ce temps là.</p>
           <p>Mais puis que nous tombons sur la grandeur des Cloches, il s'en trouve de prodigieuses en tout, &amp; ausquelles la pesanteur s'égale à la grandeur &amp; à la largeur. Entre les plus considerables, l'on en vante une à Milan, &amp; l'autre à Parme. Mais celle qui est la plus renommée de toute l'Europe, est dans l'Allemagne, en la Ville d'Erford. Le son s'en entend jusques à six lieuës d'Alemagne, qui font vingt-quatre milles d'Italie, &amp; plus de huit lieuës de France. C'est cette Cloche dont parlent avec admiration Kircher en ses <hi rend="i">Sons Harmonieux &amp; Organiques</hi>, &amp; Ortelius dans son Traité <hi rend="i">de la Turinge.</hi></p>
           <p>Ferdinand Mendez en son Voyage des Indes Orientales de l'année 1554. rapporte des choses merveilleuses d'une Cloche, qui est dans le Royaume de Pégu. Son circuit porte plus de quarante cinq paulmes, &amp; en son diamettre plus de dix-sept ; sa hauteur &amp; son poids répondent au reste. Elle rend un bourdonnement qui s'entend de fort loin, &amp; le Timbre s'en éclaircit plus on s'en éloigne ; ce que Kircher &amp; le Pere Mercenne disent estre commun à tous les Instrumens Organiques.</p>
-          <p>Alvarez, dans son Voyage d'Ethiopie, <hi rend="i">Chap. 29. &amp; 44.</hi> rapporte une chose assez étonnante, &amp; qui n'est pas moins curieuse. Il dit que dans l'Ethiopie, &amp; dans le Royaume des Abyssins, il se trouve des Pierres d'une grandeur si prodigieuse, qu'en les creusant, l'on en fait non seulement des Cloches d'une grandeur démesurée, dont le son est si clair, si perçant, &amp; si harmonieux, qu'il marque la solidité de la Pierre &amp; son integrité ; mais il ajoûte qu'on en forme des Tombeaux, des Chapelles, &amp; d'autres Monumens entiers, tous d'une seule piece. Il assure en avoir vu de deux cens paulmes de longueur, &amp; de six vingts<note resp="editor">Vingt-six</note> de largeur, à quoy la grosseur avoit le même rapport.</p>
+          <p>Alvarez, dans son Voyage d'Ethiopie, <hi rend="i">Chap. 29. &amp; 44.</hi> rapporte une chose assez étonnante, &amp; qui n'est pas moins curieuse. Il dit que dans l'Ethiopie, &amp; dans le Royaume des Abyssins, il se trouve des Pierres d'une grandeur si prodigieuse, qu'en les creusant, l'on en fait non seulement des Cloches d'une grandeur démesurée, dont le son est si clair, si perçant, &amp; si harmonieux, qu'il marque la solidité de la Pierre &amp; son integrité ; mais il ajoûte qu'on en forme des Tombeaux, des Chapelles, &amp; d'autres Monumens entiers, tous d'une seule piece. Il assure en avoir vu de deux cens paulmes de longueur, &amp; de six vingts de largeur, à quoy la grosseur avoit le même rapport.</p>
           <p>Nous ne passerons pas sous silence cette Cloche si renommée dans toute la Normandie, &amp; dans tout le Royaume, qui se voit dans une des Tours de la Cathédrale de Roüen. Elle se nomme <hi rend="i">Georges d'Amboise</hi>, du nom de l'Archevesque &amp; Cardinal, qui la fit fondre &amp; qui la donna. Cette grande Machine pese trente six mille livres, &amp; fut fonduë l'an 1501. le 2. d'Aoust.</p>
           <p>Le Fondeur voyant son ouvrage achevé heureusement, en conçût tant de joye qu'il en mourut peu apres. Elle a trente six pieds de tour par le bord, dix pieds de diametre, &amp; dix de hauteur. Il ne faut pas moins de seize Hommes partagez en quatre, huit d'un costé &amp; huit de l'autre, pour la mettre en branle. Son ton est, <hi rend="i">b fa</hi>, <hi rend="i">b mi</hi>, <hi rend="i">b mol</hi> ; cinq tons au dessous de la Clef de <hi rend="i">fa ut fa</hi>. Le Batail de cette Cloche pese sept cens dix livres. Dans son repos elle est soûtenuë de poutres pour sa pesanteur. Il vient peu d'Etrangers qui ne soient curieux de la voir. Autour de ce grand Vaisseau, ces Vers sont écrits ;</p>
           <quote>

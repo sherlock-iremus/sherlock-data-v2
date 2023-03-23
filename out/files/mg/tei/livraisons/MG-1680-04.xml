@@ -62,9 +62,8 @@
     <body>
       <div type="article" xml:id="MG-1680-04_034" resp="mercure">
         <head>[Suite des Réjoüissances faites à Naples, pour le Mariage du Roy d’Espagne]</head>
-        <bibl><title>Mercure galant</title>, avril 1680 [tome 5], p. 34-43.<note resp="author"
-            place="margin">Voir aussi <ref target="MG-1680-03a_120">cet article du <hi rend="i"
-                >Mercure</hi> de mars 1680</ref> pour le début de la relation de ces
+        <bibl><title>Mercure galant</title>, avril 1680 [tome 5], p. 34-43<note resp="editor"
+            >Voir <ref target="MG-1680-03a_120">cet article pour le début de la relation de ces
             réjouissances.</note></bibl>
         <p>Madrid n’a pas esté le seul lieu de la domination du Roy d’Espagne, où l’on ait donné ces
           sortes de Festes à l’occasion de son Mariage. On en a aussi fait à Naples, apres la
@@ -129,7 +128,7 @@
           Ouvrages, &amp; que mes Lettres contiennent la suite du Journal des Nouveautez du Chant,
           que les impressions peu correctes qu’on en faisoit, luy avoient fait interrompre.</p>
         <quote>
-          <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
+          <label>AIR NOUVEAU.</label> resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par <hi rend="i">Trop cruelle
             saison</hi>, doit regarder la page 50.</note>
           <lg>
@@ -294,10 +293,10 @@
         <bibl><title>Mercure galant</title>, avril 1680 [tome 5], p. 230-232.</bibl>
         <quote>
           <label>Reponse de la dame </label>
-          <label>au Cavalier<note resp="editor"><p>Le cavalier répond à la dame qui lui avait prêté
+          <label>au Cavalier<note resp="editor">Le cavalier répond à la dame qui lui avait prêté
                 de l’argent pour lui permettre de continuer de jouer à la bassette. En lui envoyant
                 une bourse pour la rembourser, il y avait joint un billet contenant une poésie (cf.
-                p. 224-229 ; note de l’éditeur).</p></note>.</label>
+                p. 224-229 de la même livraison).</note>.</label>
           <l><space rend="tab"> </space><space rend="tab"> </space>Songez-vous à ce que vous
             faites,</l>
           <l><space rend="tab"> </space>Lors que d’un air aussi fin qu’obligeant,</l>
@@ -389,14 +388,13 @@
         </ref>
       </div>
       <div type="article" xml:id="MG-1680-04_242" resp="mercure">
-        <head>[Paroles à mettre en air] *</head>
+        <head>[Paroles sur les Fleurs Printanieres]</head>
         <bibl>
           <title>Mercure galant, avril 1680 [tome 5], p. 242-243.</title>
-          <note resp="author" place="margin">Voir <ref target="MG-1680-06_057"/> et <ref
-              target="MG-1680-06_209"/>l'article du <hi rend="i">Mercure</hi> de juin 1680</note>
+          
         </bibl>
         <p>Ces autres Paroles sont de Mademoiselle Castille, dont vous en avez déjà veu de
-          fort-agreables. Elles sont aisées &amp; naturelles, &amp; mériteroient bien qu’on les mist
+          fort-agreables<note resp="editor">Voir <ref target="MG-1680-06_057">cet article et</ref> <ref target="MG-1680-06_209"> celui-ci</ref>.</note>. Elles sont aisées &amp; naturelles, &amp; mériteroient bien qu’on les mist
           en Air.</p>
         <quote>
           <l><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Ah,

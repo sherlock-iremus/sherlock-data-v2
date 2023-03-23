@@ -242,8 +242,7 @@
           <p><hi rend="i">On pouvoit prendre part aux Divertissemens diférens que ces officiers
               avoient préparez. Leur varieté donnoit un nouveau ravissement. Les yeux qui avoient
               esté enchantez ce jour-là par mille spectacles surprenans, trouverent de nouveaux
-                […]<note n="1" resp="editor" place="bottom"> Illisible dans l’édition
-                originale.</note> contens que de tout le reste. On voit icy les plus belles Femmes
+                […]<note resp="editor"> Illisible dans l’exemplaire consulté.</note> contens que de tout le reste. On voit icy les plus belles Femmes
               qui soient dans le Royaume ; &amp; la disposition qu’elles ont naturellement pour la
               Danse, sert infinîment à mettre en œuvre tout l’éclat de leur beauté.</hi></p>
           <p><hi rend="i">Enfin, Monsieur, tout se passa avec une si entiere satisfaction de tout le
@@ -735,7 +734,7 @@
       <div type="article" xml:id="MG-1678-08_120" resp="mercure">
         <head>Air nouveau</head>
         <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 120-121. </bibl>
-        <p>Une mort de cette nature, à condition de revivre toutefois &amp; quantes, seroit assurément préferable aux langueurs continuelles de ces malheureux Amans qui veulent souffrir sans qu’on le sçache, &amp; qui n’ont autre soin dans leurs plaintes que de recommander la discretion aux Forests. Ecoutez celles d’un Berger que l’absence accable. L’Air &amp; les Paroles sont de M<hi rend="sup">r</hi> Robsard de Fontaines<note resp="editor">Attribution à Brossard d'après J. Duron (L'Œuvre de Sébastien de Brossard (1655-1730). Catalogue thématique) qui cite les propos du compositeur (F-Pn/ ms. lat. n.a. 520, f. 114) : « Air notté et paroles de M.r Robsard de Fontaines. C'est le nom de Brossard retourné et déguisé. J'étois alors avec une charmante compagnie a Fontaines aux Roses près de Paris ou cette bagatelle m'échappa et fut envoyée au Mercure sous ce déguisement. J'avois mes raisons pour en user alors ainsi. » (cf. SdB.79)</note>.</p>
+        <p>Une mort de cette nature, à condition de revivre toutefois &amp; quantes, seroit assurément préferable aux langueurs continuelles de ces malheureux Amans qui veulent souffrir sans qu’on le sçache, &amp; qui n’ont autre soin dans leurs plaintes que de recommander la discretion aux Forests. Ecoutez celles d’un Berger que l’absence accable. L’Air &amp; les Paroles sont de M<hi rend="sup">r</hi> Robsard de Fontaines<note resp="editor">Attribution à Brossard d'après J. Duron (<hi rend="italic">L'Œuvre de Sébastien de Brossard (1655-1730). Catalogue thématique)</hi> qui cite les propos du compositeur (F-Pn/ ms. lat. n.a. 520, f. 114) : « Air notté et paroles de M.r Robsard de Fontaines. C'est le nom de Brossard retourné et déguisé. J'étois alors avec une charmante compagnie a Fontaines aux Roses près de Paris ou cette bagatelle m'échappa et fut envoyée au Mercure sous ce déguisement. J'avois mes raisons pour en user alors ainsi. » (cf. SdB.79)</note>.</p>
         <quote>
           <label>AIR NOUVEAU.</label><note resp="author" place="margin"><hi rend="i">Avis pour
               placer les Figures</hi> : l’Air qui commence par <hi rend="i">Je ne viens plus dans
@@ -1073,9 +1072,9 @@
         </ref>
       </div>
       <div type="article" xml:id="MG-1678-08_179" resp="mercure">
-        <head>[Sur M. de S. Andiol]</head>
+        <head>[Mariage de M<hi rend="sup">r</hi> le Comte de Beaujeu-Beaujalois avec la Fille de M<hi rend="sup">r</hi> le Comte Daiguilly-Choiseüil, &amp; de M<hi rend="sup">r</hi> le Comte de Belet-S. Quentin avec Madame la Marquise de Villeneuve] [Sur M. de S. Andiol]*</head>
         <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 179-183.</bibl>
-        <p>C’est un endroit fort touchant pour vous, &amp; quand je ne m’en serois jamais apperçeu,
+        <p>[…] C’est un endroit fort touchant pour vous, &amp; quand je ne m’en serois jamais apperçeu,
           je le connoistrois au reproche que vous me faites de ne vous avoir point parlé de Mr de S.
           Andiol, en vous entretenant des beaux Esprits d’Arles. Souvenez-vous cependant que
           l’Article où vous le croyez oublié, regarde seulement ceux qui composent l’Académie Royale
@@ -1088,7 +1087,7 @@
           belles Lettres, &amp; on ne peut avoir plus de facilité &amp; plus de délicatesse qu’il en
           fait paroistre dans tout ce qui luy échape de Poësies Latines. C‘est un talent qu’il n’a
           cultivé que depuis cinq ou six ans qu’il est devenu aveugle. Il a grand commerce avec les
-          Sçavans, &amp; sur tout avec le fameux pere kirker. Il a fait imprimer plusieurs Ouvrages
+          Sçavans, &amp; sur tout avec le fameux Pere Kirker. Il a fait imprimer plusieurs Ouvrages
           sur diférentes matieres, &amp; on a une extraordinaire impatience qu’il veüille donner au
           Public un Livre pieux qui est dans les mains de tout le monde, &amp; qu’il a mis en Vers
           d’Elegie. C’est celuy qui vous a tant plû dans l’admirable Traduction paraphrasée que
@@ -1378,9 +1377,7 @@
       </div>
       <div type="article" xml:id="MG-1678-08_246" resp="mercure">
         <head>Air italien de feu M<hi rend="sup">e</hi> l’Abbé de la Barre</head>
-        <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 246-249. <note resp="editor"
-            place="margin">D'après le Mercure, cet air a été faussement attribué à Luigi Rossi.
-          </note></bibl>
+        <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 246-249.</bibl>
         <p>Il est certain que la maniere Italienne a quelque chose de particulier pour la Musique, qui la fait trouver toute agreable. Cela se peut voir par cet Air Italien que le Roy ne pouvoit se lasser d’entendre &amp; qu’on luy a veu admirer toutes les fois qu’il l’a entendu. Vous l’allez trouver icy noté. Il est de feu M<hi rend="sup">r</hi> l’Abbé de la Barre Organiste de la Chapelle du Roy, &amp; assez beau pour faire vivre sa memoire éternellement. Quelques Gens l’ont voulu faire passer pour estre de Luigi Rossy, &amp; ont mesme mis son nom au bas de quelques Copies. Je ne sçay quelle raison les a obligez d’en user ainsi ; mais cet Air estant veritablement de feu M<hi rend="sup">r</hi> de la Barre, ils ne pouvoient porter un témoignage plus glorieux de ses Ouvrages, qu’en leur donnant pour Autheur un des Maistre qui s’est acquis le plus de réputation en Italie. Voicy les Paroles de cet Air.</p>
         <quote>
           <label>AIR ITALIEN. <lb/>De feu M<hi rend="sup">e</hi> l’Abbé de la Barre.</label><note
@@ -1413,14 +1410,11 @@
       </div>
       <div type="article" xml:id="MG-1678-08_346" resp="mercure">
         <head>Enigme</head>
-        <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 346-347.<note resp="author"
-            place="margin"><ref target="MG-1678-09_342">Pour la solution de cette énigme</ref> et
-              <ref target="MG-1678-09e_309">cet aticle</ref> dans <hi rend="i"
-          >Mercure</hi></note></bibl>
+        <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 346-347.</bibl>
         <quote>
           <label>ENIGME<note resp="editor">La solution de cette énigme a été publiée dans le <hi
-                rend="i">Mercure</hi> du mois de septembre 1678. Voir <ref target="MG-1678-09_342"
-                >Explication de la premiere Enigme...</ref></note>.</label>
+                rend="i">Mercure galant</hi> du mois de septembre 1678. Voir <ref target="MG-1678-09_342"
+                >cet article</ref></note>.</label>
           <lg>
             <l rend="i">Mon Corps de bizarre figure,</l>
             <l rend="i">Etale quelquefois une riche parure ;</l>
@@ -1533,7 +1527,7 @@
           Palais, à l’Ange Gabriel, dans la Gallerie des Prisonniers.</p>
       </div>
       <div type="article" xml:id="MG-1678-08_362" resp="mercure">
-        <head>[Sur le mot Porfil]</head>
+        <head>[Sur le mot Porfil]*</head>
         <bibl><title>Mercure galant</title>, août 1678 [tome 8], p. 362-364.</bibl>
         <p>Quant au mot de <hi rend="i">Porfil</hi> que vous avez trouvé dans ma derniere Lettre,
           &amp; que vous croyez estre une faute d’impression, je vous avouë que je n’ay point songé

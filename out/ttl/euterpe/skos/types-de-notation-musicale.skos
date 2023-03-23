@@ -1,0 +1,212 @@
+@prefix dctrerms: <http://purl.org/dc/terms/> .
+@prefix opentheso: <https://opentheso.huma-num.fr/opentheso/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+opentheso:014f7607-d6c6-4528-9749-c025b8d4aee2 a skos:Concept ;
+    dctrerms:identifier "014f7607-d6c6-4528-9749-c025b8d4aee2" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "musique écrite avec partie de chant"@fr .
+
+opentheso:05bc6354-dec2-4c0a-95a6-e15737c16c46 a skos:Concept ;
+    dctrerms:identifier "05bc6354-dec2-4c0a-95a6-e15737c16c46" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "oeuvre musicale, pédagogique ou théorique identifiée"@fr .
+
+opentheso:169f3d3a-e121-4f12-891c-9df559938133 a skos:Concept ;
+    dctrerms:identifier "169f3d3a-e121-4f12-891c-9df559938133" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "partie vocale"@fr .
+
+opentheso:1db5b55e-1404-419f-8580-609cd86a6a23 a skos:Concept ;
+    dctrerms:identifier "1db5b55e-1404-419f-8580-609cd86a6a23" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "partie séparée"@fr .
+
+opentheso:2cb928d9-21ec-42aa-a7e9-98b591a39be2 a skos:Concept ;
+    dctrerms:identifier "2cb928d9-21ec-42aa-a7e9-98b591a39be2" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "notation figurée"@fr .
+
+opentheso:30e66596-e097-4d3e-b696-4fc9bc8650e5 a skos:Concept ;
+    dctrerms:identifier "30e66596-e097-4d3e-b696-4fc9bc8650e5" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "musique écrite avec partie de chant"@fr .
+
+opentheso:34d97920-a75c-47d1-8516-3039b7e6058a a skos:Concept ;
+    dctrerms:identifier "34d97920-a75c-47d1-8516-3039b7e6058a" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "musique instrumentale"@fr .
+
+opentheso:3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d a skos:Concept ;
+    dctrerms:identifier "3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "titre de l'oeuvre ou de l'extrait"@fr .
+
+opentheso:3f3c49d5-c4a0-4751-af59-a96b8828082d a skos:Concept ;
+    dctrerms:identifier "3f3c49d5-c4a0-4751-af59-a96b8828082d" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "notation lisible"@fr .
+
+opentheso:5a73d855-ff36-4ec0-b58b-1820620d6a9c a skos:Concept ;
+    dctrerms:identifier "5a73d855-ff36-4ec0-b58b-1820620d6a9c" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "plain-chant"@fr .
+
+opentheso:5d2daca6-6cdf-4374-adfa-c6b4f2313541 a skos:Concept ;
+    dctrerms:identifier "5d2daca6-6cdf-4374-adfa-c6b4f2313541" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "format à l'italienne ~ paysage ~ oblong"@fr .
+
+opentheso:643224e5-f29a-458e-b5a4-5f6c5ddeb5a0 a skos:Concept ;
+    dctrerms:identifier "643224e5-f29a-458e-b5a4-5f6c5ddeb5a0" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "feuille de musique ~ feuille volante"@fr .
+
+opentheso:86c0c549-d9c4-44bc-af6d-5ac292b734b5 a skos:Concept ;
+    dctrerms:identifier "86c0c549-d9c4-44bc-af6d-5ac292b734b5" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "livre de choeur"@fr .
+
+opentheso:8877016c-630b-4f17-a8c6-113800e2ae14 a skos:Concept ;
+    dctrerms:identifier "8877016c-630b-4f17-a8c6-113800e2ae14" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "phylactère"@fr .
+
+opentheso:9143db2a-3d5b-4890-90bb-5b12150043ac a skos:Concept ;
+    dctrerms:identifier "9143db2a-3d5b-4890-90bb-5b12150043ac" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "musique vocale"@fr .
+
+opentheso:95d1c57a-ad96-46be-b100-4227e55b51a9 a skos:Concept ;
+    dctrerms:identifier "95d1c57a-ad96-46be-b100-4227e55b51a9" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "texte chanté lisible"@fr .
+
+opentheso:9d46373c-7583-4e46-a8bb-e4dc9a225182 a skos:Concept ;
+    dctrerms:identifier "9d46373c-7583-4e46-a8bb-e4dc9a225182" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "livre de musique manuscrit"@fr .
+
+opentheso:a138195f-3333-44d6-9d2c-3dfe191efdbb a skos:Concept ;
+    dctrerms:identifier "a138195f-3333-44d6-9d2c-3dfe191efdbb" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "musique écrite"@fr .
+
+opentheso:a3c6c47b-0a95-4342-aa8a-6da0e827cbe5 a skos:Concept ;
+    dctrerms:identifier "a3c6c47b-0a95-4342-aa8a-6da0e827cbe5" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "livre de musique imprimé"@fr .
+
+opentheso:a4c1c0f7-9910-4e74-983f-7937d18b5f1d a skos:Concept ;
+    dctrerms:identifier "a4c1c0f7-9910-4e74-983f-7937d18b5f1d" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "tablature"@fr .
+
+opentheso:acde1d46-3f0f-465e-a4ed-3133cb94bfad a skos:Concept ;
+    dctrerms:identifier "acde1d46-3f0f-465e-a4ed-3133cb94bfad" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "partition d'orchestre"@fr .
+
+opentheso:b4736522-04b6-432c-bb12-c3804409c369 a skos:Concept ;
+    dctrerms:identifier "b4736522-04b6-432c-bb12-c3804409c369" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "partie instrumentale"@fr .
+
+opentheso:bc9aae21-e699-4868-a7a3-23b2a0401431 a skos:Concept ;
+    dctrerms:identifier "bc9aae21-e699-4868-a7a3-23b2a0401431" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "caractéristiques matérielles"@fr .
+
+opentheso:be628bbf-4c1a-4160-b733-3be8db3cd432 a skos:Concept ;
+    dctrerms:identifier "be628bbf-4c1a-4160-b733-3be8db3cd432" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "oeuvre musicale / extrait d'oeuvre musicale"@fr .
+
+opentheso:ce86cdf2-368f-478a-9112-2b528e0097d0 a skos:Concept ;
+    dctrerms:identifier "ce86cdf2-368f-478a-9112-2b528e0097d0" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "nom de l'auteur"@fr .
+
+opentheso:d5d18e5a-0468-4cdf-96aa-85f6d6fb825c a skos:Concept ;
+    dctrerms:identifier "d5d18e5a-0468-4cdf-96aa-85f6d6fb825c" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "texte chanté illisible"@fr .
+
+opentheso:d744b799-75cc-402f-b19c-318031bf907b a skos:Concept ;
+    dctrerms:identifier "d744b799-75cc-402f-b19c-318031bf907b" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "oeuvre musicale non identifiée"@fr .
+
+opentheso:de2b497f-8631-4e83-aeff-0fc0649b36c4 a skos:Concept ;
+    dctrerms:identifier "de2b497f-8631-4e83-aeff-0fc0649b36c4" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "livre de musique"@fr .
+
+opentheso:e0a0f5b0-4eac-44b3-8535-f845fdacc1e8 a skos:Concept ;
+    dctrerms:identifier "e0a0f5b0-4eac-44b3-8535-f845fdacc1e8" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "notation illisible"@fr .
+
+opentheso:e124005a-ab18-4917-98c2-45d5ce19c2a2 a skos:Concept ;
+    dctrerms:identifier "e124005a-ab18-4917-98c2-45d5ce19c2a2" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "notation musicale et textuelle"@fr .
+
+opentheso:e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2 a skos:Concept ;
+    dctrerms:identifier "e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "tablature avec partie vocale"@fr .
+
+opentheso:e737d9d8-98c5-4078-b757-65d213ec3ccd a skos:Concept ;
+    dctrerms:identifier "e737d9d8-98c5-4078-b757-65d213ec3ccd" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "tablature avec partie instrumentale"@fr .
+
+opentheso:f8f24e20-cb85-4a53-8075-c0280b9c5d9b a skos:Concept ;
+    dctrerms:identifier "f8f24e20-cb85-4a53-8075-c0280b9c5d9b" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "rouleau"@fr .
+
+opentheso:fd33e9eb-699a-456f-a915-a79d80f59838 a skos:Concept ;
+    dctrerms:identifier "fd33e9eb-699a-456f-a915-a79d80f59838" ;
+    skos:inScheme opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 ;
+    skos:prefLabel "format à la française ~ portrait"@fr .
+
+opentheso:3aeb6282-0738-4c41-a8b2-b61597c73285 a skos:ConceptScheme ;
+    dctrerms:identifier "3aeb6282-0738-4c41-a8b2-b61597c73285" ;
+    skos:hasTopConcept opentheso:014f7607-d6c6-4528-9749-c025b8d4aee2,
+        opentheso:05bc6354-dec2-4c0a-95a6-e15737c16c46,
+        opentheso:169f3d3a-e121-4f12-891c-9df559938133,
+        opentheso:1db5b55e-1404-419f-8580-609cd86a6a23,
+        opentheso:2cb928d9-21ec-42aa-a7e9-98b591a39be2,
+        opentheso:30e66596-e097-4d3e-b696-4fc9bc8650e5,
+        opentheso:34d97920-a75c-47d1-8516-3039b7e6058a,
+        opentheso:3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d,
+        opentheso:3f3c49d5-c4a0-4751-af59-a96b8828082d,
+        opentheso:5a73d855-ff36-4ec0-b58b-1820620d6a9c,
+        opentheso:5d2daca6-6cdf-4374-adfa-c6b4f2313541,
+        opentheso:643224e5-f29a-458e-b5a4-5f6c5ddeb5a0,
+        opentheso:86c0c549-d9c4-44bc-af6d-5ac292b734b5,
+        opentheso:8877016c-630b-4f17-a8c6-113800e2ae14,
+        opentheso:9143db2a-3d5b-4890-90bb-5b12150043ac,
+        opentheso:95d1c57a-ad96-46be-b100-4227e55b51a9,
+        opentheso:9d46373c-7583-4e46-a8bb-e4dc9a225182,
+        opentheso:a138195f-3333-44d6-9d2c-3dfe191efdbb,
+        opentheso:a3c6c47b-0a95-4342-aa8a-6da0e827cbe5,
+        opentheso:a4c1c0f7-9910-4e74-983f-7937d18b5f1d,
+        opentheso:acde1d46-3f0f-465e-a4ed-3133cb94bfad,
+        opentheso:b4736522-04b6-432c-bb12-c3804409c369,
+        opentheso:bc9aae21-e699-4868-a7a3-23b2a0401431,
+        opentheso:be628bbf-4c1a-4160-b733-3be8db3cd432,
+        opentheso:ce86cdf2-368f-478a-9112-2b528e0097d0,
+        opentheso:d5d18e5a-0468-4cdf-96aa-85f6d6fb825c,
+        opentheso:d744b799-75cc-402f-b19c-318031bf907b,
+        opentheso:de2b497f-8631-4e83-aeff-0fc0649b36c4,
+        opentheso:e0a0f5b0-4eac-44b3-8535-f845fdacc1e8,
+        opentheso:e124005a-ab18-4917-98c2-45d5ce19c2a2,
+        opentheso:e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2,
+        opentheso:e737d9d8-98c5-4078-b757-65d213ec3ccd,
+        opentheso:f8f24e20-cb85-4a53-8075-c0280b9c5d9b,
+        opentheso:fd33e9eb-699a-456f-a915-a79d80f59838 ;
+    skos:prefLabel "Types de notation musicale"@fr .
+

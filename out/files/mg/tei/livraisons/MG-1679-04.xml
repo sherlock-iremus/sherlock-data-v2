@@ -439,8 +439,7 @@
         <head>[Sentimens sur les six Questions proposées dans l’Extraordinaire du quartier
           d’octobre]</head>
         <bibl><title>Mercure galant</title>, avril 1679 [tome 4], p. 70-75.</bibl>
-        <p>Puis que vous trouvez que je m’acquite passablement du mien<note resp="editor"><p>Emploi,
-              cf. article précédent.</p></note> aupres de vous, par les galantes Pieces que j’ay
+        <p>Puis que vous trouvez que je m’acquite passablement du mien [de mon emploi] aupres de vous, par les galantes Pieces que j’ay
           soin de vous envoyer dans toutes mes Lettres Extraordinaires, j’en adjoûteray icy
           quelques-unes que j’ay crû à propos de vous reserver. Tout ce qu’il y a de Réponses aux
           six Questions dans la derniere, a esté assez de vostre goust, &amp; j’ay lieu de croire
@@ -854,7 +853,7 @@
         <bibl><title>Mercure galant</title>, avril [tome 4], 1679, p. 132-144.</bibl>
         <p>Il faut, Madame, vous faire juger par vous mesme de la beauté des Airs qu’il compose, en vous envoyant un de ceux qui a esté chanté dans celuy-ci. En voicy les Paroles avec la Note.</p>
         <quote>
-          <label>AIR CHANTÉ DANS<lb/> UN DES DERNIERS<lb/> Opéra de Vénise<note resp="editor">Les représentations de l'opéra sont décrites dans la même livraison (cf. <ref target="#MG-1679-04_118">cet article</ref>)</note>.</label>
+          <label>AIR CHANTÉ DANS<lb/> UN DES DERNIERS<lb/> Opéra de Vénise<note resp="editor">Les représentations de l'opéra sont décrites dans <ref target="#MG-1679-04_118">cet article</ref>)</note>.</label>
           <note resp="author" place="margin"><hi rend="i">Avis pour placer les Figures</hi> : l’Air
             Italien doit regarder la page 133.</note>
           <lg>
@@ -1329,8 +1328,8 @@
       <div type="article" xml:id="MG-1679-04_215a" resp="mercure">
         <head>[Air nouveau]*</head>
         <bibl><title>Mercure galant</title>, avril 1679 [tome 4], p. 202-215.</bibl>
-        <p>Voicy l’Air dont il est parlé sur la fin de cette Lettre <note resp="editor">Les paroles de cet air sont publiées dans la <ref target="MG-1679-04_202">« Lettre en Prose &amp; en vers » de M. de Merville</ref> qui précède</note>. Comme
-          vous en avez déjà lû les Vers, je me contente de vous les envoyer meslez avec les Notes.
+        <p>Voicy l’Air dont il est parlé sur la fin de cette Lettre. Comme
+          vous en avez déjà lû les Vers, je me contente de vous les envoyer meslez avec les Notes<note resp="editor">Les paroles de cet air sont publiées dans la <ref target="MG-1679-04_202">« Lettre en Prose &amp; en vers » de M. de Merville</ref></note>.
           Ce sont ceux qui commencent par</p>
         <ref target="images/1679-04_215a.JPG">
           <figure>
@@ -2034,12 +2033,11 @@
       </div>
       <div type="article" xml:id="MG-1679-04_356" resp="mercure">
         <head>Enigme</head>
-        <bibl><title>Mercure galant</title>, avril [tome 4], 1679, p. 356-357.<note resp="author"
-            place="margin">La solution de cette énigme se trouve dans <ref target="MG-1679-05_335"
-              >l'article</ref> Mercure du mois de mai et dans <ref target="MG-1679-06e_249"
-              >l'article</ref> de l'extraordinaire du mois d'avril</note></bibl>
+        <bibl><title>Mercure galant</title>, avril [tome 4], 1679, p. 356-357.</bibl>
         <quote>
-          <label>Enigme.</label>
+          <label>Enigme<note resp="editor">La solution de cette énigme se trouve dans <ref target="MG-1679-05_335"
+              >cet article</ref> et dans <ref target="MG-1679-06e_249"
+                >celui-ci</ref></note>.</label>
           <l><seg type="tab">    </seg>JE n’ay gosier, langue, ny bouche,</l>
           <l><seg type="tab">    </seg>Cependant je m’explique bien ;</l>
           <l><seg type="tab">    </seg>Mais il faut me contraindre, ou je ne diray rien.</l>

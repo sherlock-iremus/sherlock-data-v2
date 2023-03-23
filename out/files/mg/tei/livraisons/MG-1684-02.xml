@@ -128,7 +128,7 @@
         </ref>
       </div>
         <div type="article" xml:id="MG-1684-02_023" resp="wordpro">
-          <head>Aux deux aimables Sœurs, Ang. &amp; Crist</head>
+          <head> [Traité de l’Amitié] Aux deux aimables Sœurs, Ang. &amp; Crist</head>
           <bibl><title>Mercure galant</title>, février 1684 [tome 2], p. 23-56.</bibl>
           <p>Vous avez veu des Galanteries en Vers du Berger de Flore ; en voicy une en Prose, qui vous fera voir le talent qu’il a en toute sorte de genres d’écrire. Elle est sur une matiere qui doit intéresser tout le monde, puis qu’elle regarde l’amitié, &amp; que l’union qui en est formée, est une des choses qui contribuënt davantage au repos &amp; à la félicité de la vie.</p>
           <quote>
@@ -921,7 +921,7 @@
         <div type="article" xml:id="MG-1684-02_234" resp="mercure">
           <head>[Divertissement donné à Madame la Dauphine par le mesme Duc]</head>
           <bibl><title>Mercure galant</title>, février 1684 [tome 2], p. 234-240.</bibl>
-          <p>Ce n’est pas tout ce que je vous diray de ce Duc. Je ne puis m’empescher d’ajoûter icy un Divertissement, qu’il a donné à Madame la Dauphine dans les derniers jours du Carnaval. Ç’a esté par un Concert de Voix &amp; d’Instrumens, pour lequel il fit quelques Paroles, &amp; mesme un des Airs, de naturel seulement, sans qu’il sçache la Musique. Ce petit Concert eut tout le succés qu’il en pouvoit esperer. En voicy les Vers.</p>
+          <p>Ce n’est pas tout ce que je vous diray de ce Duc<note resp="editor">Il s'agit de François Honorat de Beauvilliers (1607-1687), duc de Saint-Aignan.</note>. Je ne puis m’empescher d’ajoûter icy un Divertissement, qu’il a donné à Madame la Dauphine dans les derniers jours du Carnaval. Ç’a esté par un Concert de Voix &amp; d’Instrumens, pour lequel il fit quelques Paroles, &amp; mesme un des Airs, de naturel seulement, sans qu’il sçache la Musique. Ce petit Concert eut tout le succés qu’il en pouvoit esperer. En voicy les Vers.</p>
           <quote>
             <lg>
           <label>RECIT DE LA VICTOIRE.</label>
@@ -950,7 +950,7 @@
                   <graphic url="images/1684-02_234y.JPG"/>
                 </figure>
               </ref>
-              <l> <hi rend="i">Incomparable Dauphine,</hi><note resp="author" place="margin">Voir <ref target="MG-1684-02_234">cet article</ref> pour la publication des deux danses mentionnées.</note></l>
+              <l> <hi rend="i">Incomparable Dauphine,</hi></l>
           <l rend="i">Qui charmez toute la Cour,</l>
           <l rend="i">Donc, par la bonté Divine,</l>
           <l rend="i">Un second Fils vois le jour.</l>
