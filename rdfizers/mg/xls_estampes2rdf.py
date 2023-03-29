@@ -74,7 +74,7 @@ concept_uris_list = [concept["@id"] for concept in skos_data]
 
 def make_E13(cache_key, p140, p177, p141, document_context=None):
     e13 = she(cache.get_uuid(cache_key, True))
-    t(e13, a, crm("E13_Attribute_Assignement"))
+    t(e13, a, crm("E13_Attribute_Assignment"))
     t(e13, crm("P14_carried_out_by"), equipe_mercure_galant_uri)
     t(e13, crm("P140_assigned_attribute_to"), p140)
     t(e13, crm("P141_assigned"), p141)
