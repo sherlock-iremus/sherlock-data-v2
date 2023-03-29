@@ -74,6 +74,7 @@ def triples(s, p, o):
     return g.triples((s, p, o))
 
 equipe_mercure_galant_uri = she("684b4c1a-be76-474c-810e-0f5984b47921")
+indexation_estampe_analytical_project_uri = she("756aa164-0cde-46ac-bc3a-a0ea83a08e2d")
 corpus_estampes_uri = she("759d110d-fd68-47bb-92fd-341bb63dbcae")
 estampe_e55_uri = she("1317e1ac-50c8-4b97-9eac-c4d902b7da10")
 identifiant_mercure_e55_uri = she("92c258a0-1e34-437f-9686-e24322b95305")

@@ -72,13 +72,16 @@ skos_data = json.loads(r.text)
 concept_uris_list = [concept["@id"] for concept in skos_data]
 
 
-def make_E13(cache_key, p140, p177, p141):
+def make_E13(cache_key, p140, p177, p141, document_context=None):
     e13 = she(cache.get_uuid(cache_key, True))
     t(e13, a, crm("E13_Attribute_Assignement"))
     t(e13, crm("P14_carried_out_by"), equipe_mercure_galant_uri)
     t(e13, crm("P140_assigned_attribute_to"), p140)
     t(e13, crm("P141_assigned"), p141)
     t(e13, crm("P177_assigned_property_of_type"), p177)
+    t(indexation_estampe_analytical_project_uri, crm("P9_consists_of"), e13)
+    if document_context:
+        t(e13, she_ns("has_document_context"), u(document_context))
 
     return e13
 
@@ -152,7 +155,7 @@ for sheet_title, rows in sheets.items():
                     id_livraison = pattern_livraison.search(id_article_lie).group(0)
                     try:
                         article_F2_TEI = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article_lie, "F2"]))
-                        e13 = make_E13(["estampes", id, "seeAlso", "E13_uuid"], estampe, RDFS.seeAlso, article_F2_TEI)
+                        e13 = make_E13(["estampes", id, "seeAlso", "E13_uuid"], estampe, RDFS.seeAlso, article_F2_TEI, estampe)
                         if row["Commentaire ID article lié OBVIL"]:
                             t(e13, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
                     except:
@@ -180,19 +183,19 @@ for sheet_title, rows in sheets.items():
 
             # region E13: Titre sur l'image
             if row["Titre sur l'image"]:
-                make_E13(["estampes", id, "E13_titre_sur_l_image_uuid"], estampe, titre_sur_l_image_e55_uri, l(row["Titre sur l'image"]))
+                make_E13(["estampes", id, "E13_titre_sur_l_image_uuid"], estampe, titre_sur_l_image_e55_uri, l(row["Titre sur l'image"]), estampe)
             # endregion
 
             # region E13: Titre descriptif/forgé
             if row["[titre descriptif forgé]* (Avec Maj - accentuées]"]:
                 titre = row["[titre descriptif forgé]* (Avec Maj - accentuées]"].replace("[", "").replace("]", "").replace("*", "")
-                make_E13(["estampes", id, "E13_titre_forgé_uuid"], estampe, titre_descriptif_forge_e55_uri, l(titre))
+                make_E13(["estampes", id, "E13_titre_forgé_uuid"], estampe, titre_descriptif_forge_e55_uri, l(titre), estampe)
             # endregion
 
             # region E13: Titre dans le péritexte
             if row["[Titre dans le péritexte: Avis, article…]"]:
                 titre = row["[Titre dans le péritexte: Avis, article…]"].replace("[", "").replace("]", "").replace("*", "")
-                make_E13(["estampes", id, "E13_titre_péritexte_uuid"], estampe, she(titre_peritexte_e55_uri), l(titre))
+                make_E13(["estampes", id, "E13_titre_péritexte_uuid"], estampe, she(titre_peritexte_e55_uri), l(titre), estampe)
             # endregion
 
             # region E13: Lieux associés
@@ -209,7 +212,7 @@ for sheet_title, rows in sheets.items():
                     if (not lieu):
                         print(f"Aucun lieu trouvé dans Directus pour : {lieu_label}")
                         continue
-                    make_E13(["collection", id, "lieux associés", lieu, "E13_uuid"], estampe, lieu_associe_e55_uri, she(lieu))
+                    make_E13(["collection", id, "lieux associés", lieu, "E13_uuid"], estampe, lieu_associe_e55_uri, she(lieu), estampe)
                     lieux_used.append(lieu)
             # endregion
 
@@ -236,8 +239,8 @@ for sheet_title, rows in sheets.items():
                     t(estampe_fragment_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                     t(estampe_fragment_e42_iiif, RDF.type, crm("E42_Identifier"))
 
-                    make_E13(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
-                    make_E13(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), she(lieu))
+                    make_E13(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif, estampe)
+                    make_E13(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), she(lieu), estampe)
                     lieux_used.append(lieu)
             # endregion
 
@@ -275,8 +278,8 @@ for sheet_title, rows in sheets.items():
                     t(e18_objet, a, crm("E18_Physical_Thing"))
                     t(e18_objet, crm("P2_has_type"), objet_type_uri)
 
-                    make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
-                    make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e18_objet)
+                    make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif, estampe)
+                    make_E13(["estampes", id, "objets", objet, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e18_objet, estampe)
 
                     # Si l'objet est une médaille et comporte une inscription
                     if objet == "médaille" and (row["Médailles: avers"] or row["Médailles: revers"]):
@@ -288,7 +291,6 @@ for sheet_title, rows in sheets.items():
 
                             t(estampe_fragment_avers, a, crm("E36_Visual_Item"))
                             t(estampe_fragment_avers, she_ns("is_fragment_of"), estampe_fragment)
-                            t(e18_objet, crm("P46_is_composed_of"), e18_avers)
                             t(e18_avers, a, crm("E18_Physical_Thing"))
                             t(e18_avers, crm("P2_has_type"), avers_medaille_e55_uri)
                             t(estampe_fragment_avers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
@@ -296,11 +298,12 @@ for sheet_title, rows in sheets.items():
                             t(e34_inscription, a, crm("E34_Inscription"))
                             t(e34_inscription, a, crm("E33_Linguistic_Object"))
 
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_humanum_uuid"], estampe_fragment_avers, crm("P1_is_identified_by"), estampe_fragment_avers_e42_iiif)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P138_uuid"], estampe_fragment_avers, crm("P138_represents"), e18_avers)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P165_uuid"], estampe_fragment_avers, crm("P165_incorporates"), e34_inscription)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "médaille_physique", "E13_P46_uuid"], e18_avers, crm("P46_is_composed_of"), e34_inscription)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]))
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E42_IIIF_humanum_uuid"], estampe_fragment_avers, crm("P1_is_identified_by"), estampe_fragment_avers_e42_iiif, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P138_uuid"], estampe_fragment_avers, crm("P138_represents"), e18_avers, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "E13_P165_uuid"], estampe_fragment_avers, crm("P165_incorporates"), e34_inscription, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "médaille_physique", "E13_P46_E18_uuid"], e18_objet, crm("P46_is_composed_of"), e18_avers, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "médaille_physique", "E13_P46_E34_uuid"], e18_avers, crm("P46_is_composed_of"), e34_inscription, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: avers"]), estampe)
 
                         # Si la médaille comporte une inscription sur son revers (E13)
                         if row["Médailles: revers"]:
@@ -311,7 +314,6 @@ for sheet_title, rows in sheets.items():
 
                             t(estampe_fragment_revers, a, crm("E36_Visual_Item"))
                             t(estampe_fragment_revers, she_ns("is_fragment_of"), estampe_fragment)
-                            t(e18_objet, crm("P46_is_composed_of"), e18_revers)
                             t(e18_revers, a, crm("E18_Physical_Thing"))
                             t(e18_revers, crm("P2_has_type"), revers_medaille_e55_uri)
                             t(estampe_fragment_revers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
@@ -319,11 +321,12 @@ for sheet_title, rows in sheets.items():
                             t(e34_inscription, a, crm("E34_Inscription"))
                             t(e34_inscription, a, crm("E33_Linguistic_Object"))
 
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_humanum_uuid"], estampe_fragment_revers, crm("P1_is_identified_by"), estampe_fragment_revers_e42_iiif)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P138_uuid"], estampe_fragment_revers, crm("P138_represents"), e18_revers)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P165_uuid"], estampe_fragment_revers, crm("P165_incorporates"), e34_inscription)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "médaille_physique", "E13_P46_uuid"], e18_revers, crm("P46_is_composed_of"), e34_inscription)
-                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E42_IIIF_humanum_uuid"], estampe_fragment_revers, crm("P1_is_identified_by"), estampe_fragment_revers_e42_iiif, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P138_uuid"], estampe_fragment_revers, crm("P138_represents"), e18_revers, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "E13_P165_uuid"], estampe_fragment_revers, crm("P165_incorporates"), e34_inscription, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "médaille_physique", "E13_P46_E18_uuid"], e18_objet, crm("P46_is_composed_of"), e18_revers, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "médaille_physique", "E13_P46_E34_uuid"], e18_revers, crm("P46_is_composed_of"), e34_inscription, estampe)
+                            make_E13(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "E13_uuid"], e34_inscription, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]), estampe)
             # endregion
 
             # region E13-P138: Personnes représentées
@@ -338,8 +341,8 @@ for sheet_title, rows in sheets.items():
                     e21_personne = she(personne)
 
                     personnes_used.append(personne)
-                    make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif)
-                    make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e21_personne)
+                    make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_IIIF_uuid"], estampe_fragment, crm("P1_is_identified_by"), estampe_fragment_e42_iiif, estampe)
+                    make_E13(["estampes", id, "personnes représentées", personne, "E36_fragment", "E13_P138_uuid"], estampe_fragment, crm("P138_represents"), e21_personne, estampe)
             # endregion
 
             # region E13: Personnes associées
@@ -350,7 +353,7 @@ for sheet_title, rows in sheets.items():
                     if personne == "" or personne == " ":
                         continue
                     personnes_used.append(personne)
-                    make_E13(["estampes", id, "personnes associées", personne, "E13_uuid"], estampe, personne_associee_e55_uri, she(personne))
+                    make_E13(["estampes", id, "personnes associées", personne, "E13_uuid"], estampe, personne_associee_e55_uri, she(personne), estampe)
             # endregion
 
             # region E65: Production de l'estampe
@@ -370,7 +373,7 @@ for sheet_title, rows in sheets.items():
 
                 # Lien entre conception de l'estampe et concepteur (E13)
                 concepteur_uuid = row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"].strip().lower()
-                make_E13(["estampes", id, "E65", "E65_invenit", "E13_P14_uuid"], estampe_invenit, crm("P14_carried_out_by"), she(concepteur_uuid))
+                make_E13(["estampes", id, "E65", "E65_invenit", "E13_P14_uuid"], estampe_invenit, crm("P14_carried_out_by"), she(concepteur_uuid), estampe)
             # endregion
 
             # region sous-E65: Sculpsit (graveur de l'estampe)
@@ -382,7 +385,7 @@ for sheet_title, rows in sheets.items():
 
                 # Lien entre la gravure de l'estampe et son graveur (E13)
                 graveur_uuid = row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"].strip().lower()
-                make_E13(["estampes", id, "E65", "E65_sculpsit", "E13_P14_uuid"], estampe_sculpsit, crm("P14_carried_out_by"), she(graveur_uuid))
+                make_E13(["estampes", id, "E65", "E65_sculpsit", "E13_P14_uuid"], estampe_sculpsit, crm("P14_carried_out_by"), she(graveur_uuid), estampe)
             # endregion
 
             # region E13: Type de représentation
@@ -394,7 +397,7 @@ for sheet_title, rows in sheets.items():
                     slug = slugify(type_label.strip().replace("’", "'"))
                     type_uri = opth(slug, args.opentheso_id)
                     concepts_used.append(type_uri)
-                    make_E13(["estampes", id, "types de représentation", slug, "E13_uuid"], estampe, type_representation_e55_uri, type_uri)
+                    make_E13(["estampes", id, "types de représentation", slug, "E13_uuid"], estampe, type_representation_e55_uri, type_uri, estampe)
             # endregion
 
             # region E13: Technique de gravure
@@ -406,12 +409,12 @@ for sheet_title, rows in sheets.items():
                     slug = slugify(technique_label.strip().replace("’", "'"))
                     technique_uri = opth(slug, args.opentheso_id)
                     concepts_used.append(technique_uri)
-                    make_E13(["estampes", id, "technique de la gravure", slug, "E13_uuid"], estampe, technique_de_gravure_e55_uri, technique_uri)
+                    make_E13(["estampes", id, "technique de la gravure", slug, "E13_uuid"], estampe, technique_de_gravure_e55_uri, technique_uri, estampe)
             # endregion
 
             # region E13-P70: Bibliographie relative à l'estampe
             if row["BIBLIO [y compris liens] relative à la gravure et aux artistes"]:
-                make_E13(["estampes", id, "bibliographie", "E13_P70_uuid"], estampe, e55_note_bibliographique, l(row["BIBLIO [y compris liens] relative à la gravure et aux artistes"]))
+                make_E13(["estampes", id, "bibliographie", "E13_P70_uuid"], estampe, e55_note_bibliographique, l(row["BIBLIO [y compris liens] relative à la gravure et aux artistes"]), estampe)
             # endregion
 
             # region Exemplaire physique
