@@ -106,7 +106,8 @@ for sheet_title, rows in sheets.items():
             # region E36: Estampe
             estampe = she(cache.get_uuid(["estampes", id, "E36_uuid"], True))
             t(estampe, a, crm("E36_Visual_Item"))
-            t(corpus_estampes_uri, crm("P148_has_component"), estampe)
+            #corpus des estampes du MG
+            t(she("759d110d-fd68-47bb-92fd-341bb63dbcae"), crm("P148_has_component"), estampe)
             t(estampe, crm("P2_has_type"), estampe_e55_uri)
             # endregion
 
@@ -253,7 +254,7 @@ for sheet_title, rows in sheets.items():
                         continue
                     thématique_uri = opth(slugify(thématique), args.opentheso_id)
                     concepts_used.append(thématique_uri)
-                    make_E13(["collection", id, "thématiques", thématique, "E13_uuid"], estampe, thematique_e55_uri, thématique_uri)
+                    make_E13(["collection", id, "thématiques", thématique, "E13_uuid"], estampe, thematique_e55_uri, thématique_uri, estampe)
             # endregion
 
             # region E13-P138: Objet représenté
