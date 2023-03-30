@@ -42,7 +42,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
     for measureNumber, beats in score_beats.items():
         for beat in beats:
             score_beat_iri = u(f"{score_uuid}-beat-{measureNumber}-{beat}")
-            g.add((score_beat_iri, sherlock_ns["is_fragment_of"], score_iri))
+            g.add((score_beat_iri, crm_ns["P106i_forms_part_of"], score_iri))
             g.add((score_iri, crm_ns["P106_is_composed_of"], score_beat_iri))
             g.add((score_beat_iri, RDF.type, crmdig_ns["D35_Area"]))
             # the IRI of the concept: "MEI score offset"
@@ -62,13 +62,13 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
                 score_beat_iri = u(f"{score_uuid}-beat-{v['measure_number']}-{beat}")
                 g.add((element_id, sherlockmei_ns["contains_beat"], score_beat_iri))
                 g.add((score_beat_iri, crm_ns["P2_has_type"], u("90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86")))
-                g.add((score_beat_iri, sherlock_ns["is_fragment_of"], score_iri))
+                g.add((score_beat_iri, crm_ns["P106i_forms_part_of"], score_iri))
 
                 # Create an annotation anchor for each beat which occurs within the note duration
                 element_beat_anchor_iri = u(f"{score_uuid}-{k}-{v['measure_number']}-{beat}")
                 g.add((element_id, sherlockmei_ns["has_beat_anchor"], element_beat_anchor_iri))
                 g.add((element_beat_anchor_iri, crm_ns['P2_has_type'], u("689e148d-a97d-45b4-898d-c395a24884df")))  # the IRI of the concept: "Note offset anchor"
-                g.add((element_beat_anchor_iri, sherlock_ns["is_fragment_of"], score_iri))
+                g.add((element_beat_anchor_iri, crm_ns["P106i_forms_part_of"], score_iri))
 
     # We census everything which has a xml:id
     for e in root.xpath("//*"):
@@ -76,7 +76,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
         if xmlida in e.attrib:
             element_id = u(score_uuid + "_" + e.attrib[xmlida])
 
-            g.add((element_id, sherlock_ns["is_fragment_of"], score_iri))
+            g.add((element_id, crm_ns["P106i_forms_part_of"], score_iri))
 
             g.add((element_id, RDF.type, crmdig_ns["D35_Area"]))
 
@@ -97,7 +97,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
 
             if etree.QName(e.tag).localname == "note":
                 g.add((element_id, crm_ns["P2_has_type"], base["d2a536eb-4a95-484f-b13d-f597ac8ea2fd"]))
-                g.add((element_id, sherlock_ns["is_fragment_of"], score_iri))
+                g.add((element_id, crm_ns["P106i_forms_part_of"], score_iri))
 
             # xml:id E42
             e42_id = u(score_uuid + "_" + e.attrib[xmlida] + "_E42")
