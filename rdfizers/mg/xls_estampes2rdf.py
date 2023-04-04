@@ -236,7 +236,7 @@ for sheet_title, rows in sheets.items():
                     estampe_fragment_e42_iiif = she(cache.get_uuid(["estampes", id, "lieux représentés", lieu, "E36_fragment", "E42_IIIF_humanum_uuid"], True))
 
                     t(estampe_fragment, a, crm("E36_Visual_Item"))
-                    t(estampe_fragment, she_ns("is_fragment_of"), estampe)
+                    t(estampe_fragment, crm("P106i_forms_part_of"), estampe)
                     t(estampe_fragment_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                     t(estampe_fragment_e42_iiif, RDF.type, crm("E42_Identifier"))
 
@@ -273,7 +273,7 @@ for sheet_title, rows in sheets.items():
                     e18_objet = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "E18_uuid"], True))
 
                     t(estampe_fragment, a, crm("E36_Visual_Item"))
-                    t(estampe_fragment, she_ns("is_fragment_of"), estampe)
+                    t(estampe_fragment, crm("P106i_forms_part_of"), estampe)
                     t(estampe_fragment_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
                     t(estampe_fragment_e42_iiif, a, crm("E42_Identifier"))
                     t(e18_objet, a, crm("E18_Physical_Thing"))
@@ -291,7 +291,7 @@ for sheet_title, rows in sheets.items():
                             e34_inscription = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_avers", "inscription", "uuid"], True))
 
                             t(estampe_fragment_avers, a, crm("E36_Visual_Item"))
-                            t(estampe_fragment_avers, she_ns("is_fragment_of"), estampe_fragment)
+                            t(estampe_fragment_avers, crm("P106i_forms_part_of"), estampe_fragment)
                             t(e18_avers, a, crm("E18_Physical_Thing"))
                             t(e18_avers, crm("P2_has_type"), avers_medaille_e55_uri)
                             t(estampe_fragment_avers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
@@ -314,7 +314,7 @@ for sheet_title, rows in sheets.items():
                             e34_inscription = she(cache.get_uuid(["estampes", id, "objets", objet, "E36_fragment", "médaille_revers", "inscription", "uuid"], True))
 
                             t(estampe_fragment_revers, a, crm("E36_Visual_Item"))
-                            t(estampe_fragment_revers, she_ns("is_fragment_of"), estampe_fragment)
+                            t(estampe_fragment_revers, crm("P106i_forms_part_of"), estampe_fragment)
                             t(e18_revers, a, crm("E18_Physical_Thing"))
                             t(e18_revers, crm("P2_has_type"), revers_medaille_e55_uri)
                             t(estampe_fragment_revers_e42_iiif, crm("P2_has_type"), identifiant_iiif_e55_uri)
