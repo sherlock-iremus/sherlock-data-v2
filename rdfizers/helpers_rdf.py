@@ -93,6 +93,7 @@ type_representation_e55_uri = she("0205f283-a73a-47e3-81bf-d0c67501fc22")
 personne_associee_e55_uri = she("909049a0-99c3-49a8-b9d6-c4c3517859fb")
 lieu_associe_e55_uri = she("413f7969-406b-4be6-a042-09a800197e8f")
 lien_gallica_e55_uri = she("f4262bac-f72c-40e2-aa51-ae352da5a35c")
+collection_d_image_e55_uri = she("14926d58-83e7-4414-90a8-1a3f5ca8fec1")
 e55_note_bibliographique = she("bffeb363-05ee-449c-a666-bb16eafde48c")
 
 def is_valid_uuid(value):

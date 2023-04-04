@@ -85,10 +85,16 @@ def make_E13(cache_key, p140, p177, p141, document_context=None):
 
     return e13
 
+
 #######################################################################################################
 # Traitement des estampes
 #######################################################################################################
 
+#corpus des estampes du MG
+corpus = she("759d110d-fd68-47bb-92fd-341bb63dbcae")
+t(corpus, a, she_ns("Corpus"))
+t(corpus, crm("P2_has_type"), collection_d_image_e55_uri)
+            
 sheets = get_xlsx_rows_as_dicts(args.xlsx)
 for sheet_title, rows in sheets.items():
     for row in rows:
@@ -106,8 +112,7 @@ for sheet_title, rows in sheets.items():
             # region E36: Estampe
             estampe = she(cache.get_uuid(["estampes", id, "E36_uuid"], True))
             t(estampe, a, crm("E36_Visual_Item"))
-            #corpus des estampes du MG
-            t(she("759d110d-fd68-47bb-92fd-341bb63dbcae"), crm("P148_has_component"), estampe)
+            t(corpus, she_ns("has_member"), estampe)
             t(estampe, crm("P2_has_type"), estampe_e55_uri)
             # endregion
 
