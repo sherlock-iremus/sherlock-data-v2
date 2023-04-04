@@ -5,22 +5,22 @@ projects:
       tei2json:
         name: Convertir les fichiers TEI en fichiers JSON pour la Web App
         steps:
-          - git: ../in/mercure-galant-sources-github
+          - git: ../in/mercure-galant
             branch: gh-pages
           - script: ./sources-processors/mg-tei/mg-tei-to-json.sh
             args:
               TEI_LIVRAISONS: out/files/mg/tei/livraisons
               TEI_ARTICLES: out/files/mg/tei/articles
               JSON_ARTICLES: out/files/mg/json/articles
-              MGGHXML: ../in/mercure-galant-sources-github/xml
+              MGGHXML: ../in/mercure-galant/xml
       tei2rdf:
         name: Convertir les fichiers TEI en RDF CIDOC-CRM
         steps:
-          - git: ../in/mercure-galant-sources-github
+          - git: ../in/mercure-galant
             branch: gh-pages
           - script: ./rdfizers/mg/tei2rdf.py
             args:
-              tei: ../in/mercure-galant-sources-github/xml
+              tei: ../in/mercure-galant/xml
               output_ttl: out/ttl/mg/tei.ttl
               cache_tei: caches/mg/tei.yaml
       xls-estampes2rdf:

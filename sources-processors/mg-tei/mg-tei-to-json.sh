@@ -1,4 +1,6 @@
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+# SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+SCRIPT_DIR=$(pwd)/$(dirname "$0")
+echo $SCRIPT_DIR
 
 trap "exit" INT
 
@@ -25,7 +27,7 @@ do
   cp $f $TEI_LIVRAISONS
   
   # FRAGMENTATION DES FICHIERS TEI
-  saxon -s:$f -xsl:"$SCRIPT_DIR"/fragment.xslt -o:$TEI_ARTICLES/TOKILL.xml
+  java -jar ./Saxon-HE/12/Java/saxon-he-12.1.jar -s:$f -xsl:"$SCRIPT_DIR"/fragment.xslt -o:$TEI_ARTICLES/TOKILL.xml
   rm $TEI_ARTICLES/TOKILL.xml
 
   # FORMATAGE DES FRAGMENTS TEI

@@ -1,6 +1,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
@@ -265,4 +266,25 @@ sherlock:has_document_context
     a rdf:Property ;
     rdfs:domain crm:E13_Attribute_Assignment ;
     rdfs:range crm:E73_Information_Object ;
+    .
+
+sherlock:Corpus
+    a rdfs:Class ;
+    rdfs:label "Corpus" ;
+    rdfs:subClassOf crm:E89_Propositional_Object ;
+    rdfs:subClassOf crm:E72_Legal_Object ;
+    .
+
+sherlock:has_member
+    a rdfs:Property ;
+    rdfs:domain sherlock:Corpus ;
+    rdfs:range crm:E1_CRM_Entity ;
+    owl:inverseOf sherlock:is_member_of ;
+    .
+
+sherlock:is_member_of
+    a rdfs:Property ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range sherlock:Corpus ;
+    owl:inverseOf sherlock:has_member ;
     .

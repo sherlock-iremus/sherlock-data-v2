@@ -110,6 +110,12 @@ for file in os.listdir(args.tei):
     t(livraison_F2_tei, she_ns("same_interpretative_content"), livraison_F2_originale)
     t(livraison_F2_originale, she_ns("same_interpretative_content"), livraison_F2_tei)
 
+    # Ajout au corpus
+    t(she("8c5e4763-d2dc-4ef2-9a1a-161277a34006"), RDF.type, she_ns("Corpus"))
+    t(she("8c5e4763-d2dc-4ef2-9a1a-161277a34006"), she_ns("has_member"), livraison_F2_tei)
+
+    she("cc909242-ee52-4419-b404-17bd96c0fda4")
+
     # URL du fichier TEI
     livraison_F2_tei_E42 = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True))
     t(livraison_F2_tei, crm("P1_is_identified_by"), livraison_F2_tei_E42)
