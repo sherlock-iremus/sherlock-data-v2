@@ -28,7 +28,7 @@ Exemple avec une Entité analytique :
 2) Récupération de l'URL du sous E36 et création du E42 via une E13 avec P141 entité (POST /E13 avec P141 de type Entité).
 3) Récupération de l'URL du sous E36 et création d'une E13 pour l'indexation (POST /E13 avec P141 de type URL).
 
-Pour la création du E42 :`
+Pour la création du E42 :
 
     {
         "rdf:type": [
