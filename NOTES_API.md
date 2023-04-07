@@ -26,6 +26,9 @@ Exemple avec une Entité analytique :
 
 1) Création du sous E36 (POST /E36/fragment). Ne génère par d'E13, mais met des dcterms:creator/created sur le fragment.
 2) Récupération de l'URL du sous E36 et création du E42 via une E13 avec P141 entité (POST /E13 avec P141 de type Entité).
+3) Récupération de l'URL du sous E36 et création d'une E13 pour l'indexation (POST /E13 avec P141 de type URL).
+
+Pour la création du E42 :`
 
     {
         "rdf:type": [
@@ -36,8 +39,6 @@ Exemple avec une Entité analytique :
         ],
         "crm:P190_has_symbolic_value": "http://iiif…"
     }
-
-3) Récupération de l'URL du sous E36 et création d'une E13 pour l'indexation (POST /E13 avec P141 de type URL).
 
 # Création de fragment
 
