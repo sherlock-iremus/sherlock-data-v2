@@ -8,7 +8,7 @@ P141 peut être de trois types :
 Exemple avec une Entité analytique :
 
     …
-    "P140": …,
+    "P140": […],
     "P141": {
         "rdf:type": [
             <http://…/E28_Conceptual_Object>
