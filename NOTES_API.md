@@ -14,7 +14,7 @@ Exemple avec une Entité analytique :
             <http://…/E28_Conceptual_Object>
         ],
         "crm:P2_has_type": [
-            <http://data-iremus.huma-num.fr/id/<UUID de l'entité analytique>>
+            <http://data-iremus.huma-num.fr/id/<UUID du E55 Entité Analytique>>
         ]
     },
     "P177": …,
@@ -37,7 +37,7 @@ Pour la création du E42 :
         "crm:P2_has_type": [
             <http://data-iremus.huma-num.fr/id/<UUID du E55 « Identifiant IIIF »>>
         ],
-        "crm:P190_has_symbolic_value": "http://iiif…"
+        "crm:P190_has_symbolic_content": "http://iiif…"
     }
 
 # Création de fragment
