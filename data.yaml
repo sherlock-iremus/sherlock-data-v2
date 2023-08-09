@@ -127,3 +127,14 @@ projects:
             args:
               ttl: out/ttl/common/orcid-names.ttl
               cache: caches/common/users.yaml
+  elasticsearch:
+    name: Elasticsearch
+    tasks:
+      identities2json:
+        name: Générer les données JSON d'indexation des resources sherlock.
+        links:
+          - http://data-iremus.huma-num.fr/sherlock-doc/identity/
+        steps:
+          - script: jsonizers/identities_to_es_json.py
+            args:
+              json: out/json/identities.json
