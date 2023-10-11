@@ -3,43 +3,58 @@ import requests
 import json
 import urllib
 import argparse
+from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--json")
+
 args = parser.parse_args()
 
-
-print("[WARN] : This is a WIP script, and only user data are indexed")
 print("[WARN] : This is a WIP script, request should be retrieved from sherlock-sparql-queries repository")
 
-print("[INFO] : Fetching all users uri")
+print("[INFO] : Fetching all uris")
 
-fetch_users_query = """
+# 27/09/2023
+# 
+# On a plus de 100 000 D35 qui ont un prédicat d'identité. On les a donc exclus.
+# On a plus de 100 000 E42 qui ont un prédicat d'identité. On les a donc exclus.
+#
+# On se retrouve avec 32 000 resources à indexer ce qui est nettement plus acceptable.
+fetch_entities_to_index_query = """
 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
-select ?user
-where {
- 	graph ?g {
-		?user rdf:type crm:E21_Person.
-    	?user crm:P1_is_identified_by ?identifier.
-    	?identifier rdf:type crm:E42_Identifier.
-    	?identifier crm:P2_has_type <http://data-iremus.huma-num.fr/id/d7ef2583-ff31-4913-9ed3-bc3a1c664b21>.
-    	?identifier crm:P190_has_symbolic_content ?orcid	
-  	}
-}
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?s
+    WHERE {
+        GRAPH ?g {
+            ?s ?p ?o .
+            GRAPH ?g2 {
+            ?s rdf:type ?type .
+        }
+        FILTER(?type != <http://www.ics.forth.gr/isl/CRMdig/D35_Area>) . 
+        FILTER(?type != crm:E42_Identifier) . 
+        VALUES ?p { crm:P1_is_identified_by crm:P102_has_title dcterms:title rdfs:label skos:prefLabel skos:altLabel crm:P190_has_symbolic_content }
+    }
+  }
 
 """
 
-r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((fetch_users_query)))
-result = json.loads(r.text)
+r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((fetch_entities_to_index_query)))
+result_list_resources = json.loads(r.text)
 
-
-print("[INFO] : Fetching all user's identities")
+print("[INFO] : Fetching all entities identities")
 
 elasticsearch_list = []
-for i in result["results"]["bindings"]:
+cpt = 0
+for i in result_list_resources["results"]["bindings"]:
+    print (f""" identité {cpt} sur {len(result_list_resources["results"]["bindings"])}""")
+    cpt += 1
     fetch_identity_query = f"""
 
   
@@ -54,14 +69,14 @@ for i in result["results"]["bindings"]:
     GRAPH ?g {{
         {{
         VALUES ?p {{ crm:P1_is_identified_by crm:P102_has_title dcterms:title rdfs:label skos:prefLabel skos:altLabel crm:P190_has_symbolic_content }}
-        <{i["user"]["value"]}> ?p ?label .
+        <{i["s"]["value"]}> ?p ?label .
         FILTER(isLiteral(?label)) .
         }}
         
     UNION
     {{
     VALUES ?p {{ crm:P1_is_identified_by crm:P102_has_title }}
-    <{i["user"]["value"]}> ?p ?r .
+    <{i["s"]["value"]}> ?p ?r .
     GRAPH ?r_types__g {{
         VALUES ?r_type {{ crm:E35_Title crm:E41_Appellation crm:E42_Identifier }}
         ?r rdf:type ?r_type .
@@ -80,7 +95,7 @@ for i in result["results"]["bindings"]:
         
     UNION {{
     GRAPH ?e32_e55__g {{
-        ?e32 crm:P71_lists <{i["user"]["value"]}> .
+        ?e32 crm:P71_lists <{i["s"]["value"]}> .
     }}
     OPTIONAL {{
         GRAPH ?e32__g {{
@@ -91,7 +106,7 @@ for i in result["results"]["bindings"]:
         
     UNION {{
     VALUES ?p {{ crm:P2_has_type rdf:type }}
-    <{i["user"]["value"]}> ?p ?r .
+    <{i["s"]["value"]}> ?p ?r .
     OPTIONAL {{
         GRAPH ?r_types__g {{
         VALUES ?r_type {{ crm:E55_Type }} .
@@ -111,25 +126,25 @@ for i in result["results"]["bindings"]:
         
     UNION {{
         SELECT (COUNT(?r_out) AS ?c_out) ?lr
-        WHERE {{ GRAPH ?g_out {{ <{i["user"]["value"]}> ?p_out ?r_out }} }}
+        WHERE {{ GRAPH ?g_out {{ <{i["s"]["value"]}> ?p_out ?r_out }} }}
         GROUP BY ?c_out ?lr
     }}
     UNION {{
         SELECT (COUNT(*) AS ?c_in) ?lr
-        WHERE {{ GRAPH ?g_in {{ ?r_in ?p_in <{i["user"]["value"]}> }} }}
+        WHERE {{ GRAPH ?g_in {{ ?r_in ?p_in <{i["s"]["value"]}> }} }}
         GROUP BY ?c_in ?lr
     }}
     }}
     }}
     """
     r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((fetch_identity_query)))
-    
+
     result = json.loads(r.text)
-    
+
     elasticsearch_list.append({
         "index": {
-            "_index": "customer",
-            "_id": i["user"]["value"]
+            "_index": "resources",
+            "_id": i["s"]["value"]
         },
     })
 
@@ -139,7 +154,7 @@ for i in result["results"]["bindings"]:
 
 # Writing elasticsearch formatted json
 with open(args.json, "w+") as f:
-    for element in elasticsearch_list: 
+    for element in elasticsearch_list:
         element_json = json.dumps(element, indent=None)
         f.write(element_json)
         f.write("\n")
