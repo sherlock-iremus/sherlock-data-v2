@@ -138,3 +138,10 @@ projects:
           - script: jsonizers/identities_to_es_json.py
             args:
               json: out/json/identities.json
+  sherlock-doc:
+    name: Sherlock-doc
+    tasks:
+      exampleData2Prod:
+        name: Mettre en production les données d'examples pour sherlock-doc.
+        steps:
+          - script: prod/common/examples.sh

@@ -1,0 +1,106 @@
+# Ressource principale : iremus:18654b25-a05d-415e-b809-e334827edea8
+
+@prefix crm:            <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix guillotel2022:  <http://modality-tonality.huma-num.fr/Guillotel_2022#> .
+@prefix iremus:         <http://data-iremus.huma-num.fr/id/> .
+@prefix praetorius1619: <http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#> .
+@prefix sherlock:       <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino1558:    <https://w3id.org/polifonia/ontology/modal-tonal#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iremus:b433eee1-4f4b-4d52-b12e-a2cac1be661a
+        a                          crm:E55_Type;
+        crm:P127_has_broader_term  iremus:abc66d3e-7e8c-4ecf-b15f-ecbc982cff36 , iremus:801aa102-d63c-4f5d-b847-51f03da0493b;
+        crm:P1_is_identified_by    "My parent1 type" .
+
+iremus:0722ac54-cb72-42eb-87a1-03a2ee68995e
+        a                        crm:E32_Authority_Document;
+        crm:P1_is_identified_by  "I'm a cool voc";
+        crm:P71_lists            iremus:abc66d3e-7e8c-4ecf-b15f-ecbc982cff36 , iremus:801aa102-d63c-4f5d-b847-51f03da0493b , iremus:d4b92b44-3305-44c7-87a9-a56bfd5539ec , iremus:a2ea7874-515c-43c9-ae72-6b72395b810d , iremus:b433eee1-4f4b-4d52-b12e-a2cac1be661a .
+
+iremus:a2ea7874-515c-43c9-ae72-6b72395b810d
+        a                          crm:E55_Type;
+        crm:P127_has_broader_term  iremus:abc66d3e-7e8c-4ecf-b15f-ecbc982cff36;
+        crm:P1_is_identified_by    "My parent2 type" .
+
+iremus:342c404d-7b54-4e38-8a3a-ed04af8bf16c
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "This is the symbolic content of my E41" .
+
+iremus:8b2c8e5b-a264-4d0b-a578-a1aeb675b33e
+        a                              crm:E35_Title;
+        crm:P190_has_symbolic_content  "This is the symbolic content of my E35" .
+
+iremus:d68556e7-56fe-47e6-b6dd-4e5d4471ef43
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "This is the symbolic content of my E42";
+        crm:P2_has_type                iremus:32fa356b-d95b-46ee-b44e-f485f4d04dd3 .
+
+iremus:32fa356b-d95b-46ee-b44e-f485f4d04dd3
+        a                        crm:E55_Type;
+        crm:P1_is_identified_by  "Identifier type #0000" .
+
+iremus:3f42bfe1-4dd2-4b2f-acbd-dd4b24e1a423
+        a                        crm:E32_Authority_Document;
+        crm:P1_is_identified_by  "Un référentiel";
+        crm:P71_lists            iremus:18654b25-a05d-415e-b809-e334827edea8 .
+
+iremus:801aa102-d63c-4f5d-b847-51f03da0493b
+        a                        crm:E55_Type;
+        crm:P1_is_identified_by  "My grand-parent (parent1) type" .
+
+iremus:18654b25-a05d-415e-b809-e334827edea8
+        a                          crm:E55_Type , crm:E21_Person;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "This is my rdfs:label";
+        dcterms:title              "This is my dcterms:title";
+        crm:P102_has_title         "This is my crm:P102_has_title";
+        crm:P102_has_title         iremus:8b2c8e5b-a264-4d0b-a578-a1aeb675b33e;
+        crm:P127_has_broader_term  iremus:b433eee1-4f4b-4d52-b12e-a2cac1be661a , iremus:a2ea7874-515c-43c9-ae72-6b72395b810d;
+        crm:P1_is_identified_by    "This is my crm:P1_is_identified_by";
+        crm:P1_is_identified_by    iremus:342c404d-7b54-4e38-8a3a-ed04af8bf16c , iremus:d68556e7-56fe-47e6-b6dd-4e5d4471ef43;
+        crm:P2_has_type            iremus:d4b92b44-3305-44c7-87a9-a56bfd5539ec;
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "This is my skos:altLabel";
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "This is my skos:prefLabel" .
+
+iremus:d4b92b44-3305-44c7-87a9-a56bfd5539ec
+        a                          crm:E55_Type;
+        crm:P127_has_broader_term  iremus:a2ea7874-515c-43c9-ae72-6b72395b810d , iremus:b433eee1-4f4b-4d52-b12e-a2cac1be661a;
+        crm:P1_is_identified_by    "A cool type" .
+
+iremus:abc66d3e-7e8c-4ecf-b15f-ecbc982cff36
+        a                        crm:E55_Type;
+        crm:P1_is_identified_by  "My grand-parent (parent2) type" .
+
+iremus:3f86c198-7949-4de5-b584-9d50d92b3243
+        a crm:E13_Attribute_Assignment;
+        dcterms:created "2023-01-19T13:17:52+00:00"^^xsd:dateTime;
+        sherlock:has_document_context iremus:5d49e0c3-770e-4a66-bdee-aa48c6eb7ec8;
+        crm:P14_carried_out_by iremus:eb802f8d-1de9-4431-920a-de104b8111a6;
+        crm:P140_assigned_attribute_to iremus:18654b25-a05d-415e-b809-e334827edea8;
+        crm:P177_assigned_property_of_type crm:P1_is_identified_by;
+        crm:P141_assigned "This is my crm:P1_is_identified_by E13ified"
+        .
+
+iremus:6a304e9d-57cb-42f9-9a38-1e0a05379e63
+        a crm:E13_Attribute_Assignment;
+        dcterms:created "2023-01-19T13:17:52+00:00"^^xsd:dateTime;
+        sherlock:has_document_context iremus:5d49e0c3-770e-4a66-bdee-aa48c6eb7ec8;
+        crm:P14_carried_out_by iremus:eb802f8d-1de9-4431-920a-de104b8111a6;
+        crm:P140_assigned_attribute_to iremus:18654b25-a05d-415e-b809-e334827edea8;
+        crm:P177_assigned_property_of_type crm:P1_is_identified_by;
+        crm:P141_assigned iremus:54194011-0fc9-4eb2-8f93-fb4724ea5dc8
+        .
+
+iremus:54194011-0fc9-4eb2-8f93-fb4724ea5dc8
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "This is the symbolic content of my E42 E13ified";
+        crm:P2_has_type                iremus:32fa356b-d95b-46ee-b44e-f485f4d04dd3 .
+
+iremus:23baa25e-acd3-4bed-b5bb-42225990acf2 crm:P9_consists_of iremus:3f86c198-7949-4de5-b584-9d50d92b3243 .
+iremus:23baa25e-acd3-4bed-b5bb-42225990acf2 crm:P9_consists_of iremus:6a304e9d-57cb-42f9-9a38-1e0a05379e63 .
+
+ 
