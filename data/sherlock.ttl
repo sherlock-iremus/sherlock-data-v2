@@ -73,6 +73,11 @@
 
 <219fd53d-cdf2-4174-8d71-6d12bdd24016>
   a crm:E55_Type ;
+  crm:P1_is_identified_by "URL"@fr ;
+  .
+
+<219fd53d-cdf2-4174-8d71-6d12bdd24016>
+  a crm:E55_Type ;
   crm:P1_is_identified_by "Fichier SHERLOCK"@fr ;
   .
 
@@ -177,7 +182,7 @@
   crm:P1_is_identified_by "Research project"@en ;
   .
 
-<f122c08a-5084-4a94-80ed-019102976309>
+<21816195-6708-4bbd-a758-ee354bb84900>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Production de connaissances"@fr ;
   crm:P1_is_identified_by "Knowledge production"@en ;
@@ -186,11 +191,6 @@
 <ae6c2f18-c8ae-4fac-83c8-9486fd00db2c>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Traité théorique"@fr ;
-  .
-
-<9d0388cb-a178-46b2-b047-b5a98f7bdf0b>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Sélection"@fr ;
   .
 
 <29b00e39-75da-4945-b6c4-a0ca00f96f68>
@@ -203,12 +203,6 @@
   crm:P1_is_identified_by "Software function"@en ;
   .
 
-<6d72746a-9f28-4739-8786-c6415d53c56d>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Entité analytique"@fr ;
-  crm:P1_is_identified_by "Analytical entity"@en ;
-  .
-
 <cabe46bf-23d4-4392-aa20-b3eb21ad7dfd>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Brouillon"@fr ;
@@ -219,26 +213,6 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Publié"@fr ;
   crm:P1_is_identified_by "Published"@en;
-  .
-
-<d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "ORCID iD" ;
-  .
-
-<04242f64-fbb3-4b5b-bb2e-3ddd59eeea18>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Emoji" ;
-  .
-
-<5f1bb74f-6ea0-4073-8b68-086f98454f1c>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Hex color code" ;
-  .
-
-<73ea8d74-3526-4f6a-8830-dd369795650d>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Name (generated via ORCID API)" ;    
   .
 
 ################################################################################
@@ -260,7 +234,6 @@
   crm:P1_is_identified_by "Pseudonyme" ;
   .
 
-
 ################################################################################
 # Catalogage
 ################################################################################
@@ -274,6 +247,33 @@
 # Analyse musicale
 ################################################################################
 
+<6d72746a-9f28-4739-8786-c6415d53c56d>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Entité analytique"@fr ;
+  crm:P1_is_identified_by "Analytical entity"@en ;
+  .
+
 ################################################################################
 # Utilisateurs
 ################################################################################
+
+<d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "ORCID iD" ;
+  .
+
+
+<04242f64-fbb3-4b5b-bb2e-3ddd59eeea18>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Emoji" ;
+  .
+
+<5f1bb74f-6ea0-4073-8b68-086f98454f1c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Hex color code" ;
+  .
+
+<73ea8d74-3526-4f6a-8830-dd369795650d>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Name (generated via ORCID API)" ;
+  .
