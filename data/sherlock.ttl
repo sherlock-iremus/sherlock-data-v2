@@ -71,7 +71,7 @@
 # Types d'identifiants techniques
 ################################################################################
 
-<219fd53d-cdf2-4174-8d71-6d12bdd24016>
+<52f90a30-fe5b-4dde-b118-fa75934ad6a3>
   a crm:E55_Type ;
   crm:P1_is_identified_by "URL"@fr ;
   .
