@@ -87,18 +87,18 @@ projects:
           - script: rdfizers/modality-tonality/analysis-fix-prefix-rdf.sh
           - script: prod/modality-tonality/modality-tonality.analysis.sh
   rar:
-    name: Référentiel de l'Ancien Régime
-    tasks:
-      personnes-directus2rdf:
-        name: "Personnes : Convertir les données Directus en RDF CIDOC-CRM"
-        links:
-          - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
-        steps:
-          - script: rdfizers/rar/personnes-directus_to_ttl.py
-            args:
-              ttl: out/ttl/rar/personnes.ttl
-              cache: caches/rar/personnes.yaml
-              directus_secret: directus/secret.rar.yaml
+#    name: Référentiel de l'Ancien Régime
+#    tasks:
+#      personnes-directus2rdf:
+#        name: "Personnes : Convertir les données Directus en RDF CIDOC-CRM"
+#        links:
+#          - http://bases-iremus.huma-num.fr/directus-rar/admin/content/personnes
+#        steps:
+#          - script: rdfizers/rar/personnes-directus_to_ttl.py
+#            args:
+#              ttl: out/ttl/rar/personnes.ttl
+#              cache: caches/rar/personnes.yaml
+#              directus_secret: directus/secret.rar.yaml
       # lieux-skos-to-directus:
       #  name: "Lieux : injecter les données SKOS dans Directus"
       #  steps:

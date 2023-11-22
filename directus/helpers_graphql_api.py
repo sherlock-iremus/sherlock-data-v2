@@ -19,5 +19,6 @@ def get_access_token(secret):
 
 
 def graphql_query(query, secret):
-    r = requests.post(secret["url"] + '/graphql/?access_token=' + get_access_token(secret), json={'query': query})
+    r = requests.post(secret["url"] + '/graphql/?access_token=' +
+                      get_access_token(secret), json={'query': query})
     return json.loads(r.text)

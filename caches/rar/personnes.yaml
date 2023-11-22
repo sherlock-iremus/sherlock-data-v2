@@ -772,6 +772,7 @@ personnes:
     E41_pref: 8bcad087-95bd-41df-a754-d0145fd96144
     E41_alt:
       Fitz-James, Jacques (1670-1734) duc de: 65bba000-528e-45c2-8565-b2d4ebd2bd68
+      Maréchal de France (1706-1734): 3152c98f-39bd-43d0-b667-2db82320c6e2
     E42:
       versailles_alignement: 0a96f93d-25bb-4165-846e-6b5602a498f6
       catalogue_bnf_alignement: c4002f57-b92e-4342-8bc5-f4cd5e970052
@@ -22357,6 +22358,9 @@ personnes:
     E41_pref: 00a9c3ec-32f3-4507-9d3d-d559f84caed7
     E41_alt:
       Furdaulx, Mathieu (1622-1688): 81727d39-118a-44aa-a4a0-7292c4a4890a
+      Furdaulx, Mathieu (1621 ou 1622-1688): 075cd04a-c060-4ec7-9fd6-56fb0b4fc0be
+      Fourdaux, Mathieu (1621 ou 1622-1688): a4dfebe6-228b-404e-847b-d48ede346b73
+      Fourdeaux, Mathieu (1621 ou 1622-1688): cb9117a5-76e9-4b82-a524-997edaffbf25
     E42:
       ref_iremus: ec116f43-adc2-45ad-8d0e-2f0122f65076
   55a78e77-588f-4ac1-84ad-f8da09d2fc5b:
@@ -26463,6 +26467,7 @@ personnes:
     E41_pref: 6b03ca01-8bde-4b7d-b02d-bf6dbfb6d781
     E41_alt:
       Ambrun, Claude Comiers d' (1600 ca-1693): 569ce4f5-6d56-43a3-a0fa-f65a1190f08a
+      COmiers, Claude (1600 ca-1693): c4077735-c428-43c7-b954-b1c1362d06d6
     E42:
       catalogue_bnf_alignement: 27056d16-92fa-4195-ab21-84744181af35
       isni_alignement: 3c0f29e9-0996-4a87-a92c-8c0bb54f9d0e
@@ -31041,3 +31046,11 @@ personnes:
     E41_pref: 55977d30-4296-490a-a4d3-e08bd97925f5
     E42:
       data_bnf_alignement: 2b31646a-3480-477b-8f64-b137324053d4
+  799a872e-89cb-4168-b312-37b857b83d3b:
+    E41_pref: 4b72f6d6-70cc-461c-95b0-7eb4fa2dd1db
+    E41_alt:
+      Malbec de Montjoc, Christophe-Joseph de (1761-1795): 9e3510cb-d272-48df-b425-31acbd01592f
+  874c681b-f670-49d7-a3fa-239307adf84a:
+    E41_pref: bd1017a4-c9a9-4e24-851b-376b324645fd
+    E41_alt:
+      Malbec de Montjoc, Nicolas-Augustin de (1715-1795): daac3299-f08a-46b4-af41-20e5d9e24929
