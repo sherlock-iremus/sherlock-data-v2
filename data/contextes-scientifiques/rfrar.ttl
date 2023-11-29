@@ -1,0 +1,44 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+
+################################################################################
+# CORPUS
+################################################################################
+
+<b11dd59e-5e89-49e2-b132-282ac3506744> a sherlock:Corpus
+    # identified by "corpus TEI du mercure galant"
+    # is composed of "le fond TEI mercure galant"
+    .
+
+################################################################################
+# PROJET DE RECHERCHE
+################################################################################
+
+
+<b945c002-d197-4a59-b501-cfcb0af13a20> a crm:E7_Activity ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P1_is_identified_by "Référentiel de la France de l'Ancien Régime" ;
+    crm:P9_consists_of <faed37f6-e0cd-4d4b-8015-732da38e7734> ;
+    crm:P16_used_specific_object <b11dd59e-5e89-49e2-b132-282ac3506744>
+    # TODO : lier la ou les questions de recherche
+    # TODO : lier la production de connaissance
+    .
+
+<faed37f6-e0cd-4d4b-8015-732da38e7734> a crm:E7_Activity;
+    crm:P2_has_type <9c1ef1e1-b9f6-4378-bcc1-9eaae89c347b> ;
+    crm:P14_carried_out_by <183eaea1-919c-458a-9127-09338b0612ce> ; # Nathalie
+    .
+
+<0a031f4f-cf89-4917-9323-f642b6546491> a crm:E7_Activity;
+    crm:P2_has_type <9c1ef1e1-b9f6-4378-bcc1-9eaae89c347b> ;
+    crm:P14_carried_out_by <7525b6f8-49ee-41cd-aaea-1b7a16d51a6e> ; # Isabelle
+    .
