@@ -17,7 +17,15 @@ jobs:
         run: curl https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js > tmp.sparql
 
       - name: Parse JS file to have sparql query
-        run: sed '1d; $d' tmp.sparql > get_uris.sparql
+        run: sed '1d; $d' tmp.sparql > tmp_as_sparql.sparql
         
-      - name: query sparql endpoint to get identities
-        run: cat get_uris.sparql
+      - name: remove newlines to match with curl 
+        run: tr '\n' ' ' < tmp_as_sparql.sparql > query.sparql
+
+      - name: sparql query to get resources-uri
+        run: curl --location --request POST 'https://data-iremus.huma-num.fr/sparql' \
+              --header 'Content-Type: application/x-www-form-urlencoded' \
+              --data-urlencode "query=$(cat query.sparql)" > resources-uri.json
+
+      - name: Get identities of each resource
+        run: cat resource-uri.json
