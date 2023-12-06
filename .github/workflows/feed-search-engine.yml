@@ -18,3 +18,6 @@ jobs:
 
       - name: Parse JS file to have sparql query
         run: sed '1d; $d' tmp.sparql > get_uris.sparql
+        
+      - name: query sparql endpoint to get identities
+        run: cat get_uris.sparql
