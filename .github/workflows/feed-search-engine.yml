@@ -7,21 +7,14 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  get-resources-uris:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Store the get-resources-uris SPARQL query JS file
+        run: curl https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js > tmp.sparql
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: Parse JS file to have sparql query
+        run: sed '1d; $d' tmp.sparql > get_uris.sparql
