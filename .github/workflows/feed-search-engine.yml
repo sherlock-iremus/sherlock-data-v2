@@ -12,7 +12,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - name: Use js sparql query
+        run: node -e 'import("https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js").then(query => console.log(query.getResources()));'
+ 
       - name: Store the get-resources-uris SPARQL query JS file
         run: curl https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js > tmp.sparql
 
