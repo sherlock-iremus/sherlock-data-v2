@@ -23,7 +23,7 @@ jobs:
         run: ls
         
       - name: Use js sparql query
-        run: node -e 'import("getResources.js").then(query => console.log(query.getResources()));'
+        run: node -e 'import("./getResources.js").then(query => console.log(query.getResources()));'
  
       - name: Store the get-resources-uris SPARQL query JS file
         run: curl https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js > tmp.sparql
