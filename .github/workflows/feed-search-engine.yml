@@ -18,7 +18,10 @@ jobs:
 
       - name: download js sparql query
         run: wget https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js
-      
+
+      - name: test
+        run: ls
+        
       - name: Use js sparql query
         run: node -e 'import("getResources.js").then(query => console.log(query.getResources()));'
  
