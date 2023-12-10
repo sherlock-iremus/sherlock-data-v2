@@ -20,7 +20,10 @@ jobs:
         run: wget https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js
 
       - name: Use js sparql query
-        run: node -e 'const getResources = require("./getResources.js"); getResources();'
+        run: node -e "var getResources = require('./getResources.js'); const fs = require('fs'); https.get('https://data-iremus.huma-num.fr/sparql?query='+encodeURIComponent(getResources()), res => {res.on('end', () => {fs.writeFile('res.json',res)})});"
+
+      - name: Read result
+        run: cat res.json
  
       - name: Store the get-resources-uris SPARQL query JS file
         run: curl https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js > tmp.sparql
