@@ -57,12 +57,12 @@ jobs:
       - name: try a simple ssh 
         run: |
           mkdir -p ~/.ssh/
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -t rsa data-iremus.huma-num.fr >> ~/.ssh/known_hosts
           ssh -i ~/.ssh/id_rsa tbottini@data-iremus.huma-num.fr ls 
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
 
       - name: execute command on prod
         uses: appleboy/ssh-action@v1.0.0
