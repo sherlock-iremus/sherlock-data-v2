@@ -53,7 +53,10 @@ jobs:
           req.write(`query=${encodeURIComponent(sparqlQuery())}`);
           req.end();
           '
-
+      - name: cache resource uris on prod
+        env:
+          SUPER_SECRET: ${{ secrets.SSH_HOST }}
+        run: echo "$SUPER_SECRET"
       - name: cache resource uris on prod
         uses: appleboy/scp-action@v0.1.4
         with:
