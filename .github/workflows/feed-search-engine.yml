@@ -60,7 +60,7 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-          ssh tbottini@data-iremus.huma-num.fr ls 
+          ssh -i ~/.ssh/id_rsa tbottini@data-iremus.huma-num.fr ls 
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
 
