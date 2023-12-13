@@ -55,5 +55,5 @@ jobs:
           req.end();
           '
 
-      - name: Read result
-        run: cat res.json
+      - name: cache resource uris on prod
+        run: scp ./res.json tbottini@data-iremus.huma-num.fr:/elastic-search
