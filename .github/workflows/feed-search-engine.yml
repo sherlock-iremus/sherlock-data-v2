@@ -42,6 +42,7 @@ jobs:
             });
           
             res.on("end", () => {
+              console.log(Buffer.concat(data).toString());
               fs.writeFileSync("res.json",JSON.stringify(JSON.parse(Buffer.concat(data).toString())))
             });
           });
