@@ -23,30 +23,30 @@ jobs:
         run: |
           node -e '
           const https = require("https");
-          const fs = require('fs');
+          const fs = require("fs");
           const sparqlQuery = require("./getResources.js);
           const options = {
-            hostname: 'https://data-iremus.huma-num.fr',
-            path: '/sparql',
-            method: 'POST',
+            hostname: "https://data-iremus.huma-num.fr",
+            path: "/sparql",
+            method: "POST",
             headers: {
-              'Content-Type': 'application/x-www-form-urlencoded',
-              'Accept': 'application/json',
+              "Content-Type": "application/x-www-form-urlencoded",
+              "Accept": "application/json",
             },
           };
           const req = https.request(options, (res) => {
-            let data = '';
+            let data = "";
           
-            res.on('data', (chunk) => {
+            res.on("data", (chunk) => {
               data += chunk;
             });
           
-            res.on('end', () => {
-              fs.writeFileSync('res.json',Buffer.concat(data).toString())
+            res.on("end", () => {
+              fs.writeFileSync("res.json",Buffer.concat(data).toString())
             });
           });
           
-          req.on('error', (e) => {
+          req.on("error", (e) => {
             console.error(e);
           });
           
