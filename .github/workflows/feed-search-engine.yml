@@ -61,5 +61,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.PROD_PWD }}
           port: 22
+          timeout: 10m
           source: "./res.json"
           target: elastic-search
