@@ -24,7 +24,7 @@ jobs:
           node -e '
           const https = require("https");
           const fs = require("fs");
-          const sparqlQuery = require("./getResources.js);
+          const sparqlQuery = require("./getResources.js");
           const options = {
             hostname: "https://data-iremus.huma-num.fr",
             path: "/sparql",
@@ -52,7 +52,7 @@ jobs:
           
           req.write(`query=${encodeURIComponent(sparqlQuery)}`);
           req.end();
-        '
+          '
 
       - name: Read result
         run: cat res.json
