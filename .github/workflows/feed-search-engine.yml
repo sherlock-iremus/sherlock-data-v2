@@ -51,7 +51,7 @@ jobs:
             console.error(e);
           });
           
-          req.write(`query=${encodeURIComponent(sparqlQuery)}`);
+          req.write(`query=${encodeURIComponent(sparqlQuery())}`);
           req.end();
           '
 
