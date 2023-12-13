@@ -38,7 +38,7 @@ jobs:
             let data = [];
           
             res.on("data", (chunk) => {
-              data += chunk;
+              data.push(chunk);
             });
           
             res.on("end", () => {
