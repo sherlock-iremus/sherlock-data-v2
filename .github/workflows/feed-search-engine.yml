@@ -60,6 +60,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PWD }}
+          timeout: 10m
           port: 22
           script: |
             whoami
@@ -74,4 +75,3 @@ jobs:
           port: 22
           source: "./res.json"
           target: elastic-search
-          
