@@ -54,16 +54,6 @@ jobs:
           req.end();
           '
 
-      - name: cache resource uris on prod
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: 22
-          source: "./res.json"
-          target: elastic-search
-          
       - name: execute command on prod
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -74,3 +64,14 @@ jobs:
           script: |
             whoami
             ls -al
+
+      - name: cache resource uris on prod
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          source: "./res.json"
+          target: elastic-search
+          
