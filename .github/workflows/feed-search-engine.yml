@@ -55,10 +55,11 @@ jobs:
           '
 
       - name: cache resource uris on prod
-        uses: garygrossgarten/github-action-scp@release
+        uses: appleboy/scp-action@v0.1.4
         with:
-          host: ${{ secrets.SSH_HOST }}
+          host: ${{ secrets.SSH_HOS }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.PROD_PWD }}
-          local: ./res.json
-          remote: elastic-search/res.json
+          port: 22
+          source: "./res.json"
+          remote: elastic-search
