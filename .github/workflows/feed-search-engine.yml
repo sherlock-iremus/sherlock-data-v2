@@ -62,4 +62,4 @@ jobs:
           password: ${{ secrets.PROD_PWD }}
           port: 22
           source: "./res.json"
-          remote: elastic-search
+          target: elastic-search
