@@ -42,7 +42,6 @@ jobs:
             });
           
             res.on("end", () => {
-              console.log(Buffer.concat(data).toString());
               fs.writeFileSync("res.json",JSON.stringify(JSON.parse(Buffer.concat(data).toString())))
             });
           });
@@ -63,4 +62,4 @@ jobs:
           password: ${{ secrets.PROD_PWD }}
           port: 22
           source: "./res.json"
-          target: /home/tbottini/elastic-search
+          target: elastic-search
