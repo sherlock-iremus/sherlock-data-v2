@@ -57,7 +57,7 @@ jobs:
       - name: cache resource uris on prod
         uses: appleboy/scp-action@v0.1.4
         with:
-          host: ${{ secrets.SSH_HOS }}
+          host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.PROD_PWD }}
           port: 22
