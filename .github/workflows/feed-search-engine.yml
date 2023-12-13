@@ -57,21 +57,3 @@ jobs:
 
       - name: Read result
         run: cat res.json
-
-      - name: Store the get-resources-uris SPARQL query JS file
-        run: curl https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js > tmp.sparql
-
-      - name: Parse JS file to have sparql query
-        run: sed '1d; $d' tmp.sparql > tmp_as_sparql.sparql
-        
-      - name: remove newlines to match with curl 
-        run: tr '\n' ' ' < tmp_as_sparql.sparql > query.sparql
-
-      - name: sparql query to get resources-uri
-        run: |
-            curl --location --request POST 'https://data-iremus.huma-num.fr/sparql' \
-              --header 'Content-Type: application/x-www-form-urlencoded' \
-              --data-urlencode "query=$(cat query.sparql)" > resources-uri.json
-
-      - name: Get identities of each resource
-        run: cat resources-uri.json
