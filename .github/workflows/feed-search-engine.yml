@@ -59,7 +59,7 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.PROD_PWD }}
+          key: ${{ secrets.SSH_KEY }}
           port: 22
           source: "./res.json"
           target: elastic-search
