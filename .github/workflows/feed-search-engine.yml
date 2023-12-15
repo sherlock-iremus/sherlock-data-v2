@@ -6,49 +6,49 @@ jobs:
   get-resources-uris:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-
-      - name: download js sparql query
-        run: wget https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js
-
-      - name: Use js sparql query
-        run: |
-          node -e '
-          const https = require("https");
-          const fs = require("fs");
-          const sparqlQuery = require("./getResources.js");
-          const options = {
-            hostname: "data-iremus.huma-num.fr",
-            path: "/sparql",
-            method: "POST",
-            headers: {
-              "Content-Type": "application/x-www-form-urlencoded",
-              "Accept": "application/json",
-            },
-          };
-          const req = https.request(options, (res) => {
-            let data = [];
-          
-            res.on("data", (chunk) => {
-              data.push(chunk);
-            });
-          
-            res.on("end", () => {
-              fs.writeFileSync("res.json",JSON.stringify(JSON.parse(Buffer.concat(data).toString())))
-            });
-          });
-          
-          req.on("error", (e) => {
-            console.error(e);
-          });
-          
-          req.write(`query=${encodeURIComponent(sparqlQuery())}`);
-          req.end();
-          '
-
+#      - uses: actions/checkout@v3
+#      - uses: actions/setup-node@v3
+#        with:
+#          node-version: '20.x'
+#
+#      - name: download js sparql query
+#        run: wget https://raw.githubusercontent.com/sherlock-iremus/sherlock-sparql-queries/main/src/queries/getResources.js
+#
+#      - name: Use js sparql query
+#        run: |
+#          node -e '
+#          const https = require("https");
+#          const fs = require("fs");
+#          const sparqlQuery = require("./getResources.js");
+#          const options = {
+#            hostname: "data-iremus.huma-num.fr",
+#            path: "/sparql",
+#            method: "POST",
+#            headers: {
+#              "Content-Type": "application/x-www-form-urlencoded",
+#              "Accept": "application/json",
+#            },
+#          };
+#          const req = https.request(options, (res) => {
+#            let data = [];
+#          
+#            res.on("data", (chunk) => {
+#              data.push(chunk);
+#            });
+#          
+#            res.on("end", () => {
+#              fs.writeFileSync("res.json",JSON.stringify(JSON.parse(Buffer.concat(data).toString())))
+#            });
+#          });
+#          
+#          req.on("error", (e) => {
+#            console.error(e);
+#          });
+#          
+#          req.write(`query=${encodeURIComponent(sparqlQuery())}`);
+#          req.end();
+#          '
+#
 #      - name: try a simple ssh 
 #        run: |
 #          mkdir -p ~/.ssh/
@@ -64,10 +64,8 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PWD }}
+          passphrase: ${{ secrets.SSH_PWD }}
           fingerprint: ${{ secrets.SSH_FINGERPRINT }}
-          timeout: 10m
-          port: 22
           script: |
             whoami
             ls -la
